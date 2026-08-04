@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NeSy Atlas is a source-backed directory of companies whose homepage, founder, or official announcement identifies neurosymbolic, neural-symbolic, NeSy, logical-intelligence, or combined neural and symbolic work."
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <title>NeSy Atlas - Neurosymbolic AI Company Directory</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#company-table">Skip to directory table</a>
+
+    <header>
+      <div class="left">
+        <a href="#top" class="header-home" aria-label="NeSy Atlas home">
+          <span class="header-logo" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </span>
+          <span class="header-brand">NeSy Atlas</span>
+        </a>
+        <nav class="primary-nav" aria-label="Primary navigation">
+          <a href="#company-table" class="rankings-link is-active" aria-current="page">
+            <svg class="rankings-link__icon" width="14" height="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+              <rect x="2" y="9" width="3" height="5" rx="0.5" />
+              <rect x="6.5" y="5" width="3" height="9" rx="0.5" />
+              <rect x="11" y="2" width="3" height="12" rx="0.5" />
+            </svg>
+            <span class="rankings-link__label">Directory</span>
+          </a>
+        </nav>
+        <p class="database-summary">
+          Browse <span id="org-count">25</span> NeSy companies
+        </p>
+      </div>
+
+      <div class="right">
+        <div class="search-container">
+          <input type="text" id="search" placeholder="Search companies" autocomplete="off" />
+          <span class="search-shortcut">/</span>
+        </div>
+        <button id="clear-search" type="button" hidden>Clear</button>
+        <button id="help" type="button">About</button>
+      </div>
+    </header>
+
+    <main id="top">
+      <h1 class="sr-only">NeSy Atlas - source-backed neurosymbolic AI company directory</h1>
+
+      <div class="comparison-stage">
+        <table id="company-table">
+          <thead>
+            <tr>
+              <th class="sortable sticky-name-column" data-key="name" data-type="text">
+                <div class="header-container"><span>Company</span> <span class="sort-indicator">↑</span></div>
+              </th>
+              <th class="sortable" data-key="ceoName" data-type="text">
+                <div class="header-container"><span>CEO</span> <span class="sort-indicator"></span></div>
+              </th>
+              <th class="sortable" data-key="ceoSince" data-type="text">
+                <div class="header-container"><span>CEO since</span> <span class="sort-indicator"></span></div>
+              </th>
+              <th class="sortable" data-key="product" data-type="text">
+                <div class="header-container"><span>Product</span> <span class="sort-indicator"></span></div>
+              </th>
+              <th class="sortable" data-key="industry" data-type="text">
+                <div class="header-container"><span>Industry</span> <span class="sort-indicator"></span></div>
+              </th>
+              <th class="sortable" data-key="location" data-type="text">
+                <div class="header-container"><span>Location</span> <span class="sort-indicator"></span></div>
+              </th>
+              <th class="sortable" data-key="funding" data-type="text">
+                <div class="header-container"><span>Funding</span> <span class="sort-indicator"></span></div>
+              </th>
+              <th class="sortable latest-post-col" data-key="postDate" data-type="text">
+                <div class="header-container"><span>Latest NeSy post</span> <span class="sort-indicator"></span></div>
+              </th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div class="empty-state" id="empty-state" hidden>
+        <p>No company profiles match that search.</p>
+        <button type="button" data-reset>Show all profiles</button>
+      </div>
+
+      <footer class="site-footer">
+        <span>Updated 04 Aug 2026</span>
+        <span><button id="footer-method-link" type="button">Inclusion method</button></span>
+        <span><a href="mailto:?subject=NeSy%20Atlas%20correction">Suggest a correction</a></span>
+        <span>
+          Table format inspired by
+          <a href="https://gdb-engines.com/" target="_blank" rel="noreferrer">GDB-Engines</a>
+          by <a href="https://github.com/cjlm" target="_blank" rel="noreferrer">cjlm</a>
+        </span>
+      </footer>
+    </main>
+
+    <dialog id="modal">
+      <div class="modal-header">
+        <h2>About</h2>
+        <button id="close" type="button" aria-label="Close about dialog">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          NeSy Atlas is a source-backed table of companies whose own homepage, founder, or official announcement
+          explicitly identifies neurosymbolic, neural-symbolic, NeSy, logical-intelligence, or combined neural and
+          symbolic work.
+        </p>
+        <h2>Inclusion Method</h2>
+        <p>
+          <b>Primary homepage evidence:</b> the company's root homepage must contain the case-insensitive term
+          <b>neurosymbolic</b>, <b>neuro-symbolic</b>, <b>neural-symbolic</b>, <b>NeSy</b>, or
+          <b>logical intelligence</b>, or explicitly state that it combines neural and symbolic methods.
+          Company names link directly to the qualifying homepage.
+        </p>
+        <p>
+          For product-first sites that omit architecture language from the homepage, a direct, attributable statement
+          from a founder or official company announcement may qualify the company. Unattributed third-party
+          descriptions, conference sites, and directories do not qualify a company on their own.
+        </p>
+        <p>
+          Locations and funding reflect the latest public information found during the 04 Aug 2026 review.
+          Funding links point to the relevant disclosure; "Not disclosed" means no reliable public amount was found.
+          The post column uses the latest dated first-party NeSy item found, not a claim of publication completeness.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <a href="#company-table">Directory</a>
+        <a href="mailto:?subject=NeSy%20Atlas%20correction">Suggest a correction</a>
+      </div>
+    </dialog>
+
+    <noscript>
+      <p class="noscript">JavaScript is required to render, search, and sort the directory.</p>
+    </noscript>
+  </body>
+</html>
