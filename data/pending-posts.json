@@ -1,1 +1,866 @@
-[]
+[
+  {
+    "company": "Beyond AI",
+    "title": "AI Innovations in LNG Technology: Transforming Natural Gas Operations",
+    "url": "https://www.beyond.ai/blog/ai-for-lng",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "Agentic AI & Infrastructure Automation: Transforming Intelligent Infrastructure",
+    "url": "https://www.beyond.ai/blog/agentic-ai-new-era-of-intelligent-infrastructure",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "IDCE 2025: Catalyzing Downstream Innovation Through AI and Digital Transformation",
+    "url": "https://www.beyond.ai/blog/downstream-innovation-through-ai",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "Neuro-Symbolic AI Explained: Insights from Beyond Limits’ Mark James",
+    "url": "https://www.beyond.ai/blog/neuro-symbolic-ai-explained",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "Navigating Energy Sector Transformation Through Pragmatic AI Leadership",
+    "url": "https://www.beyond.ai/blog/energy-sector-transformation-ai-leadership",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "AI Business Operations: Transforming Back Office Efficiency for the Future",
+    "url": "https://www.beyond.ai/blog/ai-and-the-future-of-the-back-office",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "The Human Edge: What Racing Taught Us About Building Smarter AI",
+    "url": "https://www.beyond.ai/blog/building-smarter-ai",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "AI Transparency: Building Trust in AI with Ethical Practices",
+    "url": "https://www.beyond.ai/blog/building-trust-in-ai",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "AI Adoption Roadmap: Achieving Industrial AI Success",
+    "url": "https://www.beyond.ai/blog/roadmap-for-industrial-ai-success",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "Hybrid AI: The Next Generation Solution for Industrial Operations",
+    "url": "https://www.beyond.ai/blog/hybrid-ai-for-industrial-operations",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "Why 80% of Industrial AI Projects Fail: The Reality Behind the Promise",
+    "url": "https://www.beyond.ai/blog/industrial-ai-projects-fail",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "Industrial AI: Transforming Manufacturing with Intelligent Automation Insights",
+    "url": "https://www.beyond.ai/blog/the-industrial-ai-revolution",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "Rethinking Reasoning: Why Apple’s “Illusion of Thinking” Paper Matters for Enterprise AI",
+    "url": "https://www.beyond.ai/blog/apples-illusion-of-thinking-paper-matters-for-enterprise-ai",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "Hybrid AI at the Forefront: How Cartagena is Leading Industrial Transformation",
+    "url": "https://www.beyond.ai/blog/cartagena-spotlight--hybrid-ai-forefront-of-industrial-transformation",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "AI IoT Applications: How Beyond.ai Drives Real-World Change in Connected Devices",
+    "url": "https://www.beyond.ai/blog/how-ai-is-powering-real-change-in-iot",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "Why AI-Augmented Autonomous Operations Are the Future of Industrial Performance",
+    "url": "https://www.beyond.ai/blog/ai-augmented-autonomous-operations",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "How the AI Energy Industry Transforms Petrochemical & Power Sectors -TNChE Asia",
+    "url": "https://www.beyond.ai/blog/ai-for-petrochemical-and-energy",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "Proactive Decision-Making: the Power of Hybrid AI in Industrial Operations",
+    "url": "https://www.beyond.ai/blog/hybrid-ai-in-industrial-operations",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "Enterprise AI: How Artificial Intelligence Is Transforming Every Business Role",
+    "url": "https://www.beyond.ai/blog/how-ai-is-redefining-every-role-in-the-enterprise",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "AI Strategy: Agentic Intelligence & the Future of Enterprise AI",
+    "url": "https://www.beyond.ai/blog/agentic-intelligence-the-future-of-enterprise-ai",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "Operational AI: Agentic AI Revolutionizing Autonomous Operations",
+    "url": "https://www.beyond.ai/blog/agentic-ai-the-next-evolution-of-autonomous-operations",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "AI Explainability: Building Trust in Enterprise AI – Insights from Beyond.ai CTO",
+    "url": "https://www.beyond.ai/blog/building-trust-in-ai-q-a-with-group-cto-mark-james-on-why-explainability-matters-for-the-future-of-enterprise-ai",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "AI Transformation: Future Trends in Agentic AI for Enterprise Success",
+    "url": "https://www.beyond.ai/blog/the-horizon-of-intelligence-future-trends-in-agentic-ai-for-the-enterprise",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "Economic Partnerships: Innovation & Investment Insights from Saudi-US Forum 2025",
+    "url": "https://www.beyond.ai/blog/bridging-innovation-and-opportunity-reflections-from-the-saudi-us-investment-forum-2025",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "AI in Oil & Gas: Insights from Pandurang Kulkarni",
+    "url": "https://www.beyond.ai/blog/ai-for-oil-and-gas-interview-with-pandurang-kulkarni-sr-product-manager",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "MBRHE AI Partners: Elevating Dubai Housing Innovation with Beyond Limits",
+    "url": "https://www.beyond.ai/blog/mbrhe-partners-with-beyond-limits-to-enhance-housing-services-with-ai",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "Dialable Autonomy: Revolutionizing Human-Machine Balance",
+    "url": "https://www.beyond.ai/blog/dialable-autonomy-revolutionizing-the-balance-between-humans-and-machines",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "How Artificial Intelligence Is Shaping the Future of the Energy Industry",
+    "url": "https://www.beyond.ai/blog/the-future-of-autonomous-operations-in-the-energy-sector",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "Maintenance with AI: Transforming Reliability & Safety",
+    "url": "https://www.beyond.ai/blog/transforming-maintenance-with-ai-smarter-safer-more-reliable",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "LLM Agentic AI for Industrial Success: Interview with Hussein Al-Natsheh",
+    "url": "https://www.beyond.ai/blog/interview-with-hussein-al-natsheh-delivering-scalable-llm-agentic-ai-success-for-industrial-ai",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "Autonomous AI in Operations: Building a Smarter, Sustainable Future",
+    "url": "https://www.beyond.ai/blog/autonomous-operations-the-key-to-building-a-smarter-sustainable-future",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "Hybrid AI: Shaping Enterprise Innovation with Beyond AI’s Chief Product Officer",
+    "url": "https://www.beyond.ai/blog/the-future-of-hybrid-ai-and-enterprise-innovation",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "Autonomous Racing: Beyond Limits CEO on Indy Challenge Breakthroughs",
+    "url": "https://www.beyond.ai/blog/beyond-limits-at-the-indy-autonomous-car-challenge-a-conversation-with-ceo-aj-abdallat",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "How AI in LNG Operations Boosts Efficiency & Sustainability",
+    "url": "https://www.beyond.ai/blog/transforming-lng-operations-how-ai-is-revolutionizing-efficiency-and-sustainability",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "Why Operations Need a Paradigm Shift in Upstream Oil and Gas",
+    "url": "https://www.beyond.ai/blog/operations-advisor-for-upstream-production",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "AI in Paint Industry: Advancing Coatings Innovation with Artificial Intelligence",
+    "url": "https://www.beyond.ai/blog/taking-ai-to-the-next-level-in-paints-coatings",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "Embracing AI for Blend Formulation in the Food and Beverage Industry",
+    "url": "https://www.beyond.ai/blog/a-case-for-embracing-ai-for-blend-formulation-in-the-food-and-beverage-industry",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "AI-Powered Formulation Software: Future of Chemical Blend Innovation",
+    "url": "https://www.beyond.ai/blog/the-future-of-chemical-blend-formulation-is-ai",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Beyond AI",
+    "title": "Forbes Tech Council: Beyond Content Creation: 16 Innovative AI Applications",
+    "url": "https://www.beyond.ai/blog/forbes-tech-council-beyond-content-creation-16-innovative-ai-applications",
+    "sourceUrl": "https://www.beyond.ai/others/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article Innovation in Action Dec 23, 2024 A Reflective Look at 2024: The Journey of Hybrid Minds by Cognaize As we close out 2024, the Hybrid Minds Podcast by Cognaize—hosted by Vahe Andonians—offers a view of how artificial inte... Read more",
+    "url": "https://blog.cognaize.com/2024-journey-of-hybrid-minds-by-cognaize",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article News Dec 4, 2024 Cognaize Named Finalist for \"Best Use of AI in Financial Services\" at FStech Awards Cognaize is proud to share its shortlisting for the 2025 FStech Awards in the category of \"Best Use of Artificial Intell... Read more",
+    "url": "https://blog.cognaize.com/cognaize-named-finalist-at-fstech-awards",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article News Nov 26, 2024 Evident AI Symposium 2024: Key Insights As a sponsor of the Evident AI Symposium, Cognaize had the privilege of engaging with key players in financial services... Read more",
+    "url": "https://blog.cognaize.com/evident-ai-symposium-2024-key-insights",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article Insights Nov 25, 2024 Understanding the Role of AI in Financial Services: Insights from the 2024 Cognaize AI Survey Artificial Intelligence (AI) continues to play an increasingly pivotal role in transforming industries, particularly tho... Read more",
+    "url": "https://blog.cognaize.com/insights-from-the-2024-cognaize-ai-survey",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article News Nov 11, 2024 Fireside Chat at AI Week Frankfurt 2024: Key Takeaways AI Week Frankfurt 2024, a premier event gathered finance leaders, industry innovators, and key stakeholders to explore A... Read more",
+    "url": "https://blog.cognaize.com/fireside-chat-at-ai-week-frankfurt-2024",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article Innovation in Action Oct 2, 2024 Is Your Underwriting Team Truly Optimized for AI? In today’s complex insurance market, underwriting teams face rising data volumes and diverse, often layout-heavy documen... Read more",
+    "url": "https://blog.cognaize.com/is-your-underwriting-team-truly-optimized-for-ai",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article News Sep 11, 2024 Cognaize Joins the Association of German Banks as an Extraordinary FinTech Member Frankfurt, 9. September 2024 Cognaize, ein führendes Unternehmen im Bereich der KI-gestützten, intelligenten Dokumentenv... Read more",
+    "url": "https://blog.cognaize.com/cognaize-joins-the-association-of-german-banks-as-an-extraordinary-fintech-member",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article Insights Aug 7, 2024 Addressing AI Challenges with Cognaize's Document Automation Solutions Artificial Intelligence (AI) investments are soaring, yet concerns remain about the tangible returns on these expenditur... Read more",
+    "url": "https://blog.cognaize.com/addressing-ai-challenges-with-cognaizes-document-automation-solutions",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article Insights Jul 29, 2024 Transforming Commercial Lending with Cognaize’s AI Solutions Commercial lending is a cornerstone for business growth and economic stability. Despite the use of advanced OCR and IDP... Read more",
+    "url": "https://blog.cognaize.com/transforming-commercial-lending-with-cognaizes-ai-solutions",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article News Jun 19, 2024 Cognaize Wins AIFinTech 100 Award as Trailblazing Company Transforming Financial Services Cognaize, the document automation company powered by hybrid intelligence, today announced that it has been named a winne... Read more",
+    "url": "https://blog.cognaize.com/aifintech-100-award",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article Insights Jun 17, 2024 Addressing AI’s Energy Problem: How Cognaize is Leading the Way Artificial intelligence (AI) has rapidly evolved, ushering in significant advancements in various industries. However, t... Read more",
+    "url": "https://blog.cognaize.com/addressing-ai-energy-problem",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article Insights Jun 3, 2024 Advancing AI Reasoning: The Synergy Between Knowledge Graphs and Large Language Models Extracting valuable insights from unstructured text is a critical application in the finance industry. However, this tas... Read more",
+    "url": "https://blog.cognaize.com/advancing-ai-reasoning",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article News May 17, 2024 Generation AI: Cognaize and FAST Leading the Way for Young Innovators Recognizing the importance of education and innovation, the Foundation for Armenian Science and Technology (FAST), in pa... Read more",
+    "url": "https://blog.cognaize.com/generation-ai-cognaize-and-fast-leading-the-way-for-young-innovators",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article News May 2, 2024 Position Statement on the UN AI Resolution At Cognaize, we recognize the transformative potential of artificial intelligence (AI) to advance sustainable developmen... Read more",
+    "url": "https://blog.cognaize.com/position-statement-on-the-un-ai-resolution",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article Insights Apr 26, 2024 The Artificial Intelligence Report: FIMA To find out how AI is implemented in financial services firms, WBR Insights interviewed senior data executives across Eu... Read more",
+    "url": "https://blog.cognaize.com/artificial-intelligence-report-fima",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article News Apr 25, 2024 Cognaize’s Position on the EU AI Act At Cognaize, we recognize the transformative power of Artificial Intelligence (AI) in reshaping industries and enhancing... Read more",
+    "url": "https://blog.cognaize.com/cognaizes-position-on-the-eu-ai-act",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article News Apr 5, 2024 Cognaize Awarded Rising Star Award at Hitachi Digital Services’ Shaping the Future of Finance: Fintech Competition Cognaize, the document automation company powered by hybrid intelligence, today announced it received the Rising Star Aw... Read more",
+    "url": "https://blog.cognaize.com/shaping-the-future-of-finance-fintech-competition",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article News Mar 20, 2024 Cognaize Wins Business Intelligence Group’s 2024 Artificial Intelligence Excellence Award Cognaize, the document automation company powered by hybrid intelligence, today announced that it has been named a winne... Read more",
+    "url": "https://blog.cognaize.com/artificial-intelligence-excellence-award",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article Insights Mar 6, 2024 The AGI Horizon: How One Chart Is Shaping Our AI Expectations OpenAI's recent publication, \"Let's Verify Step by Step,\" instantly captured my attention upon its release on May 31, 20... Read more",
+    "url": "https://blog.cognaize.com/the-agi-horizon-how-one-chart-is-shaping-our-ai-expectations",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article News Feb 8, 2024 Hybrid Intelligence in Finance | Tech Talks Daily with Vahe Andonians In the episode of Tech Talks Daily, Vahe Andonians, the founder and CTO of Cognaize joined Neil C. Hughes, the Tech Blog... Read more",
+    "url": "https://blog.cognaize.com/hybrid-intelligence-in-finance-tech-talks-daily",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article News Dec 28, 2023 Navigating the GenAI Revolution in Banking: Insights from the Evident AI Symposium In the ever-evolving landscape of artificial intelligence (AI), the banking sector stands at a pivotal crossroads. The E... Read more",
+    "url": "https://blog.cognaize.com/gen-ai-revolution-in-banking-evident-ai-symposium",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article News Nov 29, 2023 Generation AI: Equipping Computer AI Lab at M. Mashtots High School in Charentsavan At Cognaize, we firmly believe that true Artificial Intelligence (AI) success goes beyond algorithms; it's about the fus... Read more",
+    "url": "https://blog.cognaize.com/generation-ai-equipping-computer-ai-lab-at-m.-mashtots-high-school-in-charentsavan",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article News Nov 15, 2023 Evident AI Symposium Event Supported by Cognaize The Evident AI Symposium is an invitation-only event for leading CEOs, CIOs, board members, and senior AI leaders in ban... Read more",
+    "url": "https://blog.cognaize.com/evident-ai-symposium-event-supported-by-cognaize",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article News Nov 15, 2023 BankTech 2023 Event in Partnership with Cognaize The demands placed on banks' IT management are enormous, because efficient IT processes are an important success factor... Read more",
+    "url": "https://blog.cognaize.com/banktech-2023-event-in-partnership-with-cognaize",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article Insights Oct 25, 2023 Beyond the Hype: How AI is Fundamentally Reshaping Business Large language models have exploded onto the scene in recent months, sparking enthusiasm among technologists along with... Read more",
+    "url": "https://blog.cognaize.com/beyond-the-hype-how-ai-is-fundamentally-reshaping-business",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article Insights Oct 5, 2023 AI Adequacy - Part I: Efficient Deployment of LLMs with Quantization The advent of large language models (LLMs) like GPT-3 and ChatGPT 4.0 has been an incredible breakthrough for the AI ind... Read more",
+    "url": "https://blog.cognaize.com/ai-adequacy-part-i-efficient-deployment-of-llms-with-quantization",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article News Oct 3, 2023 Cognaize Named to the 2023 CB Insights’ Fintech 100 List Cognaize recognized for achievements in AI and hybrid intelligence for transforming decision making for financial servic... Read more",
+    "url": "https://blog.cognaize.com/cognaize-named-to-the-2023-cb-insights-fintech-100-list",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article Insights Sep 20, 2023 Exploring the Data Analytics of the Future: FIMA Report In Q2 of 2023, WBR Insights surveyed 100 of the most senior figures in financial data, such as Chief Data Officers and H... Read more",
+    "url": "https://blog.cognaize.com/exploring-the-data-analytics-of-the-future-fima-report",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article News Jul 23, 2023 Cognaize raises $18M to build a better LLM for the finance sector, one that keeps humans in the loop Argonautic Ventures Leads $18 Million Round, Further Extending Cognaize’s Momentum and Leadership Position in Delivering... Read more",
+    "url": "https://blog.cognaize.com/cognaize-raises-18m-to-build-a-better-llm-for-the-finance-sector",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Video Insights Jun 15, 2023 Video: Competing in the Era of Large Language Models Nowadays, the potential and challenges of Large Language Models like ChatGPT are extremely high, however, these models f... Read more",
+    "url": "https://blog.cognaize.com/competing-in-the-era-of-large-language-models",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article News May 29, 2023 Cognaize Expands Its IDP Platform with Knowledge Graph to Support Semantic Search and Knowledge Injection Intelligent document processing company Cognaize has announced a significant expansion to its technology platform. These... Read more",
+    "url": "https://blog.cognaize.com/cognaize-expands-its-idp-platform-with-knowledge-graph",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article Insights May 22, 2023 Contrasting AI and Brain Artificial Neural Networks, in the broadest sense, mimic how our brain works. However, consequential simplifications res... Read more",
+    "url": "https://blog.cognaize.com/contrasting-ai-and-brain",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article Insights May 19, 2023 What AI-Generated Fingers Can Teach You About Training Your Own Models Generative AI is everywhere, and it is easy to see why. This powerful technology has unlocked creativity for extraordina... Read more",
+    "url": "https://blog.cognaize.com/what-ai-generated-fingers-ai-can-teach-you-about-training-your-own-models",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Video News Apr 12, 2023 Video: Cognaize on Using AI to Create Actionable Intelligence from Unstructured Data FinTech Futures recently spoke with Vahe Andonians, founder, chief technology officer, and chief product officer of inte... Read more",
+    "url": "https://blog.cognaize.com/video-cognaize-on-using-ai-to-create-actionable-intelligence-from-unstructured-data",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article Insights Apr 11, 2023 Harnessing Hybrid Intelligence: Balancing AI Models and Human Expertise for Optimal Performance Measuring metrics on AI models is important because it enables stakeholders to gain valuable insights into how well thei... Read more",
+    "url": "https://blog.cognaize.com/harnessing-hybrid-intelligence-balancing-ai-models-and-human-expertise-for-optimal-performance",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article Insights Feb 1, 2023 The Fickle Nature of ChatGPT As an AI researcher and developer with more than ten years of experience, I have had the opportunity to work on a wide r... Read more",
+    "url": "https://blog.cognaize.com/the-fickle-nature-of-chatgpt",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article Insights Jan 23, 2023 Four Key Metrics for Evaluating AI Models Using the right metrics to evaluate artiﬁcial intelligence (AI) models is critical to ensuring they perform effectively... Read more",
+    "url": "https://blog.cognaize.com/four-key-metrics-for-evaluating-ai-models",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article Insights Dec 14, 2022 Achieving New Heights with human-AI Cooperation Progress in artificial intelligence is often measured by the ability to defeat humans. We are equally fascinated and sho... Read more",
+    "url": "https://blog.cognaize.com/achieving-new-heights-with-human-ai-cooperation",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Video News Dec 6, 2022 Video: Why Deep Learning is the Key to Unlocking Meaningful Value for Your Data Organization On November 16, 2022, Vahe Andonians delivered a main stage presentation at FIMA Europe 2022 in London to an audience of... Read more",
+    "url": "https://blog.cognaize.com/video-why-deep-learning-is-the-key-to-unlocking-meaningful-value-for-your-data-organization",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article Innovation in Action Aug 22, 2022 McKinsey Global Survey: the State of AI in 2021 McKinsey recently published its third global survey on AI, which indicates that AI adoption continues to grow and that t... Read more",
+    "url": "https://blog.cognaize.com/mckinsey-global-survey-the-state-of-ai-in-2021",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article Innovation in Action Jul 17, 2022 Why Deep Learning is the Only Solution for Document Automation Intelligent Document Processing (IDP) is an AI solution providing functional end to end document processing to accelerat... Read more",
+    "url": "https://blog.cognaize.com/why-deep-learning-is-the-leading-process-for-document-automation",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article Innovation in Action Jul 11, 2022 Choosing the Right Metrics for AI Success With creeping automation continuing to advance across industries, enterprise is seeing ever-heavier reliance on AI trans... Read more",
+    "url": "https://blog.cognaize.com/choosing-the-right-metrics-for-ai-success",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Cognaize",
+    "title": "Article News Apr 9, 2025 Cognaize Honored as a Winner in the 2025 Artificial Intelligence Excellence Awards Cognaize is proud to announce that it has been named a winner in the 2025 Artificial Intelligence Excellence Awards... Read more",
+    "url": "https://blog.cognaize.com/artificial-intelligence-excellence-award-2025",
+    "sourceUrl": "https://www.cognaize.com/news",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Growth Protocol",
+    "title": "Notes",
+    "url": "https://thegrowthsignal.substack.com/notes",
+    "sourceUrl": "https://thegrowthsignal.substack.com/",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Growth Protocol",
+    "title": "Archive",
+    "url": "https://thegrowthsignal.substack.com/archive",
+    "sourceUrl": "https://thegrowthsignal.substack.com/",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Imandra",
+    "title": "Release of Imandra EVM: A formal model of the Ethereum Virtual Machine 31 October 2016 news",
+    "url": "https://www.imandra.ai/articles/release-imandra-evm-formal-model-ethereum-virtual-machine",
+    "sourceUrl": "https://www.imandra.ai/media",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Imandra",
+    "title": "AI Submits Reg AT Comment Letter 16 March 2016 news",
+    "url": "https://www.imandra.ai/articles/ai-submits-reg-at-comment-letter",
+    "sourceUrl": "https://www.imandra.ai/media",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Imandra",
+    "title": "AI wins UBS Future of Finance Challenge 11 December 2015 news blog",
+    "url": "https://www.imandra.ai/articles/ai-wins-ubs-future-of-finance-challenge",
+    "sourceUrl": "https://www.imandra.ai/media",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Imandra",
+    "title": "AI Submits IEX Comment Letter 18 November 2015 news",
+    "url": "https://www.imandra.ai/articles/ai-submits-iex-comment-letter",
+    "sourceUrl": "https://www.imandra.ai/media",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Imandra",
+    "title": "AI is a Regional Finalist of The UBS Future of Finance Challenge 25 October 2015 news",
+    "url": "https://www.imandra.ai/articles/ai-is-a-regional-finalist-of-the-ubs-future-of-finance-challenge",
+    "sourceUrl": "https://www.imandra.ai/media",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Imandra",
+    "title": "UBS Future Of Finance Regional Finals 17 October 2015 news",
+    "url": "https://www.imandra.ai/articles/ubs-future-of-finance-regional-finals",
+    "sourceUrl": "https://www.imandra.ai/media",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Imandra",
+    "title": "Case Study: 2015 SEC Fine Against UBS ATS 12 October 2015 white-papers",
+    "url": "https://www.imandra.ai/articles/case-study-2015-sec-fine-against-ubs-ats",
+    "sourceUrl": "https://www.imandra.ai/media",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Imandra",
+    "title": "Transparent Order Priority and Pricing 8 August 2015 white-papers",
+    "url": "https://www.imandra.ai/articles/transparent-order-priority-and-pricing",
+    "sourceUrl": "https://www.imandra.ai/media",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Imandra",
+    "title": "Creating Safe and Fair Markets 2 April 2015 white-papers",
+    "url": "https://www.imandra.ai/articles/creating-safe-and-fair-markets",
+    "sourceUrl": "https://www.imandra.ai/media",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Imandra",
+    "title": "AI Submits Reg ATS-N Comment Letter 1 March 2015 news",
+    "url": "https://www.imandra.ai/articles/ai-submits-reg-ats-n-comment-letter",
+    "sourceUrl": "https://www.imandra.ai/media",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Imandra",
+    "title": "Financial Markets",
+    "url": "https://medium.com/imandra/all",
+    "sourceUrl": "https://medium.com/imandra",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Rippletide",
+    "title": "Readiness Test",
+    "url": "https://www.rippletide.com/resources/ai-agent-production-readiness-test",
+    "sourceUrl": "https://www.rippletide.com/resources/blog/",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Rippletide",
+    "title": "Whitepaper",
+    "url": "https://www.rippletide.com/resources/whitepaper",
+    "sourceUrl": "https://www.rippletide.com/resources/blog/",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "UMNAI",
+    "title": "Research Articles",
+    "url": "https://umnai.com/research/research-articles",
+    "sourceUrl": "https://umnai.com/company/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "UMNAI",
+    "title": "Whitepapers",
+    "url": "https://umnai.com/research/whitepapers",
+    "sourceUrl": "https://umnai.com/company/blog",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "Analyst Reports",
+    "url": "https://www.uniphore.com/resources/analyst-reports/",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "Brochures",
+    "url": "https://www.uniphore.com/resources/brochures/",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "Guides",
+    "url": "https://www.uniphore.com/resources/guides/",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "Videos",
+    "url": "https://www.uniphore.com/resources/videos/",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "White papers",
+    "url": "https://www.uniphore.com/resources/white-papers/",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "Videos",
+    "url": "https://www.uniphore.com/resources/videos",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "White Papers",
+    "url": "https://www.uniphore.com/resources/white-papers",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "Uniphore Named a Leader in the Gartner ®  Magic Quadrant™ for Customer Data Platforms",
+    "url": "https://www.uniphore.com/resources/analyst-reports/2026-gartner-magic-quadrant-for-customer-data-platforms/",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "MIT Technology Review Insights: Going Beyond Pilots with Composable and Sovereign AI",
+    "url": "https://www.uniphore.com/resources/guides/mit-technology-review-insights-going-beyond-pilots-with-composable-and-sovereign-ai/",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
+  }
+]
