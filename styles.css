@@ -345,6 +345,27 @@ header .right {
   padding: 0.5rem 0.75rem;
 }
 
+.header-icon-link {
+  align-items: center;
+  border: 1px solid var(--color-border);
+  border-radius: 0.25rem;
+  color: var(--color-text-secondary);
+  display: inline-flex;
+  flex: 0 0 2rem;
+  height: 2rem;
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease;
+  width: 2rem;
+}
+
+.header-icon-link:hover,
+.header-icon-link:focus-visible {
+  background: color-mix(in srgb, var(--color-surface) 70%, transparent);
+  border-color: var(--color-text-tertiary);
+  color: var(--color-text);
+}
+
 main {
   max-width: 100%;
   min-width: 0;
@@ -797,10 +818,23 @@ table td:nth-child(7) {
 }
 
 .blogs-list {
+  list-style: none;
+}
+
+.blog-period {
+  position: relative;
+}
+
+.blog-period-posts {
   display: grid;
   gap: 1rem;
   grid-template-columns: var(--blog-card-width);
   list-style: none;
+  padding-bottom: 1rem;
+}
+
+.blog-period:last-child .blog-period-posts {
+  padding-bottom: 0;
 }
 
 .blog-card {
@@ -811,18 +845,16 @@ table td:nth-child(7) {
   width: var(--blog-card-width);
 }
 
-.blog-card-timeline {
-  bottom: -1rem;
+.blog-period-timeline {
+  bottom: 0;
   color: var(--color-text-tertiary);
-  padding-right: 1.5rem;
   position: absolute;
   right: calc(100% + 1rem);
-  text-align: right;
   top: 0;
   width: 7rem;
 }
 
-.blog-card-timeline::after {
+.blog-period-timeline::after {
   background: var(--color-border);
   bottom: 0;
   content: '';
@@ -832,7 +864,7 @@ table td:nth-child(7) {
   width: 1px;
 }
 
-.blog-card-timeline.is-period-start::before {
+.blog-period-timeline::before {
   background: var(--color-background);
   border: 2px solid var(--color-brand-accent);
   border-radius: 50%;
@@ -845,8 +877,11 @@ table td:nth-child(7) {
   z-index: 1;
 }
 
-.blog-card:last-child .blog-card-timeline::after {
-  bottom: calc(100% - 0.85rem);
+.blog-period-label {
+  padding-right: 1.5rem;
+  position: sticky;
+  text-align: right;
+  top: calc(var(--header-height) + 1rem);
 }
 
 .blog-timeline-year,
@@ -1122,28 +1157,29 @@ dialog[open] {
 }
 
 @media (max-width: 58rem) {
-  .blog-card {
-    flex-direction: column;
-    gap: 0.4rem;
+  .blog-period-timeline {
+    background: var(--color-background);
+    bottom: auto;
+    padding: 0.4rem 0.25rem;
+    position: sticky;
+    right: auto;
+    top: var(--header-height);
+    width: auto;
+    z-index: 2;
   }
 
-  .blog-card-timeline {
+  .blog-period-timeline::after,
+  .blog-period-timeline::before {
+    display: none;
+  }
+
+  .blog-period-label {
     align-items: baseline;
-    bottom: auto;
     display: flex;
     gap: 0.4rem;
-    padding: 0 0.25rem;
-    position: relative;
-    right: auto;
+    padding: 0;
+    position: static;
     text-align: left;
-    top: auto;
-    width: auto;
-  }
-
-  .blog-card-timeline:not(.is-period-start),
-  .blog-card-timeline::after,
-  .blog-card-timeline::before {
-    display: none;
   }
 
   .blog-timeline-year {

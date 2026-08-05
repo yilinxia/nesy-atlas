@@ -1084,29 +1084,15 @@ function renderBlogFilters() {
   });
 }
 
-function blogItemTemplate(post, index, posts, today) {
+function blogItemTemplate(post, today) {
   const organization = post.organization;
   const favicon = organization.favicon
     ? `<img class="company-favicon" src="${escapeHtml(organization.favicon)}" alt="" loading="lazy" />`
     : '';
   const date = formatPostDate(post.date);
-  const period = post.date ? post.date.slice(0, 7) : 'undated';
-  const previousPeriod = index > 0
-    ? (posts[index - 1].date ? posts[index - 1].date.slice(0, 7) : 'undated')
-    : '';
-  const startsPeriod = period !== previousPeriod;
-  const [year, month] = post.date ? post.date.split('-') : ['', ''];
-  const timelineLabel = startsPeriod
-    ? (post.date
-        ? `<span class="blog-timeline-year">${escapeHtml(year)}</span><span class="blog-timeline-month">${monthNames[Number(month) - 1]}</span>`
-        : '<span class="blog-timeline-month">Undated</span>')
-    : '';
 
   return `
     <li class="blog-card${post.date === today ? ' is-today' : ''}">
-      <span class="blog-card-timeline${startsPeriod ? ' is-period-start' : ''}" aria-hidden="true">
-        ${timelineLabel}
-      </span>
       <a class="blog-card-link" href="${escapeHtml(post.url)}" target="_blank" rel="noopener noreferrer">
         <span class="blog-card-header">
           <span class="blog-card-company">
@@ -1124,14 +1110,42 @@ function blogItemTemplate(post, index, posts, today) {
     </li>`;
 }
 
+function groupPostsByPeriod(posts) {
+  return posts.reduce((groups, post) => {
+    const key = post.date ? post.date.slice(0, 7) : 'undated';
+    const current = groups.at(-1);
+    if (!current || current.key !== key) groups.push({ key, posts: [] });
+    groups.at(-1).posts.push(post);
+    return groups;
+  }, []);
+}
+
+function blogPeriodTemplate(period, today) {
+  const firstPost = period.posts[0];
+  const [year, month] = firstPost.date ? firstPost.date.split('-') : ['', ''];
+  const label = firstPost.date
+    ? `<span class="blog-timeline-year">${escapeHtml(year)}</span><span class="blog-timeline-month">${monthNames[Number(month) - 1]}</span>`
+    : '<span class="blog-timeline-month">Undated</span>';
+
+  return `
+    <li class="blog-period">
+      <div class="blog-period-timeline" aria-hidden="true">
+        <div class="blog-period-label">${label}</div>
+      </div>
+      <ul class="blog-period-posts">
+        ${period.posts.map((post) => blogItemTemplate(post, today)).join('')}
+      </ul>
+    </li>`;
+}
+
 function renderBlogs() {
   const posts = allPosts().filter((post) => (
     state.blogCompanies.size === 0 || state.blogCompanies.has(post.organization.name)
   ));
   const today = localIsoDate();
 
-  elements.blogsList.innerHTML = posts
-    .map((post, index) => blogItemTemplate(post, index, posts, today))
+  elements.blogsList.innerHTML = groupPostsByPeriod(posts)
+    .map((period) => blogPeriodTemplate(period, today))
     .join('');
   elements.blogsList.querySelectorAll('.company-favicon').forEach((image) => {
     image.addEventListener('error', () => image.remove());
