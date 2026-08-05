@@ -11,6 +11,8 @@
     <title>NeSy Atlas - Neurosymbolic AI Companies and Research</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="data/o9-posts.js" defer></script>
+    <script src="data/blog-keyword-matches.js" defer></script>
     <script src="data/research-papers.js" defer></script>
     <script src="script.js" defer></script>
   </head>
@@ -175,6 +177,22 @@
                 </div>
               </div>
               <div id="blog-filter-groups" class="blog-filter-groups">
+                <div class="blog-keyword-filter">
+                  <button
+                    id="blog-neurosymbolic-toggle"
+                    class="blog-keyword-toggle"
+                    type="button"
+                    role="switch"
+                    aria-checked="false"
+                    title="Show posts whose title or available content contains an explicit neurosymbolic keyword"
+                  >
+                    <span class="blog-keyword-toggle__track" aria-hidden="true">
+                      <span class="blog-keyword-toggle__thumb"></span>
+                    </span>
+                    <span class="blog-keyword-toggle__label">Neurosymbolic only</span>
+                    <span class="blog-keyword-toggle__state">Off</span>
+                  </button>
+                </div>
                 <section class="blog-filter-section blog-type-filter-section" aria-labelledby="blog-type-filter-title">
                   <h3 id="blog-type-filter-title">Types</h3>
                   <ul id="blog-type-filters" class="blog-type-filters"></ul>

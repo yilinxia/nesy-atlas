@@ -67,3 +67,21 @@ PDFs, the discovery manifest, and GROBID results are cached under the gitignored
 The build stage also performs conservative, local entity resolution. Papers receive stable IDs from DOI, arXiv ID, or normalized title; author aliases are joined only by normalized exact name; and institution aliases are joined by normalized exact name or a unique, unambiguous acronym expansion. Raw author and affiliation strings remain on every paper alongside the resolved values, and the generated corpus includes author and institution entity indexes. This pass does not claim that common same-name authors are definitively the same person, and it does not infer current affiliations.
 
 The Hugging Face dataset currently declares no license in its dataset card. Keep its pinned revision and provenance in generated records, and verify reuse/redistribution terms with the dataset owner before publishing dataset-derived metadata.
+
+## Refresh o9 posts and resources
+
+The o9 listing pages are client-rendered, so their complete article and resource collections come from o9's public WordPress REST endpoints rather than the initial listing HTML. Refresh the static Posts-tab snapshot with:
+
+```bash
+node scripts/update-o9-posts.mjs
+```
+
+This generates `data/o9-posts.json` and `data/o9-posts.js`, retaining the source content type and publication date for every English article and resource.
+
+## Refresh the Posts keyword audit
+
+```bash
+node scripts/update-blog-keyword-matches.mjs --concurrency 12
+```
+
+This checks every post displayed on the Posts tab for an explicit neurosymbolic keyword in its title or article content. It writes the auditable result set to `data/blog-keyword-matches.json` and the compact browser lookup to `data/blog-keyword-matches.js`; the toggle remains instantaneous because article bodies are not shipped to the browser.

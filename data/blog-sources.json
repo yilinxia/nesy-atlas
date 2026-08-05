@@ -1,4 +1,5 @@
 {
+  "Amoeba": ["https://www.amoeb.ai/blog"],
   "AUI": ["https://www.aui.io/resources/"],
   "Beyond AI": ["https://www.beyond.ai/others/blog"],
   "Bitterbot AI": ["https://victormgil.medium.com/"],
@@ -17,6 +18,8 @@
   "Lakmoos": ["https://lakmoos.com/blog/"],
   "Logical Intelligence": ["https://logicalintelligence.com/blog/"],
   "NeuroFusion": [],
+  "Nucleoid": [],
+  "o9 Solutions": ["https://o9solutions.com/resources?type=post", "https://o9solutions.com/resources?type=resource"],
   "Onteric": ["https://www.onteric.com/news-and-insights/"],
   "Onton": ["https://onton.com/research/"],
   "Permion": ["https://www.permion.ai/"],

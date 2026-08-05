@@ -1,4 +1,22 @@
+const o9Posts = Array.isArray(globalThis.O9_POSTS) ? globalThis.O9_POSTS : [];
+const blogKeywordMatches = globalThis.BLOG_NEUROSYMBOLIC_MATCHES || {};
+
 const organizations = [
+  {
+    name: 'Amoeba', initials: 'AM', website: 'https://www.amoeb.ai/',
+    linkedin: 'https://www.linkedin.com/company/amoeb-ai/',
+    ceoName: 'Tooba Durraze, Ph.D', ceoLinkedin: 'https://www.linkedin.com/in/tooba-durraze-phd/', founded: '2024',
+    favicon: 'https://cdn.prod.website-files.com/66be2bc96ce70990840d4d04/66cf7428f702fa58f94e449c_amoeba_favicon-lime.png',
+    product: 'Decision Intelligence Platform', industry: 'Revenue Operations', location: 'California, US',
+    funding: 'Not disclosed', fundingUrl: '',
+    postTitle: 'The Data-to-Decision Gap', postDate: '2026-02-25',
+    postUrl: 'https://www.amoeb.ai/blog/the-data-to-decision-gap', color: '#9bbf31',
+    posts: [
+      { title: 'The Data-to-Decision Gap', date: '2026-02-25', url: 'https://www.amoeb.ai/blog/the-data-to-decision-gap' },
+      { title: 'Decision Intelligence: A TL;DR From Our Launch Event', date: '2026-02-10', url: 'https://www.amoeb.ai/blog/decision-intelligence-a-tldr-from-our-launch-event' },
+      { title: 'Beyond LLMs: Why Neurosymbolic AI Is the Next Step for Business Intelligence', date: '2025-09-25', url: 'https://www.amoeb.ai/blog/beyond-llms-why-neurosymbolic-ai-is-the-next-step-for-business-intelligence' }
+    ]
+  },
   {
     name: 'AUI', initials: 'AUI', website: 'https://www.aui.io/',
     linkedin: 'https://www.linkedin.com/company/augmentedintelligence-aui/posts/?feedView=all',
@@ -507,6 +525,31 @@ const organizations = [
     postTitle: '', postDate: '', postUrl: '', color: '#1764a1'
   },
   {
+    name: 'Nucleoid', initials: 'NU', website: 'https://nucleoid.ai/',
+    linkedin: 'https://www.linkedin.com/company/nucleoid/',
+    github: 'https://github.com/NucleoidAI',
+    githubTopRepo: 'https://github.com/NucleoidAI/Nucleoid', githubStars: 764,
+    ceoName: '', ceoLinkedin: '', founded: '2021',
+    favicon: 'https://cdn.nucleoid.com/media/icon.png', product: 'Nucleoid Runtime',
+    industry: 'Developer Tools', location: 'Georgia, US', funding: 'Not disclosed', fundingUrl: '',
+    postTitle: '', postDate: '', postUrl: '', color: '#438a5e'
+  },
+  {
+    name: 'o9 Solutions', initials: 'o9', website: 'https://o9solutions.com/',
+    linkedin: 'https://www.linkedin.com/company/o9solutions/',
+    ceoName: 'Chakri Gottemukkala', ceoLinkedin: 'https://www.linkedin.com/in/chakrigottemukkala/', founded: '2009',
+    favicon: 'https://o9solutions.com/icon.svg', product: 'Digital Brain Platform',
+    productUrl: 'https://o9solutions.com/platform-tour', industry: 'Enterprise Planning', location: 'Texas, US',
+    funding: 'Not disclosed', fundingUrl: '',
+    postTitle: 'Driving AI-First Business Transformations with o9 CEO & Co-Founder, Chakri Gottemukkala',
+    postDate: '2025-10-06',
+    postUrl: 'https://o9solutions.com/articles/driving-ai-first-business-transformations-with-o9-ceo-chakri-gottemukkala',
+    color: '#f5c400',
+    posts: o9Posts.length ? o9Posts : [
+      { title: 'Driving AI-First Business Transformations with o9 CEO & Co-Founder, Chakri Gottemukkala', date: '2025-10-06', url: 'https://o9solutions.com/articles/driving-ai-first-business-transformations-with-o9-ceo-chakri-gottemukkala', type: 'Blog' }
+    ]
+  },
+  {
     name: 'Onteric', initials: 'ON', website: 'https://www.onteric.com/',
     linkedin: 'https://www.linkedin.com/company/onteric/',
     github: 'https://github.com/onteric',
@@ -867,6 +910,7 @@ const state = {
   sortDirection: 'asc',
   blogCompanies: new Set(),
   blogTypes: new Set(),
+  blogNeurosymbolicOnly: false,
   paperQuery: '',
   paperSort: 'newest',
   paperLimit: 50,
@@ -898,6 +942,7 @@ const elements = {
   blogsList: document.querySelector('#blogs-list'),
   blogCompanyFilters: document.querySelector('#blog-company-filters'),
   blogTypeFilters: document.querySelector('#blog-type-filters'),
+  blogNeurosymbolicToggle: document.querySelector('#blog-neurosymbolic-toggle'),
   clearBlogFilters: document.querySelector('#clear-blog-filters'),
   blogFilters: document.querySelector('.blog-filters'),
   blogFilterToggle: document.querySelector('#blog-filter-toggle'),
@@ -1059,6 +1104,8 @@ function locationTemplate(location) {
 }
 
 function ceoTemplate(organization) {
+  if (!organization.ceoName) return '<span class="muted-value">–</span>';
+  if (!organization.ceoLinkedin) return `<span>${escapeHtml(organization.ceoName)}</span>`;
   return `<a class="ceo-link" href="${escapeHtml(organization.ceoLinkedin)}" target="_blank" rel="noopener noreferrer">
     <span>${escapeHtml(organization.ceoName)}</span>${externalIcon}
   </a>`;
@@ -1217,7 +1264,18 @@ function allPosts() {
 
   organizations.forEach((organization) => {
     postsForOrganization(organization).forEach((post) => {
-      flattened.push({ organization, title: post.title, date: post.date, type: post.type, url: post.url });
+      flattened.push({
+        organization,
+        title: post.title,
+        date: post.date,
+        type: post.type,
+        url: post.url,
+        excerpt: post.excerpt || '',
+        summary: post.summary || '',
+        description: post.description || '',
+        content: post.content || '',
+        neurosymbolicMatch: blogKeywordMatches[post.url] === true || post.neurosymbolicMatch === true
+      });
     });
   });
 
@@ -1227,6 +1285,25 @@ function allPosts() {
     if (!b.date) return -1;
     return b.date.localeCompare(a.date);
   });
+}
+
+const neurosymbolicPostPattern = /\b(?:neuro[\s-]?symbolic|neural[\s-]+symbolic|nesy)\b/i;
+
+function postHasNeurosymbolicKeyword(post) {
+  return post.neurosymbolicMatch === true || neurosymbolicPostPattern.test([
+    post.title,
+    post.excerpt,
+    post.summary,
+    post.description,
+    post.content
+  ].filter(Boolean).join(' '));
+}
+
+function syncBlogNeurosymbolicToggle() {
+  elements.blogNeurosymbolicToggle.setAttribute('aria-checked', String(state.blogNeurosymbolicOnly));
+  elements.blogNeurosymbolicToggle.querySelector('.blog-keyword-toggle__state').textContent = state.blogNeurosymbolicOnly
+    ? 'On'
+    : 'Off';
 }
 
 function postType(post) {
@@ -1324,6 +1401,7 @@ function renderBlogFilters() {
       posts.filter((post) => postType(post) === type).length
     ))
     .join('');
+  syncBlogNeurosymbolicToggle();
 }
 
 function blogItemTemplate(post, today) {
@@ -1391,7 +1469,9 @@ function renderBlogs() {
       || state.blogCompanies.has(post.organization.name);
     const matchesType = state.blogTypes.size === 0
       || state.blogTypes.has(postType(post));
-    return matchesCompany && matchesType;
+    const matchesNeurosymbolic = !state.blogNeurosymbolicOnly
+      || postHasNeurosymbolicKeyword(post);
+    return matchesCompany && matchesType && matchesNeurosymbolic;
   });
   const today = localIsoDate();
 
@@ -1403,7 +1483,9 @@ function renderBlogs() {
   });
   elements.blogResultsCount.textContent = `${posts.length} ${posts.length === 1 ? 'post' : 'posts'}`;
   elements.blogsEmpty.hidden = posts.length !== 0;
-  elements.clearBlogFilters.hidden = state.blogCompanies.size === 0 && state.blogTypes.size === 0;
+  elements.clearBlogFilters.hidden = state.blogCompanies.size === 0
+    && state.blogTypes.size === 0
+    && !state.blogNeurosymbolicOnly;
 }
 
 function paperSearchableText(paper) {
@@ -2078,15 +2160,23 @@ elements.blogTypeFilters.addEventListener('change', (event) => {
   renderBlogs();
 });
 
+elements.blogNeurosymbolicToggle.addEventListener('click', () => {
+  state.blogNeurosymbolicOnly = !state.blogNeurosymbolicOnly;
+  syncBlogNeurosymbolicToggle();
+  renderBlogs();
+});
+
 elements.clearBlogFilters.addEventListener('click', () => {
   state.blogCompanies.clear();
   state.blogTypes.clear();
+  state.blogNeurosymbolicOnly = false;
   elements.blogCompanyFilters.querySelectorAll('[data-blog-company]').forEach((input) => {
     input.checked = false;
   });
   elements.blogTypeFilters.querySelectorAll('[data-blog-type]').forEach((input) => {
     input.checked = false;
   });
+  syncBlogNeurosymbolicToggle();
   renderBlogs();
 });
 
