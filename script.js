@@ -851,19 +851,38 @@ const organizations = [
   }
 ];
 
+const researchCorpus = globalThis.RESEARCH_PAPER_CORPUS || null;
+const arxivPapers = Array.isArray(researchCorpus?.papers) && researchCorpus.papers.length
+  ? researchCorpus.papers
+  : Array.isArray(globalThis.ARXIV_PAPERS) ? globalThis.ARXIV_PAPERS : [];
+const arxivPapersMeta = researchCorpus
+  ? { keywords: researchCorpus.keywords || [], generatedAt: researchCorpus.generatedAt || '', yearRange: researchCorpus.yearRange }
+  : globalThis.ARXIV_PAPERS_META || { keywords: [], generatedAt: '', yearRange: null };
+
 const state = {
+  activeView: 'directory',
   query: '',
   country: '',
   sortKey: 'name',
   sortDirection: 'asc',
   blogCompanies: new Set(),
-  blogTypes: new Set()
+  blogTypes: new Set(),
+  paperQuery: '',
+  paperSort: 'newest',
+  paperLimit: 50,
+  paperYears: new Set(),
+  paperConferences: new Set(),
+  paperAuthors: new Set(),
+  paperInstitutions: new Set(),
+  paperAuthorQuery: '',
+  paperInstitutionQuery: ''
 };
 
 const elements = {
   tbody: document.querySelector('#company-table tbody'),
   search: document.querySelector('#search'),
   count: document.querySelector('#org-count'),
+  summaryLabel: document.querySelector('#summary-label'),
   clearSearch: document.querySelector('#clear-search'),
   empty: document.querySelector('#empty-state'),
   sortableHeaders: [...document.querySelectorAll('th.sortable')],
@@ -872,8 +891,10 @@ const elements = {
   methodLinks: [document.querySelector('#footer-method-link')],
   navDirectory: document.querySelector('#nav-directory'),
   navBlogs: document.querySelector('#nav-blogs'),
+  navPapers: document.querySelector('#nav-papers'),
   directoryView: document.querySelector('#directory-view'),
   blogsView: document.querySelector('#blogs-view'),
+  papersView: document.querySelector('#papers-view'),
   blogsList: document.querySelector('#blogs-list'),
   blogCompanyFilters: document.querySelector('#blog-company-filters'),
   blogTypeFilters: document.querySelector('#blog-type-filters'),
@@ -882,7 +903,26 @@ const elements = {
   blogFilterToggle: document.querySelector('#blog-filter-toggle'),
   blogResultsCount: document.querySelector('#blog-results-count'),
   blogsEmpty: document.querySelector('#blogs-empty'),
-  postsTimelineRange: document.querySelector('#posts-timeline-range')
+  postsTimelineRange: document.querySelector('#posts-timeline-range'),
+  paperKeywordList: document.querySelector('#paper-keyword-list'),
+  paperYearFilters: document.querySelector('#paper-year-filters'),
+  paperConferenceFilters: document.querySelector('#paper-conference-filters'),
+  paperAuthorSearch: document.querySelector('#paper-author-search'),
+  paperAuthorFilters: document.querySelector('#paper-author-filters'),
+  paperInstitutionSearch: document.querySelector('#paper-institution-search'),
+  paperInstitutionFilters: document.querySelector('#paper-institution-filters'),
+  clearPaperFilters: document.querySelector('#clear-paper-filters'),
+  paperFilterPanel: document.querySelector('.paper-filter-panel'),
+  paperFilterToggle: document.querySelector('#paper-filter-toggle'),
+  papersUpdated: document.querySelector('#papers-updated'),
+  papersResultsCount: document.querySelector('#papers-results-count'),
+  papersSort: document.querySelector('#papers-sort'),
+  papersList: document.querySelector('#papers-list'),
+  papersEmpty: document.querySelector('#papers-empty'),
+  papersLoadMore: document.querySelector('#papers-load-more'),
+  paperMethodButton: document.querySelector('#paper-method-button'),
+  paperMethodModal: document.querySelector('#paper-method-modal'),
+  paperMethodClose: document.querySelector('#paper-method-close')
 };
 
 const externalIcon = `
@@ -895,6 +935,11 @@ const calendarIcon = `
     <path d="M8 2v4M16 2v4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
     <rect width="18" height="18" x="3" y="4" rx="2" fill="none" stroke="currentColor" stroke-width="2"></rect>
     <path d="M3 10h18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </svg>`;
+
+const conferenceIcon = `
+  <svg class="paper-conference-icon" width="13" height="13" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+    <path d="M2 6.25 8 2l6 4.25M3.5 6.5v5.25M6.5 6.5v5.25M9.5 6.5v5.25M12.5 6.5v5.25M2 12h12M1.5 14h13" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
   </svg>`;
 
 const monthNames = [
@@ -1150,6 +1195,7 @@ function render() {
   elements.count.textContent = matches.length === organizations.length
     ? String(organizations.length)
     : `${matches.length} / ${organizations.length}`;
+  elements.summaryLabel.textContent = 'NeSy companies';
   elements.clearSearch.hidden = !state.query && !state.country;
   elements.empty.hidden = matches.length !== 0;
   if (postTimeline.months.length > 0) {
@@ -1360,18 +1406,426 @@ function renderBlogs() {
   elements.clearBlogFilters.hidden = state.blogCompanies.size === 0 && state.blogTypes.size === 0;
 }
 
+function paperSearchableText(paper) {
+  if (paperSearchableText.cache.has(paper)) return paperSearchableText.cache.get(paper);
+  const value = [
+    paper.id,
+    paper.title,
+    paper.abstract,
+    paper.conference,
+    paper.venue,
+    paper.year,
+    paper.doi,
+    ...(paper.authors || []),
+    ...(paper.affiliations || []),
+    ...(paper.categories || []),
+    ...(paper.matches?.title || []),
+    ...(paper.matches?.abstract || [])
+  ].join(' ').toLowerCase();
+  paperSearchableText.cache.set(paper, value);
+  return value;
+}
+
+paperSearchableText.cache = new WeakMap();
+
+function paperConferenceValue(paper) {
+  return paper.conference || (paper.venue && paper.venue !== 'arXiv' ? paper.venue : 'arXiv');
+}
+
+function paperConferenceClass(conference) {
+  const knownClasses = {
+    AAAI: 'aaai',
+    ICLR: 'iclr',
+    ICML: 'icml',
+    IJCAI: 'ijcai',
+    NeurIPS: 'neurips',
+    NeSy: 'nesy',
+    arXiv: 'arxiv'
+  };
+  return knownClasses[conference] || 'other';
+}
+
+function paperFacetValues(paper, facet) {
+  let cached = paperFacetValues.cache.get(paper);
+  if (!cached) {
+    cached = {
+      year: [String(paper.year || paper.published?.slice(0, 4) || '')].filter(Boolean),
+      conference: [paperConferenceValue(paper)],
+      author: [...new Set(paper.authors || [])],
+      institution: [...new Set(paper.affiliations || [])]
+    };
+    paperFacetValues.cache.set(paper, cached);
+  }
+  return cached[facet] || [];
+}
+
+paperFacetValues.cache = new WeakMap();
+
+function paperMatchesCurrentFilters(paper, excludedFacet = '') {
+  const query = state.paperQuery.trim().toLowerCase();
+  if (query && !paperSearchableText(paper).includes(query)) return false;
+  if (
+    excludedFacet !== 'year'
+    && state.paperYears.size > 0
+    && !paperFacetValues(paper, 'year').some((value) => state.paperYears.has(value))
+  ) return false;
+  if (
+    excludedFacet !== 'conference'
+    && state.paperConferences.size > 0
+    && !paperFacetValues(paper, 'conference').some((value) => state.paperConferences.has(value))
+  ) return false;
+  if (
+    excludedFacet !== 'author'
+    && state.paperAuthors.size > 0
+    && !paperFacetValues(paper, 'author').some((value) => state.paperAuthors.has(value))
+  ) return false;
+  if (
+    excludedFacet !== 'institution'
+    && state.paperInstitutions.size > 0
+    && !paperFacetValues(paper, 'institution').some((value) => state.paperInstitutions.has(value))
+  ) return false;
+  return true;
+}
+
+function matchingPapers() {
+  const matches = arxivPapers.filter((paper) => paperMatchesCurrentFilters(paper));
+
+  return matches.sort((a, b) => {
+    if (state.paperSort === 'title') {
+      return a.title.localeCompare(b.title, undefined, { sensitivity: 'base' });
+    }
+    const comparison = a.published.localeCompare(b.published);
+    return state.paperSort === 'oldest' ? comparison : -comparison;
+  });
+}
+
+function paperMatchBadges(paper) {
+  const badges = [];
+  (paper.matches?.title || []).forEach((keyword) => badges.push(`Title · ${keyword}`));
+  (paper.matches?.abstract || []).forEach((keyword) => badges.push(`Abstract · ${keyword}`));
+  return [...new Set(badges)].map((badge) => (
+    `<span class="paper-match">${escapeHtml(badge)}</span>`
+  )).join('');
+}
+
+function paperItemTemplate(paper) {
+  const authorLabel = (paper.authors || []).join(', ');
+  const paperAffiliations = paper.affiliations || [];
+  const affiliationLabel = paperAffiliations.length > 3
+    ? `${paperAffiliations.slice(0, 3).join(' · ')} · +${paperAffiliations.length - 3} more`
+    : paperAffiliations.join(' · ');
+  const categories = (paper.categories || []).map((category) => (
+    `<span class="paper-category">${escapeHtml(category)}</span>`
+  )).join('');
+  const conference = paperConferenceValue(paper);
+  const conferenceLabel = conference;
+  const conferenceClass = paperConferenceClass(conference);
+  const conferenceTitle = conference === 'arXiv' ? 'Source: arXiv' : `Published venue: ${conference}`;
+  const paperId = paper.arxivId ? `arXiv:${paper.arxivId}` : conferenceLabel;
+  const sourceUrl = paper.url || paper.doiUrl || '';
+  const abstractAction = sourceUrl
+    ? `<a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener noreferrer">Source${externalIcon}</a>`
+    : '';
+  const pdfAction = paper.pdfUrl
+    ? `<a href="${escapeHtml(paper.pdfUrl)}" target="_blank" rel="noopener noreferrer">PDF${externalIcon}</a>`
+    : '';
+  const doiAction = !paper.pdfUrl && paper.doiUrl
+    ? `<a href="${escapeHtml(paper.doiUrl)}" target="_blank" rel="noopener noreferrer">DOI${externalIcon}</a>`
+    : '';
+
+  return `
+    <li class="paper-card">
+      <article>
+        <div class="paper-card-topline">
+          <div class="paper-categories">${categories}</div>
+          <span class="paper-id">${escapeHtml(paperId)}</span>
+        </div>
+        <h3>${sourceUrl ? `<a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(paper.title)}</a>` : escapeHtml(paper.title)}</h3>
+        <p class="paper-authors">${escapeHtml(authorLabel)}</p>
+        ${affiliationLabel ? `<p class="paper-affiliations">${escapeHtml(affiliationLabel)}</p>` : ''}
+        <p class="paper-abstract">${escapeHtml(paper.abstract)}</p>
+        <div class="paper-card-footer">
+          <div class="paper-matches" aria-label="Matched inclusion keywords">${paperMatchBadges(paper)}</div>
+          <div class="paper-actions">
+            <span class="paper-date">${calendarIcon}${escapeHtml(formatPostDate(paper.published))}</span>
+            <span class="paper-conference paper-conference--${conferenceClass}" title="${escapeHtml(conferenceTitle)}">${conferenceIcon}<span>${escapeHtml(conferenceLabel)}</span></span>
+            ${abstractAction}${pdfAction}${doiAction}
+          </div>
+        </div>
+      </article>
+    </li>`;
+}
+
+function renderPapers() {
+  renderPaperFacets();
+  const matches = matchingPapers();
+  const visible = matches.slice(0, state.paperLimit);
+  elements.papersList.innerHTML = visible.map(paperItemTemplate).join('');
+  const hasFilters = Boolean(
+    state.paperQuery || state.paperYears.size > 0 || state.paperConferences.size > 0
+    || state.paperAuthors.size > 0 || state.paperInstitutions.size > 0
+  );
+  elements.papersResultsCount.textContent = hasFilters
+    ? `${matches.length} of ${arxivPapers.length} papers`
+    : `${arxivPapers.length} ${arxivPapers.length === 1 ? 'paper' : 'papers'}`;
+  elements.papersEmpty.hidden = matches.length !== 0;
+  elements.papersLoadMore.hidden = visible.length >= matches.length;
+  if (!elements.papersLoadMore.hidden) {
+    const remaining = matches.length - visible.length;
+    elements.papersLoadMore.textContent = `Show ${Math.min(50, remaining)} more of ${remaining}`;
+  }
+
+  elements.count.textContent = matches.length === arxivPapers.length
+    ? String(arxivPapers.length)
+    : `${matches.length} / ${arxivPapers.length}`;
+  elements.summaryLabel.textContent = 'research papers';
+  elements.clearSearch.hidden = !state.paperQuery;
+  elements.clearPaperFilters.hidden = state.paperYears.size === 0 && state.paperConferences.size === 0
+    && state.paperAuthors.size === 0 && state.paperInstitutions.size === 0;
+}
+
+let paperRenderFrame = 0;
+function schedulePaperRender() {
+  window.cancelAnimationFrame(paperRenderFrame);
+  paperRenderFrame = window.requestAnimationFrame(() => {
+    paperRenderFrame = 0;
+    renderPapers();
+  });
+}
+
+function countPaperFacetValues(papers, facet) {
+  const counts = new Map();
+  papers.forEach((paper) => {
+    paperFacetValues(paper, facet).forEach((value) => {
+      counts.set(value, (counts.get(value) || 0) + 1);
+    });
+  });
+  return counts;
+}
+
+function paperFacetSelection(facet) {
+  if (facet === 'year') return state.paperYears;
+  if (facet === 'conference') return state.paperConferences;
+  if (facet === 'author') return state.paperAuthors;
+  return state.paperInstitutions;
+}
+
+const paperFacetGlobalCounts = (() => {
+  const entries = {};
+  ['year', 'conference', 'author', 'institution'].forEach((facet) => {
+    entries[facet] = countPaperFacetValues(arxivPapers, facet);
+  });
+  return entries;
+})();
+
+const paperFacetUniverse = (() => {
+  const entries = {};
+  ['year', 'conference', 'author', 'institution'].forEach((facet) => {
+    const counts = [...paperFacetGlobalCounts[facet]];
+    if (facet === 'year') counts.sort((a, b) => Number(b[0]) - Number(a[0]));
+    else if (facet === 'conference') {
+      counts.sort((a, b) => {
+        if (a[0] === 'arXiv') return 1;
+        if (b[0] === 'arXiv') return -1;
+        return b[1] - a[1] || a[0].localeCompare(b[0]);
+      });
+    } else {
+      counts.sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], undefined, { sensitivity: 'base' }));
+    }
+    entries[facet] = counts.map(([value]) => value);
+  });
+  return entries;
+})();
+
+function rankedPaperFacetValues(facet, counts) {
+  if (facet !== 'author' && facet !== 'institution') return paperFacetUniverse[facet];
+  const globalCounts = paperFacetGlobalCounts[facet];
+  const selected = paperFacetSelection(facet);
+  const query = (facet === 'author' ? state.paperAuthorQuery : state.paperInstitutionQuery)
+    .trim().toLocaleLowerCase();
+  const ranked = paperFacetUniverse[facet]
+    .filter((value) => !query || value.toLocaleLowerCase().includes(query))
+    .map((value) => ({
+    value,
+    count: counts.get(value) || 0,
+    globalCount: globalCounts.get(value) || 0
+  })).sort((left, right) => (
+    right.count - left.count
+    || right.globalCount - left.globalCount
+    || left.value.localeCompare(right.value, undefined, { sensitivity: 'base' })
+  ));
+
+  if (facet === 'author') return ranked.map((entry) => entry.value);
+  const visible = ranked.slice(0, 60).map((entry) => entry.value);
+  selected.forEach((value) => {
+    if ((!query || value.toLocaleLowerCase().includes(query)) && !visible.includes(value)) visible.push(value);
+  });
+  return visible;
+}
+
+function paperFacetFilterTemplate(value, count, facet) {
+  const selected = paperFacetSelection(facet).has(value);
+  const disabled = count === 0 && !selected;
+  return `
+    <li>
+      <label class="paper-facet-filter${disabled ? ' is-unavailable' : ''}">
+        <input type="checkbox" data-paper-${facet}="${escapeHtml(value)}"${selected ? ' checked' : ''}${disabled ? ' disabled' : ''} />
+        <span class="paper-facet-check" aria-hidden="true">✓</span>
+        <span class="paper-facet-filter-name" title="${escapeHtml(value)}">${escapeHtml(value)}</span>
+        <span class="blog-company-filter-count">${count}</span>
+      </label>
+    </li>`;
+}
+
+function createPaperFacetItem(value, count, facet) {
+  const template = document.createElement('template');
+  template.innerHTML = paperFacetFilterTemplate(value, count, facet).trim();
+  return template.content.firstElementChild;
+}
+
+const paperAuthorVirtualRowHeight = 34;
+const paperAuthorVirtualOverscan = 8;
+
+function renderVirtualPaperAuthorFacet(element) {
+  const values = element.paperFacetValues || [];
+  const counts = element.paperFacetCounts || new Map();
+  const scrollTop = element.scrollTop;
+  const viewportHeight = element.clientHeight || 240;
+  const visibleStart = Math.floor(element.scrollTop / paperAuthorVirtualRowHeight);
+  const start = Math.max(0, visibleStart - paperAuthorVirtualOverscan);
+  const end = Math.min(
+    values.length,
+    Math.ceil((element.scrollTop + viewportHeight) / paperAuthorVirtualRowHeight) + paperAuthorVirtualOverscan
+  );
+  const fragment = document.createDocumentFragment();
+  const spacer = document.createElement('li');
+  spacer.className = 'paper-facet-virtual-spacer';
+  spacer.style.height = `${values.length * paperAuthorVirtualRowHeight}px`;
+  spacer.setAttribute('aria-hidden', 'true');
+  fragment.append(spacer);
+
+  for (let index = start; index < end; index += 1) {
+    const value = values[index];
+    const item = createPaperFacetItem(value, counts.get(value) || 0, 'author');
+    item.classList.add('paper-facet-virtual-item');
+    item.style.top = `${index * paperAuthorVirtualRowHeight}px`;
+    item.setAttribute('aria-posinset', String(index + 1));
+    item.setAttribute('aria-setsize', String(values.length));
+    fragment.append(item);
+  }
+  element.replaceChildren(fragment);
+  element.scrollTop = scrollTop;
+}
+
+function initializeVirtualPaperAuthorFacet(element) {
+  if (element.paperVirtualScrollBound) return;
+  element.paperVirtualScrollBound = true;
+  element.classList.add('paper-facet-filters--virtual');
+  element.addEventListener('scroll', () => {
+    if (element.paperVirtualFrame) return;
+    element.paperVirtualFrame = window.requestAnimationFrame(() => {
+      element.paperVirtualFrame = 0;
+      renderVirtualPaperAuthorFacet(element);
+    });
+  }, { passive: true });
+}
+
+function renderPaperFacet(facet, element) {
+  const matchingOtherFacets = arxivPapers.filter((paper) => paperMatchesCurrentFilters(paper, facet));
+  const counts = countPaperFacetValues(matchingOtherFacets, facet);
+  const values = rankedPaperFacetValues(facet, counts);
+  if (facet === 'author') {
+    initializeVirtualPaperAuthorFacet(element);
+    element.paperFacetValues = values;
+    element.paperFacetCounts = counts;
+    renderVirtualPaperAuthorFacet(element);
+    return;
+  }
+  const previousValues = element.paperFacetValues || [];
+  const orderChanged = previousValues.length !== values.length
+    || values.some((value, index) => value !== previousValues[index]);
+  if (!element.paperFacetItems) {
+    element.paperFacetItems = new Map();
+    const fragment = document.createDocumentFragment();
+    values.forEach((value) => {
+      const item = createPaperFacetItem(value, counts.get(value) || 0, facet);
+      element.paperFacetItems.set(value, item);
+      fragment.append(item);
+    });
+    element.replaceChildren(fragment);
+  } else if (orderChanged) {
+    const scrollTop = element.scrollTop;
+    const fragment = document.createDocumentFragment();
+    values.forEach((value) => {
+      let item = element.paperFacetItems.get(value);
+      if (!item) {
+        item = createPaperFacetItem(value, counts.get(value) || 0, facet);
+        element.paperFacetItems.set(value, item);
+      }
+      fragment.append(item);
+    });
+    element.replaceChildren(fragment);
+    element.scrollTop = scrollTop;
+  }
+  element.paperFacetValues = values;
+  values.forEach((value) => {
+    const item = element.paperFacetItems.get(value);
+    const count = counts.get(value) || 0;
+    const selected = paperFacetSelection(facet).has(value);
+    const disabled = count === 0 && !selected;
+    const input = item.querySelector('input');
+    input.checked = selected;
+    input.disabled = disabled;
+    item.querySelector('.paper-facet-filter').classList.toggle('is-unavailable', disabled);
+    item.querySelector('.blog-company-filter-count').textContent = String(count);
+  });
+}
+
+function renderPaperFacets() {
+  renderPaperFacet('year', elements.paperYearFilters);
+  renderPaperFacet('conference', elements.paperConferenceFilters);
+  renderPaperFacet('author', elements.paperAuthorFilters);
+  renderPaperFacet('institution', elements.paperInstitutionFilters);
+}
+
+function renderPaperMetadata() {
+  elements.paperKeywordList.innerHTML = (arxivPapersMeta.keywords || [])
+    .map((keyword) => `<li>${escapeHtml(keyword)}</li>`)
+    .join('');
+  const generatedDate = String(arxivPapersMeta.generatedAt || '').slice(0, 10);
+  elements.papersUpdated.textContent = generatedDate
+    ? `Snapshot ${formatPostDate(generatedDate)}`
+    : 'Static snapshot';
+  renderPaperFacets();
+}
+
 function showView(view) {
-  const isBlogs = view === 'blogs';
-  elements.directoryView.hidden = isBlogs;
-  elements.blogsView.hidden = !isBlogs;
-  elements.navDirectory.classList.toggle('is-active', !isBlogs);
-  elements.navBlogs.classList.toggle('is-active', isBlogs);
-  if (isBlogs) {
-    elements.navBlogs.setAttribute('aria-current', 'page');
-    elements.navDirectory.removeAttribute('aria-current');
+  const selectedView = ['directory', 'blogs', 'papers'].includes(view) ? view : 'directory';
+  state.activeView = selectedView;
+  const views = {
+    directory: [elements.directoryView, elements.navDirectory],
+    blogs: [elements.blogsView, elements.navBlogs],
+    papers: [elements.papersView, elements.navPapers]
+  };
+
+  Object.entries(views).forEach(([name, [viewElement, navElement]]) => {
+    const isActive = name === selectedView;
+    viewElement.hidden = !isActive;
+    navElement.classList.toggle('is-active', isActive);
+    if (isActive) navElement.setAttribute('aria-current', 'page');
+    else navElement.removeAttribute('aria-current');
+  });
+
+  if (selectedView === 'papers') {
+    elements.search.placeholder = 'Search papers';
+    elements.search.setAttribute('aria-label', 'Search papers');
+    elements.search.value = state.paperQuery;
+    renderPapers();
   } else {
-    elements.navDirectory.setAttribute('aria-current', 'page');
-    elements.navBlogs.removeAttribute('aria-current');
+    elements.search.placeholder = 'Search companies';
+    elements.search.setAttribute('aria-label', 'Search companies');
+    elements.search.value = state.query || state.country;
+    render();
   }
 
   document.documentElement.scrollTop = 0;
@@ -1388,6 +1842,13 @@ function navigateToView(event, view) {
 }
 
 function clearSearch() {
+  if (state.activeView === 'papers') {
+    state.paperQuery = '';
+    state.paperLimit = 50;
+    elements.search.value = '';
+    renderPapers();
+    return;
+  }
   state.query = '';
   state.country = '';
   elements.search.value = '';
@@ -1402,7 +1863,21 @@ function closeInclusionMethod() {
   elements.modal.close();
 }
 
+function openPaperMethod() {
+  if (typeof elements.paperMethodModal.showModal === 'function') elements.paperMethodModal.showModal();
+}
+
+function closePaperMethod() {
+  elements.paperMethodModal.close();
+}
+
 elements.search.addEventListener('input', (event) => {
+  if (state.activeView === 'papers') {
+    state.paperQuery = event.target.value;
+    state.paperLimit = 50;
+    schedulePaperRender();
+    return;
+  }
   state.country = '';
   state.query = event.target.value;
   render();
@@ -1435,7 +1910,9 @@ elements.sortableHeaders.forEach((header) => {
 });
 
 document.addEventListener('keydown', (event) => {
-  if (event.key === '/' && document.activeElement !== elements.search) {
+  const isTyping = event.target instanceof Element
+    && event.target.matches('input, textarea, select, [contenteditable="true"]');
+  if (event.key === '/' && !isTyping) {
     event.preventDefault();
     elements.search.focus();
   }
@@ -1464,8 +1941,117 @@ document.addEventListener('click', (event) => {
 
 elements.navDirectory.addEventListener('click', (event) => navigateToView(event, 'directory'));
 elements.navBlogs.addEventListener('click', (event) => navigateToView(event, 'blogs'));
+elements.navPapers.addEventListener('click', (event) => navigateToView(event, 'papers'));
 window.addEventListener('popstate', () => {
-  showView(window.location.hash === '#blogs' ? 'blogs' : 'directory');
+  const hashView = window.location.hash === '#blogs'
+    ? 'blogs'
+    : window.location.hash === '#papers' ? 'papers' : 'directory';
+  showView(hashView);
+});
+
+elements.papersSort.addEventListener('change', (event) => {
+  state.paperSort = event.target.value;
+  state.paperLimit = 50;
+  renderPapers();
+});
+
+elements.paperYearFilters.addEventListener('change', (event) => {
+  const input = event.target.closest('[data-paper-year]');
+  if (!input) return;
+  if (input.checked) state.paperYears.add(input.dataset.paperYear);
+  else state.paperYears.delete(input.dataset.paperYear);
+  state.paperLimit = 50;
+  renderPapers();
+});
+
+elements.paperConferenceFilters.addEventListener('change', (event) => {
+  const input = event.target.closest('[data-paper-conference]');
+  if (!input) return;
+  if (input.checked) state.paperConferences.add(input.dataset.paperConference);
+  else state.paperConferences.delete(input.dataset.paperConference);
+  state.paperLimit = 50;
+  renderPapers();
+});
+
+elements.paperAuthorFilters.addEventListener('change', (event) => {
+  const input = event.target.closest('[data-paper-author]');
+  if (!input) return;
+  if (input.checked) state.paperAuthors.add(input.dataset.paperAuthor);
+  else state.paperAuthors.delete(input.dataset.paperAuthor);
+  state.paperLimit = 50;
+  renderPapers();
+});
+
+elements.paperInstitutionFilters.addEventListener('change', (event) => {
+  const input = event.target.closest('[data-paper-institution]');
+  if (!input) return;
+  if (input.checked) state.paperInstitutions.add(input.dataset.paperInstitution);
+  else state.paperInstitutions.delete(input.dataset.paperInstitution);
+  state.paperLimit = 50;
+  renderPapers();
+});
+
+function schedulePaperFacetSearchRender(facet, element) {
+  window.cancelAnimationFrame(element.paperFacetSearchFrame || 0);
+  element.paperFacetSearchFrame = window.requestAnimationFrame(() => {
+    element.paperFacetSearchFrame = 0;
+    renderPaperFacet(facet, element);
+  });
+}
+
+elements.paperAuthorSearch.addEventListener('input', (event) => {
+  state.paperAuthorQuery = event.target.value;
+  elements.paperAuthorFilters.scrollTop = 0;
+  schedulePaperFacetSearchRender('author', elements.paperAuthorFilters);
+});
+
+elements.paperInstitutionSearch.addEventListener('input', (event) => {
+  state.paperInstitutionQuery = event.target.value;
+  elements.paperInstitutionFilters.scrollTop = 0;
+  schedulePaperFacetSearchRender('institution', elements.paperInstitutionFilters);
+});
+
+function clearPaperFacetSearches() {
+  state.paperAuthorQuery = '';
+  state.paperInstitutionQuery = '';
+  elements.paperAuthorSearch.value = '';
+  elements.paperInstitutionSearch.value = '';
+  elements.paperAuthorFilters.scrollTop = 0;
+  elements.paperInstitutionFilters.scrollTop = 0;
+}
+
+elements.clearPaperFilters.addEventListener('click', () => {
+  state.paperYears.clear();
+  state.paperConferences.clear();
+  state.paperAuthors.clear();
+  state.paperInstitutions.clear();
+  clearPaperFacetSearches();
+  state.paperLimit = 50;
+  elements.paperYearFilters.querySelectorAll('input').forEach((input) => { input.checked = false; });
+  elements.paperConferenceFilters.querySelectorAll('input').forEach((input) => { input.checked = false; });
+  elements.paperAuthorFilters.querySelectorAll('input').forEach((input) => { input.checked = false; });
+  elements.paperInstitutionFilters.querySelectorAll('input').forEach((input) => { input.checked = false; });
+  renderPapers();
+});
+
+elements.papersLoadMore.addEventListener('click', () => {
+  state.paperLimit += 50;
+  renderPapers();
+});
+
+elements.papersEmpty.addEventListener('click', (event) => {
+  if (!event.target.closest('[data-reset-papers]')) return;
+  state.paperYears.clear();
+  state.paperConferences.clear();
+  state.paperAuthors.clear();
+  state.paperInstitutions.clear();
+  clearPaperFacetSearches();
+  elements.paperYearFilters.querySelectorAll('input').forEach((input) => { input.checked = false; });
+  elements.paperConferenceFilters.querySelectorAll('input').forEach((input) => { input.checked = false; });
+  elements.paperAuthorFilters.querySelectorAll('input').forEach((input) => { input.checked = false; });
+  elements.paperInstitutionFilters.querySelectorAll('input').forEach((input) => { input.checked = false; });
+  clearSearch();
+  elements.search.focus();
 });
 
 elements.blogCompanyFilters.addEventListener('change', (event) => {
@@ -1511,11 +2097,24 @@ function setBlogFiltersCollapsed(collapsed) {
   elements.blogFilterToggle.setAttribute('aria-expanded', String(!collapsed));
 }
 
+function setPaperFiltersCollapsed(collapsed) {
+  elements.paperFilterPanel.classList.toggle('is-collapsed', collapsed);
+  elements.paperFilterToggle.setAttribute('aria-expanded', String(!collapsed));
+}
+
 setBlogFiltersCollapsed(mobileFilterLayout.matches);
-mobileFilterLayout.addEventListener('change', (event) => setBlogFiltersCollapsed(event.matches));
+setPaperFiltersCollapsed(mobileFilterLayout.matches);
+mobileFilterLayout.addEventListener('change', (event) => {
+  setBlogFiltersCollapsed(event.matches);
+  setPaperFiltersCollapsed(event.matches);
+});
 
 elements.blogFilterToggle.addEventListener('click', () => {
   setBlogFiltersCollapsed(elements.blogFilterToggle.getAttribute('aria-expanded') === 'true');
+});
+
+elements.paperFilterToggle.addEventListener('click', () => {
+  setPaperFiltersCollapsed(elements.paperFilterToggle.getAttribute('aria-expanded') === 'true');
 });
 
 elements.methodLinks.forEach((link) => link?.addEventListener('click', openInclusionMethod));
@@ -1524,8 +2123,16 @@ elements.modal.addEventListener('cancel', closeInclusionMethod);
 elements.modal.addEventListener('click', (event) => {
   if (event.target === elements.modal) closeInclusionMethod();
 });
+elements.paperMethodButton.addEventListener('click', openPaperMethod);
+elements.paperMethodClose.addEventListener('click', closePaperMethod);
+elements.paperMethodModal.addEventListener('cancel', closePaperMethod);
+elements.paperMethodModal.addEventListener('click', (event) => {
+  if (event.target === elements.paperMethodModal) closePaperMethod();
+});
 
 render();
 renderBlogFilters();
 renderBlogs();
+renderPaperMetadata();
 if (window.location.hash === '#blogs') showView('blogs');
+if (window.location.hash === '#papers') showView('papers');

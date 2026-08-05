@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "yearRange": { "from": 2023, "to": 2026 },
+  "workDirectory": ".paper-corpus",
+  "outputJson": "data/research-papers.json",
+  "outputScript": "data/research-papers.js",
+  "grobidUrl": "http://127.0.0.1:8070",
+  "downloadConcurrency": 6,
+  "resolveConcurrency": 2,
+  "extractConcurrency": 4,
+  "hostDelayMs": {
+    "arxiv.org": 3000,
+    "export.arxiv.org": 3000,
+    "openreview.net": 500,
+    "default": 250
+  },
+  "keywords": [
+    "neurosymbolic",
+    "neuro-symbolic",
+    "neuro symbolic",
+    "neural-symbolic",
+    "neural symbolic",
+    "NeSy"
+  ],
+  "sources": [
+    {
+      "id": "arxiv-keywords",
+      "type": "arxiv-snapshot",
+      "path": "data/arxiv-papers.js",
+      "venue": "arXiv",
+      "years": [2023, 2024, 2025, 2026],
+      "include": "all"
+    },
+    {
+      "id": "nesy-proceedings",
+      "type": "dblp-index",
+      "url": "https://dblp.org/db/conf/nesy/index.html",
+      "venue": "NeSy",
+      "years": [2023, 2024, 2025, 2026],
+      "include": "all"
+    },
+    {
+      "id": "ai-conferences-hf",
+      "type": "huggingface-parquet",
+      "dataset": "ai-conferences/all-papers",
+      "revision": "967dd61c64d41217cfb5ab443d6c57bfac15e721",
+      "url": "https://huggingface.co/datasets/ai-conferences/all-papers/resolve/967dd61c64d41217cfb5ab443d6c57bfac15e721/data/train-00000-of-00001.parquet",
+      "license": null,
+      "venues": ["ICLR", "ICML", "NeurIPS", "AAAI"],
+      "years": [2023, 2024, 2025, 2026],
+      "include": "keyword"
+    },
+    {
+      "id": "ijcai-proceedings",
+      "type": "ijcai-proceedings",
+      "venue": "IJCAI",
+      "include": "keyword-or-known-paper",
+      "pages": [
+        { "year": 2023, "url": "https://www.ijcai.org/proceedings/2023/" },
+        { "year": 2024, "url": "https://www.ijcai.org/proceedings/2024/" },
+        { "year": 2025, "url": "https://www.ijcai.org/proceedings/2025/" }
+      ]
+    }
+  ]
+}
