@@ -862,5 +862,14 @@
     "sourceUrl": "https://www.uniphore.com/blog/",
     "discovered": "2026-08-05",
     "status": "needs-review"
+  },
+  {
+    "company": "RAAPID",
+    "title": "READ MORE",
+    "date": "2026-08-05",
+    "url": "https://www.raapidinc.com/blogs/multi-pass-review-vs-onepass/",
+    "sourceUrl": "https://www.raapidinc.com/blogs/",
+    "discovered": "2026-08-05",
+    "status": "needs-review"
   }
 ]
