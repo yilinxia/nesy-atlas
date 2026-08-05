@@ -1,6 +1,7 @@
 {
   "Amoeba": ["https://www.amoeb.ai/blog"],
   "AUI": ["https://www.aui.io/resources/"],
+  "Basis": ["https://www.basis.ai/blog/"],
   "Beyond AI": ["https://www.beyond.ai/others/blog"],
   "Bitterbot AI": ["https://victormgil.medium.com/"],
   "Cognaize": ["https://blog.cognaize.com/", "https://www.cognaize.com/news"],
@@ -8,6 +9,7 @@
   "DaaX": ["https://daax.ai/blog"],
   "expert.ai": ["https://www.expert.ai/news-resources/"],
   "ExtensityAI": ["https://www.extensity.ai/research", "https://www.extensity.ai/whitepaper"],
+  "Filuta AI": ["https://filuta.ai/blog"],
   "Franz Inc.": ["https://allegrograph.com/blog/"],
   "Growth Protocol": ["https://thegrowthsignal.substack.com/"],
   "icogz": ["https://www.icogz.com/blogs"],
@@ -17,11 +19,13 @@
   "KYield": ["https://kyield.com/insights/"],
   "Lakmoos": ["https://lakmoos.com/blog/"],
   "Logical Intelligence": ["https://logicalintelligence.com/blog/"],
+  "NeverBlink": ["https://www.neverblink.eu/blog"],
   "NeuroFusion": [],
   "Nucleoid": [],
   "o9 Solutions": ["https://o9solutions.com/resources?type=post", "https://o9solutions.com/resources?type=resource"],
   "Onteric": ["https://www.onteric.com/news-and-insights/"],
   "Onton": ["https://onton.com/research/"],
+  "Pebbles AI": ["https://www.trypebbles.ai/blog"],
   "Permion": ["https://www.permion.ai/"],
   "QGI": ["https://qgi.dev/blog/", "https://qgi.dev/news/"],
   "RAAPID": ["https://www.raapidinc.com/blogs/"],
@@ -30,7 +34,9 @@
   "SeKondBrain AI": ["https://www.sekondbrain.ai/research"],
   "Symbolica": ["https://www.symbolica.ai/blog"],
   "Synalinks": ["https://www.synalinks.com/en/blog"],
+  "Synfini": ["https://synfini.com/category/press-releases/"],
   "UMNAI": ["https://umnai.com/company/blog", "https://umnai.com/research/research-articles", "https://umnai.com/research/technical-insights/"],
   "Uniphore": ["https://www.uniphore.com/blog/"],
-  "UnlikelyAI": ["https://www.unlikely.ai/newsroom"]
+  "UnlikelyAI": ["https://www.unlikely.ai/newsroom"],
+  "Weave AI": ["https://www.weave.ai/blog"]
 }

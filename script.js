@@ -35,6 +35,32 @@ const organizations = [
     ]
   },
   {
+    name: 'Basis', initials: 'BS', website: 'https://www.basis.ai/',
+    linkedin: 'https://www.linkedin.com/company/basis-ri',
+    github: 'https://github.com/BasisResearch',
+    githubTopRepo: 'https://github.com/BasisResearch/chirho', githubStars: 274,
+    ceoName: 'Zenna Tavares', ceoLinkedin: 'https://www.linkedin.com/in/zenna-tavares-4456b47/', founded: '2022',
+    favicon: 'favicons/basis.svg', product: 'Universal Reasoning Engine',
+    industry: 'AI Research', location: 'New York, US',
+    funding: 'Not disclosed', fundingUrl: '',
+    postTitle: 'Pact: Trustworthy Coordination for Multi-Agentic Ecosystems', postDate: '2026-04-23',
+    postUrl: 'https://www.basis.ai/blog/choreographies/', color: '#311317',
+    posts: [
+      { title: "Using LLM-based Verification to Eliminate Bugs in Linux's Network Stack", date: '', url: 'https://www.basis.ai/blog/verified-nftables/' },
+      { title: 'Pact: Trustworthy Coordination for Multi-Agentic Ecosystems', date: '2026-04-23', url: 'https://www.basis.ai/blog/choreographies/' },
+      { title: 'ExoPredicator: Abstracting Time and State for Robot Planning', date: '2026-04-22', url: 'https://www.basis.ai/blog/exopredicator/' },
+      { title: 'Building an Unverified Compiler with Agents', date: '2026-04-16', url: 'https://www.basis.ai/blog/verified-compiler/' },
+      { title: 'AutumnBench: World Model Learning in Humans and AI', date: '2025-07-17', url: 'https://www.basis.ai/blog/autumn-platform-2025/' },
+      { title: 'Basis: Designing a New Kind of AI Research Organization', date: '2025-05-06', url: 'https://www.basis.ai/blog/basis-organization/' },
+      { title: 'Project MARA Preview: Modeling, Abstraction, and Reasoning Agents', date: '2024-12-06', url: 'https://www.basis.ai/blog/mara/' },
+      { title: 'NeuroAI for AI Safety', date: '2024-11-27', url: 'https://www.basis.ai/blog/neuroai-for-ai-safety/' },
+      { title: 'Linking Cognitive Strategy, Neural Mechanism, and Movement Statistics in Group Foraging Behaviors', date: '2024-11-04', url: 'https://www.basis.ai/blog/linking-cognitive-strategy-neural-mechanisms/' },
+      { title: 'MetaCOG: Enhancing AI Vision with Human-Inspired Metacognition', date: '2024-07-16', url: 'https://www.basis.ai/blog/metacog2024/' },
+      { title: 'Linking Algorithms to Neural Mechanisms in Predictive Memory Models', date: '2023-03-22', url: 'https://www.basis.ai/blog/sr-fang2023/' },
+      { title: 'Autumn: Causal Discovery Through Program Synthesis', date: '2023-02-01', url: 'https://www.basis.ai/blog/autumn/' }
+    ]
+  },
+  {
     name: 'Beyond AI', initials: 'BA', website: 'https://www.beyond.ai/',
     linkedin: 'https://www.linkedin.com/company/beyond-ai/',
     ceoName: 'AJ Abdallat', ceoLinkedin: 'https://www.linkedin.com/in/ajabdallat/', founded: '2014',
@@ -225,6 +251,24 @@ const organizations = [
       { title: 'Trustworthy Agent Design', date: '2025-08-05', url: 'https://arxiv.org/abs/2508.03665' },
       { title: 'HyDRA – Knowledge Graph Construction', date: '2025-07-21', url: 'https://arxiv.org/abs/2507.15917' },
       { title: 'SymbolicAI Framework', date: '', url: 'https://github.com/ExtensityAI/symbolicai' }
+    ]
+  },
+  {
+    name: 'Filuta AI', initials: 'FA', website: 'https://filuta.ai/',
+    linkedin: 'https://www.linkedin.com/company/filuta/',
+    github: 'https://github.com/FilutaAI',
+    githubTopRepo: 'https://github.com/FilutaAI/synthesis-benchmarks', githubStars: 3,
+    ceoName: 'Filip Dvorak', ceoLinkedin: 'https://www.linkedin.com/in/filip-dvorak-n1/', founded: '2022',
+    favicon: 'favicons/filuta.jpeg', product: 'Composite AI Platform',
+    industry: 'Software Development', location: 'Texas, US',
+    funding: '$4.2M seed (2025)',
+    fundingUrl: 'https://www.vestbee.com/insights/articles/filuta-ai-secures-4-2-m', color: '#c2542f',
+    postTitle: 'Why Scripted Tests Fail Modern Automotive Software', postDate: '2025-05-01',
+    postUrl: 'https://filuta.ai/blog/why-scripted-tests-fail-modern-automotive-software',
+    posts: [
+      { title: 'Why Scripted Tests Fail Modern Automotive Software', date: '2025-05-01', url: 'https://filuta.ai/blog/why-scripted-tests-fail-modern-automotive-software' },
+      { title: 'The QA Bottleneck Impacting Your Game Launch', date: '2025-04-15', url: 'https://filuta.ai/blog/the-qa-bottleneck-impacting-your-game-launch' },
+      { title: 'The Billion-Dollar Blind Spot: Why Manual Procurement Compliance Fails at Scale', date: '2025-03-02', url: 'https://filuta.ai/blog/the-870m-lesson-manual-procurement-compliance' }
     ]
   },
   {
@@ -515,6 +559,23 @@ const organizations = [
     ]
   },
   {
+    name: 'NeverBlink', initials: 'NB', website: 'https://www.neverblink.eu/',
+    linkedin: 'https://www.linkedin.com/company/neverblink/',
+    ceoName: 'Karolina Bogacka', ceoLinkedin: 'https://www.linkedin.com/in/karolina-bogacka-0817ab19a/', founded: '2025',
+    favicon: 'favicons/neverblink.png', product: 'Neurosymbolic Knowledge Graph Platform',
+    industry: 'Knowledge Graphs', location: 'Masovian, Poland',
+    funding: 'Not disclosed', fundingUrl: '',
+    postTitle: 'Small and medium businesses struggle with fragmented data – Software 3.0 can change that', postDate: '2026-06-15',
+    postUrl: 'https://www.neverblink.eu/blog/small-and-medium-businesses-struggle-with-fragmented-data', color: '#1f4d3d',
+    posts: [
+      { title: 'Small and medium businesses struggle with fragmented data – Software 3.0 can change that', date: '2026-06-15', url: 'https://www.neverblink.eu/blog/small-and-medium-businesses-struggle-with-fragmented-data' },
+      { title: 'The energy grid needs AI that moves fast without breaking things', date: '2026-04-24', url: 'https://www.neverblink.eu/blog/the-energy-grid-needs-ai-that-moves-fast-without-breaking-things' },
+      { title: "Manufacturing's toughest problems need a new kind of AI", date: '2026-03-11', url: 'https://www.neverblink.eu/blog/manufacturings-toughest-problems-need-a-new-kind-of-ai' },
+      { title: 'Streaming Nanopublications with Jelly: the hidden costs of serialization', date: '2026-02-10', url: 'https://www.neverblink.eu/blog/streaming-nanopublications-with-jelly-the-hidden-costs-of-serialization' },
+      { title: 'How we use knowledge graphs to help restore natural beauty and biodiversity', date: '2026-01-15', url: 'https://www.neverblink.eu/blog/how-we-use-knowledge-graphs-to-help-restore-natural-beauty-and-biodiversity' }
+    ]
+  },
+  {
     name: 'NeuroFusion', initials: 'NF', website: 'https://neurofusion.ai/en/',
     linkedin: 'https://www.linkedin.com/company/neurofusion/',
     github: 'https://github.com/NeuroFusionAI',
@@ -588,6 +649,23 @@ const organizations = [
       { title: "Onton's New Canvas Tool Helps You Design, Visualize, and Shop Your Dream Space", date: '2025-11-07', url: 'https://onton.com/research/introducing-canvas' },
       { title: 'Rethinking Product Search: Why Smaller Models and Better Context Win', date: '2025-10-17', url: 'https://onton.com/research/rethinking-product-search-why-smaller-models-and-context-win' },
       { title: 'Introducing Onton', date: '2024-08-05', url: 'https://onton.com/research/deft-is-now-onton' }
+    ]
+  },
+  {
+    name: 'Pebbles AI', initials: 'PA', website: 'https://www.trypebbles.ai/',
+    linkedin: 'https://uk.linkedin.com/company/pebbles-ai',
+    ceoName: 'Emin Can Turan', ceoLinkedin: 'https://uk.linkedin.com/in/emincanturan', founded: '2023',
+    favicon: 'https://cdn.prod.website-files.com/651d3feb1a11b6c702ed8056/685be57b033e20adfcec9db3_Logo.avif',
+    product: 'GTM Operating System', industry: 'GTM AI', location: 'England, UK',
+    funding: '$1M angel (2025)',
+    fundingUrl: 'https://forbes.ua/news/shi-startap-pebbles-ai-z-ofisom-u-lvovi-zaluchiv-1-mln-shcho-vin-rozroblyae-22012025-26498',
+    postTitle: 'Enterprise learned pricing from Dutch drug dealers', postDate: '2026-04-18',
+    postUrl: 'https://www.trypebbles.ai/blog/enterprise-learned-pricing-from-dutch-drug-dealers', color: '#4a6cf7',
+    posts: [
+      { title: 'Enterprise learned pricing from Dutch drug dealers', date: '2026-04-18', url: 'https://www.trypebbles.ai/blog/enterprise-learned-pricing-from-dutch-drug-dealers' },
+      { title: 'Your first talent pool is just raccoons and hyenas', date: '2026-04-18', url: 'https://www.trypebbles.ai/blog/your-first-talent-pool-is-just-raccoons-and-hyenas' },
+      { title: 'A rant for VCs. Or a thesis. Whichever funds faster', date: '2026-04-18', url: 'https://www.trypebbles.ai/blog/consider-this-a-rant-for-vcs-or-a-thesis-whichever-funds-faster' },
+      { title: 'Five stars. Would hide from missiles here again', date: '2026-04-17', url: 'https://www.trypebbles.ai/blog/five-stars-would-hide-from-missiles-here-again' }
     ]
   },
   {
@@ -778,6 +856,27 @@ const organizations = [
     ]
   },
   {
+    name: 'Synfini', initials: 'SF', website: 'https://synfini.com/',
+    linkedin: 'https://www.linkedin.com/company/synfini-inc/',
+    ceoName: 'Doug Donzelli', ceoLinkedin: 'https://www.linkedin.com/in/donzelli/', founded: '2023',
+    favicon: 'https://synfini.com/wp-content/uploads/2025/07/2x-translucent-back-100x100.png',
+    product: 'Agile AI Foundry', industry: 'Biotechnology Research', location: 'California, US',
+    funding: '$53M total (2025)', fundingUrl: 'https://synfini.com/seed-round-discovery-funding/',
+    postTitle: 'Synfini Introduces Integrated Microscale Purification, Delivering Assay-Ready Compounds in Hours Instead of Days',
+    postDate: '2026-02-09',
+    postUrl: 'https://synfini.com/press/synfini-introduces-integrated-microscale-purification-delivering-assay-ready-compounds-in-hours-instead-of-days/', color: '#2c7a5b',
+    posts: [
+      { title: 'Synfini Introduces Integrated Microscale Purification, Delivering Assay-Ready Compounds in Hours Instead of Days', date: '2026-02-09', url: 'https://synfini.com/press/synfini-introduces-integrated-microscale-purification-delivering-assay-ready-compounds-in-hours-instead-of-days/' },
+      { title: "Synfini Assessed 'Awardable' for DARPA ERIS Marketplace", date: '2026-01-13', url: 'https://synfini.com/press/synfini-assessed-awardable-for-darpa-eris-marketplace/' },
+      { title: 'Synfini Opens Cloud Access to its Agile AI Foundry to Accelerate Discovery of Better Molecules', date: '2026-01-08', url: 'https://synfini.com/press/synfini-opens-cloud-access-to-its-agile-ai-foundry-to-accelerate-discovery-of-better-molecules/' },
+      { title: 'Synfini Selected for SLAS 2026 Innovation AveNEW Showcase', date: '2025-10-23', url: 'https://synfini.com/press/synfini-selected-for-slas-2026-innovation-avenew-showcase/' },
+      { title: 'Synfini Adds $8.9 Million Discovery Funding to Speed Small Molecule Drug Development', date: '2025-07-07', url: 'https://synfini.com/seed-round-discovery-funding/' },
+      { title: 'Synfini Inc. and O2nix Bio Announce Strategic Collaboration to Develop Novel Cancer Therapeutics Targeting FTSJ1', date: '2025-06-17', url: 'https://synfini.com/press/synfini-inc-and-o2nix-bio-announce-strategic-collaboration-to-develop-novel-cancer-therapeutics-targeting-ftsj1/' },
+      { title: 'Synfini Inc. and Multispan Announce Drug Discovery Collaboration', date: '2025-05-21', url: 'https://synfini.com/press/synfini-inc-and-multispan-announce-drug-discovery-collaboration/' },
+      { title: 'SRI Spins Off AI-Powered Drug Discovery Platform Synfini, Inc', date: '2023-09-26', url: 'https://synfini.com/press/sri-spins-off-ai-powered-drug-discovery-platform-synfini-inc/' }
+    ]
+  },
+  {
     name: 'UMNAI', initials: 'UM', website: 'https://umnai.com/',
     linkedin: 'https://www.linkedin.com/company/umnai/',
     github: 'https://github.com/umnaibase',
@@ -890,6 +989,37 @@ const organizations = [
       { title: "SBS Claims Transforms Insurance Processing with UnlikelyAI's Neurosymbolic Technology", date: '2025-12-04', url: 'https://www.unlikely.ai/newsroom/sbs-claims-transforms-insurance-processing-with-unlikely-ai-s-neurosymbolic-technology' },
       { title: "Alexa co-creator gives first glimpse of UnlikelyAI's tech strategy", date: '2025-09-01', url: 'https://www.unlikely.ai/newsroom/alexa-co-creator-gives-first-glimpse-of-unlikely-ai-s-tech-strategy-1' },
       { title: 'Get ahead of AI regulation', date: '2025-09-01', url: 'https://www.unlikely.ai/newsroom/get-ahead-of-ai-regulation' }
+    ]
+  },
+  {
+    name: 'Weave AI', initials: 'WA', website: 'https://www.weave.ai/',
+    linkedin: 'https://www.linkedin.com/company/weave-ai/',
+    ceoName: 'Nosa Omoigui', ceoLinkedin: 'https://www.linkedin.com/in/nosa-omoigui-69164/', founded: '2016',
+    favicon: 'favicons/weave.png', product: 'Weave.AI Platform',
+    industry: 'Software Development', location: 'Washington, US',
+    funding: 'Not disclosed', fundingUrl: '',
+    postTitle: 'Risk Live EU: When Governance and Risk Move at Different Speeds', postDate: '2026-07-20',
+    postUrl: 'https://www.weave.ai/post/risk-live-eu-when-governance-and-risk-move-at-different-speeds', color: '#1a2b4c',
+    posts: [
+      { title: 'Risk Live EU: When Governance and Risk Move at Different Speeds', date: '2026-07-20', url: 'https://www.weave.ai/post/risk-live-eu-when-governance-and-risk-move-at-different-speeds' },
+      { title: 'Takeaways from Operational Risk & Resilience Financial Services Europe 2026', date: '2026-05-20', url: 'https://www.weave.ai/post/takeaways-from-operational-risk-resilience-financial-services-europe-2026' },
+      { title: 'The Illusion of Surprise: Why Cyber Risk Is Visible Long Before a Breach', date: '2026-05-13', url: 'https://www.weave.ai/post/the-illusion-of-surprise-why-cyber-risk-is-visible-long-before-a-breach' },
+      { title: 'The Iceberg Beneath Third-Party Risk: Hidden Exposure in a Multi-Vector World', date: '2026-05-11', url: 'https://www.weave.ai/post/the-iceberg-beneath-third-party-risk-hidden-exposure-in-a-multi-vector-world' },
+      { title: 'Regulators No Longer Only Audit Controls, They Also Audit What They Can See', date: '2026-05-08', url: 'https://www.weave.ai/post/regulators-no-longer-only-audit-controls-they-also-audit-what-they-can-see' },
+      { title: 'Internal Audit Has Become the Front Line of Risk Assurance', date: '2026-04-14', url: 'https://www.weave.ai/post/internal-audit-has-become-the-front-line-of-risk-assurance' },
+      { title: "TPRM's Wish List for Third and Fourth Party Risk Management", date: '2026-01-06', url: 'https://www.weave.ai/post/tprm-s-wish-list-for-third-and-fourth-party-risk-management' },
+      { title: 'Alaska Airlines Illustrates How DORA Raises the Bar for Cyber and Operational Resilience', date: '2025-11-06', url: 'https://www.weave.ai/post/alaska-airlines-illustrates-how-dora-raises-the-bar-for-cyber-and-operational-resilience' },
+      { title: 'Tariff-Driven Systemic Risk: Hidden Interdependencies in Global Finance', date: '2025-11-06', url: 'https://www.weave.ai/post/tariff-driven-systemic-risk-hidden-interdependencies-in-global-finance' },
+      { title: "When RAG Isn't Enough: Neuro-Symbolic AI Is the Right Choice For High-Stakes Decisioning", date: '2025-11-06', url: 'https://www.weave.ai/post/when-rag-isn-t-enough-neuro-symbolic-ai-is-the-right-choice-for-high-stakes-decisioning' },
+      { title: 'What Agentic AI Really Is and How To Spot the Difference', date: '2025-09-02', url: 'https://www.weave.ai/post/what-agentic-ai-really-is-and-how-to-spot-the-difference' },
+      { title: 'The OCC\'s "Persistent Weakness" Timer Is Ticking, And Banks Must Comply', date: '2025-07-15', url: 'https://www.weave.ai/post/the-occ-s-persistent-weakness-timer-is-ticking-and-banks-must-comply' },
+      { title: 'Weave.AI Named to Chartis Research RiskTech AI 50 for 2025', date: '2025-07-07', url: 'https://www.weave.ai/post/weave-ai-named-to-chartis-research-risktech-ai-50-for-2025' },
+      { title: 'Next-Gen Cyber GRC: A Strategic Imperative for 2025', date: '2025-06-24', url: 'https://www.weave.ai/post/next-gen-cyber-grc-a-strategic-imperative-for-2025' },
+      { title: 'The New Era of the Chief Risk Officer', date: '2025-06-02', url: 'https://www.weave.ai/post/the-new-era-of-the-chief-risk-officer' },
+      { title: 'TD Bank and Block Inc. Anti-Money Laundering (AML) Failures Highlight Urgent Need for Strategic Compliance Oversight', date: '2025-05-05', url: 'https://www.weave.ai/post/td-bank-and-block-inc-anti-money-laundering-aml-failures-highlight-urgent-need-for-strategic-comp' },
+      { title: 'Washing: What It Is and How To Avoid It', date: '2025-04-24', url: 'https://www.weave.ai/post/washing-what-it-is-and-how-to-avoid-it' },
+      { title: 'Establishing Robust Governance, Risk, and Compliance (GRC) Frameworks: Ensuring Completeness, Readiness, and Timeliness', date: '2025-04-24', url: 'https://www.weave.ai/post/establishing-robust-governance-risk-and-compliance-grc-frameworks-ensuring-completeness-readin' },
+      { title: 'AI Hallucinations: The Limitations of Large Language Models (LLMs)', date: '2025-04-24', url: 'https://www.weave.ai/post/ai-hallucinations-the-limitations-of-large-language-models-llms' }
     ]
   }
 ];

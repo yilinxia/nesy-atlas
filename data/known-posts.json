@@ -11,6 +11,20 @@
     "https://www.aui.io/resources/welcoming-zac-maufe-to-aui/",
     "https://www.aui.io/resources/beyond-generative-ai/"
   ],
+  "Basis": [
+    "https://www.basis.ai/blog/verified-nftables/",
+    "https://www.basis.ai/blog/choreographies/",
+    "https://www.basis.ai/blog/exopredicator/",
+    "https://www.basis.ai/blog/verified-compiler/",
+    "https://www.basis.ai/blog/autumn-platform-2025/",
+    "https://www.basis.ai/blog/basis-organization/",
+    "https://www.basis.ai/blog/mara/",
+    "https://www.basis.ai/blog/neuroai-for-ai-safety/",
+    "https://www.basis.ai/blog/linking-cognitive-strategy-neural-mechanisms/",
+    "https://www.basis.ai/blog/metacog2024/",
+    "https://www.basis.ai/blog/sr-fang2023/",
+    "https://www.basis.ai/blog/autumn/"
+  ],
   "Beyond AI": [
     "https://www.beyond.ai/blog/built-by-humans-strengthened-by-ai",
     "https://www.beyond.ai/blog/why-llm-agents-fail",
@@ -207,6 +221,11 @@
     "https://arxiv.org/abs/2508.03665",
     "https://arxiv.org/abs/2507.15917",
     "https://github.com/ExtensityAI/symbolicai"
+  ],
+  "Filuta AI": [
+    "https://filuta.ai/blog/why-scripted-tests-fail-modern-automotive-software",
+    "https://filuta.ai/blog/the-qa-bottleneck-impacting-your-game-launch",
+    "https://filuta.ai/blog/the-870m-lesson-manual-procurement-compliance"
   ],
   "Franz Inc.": [
     "https://allegrograph.com/allegrograph-named-to-the-ai100/",
@@ -800,6 +819,13 @@
     "https://logicalintelligence.com/blog/energy-based-models-for-reasoning",
     "https://logicalintelligence.com/blog/aleph-solves-putnambench"
   ],
+  "NeverBlink": [
+    "https://www.neverblink.eu/blog/small-and-medium-businesses-struggle-with-fragmented-data",
+    "https://www.neverblink.eu/blog/the-energy-grid-needs-ai-that-moves-fast-without-breaking-things",
+    "https://www.neverblink.eu/blog/manufacturings-toughest-problems-need-a-new-kind-of-ai",
+    "https://www.neverblink.eu/blog/streaming-nanopublications-with-jelly-the-hidden-costs-of-serialization",
+    "https://www.neverblink.eu/blog/how-we-use-knowledge-graphs-to-help-restore-natural-beauty-and-biodiversity"
+  ],
   "NeuroFusion": [],
   "Nucleoid": [],
   "o9 Solutions": [
@@ -823,6 +849,12 @@
     "https://onton.com/research/introducing-canvas",
     "https://onton.com/research/rethinking-product-search-why-smaller-models-and-context-win",
     "https://onton.com/research/deft-is-now-onton"
+  ],
+  "Pebbles AI": [
+    "https://www.trypebbles.ai/blog/enterprise-learned-pricing-from-dutch-drug-dealers",
+    "https://www.trypebbles.ai/blog/your-first-talent-pool-is-just-raccoons-and-hyenas",
+    "https://www.trypebbles.ai/blog/consider-this-a-rant-for-vcs-or-a-thesis-whichever-funds-faster",
+    "https://www.trypebbles.ai/blog/five-stars-would-hide-from-missiles-here-again"
   ],
   "Permion": [
     "https://www.permion.ai/permion-selected-and-representing-the-usa-as-the-winner-in-the-government-ai-grand-challenge-for-the-g7eu/",
@@ -1018,6 +1050,16 @@
     "https://www.synalinks.com/en/blog/why-ai-agents-fail-in-production",
     "https://www.synalinks.com/en/blog/why-ai-agents-hallucinate"
   ],
+  "Synfini": [
+    "https://synfini.com/press/synfini-introduces-integrated-microscale-purification-delivering-assay-ready-compounds-in-hours-instead-of-days/",
+    "https://synfini.com/press/synfini-assessed-awardable-for-darpa-eris-marketplace/",
+    "https://synfini.com/press/synfini-opens-cloud-access-to-its-agile-ai-foundry-to-accelerate-discovery-of-better-molecules/",
+    "https://synfini.com/press/synfini-selected-for-slas-2026-innovation-avenew-showcase/",
+    "https://synfini.com/seed-round-discovery-funding/",
+    "https://synfini.com/press/synfini-inc-and-o2nix-bio-announce-strategic-collaboration-to-develop-novel-cancer-therapeutics-targeting-ftsj1/",
+    "https://synfini.com/press/synfini-inc-and-multispan-announce-drug-discovery-collaboration/",
+    "https://synfini.com/press/sri-spins-off-ai-powered-drug-discovery-platform-synfini-inc/"
+  ],
   "UMNAI": [
     "https://umnai.com/company/blog/sovereign-ai-begins-with-architectural-choice",
     "https://umnai.com/company/blog/governing-ai-decisions",
@@ -1114,5 +1156,26 @@
     "https://www.unlikely.ai/newsroom/sbs-claims-transforms-insurance-processing-with-unlikely-ai-s-neurosymbolic-technology",
     "https://www.unlikely.ai/newsroom/alexa-co-creator-gives-first-glimpse-of-unlikely-ai-s-tech-strategy-1",
     "https://www.unlikely.ai/newsroom/get-ahead-of-ai-regulation"
+  ],
+  "Weave AI": [
+    "https://www.weave.ai/post/risk-live-eu-when-governance-and-risk-move-at-different-speeds",
+    "https://www.weave.ai/post/takeaways-from-operational-risk-resilience-financial-services-europe-2026",
+    "https://www.weave.ai/post/the-illusion-of-surprise-why-cyber-risk-is-visible-long-before-a-breach",
+    "https://www.weave.ai/post/the-iceberg-beneath-third-party-risk-hidden-exposure-in-a-multi-vector-world",
+    "https://www.weave.ai/post/regulators-no-longer-only-audit-controls-they-also-audit-what-they-can-see",
+    "https://www.weave.ai/post/internal-audit-has-become-the-front-line-of-risk-assurance",
+    "https://www.weave.ai/post/tprm-s-wish-list-for-third-and-fourth-party-risk-management",
+    "https://www.weave.ai/post/alaska-airlines-illustrates-how-dora-raises-the-bar-for-cyber-and-operational-resilience",
+    "https://www.weave.ai/post/tariff-driven-systemic-risk-hidden-interdependencies-in-global-finance",
+    "https://www.weave.ai/post/when-rag-isn-t-enough-neuro-symbolic-ai-is-the-right-choice-for-high-stakes-decisioning",
+    "https://www.weave.ai/post/what-agentic-ai-really-is-and-how-to-spot-the-difference",
+    "https://www.weave.ai/post/the-occ-s-persistent-weakness-timer-is-ticking-and-banks-must-comply",
+    "https://www.weave.ai/post/weave-ai-named-to-chartis-research-risktech-ai-50-for-2025",
+    "https://www.weave.ai/post/next-gen-cyber-grc-a-strategic-imperative-for-2025",
+    "https://www.weave.ai/post/the-new-era-of-the-chief-risk-officer",
+    "https://www.weave.ai/post/td-bank-and-block-inc-anti-money-laundering-aml-failures-highlight-urgent-need-for-strategic-comp",
+    "https://www.weave.ai/post/washing-what-it-is-and-how-to-avoid-it",
+    "https://www.weave.ai/post/establishing-robust-governance-risk-and-compliance-grc-frameworks-ensuring-completeness-readin",
+    "https://www.weave.ai/post/ai-hallucinations-the-limitations-of-large-language-models-llms"
   ]
 }
