@@ -64,6 +64,10 @@
     --color-text-secondary: #aaa;
     --color-text-tertiary: #8a8a8a;
   }
+
+  .unverified-icon {
+    color: #e0a83a;
+  }
 }
 
 html,
@@ -528,6 +532,14 @@ table thead th.sticky-name-column {
 
 .value-link:hover {
   text-decoration-color: var(--color-text);
+}
+
+.unverified-icon {
+  color: #b8860b;
+  cursor: help;
+  display: inline-flex;
+  margin-left: 0.3rem;
+  vertical-align: -0.15rem;
 }
 
 .ceo-link {
