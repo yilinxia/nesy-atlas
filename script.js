@@ -21,6 +21,15 @@ const organizations = [
     postUrl: 'https://www.beyond.ai/blog/what-is-neuro-symbolic-ai', color: '#156b78'
   },
   {
+    name: 'Bitterbot AI', initials: 'BB', website: 'https://bitterbot.ai/',
+    linkedin: 'https://www.linkedin.com/company/bitterbot-ai/',
+    ceoName: 'Victor Michael Gil', ceoLinkedin: 'https://www.linkedin.com/in/vmgil/', ceoSince: '2026-05',
+    favicon: 'https://bitterbot.ai/favicon.svg', product: 'Bitterbot AI Agent',
+    industry: 'Decentralized AI', location: 'Ontario, Canada', funding: 'Not disclosed', fundingUrl: '',
+    postTitle: 'TOPAS: A Convergent Neuro-Symbolic Architecture for General Intelligence', postDate: '2025-11-22',
+    postUrl: 'https://zenodo.org/records/17683673', color: '#7c3aed'
+  },
+  {
     name: 'Cognaize', initials: 'CG', website: 'https://www.cognaize.com/',
     linkedin: 'https://www.linkedin.com/company/cognaize/',
     ceoName: 'Vahe Andonians', ceoLinkedin: 'https://www.linkedin.com/in/vaheandonians/', ceoSince: '2018-04',
@@ -35,7 +44,7 @@ const organizations = [
     name: 'CogniSwitch', initials: 'CS', website: 'https://cogniswitch.ai/',
     linkedin: 'https://www.linkedin.com/company/cogniswitch-inc/',
     ceoName: 'Dilip Ittyera', ceoLinkedin: 'https://www.linkedin.com/in/dilipti/', ceoSince: '2022-04',
-    favicon: 'https://cogniswitch.ai/favicon.ico', product: 'Neuro-symbolic Trust Layer',
+    favicon: 'https://cogniswitch.ai/icon.png?icon.0r87w_.~ngn1k.png', product: 'Neuro-symbolic Trust Layer',
     industry: 'Healthcare', location: 'California, US', funding: 'Not disclosed', fundingUrl: '',
     postTitle: '', postDate: '', postUrl: '', color: '#316f68'
   },
@@ -123,6 +132,15 @@ const organizations = [
     postTitle: '', postDate: '', postUrl: '', color: '#394cc8'
   },
   {
+    name: 'KYield', initials: 'KY', website: 'https://kyield.com/',
+    linkedin: 'https://www.linkedin.com/company/kyield',
+    ceoName: 'Mark Montgomery', ceoLinkedin: 'https://www.linkedin.com/in/markamontgomery/', ceoSince: '2002-05',
+    favicon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><polygon points='16,0 32,8 32,24 16,32 0,24 0,8' fill='%231464c8'/><text x='16' y='22' text-anchor='middle' fill='white' font-size='16' font-weight='900' font-family='sans-serif'>K</text></svg>",
+    product: 'KYield OS (KOS)', industry: 'Enterprise AI', location: 'New Mexico, US', funding: 'Not disclosed', fundingUrl: '',
+    postTitle: 'KYield Releases KOS v3, the First Enterprise Neurosymbolic AI Operating System', postDate: '2026-04-29',
+    postUrl: 'https://kyield.com/press/kos-v3-release-2026-04-29.html', color: '#1464c8'
+  },
+  {
     name: 'Lakmoos', initials: 'LK', website: 'https://lakmoos.com/',
     linkedin: 'https://www.linkedin.com/company/lakmoos/',
     ceoName: 'Kamila Zahradnickova', ceoLinkedin: 'https://www.linkedin.com/in/kamila-zahradnickova/', ceoSince: '2023-06',
@@ -179,6 +197,16 @@ const organizations = [
     postUrl: 'https://www.permion.ai/what-sets-permion-apart-from-others-neurosymbolic-ai-large-graph-models/', color: '#405a67'
   },
   {
+    name: 'QGI', initials: 'QG', website: 'https://qgi.dev/',
+    linkedin: 'https://www.linkedin.com/company/quantum-general-intelligence-inc',
+    ceoName: 'Dain Ehring', ceoLinkedin: 'https://www.linkedin.com/in/dainehring/', ceoSince: '2026-01',
+    favicon: 'favicons/qgi.jpg', product: 'QAG Engine',
+    industry: 'AI Infrastructure', location: 'California, US', funding: '$3M SAFE (planned, 2026)',
+    fundingUrl: 'https://www.einpresswire.com/article/885914885/quantum-general-intelligence-qgi-emerges-from-stealth-to-make-ai-admissible-for-regulated-industries',
+    postTitle: 'QGI Introduces Quantum Algorithm Engine for Real-World Production AI Systems', postDate: '2026-04-21',
+    postUrl: 'https://www.einpresswire.com/article/907155977/qgi-quantum-general-intelligence-introduces-quantum-algorithm-engine-for-real-world-production-ai-systems', color: '#2f4a8f'
+  },
+  {
     name: 'RAAPID', initials: 'RP', website: 'https://www.raapidinc.com/',
     linkedin: 'https://www.linkedin.com/company/raapid/',
     ceoName: 'Chetan Parikh', ceoLinkedin: 'https://www.linkedin.com/in/chetanparikh/', ceoSince: '2022-02',
@@ -204,6 +232,14 @@ const organizations = [
     location: 'Ile-de-France, France', funding: '€4M seed (2025)',
     fundingUrl: 'https://www.oneragtime.com/stories/rippletide-seed-4m-europe-us',
     postTitle: '', postDate: '', postUrl: '', color: '#623d8f'
+  },
+  {
+    name: 'SeKondBrain AI', initials: 'SB', website: 'https://www.sekondbrain.ai/',
+    linkedin: '',
+    ceoName: 'Sachin Dev Duggal', ceoLinkedin: 'https://www.linkedin.com/in/sachin-dev-duggal-255406/', ceoSince: '2025-09',
+    favicon: 'https://framerusercontent.com/images/TpDgoIiYXMbCgvdh8KAaXl3zuxc.png', product: 'Cognitive OS',
+    industry: 'Cognitive AI', location: 'Dubai, UAE', funding: 'Not disclosed', fundingUrl: '',
+    postTitle: '', postDate: '', postUrl: '', color: '#9e77e9'
   },
   {
     name: 'Symbolica', initials: 'SY', website: 'https://www.symbolica.ai/',
