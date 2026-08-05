@@ -40,6 +40,15 @@ const organizations = [
     postTitle: '', postDate: '', postUrl: '', color: '#316f68'
   },
   {
+    name: 'DaaX', initials: 'DX', website: 'https://daax.ai/',
+    linkedin: 'https://www.linkedin.com/company/daax-ai/',
+    ceoName: 'Sunil Baliga', ceoLinkedin: 'https://www.linkedin.com/in/sunil-baliga/', ceoSince: '2024-11',
+    favicon: 'https://daax.ai/favicon.ico', product: 'Agentic Enterprise Search',
+    industry: 'Enterprise Search', location: 'California, US', funding: 'Not disclosed', fundingUrl: '',
+    postTitle: 'Autonomous Auditing and the Knowledge Problem', postDate: '2026-04-16',
+    postUrl: 'https://daax.ai/blog/autonomous-auditing', color: '#21295b'
+  },
+  {
     name: 'expert.ai', initials: 'eAI', website: 'https://www.expert.ai/',
     linkedin: 'https://www.linkedin.com/company/expert-ai/',
     ceoName: 'Dario Pardi', ceoLinkedin: 'https://www.linkedin.com/in/dario-pardi-aa834b8/', ceoSince: '2023-07',
@@ -154,7 +163,7 @@ const organizations = [
     name: 'Onton', initials: 'OT', website: 'https://onton.com/',
     linkedin: 'https://www.linkedin.com/company/onton-ai/',
     ceoName: 'Zach Hudson', ceoLinkedin: 'https://www.linkedin.com/in/hudsonzp/', ceoSince: '2022-04',
-    favicon: 'https://onton.com/assets/3c51c95574b6777180a6a8528dcd2cd2f08597e7/favicon.ico',
+    favicon: 'favicons/onton.png',
     product: 'AI Shopping Assistant', industry: 'Software Development', location: 'California, US',
     funding: '~$10M total (2025)',
     fundingUrl: 'https://techcrunch.com/2025/11/26/onton-raises-7-5m-to-expand-its-ai-powered-shopping-site-beyond-furniture/',
@@ -223,6 +232,17 @@ const organizations = [
     funding: 'Not disclosed', fundingUrl: '',
     postTitle: 'What Is Neuro-Symbolic AI? A Technical Introduction', postDate: '2026-07-27',
     postUrl: 'https://umnai.com/research/technical-insights/foundations/neuro-symbolic-ai', color: '#a86a11'
+  },
+  {
+    name: 'Uniphore', initials: 'UP', website: 'https://www.uniphore.com/',
+    linkedin: 'https://www.linkedin.com/company/uniphore',
+    ceoName: 'Umesh Sachdev', ceoLinkedin: 'https://www.linkedin.com/in/umeshsachdev/', ceoSince: '2008-04',
+    favicon: 'https://www.uniphore.com/wp-content/uploads/2025/12/cropped-Uniphore–Bug–Gradient–Light-192x192.webp',
+    product: 'Business AI Cloud', industry: 'Business AI', location: 'California, US',
+    funding: '$260M Series F (2025)',
+    fundingUrl: 'https://www.uniphore.com/press-releases/nvidia-amd-snowflake-databricks-invest-in-uniphores-series-f/',
+    postTitle: 'A Look Inside Uniphore\'s AI Research and Innovation Strategy', postDate: '2026-01-30',
+    postUrl: 'https://www.uniphore.com/blog/a-look-inside-uniphores-ai-research-and-innovation-strategy/', color: '#2d88a4'
   },
   {
     name: 'UnlikelyAI', initials: 'UA', website: 'https://www.unlikely.ai/',
