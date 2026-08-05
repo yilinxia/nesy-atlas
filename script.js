@@ -2,7 +2,7 @@ const organizations = [
   {
     name: 'AUI', initials: 'AUI', website: 'https://www.aui.io/',
     linkedin: 'https://www.linkedin.com/company/augmentedintelligence-aui/posts/?feedView=all',
-    ceoName: 'Ohad Elhelo', ceoLinkedin: 'https://www.linkedin.com/in/ohadelhelo/', ceoSince: '2017-09',
+    ceoName: 'Ohad Elhelo', ceoLinkedin: 'https://www.linkedin.com/in/ohadelhelo/', founded: '2017',
     favicon: 'https://www.aui.io/favicon-32x32.png', product: 'Apollo-1',
     industry: 'Conversational AI', location: 'New York, US', funding: '$20M round (2025)',
     fundingUrl: 'https://venturebeat.com/ai/the-beginning-of-the-end-of-the-transformer-era-neuro-symbolic-ai-startup',
@@ -12,14 +12,14 @@ const organizations = [
       { title: 'Welcoming Quack AI to AUI', date: '2026-02-23', url: 'https://www.aui.io/resources/welcoming-quack-ai-to-aui/' },
       { title: 'Neuro-Symbolic AI in Action: Apollo-1 Aces Amazon Scenarios; Rufus Falls Short', date: '2025-11-18', url: 'https://www.aui.io/resources/apollo-1-amazon-rufus-comparison/' },
       { title: 'AUI Raises $20 Million at $750 Million Valuation Cap Following Breakthrough in Neuro-Symbolic AI', date: '2025-11-03', url: 'https://www.aui.io/resources/aui-raises-20-million-at-750-million-valuation-cap-following-breakthrough-in-neuro-symbolic-ai/' },
-      { title: 'Welcoming Zac Maufe to AUI', date: '', url: 'https://www.aui.io/resources/welcoming-zac-maufe-to-aui/' },
+      { title: 'Welcoming Zac Maufe to AUI', date: '2025-11-18', url: 'https://www.aui.io/resources/welcoming-zac-maufe-to-aui/' },
       { title: 'Mutable Intelligence: Cognition in Code, Not Weights', date: '2025-07-12', url: 'https://www.aui.io/resources/beyond-generative-ai/' }
     ]
   },
   {
     name: 'Beyond AI', initials: 'BA', website: 'https://www.beyond.ai/',
     linkedin: 'https://www.linkedin.com/company/beyond-ai/',
-    ceoName: 'AJ Abdallat', ceoLinkedin: 'https://www.linkedin.com/in/ajabdallat/', ceoSince: '2014-04',
+    ceoName: 'AJ Abdallat', ceoLinkedin: 'https://www.linkedin.com/in/ajabdallat/', founded: '2014',
     favicon: 'https://cdn.prod.website-files.com/66fa4dc606c7344f4b994f9a/6995097a786449c2691b10e5_favicon-32x32.png',
     product: 'Industrial AI Platform', industry: 'Energy & Industrial', location: 'California, US',
     funding: '$133M Series C (2020)',
@@ -57,7 +57,9 @@ const organizations = [
   {
     name: 'Bitterbot AI', initials: 'BB', website: 'https://bitterbot.ai/',
     linkedin: 'https://www.linkedin.com/company/bitterbot-ai/',
-    ceoName: 'Victor Michael Gil', ceoLinkedin: 'https://www.linkedin.com/in/vmgil/', ceoSince: '2026-05',
+    github: 'https://github.com/Bitterbot-AI/',
+    githubTopRepo: 'https://github.com/Bitterbot-AI/bitterbot-desktop', githubStars: 2452,
+    ceoName: 'Victor Michael Gil', ceoLinkedin: 'https://www.linkedin.com/in/vmgil/', founded: '2025',
     favicon: 'https://bitterbot.ai/favicon.svg', product: 'Bitterbot AI Agent',
     industry: 'Decentralized AI', location: 'Ontario, Canada', funding: 'Not disclosed', fundingUrl: '',
     postTitle: 'The Agentic Economy: Why Your AI Will Soon Pay Its Own Server Bills', postDate: '2026-03-23',
@@ -71,7 +73,9 @@ const organizations = [
   {
     name: 'Cognaize', initials: 'CG', website: 'https://www.cognaize.com/',
     linkedin: 'https://www.linkedin.com/company/cognaize/',
-    ceoName: 'Vahe Andonians', ceoLinkedin: 'https://www.linkedin.com/in/vaheandonians/', ceoSince: '2018-04',
+    github: 'https://github.com/cognaize',
+    githubTopRepo: 'https://github.com/cognaize/pycognaize', githubStars: 5,
+    ceoName: 'Vahe Andonians', ceoLinkedin: 'https://www.linkedin.com/in/vaheandonians/', founded: '2020',
     favicon: 'https://www.cognaize.com/hubfs/dot-rgb-cognaize-royal-favicon.svg',
     product: 'Hybrid Intelligence Platform', industry: 'Financial Services', location: 'California, US',
     funding: '$18M Series A (2023)',
@@ -97,7 +101,9 @@ const organizations = [
   {
     name: 'CogniSwitch', initials: 'CS', website: 'https://cogniswitch.ai/',
     linkedin: 'https://www.linkedin.com/company/cogniswitch-inc/',
-    ceoName: 'Dilip Ittyera', ceoLinkedin: 'https://www.linkedin.com/in/dilipti/', ceoSince: '2022-04',
+    github: 'https://github.com/CogniSwitch',
+    githubTopRepo: 'https://github.com/CogniSwitch/LlamaSwitch', githubStars: 19,
+    ceoName: 'Dilip Ittyera', ceoLinkedin: 'https://www.linkedin.com/in/dilipti/', founded: '2022',
     favicon: 'https://cogniswitch.ai/icon.png?icon.0r87w_.~ngn1k.png', product: 'Neuro-symbolic Trust Layer',
     industry: 'Healthcare', location: 'California, US', funding: 'Not disclosed', fundingUrl: '',
     postTitle: 'Understanding How Model Bias Impacts Agents Outputs', postDate: '2026-06-19',
@@ -123,7 +129,7 @@ const organizations = [
   {
     name: 'DaaX', initials: 'DX', website: 'https://daax.ai/',
     linkedin: 'https://www.linkedin.com/company/daax-ai/',
-    ceoName: 'Sunil Baliga', ceoLinkedin: 'https://www.linkedin.com/in/sunil-baliga/', ceoSince: '2024-11',
+    ceoName: 'Sunil Baliga', ceoLinkedin: 'https://www.linkedin.com/in/sunil-baliga/', founded: '2025',
     favicon: 'https://daax.ai/favicon.ico', product: 'Agentic Enterprise Search',
     industry: 'Enterprise Search', location: 'California, US', funding: 'Not disclosed', fundingUrl: '',
     postTitle: 'Technical Note: LAKEer + UCP Verification Architecture', postDate: '2026-08-01',
@@ -152,7 +158,9 @@ const organizations = [
   {
     name: 'expert.ai', initials: 'eAI', website: 'https://www.expert.ai/',
     linkedin: 'https://www.linkedin.com/company/expert-ai/',
-    ceoName: 'Dario Pardi', ceoLinkedin: 'https://www.linkedin.com/in/dario-pardi-aa834b8/', ceoSince: '2023-07',
+    github: 'https://github.com/therealexpertai',
+    githubTopRepo: 'https://github.com/therealexpertai/studio-samples', githubStars: 5,
+    ceoName: 'Dario Pardi', ceoLinkedin: 'https://www.linkedin.com/in/dario-pardi-aa834b8/', founded: '2023',
     favicon: 'https://d2bd3fvxio3enu.cloudfront.net/expertai2025/uploads/2025/04/cropped-favicon-png-32x32.avif',
     product: 'EidenAI Suite', industry: 'Enterprise NLP', location: 'Emilia-Romagna, Italy',
     funding: 'Public (EXAI)', fundingUrl: 'https://www.expert.ai/investors/',
@@ -187,22 +195,26 @@ const organizations = [
   {
     name: 'ExtensityAI', initials: 'EX', website: 'https://www.extensity.ai/',
     linkedin: 'https://www.linkedin.com/company/extensityai/',
-    ceoName: 'Thomas N.', ceoLinkedin: 'https://www.linkedin.com/in/thomas-n-08b31370/', ceoSince: '2024-03',
+    ceoName: 'Thomas N.', ceoLinkedin: 'https://www.linkedin.com/in/thomas-n-08b31370/', founded: '2023',
     favicon: 'https://framerusercontent.com/images/USE7pqix9s7NoahhFPQipfDaDok.svg', product: 'SymbolicAI',
+    github: 'https://github.com/ExtensityAI', productUrl: 'https://github.com/ExtensityAI/symbolicai',
+    githubTopRepo: 'https://github.com/ExtensityAI/symbolicai', githubStars: 1745,
     industry: 'Research Automation', location: 'Upper Austria, Austria', funding: 'Not disclosed', fundingUrl: '',
     postTitle: 'Trusted AI for Enterprise Knowledge', postDate: '2026-06-29',
     postUrl: 'https://www.extensity.ai/whitepaper/trusted-ai-for-enterprise-knowledge', color: '#7147b8',
     posts: [
       { title: 'Trusted AI for Enterprise Knowledge', date: '2026-06-29', url: 'https://www.extensity.ai/whitepaper/trusted-ai-for-enterprise-knowledge' },
-      { title: 'Trustworthy Agent Design', date: '', url: 'https://arxiv.org/abs/2508.03665' },
-      { title: 'HyDRA – Knowledge Graph Construction', date: '', url: 'https://arxiv.org/abs/2507.15917' },
+      { title: 'Trustworthy Agent Design', date: '2025-08-05', url: 'https://arxiv.org/abs/2508.03665' },
+      { title: 'HyDRA – Knowledge Graph Construction', date: '2025-07-21', url: 'https://arxiv.org/abs/2507.15917' },
       { title: 'SymbolicAI Framework', date: '', url: 'https://github.com/ExtensityAI/symbolicai' }
     ]
   },
   {
     name: 'Franz Inc.', initials: 'F', website: 'https://franz.com/',
     linkedin: 'https://www.linkedin.com/company/franz-inc/', favicon: 'https://franz.com/images/favicon.ico',
-    ceoName: 'Jans Aasman', ceoLinkedin: 'https://www.linkedin.com/in/jans-aasman/', ceoSince: '2006-02',
+    github: 'https://github.com/franzinc',
+    githubTopRepo: 'https://github.com/franzinc/aserve', githubStars: 204,
+    ceoName: 'Jans Aasman', ceoLinkedin: 'https://www.linkedin.com/in/jans-aasman/', founded: '1984',
     product: 'AllegroGraph', industry: 'Knowledge Graphs', location: 'California, US',
     funding: 'Not disclosed', fundingUrl: '',
     postTitle: 'AllegroGraph named to the AI100', postDate: '2026-07-16',
@@ -233,7 +245,8 @@ const organizations = [
   {
     name: 'Growth Protocol', initials: 'GP', website: 'https://www.growthprotocol.ai/',
     linkedin: 'https://www.linkedin.com/company/growthprotocolai/',
-    ceoName: 'Miroslav Dimitrov', ceoLinkedin: 'https://www.linkedin.com/in/mirodimitrov/', ceoSince: '2024-11',
+    github: 'https://github.com/growth-protocol-ai',
+    ceoName: 'Miroslav Dimitrov', ceoLinkedin: 'https://www.linkedin.com/in/mirodimitrov/', founded: '2024',
     favicon: 'https://www.growthprotocol.ai/favicon.ico', product: 'Enterprise Reasoning Platform',
     industry: 'Decision Intelligence', location: 'New York, US', funding: 'Not disclosed', fundingUrl: '',
     postTitle: "The Future of Women's Health: Why Smart CPG Brands Are Betting on Cycle Syncing", postDate: '2025-05-21',
@@ -254,7 +267,7 @@ const organizations = [
   {
     name: 'icogz', initials: 'IC', website: 'https://www.icogz.com/',
     linkedin: 'https://www.linkedin.com/company/icogz/',
-    ceoName: 'Amit Tripathi', ceoLinkedin: 'https://www.linkedin.com/in/amitt/', ceoSince: '2018-06',
+    ceoName: 'Amit Tripathi', ceoLinkedin: 'https://www.linkedin.com/in/amitt/', founded: '2022',
     favicon: 'https://framerusercontent.com/images/qBvmLNzKoLpEu6fCTv5Hc2WMlg0.png', product: 'Aryabot',
     industry: 'Business Intelligence', location: 'Dubai, UAE', funding: '$1.4M pre-seed (2025)',
     fundingUrl: 'https://www.thesaasnews.com/news/icogz-raises-1-4-million-in-pre-seed-round/',
@@ -262,33 +275,35 @@ const organizations = [
     postUrl: 'https://www.icogz.com/blogs/how-mena-sea-retailers-are-leapfrogging-with-ai', color: '#08759a',
     posts: [
       { title: 'How MENA & SEA Retailers Are Leapfrogging with AI', date: '2026-03-20', url: 'https://www.icogz.com/blogs/how-mena-sea-retailers-are-leapfrogging-with-ai' },
-      { title: "Inside Aryabot™ Agentic Mode: AI That Doesn't Wait for Commands", date: '', url: 'https://www.icogz.com/blogs/inside-aryabot-agentic-mode-ai-that-doesn%E2%80%99t-wait-for-commands' },
-      { title: 'How AI-Driven Forecasting Helps Plan Inventory Smarter in Omnichannel Retail', date: '', url: 'https://www.icogz.com/blogs/how-ai-driven-forecasting-helps-plan-inventory-smarter-in-omnichannel-retail' },
-      { title: 'Retail Shrinkage to Growth, How Aryabot™ Helps Reduce Loss and Boost ROI', date: '', url: 'https://www.icogz.com/blogs/retail-shrinkage-to-growth-how-aryabot-helps-reduce-loss-and-boost-roi' },
-      { title: 'Why Market Coverage Is the Missing Metric in Retail Sales Intelligence', date: '', url: 'https://www.icogz.com/blogs/why-market-coverage-is-the-missing-metric-in-retail-sales-intelligence' },
-      { title: 'From Dashboards to Action - Why Traditional Sales Reports No Longer Work', date: '', url: 'https://www.icogz.com/blogs/from-dashboards-to-action-why-traditional-sales-reports-no-longer-work' },
-      { title: 'How AI Is Reshaping Retail Sales: Real-Time Insights That Convert', date: '', url: 'https://www.icogz.com/blogs/how-ai-is-reshaping-retail-sales-real-time-insights-that-convert' },
-      { title: 'Retail Agents at Work: Autonomous Inventory & Pricing Decisions', date: '', url: 'https://www.icogz.com/blogs/retail-agents-at-work-autonomous-inventory-pricing-decisions' },
-      { title: 'From Assistants to Agents: Why GenAI 2.0 Is Redefining Retail Ops', date: '', url: 'https://www.icogz.com/blogs/from-assistants-to-agents-why-genai-2-0-is-redefining-retail-ops' },
-      { title: 'Agentic AI Is Here: What It Means for Enterprise Intelligence in 2025', date: '', url: 'https://www.icogz.com/blogs/agentic-ai-is-here-what-it-means-for-enterprise-intelligence-in-2025' },
-      { title: 'AI-Powered Business Intelligence for E-Commerce and Supply Chains', date: '', url: 'https://www.icogz.com/blogs/ai-powered-business-intelligence-for-e-commerce-and-supply-chains' },
-      { title: 'AI Business Intelligence Solutions: Transforming Decision-Making in the B2B Landscape', date: '', url: 'https://www.icogz.com/blogs/ai-business-intelligence-solutions-transforming-decision-making-in-the-b2b-landscape' },
-      { title: 'From Data to Action: The KPIs CEOs Need to Watch in 2025', date: '', url: 'https://www.icogz.com/blogs/from-data-to-action-the-kpis-ceos-need-to-watch-in-2025' },
-      { title: 'Transforming Retail Intelligence: How Advanced Analytics and Agentic AI Are Shaping the Future', date: '', url: 'https://www.icogz.com/blogs/the-current-state-of-analytics-in-retail-intelligence' },
-      { title: 'Advancing Business Intelligence: The Impact of AI and ML Innovations', date: '', url: 'https://www.icogz.com/blogs/advancing-business-intelligence-the-impact-of-ai-and-ml-innovations' },
-      { title: 'AI and ML Innovations: Revolutionising Business Intelligence', date: '', url: 'https://www.icogz.com/blogs/ai-and-ml-innovations-revolutionising-business-intelligence' },
-      { title: 'The Cogs of Intelligence: The Role of AI-Driven Business Intelligence Solutions', date: '', url: 'https://www.icogz.com/blogs/the-cogs-of-intelligence-the-role-of-ai-driven-business' },
-      { title: 'Unlocking the Power of Business Intelligence: Turning Data into Actionable Insights', date: '', url: 'https://www.icogz.com/blogs/unlocking-the-power-of-business-intelligence' },
-      { title: 'The Journey of AI: Overcoming Implementation Challenges', date: '', url: 'https://www.icogz.com/blogs/the-journey-of-ai-overcoming-implementation-challenges' },
-      { title: 'From Raw Data to Actionable Insights: A Complete Overview of Business Intelligence', date: '', url: 'https://www.icogz.com/blogs/from-raw-data-to-actionable-insights' },
-      { title: 'Data Security in AI: Striking the Delicate Balance Between Actionable Insights and Confidentiality', date: '', url: 'https://www.icogz.com/blogs/data-security-in-ai' },
-      { title: 'Data Analytics: A Catalyst for Climate Action', date: '', url: 'https://www.icogz.com/blogs/data-analytics-a-catalyst-for-climate-action' }
+      { title: "Inside Aryabot™ Agentic Mode: AI That Doesn't Wait for Commands", date: '2026-03-20', url: 'https://www.icogz.com/blogs/inside-aryabot-agentic-mode-ai-that-doesn%E2%80%99t-wait-for-commands' },
+      { title: 'How AI-Driven Forecasting Helps Plan Inventory Smarter in Omnichannel Retail', date: '2026-03-20', url: 'https://www.icogz.com/blogs/how-ai-driven-forecasting-helps-plan-inventory-smarter-in-omnichannel-retail' },
+      { title: 'Retail Shrinkage to Growth, How Aryabot™ Helps Reduce Loss and Boost ROI', date: '2026-03-20', url: 'https://www.icogz.com/blogs/retail-shrinkage-to-growth-how-aryabot-helps-reduce-loss-and-boost-roi' },
+      { title: 'Why Market Coverage Is the Missing Metric in Retail Sales Intelligence', date: '2026-03-20', url: 'https://www.icogz.com/blogs/why-market-coverage-is-the-missing-metric-in-retail-sales-intelligence' },
+      { title: 'From Dashboards to Action - Why Traditional Sales Reports No Longer Work', date: '2026-03-20', url: 'https://www.icogz.com/blogs/from-dashboards-to-action-why-traditional-sales-reports-no-longer-work' },
+      { title: 'How AI Is Reshaping Retail Sales: Real-Time Insights That Convert', date: '2026-03-20', url: 'https://www.icogz.com/blogs/how-ai-is-reshaping-retail-sales-real-time-insights-that-convert' },
+      { title: 'Retail Agents at Work: Autonomous Inventory & Pricing Decisions', date: '2026-03-20', url: 'https://www.icogz.com/blogs/retail-agents-at-work-autonomous-inventory-pricing-decisions' },
+      { title: 'From Assistants to Agents: Why GenAI 2.0 Is Redefining Retail Ops', date: '2026-03-20', url: 'https://www.icogz.com/blogs/from-assistants-to-agents-why-genai-2-0-is-redefining-retail-ops' },
+      { title: 'Agentic AI Is Here: What It Means for Enterprise Intelligence in 2025', date: '2026-03-20', url: 'https://www.icogz.com/blogs/agentic-ai-is-here-what-it-means-for-enterprise-intelligence-in-2025' },
+      { title: 'AI-Powered Business Intelligence for E-Commerce and Supply Chains', date: '2026-03-20', url: 'https://www.icogz.com/blogs/ai-powered-business-intelligence-for-e-commerce-and-supply-chains' },
+      { title: 'AI Business Intelligence Solutions: Transforming Decision-Making in the B2B Landscape', date: '2026-03-20', url: 'https://www.icogz.com/blogs/ai-business-intelligence-solutions-transforming-decision-making-in-the-b2b-landscape' },
+      { title: 'From Data to Action: The KPIs CEOs Need to Watch in 2025', date: '2026-03-20', url: 'https://www.icogz.com/blogs/from-data-to-action-the-kpis-ceos-need-to-watch-in-2025' },
+      { title: 'Transforming Retail Intelligence: How Advanced Analytics and Agentic AI Are Shaping the Future', date: '2026-03-20', url: 'https://www.icogz.com/blogs/the-current-state-of-analytics-in-retail-intelligence' },
+      { title: 'Advancing Business Intelligence: The Impact of AI and ML Innovations', date: '2026-03-20', url: 'https://www.icogz.com/blogs/advancing-business-intelligence-the-impact-of-ai-and-ml-innovations' },
+      { title: 'AI and ML Innovations: Revolutionising Business Intelligence', date: '2026-03-20', url: 'https://www.icogz.com/blogs/ai-and-ml-innovations-revolutionising-business-intelligence' },
+      { title: 'The Cogs of Intelligence: The Role of AI-Driven Business Intelligence Solutions', date: '2026-03-20', url: 'https://www.icogz.com/blogs/the-cogs-of-intelligence-the-role-of-ai-driven-business' },
+      { title: 'Unlocking the Power of Business Intelligence: Turning Data into Actionable Insights', date: '2026-03-20', url: 'https://www.icogz.com/blogs/unlocking-the-power-of-business-intelligence' },
+      { title: 'The Journey of AI: Overcoming Implementation Challenges', date: '2026-03-20', url: 'https://www.icogz.com/blogs/the-journey-of-ai-overcoming-implementation-challenges' },
+      { title: 'From Raw Data to Actionable Insights: A Complete Overview of Business Intelligence', date: '2026-03-20', url: 'https://www.icogz.com/blogs/from-raw-data-to-actionable-insights' },
+      { title: 'Data Security in AI: Striking the Delicate Balance Between Actionable Insights and Confidentiality', date: '2026-03-20', url: 'https://www.icogz.com/blogs/data-security-in-ai' },
+      { title: 'Data Analytics: A Catalyst for Climate Action', date: '2026-03-20', url: 'https://www.icogz.com/blogs/data-analytics-a-catalyst-for-climate-action' }
     ]
   },
   {
     name: 'Imandra', initials: 'IM', website: 'https://www.imandra.ai/',
     linkedin: 'https://www.linkedin.com/company/imandra/',
-    ceoName: 'Grant Olney Passmore', ceoLinkedin: 'https://www.linkedin.com/in/grantolneypassmore/', ceoSince: '2014-04',
+    github: 'https://github.com/imandra-ai',
+    githubTopRepo: 'https://github.com/imandra-ai/verified-react', githubStars: 120,
+    ceoName: 'Grant Olney Passmore', ceoLinkedin: 'https://www.linkedin.com/in/grantolneypassmore/', founded: '2014',
     favicon: 'https://www.imandra.ai/favicon/favicon.png', product: 'Imandra Universe',
     industry: 'Formal Verification', location: 'Texas, US', funding: '$9.9M disclosed',
     fundingUrl: 'https://www.dealdata.net/company-profile/0001765781/',
@@ -326,7 +341,9 @@ const organizations = [
   {
     name: 'Kognitos', initials: 'KO', website: 'https://www.kognitos.com/',
     linkedin: 'https://www.linkedin.com/company/kognitos/',
-    ceoName: 'Binny Gill', ceoLinkedin: 'https://www.linkedin.com/in/binnygill/', ceoSince: '2021-01',
+    github: 'https://github.com/kognitos',
+    githubTopRepo: 'https://github.com/kognitos/kognitos-plugin', githubStars: 1,
+    ceoName: 'Binny Gill', ceoLinkedin: 'https://www.linkedin.com/in/binnygill/', founded: '2020',
     favicon: 'https://www.kognitos.com/img/favicon.png', product: 'Kognitos', industry: 'Process Automation',
     location: 'California, US', funding: '$25M Series B',
     fundingUrl: 'https://www.kognitos.com/news/kognitos-launches-neurosymbolic-ai-platform-for-automating-business-operations-backed-by-25m-series-b/',
@@ -372,7 +389,8 @@ const organizations = [
   {
     name: 'Kortexya', initials: 'KX', website: 'https://kortexya.com/',
     linkedin: 'https://www.linkedin.com/company/kortexya/', favicon: 'https://kortexya.com/favicon.ico',
-    ceoName: 'David Loiret', ceoLinkedin: 'https://www.linkedin.com/in/david-loiret/', ceoSince: '2025-05',
+    github: 'https://github.com/kortexya',
+    ceoName: 'David Loiret', ceoLinkedin: 'https://www.linkedin.com/in/david-loiret/', founded: '2025',
     product: 'ReasoningLayer', industry: 'Enterprise AI Infrastructure', location: 'Grand Est, France',
     funding: 'Bpifrance grant', fundingUrl: 'https://lafrenchtechest.fr/startup/kortexya-ak7z/',
     postTitle: '', postDate: '', postUrl: '', color: '#394cc8'
@@ -380,7 +398,7 @@ const organizations = [
   {
     name: 'KYield', initials: 'KY', website: 'https://kyield.com/',
     linkedin: 'https://www.linkedin.com/company/kyield',
-    ceoName: 'Mark Montgomery', ceoLinkedin: 'https://www.linkedin.com/in/markamontgomery/', ceoSince: '2002-05',
+    ceoName: 'Mark Montgomery', ceoLinkedin: 'https://www.linkedin.com/in/markamontgomery/', founded: '2002',
     favicon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><polygon points='16,0 32,8 32,24 16,32 0,24 0,8' fill='%231464c8'/><text x='16' y='22' text-anchor='middle' fill='white' font-size='16' font-weight='900' font-family='sans-serif'>K</text></svg>",
     product: 'KYield OS (KOS)', industry: 'Enterprise AI', location: 'New Mexico, US', funding: 'Not disclosed', fundingUrl: '',
     postTitle: 'A Declaration of Digital Independence', postDate: '2026-07-04',
@@ -391,14 +409,15 @@ const organizations = [
       { title: 'Enterprise AI Challenges in 2026: Mystery Meat, Kill Zones, Cognitive Surrender, and Vibe Bombs', date: '2026-05-01', url: 'https://kyield.com/insights/newsletter/2026/05/vibe-bombs-cognitive-surrender.html' },
       { title: 'KYield Releases KOS v3, the First Enterprise Neurosymbolic AI Operating System', date: '2026-04-29', url: 'https://kyield.com/press/kos-v3-release-2026-04-29.html' },
       { title: 'The Science of Uncertainty: And the Reliability Premium', date: '2026-04-15', url: 'https://kyield.com/insights-science-of-uncertainty.html' },
-      { title: 'Neurosymbolic AI 2026: Strategic Design Will Determine Outcomes', date: '', url: 'https://kyield.com/insights-neurosymbolic-ai-2026.html' },
-      { title: 'The Power of Neurosymbolic AI', date: '', url: 'https://kyield.com/insights-power-of-neurosymbolic-ai.html' }
+      { title: 'Neurosymbolic AI 2026: Strategic Design Will Determine Outcomes', date: '2026-03-07', url: 'https://kyield.com/insights-neurosymbolic-ai-2026.html' },
+      { title: 'The Power of Neurosymbolic AI', date: '2023-03-29', url: 'https://kyield.com/insights-power-of-neurosymbolic-ai.html' }
     ]
   },
   {
     name: 'Lakmoos', initials: 'LK', website: 'https://lakmoos.com/',
     linkedin: 'https://www.linkedin.com/company/lakmoos/',
-    ceoName: 'Kamila Zahradnickova', ceoLinkedin: 'https://www.linkedin.com/in/kamila-zahradnickova/', ceoSince: '2023-06',
+    github: 'https://github.com/lakmoos',
+    ceoName: 'Kamila Zahradnickova', ceoLinkedin: 'https://www.linkedin.com/in/kamila-zahradnickova/', founded: '2023',
     favicon: 'https://framerusercontent.com/images/0mjREm7vY2D4GrHhBYxIbAHOEA0.png', product: 'Lakmoos AI',
     industry: 'Market Research', location: 'South Moravian, Czechia', funding: '€300K pre-seed (2024)',
     fundingUrl: 'https://www.vestbee.com/insights/articles/czech-lakmoos-raises-300k-from-presto-ventures',
@@ -458,7 +477,7 @@ const organizations = [
   {
     name: 'Logical Intelligence', initials: 'LI', website: 'https://logicalintelligence.com/',
     linkedin: 'https://www.linkedin.com/company/logical-intelligence/',
-    ceoName: 'Eve Bodnia', ceoLinkedin: 'https://www.linkedin.com/in/eve-bodnia-351b41355/', ceoSince: '2025-01',
+    ceoName: 'Eve Bodnia', ceoLinkedin: 'https://www.linkedin.com/in/eve-bodnia-351b41355/', founded: '2025',
     favicon: 'https://framerusercontent.com/images/xAxeJPFxOsjXbeP6wP6ChkJieT0.png',
     product: 'Kona 1.0 / Aleph', industry: 'Critical Systems AI', location: 'California, US',
     funding: 'Not disclosed', fundingUrl: '',
@@ -480,7 +499,9 @@ const organizations = [
   {
     name: 'NeuroFusion', initials: 'NF', website: 'https://neurofusion.ai/en/',
     linkedin: 'https://www.linkedin.com/company/neurofusion/',
-    ceoName: 'Hans Choi', ceoLinkedin: 'https://www.linkedin.com/in/hanchul/', ceoSince: '2022-01',
+    github: 'https://github.com/NeuroFusionAI',
+    githubTopRepo: 'https://github.com/NeuroFusionAI/fibo-mcp', githubStars: 23,
+    ceoName: 'Hans Choi', ceoLinkedin: 'https://www.linkedin.com/in/hanchul/', founded: '2022',
     favicon: 'https://neurofusion.ai/static/img/favicon.ico?v=1.0.0', product: 'Valley AI',
     industry: 'FinTech & Investing', location: 'Gyeonggi, South Korea', funding: 'Not disclosed', fundingUrl: '',
     postTitle: '', postDate: '', postUrl: '', color: '#1764a1'
@@ -488,7 +509,8 @@ const organizations = [
   {
     name: 'Onteric', initials: 'ON', website: 'https://www.onteric.com/',
     linkedin: 'https://www.linkedin.com/company/onteric/',
-    ceoName: 'Jen Lothian', ceoLinkedin: 'https://www.linkedin.com/in/jjlothian/', ceoSince: '2022-07',
+    github: 'https://github.com/onteric',
+    ceoName: 'Jen Lothian', ceoLinkedin: 'https://www.linkedin.com/in/jjlothian/', founded: '2022',
     favicon: 'https://cdn.prod.website-files.com/6a1ea9eb23a5f0abcf6c5c04/6a24639580346fdd1523423b_onteric-icon-light-tight.png',
     product: 'Onteric', industry: 'Financial Services', location: 'Wales, UK', funding: '£1.3M pre-seed (2026)',
     fundingUrl: 'https://businesscloud.co.uk/news/female-angels-back-former-british-army-captains-datawollet/',
@@ -507,7 +529,7 @@ const organizations = [
   {
     name: 'Onton', initials: 'OT', website: 'https://onton.com/',
     linkedin: 'https://www.linkedin.com/company/onton-ai/',
-    ceoName: 'Zach Hudson', ceoLinkedin: 'https://www.linkedin.com/in/hudsonzp/', ceoSince: '2022-04',
+    ceoName: 'Zach Hudson', ceoLinkedin: 'https://www.linkedin.com/in/hudsonzp/', founded: '2023',
     favicon: 'favicons/onton.png',
     product: 'AI Shopping Assistant', industry: 'Software Development', location: 'California, US',
     funding: '~$10M total (2025)',
@@ -528,7 +550,7 @@ const organizations = [
   {
     name: 'Permion', initials: 'PE', website: 'https://www.permion.ai/',
     linkedin: 'https://www.linkedin.com/company/permion/',
-    ceoName: 'Arun Majumdar', ceoLinkedin: 'https://www.linkedin.com/in/arun-majumdar-8a555336/', ceoSince: '2018-03',
+    ceoName: 'Arun Majumdar', ceoLinkedin: 'https://www.linkedin.com/in/arun-majumdar-8a555336/', founded: '2018',
     favicon: 'https://www.permion.ai/wp-content/uploads/2025/01/cropped-permion-logo_icon-192x192.png', product: 'Permion AI',
     industry: 'Mission-Critical AI', location: 'Washington DC Metro, US', funding: 'Not disclosed', fundingUrl: '',
     postTitle: 'Permion selected and representing the USA as the winner in the Government AI Grand Challenge for the G7+EU', postDate: '2026-07-01',
@@ -542,7 +564,9 @@ const organizations = [
   {
     name: 'QGI', initials: 'QG', website: 'https://qgi.dev/',
     linkedin: 'https://www.linkedin.com/company/quantum-general-intelligence-inc',
-    ceoName: 'Dain Ehring', ceoLinkedin: 'https://www.linkedin.com/in/dainehring/', ceoSince: '2026-01',
+    github: 'https://github.com/Quantum-General-Intelligence',
+    githubTopRepo: 'https://github.com/Quantum-General-Intelligence/legalis-parser', githubStars: 1,
+    ceoName: 'Dain Ehring', ceoLinkedin: 'https://www.linkedin.com/in/dainehring/', founded: '2026',
     favicon: 'favicons/qgi.jpg', product: 'QAG Engine',
     industry: 'AI Infrastructure', location: 'California, US', funding: '$3M SAFE (planned, 2026)',
     fundingUrl: 'https://www.einpresswire.com/article/885914885/quantum-general-intelligence-qgi-emerges-from-stealth-to-make-ai-admissible-for-regulated-industries',
@@ -562,7 +586,7 @@ const organizations = [
   {
     name: 'RAAPID', initials: 'RP', website: 'https://www.raapidinc.com/',
     linkedin: 'https://www.linkedin.com/company/raapid/',
-    ceoName: 'Chetan Parikh', ceoLinkedin: 'https://www.linkedin.com/in/chetanparikh/', ceoSince: '2022-02',
+    ceoName: 'Chetan Parikh', ceoLinkedin: 'https://www.linkedin.com/in/chetanparikh/', founded: '2022',
     favicon: 'https://www.raapidinc.com/favicon.ico', product: 'Risk Adjustment Platform', industry: 'Healthcare',
     location: 'Kentucky, US', funding: '$6.7M disclosed',
     fundingUrl: 'https://www.cbinsights.com/company/raapid/financials',
@@ -582,7 +606,7 @@ const organizations = [
   {
     name: 'Reshuffle AI', initials: 'RS', website: 'https://reshuffleai.com/',
     linkedin: 'https://www.linkedin.com/company/reshuffle-ai/',
-    ceoName: 'Sameer Koul', ceoLinkedin: 'https://www.linkedin.com/in/samkoul/', ceoSince: '2023-01',
+    ceoName: 'Sameer Koul', ceoLinkedin: 'https://www.linkedin.com/in/samkoul/', founded: '2024',
     favicon: 'https://reshuffleai.com/favicon.ico', product: 'Reasonex', industry: 'Regulated Industries',
     location: 'Singapore, Singapore', funding: 'Not disclosed', fundingUrl: '',
     postTitle: '', postDate: '', postUrl: '', color: '#8f3746'
@@ -590,7 +614,9 @@ const organizations = [
   {
     name: 'Rippletide', initials: 'RT', website: 'https://www.rippletide.com/',
     linkedin: 'https://www.linkedin.com/company/rippletide/',
-    ceoName: 'Patrick Joubert', ceoLinkedin: 'https://www.linkedin.com/in/patrick-joubert-%F0%9F%A7%A2-9028231/', ceoSince: '2024-02',
+    github: 'https://github.com/rippletideco',
+    githubTopRepo: 'https://github.com/rippletideco/rippletide', githubStars: 86,
+    ceoName: 'Patrick Joubert', ceoLinkedin: 'https://www.linkedin.com/in/patrick-joubert-%F0%9F%A7%A2-9028231/', founded: '2024',
     favicon: 'https://www.rippletide.com/favicon.ico', product: 'Decision Runtime', industry: 'AI Agent Infrastructure',
     location: 'Ile-de-France, France', funding: '€4M seed (2025)',
     fundingUrl: 'https://www.oneragtime.com/stories/rippletide-seed-4m-europe-us',
@@ -657,7 +683,9 @@ const organizations = [
   {
     name: 'SeKondBrain AI', initials: 'SB', website: 'https://www.sekondbrain.ai/',
     linkedin: 'https://www.linkedin.com/company/sekondbrain/',
-    ceoName: 'Sachin Dev Duggal', ceoLinkedin: 'https://www.linkedin.com/in/sachin-dev-duggal-255406/', ceoSince: '2025-09',
+    github: 'https://github.com/SeKondBrainAILabs',
+    githubTopRepo: 'https://github.com/SeKondBrainAILabs/docs_sekondbrain', githubStars: 0,
+    ceoName: 'Sachin Dev Duggal', ceoLinkedin: 'https://www.linkedin.com/in/sachin-dev-duggal-255406/', founded: '2025',
     favicon: 'https://framerusercontent.com/images/TpDgoIiYXMbCgvdh8KAaXl3zuxc.png', product: 'Cognitive OS',
     industry: 'Cognitive AI', location: 'Dubai, UAE', funding: 'Not disclosed', fundingUrl: '',
     postTitle: 'Atomic Unit of X', postDate: '2026-05-05',
@@ -670,7 +698,9 @@ const organizations = [
   {
     name: 'Symbolica', initials: 'SY', website: 'https://www.symbolica.ai/',
     linkedin: 'https://www.linkedin.com/company/symbolica-ai/',
-    ceoName: 'George Morgan', ceoLinkedin: 'https://www.linkedin.com/in/georgemorgan2/', ceoSince: '2022-07',
+    github: 'https://github.com/symbolica-ai',
+    githubTopRepo: 'https://github.com/symbolica-ai/arcgentica', githubStars: 307,
+    ceoName: 'George Morgan', ceoLinkedin: 'https://www.linkedin.com/in/georgemorgan2/', founded: '2022',
     favicon: 'https://www.symbolica.ai/favicon-symbolica.png', product: 'Agentica',
     industry: 'AI Agent Infrastructure', location: 'California, US', funding: '$33M total (2024)',
     fundingUrl: 'https://siliconangle.com/2024/04/09/symbolica-launches-33m-change-ai-industry-symbolic-models/',
@@ -686,7 +716,9 @@ const organizations = [
   {
     name: 'Synalinks', initials: 'SL', website: 'https://www.synalinks.com/',
     linkedin: 'https://www.linkedin.com/company/synalinks/',
-    ceoName: 'Yoan Sallami', ceoLinkedin: 'https://www.linkedin.com/in/yoan-sallami/', ceoSince: '2023-09',
+    github: 'https://github.com/SynaLinks',
+    githubTopRepo: 'https://github.com/SynaLinks/synalinks-skills', githubStars: 905,
+    ceoName: 'Yoan Sallami', ceoLinkedin: 'https://www.linkedin.com/in/yoan-sallami/', founded: '2023',
     favicon: 'https://www.synalinks.com/favicon.svg', product: 'Synalinks', industry: 'AI Agent Infrastructure',
     location: 'Occitanie, France', funding: 'Not disclosed', fundingUrl: '',
     postTitle: 'Context Graphs: The Three Graph Structures Behind Reliable AI Agents', postDate: '2026-02-25',
@@ -705,7 +737,9 @@ const organizations = [
   {
     name: 'UMNAI', initials: 'UM', website: 'https://umnai.com/',
     linkedin: 'https://www.linkedin.com/company/umnai/',
-    ceoName: 'Angelo Dalli', ceoLinkedin: 'https://www.linkedin.com/in/angelodalli/', ceoSince: '2019-04',
+    github: 'https://github.com/umnaibase',
+    githubTopRepo: 'https://github.com/umnaibase/umnai-examples', githubStars: 2,
+    ceoName: 'Angelo Dalli', ceoLinkedin: 'https://www.linkedin.com/in/angelodalli/', founded: '2019',
     favicon: 'https://umnai.com/__l5e/assets-v1/cb515d94-bfd9-42ac-b900-6051f0fedd97/umnai-logo-footer.png',
     product: 'Hybrid Intelligence', industry: 'Decision Intelligence', location: 'England, UK',
     funding: 'Not disclosed', fundingUrl: '',
@@ -750,7 +784,7 @@ const organizations = [
   {
     name: 'Uniphore', initials: 'UP', website: 'https://www.uniphore.com/',
     linkedin: 'https://www.linkedin.com/company/uniphore',
-    ceoName: 'Umesh Sachdev', ceoLinkedin: 'https://www.linkedin.com/in/umeshsachdev/', ceoSince: '2008-04',
+    ceoName: 'Umesh Sachdev', ceoLinkedin: 'https://www.linkedin.com/in/umeshsachdev/', founded: '2008',
     favicon: 'https://www.uniphore.com/wp-content/uploads/2025/12/cropped-Uniphore–Bug–Gradient–Light-192x192.webp',
     product: 'Business AI Cloud', industry: 'Business AI', location: 'California, US',
     funding: '$260M Series F (2025)',
@@ -772,7 +806,9 @@ const organizations = [
   {
     name: 'UnlikelyAI', initials: 'UA', website: 'https://www.unlikely.ai/',
     linkedin: 'https://www.linkedin.com/company/unlikely-ai/', favicon: 'https://www.unlikely.ai/favicon.ico',
-    ceoName: 'William Tunstall-Pedoe', ceoLinkedin: 'https://www.linkedin.com/in/williamtp/', ceoSince: '2019-01',
+    github: 'https://github.com/UnlikelyAI',
+    githubTopRepo: 'https://github.com/UnlikelyAI/tau2-bench', githubStars: 0,
+    ceoName: 'William Tunstall-Pedoe', ceoLinkedin: 'https://www.linkedin.com/in/williamtp/', founded: '2018',
     product: 'UnlikelyAI Platform', industry: 'Trustworthy AI', location: 'England, UK', funding: '$20M seed (2022)',
     fundingUrl: 'https://www.unlikely.ai/newsroom/unlikely-ai-raises-20-million-in-oversubscribed-seed-round',
     postTitle: "STRIDE and the way forward for trustworthy AI: our founder's new essay", postDate: '2026-07-31',
@@ -820,7 +856,8 @@ const state = {
   country: '',
   sortKey: 'name',
   sortDirection: 'asc',
-  blogCompanies: new Set()
+  blogCompanies: new Set(),
+  blogTypes: new Set()
 };
 
 const elements = {
@@ -831,7 +868,6 @@ const elements = {
   empty: document.querySelector('#empty-state'),
   sortableHeaders: [...document.querySelectorAll('th.sortable')],
   modal: document.querySelector('#modal'),
-  help: document.querySelector('#help'),
   close: document.querySelector('#close'),
   methodLinks: [document.querySelector('#footer-method-link')],
   navDirectory: document.querySelector('#nav-directory'),
@@ -840,9 +876,13 @@ const elements = {
   blogsView: document.querySelector('#blogs-view'),
   blogsList: document.querySelector('#blogs-list'),
   blogCompanyFilters: document.querySelector('#blog-company-filters'),
+  blogTypeFilters: document.querySelector('#blog-type-filters'),
   clearBlogFilters: document.querySelector('#clear-blog-filters'),
+  blogFilters: document.querySelector('.blog-filters'),
+  blogFilterToggle: document.querySelector('#blog-filter-toggle'),
   blogResultsCount: document.querySelector('#blog-results-count'),
-  blogsEmpty: document.querySelector('#blogs-empty')
+  blogsEmpty: document.querySelector('#blogs-empty'),
+  postsTimelineRange: document.querySelector('#posts-timeline-range')
 };
 
 const externalIcon = `
@@ -861,10 +901,19 @@ const monthNames = [
   'January', 'February', 'March', 'April', 'May', 'June',
   'July', 'August', 'September', 'October', 'November', 'December'
 ];
+const POST_TIMELINE_END_MONTH = localIsoDate().slice(0, 7);
+const postTimelineStartDate = new Date(`${POST_TIMELINE_END_MONTH}-01T00:00:00Z`);
+postTimelineStartDate.setUTCMonth(postTimelineStartDate.getUTCMonth() - 11);
+const POST_TIMELINE_START_MONTH = postTimelineStartDate.toISOString().slice(0, 7);
 
 const linkedinIcon = `
   <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
     <path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14M8.34 17.34V9.67H5.79v7.67h2.55M7.07 8.57a1.48 1.48 0 1 0-.01-2.96 1.48 1.48 0 0 0 .01 2.96m11.14 8.77v-4.21c0-2.25-1.2-3.29-2.83-3.29a2.8 2.8 0 0 0-2.55 1.4V9.67h-2.55v7.67h2.55v-3.8c0-1 .19-1.97 1.43-1.97s1.24 1.14 1.24 2.04v3.73h2.71Z"></path>
+  </svg>`;
+
+const githubIcon = `
+  <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M12 2C6.48 2 2 6.58 2 12.23c0 4.52 2.87 8.35 6.84 9.71.5.1.68-.22.68-.49 0-.24-.01-1.05-.01-1.9-2.78.62-3.37-1.21-3.37-1.21-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.36-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.37 9.37 0 0 1 12 6.96c.85 0 1.71.12 2.51.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.59.69.49A10.23 10.23 0 0 0 22 12.23C22 6.58 17.52 2 12 2Z" />
   </svg>`;
 
 function escapeHtml(value) {
@@ -880,9 +929,10 @@ function searchableText(organization) {
   return [
     organization.name,
     organization.ceoName,
-    organization.ceoSince,
+    organization.founded,
     organization.product,
-    organization.industry,
+    organization.github,
+    organization.githubTopRepo,
     organization.location,
     organization.funding,
     organization.postTitle,
@@ -903,14 +953,8 @@ function matchingOrganizations() {
   });
 
   return matches.sort((a, b) => {
-    const aValue = a[state.sortKey] ?? '';
-    const bValue = b[state.sortKey] ?? '';
-
-    if (state.sortKey === 'postDate') {
-      if (!aValue && !bValue) return 0;
-      if (!aValue) return 1;
-      if (!bValue) return -1;
-    }
+    const aValue = state.sortKey === 'postCount' ? datedPostCount(a) : a[state.sortKey] ?? '';
+    const bValue = state.sortKey === 'postCount' ? datedPostCount(b) : b[state.sortKey] ?? '';
 
     const comparison = String(aValue).localeCompare(
       String(bValue),
@@ -927,6 +971,40 @@ function fundingTemplate(organization) {
   return `<a class="value-link" href="${escapeHtml(organization.fundingUrl)}" target="_blank" rel="noopener noreferrer">${label}</a>`;
 }
 
+function githubRepoName(url) {
+  try {
+    return decodeURIComponent(new URL(url).pathname.split('/').filter(Boolean).at(-1)) || 'Repository';
+  } catch {
+    return 'Repository';
+  }
+}
+
+function githubTemplate(organization) {
+  if (!organization.github) return '<span class="muted-value">–</span>';
+  const organizationLink = `<a class="github-link" href="${escapeHtml(organization.github)}" target="_blank" rel="noopener noreferrer" title="Open ${escapeHtml(organization.name)} on GitHub" aria-label="${escapeHtml(organization.name)} on GitHub">${githubIcon}</a>`;
+  if (!organization.githubTopRepo) {
+    return `<span class="github-summary">${organizationLink}<span class="muted-value" title="No public repositories found">–</span></span>`;
+  }
+
+  const stars = Number(organization.githubStars) || 0;
+  const repoName = githubRepoName(organization.githubTopRepo);
+  return `
+    <span class="github-summary">
+      ${organizationLink}
+      <a class="github-repo-link" href="${escapeHtml(organization.githubTopRepo)}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(repoName)}, ${stars.toLocaleString('en-US')} GitHub stars" title="Open ${escapeHtml(repoName)}">
+        <span class="github-repo-name">${escapeHtml(repoName)}</span>
+        <span class="github-stars"><span aria-hidden="true">★</span>${stars.toLocaleString('en-US')}</span>
+      </a>
+    </span>`;
+}
+
+function productTemplate(organization) {
+  if (!organization.product) return '<span class="muted-value">–</span>';
+  const label = escapeHtml(organization.product);
+  if (!organization.productUrl) return label;
+  return `<a class="value-link" href="${escapeHtml(organization.productUrl)}" target="_blank" rel="noopener noreferrer">${label}</a>`;
+}
+
 function locationTemplate(location) {
   const country = locationCountry(location);
   if (!country) return escapeHtml(location);
@@ -939,11 +1017,6 @@ function ceoTemplate(organization) {
   return `<a class="ceo-link" href="${escapeHtml(organization.ceoLinkedin)}" target="_blank" rel="noopener noreferrer">
     <span>${escapeHtml(organization.ceoName)}</span>${externalIcon}
   </a>`;
-}
-
-function formatCeoSince(date) {
-  return new Intl.DateTimeFormat('en', { month: 'short', year: 'numeric' })
-    .format(new Date(`${date}-01T00:00:00`));
 }
 
 function formatPostDate(date) {
@@ -959,15 +1032,71 @@ function localIsoDate(date = new Date()) {
   return `${year}-${month}-${day}`;
 }
 
-function postTemplate(organization) {
-  if (!organization.postUrl) return '<span class="muted-value">None found</span>';
-  const date = formatPostDate(organization.postDate);
-  const label = `${organization.postTitle}, ${date}`;
-  return `
-    <a class="post-link" href="${escapeHtml(organization.postUrl)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(organization.postTitle)}" aria-label="${escapeHtml(label)}">
-      <span class="post-date">${escapeHtml(date)}</span>
-      <span class="post-title">${escapeHtml(organization.postTitle)}</span>
-    </a>`;
+function datedPostCount(organization) {
+  return [...postMonthCounts(organization).values()]
+    .reduce((total, count) => total + count, 0);
+}
+
+function postMonthCounts(organization) {
+  return postsForOrganization(organization).reduce((counts, post) => {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(post.date)) return counts;
+    const month = post.date.slice(0, 7);
+    if (month < POST_TIMELINE_START_MONTH || month > POST_TIMELINE_END_MONTH) return counts;
+    counts.set(month, (counts.get(month) || 0) + 1);
+    return counts;
+  }, new Map());
+}
+
+function formatTimelineMonth(month) {
+  return new Intl.DateTimeFormat('en', {
+    month: 'short',
+    year: 'numeric',
+    timeZone: 'UTC'
+  }).format(new Date(`${month}-01T00:00:00Z`));
+}
+
+function buildPostTimeline() {
+  const [startYear, startMonth] = POST_TIMELINE_START_MONTH.split('-').map(Number);
+  const [endYear, endMonth] = POST_TIMELINE_END_MONTH.split('-').map(Number);
+  const months = [];
+  let year = startYear;
+  let month = startMonth;
+  while (year < endYear || (year === endYear && month <= endMonth)) {
+    months.push(`${year}-${String(month).padStart(2, '0')}`);
+    month += 1;
+    if (month === 13) {
+      month = 1;
+      year += 1;
+    }
+  }
+
+  const maxMonthlyPosts = Math.max(
+    1,
+    ...organizations.flatMap((organization) => [...postMonthCounts(organization).values()])
+  );
+  return { months, maxMonthlyPosts };
+}
+
+const postTimeline = buildPostTimeline();
+
+function postActivityTemplate(organization) {
+  const count = datedPostCount(organization);
+  if (count === 0) return '<span class="muted-value">–</span>';
+  const counts = postMonthCounts(organization);
+  const startLabel = formatTimelineMonth(postTimeline.months[0]);
+  const endLabel = formatTimelineMonth(postTimeline.months.at(-1));
+  const bars = postTimeline.months.map((month) => {
+    const monthlyCount = counts.get(month) || 0;
+    if (monthlyCount === 0) return '<span class="post-activity-bar is-empty" aria-hidden="true"></span>';
+    const height = Math.max(
+      14,
+      Math.round(Math.sqrt(monthlyCount / postTimeline.maxMonthlyPosts) * 100)
+    );
+    const label = `${formatTimelineMonth(month)}: ${monthlyCount} ${monthlyCount === 1 ? 'post' : 'posts'}`;
+    return `<span class="post-activity-bar" style="--activity-height:${height}%" title="${escapeHtml(label)}" aria-hidden="true"></span>`;
+  }).join('');
+  const ariaLabel = `${organization.name}: ${count} dated ${count === 1 ? 'post' : 'posts'} from ${startLabel} through ${endLabel}`;
+  return `<span class="post-activity-chart" role="img" aria-label="${escapeHtml(ariaLabel)}"><span class="post-activity-bars" style="--month-count:${postTimeline.months.length}">${bars}</span></span>`;
 }
 
 function rowTemplate(organization) {
@@ -992,13 +1121,13 @@ function rowTemplate(organization) {
           </span>
         </div>
       </td>
+      <td class="github-cell">${githubTemplate(organization)}</td>
       <td>${ceoTemplate(organization)}</td>
-      <td>${escapeHtml(formatCeoSince(organization.ceoSince))}</td>
-      <td>${escapeHtml(organization.product)}</td>
-      <td>${escapeHtml(organization.industry)}</td>
+      <td>${organization.founded ? escapeHtml(organization.founded) : '<span class="muted-value">–</span>'}</td>
+      <td>${productTemplate(organization)}</td>
       <td>${locationTemplate(organization.location)}</td>
       <td>${fundingTemplate(organization)}</td>
-      <td class="post-cell">${postTemplate(organization)}</td>
+      <td class="post-activity-cell">${postActivityTemplate(organization)}</td>
     </tr>`;
 }
 
@@ -1023,6 +1152,9 @@ function render() {
     : `${matches.length} / ${organizations.length}`;
   elements.clearSearch.hidden = !state.query && !state.country;
   elements.empty.hidden = matches.length !== 0;
+  if (postTimeline.months.length > 0) {
+    elements.postsTimelineRange.textContent = `${formatTimelineMonth(postTimeline.months[0])}–${formatTimelineMonth(postTimeline.months.at(-1))}`;
+  }
   updateSortIndicators();
 }
 
@@ -1039,7 +1171,7 @@ function allPosts() {
 
   organizations.forEach((organization) => {
     postsForOrganization(organization).forEach((post) => {
-      flattened.push({ organization, title: post.title, date: post.date, url: post.url });
+      flattened.push({ organization, title: post.title, date: post.date, type: post.type, url: post.url });
     });
   });
 
@@ -1049,6 +1181,48 @@ function allPosts() {
     if (!b.date) return -1;
     return b.date.localeCompare(a.date);
   });
+}
+
+function postType(post) {
+  const explicitType = String(post.type || '').toLowerCase();
+  const supportedTypes = new Map([
+    ['blog', 'Blog'],
+    ['news', 'News'],
+    ['research', 'Research'],
+    ['paper', 'Paper'],
+    ['white paper', 'White Paper'],
+    ['whitepaper', 'White Paper'],
+    ['white-paper', 'White Paper']
+  ]);
+  if (supportedTypes.has(explicitType)) return supportedTypes.get(explicitType);
+
+  let url;
+  try {
+    url = new URL(post.url);
+  } catch {
+    return 'Blog';
+  }
+
+  const location = `${url.hostname}${url.pathname}`.toLowerCase();
+  const title = post.title.toLowerCase();
+  if (
+    /\/white-?papers?(?:\/|$)/.test(url.pathname.toLowerCase())
+    || /\b(?:white paper|whitepaper)\b/.test(title)
+  ) return 'White Paper';
+  if (
+    /^(?:www\.)?arxiv\.org$/.test(url.hostname)
+    || /\/papers?(?:\/|$)/.test(url.pathname.toLowerCase())
+    || /\bresearch paper\b/.test(title)
+    || /\.pdf$/i.test(url.pathname)
+  ) return 'Paper';
+  if (/\/(?:research|technical-insights)(?:\/|$)/.test(url.pathname.toLowerCase())) return 'Research';
+  if (/\/(?:news|newsroom|press|press-releases?)(?:\/|$)/.test(url.pathname.toLowerCase())) return 'News';
+  if (/\b(?:newsroom|press-release)\b/.test(location)) return 'News';
+  return 'Blog';
+}
+
+function postTypeClass(type) {
+  return type.toLowerCase().replace(/\s+/g, '-');
 }
 
 function blogFilterTemplate(organization, index) {
@@ -1071,6 +1245,19 @@ function blogFilterTemplate(organization, index) {
     </li>`;
 }
 
+function blogTypeFilterTemplate(type, count) {
+  const typeClass = postTypeClass(type);
+  return `
+    <li>
+      <label class="blog-type-filter">
+        <input type="checkbox" data-blog-type="${escapeHtml(type)}" />
+        <span class="blog-type-filter-swatch blog-type-filter-swatch--${typeClass}" aria-hidden="true"></span>
+        <span class="blog-type-filter-name">${escapeHtml(type)}</span>
+        <span class="blog-company-filter-count">${count}</span>
+      </label>
+    </li>`;
+}
+
 function renderBlogFilters() {
   const companiesWithPosts = organizations
     .filter((organization) => postsForOrganization(organization).length > 0)
@@ -1082,6 +1269,15 @@ function renderBlogFilters() {
   elements.blogCompanyFilters.querySelectorAll('.company-favicon').forEach((image) => {
     image.addEventListener('error', () => image.remove());
   });
+
+  const types = ['Blog', 'News', 'Research', 'Paper', 'White Paper'];
+  const posts = allPosts();
+  elements.blogTypeFilters.innerHTML = types
+    .map((type) => blogTypeFilterTemplate(
+      type,
+      posts.filter((post) => postType(post) === type).length
+    ))
+    .join('');
 }
 
 function blogItemTemplate(post, today) {
@@ -1090,6 +1286,8 @@ function blogItemTemplate(post, today) {
     ? `<img class="company-favicon" src="${escapeHtml(organization.favicon)}" alt="" loading="lazy" />`
     : '';
   const date = formatPostDate(post.date);
+  const type = postType(post);
+  const typeClass = postTypeClass(type);
 
   return `
     <li class="blog-card${post.date === today ? ' is-today' : ''}">
@@ -1105,7 +1303,10 @@ function blogItemTemplate(post, today) {
           <span class="blog-card-external" aria-hidden="true">${externalIcon}</span>
         </span>
         <h3 class="blog-card-title">${escapeHtml(post.title)}</h3>
-        <span class="blog-card-date">${calendarIcon}${escapeHtml(date)}</span>
+        <span class="blog-card-meta">
+          <span class="blog-card-date">${calendarIcon}${escapeHtml(date)}</span>
+          <span class="blog-card-type blog-card-type--${typeClass}">${escapeHtml(type)}</span>
+        </span>
       </a>
     </li>`;
 }
@@ -1139,9 +1340,13 @@ function blogPeriodTemplate(period, today) {
 }
 
 function renderBlogs() {
-  const posts = allPosts().filter((post) => (
-    state.blogCompanies.size === 0 || state.blogCompanies.has(post.organization.name)
-  ));
+  const posts = allPosts().filter((post) => {
+    const matchesCompany = state.blogCompanies.size === 0
+      || state.blogCompanies.has(post.organization.name);
+    const matchesType = state.blogTypes.size === 0
+      || state.blogTypes.has(postType(post));
+    return matchesCompany && matchesType;
+  });
   const today = localIsoDate();
 
   elements.blogsList.innerHTML = groupPostsByPeriod(posts)
@@ -1152,7 +1357,7 @@ function renderBlogs() {
   });
   elements.blogResultsCount.textContent = `${posts.length} ${posts.length === 1 ? 'post' : 'posts'}`;
   elements.blogsEmpty.hidden = posts.length !== 0;
-  elements.clearBlogFilters.hidden = state.blogCompanies.size === 0;
+  elements.clearBlogFilters.hidden = state.blogCompanies.size === 0 && state.blogTypes.size === 0;
 }
 
 function showView(view) {
@@ -1189,11 +1394,11 @@ function clearSearch() {
   render();
 }
 
-function openAbout() {
+function openInclusionMethod() {
   if (typeof elements.modal.showModal === 'function') elements.modal.showModal();
 }
 
-function closeAbout() {
+function closeInclusionMethod() {
   elements.modal.close();
 }
 
@@ -1223,7 +1428,7 @@ elements.sortableHeaders.forEach((header) => {
       state.sortDirection = state.sortDirection === 'asc' ? 'desc' : 'asc';
     } else {
       state.sortKey = key;
-      state.sortDirection = key === 'postDate' ? 'desc' : 'asc';
+      state.sortDirection = ['githubStars', 'postCount'].includes(key) ? 'desc' : 'asc';
     }
     render();
   });
@@ -1275,20 +1480,49 @@ elements.blogCompanyFilters.addEventListener('change', (event) => {
   renderBlogs();
 });
 
+elements.blogTypeFilters.addEventListener('change', (event) => {
+  const input = event.target.closest('[data-blog-type]');
+  if (!input) return;
+
+  if (input.checked) {
+    state.blogTypes.add(input.dataset.blogType);
+  } else {
+    state.blogTypes.delete(input.dataset.blogType);
+  }
+  renderBlogs();
+});
+
 elements.clearBlogFilters.addEventListener('click', () => {
   state.blogCompanies.clear();
+  state.blogTypes.clear();
   elements.blogCompanyFilters.querySelectorAll('[data-blog-company]').forEach((input) => {
+    input.checked = false;
+  });
+  elements.blogTypeFilters.querySelectorAll('[data-blog-type]').forEach((input) => {
     input.checked = false;
   });
   renderBlogs();
 });
 
-elements.help.addEventListener('click', openAbout);
-elements.methodLinks.forEach((link) => link?.addEventListener('click', openAbout));
-elements.close.addEventListener('click', closeAbout);
-elements.modal.addEventListener('cancel', closeAbout);
+const mobileFilterLayout = window.matchMedia('(max-width: 74rem)');
+
+function setBlogFiltersCollapsed(collapsed) {
+  elements.blogFilters.classList.toggle('is-collapsed', collapsed);
+  elements.blogFilterToggle.setAttribute('aria-expanded', String(!collapsed));
+}
+
+setBlogFiltersCollapsed(mobileFilterLayout.matches);
+mobileFilterLayout.addEventListener('change', (event) => setBlogFiltersCollapsed(event.matches));
+
+elements.blogFilterToggle.addEventListener('click', () => {
+  setBlogFiltersCollapsed(elements.blogFilterToggle.getAttribute('aria-expanded') === 'true');
+});
+
+elements.methodLinks.forEach((link) => link?.addEventListener('click', openInclusionMethod));
+elements.close.addEventListener('click', closeInclusionMethod);
+elements.modal.addEventListener('cancel', closeInclusionMethod);
 elements.modal.addEventListener('click', (event) => {
-  if (event.target === elements.modal) closeAbout();
+  if (event.target === elements.modal) closeInclusionMethod();
 });
 
 render();

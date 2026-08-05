@@ -3,8 +3,10 @@
 //
 // Reads data/blog-sources.json (one or more listing-page URLs per company),
 // fetches each source, extracts candidate post links, and diffs them against
-// data/known-posts.json. Anything new gets appended to data/pending-posts.json
-// for human review — this script never edits script.js directly.
+// data/known-posts.json. It also visits each new article to recover publication
+// dates omitted by listing pages. Anything new gets appended to
+// data/pending-posts.json for human review — this script never edits script.js
+// directly.
 //
 // This is a best-effort generic link scraper, not a per-site parser: it will
 // miss posts on JS-rendered pages it can't see and may occasionally surface a
@@ -82,6 +84,125 @@ function decodeEntities(text) {
     .replace(/&quot;/g, '"')
     .replace(/&#0?39;/g, "'")
     .replace(/&nbsp;/g, ' ');
+}
+
+function validIsoDate(year, month, day) {
+  const numericYear = Number(year);
+  const numericMonth = Number(month);
+  const numericDay = Number(day);
+  const date = new Date(Date.UTC(numericYear, numericMonth - 1, numericDay));
+  if (
+    date.getUTCFullYear() !== numericYear
+    || date.getUTCMonth() !== numericMonth - 1
+    || date.getUTCDate() !== numericDay
+  ) return '';
+  return `${String(numericYear).padStart(4, '0')}-${String(numericMonth).padStart(2, '0')}-${String(numericDay).padStart(2, '0')}`;
+}
+
+function normalizePublicationDate(value) {
+  const text = decodeEntities(stripTags(String(value))).trim();
+  let match = text.match(/(?:^|\D)(\d{4})[-/.](\d{1,2})[-/.](\d{1,2})(?:\D|$)/);
+  if (match) return validIsoDate(match[1], match[2], match[3]);
+
+  match = text.match(/(?:^|\D)(\d{1,2})[/.](\d{1,2})[/.](\d{4})(?:\D|$)/);
+  if (match) {
+    const [, first, second, year] = match;
+    // Prefer the US month/day convention when the order is ambiguous. If one
+    // component exceeds 12, its role is unambiguous.
+    const [month, day] = Number(first) > 12 ? [second, first] : [first, second];
+    return validIsoDate(year, month, day);
+  }
+
+  const monthNumbers = {
+    jan: 1, january: 1, feb: 2, february: 2, mar: 3, march: 3,
+    apr: 4, april: 4, may: 5, jun: 6, june: 6, jul: 7, july: 7,
+    aug: 8, august: 8, sep: 9, sept: 9, september: 9, oct: 10,
+    october: 10, nov: 11, november: 11, dec: 12, december: 12
+  };
+  const monthPattern = Object.keys(monthNumbers).join('|');
+  match = text.match(new RegExp(`\\b(${monthPattern})\\.?\\s+(\\d{1,2})(?:st|nd|rd|th)?(?:,)?\\s+(\\d{4})\\b`, 'i'));
+  if (match) return validIsoDate(match[3], monthNumbers[match[1].toLowerCase()], match[2]);
+
+  match = text.match(new RegExp(`\\b(\\d{1,2})(?:st|nd|rd|th)?\\s+(${monthPattern})\\.?(?:,)?\\s+(\\d{4})\\b`, 'i'));
+  if (match) return validIsoDate(match[3], monthNumbers[match[2].toLowerCase()], match[1]);
+  return '';
+}
+
+function htmlAttribute(tag, name) {
+  const match = tag.match(new RegExp(`\\b${name}\\s*=\\s*(["'])([\\s\\S]*?)\\1`, 'i'));
+  return match ? decodeEntities(match[2]).trim() : '';
+}
+
+function extractPublicationDateFromText(text) {
+  const labeledDate = text.match(
+    /(?:published(?: time| date)?|publication date|posted|date)\s*(?:on|:|-)?\s*((?:\d{4}[-/.]\d{1,2}[-/.]\d{1,2})|(?:\d{1,2}[/.]\d{1,2}[/.]\d{4})|(?:[a-z]+\.?\s+\d{1,2}(?:st|nd|rd|th)?(?:,)?\s+\d{4})|(?:\d{1,2}(?:st|nd|rd|th)?\s+[a-z]+\.?(?:,)?\s+\d{4}))/i
+  );
+  return labeledDate ? normalizePublicationDate(labeledDate[1]) : '';
+}
+
+function extractPublicationDateFromHtml(html) {
+  // JSON-LD is generally the strongest signal and is independent of how the
+  // visible article header happens to be styled.
+  const structuredMatch = html.match(/["']datePublished["']\s*:\s*["']([^"']+)["']/i);
+  if (structuredMatch) {
+    const date = normalizePublicationDate(structuredMatch[1]);
+    if (date) return date;
+  }
+
+  const publicationMetaNames = new Set([
+    'article:published_time', 'og:published_time', 'date', 'datepublished',
+    'publishdate', 'publish-date', 'pub_date', 'parsely-pub-date',
+    'sailthru.date', 'dc.date', 'dcterms.date', 'date.created', 'date.issued'
+  ]);
+  const metaTags = html.match(/<meta\b[^>]*>/gi) || [];
+  for (const tag of metaTags) {
+    const name = (
+      htmlAttribute(tag, 'property')
+      || htmlAttribute(tag, 'name')
+      || htmlAttribute(tag, 'itemprop')
+    ).toLowerCase();
+    if (!publicationMetaNames.has(name)) continue;
+    const date = normalizePublicationDate(htmlAttribute(tag, 'content'));
+    if (date) return date;
+  }
+
+  const timeTags = html.match(/<time\b[^>]*>[\s\S]*?<\/time>/gi) || [];
+  const explicitlyPublished = timeTags.filter((tag) => (
+    /(?:datepublished|publish|posted|entry-date|post-date)/i.test(tag)
+  ));
+  for (const tag of [...explicitlyPublished, ...timeTags]) {
+    const date = normalizePublicationDate(htmlAttribute(tag, 'datetime') || stripTags(tag));
+    if (date) return date;
+  }
+
+  const visibleHtml = html
+    .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, ' ');
+  const visibleTextDate = extractPublicationDateFromText(stripTags(visibleHtml));
+  if (visibleTextDate) return visibleTextDate;
+
+  // Some article headers print only a bare date (as AUI does) without a
+  // semantic <time> element or a "Published" label. Limit this fallback to
+  // the content immediately following the main heading so dates elsewhere in
+  // the article or footer cannot be mistaken for the publication date.
+  const headingMatch = visibleHtml.match(/<h1\b[^>]*>[\s\S]*?<\/h1>([\s\S]{0,2000})/i);
+  return headingMatch ? normalizePublicationDate(stripTags(headingMatch[1])) : '';
+}
+
+function arxivIdFromUrl(value) {
+  try {
+    const url = new URL(value);
+    if (!/^(?:www\.)?arxiv\.org$/i.test(url.hostname)) return '';
+    const match = url.pathname.match(/^\/(?:abs|pdf)\/(.+?)(?:\.pdf)?$/i);
+    return match ? decodeURIComponent(match[1]).replace(/v\d+$/i, '') : '';
+  } catch {
+    return '';
+  }
+}
+
+function extractArxivSubmittedDateFromFeed(feed) {
+  const published = feed.match(/<published>([^<]+)<\/published>/i);
+  return published ? normalizePublicationDate(published[1]) : '';
 }
 
 function isLikelyPostLink(url, sourceUrl) {
@@ -225,6 +346,45 @@ async function extractCandidateLinks(sourceUrl) {
   }
 }
 
+async function extractPublicationDate(postUrl) {
+  const arxivId = arxivIdFromUrl(postUrl);
+  if (arxivId) {
+    try {
+      const apiUrl = `https://export.arxiv.org/api/query?id_list=${encodeURIComponent(arxivId)}`;
+      const response = await fetchWithTimeout(apiUrl);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const date = extractArxivSubmittedDateFromFeed(await response.text());
+      if (!date) throw new Error('submitted date missing from arXiv response');
+      return date;
+    } catch (err) {
+      // Do not fall through to generic metadata: arXiv's updated date may
+      // represent a later revision. An unavailable date is safer than a false
+      // publication date here.
+      console.warn(`  arXiv submitted-date lookup failed (${err.message}); date unavailable`);
+      return '';
+    }
+  }
+
+  try {
+    const response = await fetchWithTimeout(postUrl);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const date = extractPublicationDateFromHtml(await response.text());
+    if (date) return date;
+  } catch (err) {
+    console.warn(`  article fetch failed (${err.message}), retrying via proxy…`);
+  }
+
+  try {
+    const proxyUrl = `https://r.jina.ai/${postUrl}`;
+    const response = await fetchWithTimeout(proxyUrl);
+    if (!response.ok) throw new Error(`HTTP ${response.status} (proxy)`);
+    return extractPublicationDateFromText(await response.text());
+  } catch (err) {
+    console.warn(`  article proxy fetch failed (${err.message}); date unavailable`);
+    return '';
+  }
+}
+
 async function main() {
   const sources = await readJson(SOURCES_PATH, {});
   const known = await readJson(KNOWN_PATH, {});
@@ -249,9 +409,14 @@ async function main() {
 
         knownUrls.add(link.url);
         pendingUrls.add(link.url);
+        // Listing pages frequently omit dates even though the article itself
+        // includes one. Inspect the article before marking the post undated.
+        const date = await extractPublicationDate(link.url);
+        await sleep(REQUEST_DELAY_MS);
         discoveredToday.push({
           company,
           title: link.title,
+          date,
           url: link.url,
           sourceUrl,
           discovered: todayIso(),
@@ -275,7 +440,20 @@ async function main() {
   await writeFile(PENDING_PATH, JSON.stringify(pending, null, 2) + '\n');
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exitCode = 1;
-});
+const isMain = process.argv[1]
+  && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+
+if (isMain) {
+  main().catch((err) => {
+    console.error(err);
+    process.exitCode = 1;
+  });
+}
+
+export {
+  arxivIdFromUrl,
+  extractArxivSubmittedDateFromFeed,
+  extractPublicationDateFromHtml,
+  extractPublicationDateFromText,
+  normalizePublicationDate
+};

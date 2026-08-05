@@ -38,11 +38,11 @@
               <rect x="1.5" y="2.5" width="13" height="11" rx="1" />
               <path d="M4 5.5h8M4 8h8M4 10.5h5" />
             </svg>
-            <span class="rankings-link__label">Blogs</span>
+            <span class="rankings-link__label">Posts</span>
           </a>
         </nav>
         <p class="database-summary">
-          Browse <span id="org-count">25</span> NeSy companies
+          Browse <span id="org-count">31</span> NeSy companies
         </p>
       </div>
 
@@ -57,7 +57,6 @@
             <path d="M12 2C6.48 2 2 6.58 2 12.23c0 4.52 2.87 8.35 6.84 9.71.5.1.68-.22.68-.49 0-.24-.01-1.05-.01-1.9-2.78.62-3.37-1.21-3.37-1.21-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.36-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.37 9.37 0 0 1 12 6.96c.85 0 1.71.12 2.51.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.59.69.49A10.23 10.23 0 0 0 22 12.23C22 6.58 17.52 2 12 2Z" />
           </svg>
         </a>
-        <button id="help" type="button">About</button>
       </div>
     </header>
 
@@ -72,17 +71,31 @@
               <th class="sortable sticky-name-column" data-key="name" data-type="text">
                 <div class="header-container"><span>Company</span> <span class="sort-indicator">↑</span></div>
               </th>
+              <th class="sortable" data-key="githubStars" data-type="number" title="Each company's most-starred public repository and its star count">
+                <div class="header-container"><span>GitHub stars</span> <span class="sort-indicator"></span></div>
+              </th>
               <th class="sortable" data-key="ceoName" data-type="text">
                 <div class="header-container"><span>CEO</span> <span class="sort-indicator"></span></div>
               </th>
-              <th class="sortable" data-key="ceoSince" data-type="text">
-                <div class="header-container"><span>CEO since</span> <span class="sort-indicator"></span></div>
+              <th class="sortable" data-key="founded" data-type="number">
+                <div class="header-container">
+                  <span>Founded</span>
+                  <span
+                    class="unverified-icon"
+                    role="img"
+                    aria-label="Founded year source: LinkedIn company About page; if unavailable, the current CEO's start year is used."
+                    title="Source: LinkedIn company About page; if unavailable, the current CEO's start year is used."
+                  >
+                    <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true">
+                      <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"></circle>
+                      <path d="M12 10v6m0-9h.01" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                    </svg>
+                  </span>
+                  <span class="sort-indicator"></span>
+                </div>
               </th>
               <th class="sortable" data-key="product" data-type="text">
                 <div class="header-container"><span>Product</span> <span class="sort-indicator"></span></div>
-              </th>
-              <th class="sortable" data-key="industry" data-type="text">
-                <div class="header-container"><span>Industry</span> <span class="sort-indicator"></span></div>
               </th>
               <th class="sortable" data-key="location" data-type="text">
                 <div class="header-container"><span>Location</span> <span class="sort-indicator"></span></div>
@@ -98,8 +111,11 @@
                   <span class="sort-indicator"></span>
                 </div>
               </th>
-              <th class="sortable latest-post-col" data-key="postDate" data-type="text">
-                <div class="header-container"><span>Latest NeSy post</span> <span class="sort-indicator"></span></div>
+              <th class="sortable post-activity-col" data-key="postCount" data-type="number" title="Monthly dated-post activity over the past 12 months">
+                <div class="header-container post-activity-header">
+                  <span>Posts / month <span class="sort-indicator"></span></span>
+                  <span id="posts-timeline-range" class="posts-timeline-range"></span>
+                </div>
               </th>
             </tr>
           </thead>
@@ -119,10 +135,33 @@
           <div class="blogs-layout">
             <aside class="blog-filters" aria-labelledby="blog-filter-title">
               <div class="blog-filter-header">
-                <h2 id="blog-filter-title">Companies</h2>
-                <button id="clear-blog-filters" type="button" hidden>Clear</button>
+                <h2 id="blog-filter-title">Filters</h2>
+                <div class="blog-filter-header-actions">
+                  <button id="clear-blog-filters" type="button" hidden>Clear</button>
+                  <button
+                    id="blog-filter-toggle"
+                    class="blog-filter-toggle"
+                    type="button"
+                    aria-expanded="true"
+                    aria-controls="blog-filter-groups"
+                    aria-labelledby="blog-filter-title"
+                  >
+                    <svg class="blog-filter-toggle__chevron" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M4 6l4 4 4-4" />
+                    </svg>
+                  </button>
+                </div>
               </div>
-              <ul id="blog-company-filters" class="blog-company-filters"></ul>
+              <div id="blog-filter-groups" class="blog-filter-groups">
+                <section class="blog-filter-section blog-type-filter-section" aria-labelledby="blog-type-filter-title">
+                  <h3 id="blog-type-filter-title">Types</h3>
+                  <ul id="blog-type-filters" class="blog-type-filters"></ul>
+                </section>
+                <section class="blog-filter-section blog-company-filter-section" aria-labelledby="blog-company-filter-title">
+                  <h3 id="blog-company-filter-title">Companies</h3>
+                  <ul id="blog-company-filters" class="blog-company-filters"></ul>
+                </section>
+              </div>
             </aside>
 
             <section class="blog-results" aria-labelledby="blog-results-title">
@@ -131,7 +170,7 @@
                 <span id="blog-results-count" aria-live="polite"></span>
               </div>
               <ul id="blogs-list" class="blogs-list"></ul>
-              <p id="blogs-empty" class="blogs-empty" hidden>No posts match the selected companies.</p>
+              <p id="blogs-empty" class="blogs-empty" hidden>No posts match the selected filters.</p>
             </section>
           </div>
         </div>
@@ -151,8 +190,8 @@
 
     <dialog id="modal">
       <div class="modal-header">
-        <h2>About</h2>
-        <button id="close" type="button" aria-label="Close about dialog">
+        <h2>Inclusion Method</h2>
+        <button id="close" type="button" aria-label="Close inclusion method dialog">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
             <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
             <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
@@ -165,7 +204,6 @@
           explicitly identifies neurosymbolic, neural-symbolic, NeSy, logical-intelligence, or combined neural and
           symbolic work.
         </p>
-        <h2>Inclusion Method</h2>
         <p>
           <b>Primary homepage evidence:</b> the company's root homepage must contain the case-insensitive term
           <b>neurosymbolic</b>, <b>neuro-symbolic</b>, <b>neural-symbolic</b>, <b>NeSy</b>, or
@@ -178,9 +216,18 @@
           descriptions, conference sites, and directories do not qualify a company on their own.
         </p>
         <p>
+          <b>Current scope:</b> for now, NeSy Atlas focuses on independent and specialist companies and does not
+          include major technology companies, even when they have qualifying neurosymbolic work. This scope may
+          expand in the future.
+        </p>
+        <p>
+          Founded years use each company's LinkedIn About page when available. If a founding year cannot be found
+          there, the current CEO's start year is used as the fallback.
+          <br />
           Locations and funding reflect the latest public information found during the 04 Aug 2026 review.
           Funding links point to the relevant disclosure; "Not disclosed" means no reliable public amount was found.
-          The post column uses the latest dated first-party NeSy item found, not a claim of publication completeness.
+          GitHub star totals show each verified organization's most-starred public repository as of 05 Aug 2026.
+          The Posts column charts dated items by month over the past 12 months; “–” means no dated post is listed in that range.
         </p>
       </div>
       <div class="modal-footer">
