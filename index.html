@@ -25,13 +25,20 @@
           <span class="header-brand">NeSy Atlas</span>
         </a>
         <nav class="primary-nav" aria-label="Primary navigation">
-          <a href="#company-table" class="rankings-link is-active" aria-current="page">
+          <a href="#company-table" id="nav-directory" class="rankings-link is-active" aria-current="page">
             <svg class="rankings-link__icon" width="14" height="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
               <rect x="2" y="9" width="3" height="5" rx="0.5" />
               <rect x="6.5" y="5" width="3" height="9" rx="0.5" />
               <rect x="11" y="2" width="3" height="12" rx="0.5" />
             </svg>
             <span class="rankings-link__label">Directory</span>
+          </a>
+          <a href="#blogs" id="nav-blogs" class="rankings-link">
+            <svg class="rankings-link__icon" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="1.5" y="2.5" width="13" height="11" rx="1" />
+              <path d="M4 5.5h8M4 8h8M4 10.5h5" />
+            </svg>
+            <span class="rankings-link__label">Blogs</span>
           </a>
         </nav>
         <p class="database-summary">
@@ -52,6 +59,7 @@
     <main id="top">
       <h1 class="sr-only">NeSy Atlas - source-backed neurosymbolic AI company directory</h1>
 
+      <div id="directory-view">
       <div class="comparison-stage">
         <table id="company-table">
           <thead>
@@ -97,6 +105,31 @@
       <div class="empty-state" id="empty-state" hidden>
         <p>No company profiles match that search.</p>
         <button type="button" data-reset>Show all profiles</button>
+      </div>
+      </div>
+
+      <div id="blogs-view" hidden>
+        <div class="blogs-stage">
+          <h2 class="sr-only" id="blogs">Latest posts from all companies</h2>
+          <div class="blogs-layout">
+            <aside class="blog-filters" aria-labelledby="blog-filter-title">
+              <div class="blog-filter-header">
+                <h2 id="blog-filter-title">Companies</h2>
+                <button id="clear-blog-filters" type="button" hidden>Clear</button>
+              </div>
+              <ul id="blog-company-filters" class="blog-company-filters"></ul>
+            </aside>
+
+            <section class="blog-results" aria-labelledby="blog-results-title">
+              <div class="blog-results-header">
+                <h2 id="blog-results-title">Latest posts</h2>
+                <span id="blog-results-count" aria-live="polite"></span>
+              </div>
+              <ul id="blogs-list" class="blogs-list"></ul>
+              <p id="blogs-empty" class="blogs-empty" hidden>No posts match the selected companies.</p>
+            </section>
+          </div>
+        </div>
       </div>
 
       <footer class="site-footer">
