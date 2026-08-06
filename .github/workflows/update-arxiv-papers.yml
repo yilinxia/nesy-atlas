@@ -1,0 +1,48 @@
+name: Update arXiv papers
+
+on:
+  schedule:
+    # 12:00 UTC daily, one hour before the blog extraction job.
+    - cron: '0 12 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-arxiv-extraction
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Test paper extraction
+        run: node --test scripts/update-arxiv-papers.test.mjs scripts/paper-corpus.test.mjs
+
+      - name: Extract arXiv papers
+        run: node scripts/update-arxiv-papers.mjs
+
+      - name: Refresh the Paper tab corpus
+        run: node scripts/paper-corpus.mjs refresh-arxiv
+
+      - name: Commit the refreshed paper data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/arxiv-papers.js data/research-papers.json data/research-papers.js
+          if git diff --cached --quiet; then
+            echo "No arXiv paper changes found."
+            exit 0
+          fi
+          git commit -m "chore: refresh arXiv papers ($(date -u +%F))"
+          git push

@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 
 import {
+  arxivPaperToRecord,
   completePaper,
   dedupeRecords,
   hasExtractedMetadata,
@@ -13,11 +14,133 @@ import {
   parseGrobidHeader,
   parseIjcaiDetail,
   parseIjcaiProceedings,
+  refreshArxivCorpus,
   resolveCorpusEntities,
   runWorkerPool,
   sameWorkCandidate,
   selectDownloadCandidates
 } from './paper-corpus.mjs';
+
+test('normalizes arXiv snapshot papers into corpus records', () => {
+  const record = arxivPaperToRecord({
+    id: '2608.00001',
+    title: 'A Neuro-Symbolic System',
+    abstract: 'A model.',
+    authors: ['Ada Lovelace'],
+    authorAffiliations: [{ name: 'Ada Lovelace', affiliations: ['Example University'] }],
+    affiliations: ['Example University'],
+    published: '2026-08-01',
+    categories: ['cs.AI'],
+    url: 'https://arxiv.org/abs/2608.00001',
+    pdfUrl: 'https://arxiv.org/pdf/2608.00001',
+    matches: { title: ['neuro-symbolic'], abstract: [] }
+  }, { id: 'arxiv-keywords', venue: 'arXiv' });
+
+  assert.equal(record.sourceType, 'arxiv');
+  assert.equal(record.arxivId, '2608.00001');
+  assert.equal(record.year, 2026);
+  assert.deepEqual(record.keywords, ['neuro-symbolic']);
+});
+
+test('refreshes the website corpus with new arXiv papers without losing conference metadata', () => {
+  const resolved = resolveCorpusEntities([{
+    id: 'conference-paper',
+    title: 'A Neuro-Symbolic System',
+    abstract: 'Conference abstract.',
+    authors: ['Ada Lovelace'],
+    authorAffiliations: [{ name: 'Ada Lovelace', affiliations: ['Example University'] }],
+    affiliations: ['Example University'],
+    keywords: ['reasoning'],
+    categories: [],
+    venue: 'ICLR',
+    conference: 'ICLR',
+    year: 2026,
+    published: '2026-04-01',
+    url: 'https://example.org/conference-paper',
+    pdfUrl: 'https://example.org/conference-paper.pdf',
+    doi: '',
+    arxivId: '',
+    sourceType: 'huggingface-dataset',
+    sourceIds: ['ai-conferences-hf'],
+    metadataComplete: true,
+    extractionStatus: 'extracted'
+  }, {
+    id: 'stale-arxiv-paper',
+    title: 'A Removed Neurosymbolic Paper',
+    abstract: 'No longer in the snapshot.',
+    authors: ['Grace Hopper'],
+    authorAffiliations: [],
+    affiliations: [],
+    keywords: ['neurosymbolic'],
+    categories: ['cs.AI'],
+    venue: 'arXiv',
+    conference: '',
+    year: 2026,
+    published: '2026-01-01',
+    url: 'https://arxiv.org/abs/2601.00001',
+    pdfUrl: 'https://arxiv.org/pdf/2601.00001',
+    doi: '',
+    arxivId: '2601.00001',
+    sourceType: 'arxiv',
+    sourceIds: ['arxiv-keywords'],
+    metadataComplete: false,
+    extractionStatus: 'not-extracted'
+  }]);
+  const existingCorpus = {
+    schemaVersion: 1,
+    generatedAt: '2026-08-01T00:00:00.000Z',
+    yearRange: { from: 2023, to: 2026 },
+    keywords: ['neuro-symbolic'],
+    sources: [{ id: 'ai-conferences-hf', type: 'huggingface-parquet', status: 'ok', count: 1 }],
+    entityResolution: resolved.metadata,
+    entities: resolved.entities,
+    papers: resolved.papers
+  };
+  const snapshot = [{
+    id: '2608.00001',
+    title: 'A Neuro-Symbolic System',
+    abstract: 'Updated arXiv abstract.',
+    authors: ['Ada Lovelace'],
+    authorAffiliations: [],
+    affiliations: [],
+    published: '2026-03-01',
+    categories: ['cs.AI'],
+    url: 'https://arxiv.org/abs/2608.00001',
+    pdfUrl: 'https://arxiv.org/pdf/2608.00001',
+    matches: { title: ['neuro-symbolic'], abstract: [] }
+  }, {
+    id: '2608.00002',
+    title: 'A Second Neurosymbolic Paper',
+    abstract: 'Another model.',
+    authors: ['Alan Turing'],
+    authorAffiliations: [],
+    affiliations: [],
+    published: '2026-08-02',
+    categories: ['cs.LG'],
+    url: 'https://arxiv.org/abs/2608.00002',
+    pdfUrl: 'https://arxiv.org/pdf/2608.00002',
+    matches: { title: ['neurosymbolic'], abstract: [] }
+  }];
+
+  const output = refreshArxivCorpus(existingCorpus, snapshot, {
+    id: 'arxiv-keywords',
+    type: 'arxiv-snapshot',
+    venue: 'arXiv',
+    years: [2023, 2024, 2025, 2026]
+  }, { generatedAt: '2026-08-06T00:00:00.000Z' });
+
+  assert.equal(output.paperCount, 2);
+  assert.equal(output.generatedAt, '2026-08-06T00:00:00.000Z');
+  assert.equal(output.sources.find((source) => source.id === 'arxiv-keywords').count, 2);
+  assert.equal(output.papers[0].venue, 'ICLR');
+  assert.equal(output.papers[0].url, 'https://example.org/conference-paper');
+  assert.equal(output.papers[0].abstract, 'Updated arXiv abstract.');
+  assert.equal(output.papers[0].arxivId, '2608.00001');
+  assert.deepEqual(output.papers[0].sourceIds, ['ai-conferences-hf', 'arxiv-keywords']);
+  assert.equal(output.papers[1].venue, 'arXiv');
+  assert.equal(output.papers[1].sourceType, 'arxiv');
+  assert.equal(output.papers.some((paper) => paper.id === 'stale-arxiv-paper'), false);
+});
 
 test('normalizes pinned Hugging Face conference records', () => {
   const record = huggingFaceRowToRecord({

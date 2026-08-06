@@ -493,12 +493,8 @@ async function discoverHuggingFaceParquet(source, config) {
   return rows.map((row) => huggingFaceRowToRecord(row, source)).filter((record) => record.title);
 }
 
-async function discoverArxiv(source) {
-  const snapshotPath = resolve(projectRoot, source.path);
-  await import(`${pathToFileURL(snapshotPath).href}?updated=${Date.now()}`);
-  return (globalThis.ARXIV_PAPERS || []).filter((paper) => (
-    !source.years?.length || source.years.includes(Number(paper.published?.slice(0, 4)))
-  )).map((paper) => ({
+export function arxivPaperToRecord(paper, source) {
+  return {
     ...paper,
     sourceId: source.id,
     sourceType: 'arxiv',
@@ -515,7 +511,15 @@ async function discoverArxiv(source) {
     arxivId: paper.id,
     keywords: [...new Set([...(paper.matches?.title || []), ...(paper.matches?.abstract || [])])],
     discoveryMetadata: { categories: paper.categories || [] }
-  }));
+  };
+}
+
+async function discoverArxiv(source) {
+  const snapshotPath = resolve(projectRoot, source.path);
+  await import(`${pathToFileURL(snapshotPath).href}?updated=${Date.now()}`);
+  return (globalThis.ARXIV_PAPERS || []).filter((paper) => (
+    !source.years?.length || source.years.includes(Number(paper.published?.slice(0, 4)))
+  )).map((paper) => arxivPaperToRecord(paper, source));
 }
 
 async function discoverOpenReview(source) {
@@ -1295,6 +1299,165 @@ export function resolveCorpusEntities(inputPapers) {
   };
 }
 
+function paperBeforeEntityResolution(paper) {
+  const authors = Array.isArray(paper.rawAuthors) ? paper.rawAuthors : paper.authors || [];
+  const affiliations = Array.isArray(paper.rawAffiliations)
+    ? paper.rawAffiliations
+    : paper.affiliations || [];
+  const rawAuthorAffiliations = Array.isArray(paper.rawAuthorAffiliations)
+    ? paper.rawAuthorAffiliations
+    : paper.authorAffiliations || [];
+  return {
+    ...paper,
+    authors: [...authors],
+    affiliations: [...affiliations],
+    authorAffiliations: rawAuthorAffiliations.map((author) => ({
+      name: author.rawName || author.name,
+      affiliations: [...(
+        Array.isArray(author.rawAffiliations) ? author.rawAffiliations : author.affiliations || []
+      )]
+    }))
+  };
+}
+
+function mergeArxivPaper(existingPaper, freshPaper, arxivSourceId) {
+  const existing = paperBeforeEntityResolution(existingPaper);
+  const publishedVenue = Boolean(
+    existing.conference || (existing.venue && existing.venue !== 'arXiv')
+  );
+  const preferExtractedAuthors = existing.extractionStatus === 'extracted' && existing.authors.length;
+  const merged = {
+    ...freshPaper,
+    ...existing,
+    title: freshPaper.title || existing.title,
+    abstract: freshPaper.abstract || existing.abstract,
+    authors: preferExtractedAuthors ? existing.authors : freshPaper.authors || existing.authors,
+    authorAffiliations: mergeAuthorAffiliations(
+      existing.authorAffiliations,
+      freshPaper.authorAffiliations
+    ),
+    affiliations: [...new Set([...existing.affiliations, ...freshPaper.affiliations])],
+    keywords: [...new Set([...(existing.keywords || []), ...(freshPaper.keywords || [])])],
+    categories: [...new Set([...(existing.categories || []), ...(freshPaper.categories || [])])],
+    year: publishedVenue ? existing.year : freshPaper.year || existing.year,
+    published: publishedVenue ? existing.published : freshPaper.published || existing.published,
+    url: publishedVenue ? existing.url : freshPaper.url || existing.url,
+    pdfUrl: publishedVenue ? existing.pdfUrl || freshPaper.pdfUrl : freshPaper.pdfUrl || existing.pdfUrl,
+    arxivId: freshPaper.arxivId,
+    sourceIds: [...new Set([
+      ...(existing.sourceIds || []),
+      arxivSourceId
+    ].filter(Boolean))]
+  };
+  merged.metadataComplete = Boolean(
+    merged.title
+    && merged.abstract
+    && merged.authors.length
+    && merged.affiliations.length
+    && merged.venue
+    && merged.pdfUrl
+  );
+  return merged;
+}
+
+export function refreshArxivCorpus(existingCorpus, snapshotPapers, source, options = {}) {
+  const yearRange = options.yearRange || existingCorpus.yearRange || null;
+  const sourceYears = new Set(source.years || []);
+  const freshPapers = snapshotPapers
+    .map((paper) => arxivPaperToRecord(paper, source))
+    .filter((paper) => !sourceYears.size || sourceYears.has(paper.year))
+    .filter((paper) => !yearRange || (
+      paper.year >= yearRange.from && paper.year <= yearRange.to
+    ))
+    .map((paper) => completePaper(paper));
+  const freshArxivIds = new Set(freshPapers.map((paper) => paper.arxivId.toLowerCase()));
+  const freshTitles = new Set(freshPapers.map((paper) => normalizedTitle(paper.title)).filter(Boolean));
+  const papers = (existingCorpus.papers || []).flatMap((paper) => {
+    const rawPaper = paperBeforeEntityResolution(paper);
+    const sourceIds = rawPaper.sourceIds || (rawPaper.sourceType === 'arxiv' ? [source.id] : []);
+    const isArxivSnapshotPaper = rawPaper.sourceType === 'arxiv' || sourceIds.includes(source.id);
+    const remainsInSnapshot = (
+      rawPaper.arxivId && freshArxivIds.has(rawPaper.arxivId.toLowerCase())
+    ) || freshTitles.has(normalizedTitle(rawPaper.title));
+    if (!isArxivSnapshotPaper || remainsInSnapshot) return [rawPaper];
+
+    const remainingSourceIds = sourceIds.filter((sourceId) => sourceId !== source.id);
+    return remainingSourceIds.length ? [{ ...rawPaper, sourceIds: remainingSourceIds }] : [];
+  });
+  const indexByArxivId = new Map();
+  const indexByTitle = new Map();
+
+  papers.forEach((paper, index) => {
+    if (paper.arxivId) indexByArxivId.set(paper.arxivId.toLowerCase(), index);
+    const title = normalizedTitle(paper.title);
+    if (title) indexByTitle.set(title, index);
+  });
+
+  freshPapers.forEach((paper) => {
+    const title = normalizedTitle(paper.title);
+    const existingIndex = indexByArxivId.get(paper.arxivId.toLowerCase())
+      ?? indexByTitle.get(title);
+    if (existingIndex === undefined) {
+      const nextIndex = papers.length;
+      papers.push(paper);
+      indexByArxivId.set(paper.arxivId.toLowerCase(), nextIndex);
+      if (title) indexByTitle.set(title, nextIndex);
+      return;
+    }
+    papers[existingIndex] = mergeArxivPaper(papers[existingIndex], paper, source.id);
+    indexByArxivId.set(paper.arxivId.toLowerCase(), existingIndex);
+    if (title) indexByTitle.set(title, existingIndex);
+  });
+
+  const resolved = resolveCorpusEntities(papers);
+  const sourceStatus = [...(existingCorpus.sources || [])];
+  const sourceIndex = sourceStatus.findIndex((item) => item.id === source.id);
+  const refreshedSource = {
+    id: source.id,
+    type: source.type,
+    dataset: source.dataset || '',
+    revision: source.revision || '',
+    license: source.license ?? 'unspecified',
+    status: 'ok',
+    count: freshPapers.length
+  };
+  if (sourceIndex >= 0) sourceStatus[sourceIndex] = refreshedSource;
+  else sourceStatus.push(refreshedSource);
+
+  return {
+    ...existingCorpus,
+    schemaVersion: options.schemaVersion || existingCorpus.schemaVersion,
+    generatedAt: options.generatedAt || new Date().toISOString(),
+    yearRange,
+    keywords: options.keywords || existingCorpus.keywords || [],
+    paperCount: resolved.papers.length,
+    completeMetadataCount: resolved.papers.filter((paper) => paper.metadataComplete).length,
+    sources: sourceStatus,
+    entityResolution: resolved.metadata,
+    entities: resolved.entities,
+    papers: resolved.papers
+  };
+}
+
+async function refreshArxiv(config) {
+  const source = config.sources.find((candidate) => candidate.type === 'arxiv-snapshot');
+  if (!source) throw new Error('The paper corpus config has no arXiv snapshot source.');
+  const existingCorpus = await readJson(resolve(projectRoot, config.outputJson), null);
+  if (!existingCorpus) throw new Error('Build the paper corpus before refreshing its arXiv records.');
+  const snapshotPath = resolve(projectRoot, source.path);
+  await import(`${pathToFileURL(snapshotPath).href}?updated=${Date.now()}`);
+  const output = refreshArxivCorpus(existingCorpus, globalThis.ARXIV_PAPERS || [], source, {
+    schemaVersion: config.schemaVersion,
+    yearRange: config.yearRange,
+    keywords: config.keywords
+  });
+  const outputJsonPath = resolve(projectRoot, config.outputJson);
+  const outputScriptPath = resolve(projectRoot, config.outputScript);
+  await writeJsonAtomic(outputJsonPath, output);
+  await writeFile(outputScriptPath, `// Generated by scripts/paper-corpus.mjs. Do not edit manually.\nglobalThis.RESEARCH_PAPER_CORPUS = ${JSON.stringify(output, null, 2)};\n`, 'utf8');
+  console.log(`Refreshed ${output.sources.find((item) => item.id === source.id)?.count || 0} arXiv records; corpus now contains ${output.paperCount} papers`);
+}
+
 async function build(config, manifestPath) {
   const manifest = await readJson(manifestPath, null);
   if (!manifest) throw new Error('Run discover before build.');
@@ -1357,6 +1520,7 @@ async function main() {
   if (command === 'download') return download(config, manifestPath, limit, downloadConcurrency, retryErrors);
   if (command === 'extract') return extract(config, manifestPath, limit, extractConcurrency);
   if (command === 'build') return build(config, manifestPath);
+  if (command === 'refresh-arxiv') return refreshArxiv(config);
   if (command === 'all') {
     await discover(config, manifestPath);
     await resolvePaperLinks(config, manifestPath, limit, resolveConcurrency, localOnly);
@@ -1364,7 +1528,7 @@ async function main() {
     await extract(config, manifestPath, limit, extractConcurrency);
     return build(config, manifestPath);
   }
-  console.log('Usage: node scripts/paper-corpus.mjs <discover|resolve|download|extract|build|all> [--limit N] [--concurrency N] [--resolve-concurrency N] [--download-concurrency N] [--extract-concurrency N] [--local-only] [--retry-errors] [--config path]');
+  console.log('Usage: node scripts/paper-corpus.mjs <discover|resolve|download|extract|build|refresh-arxiv|all> [--limit N] [--concurrency N] [--resolve-concurrency N] [--download-concurrency N] [--extract-concurrency N] [--local-only] [--retry-errors] [--config path]');
 }
 
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

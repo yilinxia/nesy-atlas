@@ -27,9 +27,12 @@ Founding years use LinkedIn About pages, falling back to the current CEO's start
 
 ```bash
 node scripts/update-arxiv-papers.mjs
+node scripts/paper-corpus.mjs refresh-arxiv
 ```
 
-Queries the arXiv API and keeps papers whose title/abstract match an explicit NeSy keyword. Accepts cached Atom feeds via repeated `--input path`. Run tests with `node --test scripts/*.test.mjs`.
+Queries the arXiv API, keeps papers whose title/abstract match an explicit NeSy keyword, and syncs them into the combined corpus used by the Paper tab. The extraction command accepts cached Atom feeds via repeated `--input path`. Run tests with `node --test scripts/*.test.mjs`.
+
+The `Update arXiv papers` GitHub Actions workflow runs this extraction daily at 12:00 UTC, refreshes the Paper tab's combined corpus, and commits updated snapshots. It can also be run manually from the Actions tab.
 
 ## Build the paper corpus
 
