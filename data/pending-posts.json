@@ -871,5 +871,113 @@
     "sourceUrl": "https://www.raapidinc.com/blogs/",
     "discovered": "2026-08-05",
     "status": "needs-review"
+  },
+  {
+    "company": "Amoeba",
+    "title": "Article 1/19/26 All Posts Decision Intelligence: The Strategic Evolution Beyond Traditional Business Intelligence Modern organizations don’t suffer from a lack of data—they suffer from a lack of decision clarity. This article explains why traditional business intelligence and attribution stall executive action, and how Decision Intelligence reframes analytics around the questions leaders actually need answered: why performance is changing, where risk is emerging, and which levers to pull next. By combining structure, context, and interaction logic, Decision Intelligence reduces insight latency and turns data into a true operating advantage.",
+    "date": "",
+    "url": "https://www.amoeb.ai/blog/decision-intelligence",
+    "sourceUrl": "https://www.amoeb.ai/blog",
+    "discovered": "2026-08-06",
+    "status": "needs-review"
+  },
+  {
+    "company": "Amoeba",
+    "title": "Article 10/22/25 All Posts Beyond LLMs: When AI-Analyzed Data Speaks Louder Than Opinions Ever sat in a marketing review when your CEO pitches a “brilliant idea” they just heard on a podcast? Handwritten notes, TikTok ads, a Vegas conference — you’ve tested them all. The problem isn’t ideas; it’s that gut feel still drives too many marketing decisions. Amoeba gives marketers the power to make data talk back. Instead of defending decisions, you can simulate them — in real time. Shift 25% of spend, test a new channel, or model an ABM campaign and instantly see the impact on CAC, pipeline velocity, and revenue. With Amoeba’s neuro-symbolic AI, your data doesn’t just report the past — it explains why things happen and predicts what’s next. So next time your CEO says, “Let’s try this,” you can simply say, “Let’s simulate it.”",
+    "date": "",
+    "url": "https://www.amoeb.ai/blog/when-ai-analyzed-data-speaks-louder-than-opinions",
+    "sourceUrl": "https://www.amoeb.ai/blog",
+    "discovered": "2026-08-06",
+    "status": "needs-review"
+  },
+  {
+    "company": "Amoeba",
+    "title": "Article 3/27/25 All Posts Confessions of a Marketing Ops Pro: AI, Data, and more Senior Marketing Technologist Alex Long shares how marketing ops is evolving, why AI needs to be truly helpful (not just flashy), and how to make sense of data—without drowning in it.",
+    "date": "",
+    "url": "https://www.amoeb.ai/blog/confessions-of-a-marketing-ops-pro",
+    "sourceUrl": "https://www.amoeb.ai/blog",
+    "discovered": "2026-08-06",
+    "status": "needs-review"
+  },
+  {
+    "company": "Amoeba",
+    "title": "Article 3/6/25 All Posts 7 Hard Truths About AI, BI & GTM Data You Can’t Ignore We joined Pathfactory’s Chief Product Officer, Venk Chardran, to share our hot takes that challenge conventional wisdom and reveal why adaptive, reasoning AI is the only way forward.",
+    "date": "",
+    "url": "https://www.amoeb.ai/blog/7-hard-data-truths-you-cant-ignore",
+    "sourceUrl": "https://www.amoeb.ai/blog",
+    "discovered": "2026-08-06",
+    "status": "needs-review"
+  },
+  {
+    "company": "Amoeba",
+    "title": "Article 1/23/25 All Posts Amoeba’s Data Lab: The Experimentation Engine for Agile Marketers Many analytics tools provide surface-level patterns, Amoeba’s Data Lab is different. We&#x27;ve introduced an easier way for marketers to analyze data, experiment, and simulate outcomes.",
+    "date": "",
+    "url": "https://www.amoeb.ai/blog/introducing-amoebas-data-lab-the-experimentation-engine-for-agile-marketers",
+    "sourceUrl": "https://www.amoeb.ai/blog",
+    "discovered": "2026-08-06",
+    "status": "needs-review"
+  },
+  {
+    "company": "Amoeba",
+    "title": "Article 1/8/25 All Posts The ‘Second Brain’ AI Evolution Redefining GTM Decision-Making What if you had a “second brain” or an AI system that not only processes GTM data but also thinks, analyzes, and shares insights that emulate human reasoning",
+    "date": "",
+    "url": "https://www.amoeb.ai/blog/the-second-brain-ai-evolution-redefining-gtm-decision-making",
+    "sourceUrl": "https://www.amoeb.ai/blog",
+    "discovered": "2026-08-06",
+    "status": "needs-review"
+  },
+  {
+    "company": "Amoeba",
+    "title": "News 12/3/24 All Posts Amoeba Secures Strategic Partnerships to Advance Data-Driven Insights for GTM Teams Announcing new partnerships with Boost VC, Ground Game Ventures, and an expanded partnership with Forum Ventures.",
+    "date": "2024-12-03",
+    "url": "https://www.amoeb.ai/blog/amoeba-secures-strategic-partnerships-to-advance-data-driven-insights-for-gtm-teams",
+    "sourceUrl": "https://www.amoeb.ai/blog",
+    "discovered": "2026-08-06",
+    "status": "needs-review"
+  },
+  {
+    "company": "Amoeba",
+    "title": "Article 11/1/24 All Posts The Rise of Agentic AI: Going Beyond Automated Workflows In what feels like only a matter of months, AI has been quickly been transforming the way we work, but we’re now entering a phase where it’s more than just tools and assistants—Agentic AI.",
+    "date": "",
+    "url": "https://www.amoeb.ai/blog/the-rise-of-agentic-ai-going-beyond-automated-workflows",
+    "sourceUrl": "https://www.amoeb.ai/blog",
+    "discovered": "2026-08-06",
+    "status": "needs-review"
+  },
+  {
+    "company": "Amoeba",
+    "title": "Article 10/31/24 All Posts Every GTM Team Deserves an AI-Driven Data Scientist GTM teams have an abundance of data but often lack the resources, expertise, or tools to translate that data into actionable insights. This is where an AI-powered data scientist comes into play.",
+    "date": "",
+    "url": "https://www.amoeb.ai/blog/every-gtm-team-deserves-an-ai-driven-data-scientist",
+    "sourceUrl": "https://www.amoeb.ai/blog",
+    "discovered": "2026-08-06",
+    "status": "needs-review"
+  },
+  {
+    "company": "Amoeba",
+    "title": "Article 10/30/24 All Posts The &#x27;Data-Driven&#x27; Trap: Why Surface-Level Metrics Aren&#x27;t Enough In today’s hyper-competitive B2B landscape, every marketing team claims to be &#x27;data-driven,&#x27; but let’s be honest: Are we truly harnessing the power of data to drive real growth?",
+    "date": "",
+    "url": "https://www.amoeb.ai/blog/the-data-driven-trap-why-surface-level-metrics-arent-enough",
+    "sourceUrl": "https://www.amoeb.ai/blog",
+    "discovered": "2026-08-06",
+    "status": "needs-review"
+  },
+  {
+    "company": "Amoeba",
+    "title": "News 8/29/24 All Posts Amoeba AI Joins NVIDIA Inception Program We are excited to announce that Amoeba AI has been accepted into NVIDIA’s Inception Program, an exclusive program designed to nurture startups revolutionizing industries with cutting-edge technology.",
+    "date": "",
+    "url": "https://www.amoeb.ai/blog/amoeba-ai-joins-nvidia-inception-program",
+    "sourceUrl": "https://www.amoeb.ai/blog",
+    "discovered": "2026-08-06",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Finance & Accounting Automation Automating Collections and Dunning: Why the Bottleneck Is Exceptions, Not Reminders Dunning automation clears the invoices someone simply forgot. What is left is an exception queue of disputes, unapplied payments, short pays and promises to pay, each needing evidence read and a judgment made. Aug 6, 2026 Read &rarr;",
+    "date": "2026-08-06",
+    "url": "https://www.kognitos.com/blog/automating-collections-and-dunning/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-08-06",
+    "status": "needs-review"
   }
 ]
