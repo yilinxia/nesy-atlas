@@ -130,7 +130,7 @@ export async function fetchPapers(fetchImpl = fetch) {
       sortOrder: 'descending'
     });
     const response = await fetchImpl(`https://export.arxiv.org/api/query?${params}`, {
-      headers: { 'User-Agent': 'NeSy-Atlas/1.0 (https://github.com/yilinxia/nesy-comp)' }
+      headers: { 'User-Agent': 'NeSy-Atlas/1.0 (https://github.com/yilinxia/nesy-atlas)' }
     });
     if (!response.ok) throw new Error(`arXiv API returned HTTP ${response.status}`);
 

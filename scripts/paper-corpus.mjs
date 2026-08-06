@@ -12,7 +12,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const defaultConfigPath = resolve(projectRoot, 'config/paper-corpus.json');
-const userAgent = 'NeSy-Atlas/1.0 (https://github.com/yilinxia/nesy-comp)';
+const userAgent = 'NeSy-Atlas/1.0 (https://github.com/yilinxia/nesy-atlas)';
 const execFileAsync = promisify(execFile);
 
 function optionValue(name, fallback = '') {
