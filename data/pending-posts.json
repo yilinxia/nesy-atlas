@@ -979,5 +979,23 @@
     "sourceUrl": "https://www.kognitos.com/blog/",
     "discovered": "2026-08-06",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Finance & Accounting Automation Escheatment and Unclaimed Property: The AP Root Cause (2026) The unclaimed property you escheat is mostly AP: uncashed vendor checks and aged credits that nobody resolved. Filing software handles the deadline. It cannot fix the upstream mess that created the liability. Aug 6, 2026 Read &rarr;",
+    "date": "2026-08-06",
+    "url": "https://www.kognitos.com/blog/escheatment-unclaimed-property-ap/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-08-07",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Finance & Accounting Automation 1099 Reporting Automation: Getting Vendor Tax Filing Right (2026) 1099 errors are not made in January. They are made at vendor setup, in the missing W-9s, unverified TINs and wrong classifications that only surface when the return is filed or the IRS sends a notice. Aug 6, 2026 Read &rarr;",
+    "date": "2026-08-06",
+    "url": "https://www.kognitos.com/blog/1099-reporting-automation/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-08-07",
+    "status": "needs-review"
   }
 ]
