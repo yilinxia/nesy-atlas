@@ -2,7 +2,7 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-08-05T18:00:38.016Z",
+  "generatedAt": "2026-08-07T12:41:32.996Z",
   "keywords": [
     "neurosymbolic",
     "neuro-symbolic",
@@ -14,6 +14,452 @@ globalThis.ARXIV_PAPERS_META = {
   "inclusion": "Title or abstract contains at least one keyword."
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2608.06331",
+    "title": "Tytan: Interactive Neurosymbolic Construction of Analytic Semantic Schemas from Relational Data",
+    "abstract": "From natural-language query interfaces to automated report generation, data analysis tools need a description of the data: the real-world entities it contains, which columns function as measures or identifiers, and how tables connect into units of analysis. Today, this semantic layer is usually written by hand. This is a knowledge-acquisition bottleneck that limits the scalability of analytic systems, keeps non-technical users dependent on experts, and is itself error-prone. We present TYTAN, a system for automatically constructing an analytic semantic schema from a relational database and, when available, a short user-provided description. TYTAN combines symbolic analysis of the database with LLM-based semantic inference for entity proposal, role assignment, and naming. When the evidence leaves a decision ambiguous, TYTAN asks the user a targeted natural-language question. We evaluate TYTAN on eight databases spanning real-world and benchmark domains along the three axes that define a schema's functional utility: (i) coverage, are all important entities and features captured?; (ii) retrieval correctness, do the schema's instructions actually reach the data; and (iii) characterization accuracy, are semantic types correct? Across the seven reference domains, TYTAN reaches every entity, attribute, and aggregable feature of the expert-corrected reference schemas (100% coverage). Additionally, 100% of its retrieval instructions execute correctly (1,678 of 1,678 self-generated claims), and semantic roles agree with the reference on 92-100% of matched attributes. Checking the underlying data showed the small disagreement is in the reference, not in TYTAN. On a held-out blind test (a live, ten-table database with no declared keys), TYTAN recovers the full entity structure with verified keys and satisfies 100% of the satisfiable expectations of five independent blind annotators.",
+    "authors": [
+      "Donna Hooshmand",
+      "Shubham Shahi",
+      "Cameron Barrie",
+      "Abhratanu Dutta",
+      "Marko Sterbentz",
+      "Harper Pack",
+      "Kristian J. Hammond"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Donna Hooshmand",
+        "affiliations": []
+      },
+      {
+        "name": "Shubham Shahi",
+        "affiliations": []
+      },
+      {
+        "name": "Cameron Barrie",
+        "affiliations": []
+      },
+      {
+        "name": "Abhratanu Dutta",
+        "affiliations": []
+      },
+      {
+        "name": "Marko Sterbentz",
+        "affiliations": []
+      },
+      {
+        "name": "Harper Pack",
+        "affiliations": []
+      },
+      {
+        "name": "Kristian J. Hammond",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-06",
+    "updated": "2026-08-06",
+    "categories": [
+      "cs.DB",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.DB",
+    "url": "https://arxiv.org/abs/2608.06331",
+    "pdfUrl": "https://arxiv.org/pdf/2608.06331",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": []
+    }
+  },
+  {
+    "id": "2608.06292",
+    "title": "NeSy-RAG: Neuro-Symbolic RAG for Explainable Question Answering",
+    "abstract": "Retrieval-augmented generation (RAG) improves question answering by grounding large language models (LLMs) in external knowledge such as text corpora. However, its reasoning process remains largely opaque: intermediate reasoning steps are difficult to verify and cannot be reliably attributed to specific evidence. Moreover, missing user-specific context is rarely detected systematically, often leading to incomplete or incorrect output. We propose NeSy-RAG, a modular neuro-symbolic RAG framework that synthesizes attributable Prolog modules from retrieved text chunks. For each chunk, the system generates semantically meaningful predicates that encode Boolean claims, which may depend on user facts. Using joint natural language-code embeddings, predicates are retrieved and composed into Prolog queries. To address incomplete user context, we introduce a symbolic knowledge-gap detection mechanism that identifies missing user facts whose truth values affect the query outcome and automatically triggers follow-up interactions. Executing the resulting Prolog queries yields deterministic answers together with transparent execution traces that link each reasoning step to its originating source. On the ShARC benchmark, without domain-specific training, NeSy-RAG achieves 61.1% accuracy, outperforming a same-model RAG baseline that achieves 42.8% accuracy.",
+    "authors": [
+      "Jonas Gann",
+      "Michael Gertz"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Jonas Gann",
+        "affiliations": []
+      },
+      {
+        "name": "Michael Gertz",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-06",
+    "updated": "2026-08-06",
+    "categories": [
+      "cs.CL",
+      "cs.SC"
+    ],
+    "primaryCategory": "cs.CL",
+    "url": "https://arxiv.org/abs/2608.06292",
+    "pdfUrl": "https://arxiv.org/pdf/2608.06292",
+    "matches": {
+      "title": [
+        "NeSy",
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "NeSy",
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.05773",
+    "title": "Neuro-Symbolic Closed-Loop Control of Laser Powder Bed Fusion with an In-Loop Ontology",
+    "abstract": "A geometry-conditioned, neuro-symbolic closed-loop architecture is proposed for laser powder bed fusion, in which a standards-aligned ontology operates inside the control loop and couples symbolic reasoning with statistical learning to set the targets of a constraint-aware predictive controller. The ontology links the process objectives and constraints to the signals a controller can observe, and a description-logic reasoner converts them into the references and bounds enforced on each scan. The demonstrated case is overhang dross, a quality limit on the melt pool depth, which governs quality yet cannot be measured during the build, is mapped through a geometry- and power-dependent depth-to-width ratio onto a bound on the observable width, with the ratio and its calibrated uncertainty supplied by a Gaussian process. The reasoner classifies each upcoming feature and selects the active constraints-adding a lack-of-fusion floor at overhangs, a monotone guard beyond the calibrated range, and an energy-density cap where a process window is declared while running only on changes of geometric context and otherwise leaving a single small quadratic program on the per-scan path. In an Eagar-Tsai surrogate calibrated to the NIST AM-Bench benchmark for IN625, the architecture eliminates the dross produced by a geometry-blind controller, holds dross at zero with only a small residual lack-of-fusion under dual scoring, degrades gracefully under deliberate plant mismatch, and retargets to new alloys and constraints by editing ontology data rather than code. The results establish architectural feasibility, experimental calibration of the ratio is the principal next step.",
+    "authors": [
+      "Gisuk Hong",
+      "Jaebong Cho",
+      "Hyunbo Cho"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Gisuk Hong",
+        "affiliations": []
+      },
+      {
+        "name": "Jaebong Cho",
+        "affiliations": []
+      },
+      {
+        "name": "Hyunbo Cho",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-06",
+    "updated": "2026-08-06",
+    "categories": [
+      "cs.LG"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2608.05773",
+    "pdfUrl": "https://arxiv.org/pdf/2608.05773",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.05391",
+    "title": "Adaptive Arena-based Contestable Argumentative Network-of-Experts for Open-Ended Care Plan Coordination",
+    "abstract": "Care plan coordination demands synthesizing heterogeneous clinical, functional, and psychosocial information across multiple professional disciplines, where monolithic LLM pipelines cannot perform in a transparent or safe manner. We present CANOE (Contestable Argumentative Network-of-Experts), a multi-agent neuro-symbolic framework that addresses these limitations through five modules: complexity assessment, adaptive team recruitment, role-based argumentative computation via an Arena-based Quantitative Bipolar Argumentation Framework (A-QBAF), human-in-the-loop contestation, and care-plan synthesis. Role-specialized agents generate supporting and attacking arguments for candidate interventions; conflicts are resolved through arena-based clash resolution before acceptability scores propagate across the argumentation graph. Care planners may accept, reject, edit, or add arguments, and the framework will deterministically recompute the final plan. Evaluation on Discharge Me! and MedicalRAG using ROUGE-L, AlignScore, MEDCON F1, FKGL, and LLM-as-a-judge shows that medically fine-tuned models achieve the strongest clinical correctness and safety, while CANOE's argumentative structure provides faithful explanation and human contestability.",
+    "authors": [
+      "Truong Thanh Hung Nguyen",
+      "Hoang-Loc Cao",
+      "Phuc Ho",
+      "Phuc Truong Loc Nguyen",
+      "René Richard",
+      "Hung Cao"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Truong Thanh Hung Nguyen",
+        "affiliations": []
+      },
+      {
+        "name": "Hoang-Loc Cao",
+        "affiliations": []
+      },
+      {
+        "name": "Phuc Ho",
+        "affiliations": []
+      },
+      {
+        "name": "Phuc Truong Loc Nguyen",
+        "affiliations": []
+      },
+      {
+        "name": "René Richard",
+        "affiliations": []
+      },
+      {
+        "name": "Hung Cao",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-05",
+    "updated": "2026-08-05",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2608.05391",
+    "pdfUrl": "https://arxiv.org/pdf/2608.05391",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.04933",
+    "title": "Mimir: A Neuro-Symbolic Memory System with Dynamic Grounding for Embodied Agents in Interactive Environments",
+    "abstract": "Long-horizon embodied task requires agents to act under partial observability while preserving both scene belief and execution progress. Flat histories or implicit policy states may contain past observations, but they do not provide an explicit interface for deciding which world facts support the currently active goal. We introduce Mimir, a neuro-symbolic memory that separates world memory from task memory and dynamically grounds them before each action. World memory maintains object locations, object states, and perceptual evidence, while task memory maintains an ordered goal agenda, progress state, hand state, failures, and execution constraints. A grounding module binds the active goal to recalled world candidates, fills missing source locations, and attaches evidence before planning and embodiment-specific execution. Across tested backbones, Mimir consistently improves on different EB-ALFRED and EB-Habitat tasks, with maximum gains of 42.5% and average gains of 23.0%, respectively. Compared with the best results among prior agent and memory systems evaluated under the same backbone, Mimir improves the overall average success rate by 8.5%. Finally, on the EB-Habitat Long-horizon subset, Mimir achieves 86.0% success rate, substantially outperforming current closed-source models. Our code will be released soon.",
+    "authors": [
+      "Haoming Xu",
+      "Zhenlin He",
+      "Hengyi Wang",
+      "Jiafeng Xu",
+      "Hao Dong"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Haoming Xu",
+        "affiliations": []
+      },
+      {
+        "name": "Zhenlin He",
+        "affiliations": []
+      },
+      {
+        "name": "Hengyi Wang",
+        "affiliations": []
+      },
+      {
+        "name": "Jiafeng Xu",
+        "affiliations": []
+      },
+      {
+        "name": "Hao Dong",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-05",
+    "updated": "2026-08-05",
+    "categories": [
+      "cs.RO"
+    ],
+    "primaryCategory": "cs.RO",
+    "url": "https://arxiv.org/abs/2608.04933",
+    "pdfUrl": "https://arxiv.org/pdf/2608.04933",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.04285",
+    "title": "The RAIL Principles for Neurosymbolic AI: Reasoning, Assurances, Interfacing and Learning",
+    "abstract": "Neurosymbolic AI systems that integrate machine learning and symbolic reasoning are rapidly gaining attention. They complement the data-intensive statistical approaches of neural networks and language models with symbolic reasoning algorithms to function in high-stakes domains or in low-data regimes that characterize many real-world applications. We argue that the neurosymbolic combination of machine learning and formal reasoning is not a niche approach within AI, but rather includes many already successful techniques that are of crucial importance to the development of reliable, efficient and, ultimately, trustworthy systems. This perspective prompts a re-examination of the design of current AI systems. We show that many leading AI systems, including some that are not traditionally considered as neurosymbolic, can be analysed from the perspective of four principles of neurosymbolic AI design: Reasoning, Assurances, Interfacing and Learning (RAIL). Applying the RAIL framework offers a unified view of seemingly disparate AI systems, ranging from physics-aware machine learning to neuro-guided search (such as Google DeepMind's Alpha-* suite), causal learning and tool-augmented Large Language Models. Importantly, the RAIL principles will enable engineers to make better-informed and more principled decisions about the design and deployment of production-level AI systems. In this article, we introduce the RAIL principles, examine how they can be applied across major areas of AI, and illustrate how they may guide practitioners to integrate neurosymbolic methods into next-generation AI technologies.",
+    "authors": [
+      "Agnese Chiatti",
+      "Michael Cochez",
+      "Cristina Cornelio",
+      "Sebastijan Dumancic",
+      "Artur d'Avila Garcez",
+      "Luis C. Lamb",
+      "Lia Morra",
+      "Mathias Niepert",
+      "Robert Peharz",
+      "Alberto Speranzon",
+      "Maarten Stol",
+      "Annette Ten Teije",
+      "Thiviyan Thanapalasingam",
+      "Frank Van Harmelen",
+      "Emile Van Krieken",
+      "Antonio Vergari",
+      "Benjie Wang"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Agnese Chiatti",
+        "affiliations": []
+      },
+      {
+        "name": "Michael Cochez",
+        "affiliations": []
+      },
+      {
+        "name": "Cristina Cornelio",
+        "affiliations": []
+      },
+      {
+        "name": "Sebastijan Dumancic",
+        "affiliations": []
+      },
+      {
+        "name": "Artur d'Avila Garcez",
+        "affiliations": []
+      },
+      {
+        "name": "Luis C. Lamb",
+        "affiliations": []
+      },
+      {
+        "name": "Lia Morra",
+        "affiliations": []
+      },
+      {
+        "name": "Mathias Niepert",
+        "affiliations": []
+      },
+      {
+        "name": "Robert Peharz",
+        "affiliations": []
+      },
+      {
+        "name": "Alberto Speranzon",
+        "affiliations": []
+      },
+      {
+        "name": "Maarten Stol",
+        "affiliations": []
+      },
+      {
+        "name": "Annette Ten Teije",
+        "affiliations": []
+      },
+      {
+        "name": "Thiviyan Thanapalasingam",
+        "affiliations": []
+      },
+      {
+        "name": "Frank Van Harmelen",
+        "affiliations": []
+      },
+      {
+        "name": "Emile Van Krieken",
+        "affiliations": []
+      },
+      {
+        "name": "Antonio Vergari",
+        "affiliations": []
+      },
+      {
+        "name": "Benjie Wang",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-04",
+    "updated": "2026-08-04",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2608.04285",
+    "pdfUrl": "https://arxiv.org/pdf/2608.04285",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.04217",
+    "title": "Neuro-Symbolic Proof-of-Vulnerability Generation with Open-Weight Models",
+    "abstract": "Software vulnerabilities are persistent, but validating them remains difficult: a Proof-of-Vulnerability (PoV) requires a concrete input that triggers the vulnerable behavior, yet public triggering inputs are often unavailable for disclosed vulnerabilities. Existing techniques make different tradeoffs in effectiveness, scalability, cost, and controllability, leaving room for complementary designs. To complement them, we present POVGEN, a low-cost neuro-symbolic framework that makes PoV generation cost-effective via semantic focusing and LLM-guided constraint reasoning using open-weight models. POVGEN first localizes vulnerability-relevant regions (utilizing patch information if available), then performs path-sensitive reachability analysis, and finally generates PoVs by extracting and solving constraints with LLM-guided reasoning backed by an SMT solver. POVGEN successfully generates PoVs for 78.98% of vulnerabilities in a recent benchmark, outperforming fuzzing (up to 50.20%) and symbolic execution (2.45%). On 250 real-world CVEs without public PoVs, it generates valid PoVs for 74.80% of cases and reproduces 65.1% when without patch information. The fine-tuned open-weight models match frontier commercial LLMs on key sub-tasks (i.e., the core constraint-reasoning steps) while running locally at no per-sample API cost. Applying the generated PoVs revealed six flawed patches in disclosed CVEs (all subsequently fixed) and five previously unreported vulnerabilities (of which four have been confirmed and fixed by the developers).",
+    "authors": [
+      "Yu Nong",
+      "Haipeng Cai"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Yu Nong",
+        "affiliations": []
+      },
+      {
+        "name": "Haipeng Cai",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-04",
+    "updated": "2026-08-04",
+    "categories": [
+      "cs.SE"
+    ],
+    "primaryCategory": "cs.SE",
+    "url": "https://arxiv.org/abs/2608.04217",
+    "pdfUrl": "https://arxiv.org/pdf/2608.04217",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.04190",
+    "title": "Adversarially Robust Abductive Fusion of Pre-trained Transformer-based Perception Models",
+    "abstract": "Deploying pre-trained perception models in novel environments degrades their accuracy under distributional shift, and assembling them alone does not recover it: combiners such as majority voting trade recall for precision and are brittle to coordinated failures. Prior metacognitive methods learn logical rules that flag a model's errors, but rely on hand-authored domain-knowledge cues (object-size priors, segmentation masks) that do not transfer to genuinely novel scenes. We show that this metacognitive layer can be learned without any domain knowledge by exploiting vector-space geometry: per-model Label Vector Pools (LVP), built from each model's own training embeddings, yield error-detection rules from the geometry of detections relative to training-determined prototypes, reaching parity with domain-knowledge rules to within $0.002$ every F1 on test set. Because the approach remains neurosymbolic, these geometric rules share a single logical framework and can still be complemented by domain knowledge when available. We frame the fusion of multiple imperfect ViT-based detectors as a consistency-based abduction problem solved at test time by an exact Integer Program (IP) and a polynomial-time heuristic. On an aerial-imagery benchmark of 15 weather-shifted test sets and six ViT detectors, our domain-knowledge-free layer matches the strongest majority-vote variant on clean data (within $0.005$ F1) and, unlike every majority-vote baseline, retains its performance under a coordinated label-flipping attack: at a $90\\%$ flip rate it averages $0.42$ F1 versus $0.35$ for MV-Plurality (a $22\\%$ relative gain) and attains the highest F1 on \\emph{every} test set once the flip rate exceeds $0.4$",
+    "authors": [
+      "Mario Leiva",
+      "Yue Ma",
+      "Qinru Qiu",
+      "Gerardo Simari",
+      "Paulo Shakarian"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Mario Leiva",
+        "affiliations": []
+      },
+      {
+        "name": "Yue Ma",
+        "affiliations": []
+      },
+      {
+        "name": "Qinru Qiu",
+        "affiliations": []
+      },
+      {
+        "name": "Gerardo Simari",
+        "affiliations": []
+      },
+      {
+        "name": "Paulo Shakarian",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-04",
+    "updated": "2026-08-04",
+    "categories": [
+      "cs.AI",
+      "cs.CV",
+      "cs.LG",
+      "cs.LO"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2608.04190",
+    "pdfUrl": "https://arxiv.org/pdf/2608.04190",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
   {
     "id": "2608.03154",
     "title": "ANCHOR-RE: An Agentic Neuro-Symbolic Framework for Grounded Biomedical Relation Extraction",
@@ -6480,6 +6926,55 @@ globalThis.ARXIV_PAPERS = [
     }
   },
   {
+    "id": "2608.05169",
+    "title": "ConWriter: Transition-Constrained Stateful Long-Form Story Generation with Lightweight Neuro-Symbolic Consistency Control",
+    "abstract": "Long-form story generation requires models to preserve narrative consistency across extended contexts, yet existing prompting-based methods often accumulate temporal, factual, character, commonsense, and stylistic errors as the story grows. We propose ConWriter, a training-free framework for consistency-aware long story generation. ConWriter writes stories incrementally at the scene level, guided by static story requirements, dynamic narrative memory, symbolic state reasoning, and uncertainty-aware risk signals. Rather than treating long-story generation as a single free-form decoding process, ConWriter maintains evolving story states, checks whether new scenes satisfy required narrative transitions, and uses uncertainty-aware risk signals to prioritize validation and localized repair. This enables consistency control during generation, before local errors propagate into later scenes. We evaluate ConWriter on ConStory-Bench, covering four long-story tasks: continuation, generation, expansion, and completion. Due to the high cost of long-form generation and evaluation, we use the first five cases from each task and test 3k, 6k, and 12k target lengths across Qwen3.5-Plus, DeepSeek-V4-Flash, and GPT-5 series. Experiments follow the official ConStory-Bench evaluation protocol.",
+    "authors": [
+      "Jindong Li",
+      "Yang Yang",
+      "Zihao Liu",
+      "Yutao Yue",
+      "Menglin Yang"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Jindong Li",
+        "affiliations": []
+      },
+      {
+        "name": "Yang Yang",
+        "affiliations": []
+      },
+      {
+        "name": "Zihao Liu",
+        "affiliations": []
+      },
+      {
+        "name": "Yutao Yue",
+        "affiliations": []
+      },
+      {
+        "name": "Menglin Yang",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-05-27",
+    "updated": "2026-05-27",
+    "categories": [
+      "cs.CL"
+    ],
+    "primaryCategory": "cs.CL",
+    "url": "https://arxiv.org/abs/2608.05169",
+    "pdfUrl": "https://arxiv.org/pdf/2608.05169",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": []
+    }
+  },
+  {
     "id": "2605.28739",
     "title": "BIRDNet: Mining and Encoding Boolean Implication Knowledge Graphs as Interpretable Deep Neural Networks",
     "abstract": "Tabular data in knowledge-rich domains often carries a latent prior in the form of Boolean implication relationships (BIRs) between pairs of features. We mine such relationships with a sparse-exception binomial test. The mined implications form a typed directed graph, equivalent to a propositional rule base of 2-literal clauses. We encode this graph as the connectivity of a layered neural network, called BIRDNet, in which each hidden unit corresponds to one mined rule and binds only to its two features. We show two consequences of this design: First, the architecture is sparse by construction: at most $2/d$ of the weights in each BIR layer are active, where $d$ is the input dimension. Second, the model is interpretable: every trained unit keeps a stable symbolic identity, so rules can be read off the network without surrogate models. Unlike most neurosymbolic models, BIRDNet does not consume an external rule base; its structural prior is mined from the data. We evaluate BIRDNet on six transcriptomic and proteomic benchmarks. Our results show that BIRDNet stays within 0.02 AUROC of the strongest dense baseline, at a small accuracy cost, while using up to $96\\times$ fewer active parameters than an architecture-matched dense MLP. First-layer rules recover known biological signatures across multiple cancer subtypes and tissue types, including canonical amplicons, lineage-defining co-expression modules, and immune-infiltration markers. Data and code are available at: https://github.com/MAHI-Group/BIRDNet.",
@@ -11770,6 +12265,46 @@ globalThis.ARXIV_PAPERS = [
     }
   },
   {
+    "id": "2608.04011",
+    "title": "Towards a New Grammar of Reasoning for Artificial Legal Intelligence and the Mecelle as Its Semantic Protocol",
+    "abstract": "This article examines the enduring epistemic and methodological crisis of traditional legal practice in light of the opportunities and constraints introduced by artificial intelligence. It proposes an ontologically grounded framework termed the Mecellem semantic protocol as a response to this crisis. The analysis focuses on the structural tension within law between maintaining normative coherence and adapting to evolving social and institutional conditions, and shows why approaches based solely on codification, positivist systematization, or quantitative methods such as jurimetrics are insufficient. The article argues that legal reasoning cannot be reduced to data retrieval or statistical pattern recognition. Instead, it is grounded in the premise that meaning is context-dependent and must be dynamically reconstructed through ontologically defined entity categories and differentiated layers of knowledge. Within this perspective, Mecellem reconceptualizes law not as a fixed system of rules, but as an ontodynamic architecture structured along the interconnected axes of ontology, epistemology, and methodology. The transition from jurimetrics to a semantic protocol is presented not merely as a technical shift, but as a transformation in the foundations of legal knowledge. The article further argues that neurosymbolic systems, knowledge graphs, and agentic artificial intelligence can effectively address persistent legal challenges only when embedded within such an ontodynamic framework. By understanding law as a domain of ongoing formation rather than a completed rational totality, Mecellem advances a context-sensitive, auditable, and coherent model for legal meaning production at both human and machine levels, offering a comprehensive framework for rethinking legal reasoning in the age of artificial intelligence.",
+    "authors": [
+      "Ali Goksu",
+      "F. Gozde Kardes",
+      "Mustafa Yaylali"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Ali Goksu",
+        "affiliations": []
+      },
+      {
+        "name": "F. Gozde Kardes",
+        "affiliations": []
+      },
+      {
+        "name": "Mustafa Yaylali",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-04-20",
+    "updated": "2026-04-20",
+    "categories": [
+      "cs.CY",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.CY",
+    "url": "https://arxiv.org/abs/2608.04011",
+    "pdfUrl": "https://arxiv.org/pdf/2608.04011",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
     "id": "2604.18652",
     "title": "From Craft to Kernel: A Governance-First Execution Architecture and Semantic ISA for Agentic Computers",
     "abstract": "The transition of agentic AI from brittle prototypes to production systems is stalled by a pervasive crisis of craft. We suggest that the prevailing orchestration paradigm-delegating the system control loop to large language models and merely patching with heuristic guardrails-is the root cause of this fragility. Instead, we propose Arbiter-K, a Governance-First execution architecture that reconceptualizes the underlying model as a Probabilistic Processing Unit encapsulated by a deterministic, neuro-symbolic kernel. Arbiter-K implements a Semantic Instruction Set Architecture (ISA) to reify probabilistic messages into discrete instructions. This allows the kernel to maintain a Security Context Registry and construct an Instruction Dependency Graph at runtime, enabling active taint propagation based on the data-flow pedigree of each reasoning node. By leveraging this mechanism, Arbiter-K precisely interdicts unsafe trajectories at deterministic sinks (e.g., high-risk tool calls or unauthorized network egress) and enables autonomous execution correction and architectural rollback when security policies are triggered. Evaluations on OpenClaw and NanoBot demonstrate that Arbiter-K enforces security as a microarchitectural property, achieving 76% to 95% unsafe interception for a 92.79% absolute gain over native policies. The code is publicly available at https://github.com/cure-lab/ArbiterOS.",
@@ -12717,8 +13252,8 @@ globalThis.ARXIV_PAPERS = [
   },
   {
     "id": "2604.07341",
-    "title": "ReCodeAgent: A Multi-Agent Workflow for Language-agnostic Translation and Validation of Large-scale Repositories",
-    "abstract": "Most repository-level code translation and validation techniques have been evaluated on a single source-target programming language (PL) pair, owing to the complex engineering effort required to adapt new PL pairs. Programming agents can enable PL-agnosticism in repository-level code translation and validation: they can synthesize code across many PLs and autonomously use existing tools specific to each PL's analysis. However, state-of-the-art has yet to offer a fully autonomous agentic approach for repository-level code translation and validation of large-scale programs. This paper proposes ReCodeAgent, an autonomous multi-agent approach for language-agnostic repository-level code translation and validation. Users only need to provide the project in the source PL and specify the target PL for ReCodeAgent to automatically translate and validate the entire repository. ReCodeAgent is the first technique to achieve high translation success rates across many PLs. We compare the effectiveness of ReCodeAgent with four alternative neuro-symbolic and agentic approaches to translate 118 real-world projects, with 1,975 LoC and 43 translation units for each project, on average. The projects cover 6 PLs (C, Go, Java, JavaScript, Python, and Rust) and 4 PL pairs (C-Rust, Go-Rust, Java-Python, Python-JavaScript). Our results demonstrate that ReCodeAgent consistently outperforms prior techniques on translation correctness, improving test pass rate by 60.8% on ground-truth tests, with an average cost of $15.3. We also perform process-centric analysis of ReCodeAgent trajectories to confirm its procedural efficiency. Finally, we investigate how the design choices (a multi-agent vs. single-agent architecture) influence ReCodeAgent performance: on average, the test pass rate drops by 40.4%, and trajectories become 28% longer and persistently inefficient.",
+    "title": "ReCodeAgent: A Multi-agent Workflow for Language-Agnostic Translation and Validation of Large-Scale Repositories",
+    "abstract": "Most repository-level code translation and validation techniques have been evaluated on a single source-target programming language (PL) pair, owing to the complex engineering effort required to adapt new PL pairs. Programming agents can enable PL-agnosticism in repository-level code translation and validation: they can synthesize code across many PLs and autonomously use existing tools specific to each PL's analysis. However, state-of-the-art has yet to offer a fully autonomous agentic approach for repository-level code translation and validation of large-scale programs. This paper proposes ReCodeAgent, an autonomous multi-agent approach for language-agnostic repository-level code translation and validation. Users only need to provide the project in the source PL and specify the target PL for ReCodeAgent to automatically translate and validate the entire repository. ReCodeAgent is the first technique to achieve high translation success rates across many PLs. We compare the effectiveness of ReCodeAgent with four alternative neuro-symbolic and agentic approaches to translate 118 real-world projects, with 1,975 LoC and 43 translation units for each project, on average. The projects cover 6 PLs and 4 PL pairs. Our results demonstrate that ReCodeAgent consistently outperforms prior techniques on translation correctness, improving test pass rate by 60.8% on ground-truth tests, with an average cost of $15.3. We also perform process-centric analysis of ReCodeAgent trajectories to confirm its procedural efficiency. Finally, we investigate how the design choices (a multi-agent vs. single-agent architecture) influence ReCodeAgent performance: on average, the test pass rate drops by 40.4%, and trajectories become 28% longer and persistently inefficient.",
     "authors": [
       "Ali Reza Ibrahimzada",
       "Brandon Paulsen",
@@ -12745,7 +13280,7 @@ globalThis.ARXIV_PAPERS = [
     ],
     "affiliations": [],
     "published": "2026-04-08",
-    "updated": "2026-04-08",
+    "updated": "2026-08-05",
     "categories": [
       "cs.SE",
       "cs.LG"
@@ -28651,7 +29186,7 @@ globalThis.ARXIV_PAPERS = [
     ],
     "affiliations": [],
     "published": "2025-10-16",
-    "updated": "2026-03-31",
+    "updated": "2026-08-06",
     "categories": [
       "cs.AI",
       "cs.LG"
