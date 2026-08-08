@@ -1,5 +1,6 @@
 const o9Posts = Array.isArray(globalThis.O9_POSTS) ? globalThis.O9_POSTS : [];
 const blogKeywordMatches = globalThis.BLOG_NEUROSYMBOLIC_MATCHES || {};
+const companyFocus = globalThis.COMPANY_FOCUS || null;
 
 const organizations = [
   {
@@ -1076,6 +1077,10 @@ const elements = {
   clearBlogFilters: document.querySelector('#clear-blog-filters'),
   blogFilters: document.querySelector('.blog-filters'),
   blogFilterToggle: document.querySelector('#blog-filter-toggle'),
+  focusReport: document.querySelector('#focus-report'),
+  focusReportInner: document.querySelector('#focus-report .focus-report-inner'),
+  focusReportToggle: document.querySelector('#focus-report-toggle'),
+  focusReportBackLinks: [...document.querySelectorAll('.focus-report-back')],
   blogResultsCount: document.querySelector('#blog-results-count'),
   blogsEmpty: document.querySelector('#blogs-empty'),
   postsTimelineRange: document.querySelector('#posts-timeline-range'),
@@ -1307,6 +1312,8 @@ function postActivityTemplate(organization) {
   const counts = postMonthCounts(organization);
   const startLabel = formatTimelineMonth(postTimeline.months[0]);
   const endLabel = formatTimelineMonth(postTimeline.months.at(-1));
+  const peakCount = Math.max(...postTimeline.months.map((month) => counts.get(month) || 0));
+  const peakMonth = [...postTimeline.months].reverse().find((month) => (counts.get(month) || 0) === peakCount);
   const bars = postTimeline.months.map((month) => {
     const monthlyCount = counts.get(month) || 0;
     if (monthlyCount === 0) return '<span class="post-activity-bar is-empty" aria-hidden="true"></span>';
@@ -1315,7 +1322,7 @@ function postActivityTemplate(organization) {
       Math.round(Math.sqrt(monthlyCount / postTimeline.maxMonthlyPosts) * 100)
     );
     const label = `${formatTimelineMonth(month)}: ${monthlyCount} ${monthlyCount === 1 ? 'post' : 'posts'}`;
-    return `<span class="post-activity-bar" style="--activity-height:${height}%" title="${escapeHtml(label)}" aria-hidden="true"></span>`;
+    return `<span class="post-activity-bar${month === peakMonth ? ' is-peak' : ''}" style="--activity-height:${height}%" title="${escapeHtml(label)}" aria-hidden="true"></span>`;
   }).join('');
   const ariaLabel = `${organization.name}: ${count} dated ${count === 1 ? 'post' : 'posts'} from ${startLabel} through ${endLabel}`;
   return `<span class="post-activity-chart" role="img" aria-label="${escapeHtml(ariaLabel)}"><span class="post-activity-bars" style="--month-count:${postTimeline.months.length}">${bars}</span></span>`;
@@ -1333,7 +1340,7 @@ function rowTemplate(organization) {
     <tr>
       <td class="sticky-name-column">
         <div class="database-cell">
-          <span class="company-icon" style="--company-color:${escapeHtml(organization.color)}" aria-hidden="true">
+          <span class="company-icon" aria-hidden="true">
             ${escapeHtml(organization.initials)}
             ${favicon}
           </span>
@@ -1357,9 +1364,14 @@ function updateSortIndicators() {
   elements.sortableHeaders.forEach((header) => {
     const indicator = header.querySelector('.sort-indicator');
     if (!indicator) return;
-    indicator.textContent = header.dataset.key === state.sortKey
+    const isSorted = header.dataset.key === state.sortKey;
+    indicator.textContent = isSorted
       ? state.sortDirection === 'asc' ? '↑' : '↓'
       : '';
+    header.classList.toggle('is-sorted', isSorted);
+    header.setAttribute('aria-sort', isSorted
+      ? state.sortDirection === 'asc' ? 'ascending' : 'descending'
+      : 'none');
   });
 }
 
@@ -1488,7 +1500,7 @@ function blogFilterTemplate(organization, index) {
     <li>
       <label class="blog-company-filter" for="blog-company-${index}">
         <input id="blog-company-${index}" type="checkbox" data-blog-company="${escapeHtml(organization.name)}" />
-        <span class="company-icon" style="--company-color:${escapeHtml(organization.color)}" aria-hidden="true">
+        <span class="company-icon" aria-hidden="true">
           ${escapeHtml(organization.initials)}
           ${favicon}
         </span>
@@ -1548,7 +1560,7 @@ function blogItemTemplate(post, today) {
       <a class="blog-card-link" href="${escapeHtml(post.url)}" target="_blank" rel="noopener noreferrer">
         <span class="blog-card-header">
           <span class="blog-card-company">
-            <span class="company-icon" style="--company-color:${escapeHtml(organization.color)}" aria-hidden="true">
+            <span class="company-icon" aria-hidden="true">
               ${escapeHtml(organization.initials)}
               ${favicon}
             </span>
@@ -1616,6 +1628,720 @@ function renderBlogs() {
   elements.clearBlogFilters.hidden = state.blogCompanies.size === 0
     && state.blogTypes.size === 0
     && !state.blogNeurosymbolicOnly;
+}
+
+const FOCUS_MIN_POSTS = 3;
+const FOCUS_TREND_START = '2023-H1';
+const FOCUS_PANEL_MIN_POSTS = 4;
+
+/*
+ * Lieflat template audit for this report:
+ * - Ranked shares: F5 Tick Rows keeps long labels readable; F1 was rejected because
+ *   vertical labels would crowd, and L2 because 17 long category names exceed its cascade contract.
+ * - Independent blog-theme percentages: L15 Ballot Tally makes the non-additive denominator explicit;
+ *   L14 incorrectly implies a 100% composition, while F5 is less explicit about multi-select semantics.
+ * - Time: F1 Rung Bars makes publisher counts honestly countable; F2 Hairline Line carries the
+ *   small-multiple trajectories. F3 was rejected because seven half-years are too sparse for an area texture.
+ * - Signed shifts: G10 Diverging Bar is the only exact contract. F9 is a sequential waterfall and
+ *   F12 is a two-endpoint comparison, so neither represents independent positive/negative categories.
+ * The entire delivery is locked to the Wire palette: grayscale carries data and orange marks one protagonist.
+ */
+
+function focusPercent(value) {
+  return `${Math.round(value * 100)}%`;
+}
+
+function focusPeriodOf(date) {
+  const parsed = new Date(date);
+  if (Number.isNaN(parsed.getTime())) return '';
+  return `${parsed.getUTCFullYear()}-H${parsed.getUTCMonth() < 6 ? 1 : 2}`;
+}
+
+function focusYearTotals(company, year) {
+  let posts = 0;
+  const themes = {};
+  for (const [period, bucket] of Object.entries(company.timeline)) {
+    if (!period.startsWith(year)) continue;
+    posts += bucket.posts;
+    for (const [id, count] of Object.entries(bucket.themes)) themes[id] = (themes[id] || 0) + count;
+  }
+  return { posts, themes };
+}
+
+function focusRnd(index, key) {
+  return Math.abs(((index * 73856093) ^ (key * 19349663)) % 1000) / 1000;
+}
+
+function focusTickRows(rows, { ariaLabel, limit = 8 }) {
+  const selected = rows.slice(0, limit);
+  const width = 760;
+  const labelWidth = 226;
+  const rowHeight = 46;
+  const plotStart = labelWidth;
+  const plotWidth = width - plotStart - 72;
+  const values = selected.map((row) => Math.max(0, Math.round(row.value * 100)));
+  const unit = plotWidth / Math.max(...values, 1);
+  const height = selected.length * rowHeight + 26;
+  const marks = selected
+    .map((row, index) => {
+      const y = 31 + index * rowHeight;
+      const value = values[index];
+      const ticks = Array.from({ length: value }, (_, tick) => {
+        const x = plotStart + tick * unit + unit / 2;
+        const tickHeight = 10 + focusRnd(tick + 1, index + 2) * 7;
+        return `<line class="focus-unit-tick${index === 0 ? ' is-hero' : ''} focus-animate" x1="${x.toFixed(1)}" y1="${y + 8}" x2="${x.toFixed(1)}" y2="${(y + 8 - tickHeight).toFixed(1)}" style="--delay:${index * 70 + tick * 10}ms" />`
+          + (tick % 5 === 4 ? `<circle class="focus-unit-dot focus-animate" cx="${x.toFixed(1)}" cy="${y + 14}" r="1.2" style="--delay:${index * 70 + tick * 10}ms" />` : '');
+      }).join('');
+      return `<text class="focus-chart-label focus-animate" x="${labelWidth - 14}" y="${y + 4}" text-anchor="end" style="--delay:${index * 70}ms">${escapeHtml(row.label)}</text>`
+        + `<line class="focus-hairline focus-animate" x1="${plotStart}" y1="${y + 8}" x2="${plotStart + plotWidth}" y2="${y + 8}" style="--delay:${index * 70}ms" />`
+        + ticks
+        + `<text class="focus-chart-value focus-animate" x="${Math.min(plotStart + value * unit + 10, width - 54).toFixed(1)}" y="${y + 4}" style="--delay:${350 + index * 70}ms">${value}%<title>${escapeHtml(row.meta)}</title></text>`;
+    })
+    .join('');
+  return `<svg class="focus-viz-svg" viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeHtml(ariaLabel)}">${marks}`
+    + `<text class="focus-chart-caption focus-animate" x="${width / 2}" y="${height - 4}" text-anchor="middle" style="--delay:850ms">ONE TICK = ONE ROUNDED PERCENTAGE POINT · DOT MARKS EVERY FIFTH</text></svg>`;
+}
+
+function focusBallotTally(rows, { ariaLabel, limit = 6 }) {
+  const selected = rows.slice(0, limit);
+  const width = 760;
+  const x0 = 236;
+  const x1 = 704;
+  const unit = (x1 - x0) / 99;
+  const rowHeight = 62;
+  const height = selected.length * rowHeight + 28;
+  const marks = selected
+    .map((row, index) => {
+      const value = Math.max(0, Math.min(100, Math.round(row.value * 100)));
+      const base = 46 + index * rowHeight;
+      const ticks = Array.from({ length: 100 }, (_, tick) => {
+        const x = x0 + tick * unit;
+        const picked = tick < value;
+        const tickHeight = picked
+          ? 12 + focusRnd(tick + 1, index + 3) * 6
+          : 4.5 + focusRnd(tick + 1, index + 7) * 2.5;
+        return `<line class="${picked ? 'focus-ballot-picked' : 'focus-ballot-open'}${picked && index === 0 ? ' is-hero' : ''} focus-animate" x1="${x.toFixed(1)}" y1="${base}" x2="${x.toFixed(1)}" y2="${(base - tickHeight).toFixed(1)}" style="--delay:${index * 75 + tick * 4}ms" />`
+          + (tick % 10 === 0 ? `<circle class="focus-unit-dot focus-animate" cx="${x.toFixed(1)}" cy="${base + 6}" r="1.2" style="--delay:${index * 75 + tick * 4}ms" />` : '');
+      }).join('');
+      const valueX = x0 + Math.max(0, value - 1) * unit + 12;
+      return `<text class="focus-chart-label focus-animate" x="${x0 - 16}" y="${base - 8}" text-anchor="end" style="--delay:${index * 75}ms">${escapeHtml(row.label)}</text>`
+        + `<line class="focus-hairline focus-animate" x1="${x0}" y1="${base}" x2="${x1}" y2="${base}" style="--delay:${index * 75}ms" />`
+        + ticks
+        + `<text class="focus-chart-value focus-chart-value--halo focus-animate" x="${Math.min(valueX, x1 + 14).toFixed(1)}" y="${base - 13}" style="--delay:${420 + index * 75}ms">${value}%<title>${escapeHtml(row.meta)}</title></text>`;
+    })
+    .join('');
+  return `<svg class="focus-viz-svg" viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeHtml(ariaLabel)}">${marks}`
+    + `<text class="focus-chart-caption focus-animate" x="${width / 2}" y="${height - 3}" text-anchor="middle" style="--delay:950ms">ONE TICK = ONE ROUNDED PERCENTAGE POINT · EACH TOPIC IS INDEPENDENT</text></svg>`;
+}
+
+function focusRungBars(points, ariaLabel) {
+  const width = 760;
+  const height = 320;
+  const baseline = 270;
+  const x0 = 62;
+  const slot = (width - 110) / Math.max(points.length, 1);
+  const step = Math.min(6.5, 184 / Math.max(...points.map((point) => point.value), 1));
+  const heroIndex = points.findIndex((point) => point.value === Math.max(...points.map((entry) => entry.value)));
+  const marks = points
+    .map((point, index) => {
+      const x = x0 + index * slot + slot / 2;
+      const halfWidth = Math.min(25, slot * 0.28);
+      const rungs = Array.from({ length: point.value }, (_, rung) => {
+        const y = baseline - rung * step;
+        const wobble = (focusRnd(rung + 1, index + 2) - 0.5) * 5;
+        return `<line class="focus-rung${index === heroIndex ? ' is-hero' : ''} focus-animate" x1="${(x - halfWidth + wobble).toFixed(1)}" y1="${y.toFixed(1)}" x2="${(x + halfWidth - wobble).toFixed(1)}" y2="${y.toFixed(1)}" style="--delay:${index * 90 + rung * 12}ms" />`
+          + (rung % 5 === 4 ? `<circle class="focus-unit-dot focus-animate" cx="${(x + halfWidth + 7).toFixed(1)}" cy="${y.toFixed(1)}" r="1.2" style="--delay:${index * 90 + rung * 12}ms" />` : '');
+      }).join('');
+      const top = baseline - Math.max(0, point.value - 1) * step;
+      return `${rungs}<text class="focus-chart-value focus-chart-value--halo focus-animate" x="${x.toFixed(1)}" y="${(top - 13).toFixed(1)}" text-anchor="middle" style="--delay:${420 + index * 90}ms">${point.value}<title>${escapeHtml(point.label)}: ${point.value} publishing companies</title></text>`
+        + `<text class="focus-chart-label focus-animate" x="${x.toFixed(1)}" y="${baseline + 24}" text-anchor="middle" style="--delay:${index * 90}ms">${escapeHtml(point.short)}</text>`;
+    })
+    .join('');
+  return `<svg class="focus-viz-svg" viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeHtml(ariaLabel)}">`
+    + `<line class="focus-hairline focus-animate" x1="34" y1="${baseline + 5}" x2="726" y2="${baseline + 5}" />${marks}`
+    + `<text class="focus-chart-caption focus-animate" x="${width / 2}" y="${height - 3}" text-anchor="middle" style="--delay:950ms">ONE RUNG = ONE PUBLISHING COMPANY · DOT MARKS EVERY FIFTH</text></svg>`;
+}
+
+function focusSpark(points) {
+  const width = 214;
+  const height = 62;
+  const pad = 6;
+  const step = (width - pad * 2) / Math.max(1, points.length - 1);
+  const coords = points.map((point, index) => [pad + index * step, height - 12 - point.value * (height - 22)]);
+  const line = coords.map(([x, y], index) => `${index === 0 ? 'M' : 'L'}${x.toFixed(1)},${y.toFixed(1)}`).join(' ');
+  const peak = Math.max(...points.map((point) => point.value));
+  const heroIndex = points.findIndex((point) => point.value === peak);
+  const hits = points
+    .map((point, index) => `<line class="focus-spark-tick focus-animate" x1="${coords[index][0].toFixed(1)}" y1="${height - 12}" x2="${coords[index][0].toFixed(1)}" y2="${height - 18}" style="--delay:${index * 30}ms" />`
+      + `<circle class="focus-spark-dot${index === heroIndex ? ' is-hero' : ''} focus-animate" cx="${coords[index][0].toFixed(1)}" cy="${coords[index][1].toFixed(1)}" r="${index === heroIndex ? 3.6 : 2.6}" style="--delay:${160 + index * 45}ms"><title>${escapeHtml(point.label)}: ${focusPercent(point.value)} of the companies publishing then</title></circle>`)
+    .join('');
+  return `<svg class="focus-viz-svg" viewBox="0 0 ${width} ${height}" role="img" aria-label="Share of publishing companies by half-year">`
+    + `<line class="focus-spark-base focus-animate" x1="${pad}" y1="${height - 12}" x2="${width - pad}" y2="${height - 12}" />`
+    + `<path class="focus-spark-line focus-line-draw" pathLength="1" d="${line}" />${hits}</svg>`;
+}
+
+function focusDiverging(rows) {
+  const encodedRows = encodeURIComponent(JSON.stringify(rows.map((row) => ({
+    label: row.label,
+    value: Math.round(row.delta * 100)
+  }))));
+  return `<div class="focus-echart" role="img" aria-label="Change in theme share between 2025 and 2026" data-focus-diverging="${encodedRows}"></div>`;
+}
+
+function initialiseFocusVisuals() {
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const reveal = (element, draw) => {
+    const go = () => {
+      element.classList.remove('is-visible');
+      window.requestAnimationFrame(() => {
+        window.requestAnimationFrame(() => {
+          element.classList.add('is-visible');
+          draw?.();
+        });
+      });
+    };
+    if (reducedMotion || !('IntersectionObserver' in window)) go();
+    else {
+      const observer = new IntersectionObserver((entries) => {
+        if (!entries[0].isIntersecting) return;
+        go();
+        observer.disconnect();
+      }, { threshold: 0.3 });
+      observer.observe(element);
+    }
+    element.addEventListener('click', go);
+  };
+
+  elements.focusReportInner.querySelectorAll('.focus-viz-svg').forEach((svg) => reveal(svg));
+  elements.focusReportInner.querySelectorAll('[data-focus-diverging]').forEach((container) => {
+    const rows = JSON.parse(decodeURIComponent(container.dataset.focusDiverging));
+    const draw = () => {
+      if (!globalThis.echarts) return;
+      const chart = globalThis.echarts.getInstanceByDom(container) || globalThis.echarts.init(container, null, { renderer: 'svg' });
+      chart.clear();
+      chart.setOption({
+        animationDuration: reducedMotion ? 0 : 900,
+        animationEasing: 'quarticOut',
+        animationDelay: (index) => index * 80,
+        tooltip: {
+          backgroundColor: '#1F1E1C',
+          borderWidth: 0,
+          padding: [10, 14],
+          textStyle: { color: '#F0F0EE', fontFamily: 'Inter', fontSize: 12 },
+          formatter: (point) => `${point.name} — ${point.value > 0 ? '+' : ''}${point.value} points`
+        },
+        grid: { left: 190, right: 58, top: 8, bottom: 8 },
+        xAxis: {
+          type: 'value',
+          splitLine: { lineStyle: { color: 'rgba(31,30,28,.16)' } },
+          axisLine: { show: false },
+          axisTick: { show: false },
+          axisLabel: { show: false }
+        },
+        yAxis: {
+          type: 'category',
+          data: rows.map((row) => row.label),
+          inverse: true,
+          axisLine: { show: false },
+          axisTick: { show: false },
+          axisLabel: { color: 'rgba(31,30,28,.72)', fontFamily: 'Inter', fontSize: 10, fontWeight: 600 }
+        },
+        series: [{
+          type: 'bar',
+          barWidth: 16,
+          data: rows.map((row) => ({
+            name: row.label,
+            value: row.value,
+            itemStyle: {
+              color: row.value === Math.max(...rows.map((entry) => entry.value))
+                ? '#F1532B'
+                : row.value >= 0 ? '#22211F' : '#8F8E86',
+              borderRadius: row.value >= 0 ? [0, 9, 9, 0] : [9, 0, 0, 9]
+            }
+          })),
+          label: {
+            show: true,
+            fontFamily: 'Inter',
+            fontSize: 11,
+            fontWeight: 700,
+            position: 'outside',
+            formatter: (point) => `${point.value > 0 ? '+' : ''}${point.value}`,
+            color: '#1F1E1C'
+          },
+          markLine: {
+            symbol: 'none',
+            silent: true,
+            label: { show: false },
+            lineStyle: { color: 'rgba(31,30,28,.60)', width: 1.5 },
+            data: [{ xAxis: 0 }]
+          }
+        }]
+      });
+      if ('ResizeObserver' in window && !container.focusResizeObserver) {
+        container.focusResizeObserver = new ResizeObserver(() => chart.resize());
+        container.focusResizeObserver.observe(container);
+      }
+    };
+    reveal(container, draw);
+  });
+}
+
+function focusCompanyCard(company) {
+  const bars = company.topThemes
+    .map((theme) => `<div class="focus-mini"><span class="focus-mini-label">${escapeHtml(theme.label)}</span>`
+      + `<span class="focus-mini-track"><span class="focus-mini-fill" style="width:${Math.max(3, theme.share * 100).toFixed(1)}%"></span></span>`
+      + `<span class="focus-mini-value">${focusPercent(theme.share)}</span></div>`)
+    .join('');
+  const terms = company.distinctiveTerms.slice(0, 8).map((term) => escapeHtml(term.term)).join(' · ');
+  const span = company.activity.firstPost
+    ? `${company.activity.firstPost.slice(0, 7)} → ${company.activity.lastPost.slice(0, 7)}`
+    : 'no dated posts';
+  const proxyNote = company.coverage.postsTextProxy
+    ? ` · ${company.coverage.postsTextProxy} via text proxy`
+    : '';
+  return `<article class="focus-company">
+      <div>
+        <h4>${escapeHtml(company.name)}</h4>
+        <p class="focus-company-meta">${escapeHtml(company.industry || '—')} · ${company.coverage.postsAnalyzed} posts read${proxyNote} · ${escapeHtml(span)}</p>
+      </div>
+      <div class="focus-block">
+        <p class="focus-block-label focus-block-label--posts">Blog themes</p>
+        ${bars || '<p class="focus-empty">No posts in the corpus.</p>'}
+      </div>
+      <div class="focus-block">
+        <p class="focus-block-label">Distinctive blog vocabulary</p>
+        <p class="focus-terms">${terms || '<span class="focus-empty">Site blocked the reader.</span>'}</p>
+      </div>
+    </article>`;
+}
+
+function separatedFocusReportTemplate(data) {
+  const homepageAnalysis = data.homepageAnalysis;
+  const homepageCompanies = data.companies.filter(
+    (company) => company.coverage.homepage === 'full' || company.coverage.homepage === 'partial'
+  );
+  const homepagesRead = homepageAnalysis.companies;
+  const profiled = data.companies.filter((company) => company.coverage.postsAnalyzed >= FOCUS_MIN_POSTS);
+  const homepageTheme = (id) => homepageAnalysis.themes.find((theme) => theme.id === id);
+  const homepageThemes = homepageAnalysis.themes
+    .map((theme) => ({
+      ...theme,
+      value: theme.focusShare,
+      meta: `${focusPercent(theme.focusShare)} focus · ${theme.companies}/${homepagesRead} sites`
+    }))
+    .sort((a, b) => b.value - a.value);
+  const blogTopics = data.themes
+    .map((theme) => {
+      const value = profiled.reduce((sum, company) => sum + company.themes[theme.id].postShare, 0) / profiled.length;
+      return { id: theme.id, label: theme.label, value, meta: `${focusPercent(value)} average post share` };
+    })
+    .sort((a, b) => b.value - a.value);
+
+  const termScores = homepageAnalysis.prominentTerms.slice(0, 12);
+  const maxTermScore = Math.max(...termScores.map((term) => term.score), 1);
+  const minTermScore = Math.min(...termScores.map((term) => term.score), maxTermScore);
+  const homepageTermCloud = termScores.map((term) => {
+    const scale = (term.score - minTermScore) / Math.max(maxTermScore - minTermScore, 1);
+    const size = (0.72 + scale * 0.58).toFixed(2);
+    return `<li title="Prominence score ${term.score} across ${term.companies} homepages">`
+      + `<span style="font-size:${size}rem">${escapeHtml(term.term)}</span>`
+      + `<small>${term.companies} sites</small></li>`;
+  }).join('');
+
+  const laneDefinitions = [
+    {
+      label: 'Agent control stack',
+      description: 'Agents or automation paired with reasoning, trust, or governance.',
+      matches: (company) => company.homepageThemes.includes('agents')
+        && ['reasoning', 'trust', 'governance'].some((theme) => company.homepageThemes.includes(theme))
+    },
+    {
+      label: 'Regulated decisioning',
+      description: 'Healthcare or finance paired with trust or governance.',
+      matches: (company) => ['healthcare', 'finance'].some((theme) => company.homepageThemes.includes(theme))
+        && ['trust', 'governance'].some((theme) => company.homepageThemes.includes(theme))
+    },
+    {
+      label: 'Knowledge layer',
+      description: 'Knowledge graphs, ontologies, or semantic models as product infrastructure.',
+      matches: (company) => company.homepageThemes.includes('knowledge')
+    },
+    {
+      label: 'Formal verification',
+      description: 'Formal methods, proof, or verification as an explicit homepage claim.',
+      matches: (company) => company.homepageThemes.includes('verification')
+    }
+  ];
+  const lanes = laneDefinitions.map((lane) => ({
+    ...lane,
+    companies: homepageCompanies.filter(lane.matches)
+  }));
+  const laneCards = lanes.map((lane) => `
+    <article class="focus-lane">
+      <p class="focus-lane-count">${lane.companies.length}<span> / ${homepagesRead}</span></p>
+      <h4>${escapeHtml(lane.label)}</h4>
+      <p>${escapeHtml(lane.description)}</p>
+      <p class="focus-lane-examples">Examples: ${escapeHtml(lane.companies.slice(0, 4).map((company) => company.name).join(', '))}${lane.companies.length > 4 ? ', …' : ''}</p>
+    </article>`).join('');
+
+  const periods = Object.keys(data.companyTrend).filter((period) => period >= FOCUS_TREND_START).sort();
+  const currentPeriod = focusPeriodOf(data.generatedAt);
+  const completePeriods = periods.filter((period) => period !== currentPeriod);
+  const activity = periods.map((period) => ({
+    label: period,
+    short: period.replace('20', '').replace('-H', 'H'),
+    companies: data.companyTrend[period].companies,
+    posts: data.trend[period].posts
+  }));
+  const completeActivity = activity.filter((point) => point.label !== currentPeriod);
+  const lastFull = completeActivity.at(-1);
+  const currentPartial = activity.find((point) => point.label === currentPeriod);
+  const latestTrend = data.companyTrend[lastFull.label];
+  const latestCount = (theme) => latestTrend.themes[theme] || 0;
+  const latestPublishingCompanies = data.companies.filter(
+    (company) => company.coverage.postsAnalyzed > 0 && company.timeline[lastFull.label]
+  );
+  const publishedOn = (company, theme) => Boolean(company.timeline[lastFull.label]?.themes[theme]);
+  const agentTrust = latestPublishingCompanies.filter(
+    (company) => publishedOn(company, 'agents') && publishedOn(company, 'trust')
+  ).length;
+  const agentGovernance = latestPublishingCompanies.filter(
+    (company) => publishedOn(company, 'agents') && publishedOn(company, 'governance')
+  ).length;
+  const sparks = data.themes
+    .map((theme) => ({
+      label: theme.label,
+      points: completePeriods.map((period) => ({ label: period, value: data.companyTrend[period].themeShare[theme.id] || 0 })),
+      latest: latestTrend.themeShare[theme.id] || 0
+    }))
+    .sort((a, b) => b.latest - a.latest);
+
+  const panel = data.companies.filter(
+    (company) => focusYearTotals(company, '2025').posts >= FOCUS_PANEL_MIN_POSTS
+      && focusYearTotals(company, '2026').posts >= FOCUS_PANEL_MIN_POSTS
+  );
+  const panelMean = (theme, year) => panel.reduce((sum, company) => {
+    const totals = focusYearTotals(company, year);
+    return sum + (totals.themes[theme] || 0) / totals.posts;
+  }, 0) / panel.length;
+  const panelRows = data.themes
+    .map((theme) => {
+      const before = panelMean(theme.id, '2025');
+      const after = panelMean(theme.id, '2026');
+      return { id: theme.id, label: theme.label, before, after, delta: after - before };
+    })
+    .sort((a, b) => b.delta - a.delta);
+  const companyThemeShare = (company, theme, year) => {
+    const totals = focusYearTotals(company, year);
+    return totals.posts ? (totals.themes[theme] || 0) / totals.posts : 0;
+  };
+  const neurosymbolicPanel = panelRows.find((row) => row.id === 'neurosymbolic');
+  const governancePanel = panelRows.find((row) => row.id === 'governance');
+  const nesyShifts = panel.map((company) => {
+    const before = companyThemeShare(company, 'neurosymbolic', '2025');
+    const after = companyThemeShare(company, 'neurosymbolic', '2026');
+    return { company, before, after, delta: after - before };
+  });
+  const nesyDown = nesyShifts.filter((entry) => entry.delta < 0);
+  const governanceUp = panel.filter(
+    (company) => companyThemeShare(company, 'governance', '2026') > companyThemeShare(company, 'governance', '2025')
+  );
+  const steepest = nesyDown
+    .sort((a, b) => a.delta - b.delta)
+    .slice(0, 3)
+    .map((entry) => `${entry.company.name} (${focusPercent(entry.before)} → ${focusPercent(entry.after)})`)
+    .join(', ');
+
+  const o9 = data.companies.find((company) => company.name === 'o9 Solutions');
+  const o9Share = (period) => (o9?.timeline[period]?.posts || 0) / Math.max(data.trend[period].posts, 1);
+  const snapshotDate = formatPostDate(data.generatedAt.slice(0, 10));
+  const homeNesy = homepageTheme('neurosymbolic');
+  const homeAgents = homepageTheme('agents');
+  const homeReasoning = homepageTheme('reasoning');
+  const homeLlm = homepageTheme('llm');
+  const homeTrust = homepageTheme('trust');
+  const homeGovernance = homepageTheme('governance');
+
+  return `
+    <div class="focus-section">
+      <p class="focus-eyebrow">Market signal · ${escapeHtml(snapshotDate)}</p>
+      <h3 id="focus-report-title" class="focus-report-title">Two separate lenses on the NeSy field</h3>
+      <p class="focus-note focus-lede">
+        Homepage positioning answers what the field wants to be known for now. Blog publishing is a separate evidence
+        layer: it shows the problems, use cases, and technical details companies choose to unpack. The two sources are
+        analyzed independently below rather than blended into one score.
+      </p>
+      <div class="focus-stats">
+        <div class="focus-stat"><span class="focus-stat-value">${data.coverage.companies}</span><span class="focus-stat-label">companies in directory</span></div>
+        <div class="focus-stat"><span class="focus-stat-value">${homepagesRead}</span><span class="focus-stat-label">homepages analyzed</span></div>
+        <div class="focus-stat"><span class="focus-stat-value">${data.coverage.postsAnalyzed.toLocaleString('en-GB')}</span><span class="focus-stat-label">blogs analyzed separately</span></div>
+        <div class="focus-stat"><span class="focus-stat-value">${lastFull.label}</span><span class="focus-stat-label">latest complete blog window</span></div>
+      </div>
+      <p class="focus-ai-disclaimer" role="note">
+        <strong>AI disclosure</strong> · Largely generated by <code>gpt-5.6-sol</code>, with light modifications by humans.
+      </p>
+    </div>
+
+    <div class="focus-section focus-part-header">
+      <p class="focus-eyebrow">Part I — Homepage-only analysis</p>
+      <h3>The field wants to own trusted, reasoning-first agents</h3>
+      <p class="focus-note">
+        Explicit neurosymbolic framing appears on ${homeNesy.companies} of ${homepagesRead} readable homepages and
+        carries ${focusPercent(homeNesy.focusShare)} of the prominence-weighted theme focus. Agents rank second
+        (${homeAgents.companies} sites; ${focusPercent(homeAgents.focusShare)} of focus), followed by reasoning
+        (${homeReasoning.companies}; ${focusPercent(homeReasoning.focusShare)}). This is the homepage-only read: these
+        companies want to be known for combining model flexibility with structured, controllable decisions.
+      </p>
+      <div class="focus-insights" aria-label="Homepage positioning signals">
+        <article class="focus-insight focus-insight--homepage">
+          <p class="focus-insight-value">${homeNesy.companies} / ${homepagesRead}</p>
+          <h4>NeSy is the category identity</h4>
+          <p>${focusPercent(homeNesy.focusShare)} of weighted homepage theme focus, the strongest field signal.</p>
+        </article>
+        <article class="focus-insight focus-insight--homepage">
+          <p class="focus-insight-value">${homeAgents.companies} / ${homepagesRead}</p>
+          <h4>Agents are the product direction</h4>
+          <p>${focusPercent(homeAgents.focusShare)} of weighted focus, often paired with reasoning or controls.</p>
+        </article>
+        <article class="focus-insight focus-insight--homepage">
+          <p class="focus-insight-value">${focusPercent(homeReasoning.focusShare)} vs ${focusPercent(homeLlm.focusShare)}</p>
+          <h4>Reasoning gets the bigger headline</h4>
+          <p>Reasoning and LLMs each appear on ${homeReasoning.companies} sites, but reasoning receives twice the weighted prominence.</p>
+        </article>
+        <article class="focus-insight focus-insight--homepage">
+          <p class="focus-insight-value">${homeTrust.companies} + ${homeGovernance.companies}</p>
+          <h4>Control is part of the core pitch</h4>
+          <p>Sites mentioning trust and governance respectively; these overlap and are not added as unique companies.</p>
+        </article>
+      </div>
+      <article class="focus-panel focus-chart-card">
+        <h4 class="focus-panel-title">Neurosymbolic framing is the clearest homepage signal</h4>
+        <p class="focus-chart-sub">Top 8 of ${homepageThemes.length} themes · one tick = one rounded point · orange = leading theme</p>
+        ${focusTickRows(homepageThemes, {
+          ariaLabel: 'Top homepage themes ranked by prominence-weighted focus share'
+        })}
+        <p class="focus-note focus-note--small">
+          Focus share is normalized within each company, then averaged so a long homepage cannot dominate the field.
+          Theme prevalence is shown at the right of each bar.
+        </p>
+        <p class="focus-chart-source">TICK ROWS · F5 · WIRE · HOMEPAGE PROMINENCE · COMPANY FOCUS SNAPSHOT</p>
+      </article>
+    </div>
+
+    <div class="focus-section">
+      <p class="focus-eyebrow">01 — Prominent homepage language</p>
+      <h3>What companies put in titles and large headings</h3>
+      <p class="focus-note">
+        This vocabulary comes only from page titles and H1–H3 headings—not blogs or body-copy frequency. Larger semantic
+        headings receive more weight, making this a closer proxy for what a visitor is meant to notice first.
+      </p>
+      <ul class="focus-term-cloud" aria-label="Prominent homepage terms">${homepageTermCloud}</ul>
+      <p class="focus-note focus-note--small">Page title 4× · H1 5× · H2 3× · H3 2×. Company and product names are removed.</p>
+    </div>
+
+    <div class="focus-section">
+      <p class="focus-eyebrow">02 — Homepage positioning lanes</p>
+      <h3>The scene clusters around agent control and regulated decisions</h3>
+      <p class="focus-note">
+        Four overlapping homepage patterns make the market easier to read. They are signals, not exclusive segments:
+        one company can sit in several lanes. The dominant formula is an agent or model layer wrapped in reasoning and
+        control; explicit formal verification remains a specialist position.
+      </p>
+      <div class="focus-lanes">${laneCards}</div>
+    </div>
+
+    <div class="focus-section focus-part-header focus-part-header--blogs">
+      <p class="focus-eyebrow">Part II — Blog-only analysis</p>
+      <h3>Blogs show the detail behind the positioning</h3>
+      <p class="focus-note">
+        Blog content is not used to define the homepage focus above. Here it becomes the evidence layer: across
+        ${profiled.length} companies with at least ${FOCUS_MIN_POSTS} readable posts, the largest average topic shares
+        are ${escapeHtml(blogTopics[0].label)} (${focusPercent(blogTopics[0].value)}),
+        ${escapeHtml(blogTopics[1].label)} (${focusPercent(blogTopics[1].value)}), and
+        ${escapeHtml(blogTopics[2].label)} (${focusPercent(blogTopics[2].value)}).
+      </p>
+      <div class="focus-insights" aria-label="Blog publishing signals">
+        <article class="focus-insight">
+          <p class="focus-insight-value">${latestCount('llm')} / ${latestTrend.companies}</p>
+          <h4>Models remain the shared context</h4>
+          <p>Publishers mentioning LLMs or generative AI in the latest complete half-year.</p>
+        </article>
+        <article class="focus-insight">
+          <p class="focus-insight-value">${agentTrust} / ${latestTrend.companies}</p>
+          <h4>Agent detail comes with guardrails</h4>
+          <p>Publishers discussing both agents and trust; ${agentGovernance} also covered agents and governance.</p>
+        </article>
+        <article class="focus-insight">
+          <p class="focus-insight-value">${latestCount('reasoning')} vs ${latestCount('verification')}</p>
+          <h4>Reasoning is broad; proof stays niche</h4>
+          <p>Publishers touching reasoning versus formal verification in ${escapeHtml(lastFull.label)}.</p>
+        </article>
+        <article class="focus-insight">
+          <p class="focus-insight-value">${latestCount('neurosymbolic')} / ${latestTrend.companies}</p>
+          <h4>The category label still appears</h4>
+          <p>Publishers using explicit NeSy language in the latest complete half-year.</p>
+        </article>
+      </div>
+      <article class="focus-panel focus-chart-card">
+        <h4 class="focus-panel-title">${escapeHtml(blogTopics[0].label)} leads the blog evidence layer</h4>
+        <p class="focus-chart-sub">Top 6 of ${blogTopics.length} independently matched themes · one tick = one rounded point · orange = leading theme</p>
+        ${focusBallotTally(blogTopics, {
+          ariaLabel: 'Top blog themes ranked by average within-company post share'
+        })}
+        <p class="focus-note focus-note--small">Each profiled company receives equal weight; this chart uses blog content only.</p>
+        <p class="focus-chart-source">BALLOT TALLY · L15 · WIRE · MULTI-LABEL BLOG THEMES · COMPANY FOCUS SNAPSHOT</p>
+      </article>
+    </div>
+
+    <div class="focus-section">
+      <p class="focus-eyebrow">03 — Blog publishing activity</p>
+      <h3>The corpus gets much louder after 2024—but that is not market growth</h3>
+      <p class="focus-note">
+        Companies publishing in a complete half-year rose from ${completeActivity[0].companies} in
+        ${escapeHtml(completeActivity[0].label)} to ${lastFull.companies} in ${escapeHtml(lastFull.label)}. This shows
+        more members of today's directory producing discoverable content; it does not show that the number of startups,
+        customers, or dollars grew at the same rate.
+      </p>
+      <article class="focus-panel focus-chart-card">
+        <h4 class="focus-panel-title">More of today’s directory publishes every half-year</h4>
+        <p class="focus-chart-sub">Distinct publishers · complete half-years only · one rung = one company · orange = peak period</p>
+        ${focusRungBars(
+          completeActivity.map((point) => ({ ...point, value: point.companies })),
+          'Distinct companies publishing by half-year'
+        )}
+        <p class="focus-note focus-note--small">Post volume rose from ${completeActivity[0].posts} to ${lastFull.posts}, but o9 Solutions supplied ${focusPercent(o9Share(completeActivity[0].label))} of ${escapeHtml(completeActivity[0].label)} and ${focusPercent(o9Share(lastFull.label))} of ${escapeHtml(lastFull.label)}; publisher count is the more stable field signal.</p>
+        <p class="focus-chart-source">RUNG BARS · F1 · WIRE · PUBLISHING COMPANIES · COMPANY FOCUS SNAPSHOT</p>
+      </article>
+      ${currentPartial ? `<p class="focus-note focus-note--small">Excluded from these comparisons: ${escapeHtml(currentPartial.label)} is partial through ${escapeHtml(snapshotDate)} (${currentPartial.companies} publishers, ${currentPartial.posts} posts).</p>` : ''}
+    </div>
+
+    <div class="focus-section">
+      <p class="focus-eyebrow">04 — Blog theme trends</p>
+      <h3>Reasoning is moving to the center of the agent story</h3>
+      <p class="focus-note">
+        In ${escapeHtml(lastFull.label)}, ${latestCount('llm')} of ${latestTrend.companies} publishers touched LLMs,
+        ${latestCount('reasoning')} touched reasoning, ${latestCount('governance')} governance, and
+        ${latestCount('agents')} agents. ${agentTrust} published about both agents and trust. The emerging blog story is
+        not “symbols instead of models”; it is “models and agents with structure, controls, and domain accountability.”
+      </p>
+      <p class="focus-note focus-note--small">
+        Each panel counts a company once per half-year per theme, however many posts it published. Cohort membership
+        changes over time, so movement reflects both changing language and a changing mix of publishers.
+      </p>
+      <article class="focus-panel focus-chart-card">
+        <h4 class="focus-panel-title">The six most widespread themes move on different paths</h4>
+        <p class="focus-chart-sub">Share of publishing companies touching each theme · one dot = one complete half-year · orange = series peak</p>
+        <div class="focus-sparks">
+          ${sparks.slice(0, 6).map((entry) => `<div class="focus-spark">
+            <div class="focus-spark-head"><span class="focus-spark-name">${escapeHtml(entry.label)}</span><span class="focus-spark-now">${focusPercent(entry.latest)}</span></div>
+            ${focusSpark(entry.points)}
+            <div class="focus-spark-scale"><span>${escapeHtml(completePeriods[0])}</span><span>${escapeHtml(completePeriods.at(-1))}</span></div>
+          </div>`).join('')}
+        </div>
+        <p class="focus-chart-source">HAIRLINE LINE · F2 · WIRE · TOP 6 THEME TRAJECTORIES · COMPANY FOCUS SNAPSHOT</p>
+      </article>
+    </div>
+
+    <div class="focus-section">
+      <p class="focus-eyebrow">05 — The same blogs, two years apart</p>
+      <h3>Repeat publishers are diverging in how often they use the label</h3>
+      <p class="focus-note">
+        Across the broad ${escapeHtml(lastFull.label)} blog cohort, ${latestCount('neurosymbolic')} of
+        ${latestTrend.companies} publishers used explicit NeSy language. In the fixed panel of ${panel.length} repeat
+        publishers, its mean within-company post share moved from ${focusPercent(neurosymbolicPanel.before)} in 2025 to
+        ${focusPercent(neurosymbolicPanel.after)} in 2026, while governance moved from
+        ${focusPercent(governancePanel.before)} to ${focusPercent(governancePanel.after)}.
+      </p>
+      <p class="focus-note">
+        This is divergence within blogs, not a homepage rebrand: ${nesyDown.length} of ${panel.length} companies used the
+        label less, while ${panel.length - nesyDown.length} were flat or higher. The sharpest declines were
+        ${escapeHtml(steepest)}. Governance rose at ${governanceUp.length} of ${panel.length} companies.
+      </p>
+      <article class="focus-panel focus-chart-card">
+        <h4 class="focus-panel-title">Governance gains while explicit NeSy language fragments</h4>
+        <p class="focus-chart-sub">Equal-weighted repeat-publisher panel · 2025 → 2026 YTD · decline left, growth right · orange = largest gain</p>
+        ${focusDiverging(panelRows)}
+        <p class="focus-note focus-note--small">
+          Panel: ${escapeHtml(panel.map((company) => company.name).join(', '))}. Each published at least
+          ${FOCUS_PANEL_MIN_POSTS} dated posts in both years. 2026 is year-to-date through ${escapeHtml(snapshotDate)};
+          bars show percentage-point change in the equal-weighted company mean.
+        </p>
+        <p class="focus-chart-source">DIVERGING BAR · G10 · WIRE · YEAR-OVER-YEAR TOPIC SHIFT · COMPANY FOCUS SNAPSHOT</p>
+      </article>
+    </div>
+
+    <div class="focus-section">
+      <p class="focus-eyebrow">06 — Blogs by company</p>
+      <h3>What each company chooses to explain in detail</h3>
+      <p class="focus-note">
+        These are blog-content fingerprints, not rankings. Homepage language is intentionally absent from these cards.
+        A strong signal does not measure product depth, traction, or technical merit.
+      </p>
+      <div class="focus-companies">
+        ${data.companies.map((company) => focusCompanyCard(company)).join('')}
+      </div>
+    </div>
+
+    <div class="focus-section">
+      <p class="focus-eyebrow">07 — Method and limits</p>
+      <h3>How the two lenses are kept separate</h3>
+      <ul class="focus-method">
+        <li><strong>Separation.</strong> Homepage focus and blog focus are calculated independently. No combined score
+          is used anywhere in this report.</li>
+        <li><strong>Homepage prominence.</strong> Body theme evidence receives 1× weight, H3 2×, H2 3×, the page title
+          4×, and H1 5×. Semantic heading levels are a reproducible proxy for font prominence; external CSS font sizes
+          are not executed. Company-normalized scores prevent long pages from winning by volume.</li>
+        <li><strong>Homepage coverage.</strong> ${data.coverage.homepagesFetched} full homepages and
+          ${data.coverage.homepagesMetaOnly} usable metadata descriptions are analyzed. ${data.coverage.homepagesTitleOnly}
+          title-only pages are excluded from the denominator. ${data.coverage.homepagesTextProxy} blocked homepage is
+          read through a labeled text proxy.</li>
+        <li><strong>Blog corpus.</strong> ${data.coverage.postsFullText.toLocaleString('en-GB')} posts were read in full,
+          ${data.coverage.postsExcerptOnly} through stored o9 excerpts, ${data.coverage.postsMetaOnly} through a metadata
+          description, and ${data.coverage.postsTitleOnly} by title alone. ${data.coverage.postsTextProxy} of the full-text
+          posts are QGI pages recovered through the labeled text proxy.</li>
+        <li><strong>Themes.</strong> ${data.themes.length} narrow keyword families are matched case-insensitively. This is
+          lexical, not semantic: a page arguing against knowledge graphs still counts as touching that theme.</li>
+        <li><strong>Vocabulary.</strong> Homepage terms come only from titles and H1–H3 text with the weights above.
+          Company blog vocabulary is scored separately by TF-IDF across posts. Company, product, and founder names are
+          removed from both.</li>
+        <li><strong>Blog dates.</strong> Only dated posts enter trend charts. The current half-year is excluded until
+          complete; the fixed-cohort 2026 comparison is explicitly year-to-date.</li>
+        <li><strong>Interpretation.</strong> Both lenses describe public language—not market size, revenue, adoption,
+          customer evidence, or whether a technical claim works.</li>
+      </ul>
+      <p class="focus-note focus-note--small">
+        Generated by <code>scripts/company-focus.mjs</code> · snapshot ${escapeHtml(data.generatedAt.slice(0, 10))}
+      </p>
+    </div>`;
+}
+
+function renderFocusReport() {
+  if (!companyFocus || elements.focusReportInner.dataset.rendered === 'true') return;
+  elements.focusReportInner.innerHTML = separatedFocusReportTemplate(companyFocus);
+  elements.focusReportInner.dataset.rendered = 'true';
+  initialiseFocusVisuals();
+}
+
+function setFocusReportOpen(open, { scroll = false } = {}) {
+  if (open) renderFocusReport();
+  elements.focusReport.hidden = !open;
+  elements.blogsView.classList.toggle('is-focus-report', open);
+  elements.focusReportToggle.setAttribute('aria-expanded', String(open));
+  if (open && scroll) {
+    window.requestAnimationFrame(() => {
+      elements.focusReport.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  }
+}
+
+function openFocusReport(event) {
+  event.preventDefault();
+  const targetHash = event.currentTarget.getAttribute('href');
+  if (window.location.hash !== targetHash) {
+    window.history.pushState(null, '', targetHash);
+  }
+  showView('blogs');
+  setFocusReportOpen(true, { scroll: true });
 }
 
 function paperSearchableText(paper) {
@@ -2051,6 +2777,19 @@ function navigateToView(event, view) {
     window.history.pushState(null, '', targetHash);
   }
   showView(view);
+  setFocusReportOpen(false);
+}
+
+function viewForHash(hash = window.location.hash) {
+  if (hash === '#blogs' || hash === '#focus-report') return 'blogs';
+  if (hash === '#papers') return 'papers';
+  return 'directory';
+}
+
+function syncViewFromLocation() {
+  const showFocusReport = window.location.hash === '#focus-report' && Boolean(companyFocus);
+  showView(viewForHash());
+  setFocusReportOpen(showFocusReport, { scroll: showFocusReport });
 }
 
 function clearSearch() {
@@ -2155,10 +2894,7 @@ elements.navDirectory.addEventListener('click', (event) => navigateToView(event,
 elements.navBlogs.addEventListener('click', (event) => navigateToView(event, 'blogs'));
 elements.navPapers.addEventListener('click', (event) => navigateToView(event, 'papers'));
 window.addEventListener('popstate', () => {
-  const hashView = window.location.hash === '#blogs'
-    ? 'blogs'
-    : window.location.hash === '#papers' ? 'papers' : 'directory';
-  showView(hashView);
+  syncViewFromLocation();
 });
 
 elements.papersSort.addEventListener('change', (event) => {
@@ -2290,6 +3026,15 @@ elements.blogTypeFilters.addEventListener('change', (event) => {
   renderBlogs();
 });
 
+if (companyFocus) {
+  elements.focusReportToggle.addEventListener('click', openFocusReport);
+  elements.focusReportBackLinks.forEach((link) => {
+    link.addEventListener('click', (event) => navigateToView(event, 'blogs'));
+  });
+} else {
+  elements.focusReportToggle.hidden = true;
+}
+
 elements.blogNeurosymbolicToggle.addEventListener('click', () => {
   state.blogNeurosymbolicOnly = !state.blogNeurosymbolicOnly;
   syncBlogNeurosymbolicToggle();
@@ -2354,5 +3099,4 @@ render();
 renderBlogFilters();
 renderBlogs();
 renderPaperMetadata();
-if (window.location.hash === '#blogs') showView('blogs');
-if (window.location.hash === '#papers') showView('papers');
+if (['#blogs', '#papers', '#focus-report'].includes(window.location.hash)) syncViewFromLocation();

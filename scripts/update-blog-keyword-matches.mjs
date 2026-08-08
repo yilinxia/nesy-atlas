@@ -63,11 +63,15 @@ export function extractArticleText(html) {
   if (jsonLdBody) return jsonLdBody;
 
   const cleaned = String(html || '')
-    .replace(/<(?:script|style|svg|nav|header|footer|aside)\b[^>]*>[\s\S]*?<\/(?:script|style|svg|nav|header|footer|aside)>/gi, ' ');
+    .replace(/<(script|style|svg|nav|header|footer|aside)\b[^>]*>[\s\S]*?<\/\1>/gi, ' ');
   const article = cleaned.match(/<article\b[^>]*>([\s\S]*?)<\/article>/i)?.[1];
   const main = cleaned.match(/<main\b[^>]*>([\s\S]*?)<\/main>/i)?.[1];
   const body = cleaned.match(/<body\b[^>]*>([\s\S]*?)<\/body>/i)?.[1];
-  return plainText(article || main || body || cleaned);
+  for (const candidate of [article, main, body, cleaned]) {
+    const text = plainText(candidate);
+    if (text) return text;
+  }
+  return '';
 }
 
 export function classifyPost(title, content) {

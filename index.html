@@ -7,11 +7,18 @@
       name="description"
       content="NeSy Atlas is a source-backed directory of neurosymbolic AI companies, company posts, and research papers."
     />
-    <meta name="theme-color" content="#ffffff" />
-    <title>NeSy Atlas - Neurosymbolic AI Companies and Research</title>
+    <meta name="theme-color" content="#F0F0EE" />
+    <title>NeSy Atlas — Mapping the NeSy frontier</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="logo.png" type="image/png" sizes="512x512" />
+    <link rel="apple-touch-icon" href="logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/echarts@6/dist/echarts.min.js" defer></script>
     <script src="data/o9-posts.js" defer></script>
+    <script src="data/company-focus.js" defer></script>
     <script src="data/blog-keyword-matches.js" defer></script>
     <script src="data/research-papers.js" defer></script>
     <script src="script.js" defer></script>
@@ -121,7 +128,7 @@
                   <span class="sort-indicator"></span>
                 </div>
               </th>
-              <th class="sortable post-activity-col" data-key="postCount" data-type="number" title="Monthly dated-post activity over the past 12 months">
+              <th class="sortable post-activity-col" data-key="postCount" data-type="number" title="Monthly dated-post activity over the past 12 months; orange marks each company’s peak month">
                 <div class="header-container post-activity-header">
                   <span>Posts / month <span class="sort-indicator"></span></span>
                   <span id="posts-timeline-range" class="posts-timeline-range"></span>
@@ -151,9 +158,28 @@
                   Results link to the original first-party source.
                 </p>
               </div>
-              <div class="view-source">
-                <span>Snapshot Aug 5, 2026</span>
-                <span>Sources: company websites</span>
+              <div class="view-source-group">
+                <a
+                  id="focus-report-toggle"
+                  class="focus-report-link"
+                  href="#focus-report"
+                  aria-expanded="false"
+                  aria-controls="focus-report"
+                  title="What each company's homepage and posts are about, and how the themes move over time"
+                >
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M2 13.5h12" />
+                    <path d="M4 13.5V9" />
+                    <path d="M7.3 13.5V5" />
+                    <path d="M10.7 13.5V7.5" />
+                    <path d="M14 13.5V2.5" />
+                  </svg>
+                  <span>Focus report</span>
+                </a>
+                <div class="view-source">
+                  <span>Snapshot Aug 5, 2026</span>
+                  <span>Sources: company websites</span>
+                </div>
               </div>
             </div>
 
@@ -203,6 +229,28 @@
                 </section>
               </div>
             </aside>
+
+            <section id="focus-report" class="focus-report" aria-labelledby="focus-report-title" hidden>
+              <nav class="focus-report-nav" aria-label="Focus report navigation">
+                <a class="focus-report-back" href="#blogs">
+                  <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M10.5 3.5 6 8l4.5 4.5" />
+                    <path d="M6.5 8H14" />
+                  </svg>
+                  <span>Back to posts</span>
+                </a>
+              </nav>
+              <div class="focus-report-inner"></div>
+              <nav class="focus-report-nav focus-report-nav--footer" aria-label="Focus report navigation">
+                <a class="focus-report-back" href="#blogs">
+                  <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M10.5 3.5 6 8l4.5 4.5" />
+                    <path d="M6.5 8H14" />
+                  </svg>
+                  <span>Back to posts</span>
+                </a>
+              </nav>
+            </section>
 
             <section class="blog-results" aria-labelledby="blog-results-title">
               <div class="blog-results-header">

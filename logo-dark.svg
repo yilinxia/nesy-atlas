@@ -7,7 +7,7 @@
       <circle cx="14.08" cy="21.28" r="2.84" fill="black"/>
     </mask>
   </defs>
-  <g transform="scale(2.285714286)" fill="none" stroke="#1F1E1C">
+  <g transform="scale(2.285714286)" fill="none" stroke="#F0F0EE">
     <path d="M7.152 10.26 21.008 18.26M7.152 18.26 21.008 10.26" stroke-width="1" mask="url(#cut-node-centres)"/>
     <g stroke-width="2">
       <circle cx="5.12" cy="8.32" r="3.84"/>
