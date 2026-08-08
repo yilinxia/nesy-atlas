@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="logo-dark.svg">
-    <img src="logo.png" alt="NeSy Atlas logo" width="112" height="112">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/brand/logo-dark.svg">
+    <img src="assets/brand/logo.png" alt="NeSy Atlas logo" width="112" height="112">
   </picture>
 </p>
 
@@ -93,6 +93,7 @@ Use `--limit 10` for a small run, `resolve --local-only` to avoid external resol
 - `index.html` — page structure, metadata, and accessibility.
 - `styles.css` — the Wire visual system and responsive layout.
 - `script.js` — rendering, filtering, sorting, and navigation.
+- `assets/brand/` — favicon and light/dark logo assets.
 - `data/` — generated snapshots consumed by the site.
 - `config/` — paper-corpus configuration.
 - `scripts/` — data collection, analysis, and tests.
