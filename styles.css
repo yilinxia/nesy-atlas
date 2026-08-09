@@ -2606,6 +2606,250 @@ table thead th .post-activity-header {
   border-color: var(--color-brand-accent);
 }
 
+.books-stage {
+  width: 100%;
+}
+
+.books-layout {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  min-height: calc(100vh - var(--header-height));
+}
+
+.books-hero,
+.books-content {
+  margin: 0 auto;
+  max-width: 60rem;
+  width: 100%;
+}
+
+.books-hero {
+  padding: 2.5rem 1.5rem 1.5rem;
+}
+
+.books-content {
+  min-width: 0;
+  padding: 0 1.5rem 4rem;
+}
+
+.books-toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+
+.books-toc a {
+  align-items: center;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  color: var(--color-text-secondary);
+  display: inline-flex;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  gap: 0.4rem;
+  padding: 0.35rem 0.65rem;
+  transition: border-color 150ms ease, color 150ms ease;
+}
+
+.books-toc a:hover,
+.books-toc a:focus-visible {
+  border-color: color-mix(in srgb, var(--color-brand-accent) 55%, var(--color-border));
+  color: var(--color-brand-accent);
+}
+
+.books-toc span {
+  color: var(--color-text-tertiary);
+}
+
+.book-section {
+  margin-top: 2.25rem;
+  scroll-margin-top: calc(var(--header-height) + 1rem);
+}
+
+.book-section-header h3 {
+  font-family: var(--font-heading);
+  font-size: 1.375rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.book-section-header p {
+  color: var(--color-text-secondary);
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  margin-top: 0.4rem;
+  max-width: 44rem;
+}
+
+.books-list {
+  border-top: 1px solid var(--color-border);
+  display: grid;
+  gap: 0.75rem;
+  list-style: none;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+.book-card article {
+  background: color-mix(in srgb, var(--color-background) 90%, transparent);
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: 7rem minmax(0, 1fr);
+  padding: 1.25rem 1.35rem;
+  transition: border-color 150ms ease, background-color 150ms ease;
+}
+
+.book-card article:hover {
+  background: color-mix(in srgb, var(--color-surface) 55%, transparent);
+  border-color: color-mix(in srgb, var(--color-brand-accent) 65%, var(--color-border));
+}
+
+.book-cover {
+  align-self: start;
+  display: flex;
+  justify-content: center;
+  line-height: 0;
+}
+
+.book-cover img {
+  border: 1px solid var(--color-border);
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 6px 14px rgba(0, 0, 0, 0.06);
+  display: block;
+  height: auto;
+  max-height: 10.5rem;
+  max-width: 100%;
+  width: auto;
+}
+
+.book-body {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.book-card-topline {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.book-format {
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  color: var(--color-text-tertiary);
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  line-height: 1;
+  padding: 0.3rem 0.45rem;
+}
+
+.book-format--journal-article,
+.book-format--book-chapter,
+.book-format--report {
+  border-color: color-mix(in srgb, var(--color-brand-accent) 35%, var(--color-border));
+  color: var(--color-brand-accent);
+}
+
+.book-card h4 {
+  font-family: var(--font-heading);
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  margin-top: 0.55rem;
+}
+
+.book-card h4 a {
+  text-decoration-color: transparent;
+}
+
+.book-card h4 a:hover,
+.book-card h4 a:focus-visible {
+  color: var(--color-brand-accent);
+  text-decoration-color: currentColor;
+}
+
+.book-subtitle {
+  color: var(--color-text-secondary);
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  margin-top: 0.2rem;
+}
+
+.book-authors {
+  color: var(--color-text);
+  font-size: 0.75rem;
+  margin-top: 0.4rem;
+}
+
+.book-note {
+  color: var(--color-text-secondary);
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  margin-top: 0.6rem;
+}
+
+.book-card-footer {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 0.85rem;
+}
+
+.book-meta {
+  color: var(--color-text-tertiary);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  gap: 0.5rem;
+}
+
+.book-meta span + span::before {
+  content: '·';
+  margin-right: 0.5rem;
+}
+
+.book-actions {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 0.75rem;
+}
+
+.book-actions a {
+  align-items: center;
+  color: var(--color-text-tertiary);
+  display: inline-flex;
+  font-size: 0.6875rem;
+  gap: 0.25rem;
+}
+
+.book-actions a:hover,
+.book-actions a:focus-visible {
+  color: var(--color-brand-accent);
+}
+
+.book-actions svg {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.books-empty {
+  border: 1px dashed var(--color-border);
+  border-radius: 0.5rem;
+  color: var(--color-text-tertiary);
+  font-size: 0.8125rem;
+  margin-top: 1.5rem;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
 .site-footer {
   align-items: center;
   color: var(--color-text-tertiary);
@@ -2911,6 +3155,25 @@ dialog[open] {
 }
 
 @media (max-width: 45rem) {
+  .book-card article {
+    gap: 0.9rem;
+    padding: 1rem;
+  }
+
+  .book-card article {
+    grid-template-columns: 4.75rem minmax(0, 1fr);
+  }
+
+  .book-cover img {
+    max-height: 7rem;
+  }
+
+  .book-card-footer {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
   header {
     padding-inline: 0.5rem;
   }

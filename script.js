@@ -1033,6 +1033,10 @@ const arxivPapersMeta = researchCorpus
   ? { keywords: researchCorpus.keywords || [], generatedAt: researchCorpus.generatedAt || '', yearRange: researchCorpus.yearRange }
   : globalThis.ARXIV_PAPERS_META || { keywords: [], generatedAt: '', yearRange: null };
 
+const booksLibrary = globalThis.BOOKS_LIBRARY || { sections: [], updatedAt: '' };
+const bookSections = Array.isArray(booksLibrary.sections) ? booksLibrary.sections : [];
+const allBooks = bookSections.flatMap((section) => section.books || []);
+
 const state = {
   activeView: 'directory',
   query: '',
@@ -1050,7 +1054,8 @@ const state = {
   paperAuthors: new Set(),
   paperInstitutions: new Set(),
   paperAuthorQuery: '',
-  paperInstitutionQuery: ''
+  paperInstitutionQuery: '',
+  bookQuery: ''
 };
 
 const elements = {
@@ -1102,7 +1107,13 @@ const elements = {
   papersLoadMore: document.querySelector('#papers-load-more'),
   paperMethodButton: document.querySelector('#paper-method-button'),
   paperMethodModal: document.querySelector('#paper-method-modal'),
-  paperMethodClose: document.querySelector('#paper-method-close')
+  paperMethodClose: document.querySelector('#paper-method-close'),
+  navBooks: document.querySelector('#nav-books'),
+  booksView: document.querySelector('#books-view'),
+  booksUpdated: document.querySelector('#books-updated'),
+  booksToc: document.querySelector('.books-toc'),
+  booksSections: document.querySelector('#books-sections'),
+  booksEmpty: document.querySelector('#books-empty')
 };
 
 const externalIcon = `
@@ -2737,13 +2748,107 @@ function renderPaperMetadata() {
   renderPaperFacets();
 }
 
+function bookHaystack(book) {
+  return [
+    book.title,
+    book.subtitle,
+    book.publisher,
+    book.format,
+    book.note,
+    book.isbn,
+    String(book.year || ''),
+    ...(book.authors || [])
+  ].join(' ').toLowerCase();
+}
+
+function matchingBooks(books) {
+  const query = state.bookQuery.trim().toLowerCase();
+  if (!query) return books;
+  return books.filter((book) => bookHaystack(book).includes(query));
+}
+
+function bookLinkTemplate(url, label) {
+  if (!url) return '';
+  return `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}${externalIcon}</a>`;
+}
+
+function bookItemTemplate(book) {
+  const authorLabel = (book.authors || []).join(', ');
+  const meta = [book.publisher, book.year ? String(book.year) : '', book.isbn ? `ISBN ${book.isbn}` : '']
+    .filter(Boolean)
+    .map((part) => `<span>${escapeHtml(part)}</span>`)
+    .join('');
+
+  return `
+    <li class="book-card">
+      <article>
+        <a class="book-cover" href="${escapeHtml(book.url)}" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true">
+          <img src="${escapeHtml(book.cover)}" alt="" loading="lazy" decoding="async" />
+        </a>
+        <div class="book-body">
+          <div class="book-card-topline">
+            <span class="book-format book-format--${escapeHtml(String(book.format || 'book').toLowerCase().replace(/[^a-z]+/g, '-'))}">${escapeHtml(book.format || 'Book')}</span>
+          </div>
+          <h4><a href="${escapeHtml(book.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(book.title)}</a></h4>
+          ${book.subtitle ? `<p class="book-subtitle">${escapeHtml(book.subtitle)}</p>` : ''}
+          <p class="book-authors">${escapeHtml(authorLabel)}</p>
+          ${book.note ? `<p class="book-note">${escapeHtml(book.note)}</p>` : ''}
+          <div class="book-card-footer">
+            <div class="book-meta">${meta}</div>
+            <div class="book-actions">
+              ${bookLinkTemplate(book.url, book.linkLabel || 'Publisher')}
+              ${bookLinkTemplate(book.altUrl, book.altLabel || 'Alternate')}
+            </div>
+          </div>
+        </div>
+      </article>
+    </li>`;
+}
+
+function renderBooks() {
+  const rendered = bookSections
+    .map((section) => ({ section, books: matchingBooks(section.books || []) }))
+    .filter((entry) => entry.books.length > 0);
+  const total = rendered.reduce((sum, entry) => sum + entry.books.length, 0);
+
+  elements.booksToc.innerHTML = rendered
+    .map(({ section, books }) => (
+      `<a href="#books-${escapeHtml(section.id)}">${escapeHtml(section.title)}<span>${books.length}</span></a>`
+    ))
+    .join('');
+  elements.booksToc.hidden = rendered.length < 2;
+
+  elements.booksSections.innerHTML = rendered
+    .map(({ section, books }) => `
+      <section class="book-section" id="books-${escapeHtml(section.id)}" aria-labelledby="books-${escapeHtml(section.id)}-title">
+        <div class="book-section-header">
+          <h3 id="books-${escapeHtml(section.id)}-title">${escapeHtml(section.title)}</h3>
+          ${section.intro ? `<p>${escapeHtml(section.intro)}</p>` : ''}
+        </div>
+        <ol class="books-list">${books.map(bookItemTemplate).join('')}</ol>
+      </section>`)
+    .join('');
+
+  elements.booksEmpty.hidden = total !== 0;
+  elements.booksUpdated.textContent = booksLibrary.updatedAt
+    ? `Updated ${formatPostDate(booksLibrary.updatedAt)}`
+    : '';
+
+  elements.count.textContent = total === allBooks.length
+    ? String(allBooks.length)
+    : `${total} / ${allBooks.length}`;
+  elements.summaryLabel.textContent = total === 1 ? 'book' : 'books';
+  elements.clearSearch.hidden = !state.bookQuery;
+}
+
 function showView(view) {
-  const selectedView = ['directory', 'blogs', 'papers'].includes(view) ? view : 'directory';
+  const selectedView = ['directory', 'blogs', 'papers', 'books'].includes(view) ? view : 'directory';
   state.activeView = selectedView;
   const views = {
     directory: [elements.directoryView, elements.navDirectory],
     blogs: [elements.blogsView, elements.navBlogs],
-    papers: [elements.papersView, elements.navPapers]
+    papers: [elements.papersView, elements.navPapers],
+    books: [elements.booksView, elements.navBooks]
   };
 
   Object.entries(views).forEach(([name, [viewElement, navElement]]) => {
@@ -2759,6 +2864,11 @@ function showView(view) {
     elements.search.setAttribute('aria-label', 'Search papers');
     elements.search.value = state.paperQuery;
     renderPapers();
+  } else if (selectedView === 'books') {
+    elements.search.placeholder = 'Search books';
+    elements.search.setAttribute('aria-label', 'Search books');
+    elements.search.value = state.bookQuery;
+    renderBooks();
   } else {
     elements.search.placeholder = 'Search companies';
     elements.search.setAttribute('aria-label', 'Search companies');
@@ -2783,6 +2893,7 @@ function navigateToView(event, view) {
 function viewForHash(hash = window.location.hash) {
   if (hash === '#blogs' || hash === '#focus-report') return 'blogs';
   if (hash === '#papers') return 'papers';
+  if (hash === '#books' || hash.startsWith('#books-')) return 'books';
   return 'directory';
 }
 
@@ -2798,6 +2909,12 @@ function clearSearch() {
     state.paperLimit = 50;
     elements.search.value = '';
     renderPapers();
+    return;
+  }
+  if (state.activeView === 'books') {
+    state.bookQuery = '';
+    elements.search.value = '';
+    renderBooks();
     return;
   }
   state.query = '';
@@ -2827,6 +2944,11 @@ elements.search.addEventListener('input', (event) => {
     state.paperQuery = event.target.value;
     state.paperLimit = 50;
     schedulePaperRender();
+    return;
+  }
+  if (state.activeView === 'books') {
+    state.bookQuery = event.target.value;
+    renderBooks();
     return;
   }
   state.country = '';
@@ -2893,6 +3015,7 @@ document.addEventListener('click', (event) => {
 elements.navDirectory.addEventListener('click', (event) => navigateToView(event, 'directory'));
 elements.navBlogs.addEventListener('click', (event) => navigateToView(event, 'blogs'));
 elements.navPapers.addEventListener('click', (event) => navigateToView(event, 'papers'));
+elements.navBooks.addEventListener('click', (event) => navigateToView(event, 'books'));
 window.addEventListener('popstate', () => {
   syncViewFromLocation();
 });
@@ -3099,4 +3222,4 @@ render();
 renderBlogFilters();
 renderBlogs();
 renderPaperMetadata();
-if (['#blogs', '#papers', '#focus-report'].includes(window.location.hash)) syncViewFromLocation();
+if (viewForHash() !== 'directory') syncViewFromLocation();

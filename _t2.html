@@ -483,5 +483,15 @@
     <noscript>
       <p class="noscript">JavaScript is required to render, search, and sort the directory.</p>
     </noscript>
-  </body>
+  <script>
+window.addEventListener('load', ()=>{setTimeout(()=>{
+ const out={};
+ out.handlerCount = typeof renderBooks === 'function' ? 'renderBooks-defined' : 'MISSING';
+ document.querySelector('#nav-books').click();
+ out.booksVisible = !document.querySelector('#books-view').hidden;
+ out.cards = document.querySelectorAll('.book-card').length;
+ out.hash = location.hash;
+ document.title=JSON.stringify(out);
+},900);});
+</script></body>
 </html>
