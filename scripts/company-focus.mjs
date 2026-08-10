@@ -17,7 +17,7 @@ import { promisify } from 'node:util';
 import { extractArticleText } from './update-blog-keyword-matches.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const SCRIPT_PATH = resolve(ROOT, 'script.js');
+const COMPANIES_PATH = resolve(ROOT, 'data/companies.js');
 const O9_PATH = resolve(ROOT, 'data/o9-posts.json');
 const CACHE_DIR = resolve(ROOT, '.company-corpus/pages');
 const JSON_PATH = resolve(ROOT, 'data/company-focus.json');
@@ -203,13 +203,12 @@ async function workerPool(items, concurrency, task) {
 
 export async function loadOrganizations() {
   const [source, o9Snapshot] = await Promise.all([
-    readFile(SCRIPT_PATH, 'utf8'),
+    readFile(COMPANIES_PATH, 'utf8'),
     readFile(O9_PATH, 'utf8').then(JSON.parse)
   ]);
-  const boundary = source.indexOf('const researchCorpus');
-  if (boundary < 0) throw new Error('Could not locate the organizations data boundary in script.js');
-  const loadOrgs = new Function('globalThis', `${source.slice(0, boundary)}\nreturn organizations;`);
-  return loadOrgs({ O9_POSTS: o9Snapshot.posts });
+  const context = { O9_POSTS: o9Snapshot.posts };
+  const loadOrgs = new Function('globalThis', `${source}\nreturn globalThis.COMPANY_DIRECTORY;`);
+  return loadOrgs(context);
 }
 
 // One document per homepage or post. `depth` records whether the text is the

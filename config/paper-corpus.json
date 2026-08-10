@@ -3,7 +3,6 @@
   "yearRange": { "from": 2023, "to": 2026 },
   "workDirectory": ".paper-corpus",
   "outputJson": "data/research-papers.json",
-  "outputScript": "data/research-papers.js",
   "grobidUrl": "http://127.0.0.1:8070",
   "downloadConcurrency": 6,
   "resolveConcurrency": 2,

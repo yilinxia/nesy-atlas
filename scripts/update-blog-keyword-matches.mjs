@@ -5,7 +5,7 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const SCRIPT_PATH = resolve(ROOT, 'script.js');
+const COMPANIES_PATH = resolve(ROOT, 'data/companies.js');
 const O9_PATH = resolve(ROOT, 'data/o9-posts.json');
 const JSON_PATH = resolve(ROOT, 'data/blog-keyword-matches.json');
 const JS_PATH = resolve(ROOT, 'data/blog-keyword-matches.js');
@@ -85,16 +85,12 @@ export function classifyPost(title, content) {
 
 async function loadDisplayedPosts() {
   const [source, o9Snapshot] = await Promise.all([
-    readFile(SCRIPT_PATH, 'utf8'),
+    readFile(COMPANIES_PATH, 'utf8'),
     readFile(O9_PATH, 'utf8').then(JSON.parse)
   ]);
-  const boundary = source.indexOf('const researchCorpus');
-  if (boundary < 0) throw new Error('Could not locate the organizations data boundary in script.js');
-  const loadOrganizations = new Function(
-    'globalThis',
-    `${source.slice(0, boundary)}\nreturn organizations;`
-  );
-  const organizations = loadOrganizations({ O9_POSTS: o9Snapshot.posts });
+  const context = { O9_POSTS: o9Snapshot.posts };
+  const loadOrganizations = new Function('globalThis', `${source}\nreturn globalThis.COMPANY_DIRECTORY;`);
+  const organizations = loadOrganizations(context);
   return organizations.flatMap((organization) => {
     const posts = organization.posts?.length
       ? organization.posts

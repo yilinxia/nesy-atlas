@@ -1,0 +1,18 @@
+{
+  "name": "nesy-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A source-backed atlas of neurosymbolic companies, publications, and research.",
+  "scripts": {
+    "check": "node scripts/check-static.mjs",
+    "test": "node --test scripts/*.test.mjs",
+    "verify": "npm run check && npm test",
+    "serve": "python3 -m http.server 4173",
+    "update:arxiv": "node scripts/update-arxiv-papers.mjs && node scripts/paper-corpus.mjs refresh-arxiv",
+    "update:blogs": "node scripts/check-new-blogs.mjs",
+    "update:focus": "node scripts/update-blog-keyword-matches.mjs --concurrency 12 && node scripts/company-focus.mjs all"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

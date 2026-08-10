@@ -12,16 +12,12 @@
     <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml" />
     <link rel="icon" href="assets/brand/logo.png" type="image/png" sizes="512x512" />
     <link rel="apple-touch-icon" href="assets/brand/logo.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
-    <script src="https://cdn.jsdelivr.net/npm/echarts@6/dist/echarts.min.js" defer></script>
     <script src="data/company-verification.js" defer></script>
     <script src="data/o9-posts.js" defer></script>
+    <script src="data/companies.js" defer></script>
     <script src="data/company-focus.js" defer></script>
     <script src="data/blog-keyword-matches.js" defer></script>
-    <script src="data/research-papers.js" defer></script>
     <script src="data/books.js" defer></script>
     <script src="script.js" defer></script>
   </head>
@@ -336,6 +332,7 @@
             </aside>
 
             <div class="papers-content">
+              <div id="paper-load-status" class="paper-load-status" role="status" aria-live="polite" hidden></div>
               <div class="paper-keywords" aria-label="Included keywords">
                 <span>Keywords</span>
                 <ul id="paper-keyword-list"></ul>

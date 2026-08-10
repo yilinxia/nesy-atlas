@@ -4,12 +4,10 @@ import { readFile } from 'node:fs/promises';
 import vm from 'node:vm';
 
 async function loadOrganizations() {
-  const source = await readFile(new URL('../script.js', import.meta.url), 'utf8');
-  const marker = 'const organizations = ';
-  const start = source.indexOf(marker) + marker.length;
-  const end = source.indexOf('\n];', start) + 2;
-  assert.ok(start >= marker.length && end > start, 'organizations array is present');
-  return Function('o9Posts', `return (${source.slice(start, end)})`)([]);
+  const source = await readFile(new URL('../data/companies.js', import.meta.url), 'utf8');
+  const context = { globalThis: { O9_POSTS: [] } };
+  vm.runInNewContext(source, context);
+  return context.globalThis.COMPANY_DIRECTORY;
 }
 
 async function loadVerification() {
@@ -24,7 +22,7 @@ test('every directory company has complete, source-backed inclusion evidence', a
     loadOrganizations(),
     loadVerification()
   ]);
-  const companyNames = organizations.map(({ name }) => name).sort();
+  const companyNames = Array.from(organizations, ({ name }) => name).sort();
   const evidenceNames = Object.keys(verification.companies).sort();
 
   assert.deepEqual(evidenceNames, companyNames);

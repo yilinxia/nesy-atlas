@@ -22,20 +22,21 @@ NeSy Atlas is a source-backed directory of neurosymbolic AI companies, their pub
 
 A company is included only when an official source—such as its website, founder profile, or announcement—makes an explicit neurosymbolic or equivalent neural-symbolic claim.
 
-The site contains three views:
+The site contains four views:
 
 - **Directory:** company, product, location, funding, leadership, and GitHub data.
 - **Posts:** dated company publications with explicit NeSy keyword filtering.
 - **Papers:** research from arXiv and major AI conference proceedings.
+- **Books:** a curated reading path for neurosymbolic AI and knowledge graphs.
 
 The Focus report analyzes homepage positioning and blog publishing separately. It covers 17 themes, including reasoning, knowledge graphs, agents, explainability, governance, and industry applications.
 
 ## Run locally
 
-No build step is required. Serve the repository as a static site:
+No build step is required. With Node.js 20+ and Python 3 available, run:
 
 ```bash
-python3 -m http.server 4173
+npm run serve
 ```
 
 Open [http://localhost:4173](http://localhost:4173).
@@ -53,10 +54,10 @@ Open [http://localhost:4173](http://localhost:4173).
 
 ## Data maintenance
 
-Run the test suite before committing regenerated data:
+Run the complete static and test verification before committing:
 
 ```bash
-node --test scripts/*.test.mjs
+npm run verify
 ```
 
 ### Company posts and Focus report
@@ -76,7 +77,7 @@ node scripts/update-arxiv-papers.mjs
 node scripts/paper-corpus.mjs refresh-arxiv
 ```
 
-The `Update arXiv papers` workflow runs daily at 12:00 UTC and can also be started manually from GitHub Actions.
+The `Update arXiv papers` workflow runs daily at 12:00 UTC and can also be started manually from GitHub Actions. The browser fetches `research-papers.json` only when the Papers view is opened, keeping the initial page lightweight.
 
 ### Full paper corpus
 
@@ -93,11 +94,13 @@ Use `--limit 10` for a small run, `resolve --local-only` to avoid external resol
 
 - `index.html` — page structure, metadata, and accessibility.
 - `styles.css` — the Wire visual system and responsive layout.
-- `script.js` — rendering, filtering, sorting, and navigation.
+- `script.js` — rendering, filtering, sorting, navigation, and lazy data loading.
 - `assets/brand/` — favicon and light/dark logo assets.
-- `data/` — generated snapshots consumed by the site.
+- `data/companies.js` — curated company profiles and maintained post lists.
+- `data/` — curated inputs, generated snapshots, and workflow state; see `data/README.md`.
 - `config/` — paper-corpus configuration.
 - `scripts/` — data collection, analysis, and tests.
+- `.github/workflows/ci.yml` — push and pull-request verification.
 - `fonts/` — locally hosted web fonts.
 - `THIRD_PARTY_NOTICES.md` — third-party attribution.
 
