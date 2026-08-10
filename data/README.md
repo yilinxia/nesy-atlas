@@ -7,6 +7,7 @@ This directory contains three kinds of data. Keeping the distinction explicit pr
 - `companies.js` — company profiles and maintained post lists.
 - `company-verification.js` — first-party evidence used to include each company.
 - `books.js` — the curated reading list.
+- `community.js` — organizer-sourced communities, conferences, talks, and schools.
 - `blog-sources.json` — company pages checked by the daily blog workflow.
 
 ## Generated snapshots

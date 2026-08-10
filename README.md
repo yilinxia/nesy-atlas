@@ -16,18 +16,19 @@
   <img alt="HTML, CSS, and JavaScript" src="https://img.shields.io/badge/frontend-HTML%20%2F%20CSS%20%2F%20JavaScript-1f1e1c?style=flat-square">
 </p>
 
-NeSy Atlas is a source-backed directory of neurosymbolic AI companies, their published posts, and relevant research. It brings company discovery, market signals, and the academic literature into one searchable, reproducible resource.
+NeSy Atlas is a source-backed directory of neurosymbolic AI companies, their published posts, relevant research, and community resources. It brings company discovery, market signals, the academic literature, and places to participate into one searchable, reproducible resource.
 
 ## Scope
 
 A company is included only when an official source—such as its website, founder profile, or announcement—makes an explicit neurosymbolic or equivalent neural-symbolic claim.
 
-The site contains four views:
+The site contains five views:
 
 - **Directory:** company, product, location, funding, leadership, and GitHub data.
 - **Posts:** dated company publications with explicit NeSy keyword filtering.
 - **Papers:** research from arXiv and major AI conference proceedings.
 - **Books:** a curated reading path for neurosymbolic AI and knowledge graphs.
+- **Community:** sourced associations, discussion groups, conferences, talks, and schools.
 
 The Focus report analyzes homepage positioning and blog publishing separately. It covers 17 themes, including reasoning, knowledge graphs, agents, explainability, governance, and industry applications.
 
@@ -97,6 +98,7 @@ Use `--limit 10` for a small run, `resolve --local-only` to avoid external resol
 - `script.js` — rendering, filtering, sorting, navigation, and lazy data loading.
 - `assets/brand/` — favicon and light/dark logo assets.
 - `data/companies.js` — curated company profiles and maintained post lists.
+- `data/community.js` — organizer-sourced community and event links.
 - `data/` — curated inputs, generated snapshots, and workflow state; see `data/README.md`.
 - `config/` — paper-corpus configuration.
 - `scripts/` — data collection, analysis, and tests.

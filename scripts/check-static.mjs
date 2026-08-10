@@ -60,7 +60,8 @@ async function main() {
     'script.js',
     'data/companies.js',
     'data/company-verification.js',
-    'data/books.js'
+    'data/books.js',
+    'data/community.js'
   ]);
 
   if (!process.exitCode) {

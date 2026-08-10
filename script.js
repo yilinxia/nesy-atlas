@@ -17,6 +17,9 @@ let echartsPromise = null;
 const booksLibrary = globalThis.BOOKS_LIBRARY || { sections: [], updatedAt: '' };
 const bookSections = Array.isArray(booksLibrary.sections) ? booksLibrary.sections : [];
 const allBooks = bookSections.flatMap((section) => section.books || []);
+const communityLibrary = globalThis.NESY_COMMUNITY || { sections: [], updatedAt: '' };
+const communitySections = Array.isArray(communityLibrary.sections) ? communityLibrary.sections : [];
+const allCommunityItems = communitySections.flatMap((section) => section.items || []);
 
 const state = {
   activeView: 'directory',
@@ -36,7 +39,8 @@ const state = {
   paperInstitutions: new Set(),
   paperAuthorQuery: '',
   paperInstitutionQuery: '',
-  bookQuery: ''
+  bookQuery: '',
+  communityQuery: ''
 };
 
 const elements = {
@@ -99,7 +103,12 @@ const elements = {
   booksUpdated: document.querySelector('#books-updated'),
   booksToc: document.querySelector('.books-toc'),
   booksSections: document.querySelector('#books-sections'),
-  booksEmpty: document.querySelector('#books-empty')
+  booksEmpty: document.querySelector('#books-empty'),
+  navCommunity: document.querySelector('#nav-community'),
+  communityView: document.querySelector('#community-view'),
+  communityUpdated: document.querySelector('#community-updated'),
+  communitySections: document.querySelector('#community-sections'),
+  communityEmpty: document.querySelector('#community-empty')
 };
 
 const externalIcon = `
@@ -1949,14 +1958,100 @@ function renderBooks() {
   elements.clearSearch.hidden = !state.bookQuery;
 }
 
+function communityHaystack(item) {
+  const related = [...(item.socials || []), ...(item.programs || [])]
+    .flatMap((entry) => [entry.name, entry.meta]);
+  return [
+    item.name,
+    item.kind,
+    item.description,
+    item.evidence,
+    ...related
+  ].join(' ').toLowerCase();
+}
+
+function matchingCommunityItems(items) {
+  const query = state.communityQuery.trim().toLowerCase();
+  return query ? items.filter((item) => communityHaystack(item).includes(query)) : items;
+}
+
+function communityRelatedTemplate(title, items = []) {
+  if (!items.length) return '';
+  return `
+    <div class="community-related">
+      <p>${escapeHtml(title)}</p>
+      <ul>
+        ${items.map((entry) => `
+          <li>
+            <a href="${escapeHtml(entry.url)}" target="_blank" rel="noopener noreferrer">
+              <span>${escapeHtml(entry.name)}</span>${externalIcon}
+            </a>
+            <small>${escapeHtml(entry.meta || '')}</small>
+          </li>`).join('')}
+      </ul>
+    </div>`;
+}
+
+function communityItemTemplate(item) {
+  return `
+    <li class="community-card">
+      <article>
+        <div class="community-card-topline">
+          <span class="community-kind">${escapeHtml(item.kind)}</span>
+        </div>
+        <h4><a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.name)}</a></h4>
+        <p class="community-description">${escapeHtml(item.description)}</p>
+        <div class="community-related-groups">
+          ${communityRelatedTemplate('Social & community', item.socials)}
+          ${communityRelatedTemplate('Programs & events', item.programs)}
+        </div>
+        <p class="community-evidence">
+          <strong>Source note</strong>${escapeHtml(item.evidence)}
+          ${item.sourceUrl ? `<a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noopener noreferrer">Verify${externalIcon}</a>` : ''}
+        </p>
+        <a class="community-action" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
+          ${escapeHtml(item.action)}${externalIcon}
+        </a>
+      </article>
+    </li>`;
+}
+
+function renderCommunity() {
+  const rendered = communitySections
+    .map((section) => ({ section, items: matchingCommunityItems(section.items || []) }))
+    .filter((entry) => entry.items.length > 0);
+  const total = rendered.reduce((sum, entry) => sum + entry.items.length, 0);
+
+  elements.communitySections.innerHTML = rendered.map(({ section, items }) => `
+    <section class="community-section" aria-labelledby="community-${escapeHtml(section.id)}-title">
+      <div class="community-section-header">
+        <p>${escapeHtml(section.eyebrow || '')}</p>
+        <h3 id="community-${escapeHtml(section.id)}-title">${escapeHtml(section.title)}</h3>
+        <span>${escapeHtml(section.intro || '')}</span>
+      </div>
+      <ul class="community-grid">${items.map(communityItemTemplate).join('')}</ul>
+    </section>`).join('');
+
+  elements.communityEmpty.hidden = total !== 0;
+  elements.communityUpdated.textContent = communityLibrary.updatedAt
+    ? `Reviewed ${formatPostDate(communityLibrary.updatedAt)}`
+    : '';
+  elements.count.textContent = total === allCommunityItems.length
+    ? String(allCommunityItems.length)
+    : `${total} / ${allCommunityItems.length}`;
+  elements.summaryLabel.textContent = total === 1 ? 'community resource' : 'community resources';
+  elements.clearSearch.hidden = !state.communityQuery;
+}
+
 function showView(view) {
-  const selectedView = ['directory', 'blogs', 'papers', 'books'].includes(view) ? view : 'directory';
+  const selectedView = ['directory', 'blogs', 'papers', 'books', 'community'].includes(view) ? view : 'directory';
   state.activeView = selectedView;
   const views = {
     directory: [elements.directoryView, elements.navDirectory],
     blogs: [elements.blogsView, elements.navBlogs],
     papers: [elements.papersView, elements.navPapers],
-    books: [elements.booksView, elements.navBooks]
+    books: [elements.booksView, elements.navBooks],
+    community: [elements.communityView, elements.navCommunity]
   };
 
   Object.entries(views).forEach(([name, [viewElement, navElement]]) => {
@@ -1978,6 +2073,11 @@ function showView(view) {
     elements.search.setAttribute('aria-label', 'Search books');
     elements.search.value = state.bookQuery;
     renderBooks();
+  } else if (selectedView === 'community') {
+    elements.search.placeholder = 'Search community';
+    elements.search.setAttribute('aria-label', 'Search community resources');
+    elements.search.value = state.communityQuery;
+    renderCommunity();
   } else {
     elements.search.placeholder = 'Search companies';
     elements.search.setAttribute('aria-label', 'Search companies');
@@ -2003,6 +2103,7 @@ function viewForHash(hash = window.location.hash) {
   if (hash === '#blogs' || hash === '#focus-report') return 'blogs';
   if (hash === '#papers') return 'papers';
   if (hash === '#books' || hash.startsWith('#books-')) return 'books';
+  if (hash === '#community') return 'community';
   return 'directory';
 }
 
@@ -2024,6 +2125,12 @@ function clearSearch() {
     state.bookQuery = '';
     elements.search.value = '';
     renderBooks();
+    return;
+  }
+  if (state.activeView === 'community') {
+    state.communityQuery = '';
+    elements.search.value = '';
+    renderCommunity();
     return;
   }
   state.query = '';
@@ -2085,6 +2192,11 @@ elements.search.addEventListener('input', (event) => {
   if (state.activeView === 'books') {
     state.bookQuery = event.target.value;
     renderBooks();
+    return;
+  }
+  if (state.activeView === 'community') {
+    state.communityQuery = event.target.value;
+    renderCommunity();
     return;
   }
   state.country = '';
@@ -2164,6 +2276,7 @@ elements.navDirectory.addEventListener('click', (event) => navigateToView(event,
 elements.navBlogs.addEventListener('click', (event) => navigateToView(event, 'blogs'));
 elements.navPapers.addEventListener('click', (event) => navigateToView(event, 'papers'));
 elements.navBooks.addEventListener('click', (event) => navigateToView(event, 'books'));
+elements.navCommunity.addEventListener('click', (event) => navigateToView(event, 'community'));
 window.addEventListener('popstate', () => {
   syncViewFromLocation();
 });
@@ -2378,4 +2491,5 @@ elements.paperMethodModal.addEventListener('click', (event) => {
 render();
 renderBlogFilters();
 renderBlogs();
+renderCommunity();
 if (viewForHash() !== 'directory') syncViewFromLocation();
