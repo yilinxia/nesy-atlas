@@ -6,8 +6,23 @@ import {
   extractArxivSubmittedDateFromFeed,
   extractPublicationDateFromHtml,
   extractPublicationDateFromText,
+  formatSnapshotDate,
+  updateBlogSnapshotHtml,
   normalizePublicationDate
 } from './check-new-blogs.mjs';
+
+test('updates the Posts snapshot label for the workflow run date', () => {
+  const html = '<span id="blogs-updated">Snapshot Aug 5, 2026</span>';
+  assert.equal(formatSnapshotDate('2026-08-10'), 'Aug 10, 2026');
+  assert.equal(
+    updateBlogSnapshotHtml(html, '2026-08-10'),
+    '<span id="blogs-updated">Snapshot Aug 10, 2026</span>'
+  );
+  assert.throws(
+    () => updateBlogSnapshotHtml('<span>Snapshot Aug 5, 2026</span>', '2026-08-10'),
+    /Could not find #blogs-updated/
+  );
+});
 
 test('uses the original arXiv submitted date instead of the revision date', () => {
   const feed = `

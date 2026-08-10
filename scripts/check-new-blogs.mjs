@@ -6,7 +6,7 @@
 // data/known-posts.json. It also visits each new article to recover publication
 // dates omitted by listing pages. Anything new gets appended to
 // data/pending-posts.json for human review — this script never edits script.js
-// directly.
+// directly. A completed run also advances the Posts snapshot date in index.html.
 //
 // This is a best-effort generic link scraper, not a per-site parser: it will
 // miss posts on JS-rendered pages it can't see and may occasionally surface a
@@ -21,6 +21,7 @@ import path from 'node:path';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const DATA_DIR = path.join(ROOT, 'data');
+const INDEX_PATH = path.join(ROOT, 'index.html');
 const SOURCES_PATH = path.join(DATA_DIR, 'blog-sources.json');
 const KNOWN_PATH = path.join(DATA_DIR, 'known-posts.json');
 const PENDING_PATH = path.join(DATA_DIR, 'pending-posts.json');
@@ -70,6 +71,29 @@ function sleep(ms) {
 
 function todayIso() {
   return new Date().toISOString().slice(0, 10);
+}
+
+function formatSnapshotDate(isoDate) {
+  const match = String(isoDate).match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (!match) throw new Error(`Invalid snapshot date: ${isoDate}`);
+  const [, year, month, day] = match;
+  const monthNames = [
+    'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+    'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
+  ];
+  const monthName = monthNames[Number(month) - 1];
+  if (!monthName || validIsoDate(year, month, day) !== isoDate) {
+    throw new Error(`Invalid snapshot date: ${isoDate}`);
+  }
+  return `${monthName} ${Number(day)}, ${year}`;
+}
+
+function updateBlogSnapshotHtml(html, isoDate) {
+  const marker = /(<span id="blogs-updated">)Snapshot [^<]*(<\/span>)/;
+  if (!marker.test(html)) {
+    throw new Error('Could not find #blogs-updated snapshot label in index.html');
+  }
+  return html.replace(marker, `$1Snapshot ${formatSnapshotDate(isoDate)}$2`);
 }
 
 function stripTags(html) {
@@ -386,9 +410,11 @@ async function extractPublicationDate(postUrl) {
 }
 
 async function main() {
+  const runDate = todayIso();
   const sources = await readJson(SOURCES_PATH, {});
   const known = await readJson(KNOWN_PATH, {});
   const pending = await readJson(PENDING_PATH, []);
+  const indexHtml = await readFile(INDEX_PATH, 'utf8');
 
   const pendingUrls = new Set(pending.map((entry) => entry.url));
   const discoveredToday = [];
@@ -419,7 +445,7 @@ async function main() {
           date,
           url: link.url,
           sourceUrl,
-          discovered: todayIso(),
+          discovered: runDate,
           status: 'needs-review'
         });
       }
@@ -438,6 +464,8 @@ async function main() {
   await mkdir(DATA_DIR, { recursive: true });
   await writeFile(KNOWN_PATH, JSON.stringify(known, null, 2) + '\n');
   await writeFile(PENDING_PATH, JSON.stringify(pending, null, 2) + '\n');
+  await writeFile(INDEX_PATH, updateBlogSnapshotHtml(indexHtml, runDate), 'utf8');
+  console.log(`Updated Posts snapshot date to ${runDate}.`);
 }
 
 const isMain = process.argv[1]
@@ -455,5 +483,7 @@ export {
   extractArxivSubmittedDateFromFeed,
   extractPublicationDateFromHtml,
   extractPublicationDateFromText,
+  formatSnapshotDate,
+  updateBlogSnapshotHtml,
   normalizePublicationDate
 };

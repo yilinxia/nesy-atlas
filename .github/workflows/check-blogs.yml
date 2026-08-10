@@ -26,6 +26,9 @@ jobs:
         with:
           node-version: 20
 
+      - name: Test blog extraction
+        run: node --test scripts/check-new-blogs.test.mjs
+
       - name: Check company blog sources for new posts
         run: node scripts/check-new-blogs.mjs
 
@@ -33,7 +36,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/pending-posts.json data/known-posts.json
+          git add data/pending-posts.json data/known-posts.json index.html
           if git diff --cached --quiet; then
             echo "No new blog candidates found."
             exit 0
