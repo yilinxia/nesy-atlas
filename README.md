@@ -43,6 +43,7 @@ Open [http://localhost:4173](http://localhost:4173).
 ## Methodology
 
 - Inclusion and company facts are backed by public sources linked from the site.
+- The verification shield beside every company opens the exact first-party evidence used for inclusion.
 - Founding years use LinkedIn About pages, with the current CEO's start year as a fallback.
 - GitHub stars, funding, and company details are point-in-time snapshots and should be rechecked periodically.
 - Homepage focus weights body text 1×, H3 2×, H2 3×, page titles 4×, and H1 5×.

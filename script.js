@@ -1,6 +1,7 @@
 const o9Posts = Array.isArray(globalThis.O9_POSTS) ? globalThis.O9_POSTS : [];
 const blogKeywordMatches = globalThis.BLOG_NEUROSYMBOLIC_MATCHES || {};
 const companyFocus = globalThis.COMPANY_FOCUS || null;
+const companyVerification = globalThis.COMPANY_VERIFICATION?.companies || {};
 
 const organizations = [
   {
@@ -1069,6 +1070,10 @@ const elements = {
   modal: document.querySelector('#modal'),
   close: document.querySelector('#close'),
   methodLinks: [document.querySelector('#footer-method-link')],
+  verificationModal: document.querySelector('#verification-modal'),
+  verificationContent: document.querySelector('#verification-content'),
+  verificationClose: document.querySelector('#verification-close'),
+  verificationMethodLink: document.querySelector('#verification-method-link'),
   navDirectory: document.querySelector('#nav-directory'),
   navBlogs: document.querySelector('#nav-blogs'),
   navPapers: document.querySelector('#nav-papers'),
@@ -1145,6 +1150,12 @@ const POST_TIMELINE_START_MONTH = postTimelineStartDate.toISOString().slice(0, 7
 const linkedinIcon = `
   <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
     <path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14M8.34 17.34V9.67H5.79v7.67h2.55M7.07 8.57a1.48 1.48 0 1 0-.01-2.96 1.48 1.48 0 0 0 .01 2.96m11.14 8.77v-4.21c0-2.25-1.2-3.29-2.83-3.29a2.8 2.8 0 0 0-2.55 1.4V9.67h-2.55v7.67h2.55v-3.8c0-1 .19-1.97 1.43-1.97s1.24 1.14 1.24 2.04v3.73h2.71Z"></path>
+  </svg>`;
+
+const verificationIcon = `
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+    <path d="M12 3 19 6v5.2c0 4.2-2.8 7.9-7 9.8-4.2-1.9-7-5.6-7-9.8V6l7-3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path>
+    <path d="m8.6 12 2.1 2.1 4.8-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
   </svg>`;
 
 const githubIcon = `
@@ -1346,6 +1357,9 @@ function rowTemplate(organization) {
   const linkedin = organization.linkedin
     ? `<a class="company-linkedin" href="${escapeHtml(organization.linkedin)}" target="_blank" rel="noopener noreferrer" title="Open ${escapeHtml(organization.name)} on LinkedIn" aria-label="${escapeHtml(organization.name)} on LinkedIn">${linkedinIcon}</a>`
     : '';
+  const verification = companyVerification[organization.name]
+    ? `<button class="company-verification" type="button" data-verification-company="${escapeHtml(organization.name)}" title="Why ${escapeHtml(organization.name)} is included" aria-label="View inclusion evidence for ${escapeHtml(organization.name)}">${verificationIcon}</button>`
+    : '';
 
   return `
     <tr>
@@ -1358,6 +1372,7 @@ function rowTemplate(organization) {
           <span class="company-title">
             <a class="company-homepage" href="${escapeHtml(organization.website)}" target="_blank" rel="noopener noreferrer" title="Open ${escapeHtml(organization.name)} homepage">${escapeHtml(organization.name)}</a>
             ${linkedin}
+            ${verification}
           </span>
         </div>
       </td>
@@ -2931,6 +2946,33 @@ function closeInclusionMethod() {
   elements.modal.close();
 }
 
+function openCompanyVerification(companyName) {
+  const evidence = companyVerification[companyName];
+  if (!evidence) return;
+  const sources = (evidence.sources || []).map((source) => `
+    <li class="verification-source">
+      <a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">
+        <span>${escapeHtml(source.label)}</span>${externalIcon}
+      </a>
+      <blockquote>“${escapeHtml(source.quote)}”</blockquote>
+    </li>`).join('');
+  elements.verificationContent.innerHTML = `
+    <p class="verification-status"><span aria-hidden="true">✓</span> Source-backed inclusion</p>
+    <h3 id="verification-company-name">${escapeHtml(companyName)}</h3>
+    <p class="verification-criterion">${escapeHtml(evidence.criterion)}</p>
+    <p class="verification-summary">${escapeHtml(evidence.summary)}</p>
+    <h4>Evidence</h4>
+    <ul class="verification-sources">${sources}</ul>
+    <p class="verification-note">The linked passage is the inclusion evidence; it is not an endorsement or a validation of broader product claims.</p>`;
+  if (typeof elements.verificationModal.showModal === 'function') {
+    elements.verificationModal.showModal();
+  }
+}
+
+function closeCompanyVerification() {
+  elements.verificationModal.close();
+}
+
 function openPaperMethod() {
   if (typeof elements.paperMethodModal.showModal === 'function') elements.paperMethodModal.showModal();
 }
@@ -2992,6 +3034,12 @@ document.addEventListener('keydown', (event) => {
 });
 
 document.addEventListener('click', (event) => {
+  const verificationButton = event.target.closest('[data-verification-company]');
+  if (verificationButton) {
+    openCompanyVerification(verificationButton.dataset.verificationCompany);
+    return;
+  }
+
   const locationFilter = event.target.closest('[data-country-filter]');
   if (locationFilter) {
     if (state.country === locationFilter.dataset.countryFilter) {
@@ -3210,6 +3258,15 @@ elements.close.addEventListener('click', closeInclusionMethod);
 elements.modal.addEventListener('cancel', closeInclusionMethod);
 elements.modal.addEventListener('click', (event) => {
   if (event.target === elements.modal) closeInclusionMethod();
+});
+elements.verificationClose.addEventListener('click', closeCompanyVerification);
+elements.verificationModal.addEventListener('cancel', closeCompanyVerification);
+elements.verificationModal.addEventListener('click', (event) => {
+  if (event.target === elements.verificationModal) closeCompanyVerification();
+});
+elements.verificationMethodLink.addEventListener('click', () => {
+  closeCompanyVerification();
+  openInclusionMethod();
 });
 elements.paperMethodButton.addEventListener('click', openPaperMethod);
 elements.paperMethodClose.addEventListener('click', closePaperMethod);

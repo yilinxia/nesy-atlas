@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/echarts@6/dist/echarts.min.js" defer></script>
+    <script src="data/company-verification.js" defer></script>
     <script src="data/o9-posts.js" defer></script>
     <script src="data/company-focus.js" defer></script>
     <script src="data/blog-keyword-matches.js" defer></script>
@@ -428,6 +429,10 @@
           descriptions, conference sites, and directories do not qualify a company on their own.
         </p>
         <p>
+          The shield beside each company opens its specific inclusion evidence, including a short qualifying passage
+          and a link to the relevant homepage section, official company article, research page, or announcement.
+        </p>
+        <p>
           <b>Current scope:</b> for now, NeSy Atlas focuses on independent and specialist companies and does not
           include major technology companies, even when they have qualifying neurosymbolic work. This scope may
           expand in the future.
@@ -452,6 +457,23 @@
       </div>
       <div class="modal-footer">
         <a href="#company-table">Directory</a>
+        <a href="https://github.com/yilinxia/nesy-atlas/issues" target="_blank" rel="noopener noreferrer">Suggest a correction</a>
+      </div>
+    </dialog>
+
+    <dialog id="verification-modal" aria-labelledby="verification-company-name">
+      <div class="modal-header">
+        <h2>Inclusion verification</h2>
+        <button id="verification-close" type="button" aria-label="Close company verification dialog">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </button>
+      </div>
+      <div id="verification-content" class="modal-body verification-body"></div>
+      <div class="modal-footer">
+        <button id="verification-method-link" type="button">View inclusion method</button>
         <a href="https://github.com/yilinxia/nesy-atlas/issues" target="_blank" rel="noopener noreferrer">Suggest a correction</a>
       </div>
     </dialog>
