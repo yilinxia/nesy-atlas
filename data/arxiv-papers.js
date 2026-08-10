@@ -2,7 +2,7 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-08-09T12:30:11.126Z",
+  "generatedAt": "2026-08-10T12:45:43.024Z",
   "keywords": [
     "neurosymbolic",
     "neuro-symbolic",
@@ -14,6 +14,42 @@ globalThis.ARXIV_PAPERS_META = {
   "inclusion": "Title or abstract contains at least one keyword."
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2608.06765",
+    "title": "LiFTER: A Grounded Neuro-Symbolic Microscope for Continuous-Time Dynamic Graph Forecasting",
+    "abstract": "Continuous-time dynamic graph models predict future links by compressing past interactions into neural states. Although effective for forecasting, this computation obscures which entities are shared across events and how temporal patterns contribute to a prediction. We treat this gap as a property of the predictive architecture rather than a problem to be addressed after prediction. Link-Fact Temporal Rule Inducer (LiFTER) is a neuro-symbolic predictor that preserves observed interactions as grounded temporal facts and applies executable tempo- ral rules to pre-query facts. Each score is a signed sum of rule exe- cutions whose historical facts, entity bindings, and temporal order are explicitly satisfied. The evidence and rules responsible for a prediction can therefore be inspected, independently recomputed, and intervened upon. Across four CTDG benchmarks, LiFTER achieves competitive historical-negative forecasting and the highest macro explanation ac- curacy and deletion fidelity. The same architecture also serves as a microscope that separates the contributions of recurrence, history po- sition, and transition across datasets and traces them to individual facts. Independent execution reconstructs all logits for 19,664 test predictions with a maximum error of 0.0000131. LiFTER turns future-link forecasting into a verifiable grounded computation.",
+    "authors": [
+      "Minwoo Yu",
+      "Young-guk Ha"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Minwoo Yu",
+        "affiliations": []
+      },
+      {
+        "name": "Young-guk Ha",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-07",
+    "updated": "2026-08-07",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2608.06765",
+    "pdfUrl": "https://arxiv.org/pdf/2608.06765",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2608.06331",
     "title": "Tytan: Interactive Neurosymbolic Construction of Analytic Semantic Schemas from Relational Data",
