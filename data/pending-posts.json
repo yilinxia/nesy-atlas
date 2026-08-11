@@ -997,5 +997,32 @@
     "sourceUrl": "https://www.kognitos.com/blog/",
     "discovered": "2026-08-07",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Finance & Accounting Automation Exemption Certificate Management: Cutting Sales Tax Audit Risk (2026) A certificate on file is not the same as a valid certificate. Expired, incomplete and mismatched exemption certificates are a leading source of audit assessments, and the seller carries the liability. Aug 11, 2026 Read &rarr;",
+    "date": "2026-08-11",
+    "url": "https://www.kognitos.com/blog/exemption-certificate-management/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-08-11",
+    "status": "needs-review"
+  },
+  {
+    "company": "Onteric",
+    "title": "AI & Innovation August 11, 2026 Why Boards are trying to make you do the school run in a spaceship.",
+    "date": "",
+    "url": "https://www.onteric.com/news-and-insights/why-boards-are-trying-to-make-you-do-the-school-run-in-a-spaceship",
+    "sourceUrl": "https://www.onteric.com/news-and-insights/",
+    "discovered": "2026-08-11",
+    "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "Blog Testing NVIDIA Nemotron 3.5 Lightning Against Real Enterprise Agentic Workloads",
+    "date": "2026-08-11",
+    "url": "https://www.uniphore.com/blog/testing-nvidia-nemotron-3-5-lightning-against-real-enterprise-agentic-workloads/",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-08-11",
+    "status": "needs-review"
   }
 ]
