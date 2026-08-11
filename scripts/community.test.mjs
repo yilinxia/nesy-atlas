@@ -33,6 +33,8 @@ test('community resources are complete, unique, and source-backed', async () => 
     assert.ok(item.evidence, `${item.id} has a source note`);
     assert.ok(item.action, `${item.id} has an action label`);
     assert.match(item.url, /^https:\/\//, `${item.id} uses HTTPS`);
+    if (item.logo) assert.match(item.logo, /^https:\/\//, `${item.id} has an HTTPS logo`);
+    if (item.logoFallback) assert.match(item.logoFallback, /^.{1,3}$/, `${item.id} has a compact logo fallback`);
     if (item.sourceUrl) assert.match(item.sourceUrl, /^https:\/\//, `${item.id} source uses HTTPS`);
     for (const related of [...(item.socials || []), ...(item.programs || [])]) {
       assert.ok(related.name, `${item.id} related link has a name`);
@@ -43,4 +45,9 @@ test('community resources are complete, unique, and source-backed', async () => 
   const centaur = items.find((item) => item.id === 'centaur-institute');
   assert.equal(centaur.socials[0].name, 'Discord');
   assert.equal(centaur.programs[0].name, 'Neuro-Symbolic AI Summer School');
+
+  const neus = items.find((item) => item.id === 'neus-community');
+  const mailingList = items.find((item) => item.id === 'nesy-mailing-list');
+  assert.equal(neus.logo, 'https://raw.githubusercontent.com/NeuS-2025/NeuS-2025.github.io/main/files/favicon.png');
+  assert.equal(mailingList.logo, undefined, 'the NeSy mailing list does not display an organization logo');
 });

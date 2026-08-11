@@ -1,6 +1,6 @@
 // Curated community and event links verified against organizer-owned pages.
 globalThis.NESY_COMMUNITY = {
-  updatedAt: '2026-08-10',
+  updatedAt: '2026-08-11',
   sections: [
     {
       id: 'organizations',
@@ -15,6 +15,8 @@ globalThis.NESY_COMMUNITY = {
           description: 'A nonprofit research and education organization focused on advancing neuro-symbolic artificial intelligence.',
           evidence: 'Centaur’s official site presents its research, community participation, and educational programs.',
           url: 'https://centaurinstitute.org/',
+          logo: 'https://centaurinstitute.org/assets/centaur-logo.png',
+          logoFallback: 'CAI',
           sourceUrl: 'https://centaurinstitute.org/participate.html',
           action: 'Visit organization',
           socials: [
@@ -39,6 +41,8 @@ globalThis.NESY_COMMUNITY = {
           description: 'The organizing association for the long-running NeSy conference series on neural-symbolic learning and reasoning.',
           evidence: 'The association’s official site describes NeSy as its annual premier conference, first held in 2005.',
           url: 'https://nesy-ai.org/',
+          logo: 'https://nesy-ai.org/images/nesy-logo-round.png',
+          logoFallback: 'NA',
           action: 'Visit organization',
           programs: [
             {
@@ -55,6 +59,8 @@ globalThis.NESY_COMMUNITY = {
           description: 'An interdisciplinary community spanning the theory, design, tools, and applications of neuro-symbolic computing and systems.',
           evidence: 'The NeuS organizer-owned site documents the conference series and its 2024, 2025, and 2026 editions.',
           url: 'https://www.neusconference.org/',
+          logo: 'https://raw.githubusercontent.com/NeuS-2025/NeuS-2025.github.io/main/files/favicon.png',
+          logoFallback: 'NS',
           action: 'Visit community',
           programs: [
             {

@@ -2010,13 +2010,27 @@ function communityRelatedTemplate(title, items = []) {
 }
 
 function communityItemTemplate(item) {
+  const logo = item.logo
+    ? `<img class="community-logo-image" src="${escapeHtml(item.logo)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" />`
+    : '';
+  const logoMark = item.logo || item.logoFallback
+    ? `<span class="community-logo" aria-hidden="true">
+        <span class="community-logo-fallback">${escapeHtml(item.logoFallback || item.name.slice(0, 2))}</span>
+        ${logo}
+      </span>`
+    : '';
   return `
     <li class="community-card">
       <article>
-        <div class="community-card-topline">
-          <span class="community-kind">${escapeHtml(item.kind)}</span>
+        <div class="community-card-heading">
+          ${logoMark}
+          <div>
+            <div class="community-card-topline">
+              <span class="community-kind">${escapeHtml(item.kind)}</span>
+            </div>
+            <h4><a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.name)}</a></h4>
+          </div>
         </div>
-        <h4><a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.name)}</a></h4>
         <p class="community-description">${escapeHtml(item.description)}</p>
         <div class="community-related-groups">
           ${communityRelatedTemplate('Social & community', item.socials)}
@@ -2048,6 +2062,10 @@ function renderCommunity() {
       </div>
       <ul class="community-grid">${items.map(communityItemTemplate).join('')}</ul>
     </section>`).join('');
+
+  elements.communitySections.querySelectorAll('.community-logo-image').forEach((image) => {
+    image.addEventListener('error', () => image.remove());
+  });
 
   elements.communityEmpty.hidden = total !== 0;
   elements.communityUpdated.textContent = communityLibrary.updatedAt
