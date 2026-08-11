@@ -569,7 +569,8 @@ table thead th.sticky-name-column {
 }
 
 .company-linkedin,
-.company-verification {
+.company-verification,
+.directory-notice-button {
   align-items: center;
   background: transparent;
   border: 0;
@@ -587,12 +588,15 @@ table thead th.sticky-name-column {
 .company-linkedin:hover,
 .company-linkedin:focus-visible,
 .company-verification:hover,
-.company-verification:focus-visible {
+.company-verification:focus-visible,
+.directory-notice-button:hover,
+.directory-notice-button:focus-visible {
   background: color-mix(in srgb, var(--color-surface) 75%, transparent);
   color: var(--color-text);
 }
 
-.company-verification {
+.company-verification,
+.directory-notice-button {
   color: var(--color-brand-accent);
   cursor: pointer;
   padding: 0;
@@ -614,14 +618,6 @@ table thead th.sticky-name-column {
 
 .value-link:hover {
   text-decoration-color: var(--color-text);
-}
-
-.unverified-icon {
-  color: var(--wire-data-2);
-  cursor: help;
-  display: inline-flex;
-  margin-left: 0.3rem;
-  vertical-align: -0.15rem;
 }
 
 .ceo-link {

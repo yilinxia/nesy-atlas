@@ -58,6 +58,10 @@ const elements = {
   verificationContent: document.querySelector('#verification-content'),
   verificationClose: document.querySelector('#verification-close'),
   verificationMethodLink: document.querySelector('#verification-method-link'),
+  directoryNoticeModal: document.querySelector('#directory-notice-modal'),
+  directoryNoticeContent: document.querySelector('#directory-notice-content'),
+  directoryNoticeClose: document.querySelector('#directory-notice-close'),
+  directoryNoticeMethodLink: document.querySelector('#directory-notice-method-link'),
   navDirectory: document.querySelector('#nav-directory'),
   navBlogs: document.querySelector('#nav-blogs'),
   navPapers: document.querySelector('#nav-papers'),
@@ -147,6 +151,19 @@ const verificationIcon = `
     <path d="M12 3 19 6v5.2c0 4.2-2.8 7.9-7 9.8-4.2-1.9-7-5.6-7-9.8V6l7-3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path>
     <path d="m8.6 12 2.1 2.1 4.8-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
   </svg>`;
+
+const directoryNotices = {
+  founded: {
+    title: 'Founded year',
+    criterion: 'Source and fallback',
+    summary: 'Founded years come from LinkedIn company About pages. When a founding year is unavailable, the current CEO\'s start year is used as a fallback, so the value may be approximate.'
+  },
+  funding: {
+    title: 'Funding',
+    criterion: 'Public-disclosure snapshot',
+    summary: 'Funding figures are best-effort snapshots of the latest reliable public disclosure found during the directory review. Linked amounts open the supporting disclosure; “Not disclosed” means no reliable public amount was found. Funding can change and should be independently confirmed.'
+  }
+};
 
 const githubIcon = `
   <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -348,7 +365,7 @@ function rowTemplate(organization) {
     ? `<a class="company-linkedin" href="${escapeHtml(organization.linkedin)}" target="_blank" rel="noopener noreferrer" title="Open ${escapeHtml(organization.name)} on LinkedIn" aria-label="${escapeHtml(organization.name)} on LinkedIn">${linkedinIcon}</a>`
     : '';
   const verification = companyVerification[organization.name]
-    ? `<button class="company-verification" type="button" data-verification-company="${escapeHtml(organization.name)}" title="Why ${escapeHtml(organization.name)} is included" aria-label="View inclusion evidence for ${escapeHtml(organization.name)}">${verificationIcon}</button>`
+    ? `<button class="company-verification" type="button" data-verification-company="${escapeHtml(organization.name)}" title="Why ${escapeHtml(organization.name)} is included" aria-label="View inclusion evidence for ${escapeHtml(organization.name)}" aria-haspopup="dialog" aria-controls="verification-modal">${verificationIcon}</button>`
     : '';
 
   return `
@@ -2174,6 +2191,23 @@ function closeCompanyVerification() {
   elements.verificationModal.close();
 }
 
+function openDirectoryNotice(noticeId) {
+  const notice = directoryNotices[noticeId];
+  if (!notice) return;
+  elements.directoryNoticeContent.innerHTML = `
+    <p class="verification-status"><span aria-hidden="true">i</span> Data source note</p>
+    <h3>${escapeHtml(notice.title)}</h3>
+    <p class="verification-criterion">${escapeHtml(notice.criterion)}</p>
+    <p class="verification-summary">${escapeHtml(notice.summary)}</p>`;
+  if (typeof elements.directoryNoticeModal.showModal === 'function') {
+    elements.directoryNoticeModal.showModal();
+  }
+}
+
+function closeDirectoryNotice() {
+  elements.directoryNoticeModal.close();
+}
+
 function openPaperMethod() {
   if (typeof elements.paperMethodModal.showModal === 'function') elements.paperMethodModal.showModal();
 }
@@ -2217,7 +2251,8 @@ elements.clearSearch.addEventListener('click', () => {
 });
 
 elements.sortableHeaders.forEach((header) => {
-  header.addEventListener('click', () => {
+  header.addEventListener('click', (event) => {
+    if (event.target.closest('[data-directory-notice]')) return;
     const key = header.dataset.key;
     if (!key) return;
     if (state.sortKey === key) {
@@ -2249,6 +2284,12 @@ document.addEventListener('click', (event) => {
   const verificationButton = event.target.closest('[data-verification-company]');
   if (verificationButton) {
     openCompanyVerification(verificationButton.dataset.verificationCompany);
+    return;
+  }
+
+  const directoryNoticeButton = event.target.closest('[data-directory-notice]');
+  if (directoryNoticeButton) {
+    openDirectoryNotice(directoryNoticeButton.dataset.directoryNotice);
     return;
   }
 
@@ -2479,6 +2520,15 @@ elements.verificationModal.addEventListener('click', (event) => {
 });
 elements.verificationMethodLink.addEventListener('click', () => {
   closeCompanyVerification();
+  openInclusionMethod();
+});
+elements.directoryNoticeClose.addEventListener('click', closeDirectoryNotice);
+elements.directoryNoticeModal.addEventListener('cancel', closeDirectoryNotice);
+elements.directoryNoticeModal.addEventListener('click', (event) => {
+  if (event.target === elements.directoryNoticeModal) closeDirectoryNotice();
+});
+elements.directoryNoticeMethodLink.addEventListener('click', () => {
+  closeDirectoryNotice();
   openInclusionMethod();
 });
 elements.paperMethodButton.addEventListener('click', openPaperMethod);
