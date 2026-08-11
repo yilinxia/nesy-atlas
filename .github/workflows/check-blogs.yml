@@ -2,8 +2,9 @@ name: Check for new company blog posts
 
 on:
   schedule:
-    # 13:00 UTC daily
-    - cron: '0 13 * * *'
+    # 7:00 AM Chicago time daily, alongside the paper refresh.
+    - cron: '0 7 * * *'
+      timezone: 'America/Chicago'
   workflow_dispatch: {}
 
 permissions:
@@ -16,7 +17,7 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -27,7 +28,7 @@ jobs:
           node-version: 20
 
       - name: Test blog extraction
-        run: node --test scripts/check-new-blogs.test.mjs
+        run: node --test scripts/fetch-with-retry.test.mjs scripts/check-new-blogs.test.mjs
 
       - name: Check company blog sources for new posts
         run: node scripts/check-new-blogs.mjs
@@ -42,4 +43,15 @@ jobs:
             exit 0
           fi
           git commit -m "chore: check for new company blog posts ($(date -u +%F))"
-          git push
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "Push failed after 3 attempts."
+              exit 1
+            fi
+            echo "Push raced with another update; rebasing before retry $((attempt + 1))/3."
+            git pull --rebase origin main
+            sleep $((attempt * 5))
+          done

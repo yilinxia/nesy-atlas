@@ -12,7 +12,7 @@ This directory contains three kinds of data. Keeping the distinction explicit pr
 
 ## Generated snapshots
 
-- `arxiv-papers.js` — the arXiv extraction used by the paper-corpus pipeline.
+- `arxiv-papers.js` — the arXiv extraction and successful-refresh cursor used by the paper-corpus pipeline.
 - `research-papers.json` — the browser dataset, fetched only when the Papers view opens.
 - `company-focus.{json,js}` — generated company positioning and publishing analysis.
 - `blog-keyword-matches.{json,js}` — generated post classifications.

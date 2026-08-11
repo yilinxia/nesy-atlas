@@ -18,6 +18,8 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 
+import { fetchWithRetry } from './fetch-with-retry.mjs';
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const DATA_DIR = path.join(ROOT, 'data');
@@ -302,17 +304,16 @@ function normalizeUrl(url) {
 }
 
 async function fetchWithTimeout(url, options = {}) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
-  try {
-    return await fetch(url, {
+  return fetchWithRetry(url, {
+    fetchOptions: {
       ...options,
-      signal: controller.signal,
       headers: { 'User-Agent': USER_AGENT, ...(options.headers || {}) }
-    });
-  } finally {
-    clearTimeout(timer);
-  }
+    },
+    timeoutMs: FETCH_TIMEOUT_MS,
+    maxAttempts: 3,
+    baseDelayMs: 2000,
+    maxDelayMs: 10000
+  });
 }
 
 async function extractLinksFromHtml(sourceUrl) {

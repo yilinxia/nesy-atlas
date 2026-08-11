@@ -4,6 +4,8 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+import { fetchWithRetry } from './fetch-with-retry.mjs';
+
 export const PAPER_KEYWORDS = [
   'neurosymbolic',
   'neuro-symbolic',
@@ -12,6 +14,8 @@ export const PAPER_KEYWORDS = [
   'neural symbolic',
   'NeSy'
 ];
+
+export const INCREMENTAL_LOOKBACK_DAYS = 7;
 
 const keywordPattern = /\b(?:neuro[\s-]?symbolic|neural[\s-]+symbolic|nesy)\b/gi;
 const query = [
@@ -115,7 +119,62 @@ export function parseTotalResults(xml) {
   return Number(textContent(xml, 'opensearch:totalResults')) || 0;
 }
 
-export async function fetchPapers(fetchImpl = fetch) {
+function arxivDateTime(value) {
+  const date = new Date(value);
+  if (!Number.isFinite(date.getTime())) throw new Error(`Invalid arXiv query date: ${value}`);
+  return date.toISOString().replace(/[-:T]/g, '').slice(0, 12);
+}
+
+export function buildSearchQuery(submittedAfter, submittedBefore) {
+  if (!submittedAfter && !submittedBefore) return query;
+  if (!submittedAfter || !submittedBefore) {
+    throw new Error('Incremental arXiv queries require both submittedAfter and submittedBefore.');
+  }
+  return `(${query}) AND submittedDate:[${arxivDateTime(submittedAfter)} TO ${arxivDateTime(submittedBefore)}]`;
+}
+
+export function mergePaperSnapshots(existingPapers, freshPapers) {
+  const merged = new Map(existingPapers.map((paper) => [paper.id, paper]));
+  freshPapers.forEach((paper) => merged.set(paper.id, paper));
+  return [...merged.values()].sort((left, right) => (
+    right.published.localeCompare(left.published)
+    || right.updated.localeCompare(left.updated)
+    || right.id.localeCompare(left.id)
+  ));
+}
+
+export function parseDataScript(source) {
+  const match = String(source).match(
+    /globalThis\.ARXIV_PAPERS_META\s*=\s*([\s\S]*?);\s*globalThis\.ARXIV_PAPERS\s*=\s*([\s\S]*);\s*$/
+  );
+  if (!match) throw new Error('Could not parse the existing arXiv snapshot.');
+  const metadata = JSON.parse(match[1]);
+  const papers = JSON.parse(match[2]);
+  if (!metadata || typeof metadata !== 'object' || !Array.isArray(papers)) {
+    throw new Error('The existing arXiv snapshot has an invalid structure.');
+  }
+  return { metadata, papers };
+}
+
+function validateArxivFeed(xml) {
+  if (!/<feed(?:\s|>)/i.test(xml) || !/<opensearch:totalResults>\d+<\/opensearch:totalResults>/i.test(xml)) {
+    throw new Error('arXiv API returned a malformed feed; the existing snapshot was preserved.');
+  }
+}
+
+export async function fetchPapers(fetchImpl = fetch, options = {}) {
+  const {
+    sleepImpl = (ms) => new Promise((resolvePromise) => setTimeout(resolvePromise, ms)),
+    paginationDelayMs = 3000,
+    retryBaseDelayMs = 30000,
+    retryMaxDelayMs = 240000,
+    retryAttempts = 5,
+    randomImpl = Math.random,
+    nowImpl = Date.now,
+    onRetry,
+    submittedAfter,
+    submittedBefore
+  } = options;
   const pageSize = 500;
   const papers = [];
   let start = 0;
@@ -123,42 +182,80 @@ export async function fetchPapers(fetchImpl = fetch) {
 
   while (start < total) {
     const params = new URLSearchParams({
-      search_query: query,
+      search_query: buildSearchQuery(submittedAfter, submittedBefore),
       start: String(start),
       max_results: String(pageSize),
       sortBy: 'submittedDate',
       sortOrder: 'descending'
     });
-    const response = await fetchImpl(`https://export.arxiv.org/api/query?${params}`, {
-      headers: { 'User-Agent': 'NeSy-Atlas/1.0 (https://github.com/yilinxia/nesy-atlas)' }
+    const response = await fetchWithRetry(`https://export.arxiv.org/api/query?${params}`, {
+      fetchImpl,
+      fetchOptions: {
+        headers: { 'User-Agent': 'NeSy-Atlas/1.0 (https://github.com/yilinxia/nesy-atlas)' }
+      },
+      timeoutMs: 30000,
+      maxAttempts: retryAttempts,
+      baseDelayMs: retryBaseDelayMs,
+      maxDelayMs: retryMaxDelayMs,
+      sleepImpl,
+      randomImpl,
+      nowImpl,
+      label: `arXiv API page starting at ${start}`,
+      ...(onRetry ? { onRetry } : {})
     });
     if (!response.ok) throw new Error(`arXiv API returned HTTP ${response.status}`);
 
     const xml = await response.text();
+    validateArxivFeed(xml);
     total = parseTotalResults(xml);
     const page = parseArxivFeed(xml);
     papers.push(...page);
     start += pageSize;
 
     if (!xml.includes('<entry>') || start >= total) break;
-    await new Promise((resolvePromise) => setTimeout(resolvePromise, 3000));
+    await sleepImpl(paginationDelayMs);
   }
 
   return [...new Map(papers.map((paper) => [paper.id, paper])).values()]
     .sort((a, b) => b.published.localeCompare(a.published));
 }
 
-export function buildDataScript(papers, generatedAt = new Date().toISOString()) {
+export function buildDataScript(papers, generatedAt = new Date().toISOString(), metadataOverrides = {}) {
   const metadata = {
     source: 'arXiv',
     sourceUrl: 'https://arxiv.org/',
     generatedAt,
+    cursorAt: generatedAt,
+    refreshMode: 'full',
+    lastFullRefreshAt: generatedAt,
     keywords: PAPER_KEYWORDS,
-    inclusion: 'Title or abstract contains at least one keyword.'
+    inclusion: 'Title or abstract contains at least one keyword.',
+    ...metadataOverrides
   };
   return `// Generated by scripts/update-arxiv-papers.mjs. Do not edit manually.\n`
     + `globalThis.ARXIV_PAPERS_META = ${JSON.stringify(metadata, null, 2)};\n`
     + `globalThis.ARXIV_PAPERS = ${JSON.stringify(papers, null, 2)};\n`;
+}
+
+async function readExistingSnapshot(outputPath) {
+  try {
+    return parseDataScript(await readFile(outputPath, 'utf8'));
+  } catch (error) {
+    if (error.code === 'ENOENT') return null;
+    throw error;
+  }
+}
+
+export function assertSafeFullRefresh(previousPapers, freshPapers) {
+  if (freshPapers.length === 0) {
+    throw new Error('Full arXiv refresh returned no qualifying papers; the existing snapshot was preserved.');
+  }
+  if (previousPapers.length > 0 && freshPapers.length < previousPapers.length * 0.8) {
+    throw new Error(
+      `Full arXiv refresh returned only ${freshPapers.length} of ${previousPapers.length} existing papers; `
+      + 'the result looks incomplete, so the existing snapshot was preserved.'
+    );
+  }
 }
 
 async function main() {
@@ -170,15 +267,58 @@ async function main() {
   const outputPath = outputIndex >= 0
     ? resolve(process.argv[outputIndex + 1])
     : resolve(projectRoot, 'data/arxiv-papers.js');
-  const papers = inputPaths.length > 0
-    ? [...new Map((await Promise.all(inputPaths.map((inputPath) => readFile(resolve(inputPath), 'utf8'))))
+  const previous = await readExistingSnapshot(outputPath);
+  const queryEnd = new Date();
+  let freshPapers;
+  let papers;
+  let metadataOverrides;
+
+  if (inputPaths.length > 0) {
+    freshPapers = [...new Map((await Promise.all(inputPaths.map((inputPath) => readFile(resolve(inputPath), 'utf8'))))
       .flatMap(parseArxivFeed)
       .map((paper) => [paper.id, paper])).values()]
-      .sort((a, b) => b.published.localeCompare(a.published))
-    : await fetchPapers();
+      .sort((a, b) => b.published.localeCompare(a.published));
+    papers = freshPapers;
+    metadataOverrides = { refreshMode: 'full' };
+  } else if (process.argv.includes('--full') || !previous) {
+    freshPapers = await fetchPapers();
+    assertSafeFullRefresh(previous?.papers || [], freshPapers);
+    papers = freshPapers;
+    metadataOverrides = { refreshMode: 'full' };
+  } else {
+    if (previous.papers.length === 0) {
+      throw new Error('Incremental refresh requires a non-empty existing snapshot; run again with --full.');
+    }
+    const previousCursor = new Date(previous.metadata.cursorAt || previous.metadata.generatedAt);
+    if (!Number.isFinite(previousCursor.getTime())) {
+      throw new Error('The existing arXiv snapshot has no valid cursor; run again with --full.');
+    }
+    const windowStart = new Date(
+      Math.min(previousCursor.getTime(), queryEnd.getTime())
+      - INCREMENTAL_LOOKBACK_DAYS * 24 * 60 * 60 * 1000
+    );
+    freshPapers = await fetchPapers(fetch, {
+      submittedAfter: windowStart,
+      submittedBefore: queryEnd
+    });
+    papers = mergePaperSnapshots(previous.papers, freshPapers);
+    metadataOverrides = {
+      refreshMode: 'incremental',
+      lastFullRefreshAt: previous.metadata.lastFullRefreshAt || previous.metadata.generatedAt,
+      previousSnapshotAt: previous.metadata.generatedAt,
+      windowStart: windowStart.toISOString(),
+      lookbackDays: INCREMENTAL_LOOKBACK_DAYS
+    };
+  }
+
+  const generatedAt = new Date().toISOString();
+  if (metadataOverrides.refreshMode === 'full') metadataOverrides.lastFullRefreshAt = generatedAt;
   await mkdir(dirname(outputPath), { recursive: true });
-  await writeFile(outputPath, buildDataScript(papers), 'utf8');
-  console.log(`Wrote ${papers.length} qualifying arXiv papers to ${outputPath}`);
+  await writeFile(outputPath, buildDataScript(papers, generatedAt, metadataOverrides), 'utf8');
+  console.log(
+    `Wrote ${papers.length} qualifying arXiv papers to ${outputPath} `
+    + `(${metadataOverrides.refreshMode}; fetched ${freshPapers.length})`
+  );
 }
 
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

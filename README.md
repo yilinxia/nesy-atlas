@@ -78,7 +78,7 @@ node scripts/update-arxiv-papers.mjs
 node scripts/paper-corpus.mjs refresh-arxiv
 ```
 
-The `Update arXiv papers` workflow runs daily at 12:00 UTC and can also be started manually from GitHub Actions. The browser fetches `research-papers.json` only when the Papers view is opened, keeping the initial page lightweight.
+The default update is incremental: it rechecks a seven-day overlap from the last successful snapshot and merges papers by arXiv ID. Use `node scripts/update-arxiv-papers.mjs --full` for a complete reconciliation. The workflow runs at 7:00 AM America/Chicago every day, using incremental updates Monday–Saturday and a full reconciliation on Sunday. The browser fetches `research-papers.json` only when the Papers view is opened, keeping the initial page lightweight.
 
 ### Full paper corpus
 
