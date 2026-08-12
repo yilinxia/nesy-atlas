@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-08-11T13:06:04.783Z",
-  "cursorAt": "2026-08-11T13:06:04.783Z",
+  "generatedAt": "2026-08-12T12:55:28.438Z",
+  "cursorAt": "2026-08-12T12:55:28.438Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-08-10T12:45:43.024Z",
   "keywords": [
@@ -15,11 +15,144 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-08-10T12:45:43.024Z",
-  "windowStart": "2026-08-03T12:45:43.024Z",
+  "previousSnapshotAt": "2026-08-11T13:06:04.783Z",
+  "windowStart": "2026-08-04T13:06:04.783Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2608.11136",
+    "title": "sLTN: Structural Logic Tensor Networks",
+    "abstract": "Logic Tensor Networks (LTN) provide a neurosymbolic framework in which first-order logic is interpreted through tensor operations, enabling logical constraints to be integrated with differentiable learning. However, the original formulation of LTN is primarily suited to data represented as flat collections of individuals, and does not explicitly capture structural organization such as temporal order, sequential position, or graph connectivity. We introduce sLTN, an extension of LTN that makes structural dimensions first-class elements of the language. Structural dimensions represent named tensor axes associated with domain-specific organization, such as time steps, sequence positions, or graph nodes. They can be quantified explicitly, related through structural relations, and used to express temporal, sequential, and relational constraints directly at the logical level. We formalize the syntax and fuzzy tensor semantics of sLTN and show that, in the absence of structural dimensions, the framework recovers the original LTN semantics as a special case. We further describe a PyTorch implementation based on a declarative signature, formula parsing, and tensorial interpretation. The framework is illustrated on representative temporal and sequential reasoning examples. This paper serves as a companion to the sltn library, available at https://github.com/logictensornetworks/sltn.",
+    "authors": [
+      "Davide Rinaldi",
+      "Luciano Serafini"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Davide Rinaldi",
+        "affiliations": []
+      },
+      {
+        "name": "Luciano Serafini",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-11",
+    "updated": "2026-08-11",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2608.11136",
+    "pdfUrl": "https://arxiv.org/pdf/2608.11136",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.10843",
+    "title": "Hypothesis Frontier: Verifier Guided LLM and Symbolic Search for First-Order Induction",
+    "abstract": "First-order concept synthesis asks a system to infer one formula that classifies labeled objects consistently across several finite relational structures. Every candidate can be evaluated exactly, but quantified first-order formulas form a vast search space, and LLM outputs are often semantically promising without being fully correct. We introduce Hypothesis Frontier, a verifier-guided neurosymbolic framework that evaluates each LLM formula on every training object, retains the strongest verified hypothesis across rounds, and uses its remaining errors to guide subsequent generation. Symbolic processing repairs invalid formulas while remaining anchored to the LLM-generated hypothesis, and simplifies train-valid formulas without changing any training prediction. Under matched models, problem sets, and LLM-round budgets, Hypothesis Frontier solves substantially more problems than repeated original-prompt generation. After the final formulas are selected, exact simplification shortens many train-valid formulas while preserving every training prediction. Exact symbolic reasoning therefore helps both to solve more induction problems and to compress many of the resulting formulas.",
+    "authors": [
+      "Serafim Batzoglou"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Serafim Batzoglou",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-11",
+    "updated": "2026-08-11",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2608.10843",
+    "pdfUrl": "https://arxiv.org/pdf/2608.10843",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.10420",
+    "title": "Reasoning Shortcuts and Value Symmetries: What Symmetry Permits, Architecture Realizes, and Optimization Selects",
+    "abstract": "Reasoning shortcuts are solutions of a neurosymbolic system's rules that produce correct predictions through unintended concepts. A recent framework of Takemura, Inoue, and Nishino analyzes them through an automorphism group of value relabelings and asks, as its central open question, when rules pin concepts down. We first show that the framework's key definition, one shared permutation applied at every position, does not apply as stated to any of the four heterogeneous benchmarks it was evaluated on, and that the most direct embedding, padding domains to a common size, produces confident false pathology: 90.91% of solution pairs reported unexplained on CLE4EVR, where every well-defined member of the hierarchy we introduce reports 0%, and the padded verdict's content rotates with configuration-file ordering. Re-measuring eleven rule families under fifteen pre-specified predictions (thirteen confirmed), unexplained-pair rates span 0% to 99.9999% and track provable structure: six theorems give sufficient conditions for transitivity and its failure, including a Free Slot Lemma certifying Kandinsky's pathology from syntax alone. For circuit-given rules, deciding symmetry-inertness of a coordinate is coNP-complete; nontrivial-automorphism existence is coNP-hard under randomized reductions, lies in $Σ_2^p$, is not $Σ_2^p$-complete unless PH collapses, and on monotone circuits is coNP-complete outright. In the Boolean case transitivity is classified exactly: automorphisms explain everything iff the solution set is an affine coset. Weakly supervised models place all 94 observed shortcuts at the one level the componentwise theory flags and none at the 48 it certifies transitive; twelve typed-ambiguous levels produce none, separating what symmetry permits from what optimization selects, and a dual-head control replicates the geography. All numbers trace to released artifacts.",
+    "authors": [
+      "Xin Xu"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Xin Xu",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-11",
+    "updated": "2026-08-11",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2608.10420",
+    "pdfUrl": "https://arxiv.org/pdf/2608.10420",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.10213",
+    "title": "VeriFin: A Neurosymbolic Framework for Verifying LLM-Generated Financial Claims",
+    "abstract": "Large language models often produce plausible numerical claims from financial filings while using the wrong reporting period, unit, line item, or formula. Verifying such claims requires more than rechecking arithmetic: a verifier must ground the relevant facts, establish the authorized calculation, and determine whether the candidate value follows from both. We propose VeriFin, a neurosymbolic verification framework for numerical financial question answering that grounds operands in filed XBRL facts, derives calculations from the question, filing linkbases, or documented metric definitions, and checks claims using Z3. When a claim is inconsistent, solver-derived unsatisfiable cores identify the conflicting facts, formula, and candidate value, enabling targeted repair. We evaluate VeriFin on XBRLFiling, a new 600-question benchmark constructed from 10-K filings of 28 U.S. companies, and on FinanceBench. On fixed candidate pools shared by all verification methods, VeriFin accepts none of the incorrect claims, whereas the baselines accept 6 to 92 incorrect claims on XBRLFiling's 600 claims and 4 to 21 incorrect claims on FinanceBench's 67 claims. The zero false-accept result persists across multiple answer-generator models. Solver-derived feedback further improves repair, achieving up to 69.9% recovery among true catches. These results show that source-grounded symbolic verification can provide a reliable and auditable acceptance control for LLM-generated financial claims.",
+    "authors": [
+      "Bethel Hall",
+      "Sachi Shome",
+      "William Eiers"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Bethel Hall",
+        "affiliations": []
+      },
+      {
+        "name": "Sachi Shome",
+        "affiliations": []
+      },
+      {
+        "name": "William Eiers",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-10",
+    "updated": "2026-08-10",
+    "categories": [
+      "cs.CE"
+    ],
+    "primaryCategory": "cs.CE",
+    "url": "https://arxiv.org/abs/2608.10213",
+    "pdfUrl": "https://arxiv.org/pdf/2608.10213",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
   {
     "id": "2608.09294",
     "title": "Graphing the Everyday: A Neurosymbolic Approach to Eliciting Routines for Just-In-Time Adaptive Interventions",
