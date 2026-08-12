@@ -1024,5 +1024,14 @@
     "sourceUrl": "https://www.uniphore.com/blog/",
     "discovered": "2026-08-11",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Finance & Accounting Automation What Is Positive Pay? Check and ACH Fraud Defense Guide (2026) Positive pay holds any check or ACH debit that does not match your authorized list. It is one of the strongest fraud controls available, and it fails on the workflow behind it: the daily file, the cut-off, the unreviewed exception. Aug 12, 2026 Read &rarr;",
+    "date": "2026-08-12",
+    "url": "https://www.kognitos.com/blog/positive-pay/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-08-12",
+    "status": "needs-review"
   }
 ]
