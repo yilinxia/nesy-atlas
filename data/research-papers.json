@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T12:55:28.949Z",
+  "generatedAt": "2026-08-13T12:56:54.552Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1721,
+  "paperCount": 1722,
   "completeMetadataCount": 1376,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1416
+      "count": 1417
     },
     {
       "id": "nesy-proceedings",
@@ -14724,6 +14724,15 @@
         ]
       },
       {
+        "id": "author:681ac25b2747b7cc",
+        "name": "Ali Shoker",
+        "aliases": [
+          "Ali Shoker"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:1b773cb8e38c136b",
         "name": "Ali Torkamani",
         "aliases": [
@@ -24145,6 +24154,15 @@
           "institution:889dcc39ca3e0778",
           "institution:ca66edca942f143e"
         ]
+      },
+      {
+        "id": "author:ecb17882c867766b",
+        "name": "Erick Silva",
+        "aliases": [
+          "Erick Silva"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:24b0af133b71443b",
@@ -47127,6 +47145,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:84c0512a3ca096a3",
+        "name": "Rehana Yasmin",
+        "aliases": [
+          "Rehana Yasmin"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:cca4ca7067b6a6c2",
         "name": "Reilly Haskins",
         "aliases": [
@@ -51464,6 +51491,15 @@
         "institutionIds": [
           "institution:305c9eae02cec163"
         ]
+      },
+      {
+        "id": "author:16b90d5bd873037a",
+        "name": "Simón Patiño Idarraga",
+        "aliases": [
+          "Simón Patiño Idarraga"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:ab49a0fecbf35f8a",
@@ -358797,6 +358833,116 @@
         },
         {
           "name": "William Eiers",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.11451",
+      "title": "Herding End-to-End Autonomous Driving via Neuro-Symbolic Safety Guards",
+      "abstract": "Modern end-to-end driving agents can achieve high average performance yet still violate basic traffic rules that a human driver would never miss. The reason is structural: they learn statistical patterns rather than the physical conditions that guarantee safe driving, leaving their decision-making process opaque and safety constraints unenforced. We introduce a neuro-symbolic safety guard, a lightweight module that attaches to the final command interface of an already-trained agent. Immediately before a command reaches the vehicle, it checks the command against explicit safety rules and, only when necessary, replaces it with the nearest safe alternative. Each intervention is directly executable and traceable to the rule that triggered it, while the guard itself requires no retraining and adds no learned component. Evaluated on the long-tail benchmarks Fail2Drive and Bench2Drive using the state-of-the-art TransFuser v6 (TFv6) as a case study, the guard improves Success Rate by 15% and reduces safety-critical collisions by up to 53%, while preserving the original Driving Score.",
+      "authors": [
+        "Simón Patiño Idarraga",
+        "Erick Silva",
+        "Rehana Yasmin",
+        "Ali Shoker"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Simón Patiño Idarraga",
+          "authorEntityId": "author:16b90d5bd873037a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Simón Patiño Idarraga",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Erick Silva",
+          "authorEntityId": "author:ecb17882c867766b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Erick Silva",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Rehana Yasmin",
+          "authorEntityId": "author:84c0512a3ca096a3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Rehana Yasmin",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ali Shoker",
+          "authorEntityId": "author:681ac25b2747b7cc",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ali Shoker",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "eess.SY"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-11",
+      "url": "https://arxiv.org/abs/2608.11451",
+      "pdfUrl": "https://arxiv.org/pdf/2608.11451",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.11451",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:06b8d340067eeab0",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Simón Patiño Idarraga",
+        "Erick Silva",
+        "Rehana Yasmin",
+        "Ali Shoker"
+      ],
+      "authorEntityIds": [
+        "author:16b90d5bd873037a",
+        "author:ecb17882c867766b",
+        "author:84c0512a3ca096a3",
+        "author:681ac25b2747b7cc"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Simón Patiño Idarraga",
+          "affiliations": []
+        },
+        {
+          "name": "Erick Silva",
+          "affiliations": []
+        },
+        {
+          "name": "Rehana Yasmin",
+          "affiliations": []
+        },
+        {
+          "name": "Ali Shoker",
           "affiliations": []
         }
       ]

@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-08-12T12:55:28.438Z",
-  "cursorAt": "2026-08-12T12:55:28.438Z",
+  "generatedAt": "2026-08-13T12:56:53.878Z",
+  "cursorAt": "2026-08-13T12:56:53.878Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-08-10T12:45:43.024Z",
   "keywords": [
@@ -15,11 +15,59 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-08-11T13:06:04.783Z",
-  "windowStart": "2026-08-04T13:06:04.783Z",
+  "previousSnapshotAt": "2026-08-12T12:55:28.438Z",
+  "windowStart": "2026-08-05T12:55:28.438Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2608.11451",
+    "title": "Herding End-to-End Autonomous Driving via Neuro-Symbolic Safety Guards",
+    "abstract": "Modern end-to-end driving agents can achieve high average performance yet still violate basic traffic rules that a human driver would never miss. The reason is structural: they learn statistical patterns rather than the physical conditions that guarantee safe driving, leaving their decision-making process opaque and safety constraints unenforced. We introduce a neuro-symbolic safety guard, a lightweight module that attaches to the final command interface of an already-trained agent. Immediately before a command reaches the vehicle, it checks the command against explicit safety rules and, only when necessary, replaces it with the nearest safe alternative. Each intervention is directly executable and traceable to the rule that triggered it, while the guard itself requires no retraining and adds no learned component. Evaluated on the long-tail benchmarks Fail2Drive and Bench2Drive using the state-of-the-art TransFuser v6 (TFv6) as a case study, the guard improves Success Rate by 15% and reduces safety-critical collisions by up to 53%, while preserving the original Driving Score.",
+    "authors": [
+      "Simón Patiño Idarraga",
+      "Erick Silva",
+      "Rehana Yasmin",
+      "Ali Shoker"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Simón Patiño Idarraga",
+        "affiliations": []
+      },
+      {
+        "name": "Erick Silva",
+        "affiliations": []
+      },
+      {
+        "name": "Rehana Yasmin",
+        "affiliations": []
+      },
+      {
+        "name": "Ali Shoker",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-11",
+    "updated": "2026-08-11",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "eess.SY"
+    ],
+    "primaryCategory": "cs.RO",
+    "url": "https://arxiv.org/abs/2608.11451",
+    "pdfUrl": "https://arxiv.org/pdf/2608.11451",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2608.11136",
     "title": "sLTN: Structural Logic Tensor Networks",
