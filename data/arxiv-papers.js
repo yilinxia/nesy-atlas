@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-08-13T12:56:53.878Z",
-  "cursorAt": "2026-08-13T12:56:53.878Z",
+  "generatedAt": "2026-08-14T12:52:47.229Z",
+  "cursorAt": "2026-08-14T12:52:47.229Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-08-10T12:45:43.024Z",
   "keywords": [
@@ -15,11 +15,117 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-08-12T12:55:28.438Z",
-  "windowStart": "2026-08-05T12:55:28.438Z",
+  "previousSnapshotAt": "2026-08-13T12:56:53.878Z",
+  "windowStart": "2026-08-06T12:56:53.878Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2608.12961",
+    "title": "Moose: Latent concept learning with reasoning-shortcut awareness in $\\mathcal{EL}^{++}$",
+    "abstract": "The OWL 2 EL profile is used in some of the largest production ontologies, including the Gene Ontology and SNOMED CT. Existing neuro-symbolic (NeSy) learning methods accept propositional theories or Datalog, and reasoning-shortcut (RS) awareness has not been investigated in ontology settings. We present Moose, a method that compiles an $\\mathcal{EL}^{++}$ TBox and finite ABox to a Sentential Decision Diagram (SDD). The SDD acts as a differentiable weighted-model-counting layer, and we add closure clauses outside the $\\mathcal{EL}^{++}$ profile on declared exhaustive families to overcome the limited expressivity of $\\mathcal{EL}^{++}$ under partial supervision. We show termination, soundness, completeness, and polynomial intermediate sizes, and validate the proofs in Lean. We then define the first formal partial-supervision latent-concept-learning task over an OWL EL ontology, i.e., learning per-individual classifiers for latent concepts from observed ABox literals, and evaluate Moose on MNIST-with-ontology and Pizzaïolo. Moose improves over propositional-NeSy, fuzzy-logic, and ontology embedding baselines, and presents the first reasoning-shortcut analysis in an OWL EL setting.",
+    "authors": [
+      "Olga Mashkova",
+      "Asaad Mohammedsaleh",
+      "Fernando Zhapa-Camacho",
+      "Robert Hoehndorf"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Olga Mashkova",
+        "affiliations": []
+      },
+      {
+        "name": "Asaad Mohammedsaleh",
+        "affiliations": []
+      },
+      {
+        "name": "Fernando Zhapa-Camacho",
+        "affiliations": []
+      },
+      {
+        "name": "Robert Hoehndorf",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-13",
+    "updated": "2026-08-13",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2608.12961",
+    "pdfUrl": "https://arxiv.org/pdf/2608.12961",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic",
+        "NeSy"
+      ]
+    }
+  },
+  {
+    "id": "2608.12936",
+    "title": "AutoQuREO: A Framework for Automated Quantum Resource Estimation and Optimization",
+    "abstract": "As quantum computing progresses from proof-of-principle demonstrations toward practical utility, a significant impediment is the need to augment algorithmic feasibility with system-level optimization across heterogeneous hardware and software stacks. Quantum resource estimation (QRE) plays a central role in this transition, yet existing approaches remain largely compilation-heavy or domain-knowledge-guided symbolic annotations, and tightly coupled to long-term fault-tolerant assumptions, limiting their topical applicability. In this work, we introduce AutoQuREO, an Automated framework for full-stack Quantum Resource Estimation and Optimization. AutoQuREO is built around four core novelties: (i) a flexible, user-defined abstraction of the quantum computing stack; (ii) a modular library of reusable stack components enabling rapid full-stack prototyping; (iii) surrogate modeling of layer-wise resources via algorithmic profiling and neuro-symbolic learning; and (iv) integrated multi-objective optimization that embeds QRE directly into deployment pipelines. Together, these design choices enable AutoQuREO to serve as a digital twin for quantum computing stacks, supporting the tractable exploration of complex design spaces. We demonstrate the capabilities of AutoQuREO through representative co-design case studies, including early-fault-tolerant quantum algorithms, small error correction codes, gate decomposition and variational training of parametric quantum circuits. These examples illustrate how AutoQuREO enables systematic discovery of unexploited resource trade-offs that are computationally intractable or abstruse using existing QRE tools. AutoQuREO is positioned as a general-purpose platform for advancing quantum technology readiness.",
+    "authors": [
+      "Harshkumar Oza",
+      "Aritra Sarkar",
+      "Syed Naqi Abbas",
+      "Rahul Bhowmick",
+      "Aryan Prakash",
+      "Prateek P Kulkarni",
+      "Krishna Kumar Sabapathy"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Harshkumar Oza",
+        "affiliations": []
+      },
+      {
+        "name": "Aritra Sarkar",
+        "affiliations": []
+      },
+      {
+        "name": "Syed Naqi Abbas",
+        "affiliations": []
+      },
+      {
+        "name": "Rahul Bhowmick",
+        "affiliations": []
+      },
+      {
+        "name": "Aryan Prakash",
+        "affiliations": []
+      },
+      {
+        "name": "Prateek P Kulkarni",
+        "affiliations": []
+      },
+      {
+        "name": "Krishna Kumar Sabapathy",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-13",
+    "updated": "2026-08-13",
+    "categories": [
+      "quant-ph",
+      "cs.AI",
+      "cs.ET"
+    ],
+    "primaryCategory": "quant-ph",
+    "url": "https://arxiv.org/abs/2608.12936",
+    "pdfUrl": "https://arxiv.org/pdf/2608.12936",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2608.11451",
     "title": "Herding End-to-End Autonomous Driving via Neuro-Symbolic Safety Guards",

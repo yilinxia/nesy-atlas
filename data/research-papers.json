@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T12:56:54.552Z",
+  "generatedAt": "2026-08-14T12:52:47.930Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1722,
+  "paperCount": 1724,
   "completeMetadataCount": 1376,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1417
+      "count": 1419
     },
     {
       "id": "nesy-proceedings",
@@ -1260,6 +1260,17 @@
         ]
       },
       {
+        "id": "author:6fc1001c38d7e95f",
+        "name": "Robert Hoehndorf",
+        "aliases": [
+          "Robert Hoehndorf"
+        ],
+        "paperCount": 6,
+        "institutionIds": [
+          "institution:46f6d6f8add5d072"
+        ]
+      },
+      {
         "id": "author:139c6c014579b28f",
         "name": "Taimeng Fu",
         "aliases": [
@@ -1472,6 +1483,17 @@
           "institution:4f85329e76bc9454",
           "institution:7b971ad17fd639eb",
           "institution:a360549ab82d6b07"
+        ]
+      },
+      {
+        "id": "author:6d4723171cf79f28",
+        "name": "Fernando Zhapa-Camacho",
+        "aliases": [
+          "Fernando Zhapa-Camacho"
+        ],
+        "paperCount": 5,
+        "institutionIds": [
+          "institution:46f6d6f8add5d072"
         ]
       },
       {
@@ -1741,17 +1763,6 @@
         "paperCount": 5,
         "institutionIds": [
           "institution:4f85329e76bc9454"
-        ]
-      },
-      {
-        "id": "author:6fc1001c38d7e95f",
-        "name": "Robert Hoehndorf",
-        "aliases": [
-          "Robert Hoehndorf"
-        ],
-        "paperCount": 5,
-        "institutionIds": [
-          "institution:46f6d6f8add5d072"
         ]
       },
       {
@@ -2216,17 +2227,6 @@
           "institution:43da693b4fa6eed4",
           "institution:a761c29c983e2e10",
           "institution:de85f8377f7fd093"
-        ]
-      },
-      {
-        "id": "author:6d4723171cf79f28",
-        "name": "Fernando Zhapa-Camacho",
-        "aliases": [
-          "Fernando Zhapa-Camacho"
-        ],
-        "paperCount": 4,
-        "institutionIds": [
-          "institution:46f6d6f8add5d072"
         ]
       },
       {
@@ -9474,6 +9474,15 @@
         "institutionIds": [
           "institution:3c073e0d21fc45e2"
         ]
+      },
+      {
+        "id": "author:36ed3d46d0e7a55a",
+        "name": "Olga Mashkova",
+        "aliases": [
+          "Olga Mashkova"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
       },
       {
         "id": "author:8081236fe2d94997",
@@ -16741,6 +16750,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:f7950ef1d8f70200",
+        "name": "Aritra Sarkar",
+        "aliases": [
+          "Aritra Sarkar"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:1929fe0e4e7ef8ad",
         "name": "Aritran Piplai",
         "aliases": [
@@ -16997,6 +17015,15 @@
         ]
       },
       {
+        "id": "author:a5024257214f2e97",
+        "name": "Aryan Prakash",
+        "aliases": [
+          "Aryan Prakash"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:d4f87a0e3c69acb4",
         "name": "Aryeh Rothenberg",
         "aliases": [
@@ -17013,6 +17040,15 @@
         "name": "Asaad Balum",
         "aliases": [
           "Asaad Balum"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:ed5a7471de67eacb",
+        "name": "Asaad Mohammedsaleh",
+        "aliases": [
+          "Asaad Mohammedsaleh"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -28163,6 +28199,15 @@
         ]
       },
       {
+        "id": "author:bf01e7a8cacef3ab",
+        "name": "Harshkumar Oza",
+        "aliases": [
+          "Harshkumar Oza"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:1ffa36ae8e70c73b",
         "name": "Harshul Raj Surana",
         "aliases": [
@@ -35582,6 +35627,15 @@
         "institutionIds": [
           "institution:efea525383b4513f"
         ]
+      },
+      {
+        "id": "author:5d4f2b59d36efe82",
+        "name": "Krishna Kumar Sabapathy",
+        "aliases": [
+          "Krishna Kumar Sabapathy"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:0c95fa55d8c6e465",
@@ -43960,15 +44014,6 @@
         ]
       },
       {
-        "id": "author:36ed3d46d0e7a55a",
-        "name": "Olga Mashkova",
-        "aliases": [
-          "Olga Mashkova"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:9551d4e17e21cfde",
         "name": "Olga Vilenskaia",
         "aliases": [
@@ -45818,6 +45863,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:bc12e06e353991eb",
+        "name": "Prateek P Kulkarni",
+        "aliases": [
+          "Prateek P Kulkarni"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:525c320c2b38d6a9",
         "name": "Prateik Sinha",
         "aliases": [
@@ -46742,6 +46796,15 @@
         "institutionIds": [
           "institution:90b589325857dff0"
         ]
+      },
+      {
+        "id": "author:5071e9a435a93664",
+        "name": "Rahul Bhowmick",
+        "aliases": [
+          "Rahul Bhowmick"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:b6a38b7d7e6e491f",
@@ -53121,6 +53184,15 @@
         "name": "Swati Agarwal",
         "aliases": [
           "Swati Agarwal"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:d14bbd5d7073a69c",
+        "name": "Syed Naqi Abbas",
+        "aliases": [
+          "Syed Naqi Abbas"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -358943,6 +359015,270 @@
         },
         {
           "name": "Ali Shoker",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.12961",
+      "title": "Moose: Latent concept learning with reasoning-shortcut awareness in $\\mathcal{EL}^{++}$",
+      "abstract": "The OWL 2 EL profile is used in some of the largest production ontologies, including the Gene Ontology and SNOMED CT. Existing neuro-symbolic (NeSy) learning methods accept propositional theories or Datalog, and reasoning-shortcut (RS) awareness has not been investigated in ontology settings. We present Moose, a method that compiles an $\\mathcal{EL}^{++}$ TBox and finite ABox to a Sentential Decision Diagram (SDD). The SDD acts as a differentiable weighted-model-counting layer, and we add closure clauses outside the $\\mathcal{EL}^{++}$ profile on declared exhaustive families to overcome the limited expressivity of $\\mathcal{EL}^{++}$ under partial supervision. We show termination, soundness, completeness, and polynomial intermediate sizes, and validate the proofs in Lean. We then define the first formal partial-supervision latent-concept-learning task over an OWL EL ontology, i.e., learning per-individual classifiers for latent concepts from observed ABox literals, and evaluate Moose on MNIST-with-ontology and Pizzaïolo. Moose improves over propositional-NeSy, fuzzy-logic, and ontology embedding baselines, and presents the first reasoning-shortcut analysis in an OWL EL setting.",
+      "authors": [
+        "Olga Mashkova",
+        "Asaad Mohammedsaleh",
+        "Fernando Zhapa-Camacho",
+        "Robert Hoehndorf"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Olga Mashkova",
+          "authorEntityId": "author:36ed3d46d0e7a55a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Olga Mashkova",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Asaad Mohammedsaleh",
+          "authorEntityId": "author:ed5a7471de67eacb",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Asaad Mohammedsaleh",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Fernando Zhapa-Camacho",
+          "authorEntityId": "author:6d4723171cf79f28",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Fernando Zhapa-Camacho",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Robert Hoehndorf",
+          "authorEntityId": "author:6fc1001c38d7e95f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Robert Hoehndorf",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic",
+        "NeSy"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-13",
+      "url": "https://arxiv.org/abs/2608.12961",
+      "pdfUrl": "https://arxiv.org/pdf/2608.12961",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.12961",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:f8af5c02029abc13",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Olga Mashkova",
+        "Asaad Mohammedsaleh",
+        "Fernando Zhapa-Camacho",
+        "Robert Hoehndorf"
+      ],
+      "authorEntityIds": [
+        "author:36ed3d46d0e7a55a",
+        "author:ed5a7471de67eacb",
+        "author:6d4723171cf79f28",
+        "author:6fc1001c38d7e95f"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Olga Mashkova",
+          "affiliations": []
+        },
+        {
+          "name": "Asaad Mohammedsaleh",
+          "affiliations": []
+        },
+        {
+          "name": "Fernando Zhapa-Camacho",
+          "affiliations": []
+        },
+        {
+          "name": "Robert Hoehndorf",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.12936",
+      "title": "AutoQuREO: A Framework for Automated Quantum Resource Estimation and Optimization",
+      "abstract": "As quantum computing progresses from proof-of-principle demonstrations toward practical utility, a significant impediment is the need to augment algorithmic feasibility with system-level optimization across heterogeneous hardware and software stacks. Quantum resource estimation (QRE) plays a central role in this transition, yet existing approaches remain largely compilation-heavy or domain-knowledge-guided symbolic annotations, and tightly coupled to long-term fault-tolerant assumptions, limiting their topical applicability. In this work, we introduce AutoQuREO, an Automated framework for full-stack Quantum Resource Estimation and Optimization. AutoQuREO is built around four core novelties: (i) a flexible, user-defined abstraction of the quantum computing stack; (ii) a modular library of reusable stack components enabling rapid full-stack prototyping; (iii) surrogate modeling of layer-wise resources via algorithmic profiling and neuro-symbolic learning; and (iv) integrated multi-objective optimization that embeds QRE directly into deployment pipelines. Together, these design choices enable AutoQuREO to serve as a digital twin for quantum computing stacks, supporting the tractable exploration of complex design spaces. We demonstrate the capabilities of AutoQuREO through representative co-design case studies, including early-fault-tolerant quantum algorithms, small error correction codes, gate decomposition and variational training of parametric quantum circuits. These examples illustrate how AutoQuREO enables systematic discovery of unexploited resource trade-offs that are computationally intractable or abstruse using existing QRE tools. AutoQuREO is positioned as a general-purpose platform for advancing quantum technology readiness.",
+      "authors": [
+        "Harshkumar Oza",
+        "Aritra Sarkar",
+        "Syed Naqi Abbas",
+        "Rahul Bhowmick",
+        "Aryan Prakash",
+        "Prateek P Kulkarni",
+        "Krishna Kumar Sabapathy"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Harshkumar Oza",
+          "authorEntityId": "author:bf01e7a8cacef3ab",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Harshkumar Oza",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Aritra Sarkar",
+          "authorEntityId": "author:f7950ef1d8f70200",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Aritra Sarkar",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Syed Naqi Abbas",
+          "authorEntityId": "author:d14bbd5d7073a69c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Syed Naqi Abbas",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Rahul Bhowmick",
+          "authorEntityId": "author:5071e9a435a93664",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Rahul Bhowmick",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Aryan Prakash",
+          "authorEntityId": "author:a5024257214f2e97",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Aryan Prakash",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Prateek P Kulkarni",
+          "authorEntityId": "author:bc12e06e353991eb",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Prateek P Kulkarni",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Krishna Kumar Sabapathy",
+          "authorEntityId": "author:5d4f2b59d36efe82",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Krishna Kumar Sabapathy",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "quant-ph",
+        "cs.AI",
+        "cs.ET"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-13",
+      "url": "https://arxiv.org/abs/2608.12936",
+      "pdfUrl": "https://arxiv.org/pdf/2608.12936",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.12936",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:0ac0c88890169018",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Harshkumar Oza",
+        "Aritra Sarkar",
+        "Syed Naqi Abbas",
+        "Rahul Bhowmick",
+        "Aryan Prakash",
+        "Prateek P Kulkarni",
+        "Krishna Kumar Sabapathy"
+      ],
+      "authorEntityIds": [
+        "author:bf01e7a8cacef3ab",
+        "author:f7950ef1d8f70200",
+        "author:d14bbd5d7073a69c",
+        "author:5071e9a435a93664",
+        "author:a5024257214f2e97",
+        "author:bc12e06e353991eb",
+        "author:5d4f2b59d36efe82"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Harshkumar Oza",
+          "affiliations": []
+        },
+        {
+          "name": "Aritra Sarkar",
+          "affiliations": []
+        },
+        {
+          "name": "Syed Naqi Abbas",
+          "affiliations": []
+        },
+        {
+          "name": "Rahul Bhowmick",
+          "affiliations": []
+        },
+        {
+          "name": "Aryan Prakash",
+          "affiliations": []
+        },
+        {
+          "name": "Prateek P Kulkarni",
+          "affiliations": []
+        },
+        {
+          "name": "Krishna Kumar Sabapathy",
           "affiliations": []
         }
       ]
