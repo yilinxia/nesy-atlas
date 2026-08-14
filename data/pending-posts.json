@@ -1762,5 +1762,23 @@
     "sourceUrl": "https://www.kognitos.com/blog/",
     "discovered": "2026-08-13",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Solutions & Use Cases Customs Clearance: Why Shipments Get Held and How to Prevent It (2026) What customs clearance is, the documents required, why most delays are documentation problems rather than inspections, and how AI verifies trade documents before Aug 14, 2026 Read &rarr;",
+    "date": "2026-08-14",
+    "url": "https://www.kognitos.com/blog/customs-clearance/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-08-14",
+    "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "Blog You’re Paying More for Your AI Than You Know",
+    "date": "2026-08-13",
+    "url": "https://www.uniphore.com/blog/youre-paying-more-for-your-ai-than-you-know/",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-08-14",
+    "status": "needs-review"
   }
 ]
