@@ -1780,5 +1780,23 @@
     "sourceUrl": "https://www.uniphore.com/blog/",
     "discovered": "2026-08-14",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Solutions & Use Cases Demurrage and Detention: What They Are and How to Validate Charges (2026) What demurrage and detention are, how free time and daily rates work, why the charges are hard to verify, and how to build a dispute Aug 15, 2026 Read &rarr;",
+    "date": "2026-08-15",
+    "url": "https://www.kognitos.com/blog/demurrage-and-detention/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-08-15",
+    "status": "needs-review"
+  },
+  {
+    "company": "RAAPID",
+    "title": "READ MORE",
+    "date": "2026-08-14",
+    "url": "https://www.raapidinc.com/blogs/nlp-to-neuro-symbolic-risk-adjustment-coding-ai/",
+    "sourceUrl": "https://www.raapidinc.com/blogs/",
+    "discovered": "2026-08-15",
+    "status": "needs-review"
   }
 ]
