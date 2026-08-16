@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T12:25:30.133Z",
+  "generatedAt": "2026-08-16T12:27:38.001Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,8 +13,8 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1724,
-  "completeMetadataCount": 1376,
+  "paperCount": 1722,
+  "completeMetadataCount": 1374,
   "sources": [
     {
       "id": "arxiv-keywords",
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1419
+      "count": 1417
     },
     {
       "id": "nesy-proceedings",
@@ -6154,18 +6154,6 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:6432056cdf12bb16"
-        ]
-      },
-      {
-        "id": "author:8b51b5aaa55d8deb",
-        "name": "Bin Li",
-        "aliases": [
-          "Bin Li"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:1c7bbbe3e6a512da",
-          "institution:67555f3e93df4737"
         ]
       },
       {
@@ -18270,6 +18258,17 @@
         "paperCount": 1,
         "institutionIds": [
           "institution:bcb23e62596a074e"
+        ]
+      },
+      {
+        "id": "author:8b51b5aaa55d8deb",
+        "name": "Bin Li",
+        "aliases": [
+          "Bin Li"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:1c7bbbe3e6a512da"
         ]
       },
       {
@@ -34695,17 +34694,6 @@
         ]
       },
       {
-        "id": "author:a8f74cf9d40d35fd",
-        "name": "Kan Li",
-        "aliases": [
-          "Kan Li"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:d327df7fd49c7ebb"
-        ]
-      },
-      {
         "id": "author:454a9b839f33b790",
         "name": "Kangjie Bao",
         "aliases": [
@@ -38613,17 +38601,6 @@
         ]
       },
       {
-        "id": "author:bcfca7af2587d2c2",
-        "name": "Manisha Dubey",
-        "aliases": [
-          "Manisha Dubey"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:9ffc21de60b360ff"
-        ]
-      },
-      {
         "id": "author:af2e4097a27a90a8",
         "name": "Manoj Karkee",
         "aliases": [
@@ -41448,17 +41425,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:1de185afd6a0a302",
-        "name": "Mingyang Zhao",
-        "aliases": [
-          "Mingyang Zhao"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:3f90bfb9438796d5"
-        ]
-      },
-      {
         "id": "author:03e75ed35d604f69",
         "name": "Mingyi Zhang",
         "aliases": [
@@ -42641,17 +42607,6 @@
         "paperCount": 1,
         "institutionIds": [
           "institution:7197142d3da9429e"
-        ]
-      },
-      {
-        "id": "author:115569f07f5355bc",
-        "name": "N Siddharth",
-        "aliases": [
-          "N Siddharth"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:9ffc21de60b360ff"
         ]
       },
       {
@@ -47493,17 +47448,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:70e0488559926e2f",
-        "name": "Rimvydas Rubavicius",
-        "aliases": [
-          "Rimvydas Rubavicius"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:9ffc21de60b360ff"
-        ]
-      },
-      {
         "id": "author:ce6345b8c4afc5d3",
         "name": "Rishabh Jakhar",
         "aliases": [
@@ -50556,17 +50500,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:70009b22c3503004",
-        "name": "Shenxi Liu",
-        "aliases": [
-          "Shenxi Liu"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:d327df7fd49c7ebb"
-        ]
-      },
-      {
         "id": "author:dc5a081200153023",
         "name": "Sherry Chen",
         "aliases": [
@@ -50940,17 +50873,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:02ce0ceb0ed14f7d",
-        "name": "Shoujun Zhou",
-        "aliases": [
-          "Shoujun Zhou"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:67555f3e93df4737"
-        ]
       },
       {
         "id": "author:d5f805c4261f0156",
@@ -52806,17 +52728,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:19da8003cf69da3b",
-        "name": "Subramanian Ramamoorthy",
-        "aliases": [
-          "Subramanian Ramamoorthy"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:9ffc21de60b360ff"
-        ]
       },
       {
         "id": "author:cbf2983d8f7a8a6f",
@@ -61236,17 +61147,6 @@
         ]
       },
       {
-        "id": "author:033eeeada75b1caf",
-        "name": "Yuhang Tian",
-        "aliases": [
-          "Yuhang Tian"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:d327df7fd49c7ebb"
-        ]
-      },
-      {
         "id": "author:9607e048db270b51",
         "name": "Yuhang Zhang",
         "aliases": [
@@ -67246,7 +67146,7 @@
           "The University of Edinburgh",
           "University of Edinburgh"
         ],
-        "paperCount": 35
+        "paperCount": 34
       },
       {
         "id": "institution:cf1c67afebae5548",
@@ -68324,14 +68224,6 @@
         "paperCount": 4
       },
       {
-        "id": "institution:d327df7fd49c7ebb",
-        "name": "Beijing Institute of Technology",
-        "aliases": [
-          "Beijing Institute of Technology"
-        ],
-        "paperCount": 4
-      },
-      {
         "id": "institution:6a56f96a00b9c2a4",
         "name": "Birkbeck",
         "aliases": [
@@ -68658,6 +68550,14 @@
         "name": "Baylor University",
         "aliases": [
           "Baylor University"
+        ],
+        "paperCount": 3
+      },
+      {
+        "id": "institution:d327df7fd49c7ebb",
+        "name": "Beijing Institute of Technology",
+        "aliases": [
+          "Beijing Institute of Technology"
         ],
         "paperCount": 3
       },
@@ -72096,14 +71996,6 @@
         "name": "China Academy of Launch Vehicle Technology",
         "aliases": [
           "China Academy of Launch Vehicle Technology"
-        ],
-        "paperCount": 1
-      },
-      {
-        "id": "institution:67555f3e93df4737",
-        "name": "Chinese Academy of Sciences Shenzhen",
-        "aliases": [
-          "Chinese Academy of Sciences Shenzhen"
         ],
         "paperCount": 1
       },
@@ -77308,14 +77200,6 @@
         "name": "The Hong Kong Polytechnic University Hong Kong",
         "aliases": [
           "The Hong Kong Polytechnic University Hong Kong"
-        ],
-        "paperCount": 1
-      },
-      {
-        "id": "institution:3f90bfb9438796d5",
-        "name": "The Hong Kong Polytechnic University Hongkong",
-        "aliases": [
-          "The Hong Kong Polytechnic University Hongkong"
         ],
         "paperCount": 1
       },
@@ -84087,7 +83971,7 @@
     {
       "id": "2607.15596",
       "title": "From Neural Intent to Cryptographic Authorization: Securing AI-Driven Enterprise Workflows",
-      "abstract": "The rapid adoption of artificial intelligence (AI)-driven workflows is transforming high-consequence} government and enterprise systems into language-based, tool-using and increasingly autonomous infrastructures. While these workflows can delegate planning autonomously, security-critical execution should be strictly mediated. Conventional key management services authenticate who may invoke a cryptographic primitive, but remain agnostic to which workflow steps are authorized at runtime. An AI-driven workflow can still be hijacked by injection attacks into executing malicious actions that satisfy identity checks yet violate user intent. We propose \\emph{Neural Cryptographic Services} (NCS), a neuro-symbolic security enforcement plane interposed between neural planners and privileged tools. NCS decouples cognitive planning from execution authority: an untrusted neural planner drafts structured plans, while a deterministic symbolic controller gates execution using an offline-signed, hash-chained instruction stream. Specifically, NCS validates cryptographic signatures and hash chains incrementally, releasing a single instruction payload at a time while strictly binding proposed tool parameters to the verified payload. Out-of-order or altered tool calls fail-closed, and state transitions are logged for post-hoc auditing. NCS does not attempt to prevent neural planner compromise under injection; it guarantees that a compromised planner cannot dispatch actions outside the cryptographic authorization. We evaluate NCS on AgentDojo and a custom argument-hijacking benchmark. NCS drives attack success rates to near zero while preserving acceptable utility on benign workflows. NCS thus shifts security for high-consequence AI-powered workflows from verifying model-intent compliance to verifying that a proposed dispatch matches a cryptographically authorized step.",
+      "abstract": "The rapid adoption of artificial intelligence (AI)-driven workflows is transforming high-consequence government and enterprise systems into language-based, tool-using and increasingly autonomous infrastructures. While these workflows can delegate planning autonomously, security-critical execution should be strictly mediated. Conventional identity management services authenticate who may invoke a primitive, but remain agnostic to which workflow steps are authorized at runtime. An AI-driven workflow can still be hijacked by injection attacks into executing malicious actions that satisfy identity checks yet violate user intent. We propose Neural Cryptographic Services (NCS), a neuro-symbolic security enforcement plane interposed between neural planners and privileged tools. NCS decouples cognitive planning from execution authority: an untrusted neural planner drafts structured plans, while a deterministic symbolic controller gates execution using an offline-signed, hash-chained instruction stream. Specifically, NCS validates cryptographic signatures and hash chains incrementally, releasing a single instruction template at a time, and admitting a tool call only when its proposed parameters satisfy the constraints of the signed template. Out-of-order or altered tool calls fail-closed, and state transitions are logged for post-hoc auditing. NCS does not attempt to prevent neural planner compromise under injection; it guarantees that a compromised planner cannot dispatch actions outside the authorization. We evaluate NCS using AgentDojo, a custom argument-hijacking dataset, adaptive adversarial instructions, and TheAgentCompany. NCS drives attack success rates to near zero while preserving acceptable utility on benign workflows.",
       "authors": [
         "Jiasi Weng",
         "Jian Weng",
@@ -99953,8 +99837,8 @@
     },
     {
       "id": "2606.00671",
-      "title": "AXIOM: A Trust-First Neuro-Symbolic Execution Architecture for Verifiable Mathematical Reasoning",
-      "abstract": "We present AXIOM, a trust-first neuro-symbolic execution architecture for natural-language mathematical reasoning. In AXIOM, the language model functions strictly as a canonicalizer: it rewrites informal problem text into a narrow schema consumed by a deterministic Computer-Algebra-System (CAS) pipeline, which derives and verifies the answer or abstains as a first-class output. Routing follows a 1:1:1 alignment between problem-shape regex, schema-specific prompt, and closed-form CAS handler, with 3,100+ such routes shipped and zero LOST_CORRECT regressions across 250+ consecutive ship commits. We report empirical results on 4 MATH categories with a cumulative correctness of 94.36% (2,592/2,747) at 100.00% trust on parseable (zero confident-wrong answers across the full 2,747-record benchmark), all four domains above the per-domain 70/90/70 floor with per-domain trust at 100.0%, and median latency of 1 ms on rule-only handlers (88% of records on the lm-eval arithmetic 20,000-record benchmark). The architecture has served ~30,000 production queries through a public deployment. The contribution we emphasize is not a final accuracy figure but the forward dynamic the architecture establishes: every logged abstain in production is a candidate correct after one ship cycle, since new tasks compose without regressing the registry. The operational discipline behind this property -- math-template bucketing, LOST_CORRECT scan as regression oracle, parseable-first onboarding, and abstain as first-class output -- constitutes a transferable framework for trustworthy neuro-symbolic systems beyond mathematics.",
+      "title": "Moxia: A Trust-First Neuro-Symbolic Execution Architecture for Self-Explaining Mathematical Reasoning",
+      "abstract": "We present Moxia (formerly AXIOM), a trust-first neuro-symbolic architecture for self-explaining mathematical reasoning over natural-language input. Its language model is strictly a canonicalizer: it rewrites informal problem text into a narrow schema consumed by a deterministic Computer-Algebra-System (CAS) pipeline, which derives and verifies the answer or abstains as a first-class output. Routing follows a 1:1:1 alignment of problem-shape regex, schema-specific prompt, and closed-form CAS handler, with 4,783 routes shipped, 71% of which answer without invoking the language model, and zero LOST_CORRECT regressions as a standing release gate. Because the answer is derived rather than generated, so is its explanation: every handler emits a step trace of the computation it performed, rendered as prose by a layer covering all 4,785 task files that cannot narrate a step the handler did not take. Derivations export to Lean 4 as well: 479 task files (10%) emit a theorem from the problem's declared data, 445 accepted by the Lean kernel with Mathlib; that gate covers a fixture corpus, so live output is generated, not machine-checked. We report two numbers and never fuse them. On the full 7-category MATH test split, designed against, Moxia answers 90.2% (4,510/5,000) with one confident-wrong answer (99.98% trust on parseable). On held-out MATH-500, never designed against, it answers 89.2% (446/500) with zero confident-wrong answers. The 1.0 pp gap is the substantive result: a registry that had merely memorized problem shapes would collapse on held-out data, and this one does not. The rule-only path answers the 20,000-record lm-eval arithmetic benchmark at 100%, 1 ms per record. What we emphasize is not an accuracy figure but the forward dynamic: every logged abstain is a candidate correct after one ship cycle, since new tasks compose without regressing the registry.",
       "authors": [
         "Alessio Bruno"
       ],
@@ -118614,157 +118498,6 @@
           "name": "Nafi Diallo",
           "affiliations": [
             "Amazon Web Services Seattle"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2604.18064",
-      "title": "Understanding Human Actions through the Lens of Executable Models",
-      "abstract": "Human-centred systems require an understanding of human actions in the physical world. Temporally extended sequences of actions are intentional and structured, yet existing methods for recognising what actions are performed often do not attempt to capture their structure, particularly how the actions are executed. This, however, is crucial for assessing the quality of the action's execution and its differences from other actions. To capture the internal mechanics of actions, we introduce a domain-specific language EXACT that represents human motions as underspecified motion programs, interpreted as reward-generating functions for zero-shot policy inference using forward-backwards representations. By leveraging the compositional nature of EXACT motion programs, we combine individual policies into an executable neuro-symbolic model that uses program structure for compositional modelling. We evaluate the utility of the proposed pipeline for creating executable action models by analysing motion-capture data to understand human actions, for the tasks of human action segmentation and action anomaly detection. Our results show that the use of executable action models improves data efficiency and captures intuitive relationships between actions compared with monolithic, task-specific approaches.",
-      "authors": [
-        "Rimvydas Rubavicius",
-        "Manisha Dubey",
-        "N Siddharth",
-        "Subramanian Ramamoorthy"
-      ],
-      "authorAffiliations": [
-        {
-          "name": "Rimvydas Rubavicius",
-          "authorEntityId": "author:70e0488559926e2f",
-          "affiliations": [
-            "University of Edinburgh"
-          ],
-          "affiliationEntityIds": [
-            "institution:9ffc21de60b360ff"
-          ],
-          "rawName": "Rimvydas Rubavicius",
-          "rawAffiliations": [
-            "The University of Edinburgh"
-          ]
-        },
-        {
-          "name": "Manisha Dubey",
-          "authorEntityId": "author:bcfca7af2587d2c2",
-          "affiliations": [
-            "University of Edinburgh"
-          ],
-          "affiliationEntityIds": [
-            "institution:9ffc21de60b360ff"
-          ],
-          "rawName": "Manisha Dubey",
-          "rawAffiliations": [
-            "The University of Edinburgh"
-          ]
-        },
-        {
-          "name": "N Siddharth",
-          "authorEntityId": "author:115569f07f5355bc",
-          "affiliations": [
-            "University of Edinburgh"
-          ],
-          "affiliationEntityIds": [
-            "institution:9ffc21de60b360ff"
-          ],
-          "rawName": "N Siddharth",
-          "rawAffiliations": [
-            "The University of Edinburgh"
-          ]
-        },
-        {
-          "name": "Subramanian Ramamoorthy",
-          "authorEntityId": "author:19da8003cf69da3b",
-          "affiliations": [
-            "University of Edinburgh"
-          ],
-          "affiliationEntityIds": [
-            "institution:9ffc21de60b360ff"
-          ],
-          "rawName": "Subramanian Ramamoorthy",
-          "rawAffiliations": [
-            "The University of Edinburgh"
-          ]
-        }
-      ],
-      "authorIds": [],
-      "affiliations": [
-        "University of Edinburgh"
-      ],
-      "keywords": [
-        "Neuro-symbolic Approaches",
-        "Executable Models",
-        "Motion Programs",
-        "Action Segmentation",
-        "Action Anomaly Detection",
-        "neuro-symbolic"
-      ],
-      "categories": [
-        "cs.AI"
-      ],
-      "venue": "arXiv",
-      "conference": "",
-      "year": 2026,
-      "published": "2026-04-20",
-      "url": "https://arxiv.org/abs/2604.18064",
-      "pdfUrl": "https://arxiv.org/pdf/2604.18064",
-      "doi": "",
-      "doiUrl": "",
-      "arxivId": "2604.18064",
-      "primaryArea": "",
-      "paperType": "",
-      "tldr": "",
-      "award": "",
-      "sourceType": "arxiv",
-      "sourceIds": [
-        "arxiv-keywords"
-      ],
-      "resolutionStatus": "source-pdf",
-      "resolutionMethod": "",
-      "resolvedArxivUrl": "",
-      "metadataComplete": true,
-      "extractionStatus": "extracted",
-      "entityId": "paper:fdd8758da373536c",
-      "rawAffiliations": [
-        "The University of Edinburgh"
-      ],
-      "affiliationEntityIds": [
-        "institution:9ffc21de60b360ff"
-      ],
-      "rawAuthors": [
-        "Rimvydas Rubavicius",
-        "Manisha Dubey",
-        "N Siddharth",
-        "Subramanian Ramamoorthy"
-      ],
-      "authorEntityIds": [
-        "author:70e0488559926e2f",
-        "author:bcfca7af2587d2c2",
-        "author:115569f07f5355bc",
-        "author:19da8003cf69da3b"
-      ],
-      "rawAuthorAffiliations": [
-        {
-          "name": "Rimvydas Rubavicius",
-          "affiliations": [
-            "The University of Edinburgh"
-          ]
-        },
-        {
-          "name": "Manisha Dubey",
-          "affiliations": [
-            "The University of Edinburgh"
-          ]
-        },
-        {
-          "name": "N Siddharth",
-          "affiliations": [
-            "The University of Edinburgh"
-          ]
-        },
-        {
-          "name": "Subramanian Ramamoorthy",
-          "affiliations": [
-            "The University of Edinburgh"
           ]
         }
       ]
@@ -157283,8 +157016,8 @@
     },
     {
       "id": "2601.05280",
-      "title": "On the Limits of Self-Improving in Large Language Models: The Singularity Is Not Near Without Symbolic Model Synthesis",
-      "abstract": "We formalise recursive self-training in Large Language Models (LLMs) and Generative AI as a discrete-time dynamical system. We prove that if the proportion of exogenous, externally grounded signal $α_t$ vanishes asymptotically ($α_t \\to 0$), the system undergoes degenerative dynamics. We derive two fundamental failure modes: (1) \\textit{Entropy Decay}, where finite sampling effects induce monotonic loss of distributional diversity, and (2) \\textit{Variance Amplification}, where the absence of persistent grounding causes distributional drift via a random-walk mechanism. These behaviours are architectural invariants of distributional learning on finite samples. We show that the collapse results apply specifically to closed-loop density matching without persistent external signal. Systems with non-vanishing exogenous grounding fall outside this regime. However, mainstream Singularity, AGI, and ASI narratives typically posit systems that become increasingly autonomous and require little to no human or external intervention for self-improvement. In that autonomy regime, the vanishing-signal condition is satisfied, and collapse follows under KL-based objectives. To overcome these limits, we propose neurosymbolic integration based on algorithmic probability and program synthesis. The Coding Theorem Method (CTM) enables identification of generative mechanisms rather than mere correlations, escaping the distribution-only constraints that bind standard statistical learning. We conclude that fully autonomous recursive density matching leads to degenerative fixed points, whereas externally anchored or mechanism-based approaches operate under fundamentally different asymptotic dynamics.",
+      "title": "On Solomonoff Induction in Large Language Models and the Limits of Self-Improving: The Singularity Is Not Near Without Symbolic Model Synthesis",
+      "abstract": "On the one hand, the question of whether large language models (LLMs) are Solomonoff induction estimators has become an explicit question at the intersection of Algorithmic Information Theory (AIT) and Machine Learning (ML) of great interest. On the other hand, the now old idea of an AI Singularity that requires a reliable positive-feedback process in which a system can generate, evaluate and retain genuine improvements to itself continues to come up and is a recurrent concept in the discussion of AGI. We connect and provide some answers to these issues based on current assumptions and future developments of neurosymbolic ML. We will demonstrate that cross-entropy, negative log-likelihood and cognate next-token objectives do not or cannot, by themselves, implement Solomonoff induction: they optimise fit to a supplied conditional distribution rather than a program-weighted universal mixture. While more compute within a fixed objective can improve fit without changing the inductive principle, additional computational resources do not intrinsically without external hyper-parameter or architectural changes, behave as optimal predictors in the Solomonoff and Levin sense. While the data-processing inequality (DPI) and Levin non-growth remain valid, we will show that for finite learners and finite observers, theoretical boundaries have less relevancy and generate a drift between possible approaches. To this end, we interpret different resource-bounded estimators as finite tools for mechanism search that show divergence, not violation, of (algorithmic) information conservation laws. A neurosymbolic direction taken by current frontier-model developers points towards the adoption of model synthesis and no longer purely statistical approaches to LLMs but where Solomonoff estimators are possible.",
       "authors": [
         "Hector Zenil"
       ],
@@ -163244,204 +162977,6 @@
         {
           "name": "Independent Researcher",
           "affiliations": []
-        }
-      ]
-    },
-    {
-      "id": "2512.01045",
-      "title": "Med-CRAFT: Automated Construction of Interpretable and Multi-Hop Video Workloads via Knowledge Graph Traversal",
-      "abstract": "The scarcity of high-quality, logically annotated video datasets remains a primary bottleneck in advancing Multi-Modal Large Language Models (MLLMs) for the medical domain. Traditional manual annotation is prohibitively expensive and non-scalable, while existing synthetic methods often suffer from stochastic hallucinations and a lack of logical interpretability. To address these challenges, we introduce \\textbf{\\PipelineName}, a novel neuro-symbolic data engineering framework that formalizes benchmark synthesis as a deterministic graph traversal process. Unlike black-box generative approaches, Med-CRAFT extracts structured visual primitives (e.g., surgical instruments, anatomical boundaries) from raw video streams and instantiates them into a dynamic Spatiotemporal Knowledge Graph. By anchoring query generation to valid paths within this graph, we enforce a rigorous Chain-of-Thought (CoT) provenance for every synthesized benchmark item. We instantiate this pipeline to produce M3-Med-Auto, a large-scale medical video reasoning benchmark exhibiting fine-grained temporal selectivity and multi-hop logical complexity. Comprehensive evaluations demonstrate that our automated pipeline generates query workloads with complexity comparable to expert-curated datasets. Furthermore, a logic alignment analysis reveals a high correlation between the prescribed graph topology and the reasoning steps of state-of-the-art MLLMs, validating the system's capability to encode verifiable logic into visual-linguistic benchmarks. This work paves the way for scalable, low-cost construction of robust evaluation protocols in critical domains.",
-      "authors": [
-        "Shenxi Liu",
-        "Kan Li",
-        "Mingyang Zhao",
-        "Yuhang Tian",
-        "Shoujun Zhou",
-        "Bin Li"
-      ],
-      "authorAffiliations": [
-        {
-          "name": "Shenxi Liu",
-          "authorEntityId": "author:70009b22c3503004",
-          "affiliations": [
-            "Beijing Institute of Technology"
-          ],
-          "affiliationEntityIds": [
-            "institution:d327df7fd49c7ebb"
-          ],
-          "rawName": "Shenxi Liu",
-          "rawAffiliations": [
-            "Beijing Institute of Technology"
-          ]
-        },
-        {
-          "name": "Kan Li",
-          "authorEntityId": "author:a8f74cf9d40d35fd",
-          "affiliations": [
-            "Beijing Institute of Technology"
-          ],
-          "affiliationEntityIds": [
-            "institution:d327df7fd49c7ebb"
-          ],
-          "rawName": "Kan Li",
-          "rawAffiliations": [
-            "Beijing Institute of Technology"
-          ]
-        },
-        {
-          "name": "Mingyang Zhao",
-          "authorEntityId": "author:1de185afd6a0a302",
-          "affiliations": [
-            "The Hong Kong Polytechnic University Hongkong"
-          ],
-          "affiliationEntityIds": [
-            "institution:3f90bfb9438796d5"
-          ],
-          "rawName": "Mingyang Zhao",
-          "rawAffiliations": [
-            "The Hong Kong Polytechnic University Hongkong"
-          ]
-        },
-        {
-          "name": "Yuhang Tian",
-          "authorEntityId": "author:033eeeada75b1caf",
-          "affiliations": [
-            "Beijing Institute of Technology"
-          ],
-          "affiliationEntityIds": [
-            "institution:d327df7fd49c7ebb"
-          ],
-          "rawName": "Yuhang Tian",
-          "rawAffiliations": [
-            "Beijing Institute of Technology"
-          ]
-        },
-        {
-          "name": "Shoujun Zhou",
-          "authorEntityId": "author:02ce0ceb0ed14f7d",
-          "affiliations": [
-            "Chinese Academy of Sciences Shenzhen"
-          ],
-          "affiliationEntityIds": [
-            "institution:67555f3e93df4737"
-          ],
-          "rawName": "Shoujun Zhou",
-          "rawAffiliations": [
-            "Chinese Academy of Sciences Shenzhen"
-          ]
-        },
-        {
-          "name": "Bin Li",
-          "authorEntityId": "author:8b51b5aaa55d8deb",
-          "affiliations": [
-            "Chinese Academy of Sciences Shenzhen"
-          ],
-          "affiliationEntityIds": [
-            "institution:67555f3e93df4737"
-          ],
-          "rawName": "Bin Li",
-          "rawAffiliations": [
-            "Chinese Academy of Sciences Shenzhen"
-          ]
-        }
-      ],
-      "authorIds": [],
-      "affiliations": [
-        "Beijing Institute of Technology",
-        "The Hong Kong Polytechnic University Hongkong",
-        "Chinese Academy of Sciences Shenzhen"
-      ],
-      "keywords": [
-        "neuro-symbolic"
-      ],
-      "categories": [
-        "cs.AI"
-      ],
-      "venue": "arXiv",
-      "conference": "",
-      "year": 2025,
-      "published": "2025-11-30",
-      "url": "https://arxiv.org/abs/2512.01045",
-      "pdfUrl": "https://arxiv.org/pdf/2512.01045",
-      "doi": "",
-      "doiUrl": "",
-      "arxivId": "2512.01045",
-      "primaryArea": "",
-      "paperType": "",
-      "tldr": "",
-      "award": "",
-      "sourceType": "arxiv",
-      "sourceIds": [
-        "arxiv-keywords"
-      ],
-      "resolutionStatus": "source-pdf",
-      "resolutionMethod": "",
-      "resolvedArxivUrl": "",
-      "metadataComplete": true,
-      "extractionStatus": "extracted",
-      "entityId": "paper:fe8976dbc0f34f82",
-      "rawAffiliations": [
-        "Beijing Institute of Technology",
-        "The Hong Kong Polytechnic University Hongkong",
-        "Chinese Academy of Sciences Shenzhen"
-      ],
-      "affiliationEntityIds": [
-        "institution:d327df7fd49c7ebb",
-        "institution:3f90bfb9438796d5",
-        "institution:67555f3e93df4737"
-      ],
-      "rawAuthors": [
-        "Shenxi Liu",
-        "Kan Li",
-        "Mingyang Zhao",
-        "Yuhang Tian",
-        "Shoujun Zhou",
-        "Bin Li"
-      ],
-      "authorEntityIds": [
-        "author:70009b22c3503004",
-        "author:a8f74cf9d40d35fd",
-        "author:1de185afd6a0a302",
-        "author:033eeeada75b1caf",
-        "author:02ce0ceb0ed14f7d",
-        "author:8b51b5aaa55d8deb"
-      ],
-      "rawAuthorAffiliations": [
-        {
-          "name": "Shenxi Liu",
-          "affiliations": [
-            "Beijing Institute of Technology"
-          ]
-        },
-        {
-          "name": "Kan Li",
-          "affiliations": [
-            "Beijing Institute of Technology"
-          ]
-        },
-        {
-          "name": "Mingyang Zhao",
-          "affiliations": [
-            "The Hong Kong Polytechnic University Hongkong"
-          ]
-        },
-        {
-          "name": "Yuhang Tian",
-          "affiliations": [
-            "Beijing Institute of Technology"
-          ]
-        },
-        {
-          "name": "Shoujun Zhou",
-          "affiliations": [
-            "Chinese Academy of Sciences Shenzhen"
-          ]
-        },
-        {
-          "name": "Bin Li",
-          "affiliations": [
-            "Chinese Academy of Sciences Shenzhen"
-          ]
         }
       ]
     },
