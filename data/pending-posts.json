@@ -1798,5 +1798,14 @@
     "sourceUrl": "https://www.raapidinc.com/blogs/",
     "discovered": "2026-08-15",
     "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "Blog Marketing Has an Operational Problem, Not a Data Problem",
+    "date": "2026-08-17",
+    "url": "https://www.uniphore.com/blog/marketing-has-an-operational-problem-not-a-data-problem/",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-08-17",
+    "status": "needs-review"
   }
 ]
