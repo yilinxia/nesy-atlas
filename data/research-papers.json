@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T12:27:38.001Z",
+  "generatedAt": "2026-08-17T12:32:10.376Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1722,
+  "paperCount": 1725,
   "completeMetadataCount": 1374,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1417
+      "count": 1420
     },
     {
       "id": "nesy-proceedings",
@@ -495,6 +495,22 @@
         ]
       },
       {
+        "id": "author:a9ca1ee5e6f974a8",
+        "name": "Kaushik Roy",
+        "aliases": [
+          "Kaushik Roy"
+        ],
+        "paperCount": 11,
+        "institutionIds": [
+          "institution:366058c27e343874",
+          "institution:5735eb4c699068e8",
+          "institution:77a3e1e4dbc1acc8",
+          "institution:7801abc579496f6a",
+          "institution:90b589325857dff0",
+          "institution:b953b04a7af986cc"
+        ]
+      },
+      {
         "id": "author:0c794bc477a4ed91",
         "name": "Alessandra Russo",
         "aliases": [
@@ -533,22 +549,6 @@
           "institution:5d89fee4ee03ad20",
           "institution:db8874f9983a5ffd",
           "institution:fa3c75d12710670b"
-        ]
-      },
-      {
-        "id": "author:a9ca1ee5e6f974a8",
-        "name": "Kaushik Roy",
-        "aliases": [
-          "Kaushik Roy"
-        ],
-        "paperCount": 10,
-        "institutionIds": [
-          "institution:366058c27e343874",
-          "institution:5735eb4c699068e8",
-          "institution:77a3e1e4dbc1acc8",
-          "institution:7801abc579496f6a",
-          "institution:90b589325857dff0",
-          "institution:b953b04a7af986cc"
         ]
       },
       {
@@ -5715,6 +5715,17 @@
         "institutionIds": [
           "institution:2ba9b94251ad4e24",
           "institution:c428df4f0b316b5d"
+        ]
+      },
+      {
+        "id": "author:fe139333c74b5423",
+        "name": "Alex Lascarides",
+        "aliases": [
+          "Alex Lascarides"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:9ffc21de60b360ff"
         ]
       },
       {
@@ -14384,17 +14395,6 @@
         "paperCount": 1,
         "institutionIds": [
           "institution:77ad516abcac1c12"
-        ]
-      },
-      {
-        "id": "author:fe139333c74b5423",
-        "name": "Alex Lascarides",
-        "aliases": [
-          "Alex Lascarides"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:9ffc21de60b360ff"
         ]
       },
       {
@@ -28587,6 +28587,15 @@
         ]
       },
       {
+        "id": "author:70d12e9fd50f73b2",
+        "name": "Himanshu Tripathi",
+        "aliases": [
+          "Himanshu Tripathi"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:1017bec131cc21ea",
         "name": "Hinrich Schuetze",
         "aliases": [
@@ -30345,6 +30354,15 @@
         "institutionIds": [
           "institution:4eb14e462916c5fe"
         ]
+      },
+      {
+        "id": "author:2717ac47ebd757d5",
+        "name": "James Adam",
+        "aliases": [
+          "James Adam"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:8752127ebad8ad29",
@@ -33314,6 +33332,15 @@
           "institution:1d5a8bc3cc76f9f2",
           "institution:9a2cac2bde573354"
         ]
+      },
+      {
+        "id": "author:c4dddf8c528391b3",
+        "name": "Jonghyuk Park",
+        "aliases": [
+          "Jonghyuk Park"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:3697cfb6a975bc1c",
@@ -50067,6 +50094,15 @@
         ]
       },
       {
+        "id": "author:ce38a307396eca22",
+        "name": "Shahram Rahimi",
+        "aliases": [
+          "Shahram Rahimi"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:0d695ca0a879c0f4",
         "name": "Shahrin Hossain",
         "aliases": [
@@ -52721,10 +52757,28 @@
         ]
       },
       {
+        "id": "author:da2ba599b0011c8a",
+        "name": "Subash Neupane",
+        "aliases": [
+          "Subash Neupane"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:db2af07e5d0706ac",
         "name": "Subhasish Mitra",
         "aliases": [
           "Subhasish Mitra"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:19da8003cf69da3b",
+        "name": "Subramanian Ramamoorthy",
+        "aliases": [
+          "Subramanian Ramamoorthy"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -358814,6 +358868,272 @@
         },
         {
           "name": "Krishna Kumar Sabapathy",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.13684",
+      "title": "Learning to Assemble Novel Structures with Unfamiliar Parts under Semantic Constraints",
+      "abstract": "This paper describes a neurosymbolic architecture for learning to assemble novel structures using evidence from embodied conversations and task demonstrations. We focus on scenarios where an agent encounters, after deployment, semantic constraints on structures--in other words, constraints as to which part types and features make valid structures--that were not available during training, and where it is initially unaware of the relevant structure and component part concepts. The agent must acquire and exploit such knowledge through user interactions while attempting assembly. We study this setting in a simulated toy truck assembly domain, learning from symbolic evidence encoded in natural language and from dense visual observations. Our experiments show that communicating semantic constraints through natural language (e.g., \"dump trucks have a dumper\") yields more data-efficient online adaptation than relying only on task demonstrations and/or only naming the parts through natural language.",
+      "authors": [
+        "Jonghyuk Park",
+        "Alex Lascarides",
+        "Subramanian Ramamoorthy"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Jonghyuk Park",
+          "authorEntityId": "author:c4dddf8c528391b3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jonghyuk Park",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Alex Lascarides",
+          "authorEntityId": "author:fe139333c74b5423",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Alex Lascarides",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Subramanian Ramamoorthy",
+          "authorEntityId": "author:19da8003cf69da3b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Subramanian Ramamoorthy",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-13",
+      "url": "https://arxiv.org/abs/2608.13684",
+      "pdfUrl": "https://arxiv.org/pdf/2608.13684",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.13684",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:fd1a00aeba4238d8",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Jonghyuk Park",
+        "Alex Lascarides",
+        "Subramanian Ramamoorthy"
+      ],
+      "authorEntityIds": [
+        "author:c4dddf8c528391b3",
+        "author:fe139333c74b5423",
+        "author:19da8003cf69da3b"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Jonghyuk Park",
+          "affiliations": []
+        },
+        {
+          "name": "Alex Lascarides",
+          "affiliations": []
+        },
+        {
+          "name": "Subramanian Ramamoorthy",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.13662",
+      "title": "Ontology-Grounded Project Memory for Coding Agents",
+      "abstract": "Coding agents have become the primary means of generating new code in many software projects, and the resulting velocity of changes makes keeping track of the reasons behind those changes challenging. This paper introduces MOOSEDev, a system designed to give coding agents structured, ontology-grounded project memory. The system captures architectural decisions, lessons, constraints, and rationales in a knowledge graph exposed to agents via a Model Context Protocol (MCP) interface. Records carry lifecycle status, provenance, and supersession links, queryable via MOOSE, a proprietary neurosymbolic engine that treats the symbolic layer as the primary reasoning substrate. We compared MOOSEDev against a production vector-memory tool on a neutral public corpus of 835 typed records. MOOSEDev returned the expected answer set essentially in full (0.98-1.00) on supersession, set-completeness, and negation questions, whereas the baseline's top-k retrieval surfaced between 6% and 27%. Conversely, relevance recall and token cost were largely equivalent between the two systems. We also describe a temporal commit-history bootstrap of our own codebase, a pre-registered live trial, and lessons learned.",
+      "authors": [
+        "James Adam"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "James Adam",
+          "authorEntityId": "author:2717ac47ebd757d5",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "James Adam",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-13",
+      "url": "https://arxiv.org/abs/2608.13662",
+      "pdfUrl": "https://arxiv.org/pdf/2608.13662",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.13662",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:9edf00262b2f826c",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "James Adam"
+      ],
+      "authorEntityIds": [
+        "author:2717ac47ebd757d5"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "James Adam",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.13617",
+      "title": "How Compliant is Sepsis Treatment? An Expert-Guided Neuro-symbolic Pipeline for Generating Clinical Compliance Insights",
+      "abstract": "Verifying whether clinical care follows evidence-based protocols is a natural neuro-symbolic problem, yet the safety-critical setting defeats either paradigm alone. We present an expert-guided pipeline that constrains a large language model strictly to semantic normalization, mapping messy drug and microbiology strings onto a fixed clinical vocabulary, while a Sugeno fuzzy inference system reasons over the normalized events. The fuzzy layer encodes eight Surviving Sepsis Campaign bundle rules and replaces binary judgments with graded scores in [0,1]. Applied to 2,438 MIMIC-IV v3.1 sepsis episodes, it surfaces antibiotic timing as the most critical breakdown (mean 0.24, 13% within one hour), Hour-1 underperformance (mean 36.7%), a 51% elevated-lactate drop-off, and descriptive differences in ICU stay across compliance groups (3.8 versus 5.1 days).",
+      "authors": [
+        "Himanshu Tripathi",
+        "Kaushik Roy",
+        "Subash Neupane",
+        "Shahram Rahimi"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Himanshu Tripathi",
+          "authorEntityId": "author:70d12e9fd50f73b2",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Himanshu Tripathi",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Kaushik Roy",
+          "authorEntityId": "author:a9ca1ee5e6f974a8",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Kaushik Roy",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Subash Neupane",
+          "authorEntityId": "author:da2ba599b0011c8a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Subash Neupane",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Shahram Rahimi",
+          "authorEntityId": "author:ce38a307396eca22",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Shahram Rahimi",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SC"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-12",
+      "url": "https://arxiv.org/abs/2608.13617",
+      "pdfUrl": "https://arxiv.org/pdf/2608.13617",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.13617",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:7992f2951dcd0e2b",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Himanshu Tripathi",
+        "Kaushik Roy",
+        "Subash Neupane",
+        "Shahram Rahimi"
+      ],
+      "authorEntityIds": [
+        "author:70d12e9fd50f73b2",
+        "author:a9ca1ee5e6f974a8",
+        "author:da2ba599b0011c8a",
+        "author:ce38a307396eca22"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Himanshu Tripathi",
+          "affiliations": []
+        },
+        {
+          "name": "Kaushik Roy",
+          "affiliations": []
+        },
+        {
+          "name": "Subash Neupane",
+          "affiliations": []
+        },
+        {
+          "name": "Shahram Rahimi",
           "affiliations": []
         }
       ]
