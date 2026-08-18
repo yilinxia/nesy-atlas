@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-08-17T12:32:09.873Z",
-  "cursorAt": "2026-08-17T12:32:09.873Z",
+  "generatedAt": "2026-08-18T12:33:26.322Z",
+  "cursorAt": "2026-08-18T12:33:26.322Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-08-16T12:27:37.505Z",
   "keywords": [
@@ -15,11 +15,342 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-08-16T12:27:37.505Z",
-  "windowStart": "2026-08-09T12:27:37.505Z",
+  "previousSnapshotAt": "2026-08-17T12:32:09.873Z",
+  "windowStart": "2026-08-10T12:32:09.873Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2608.16794",
+    "title": "Neurosymbolic Embodied Agents",
+    "abstract": "Language and vision-language models generate plausible embodied plans but do not guarantee executability, as their outputs can violate environment dynamics or act on incorrectly grounded entities. We present a neurosymbolic agent that factors long-horizon household tasks into task-directed visual exploration and constrained symbolic planning. In the first phase, a vision-language model and exploration harness acquire goal-relevant predicates and instance bindings from egocentric observations and grounded interactions, producing a symbolic initial state. In the second, a PDDL transition model restricts decoding to tokens that extend applicable actions. Monte Carlo tree search then evaluates executable continuations using a domain-independent planning heuristic. The resulting plans are executable by construction under the transition model, with transfer to the environment conditioned on correct visual grounding. On VirtualHome and ALFWorld, open 4B-27B models exceed 90% success in both environments, and our smallest agent substantially outperforms a 27B direct visual policy in each. Constraints and search prove complementary rather than interchangeable: in ALFWorld either alone solves under a third of tasks, whereas their combination solves over 95%. The method also uses several times fewer generated tokens than extended thinking and far fewer model-visible images than direct interaction, and residual failures localize to state acquisition rather than plan generation without any specialized training.",
+    "authors": [
+      "Mohammad Albinhassan",
+      "Yuming Feng",
+      "Alessandra Russo",
+      "Pranava Madhyastha"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Mohammad Albinhassan",
+        "affiliations": []
+      },
+      {
+        "name": "Yuming Feng",
+        "affiliations": []
+      },
+      {
+        "name": "Alessandra Russo",
+        "affiliations": []
+      },
+      {
+        "name": "Pranava Madhyastha",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-17",
+    "updated": "2026-08-17",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primaryCategory": "cs.RO",
+    "url": "https://arxiv.org/abs/2608.16794",
+    "pdfUrl": "https://arxiv.org/pdf/2608.16794",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.16769",
+    "title": "A Deployment-Oriented and Resource-Efficient Neuro-Symbolic Framework for Explainable DDoS Detection in Operational Technology Networks",
+    "abstract": "Operational technology (OT) environments, including programmable logic controllers (PLCs), industrial control systems (ICS), and supervisory control and data acquisition (SCADA) systems, are increasingly targeted by distributed denial-of-service (DDoS) attacks. This paper presents a neuro-symbolic framework specifically designed for robust DDoS detection in these resource-constrained environments. The framework fuses a gated recurrent unit (GRU) neural network with a shallow decision tree as a symbolic component. The symbolic component alone provides a compact, interpretable rule set, while the fusion combines the strengths of both paradigms. The hybrid model is evaluated on three real-world benchmark DDoS datasets: CIC-DDoS2019, Edge-IIoTset, and CICIoT23. A unified comprehensive preprocessing pipeline including label mapping, numerical feature selection, robust scaling, and class balancing is applied. The fusion weight alpha and decision threshold are jointly optimised on validation data to maximise F1-score. The hybrid model attains 99.04% accuracy (MCC 0.97) on CIC-DDoS2019 and 98.61% accuracy (MCC 0.76) on CICIoT23, in both cases reducing the FNR below that of the pure-neural and pure-symbolic baselines; on the linearly separable Edge-IIoTset the shallow decision tree alone already reaches 100%, so this benchmark validates the preprocessing pipeline rather than the fusion. The principal gain of the fusion is a lower FNR at a controlled false-positive cost, which matters in operational technology, where a missed attack is more damaging than a false alarm. Model-only inference latency is sub-millisecond (0.58-0.79 milliseconds per sample) on a standard central processing unit; including on-device flow-feature extraction, the end-to-end path remains within a single-digit-millisecond budget, which is compatible with OT control-loop timing.",
+    "authors": [
+      "Mikiyas Alemayehu",
+      "Mohamed Chahine Ghanem",
+      "Hamza Kheddar",
+      "Aohan Li",
+      "J. J. Garcia-Luna-Aceves"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Mikiyas Alemayehu",
+        "affiliations": []
+      },
+      {
+        "name": "Mohamed Chahine Ghanem",
+        "affiliations": []
+      },
+      {
+        "name": "Hamza Kheddar",
+        "affiliations": []
+      },
+      {
+        "name": "Aohan Li",
+        "affiliations": []
+      },
+      {
+        "name": "J. J. Garcia-Luna-Aceves",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-17",
+    "updated": "2026-08-17",
+    "categories": [
+      "cs.CR"
+    ],
+    "primaryCategory": "cs.CR",
+    "url": "https://arxiv.org/abs/2608.16769",
+    "pdfUrl": "https://arxiv.org/pdf/2608.16769",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.16443",
+    "title": "Time to Reason: Scalable Neurosymbolic Learning for LTLf via Fuzzy Semantics",
+    "abstract": "Neurosymbolic (NeSy) Artificial Intelligence aims to integrate Deep Learning (DL) architectures with symbolic reasoning. While initial NeSy approaches have targeted mainly symbolic reasoning in propositional and first-order logics, recent works have started to address the construction of neurosymbolic frameworks for Temporal Logics, and in particular for LTLf. These approaches have established temporal NeSy as a promising research direction, laying the foundations for learning under temporal constraints. Nonetheless, they leave many questions unanswered. From a theoretical perspective, several differentiable semantics for interpreting LTLf have been proposed but have not yet been formally and systematically defined within a unified framework. Moreover, existing approaches commonly rely on automata to represent temporal knowledge, resulting in limited scalability. Motivated by this research gap, this paper provides the following contributions: (i) formally defining different fuzzy semantics for LTLf, and systematically analysing theoretical properties regarding equivalences and dualities of temporal operators; (ii) showing how these semantics can be directly integrated within a novel NeSy framework, called DiffLTLf, enabling flexible and scalable learning without relying on the usage of automata; and (iii) introducing a novel evaluation protocol of increased complexity of learning tasks w.r.t. existing benchmarks. Our results show that the choice of fuzzy semantics has a significant impact on predictive performance. Moreover, DiffLTLf achieves performance on par with, and sometimes superior to, state-of-the-art probabilistic approaches while substantially improving scalability. Taken together, these results establish direct fuzzy interpretations as a competitive and scalable alternative to existing temporal NeSy frameworks.",
+    "authors": [
+      "Riccardo Andreoni",
+      "Andrei Buliga",
+      "Alessandro Daniele",
+      "Paolo Felli",
+      "Chiara Ghidini",
+      "Marco Montali",
+      "Massimiliano Ronzani"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Riccardo Andreoni",
+        "affiliations": []
+      },
+      {
+        "name": "Andrei Buliga",
+        "affiliations": []
+      },
+      {
+        "name": "Alessandro Daniele",
+        "affiliations": []
+      },
+      {
+        "name": "Paolo Felli",
+        "affiliations": []
+      },
+      {
+        "name": "Chiara Ghidini",
+        "affiliations": []
+      },
+      {
+        "name": "Marco Montali",
+        "affiliations": []
+      },
+      {
+        "name": "Massimiliano Ronzani",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-17",
+    "updated": "2026-08-17",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2608.16443",
+    "pdfUrl": "https://arxiv.org/pdf/2608.16443",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic",
+        "NeSy"
+      ]
+    }
+  },
+  {
+    "id": "2608.16224",
+    "title": "STAIR: Semantic-Temporal Automaton for Interpretable Reasoning in Temporal Question Answering",
+    "abstract": "By leveraging large-scale pretraining, LLMs can interpret diverse temporal expressions and question formulations without task-specific training. However, existing prompt-based neuro-symbolic systems continue to rely on LLMs for both semantic interpretation and exact temporal inference. Consequently, discrete decisions regarding intervals, time anchors, and ordered states remain vulnerable to probabilistic errors and difficult to verify. We present STAIR, a \\textbf{S}emantic-\\textbf{T}emporal \\textbf{A}utomaton for \\textbf{I}nterpretable \\textbf{R}easoning. STAIR separates semantic interpretation from precise temporal inference: an answer-free LLM adapter maps complex question formulations to normalized temporal intents, while a deterministic temporal automaton with finite control and guarded transitions executes the corresponding policies over canonicalized evidence. Following a rule-first design, STAIR resolves standard questions without invoking an LLM and applies semantic adaptation only when the rule path fails to produce an executable intent. This approach reduces free-form reasoning, making temporal decisions verifiable and interpretable. Specifically, guarded execution supports precise point-time containment and before/after selection, while semantic adaptation handles non-exact intervals and time-anchored queries. Across the TimeQA-Easy, TimeQA-Hard, TempReason-L2, and TempReason-L3 datasets, STAIR consistently outperforms strong baselines in the TQA task using matched model settings, achieving average F1 improvements of 16.57\\% and 3.10\\% when utilizing the Qwen2.5-7B and GPT-4o-mini models, respectively. Furthermore, ablations and diagnostic analyses demonstrate that STAIR excels at handling both boundary-sensitive and order-sensitive queries, while its guarded execution and semantic adaptation ensure precise point-time reasoning and inexact intervals, respectively.",
+    "authors": [
+      "Xinlong Dai",
+      "Jinchuan Zhang",
+      "Lei Gao",
+      "Xinzhe Hu",
+      "Yuefeng He",
+      "Hui Gao"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Xinlong Dai",
+        "affiliations": []
+      },
+      {
+        "name": "Jinchuan Zhang",
+        "affiliations": []
+      },
+      {
+        "name": "Lei Gao",
+        "affiliations": []
+      },
+      {
+        "name": "Xinzhe Hu",
+        "affiliations": []
+      },
+      {
+        "name": "Yuefeng He",
+        "affiliations": []
+      },
+      {
+        "name": "Hui Gao",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-17",
+    "updated": "2026-08-17",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.CL",
+    "url": "https://arxiv.org/abs/2608.16224",
+    "pdfUrl": "https://arxiv.org/pdf/2608.16224",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.15673",
+    "title": "PL-Guard: Probabilistic Logic Reasoning for LLM Guardrails",
+    "abstract": "Large language model guardrails can be viewed as policy-consistency problems: a system must determine which policy-relevant facts hold in a prompt-response pair and what those facts imply under a given policy. Common approaches, including policy prompting and LLM-as-a-judge pipelines, often overlap the tasks of semantic grounding and policy reasoning: the model both interprets the prompt-response pair and reasons about whether a policy has been violated. This can lead to unsafe compliance with harmful prompts, or refusals to assist benign ones. To separate grounding and reasoning roles, we propose PL-Guard, a neurosymbolic guardrail architecture. Using a symbolic policy interface consisting of predicates and ProbLog rules, a local LLM grounds prompt-response pairs into predicate probabilities using renormalized True/False token scores, while ProbLog performs explicit probabilistic rule inference over the symbolic policy. On the XSTest benchmark, an offline Qwen-based evaluator finds that PL-Guard with a hand-curated policy reduces unsafe compliance from 22.0% for the base model to 0.5%, and below the 6.0% rate of an LLM-as-a-judge baseline. This comes at the cost of higher over-refusal than the LLM-as-a-judge baseline, 14.4% versus 5.2%. These results suggest that separating neural grounding from probabilistic symbolic reasoning can expose the safety-helpfulness tradeoff while making the guardrail's intermediate reasoning steps explicit and auditable.",
+    "authors": [
+      "Satchit Chatterji",
+      "Shihan Wang",
+      "Giovanni Sileno",
+      "Erman Acar"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Satchit Chatterji",
+        "affiliations": []
+      },
+      {
+        "name": "Shihan Wang",
+        "affiliations": []
+      },
+      {
+        "name": "Giovanni Sileno",
+        "affiliations": []
+      },
+      {
+        "name": "Erman Acar",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-16",
+    "updated": "2026-08-16",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2608.15673",
+    "pdfUrl": "https://arxiv.org/pdf/2608.15673",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.14922",
+    "title": "SpIn-ViT: Designing a Sparsity-Induced Vision Transformer That Is Mechanistically Interpretable",
+    "abstract": "Mechanistic interpretability has recently expanded to Vision Transformers (ViTs), with Sparse Autoencoders (SAEs) increasingly used as post-hoc tools to decompose internal representations into sparse and more interpretable features. However, because post-hoc SAEs are trained on frozen representations after the ViT has already been optimized, their latent features are not directly aligned with the downstream classification objective. We introduce SpIn-ViT, a framework that jointly trains a pretrained ViT and a modified SAE end-to-end, directly aligning sparse patch-level representations with image classification. SpIn-ViT learns semantically coherent neuron activations that localize meaningful image regions while maintaining competitive predictive performance. We evaluate SpIn-ViT across nine image-classification benchmarks using classification accuracy, quantitative interpretability metrics, AI-based and Human evaluations. Compared with the previous state-of-the-art post-hoc SAE method, SpIn-ViT achieves 8.84% higher average classification accuracy, an AI-based interpretability score nearly four times as high, and a human-evaluation score more than twice as high. We further extract interpretable rule-sets using the SAE neurons to create neurosymbolic models which achieve 5.97% higher average classification accuracy while requiring a 58.8\\% smaller rule-set than the neurosymbolic models created from the SOTA post-hoc SAE method.",
+    "authors": [
+      "Philip H. Lee",
+      "Parth Padalkar"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Philip H. Lee",
+        "affiliations": []
+      },
+      {
+        "name": "Parth Padalkar",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-14",
+    "updated": "2026-08-14",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.CV",
+    "url": "https://arxiv.org/abs/2608.14922",
+    "pdfUrl": "https://arxiv.org/pdf/2608.14922",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.14771",
+    "title": "From Errors to Proofs: Minimal-Core-Guided Repair for Neuro-Symbolic Constraint Solving",
+    "abstract": "Making language models solve constraint problems reliably often means having them translate the problem into a formal specification and delegating the search to a sound solver. But the translation is itself a language-model task, and an unfaithful translation makes the solver faithfully solve the wrong problem. Existing pipelines repair only translations that crash, returning the solver's error message and falling silent when the program runs but is wrong. We replace the error message with a proof: when the generated program is unsatisfiable, we extract a minimal unsatisfiable core over the model's own constraints and hand it back the exact set that cannot hold together, a leakage-free signal that localizes the fault. On a new benchmark of 77 problems with an exact oracle, translation to Answer Set Programming is faithful on six of seven domains and fails only on aggregate coverage scheduling, which concentrates the translation tax in one diagnosable pattern. A minimal core, rather than a bare error, is what stops a weaker model from fabricating solutions to infeasible problems, cutting fabrication from 79% to 7%. A strong chain-of-thought baseline meanwhile matches the symbolic route on accuracy, so the route's value is not accuracy but certificates and its refusal to fabricate.",
+    "authors": [
+      "Dipankar Sarkar"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Dipankar Sarkar",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-14",
+    "updated": "2026-08-14",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG",
+      "cs.LO",
+      "cs.PL",
+      "cs.SC",
+      "math.OC"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2608.14771",
+    "pdfUrl": "https://arxiv.org/pdf/2608.14771",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": []
+    }
+  },
   {
     "id": "2608.13684",
     "title": "Learning to Assemble Novel Structures with Unfamiliar Parts under Semantic Constraints",
@@ -192,6 +523,45 @@ globalThis.ARXIV_PAPERS = [
       "title": [],
       "abstract": [
         "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.14729",
+    "title": "Do CNNs Internally Represent Real and Fake Images Differently? A Hidden-Layer Analysis",
+    "abstract": "Fake/synthetic images are increasingly prevalent, but it remains unclear whether Convolutional Neural Networks (CNNs) process real and fake images in the same internal manner. This work examines the hypothesis that CNNs represent real and fake images differently, such that fake images induce different hidden-layer activation patterns even when semantic content is preserved. The hypothesis is evaluated in scene recognition settings using trained CNN models. Dense-layer activations are extracted, and neurosymbolic methods assign semantic labels to selected neurons. For each real test image, corresponding fake images are generated with similar semantic content using object-label-guided text-to-image and image-to-image generation based on Stable Diffusion variants. Paired real-fake activation patterns are then compared statistically. Additional experiments with another dataset, CNN architecture, generative model, and JPEG/blur degradation analysis assess robustness. Results suggest that fake images evoke different hidden-neuron activations, and these differences are not explained only by simple image degradation. Overall, the findings indicate that real and fake images differ in CNN hidden-layer activation behavior at least in some settings, which opens the door for follow-up work on making use of this different behavior to improve fake image detection.",
+    "authors": [
+      "Moumita Sen Sarma",
+      "Pascal Hitzler",
+      "Eugene Y. Vasserman"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Moumita Sen Sarma",
+        "affiliations": []
+      },
+      {
+        "name": "Pascal Hitzler",
+        "affiliations": []
+      },
+      {
+        "name": "Eugene Y. Vasserman",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-12",
+    "updated": "2026-08-12",
+    "categories": [
+      "cs.CV"
+    ],
+    "primaryCategory": "cs.CV",
+    "url": "https://arxiv.org/abs/2608.14729",
+    "pdfUrl": "https://arxiv.org/pdf/2608.14729",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
       ]
     }
   },
