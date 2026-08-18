@@ -1807,5 +1807,23 @@
     "sourceUrl": "https://www.uniphore.com/blog/",
     "discovered": "2026-08-17",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Solutions & Use Cases Trade Compliance: What It Covers and Why It Breaks Down (2026) What trade compliance is, the core pillars from classification to restricted party screening, why programs fail, and where AI helps. Aug 18, 2026 Read &rarr;",
+    "date": "2026-08-18",
+    "url": "https://www.kognitos.com/blog/trade-compliance/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-08-18",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Finance & Accounting Working Capital Management: Where Cash Gets Trapped (2026) What working capital management is, the components and metrics that drive it, the levers finance teams can pull, and why most trapped cash is Aug 17, 2026 Read &rarr;",
+    "date": "2026-08-17",
+    "url": "https://www.kognitos.com/blog/working-capital-management/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-08-18",
+    "status": "needs-review"
   }
 ]
