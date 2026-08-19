@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-08-18T12:33:26.322Z",
-  "cursorAt": "2026-08-18T12:33:26.322Z",
+  "generatedAt": "2026-08-19T12:34:56.937Z",
+  "cursorAt": "2026-08-19T12:34:56.937Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-08-16T12:27:37.505Z",
   "keywords": [
@@ -15,11 +15,297 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-08-17T12:32:09.873Z",
-  "windowStart": "2026-08-10T12:32:09.873Z",
+  "previousSnapshotAt": "2026-08-18T12:33:26.322Z",
+  "windowStart": "2026-08-11T12:33:26.322Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2608.17959",
+    "title": "Towards Zero-Shot Task Transfer with Neurosymbolic World Models",
+    "abstract": "State-of-the-art model-based reinforcement learning methods learn neural world models that allow policy improvement by planning in a latent space, without assumptions on the structure of the underlying environment. While expressive, these models are generally task-dependent: they learn uninterpretable latent representations that are tied to the training task and thus hard to generalize to new tasks. In this work, we present a novel world model formulation where the reward prediction only depends on a subset of structured, symbolic components of the whole latent state. Decoupling observation reconstruction and reward prediction allows us to learn world models that can adapt zero-shot, i.e. without further environment interactions, to new reward functions defined over the same symbolic state space. We discuss the main advantages and challenges of learning these neurosymbolic world models and demonstrate the strong generalisation properties of our approach over purely neural methods.",
+    "authors": [
+      "Isidoro Tamassia",
+      "Lennert De Smet",
+      "Giuseppe Marra"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Isidoro Tamassia",
+        "affiliations": []
+      },
+      {
+        "name": "Lennert De Smet",
+        "affiliations": []
+      },
+      {
+        "name": "Giuseppe Marra",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-18",
+    "updated": "2026-08-18",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2608.17959",
+    "pdfUrl": "https://arxiv.org/pdf/2608.17959",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.17741",
+    "title": "Neuro-symbolic learning over OWL 2 DL via consequence-based compilation to differentiable circuits",
+    "abstract": "OWL 2 DL ontologies, grounded in the description logic $\\mathcal{SROIQ}$, express large knowledge bases in biomedicine and the Semantic Web. Neuro-symbolic (NeSy) learners over description logics either embed the ontology in a continuous space, abandoning classical entailment, or restrict to the Horn fragment $\\mathcal{EL}^{++}$, which has a single canonical model. We present Baobab, which compiles a $\\mathcal{SROIQ}$ ontology with a finite ABox into a Sentential Decision Diagram (SDD): it saturates a propositional core under a consequence-based calculus and instantiates the remaining $\\mathcal{SROIQ}$ features (nominals, number restrictions, and the role axioms) over the active domain. The SDD's evidence-conditioned weighted model count then trains a perception network to recognize real images under partial ABox supervision: on an ontology that exercises every distinctive $\\mathcal{SROIQ}$ feature, a CNN learns to read MNIST digits coupled by a successor relation and recovers latent ontology concepts that an independent perception leaves at chance. When the supervision admits several ontology-consistent completions, an independent perception collapses onto one, a reasoning shortcut: we show that a mixture indexed by the query's justifications can represent the calibrated posterior no independent perception can, and that seeding it from the circuit's enumerated completions attains the Bayes-optimal posterior on a real-image MNIST task where single-WMC and learned mixtures (the BEARS-ensemble hypothesis class) do not: to our knowledge the first to characterize and mitigate reasoning shortcuts in a non-Horn description logic. Soundness of the compiler and the representation result are machine-checked in Lean 4. Code is available at https://github.com/bio-ontology-research-group/baobab.",
+    "authors": [
+      "Olga Mashkova",
+      "Asaad Mohammedsaleh",
+      "Fernando Zhapa-Camacho",
+      "Robert Hoehndorf"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Olga Mashkova",
+        "affiliations": []
+      },
+      {
+        "name": "Asaad Mohammedsaleh",
+        "affiliations": []
+      },
+      {
+        "name": "Fernando Zhapa-Camacho",
+        "affiliations": []
+      },
+      {
+        "name": "Robert Hoehndorf",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-18",
+    "updated": "2026-08-18",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2608.17741",
+    "pdfUrl": "https://arxiv.org/pdf/2608.17741",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic",
+        "NeSy"
+      ]
+    }
+  },
+  {
+    "id": "2608.17443",
+    "title": "Structure-Internalized Rule Language Model for Faithful Knowledge Graph Reasoning",
+    "abstract": "Knowledge Graph Reasoning (KGR) aims to discover latent facts by leveraging the structural evidence available in KGs, posing a challenge to the structural semantic understanding capability of KGR models. Recent studies have demonstrated that Large Language Models (LLMs) can achieve remarkable progress on KGR tasks via flexible in-context learning. However, the inherent representation inconsistency between KG structural context and LLM parametric knowledge remains inadequately addressed. This limitation prevents LLMs from effectively perceiving reasoning evidence that aligns with KG constraints, which undermines both the effectiveness and faithfulness of reasoning. We refer to this problem as reasoning evidence perception drift of LLMs over KGs. To address this problem, we propose a Structure-Internalized Rule Language Model (SIRLM), which centers on structural rule generation to couple the parametric learning of structural knowledge with the faithfulness evaluation of reasoning logic, enabling LLMs to anchor tightly to KG-grounded evidence. Specifically, we first design a Structure-Internalized Rule Generator (SIRG), which incorporates an in-context learning block augmented with a structural relation memory to coordinate structural and parametric knowledge. Furthermore, we equip SIRG with a KG tokenizer based on structural invariance learning and a neuro-symbolic reasoner based on rule-constrained message propagation. These components provide SIRG with learnable structural representations and faithful rule-execution feedback, respectively. Our SIRLM can be seamlessly integrated into standard LLM training paradigms, such as SFT and GRPO. Extensive experiments against 17 state-of-the-art KGR methods on 36 datasets demonstrate the significant superiority of SIRLM.",
+    "authors": [
+      "Xingrui Zhuo",
+      "Jiapu Wang",
+      "Manzong Huang",
+      "Gongqing Wu",
+      "Xindong Wu"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Xingrui Zhuo",
+        "affiliations": []
+      },
+      {
+        "name": "Jiapu Wang",
+        "affiliations": []
+      },
+      {
+        "name": "Manzong Huang",
+        "affiliations": []
+      },
+      {
+        "name": "Gongqing Wu",
+        "affiliations": []
+      },
+      {
+        "name": "Xindong Wu",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-18",
+    "updated": "2026-08-18",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2608.17443",
+    "pdfUrl": "https://arxiv.org/pdf/2608.17443",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.17318",
+    "title": "If, Then, Otherwise: Diagnosing Conditional Branching in Vision-Language Navigation",
+    "abstract": "Vision-language navigation agents are often evaluated on their ability to follow route-like instructions toward a fixed goal. Yet, real navigation instructions often depend on observed states of the environment: if a condition holds, then follow one path, otherwise take another. Such instructions require an agent to evaluate scene evidence, select the correct logical branch, and execute the corresponding navigation behavior. Existing evaluations provide limited control over conditional branch execution, making it difficult to determine whether agents fail because of perception, grounding, navigation, or logical decision-making. We introduce CondVLN, a scene-graph-grounded benchmark for diagnosing conditional branching in vision-language navigation. CondVLN programmatically generates instructions whose branch conditions are grounded in verifiable 3D scene-graph predicates, with controlled variation in branch depth, dependency chain length, spatial composition, evidence observability, and instruction horizon. CondVLN contains over 11,500 generated conditional instructions across AI2-THOR, Matterport3D, Gibson, and ReplicaCAD, and evaluates agents using standard VLN metrics and branch-specific diagnostics: Branch Selection Accuracy and Conditional Success Rate. Evaluating four state-of-the-art VLN agents (VLN-Zero, NaVid, NaVILA, and Open-Nav) shows that conditional branching exposes failures that are not captured by standard success rate or path length alone: agents can navigate plausibly while committing to a branch inconsistent with the observed scene condition. We also present a lightweight neurosymbolic branch-selection model that separates condition grounding from navigation execution, improving performance by 2x. CondVLN provides a reusable testbed for measuring whether embodied agents can not only follow instructions, but follow the right instruction under the right condition.",
+    "authors": [
+      "Seoyoung Lee",
+      "Neel P. Bhatt",
+      "Pranay Samineni",
+      "Cong Liu",
+      "S P Sharan",
+      "Timothy Barclay",
+      "Gregory M. Wagner",
+      "Daniel Milan",
+      "Sandeep Chinchali",
+      "Ufuk Topcu",
+      "Atlas Wang"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Seoyoung Lee",
+        "affiliations": []
+      },
+      {
+        "name": "Neel P. Bhatt",
+        "affiliations": []
+      },
+      {
+        "name": "Pranay Samineni",
+        "affiliations": []
+      },
+      {
+        "name": "Cong Liu",
+        "affiliations": []
+      },
+      {
+        "name": "S P Sharan",
+        "affiliations": []
+      },
+      {
+        "name": "Timothy Barclay",
+        "affiliations": []
+      },
+      {
+        "name": "Gregory M. Wagner",
+        "affiliations": []
+      },
+      {
+        "name": "Daniel Milan",
+        "affiliations": []
+      },
+      {
+        "name": "Sandeep Chinchali",
+        "affiliations": []
+      },
+      {
+        "name": "Ufuk Topcu",
+        "affiliations": []
+      },
+      {
+        "name": "Atlas Wang",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-18",
+    "updated": "2026-08-18",
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "primaryCategory": "cs.CV",
+    "url": "https://arxiv.org/abs/2608.17318",
+    "pdfUrl": "https://arxiv.org/pdf/2608.17318",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.17304",
+    "title": "NeuroAbs: A Neuro-Symbolic RTL Abstraction Framework for Property Checking Acceleration",
+    "abstract": "Formal verification is a crucial technique for ensuring the functional correctness of hardware designs. In the context of property checking, a key challenge is how to efficiently prove a user-specified property in the face of increasingly complex RTL designs. To address this challenge, abstraction techniques are often employed to reduce system complexity and accelerate the verification process. However, prior RTL abstraction methods either require significant manual effort or rely on rule-based techniques that lack flexibility. This paper introduces NeuroAbs, a neuro-symbolic framework for RTL abstraction. NeuroAbs first uses LLM-assisted RTL analysis to identify signals suitable for abstraction. It then combines LLM-based abstraction with an AST-based symbolic RTL representation to better align the generated abstraction with the intended transformation. The soundness of each abstraction is checked using satisfiability modulo theories (SMT) solving. If the abstraction is too coarse for a successful proof, NeuroAbs applies counterexample-guided abstraction refinement (CEGAR) to iteratively refine the model. Experimental results show that NeuroAbs significantly improves the efficiency of hardware property checking across a range of verification tasks.",
+    "authors": [
+      "Zhiyuan Yan",
+      "Xiaofeng Zhou",
+      "Ziyue Zheng",
+      "Ziyi Yang",
+      "Wenbin Che",
+      "Wei Zhang",
+      "Yangdi Lyu",
+      "Hongce Zhang"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Zhiyuan Yan",
+        "affiliations": []
+      },
+      {
+        "name": "Xiaofeng Zhou",
+        "affiliations": []
+      },
+      {
+        "name": "Ziyue Zheng",
+        "affiliations": []
+      },
+      {
+        "name": "Ziyi Yang",
+        "affiliations": []
+      },
+      {
+        "name": "Wenbin Che",
+        "affiliations": []
+      },
+      {
+        "name": "Wei Zhang",
+        "affiliations": []
+      },
+      {
+        "name": "Yangdi Lyu",
+        "affiliations": []
+      },
+      {
+        "name": "Hongce Zhang",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-18",
+    "updated": "2026-08-18",
+    "categories": [
+      "cs.AR",
+      "cs.AI",
+      "cs.SE"
+    ],
+    "primaryCategory": "cs.AR",
+    "url": "https://arxiv.org/abs/2608.17304",
+    "pdfUrl": "https://arxiv.org/pdf/2608.17304",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2608.16794",
     "title": "Neurosymbolic Embodied Agents",
