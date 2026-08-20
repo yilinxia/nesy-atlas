@@ -1834,5 +1834,41 @@
     "sourceUrl": "https://www.imandra.ai/media",
     "discovered": "2026-08-19",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "AI Governance Regulatory Reporting: Why It Breaks and What Fixes It (2026) What regulatory reporting is, the aggregation and validation chain behind every filing, why it breaks under deadline, and where AI helps. Aug 19, 2026 Read &rarr;",
+    "date": "2026-08-19",
+    "url": "https://www.kognitos.com/blog/regulatory-reporting/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-08-20",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Finance & Accounting Why AI Hasn't Shortened Your Month-End Close Generative AI made every task in the month-end close faster, but the close itself did not move. Why the days sit in the handoffs. Aug 19, 2026 Read &rarr;",
+    "date": "2026-08-19",
+    "url": "https://www.kognitos.com/blog/why-ai-has-not-shortened-the-month-end-close/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-08-20",
+    "status": "needs-review"
+  },
+  {
+    "company": "UMNAI",
+    "title": "AI sovereignty: it&#x27;s really about who controls decision intelligence Post 19 Aug 2026",
+    "date": "2026-08-19",
+    "url": "https://umnai.com/company/blog/ai-sovereignty-its-really-about-who-controls-decision-intelligence",
+    "sourceUrl": "https://umnai.com/company/blog",
+    "discovered": "2026-08-20",
+    "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "Blog Knowing When to Speak",
+    "date": "2026-08-19",
+    "url": "https://www.uniphore.com/blog/part-2-knowing-when-to-speak/",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-08-20",
+    "status": "needs-review"
   }
 ]
