@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-08-19T12:34:56.937Z",
-  "cursorAt": "2026-08-19T12:34:56.937Z",
+  "generatedAt": "2026-08-20T12:35:43.903Z",
+  "cursorAt": "2026-08-20T12:35:43.903Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-08-16T12:27:37.505Z",
   "keywords": [
@@ -15,11 +15,156 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-08-18T12:33:26.322Z",
-  "windowStart": "2026-08-11T12:33:26.322Z",
+  "previousSnapshotAt": "2026-08-19T12:34:56.937Z",
+  "windowStart": "2026-08-12T12:34:56.937Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2608.18821",
+    "title": "Identifying Implicit Premises for Logical Reconstruction of Argument Graphs",
+    "abstract": "The logical reconstruction of argument graphs from natural language text is challenging because of the prevalence of enthymemes (i.e., arguments with implicit premises). There are natural language processing methods for identifying enthymemes in text, and there are symbolic methods based on abduction for identifying missing premises in a logical representation of enthymemes. However, there is a need for methods to generate implicit premises to logically show a known entailment or contradiction relationship between a pair of statements. To address this, we propose a neuro-symbolic pipeline that uses large language models (LLMs) to generate intermediate implicit premises that are translated into logical formulae and used with logical formulae representing explicit premises and explicit claims to show the logical relationships between them (entailment, contradiction, or neutrality). Our approach is evaluated on the Microtext Argumentative Corpus.",
+    "authors": [
+      "Xuyao Feng",
+      "Anthony Hunter"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Xuyao Feng",
+        "affiliations": []
+      },
+      {
+        "name": "Anthony Hunter",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-19",
+    "updated": "2026-08-19",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.CL",
+    "url": "https://arxiv.org/abs/2608.18821",
+    "pdfUrl": "https://arxiv.org/pdf/2608.18821",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.18820",
+    "title": "Pairwise Logical Selection of Enthymeme Completions under Semantic-Link Uncertainty",
+    "abstract": "Arguments often omit premises or claims, forming enthymemes. We study pairwise logical selection between two candidates for the omitted component. Existing natural language methods can identify or generate candidates but often do not expose how the selected candidate completes the inference, while logic-based approaches usually assume that the required formulae and background knowledge are available. We extend a prior neuro-symbolic pipeline from missing-premise to missing-claim selection and replace binary entailment outcomes with logical-resistance scores. Top-Link uses weighted Partial MaxSAT under a single configuration of highest-confidence semantic links. We then introduce Possible-World Atom-Link Formalization (PWAL), which keeps translated formulae fixed and marginalizes logical resistance over alternative cross-formula semantic-link configurations. We evaluate PWAL on five tasks: ARCT and a CDED-derived task for missing-premise selection, iDebate- and AAE2-derived tasks for missing-claim selection, and alphaNLI for abductive hypothesis selection. Relative to Top-Link, PWAL raises strict accuracy by 2.95-30.86 percentage points and reduces tie rates by 4.57-58.00 percentage points on all five tasks. When ties receive half credit, accuracy still increases by 0.45-6.04 percentage points. PWAL also records the translated formulae, sampled link configurations, and resistance components for every comparison, providing a transparent trace of each score.",
+    "authors": [
+      "Xuyao Feng",
+      "Antonis Bikakis"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Xuyao Feng",
+        "affiliations": []
+      },
+      {
+        "name": "Antonis Bikakis",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-19",
+    "updated": "2026-08-19",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2608.18820",
+    "pdfUrl": "https://arxiv.org/pdf/2608.18820",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.18482",
+    "title": "Coverage-Driven RTL Assertion Generation with Formal Exploration and Neuro-Symbolic Refinement",
+    "abstract": "Hardware functional verification relies on high-quality assertions to expose design bugs and establish confidence in Register Transfer Level (RTL) designs. Yet existing assertion mining methods still struggle to produce complete and reliable assertion sets: random or limited traces fail to cover hard-to-reach behaviors, and one-shot generation provides little feedback about what remains unverified or how the assertion set should be improved. As a result, critical design behaviors can remain uncovered even when many assertions are generated. We present NeuroAssertion, a coverage-driven assertion generation framework that combines formal trace generation, syntax-guided synthesis (SyGuS), and an agent-inspired refinement process within a unified framework. Our framework first converts hard-to-reach control-flow conditions into formal reachability objectives, uses model checking to generate behaviorally diverse traces, and mines initial assertions from these traces with SyGuS. It then performs targeted agent-inspired refinement under verification feedback: one LLM first proposes candidate assertions for uncovered regions, and if a candidate fails formal checking, a second LLM generates a repair grammar that guides constrained symbolic synthesis in a neuro-symbolic repair procedure. Experimental results show that this framework delivers around 2X more assertions and about 2X higher mutation coverage than traditional assertion mining methods.",
+    "authors": [
+      "Zhiyuan Yan",
+      "Ziyue Zheng",
+      "Hongce Zhang"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Zhiyuan Yan",
+        "affiliations": []
+      },
+      {
+        "name": "Ziyue Zheng",
+        "affiliations": []
+      },
+      {
+        "name": "Hongce Zhang",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-19",
+    "updated": "2026-08-19",
+    "categories": [
+      "cs.AR",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AR",
+    "url": "https://arxiv.org/abs/2608.18482",
+    "pdfUrl": "https://arxiv.org/pdf/2608.18482",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.18409",
+    "title": "Improving Natural-Language Combinatorial-Optimization Accuracy in Resource-Constrained Language Models via Formal Abstractions",
+    "abstract": "Combinatorial scheduling poses a significant challenge for language models, requiring them to identify feasible solutions within exponentially large search spaces while satisfying complex constraints. This challenge is especially pronounced in resource-constrained settings, where larger language models are impractical and selection is limited to smaller models which often fail to preserve feasibility when scheduling directly from natural language. To address these limitations, we introduce SDDL, a neuro-symbolic framework that translates natural-language scheduling problems into compact, solver-aligned representations of tasks, resources, constraints, and objectives, while delegating low-level modeling and search to a deterministic compiler and external solver. On a 300-instance, multi-family subset of scheduling problems, SDDL improves independently verified feasibility for every resource-constrained model tested. The two strongest SDDL configurations reach 55.3% and 28.3%, up from direct-generation baselines of 23.7% and 1.3% and solver-code baselines of 21.7% and 7.0%, with a 0.0% median optimality gap among feasible schedules. By expressing problem structure rather than generating solutions or solver code, SDDL enables smaller models to approach the strongest evaluated direct- and solver-code configurations, including substantially larger frontier models.",
+    "authors": [
+      "Shrenil Shaun Sharma",
+      "Avi Sharma"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Shrenil Shaun Sharma",
+        "affiliations": []
+      },
+      {
+        "name": "Avi Sharma",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-19",
+    "updated": "2026-08-19",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2608.18409",
+    "pdfUrl": "https://arxiv.org/pdf/2608.18409",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2608.17959",
     "title": "Towards Zero-Shot Task Transfer with Neurosymbolic World Models",
@@ -336,7 +481,7 @@ globalThis.ARXIV_PAPERS = [
     ],
     "affiliations": [],
     "published": "2026-08-17",
-    "updated": "2026-08-17",
+    "updated": "2026-08-18",
     "categories": [
       "cs.RO",
       "cs.AI",

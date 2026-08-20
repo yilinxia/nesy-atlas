@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T12:34:57.579Z",
+  "generatedAt": "2026-08-20T12:35:44.319Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1738,
+  "paperCount": 1742,
   "completeMetadataCount": 1374,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1433
+      "count": 1437
     },
     {
       "id": "nesy-proceedings",
@@ -2068,6 +2068,17 @@
         ]
       },
       {
+        "id": "author:1f533aeec4d6c370",
+        "name": "Anthony Hunter",
+        "aliases": [
+          "Anthony Hunter"
+        ],
+        "paperCount": 4,
+        "institutionIds": [
+          "institution:fa3c75d12710670b"
+        ]
+      },
+      {
         "id": "author:a00f6de0c0588fab",
         "name": "Antonin Sulc",
         "aliases": [
@@ -2926,6 +2937,17 @@
         ]
       },
       {
+        "id": "author:411554832773622a",
+        "name": "Xuyao Feng",
+        "aliases": [
+          "Xuyao Feng"
+        ],
+        "paperCount": 4,
+        "institutionIds": [
+          "institution:fa3c75d12710670b"
+        ]
+      },
+      {
         "id": "author:7353adca768a727e",
         "name": "Yeongwook Yang",
         "aliases": [
@@ -3147,17 +3169,6 @@
           "institution:4a9a14dbf4357b38",
           "institution:7d39921202b9ef4f",
           "institution:9ffc21de60b360ff"
-        ]
-      },
-      {
-        "id": "author:1f533aeec4d6c370",
-        "name": "Anthony Hunter",
-        "aliases": [
-          "Anthony Hunter"
-        ],
-        "paperCount": 3,
-        "institutionIds": [
-          "institution:fa3c75d12710670b"
         ]
       },
       {
@@ -6007,6 +6018,15 @@
         ]
       },
       {
+        "id": "author:aed6bfcab0ab0de1",
+        "name": "Antonis Bikakis",
+        "aliases": [
+          "Antonis Bikakis"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
+      },
+      {
         "id": "author:496620c2f461cdce",
         "name": "Anuja Tayal",
         "aliases": [
@@ -7782,6 +7802,15 @@
         "institutionIds": [
           "institution:912b10ffac632bbd"
         ]
+      },
+      {
+        "id": "author:5c31c0629ec15926",
+        "name": "Hongce Zhang",
+        "aliases": [
+          "Hongce Zhang"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
       },
       {
         "id": "author:ec60da22fc5bd43c",
@@ -11934,17 +11963,6 @@
         ]
       },
       {
-        "id": "author:411554832773622a",
-        "name": "Xuyao Feng",
-        "aliases": [
-          "Xuyao Feng"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:fa3c75d12710670b"
-        ]
-      },
-      {
         "id": "author:546d404b9a4495ec",
         "name": "Yan Liu",
         "aliases": [
@@ -12543,6 +12561,15 @@
         ]
       },
       {
+        "id": "author:fccfce1a88b7599b",
+        "name": "Zhiyuan Yan",
+        "aliases": [
+          "Zhiyuan Yan"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
+      },
+      {
         "id": "author:d76524e4a4637d88",
         "name": "Zhizhang Fu",
         "aliases": [
@@ -12657,6 +12684,15 @@
           "institution:f0727e8bcee3561f",
           "institution:fccd5d0ac9cc52f9"
         ]
+      },
+      {
+        "id": "author:c82860c3e4632035",
+        "name": "Ziyue Zheng",
+        "aliases": [
+          "Ziyue Zheng"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
       },
       {
         "id": "author:0dfcc04177351a58",
@@ -16613,15 +16649,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:aed6bfcab0ab0de1",
-        "name": "Antonis Bikakis",
-        "aliases": [
-          "Antonis Bikakis"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:9737ff5a5792c1a7",
         "name": "Antonis Protopsaltis",
         "aliases": [
@@ -17399,6 +17426,15 @@
         "name": "Avaljot Singh",
         "aliases": [
           "Avaljot Singh"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:e188645b78582c51",
+        "name": "Avi Sharma",
+        "aliases": [
+          "Avi Sharma"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -28916,15 +28952,6 @@
         "name": "Hongbo Zhang",
         "aliases": [
           "Hongbo Zhang"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
-        "id": "author:5c31c0629ec15926",
-        "name": "Hongce Zhang",
-        "aliases": [
-          "Hongce Zhang"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -51169,6 +51196,15 @@
         ]
       },
       {
+        "id": "author:904e9100ad080d71",
+        "name": "Shrenil Shaun Sharma",
+        "aliases": [
+          "Shrenil Shaun Sharma"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:78b610df5989a589",
         "name": "Shreshth Tuli",
         "aliases": [
@@ -63615,15 +63651,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:fccfce1a88b7599b",
-        "name": "Zhiyuan Yan",
-        "aliases": [
-          "Zhiyuan Yan"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:933afd6346b9d890",
         "name": "Zhong-Hua Sun",
         "aliases": [
@@ -64393,15 +64420,6 @@
         "name": "Ziyu Kong",
         "aliases": [
           "Ziyu Kong"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
-        "id": "author:c82860c3e4632035",
-        "name": "Ziyue Zheng",
-        "aliases": [
-          "Ziyue Zheng"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -361045,6 +361063,335 @@
         },
         {
           "name": "Hongce Zhang",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.18821",
+      "title": "Identifying Implicit Premises for Logical Reconstruction of Argument Graphs",
+      "abstract": "The logical reconstruction of argument graphs from natural language text is challenging because of the prevalence of enthymemes (i.e., arguments with implicit premises). There are natural language processing methods for identifying enthymemes in text, and there are symbolic methods based on abduction for identifying missing premises in a logical representation of enthymemes. However, there is a need for methods to generate implicit premises to logically show a known entailment or contradiction relationship between a pair of statements. To address this, we propose a neuro-symbolic pipeline that uses large language models (LLMs) to generate intermediate implicit premises that are translated into logical formulae and used with logical formulae representing explicit premises and explicit claims to show the logical relationships between them (entailment, contradiction, or neutrality). Our approach is evaluated on the Microtext Argumentative Corpus.",
+      "authors": [
+        "Xuyao Feng",
+        "Anthony Hunter"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Xuyao Feng",
+          "authorEntityId": "author:411554832773622a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xuyao Feng",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Anthony Hunter",
+          "authorEntityId": "author:1f533aeec4d6c370",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Anthony Hunter",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-19",
+      "url": "https://arxiv.org/abs/2608.18821",
+      "pdfUrl": "https://arxiv.org/pdf/2608.18821",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.18821",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:41013afe2902983f",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Xuyao Feng",
+        "Anthony Hunter"
+      ],
+      "authorEntityIds": [
+        "author:411554832773622a",
+        "author:1f533aeec4d6c370"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Xuyao Feng",
+          "affiliations": []
+        },
+        {
+          "name": "Anthony Hunter",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.18820",
+      "title": "Pairwise Logical Selection of Enthymeme Completions under Semantic-Link Uncertainty",
+      "abstract": "Arguments often omit premises or claims, forming enthymemes. We study pairwise logical selection between two candidates for the omitted component. Existing natural language methods can identify or generate candidates but often do not expose how the selected candidate completes the inference, while logic-based approaches usually assume that the required formulae and background knowledge are available. We extend a prior neuro-symbolic pipeline from missing-premise to missing-claim selection and replace binary entailment outcomes with logical-resistance scores. Top-Link uses weighted Partial MaxSAT under a single configuration of highest-confidence semantic links. We then introduce Possible-World Atom-Link Formalization (PWAL), which keeps translated formulae fixed and marginalizes logical resistance over alternative cross-formula semantic-link configurations. We evaluate PWAL on five tasks: ARCT and a CDED-derived task for missing-premise selection, iDebate- and AAE2-derived tasks for missing-claim selection, and alphaNLI for abductive hypothesis selection. Relative to Top-Link, PWAL raises strict accuracy by 2.95-30.86 percentage points and reduces tie rates by 4.57-58.00 percentage points on all five tasks. When ties receive half credit, accuracy still increases by 0.45-6.04 percentage points. PWAL also records the translated formulae, sampled link configurations, and resistance components for every comparison, providing a transparent trace of each score.",
+      "authors": [
+        "Xuyao Feng",
+        "Antonis Bikakis"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Xuyao Feng",
+          "authorEntityId": "author:411554832773622a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xuyao Feng",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Antonis Bikakis",
+          "authorEntityId": "author:aed6bfcab0ab0de1",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Antonis Bikakis",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-19",
+      "url": "https://arxiv.org/abs/2608.18820",
+      "pdfUrl": "https://arxiv.org/pdf/2608.18820",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.18820",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:b0adb50c3a4fa824",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Xuyao Feng",
+        "Antonis Bikakis"
+      ],
+      "authorEntityIds": [
+        "author:411554832773622a",
+        "author:aed6bfcab0ab0de1"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Xuyao Feng",
+          "affiliations": []
+        },
+        {
+          "name": "Antonis Bikakis",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.18482",
+      "title": "Coverage-Driven RTL Assertion Generation with Formal Exploration and Neuro-Symbolic Refinement",
+      "abstract": "Hardware functional verification relies on high-quality assertions to expose design bugs and establish confidence in Register Transfer Level (RTL) designs. Yet existing assertion mining methods still struggle to produce complete and reliable assertion sets: random or limited traces fail to cover hard-to-reach behaviors, and one-shot generation provides little feedback about what remains unverified or how the assertion set should be improved. As a result, critical design behaviors can remain uncovered even when many assertions are generated. We present NeuroAssertion, a coverage-driven assertion generation framework that combines formal trace generation, syntax-guided synthesis (SyGuS), and an agent-inspired refinement process within a unified framework. Our framework first converts hard-to-reach control-flow conditions into formal reachability objectives, uses model checking to generate behaviorally diverse traces, and mines initial assertions from these traces with SyGuS. It then performs targeted agent-inspired refinement under verification feedback: one LLM first proposes candidate assertions for uncovered regions, and if a candidate fails formal checking, a second LLM generates a repair grammar that guides constrained symbolic synthesis in a neuro-symbolic repair procedure. Experimental results show that this framework delivers around 2X more assertions and about 2X higher mutation coverage than traditional assertion mining methods.",
+      "authors": [
+        "Zhiyuan Yan",
+        "Ziyue Zheng",
+        "Hongce Zhang"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Zhiyuan Yan",
+          "authorEntityId": "author:fccfce1a88b7599b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zhiyuan Yan",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ziyue Zheng",
+          "authorEntityId": "author:c82860c3e4632035",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ziyue Zheng",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Hongce Zhang",
+          "authorEntityId": "author:5c31c0629ec15926",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Hongce Zhang",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AR",
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-19",
+      "url": "https://arxiv.org/abs/2608.18482",
+      "pdfUrl": "https://arxiv.org/pdf/2608.18482",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.18482",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:4488993094ae6842",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Zhiyuan Yan",
+        "Ziyue Zheng",
+        "Hongce Zhang"
+      ],
+      "authorEntityIds": [
+        "author:fccfce1a88b7599b",
+        "author:c82860c3e4632035",
+        "author:5c31c0629ec15926"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Zhiyuan Yan",
+          "affiliations": []
+        },
+        {
+          "name": "Ziyue Zheng",
+          "affiliations": []
+        },
+        {
+          "name": "Hongce Zhang",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.18409",
+      "title": "Improving Natural-Language Combinatorial-Optimization Accuracy in Resource-Constrained Language Models via Formal Abstractions",
+      "abstract": "Combinatorial scheduling poses a significant challenge for language models, requiring them to identify feasible solutions within exponentially large search spaces while satisfying complex constraints. This challenge is especially pronounced in resource-constrained settings, where larger language models are impractical and selection is limited to smaller models which often fail to preserve feasibility when scheduling directly from natural language. To address these limitations, we introduce SDDL, a neuro-symbolic framework that translates natural-language scheduling problems into compact, solver-aligned representations of tasks, resources, constraints, and objectives, while delegating low-level modeling and search to a deterministic compiler and external solver. On a 300-instance, multi-family subset of scheduling problems, SDDL improves independently verified feasibility for every resource-constrained model tested. The two strongest SDDL configurations reach 55.3% and 28.3%, up from direct-generation baselines of 23.7% and 1.3% and solver-code baselines of 21.7% and 7.0%, with a 0.0% median optimality gap among feasible schedules. By expressing problem structure rather than generating solutions or solver code, SDDL enables smaller models to approach the strongest evaluated direct- and solver-code configurations, including substantially larger frontier models.",
+      "authors": [
+        "Shrenil Shaun Sharma",
+        "Avi Sharma"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Shrenil Shaun Sharma",
+          "authorEntityId": "author:904e9100ad080d71",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Shrenil Shaun Sharma",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Avi Sharma",
+          "authorEntityId": "author:e188645b78582c51",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Avi Sharma",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-19",
+      "url": "https://arxiv.org/abs/2608.18409",
+      "pdfUrl": "https://arxiv.org/pdf/2608.18409",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.18409",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:7c687c69c4b80038",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Shrenil Shaun Sharma",
+        "Avi Sharma"
+      ],
+      "authorEntityIds": [
+        "author:904e9100ad080d71",
+        "author:e188645b78582c51"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Shrenil Shaun Sharma",
+          "affiliations": []
+        },
+        {
+          "name": "Avi Sharma",
           "affiliations": []
         }
       ]
