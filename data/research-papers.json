@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T12:26:49.672Z",
+  "generatedAt": "2026-08-23T12:28:00.002Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1742,
+  "paperCount": 1745,
   "completeMetadataCount": 1374,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1437
+      "count": 1440
     },
     {
       "id": "nesy-proceedings",
@@ -643,6 +643,19 @@
         ]
       },
       {
+        "id": "author:a2ed4c022c2e1262",
+        "name": "Xujie Si",
+        "aliases": [
+          "Xujie Si"
+        ],
+        "paperCount": 9,
+        "institutionIds": [
+          "institution:308cc32aff97f3d9",
+          "institution:6a892bbe4ee57122",
+          "institution:f138c3615bfbd805"
+        ]
+      },
+      {
         "id": "author:081afe9977fe80fb",
         "name": "Zhi Zhou",
         "aliases": [
@@ -832,19 +845,6 @@
         ]
       },
       {
-        "id": "author:a2ed4c022c2e1262",
-        "name": "Xujie Si",
-        "aliases": [
-          "Xujie Si"
-        ],
-        "paperCount": 8,
-        "institutionIds": [
-          "institution:308cc32aff97f3d9",
-          "institution:6a892bbe4ee57122",
-          "institution:f138c3615bfbd805"
-        ]
-      },
-      {
         "id": "author:0fac540cbc63e7ab",
         "name": "Yuan Yao",
         "aliases": [
@@ -853,6 +853,18 @@
         "paperCount": 8,
         "institutionIds": [
           "institution:323e7eabc230aa6a"
+        ]
+      },
+      {
+        "id": "author:3d263809feab4da6",
+        "name": "Zenan Li",
+        "aliases": [
+          "Zenan Li"
+        ],
+        "paperCount": 8,
+        "institutionIds": [
+          "institution:323e7eabc230aa6a",
+          "institution:8af390e38bab9df5"
         ]
       },
       {
@@ -1049,18 +1061,6 @@
         "paperCount": 7,
         "institutionIds": [
           "institution:9ffc21de60b360ff"
-        ]
-      },
-      {
-        "id": "author:3d263809feab4da6",
-        "name": "Zenan Li",
-        "aliases": [
-          "Zenan Li"
-        ],
-        "paperCount": 7,
-        "institutionIds": [
-          "institution:323e7eabc230aa6a",
-          "institution:8af390e38bab9df5"
         ]
       },
       {
@@ -1385,6 +1385,17 @@
         "paperCount": 6,
         "institutionIds": [
           "institution:4f85329e76bc9454"
+        ]
+      },
+      {
+        "id": "author:c7d2cd3aab4d8cc8",
+        "name": "Zhaoyu Li",
+        "aliases": [
+          "Zhaoyu Li"
+        ],
+        "paperCount": 6,
+        "institutionIds": [
+          "institution:6a892bbe4ee57122"
         ]
       },
       {
@@ -1948,17 +1959,6 @@
         ]
       },
       {
-        "id": "author:c7d2cd3aab4d8cc8",
-        "name": "Zhaoyu Li",
-        "aliases": [
-          "Zhaoyu Li"
-        ],
-        "paperCount": 5,
-        "institutionIds": [
-          "institution:6a892bbe4ee57122"
-        ]
-      },
-      {
         "id": "author:125dac2bdb038aeb",
         "name": "Zhi-Hua Zhou",
         "aliases": [
@@ -2446,6 +2446,17 @@
           "institution:831496456e0b589c",
           "institution:997b7dba4bce5bf7",
           "institution:cfa700ced2569523"
+        ]
+      },
+      {
+        "id": "author:e13b6b1d1e20fb42",
+        "name": "Kaiyu Yang",
+        "aliases": [
+          "Kaiyu Yang"
+        ],
+        "paperCount": 4,
+        "institutionIds": [
+          "institution:0fbadc849bc98650"
         ]
       },
       {
@@ -4072,17 +4083,6 @@
         "paperCount": 3,
         "institutionIds": [
           "institution:fccd5d0ac9cc52f9"
-        ]
-      },
-      {
-        "id": "author:e13b6b1d1e20fb42",
-        "name": "Kaiyu Yang",
-        "aliases": [
-          "Kaiyu Yang"
-        ],
-        "paperCount": 3,
-        "institutionIds": [
-          "institution:0fbadc849bc98650"
         ]
       },
       {
@@ -19118,6 +19118,15 @@
         ]
       },
       {
+        "id": "author:8750581f087713aa",
+        "name": "Caihua Liu",
+        "aliases": [
+          "Caihua Liu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:692868fd8f53ff41",
         "name": "Caiming Xiong",
         "aliases": [
@@ -24273,6 +24282,15 @@
         ]
       },
       {
+        "id": "author:d6aeaa2f13702c41",
+        "name": "Eric Martínez",
+        "aliases": [
+          "Eric Martínez"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:a9b3561fa57fec9f",
         "name": "Eric Wang",
         "aliases": [
@@ -27726,6 +27744,15 @@
         "name": "Hanghang Tong",
         "aliases": [
           "Hanghang Tong"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:3824b2afc79e9074",
+        "name": "Hangrui Bi",
+        "aliases": [
+          "Hangrui Bi"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -40021,6 +40048,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:8c17bb96a7c84100",
+        "name": "Matthew Dahl",
+        "aliases": [
+          "Matthew Dahl"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:d348a074cc10467e",
         "name": "Matthew Guzdial",
         "aliases": [
@@ -51393,6 +51429,15 @@
         ]
       },
       {
+        "id": "author:59002e09c02006d2",
+        "name": "Shufeng Kong",
+        "aliases": [
+          "Shufeng Kong"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:578b3eabcf2ca7e6",
         "name": "Shujie Liu",
         "aliases": [
@@ -56860,6 +56905,15 @@
         ]
       },
       {
+        "id": "author:90a93cca7c02c521",
+        "name": "Wenjie Ma",
+        "aliases": [
+          "Wenjie Ma"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:1a1e1928d1955182",
         "name": "Wenjie Wu",
         "aliases": [
@@ -57637,6 +57691,15 @@
         "institutionIds": [
           "institution:48f2a1a1c5c15d6d"
         ]
+      },
+      {
+        "id": "author:caf8b7fb2a5dd0b5",
+        "name": "Xiaochuan Zhang",
+        "aliases": [
+          "Xiaochuan Zhang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:38a7000d139fcb34",
@@ -60866,6 +60929,15 @@
         ]
       },
       {
+        "id": "author:691e308fb0b872b2",
+        "name": "Youyuan Zhang",
+        "aliases": [
+          "Youyuan Zhang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:54c95841bcfb5523",
         "name": "Youzhu Jin",
         "aliases": [
@@ -62875,6 +62947,15 @@
         "institutionIds": [
           "institution:5fbb6e2cbdd4ea21"
         ]
+      },
+      {
+        "id": "author:6bd485e2f5ad8069",
+        "name": "Zhaolei Zhang",
+        "aliases": [
+          "Zhaolei Zhang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:f63a714ebbf95167",
@@ -67296,6 +67377,15 @@
         "name": "Xiaohong Li",
         "aliases": [
           "Xiaohong Li"
+        ],
+        "paperCount": 0,
+        "institutionIds": []
+      },
+      {
+        "id": "author:b2d622c80d81a59f",
+        "name": "Xiaoqing Kang",
+        "aliases": [
+          "Xiaoqing Kang"
         ],
         "paperCount": 0,
         "institutionIds": []
@@ -85112,6 +85202,14 @@
           "affiliationEntityIds": [],
           "rawName": "Qiufeng Wang",
           "rawAffiliations": []
+        },
+        {
+          "name": "Xiaoqing Kang",
+          "authorEntityId": "author:b2d622c80d81a59f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xiaoqing Kang",
+          "rawAffiliations": []
         }
       ],
       "authorIds": [],
@@ -85170,6 +85268,10 @@
         },
         {
           "name": "Qiufeng Wang",
+          "affiliations": []
+        },
+        {
+          "name": "Xiaoqing Kang",
           "affiliations": []
         }
       ]
@@ -115898,7 +116000,7 @@
     {
       "id": "2605.01189",
       "title": "NEURON: A Neuro-symbolic System for Grounded Clinical Explainability",
-      "abstract": "Clinical AI adoption is hindered by the black-box/grey-box nature of high-performing models, which lack the ontological grounding and narrative transparency required for professional-level explainability. We present NEURON, a neuro-symbolic system designed to enhance both predictive reliability and clinical interpretability. NEURON integrates SNOMED CT ontology-informed structural representations with machine learning models to bridge the gap between raw data and medical nomenclature. To facilitate human-aligned interaction, the system utilizes a Retrieval-Augmented Generation (RAG) grounded LLM layer to synthesize SHAP feature attributions and patient-specific clinical notes into coherent, natural-language explanations. Validated on the MIMIC-IV dataset for Acute Heart Failure mortality prediction, NEURON improved the AUC from 0.74-0.77 to 0.84-0.88 and significantly outperformed raw SHAP visualizations in human-aligned metrics (0.85 vs. 0.50). Our results demonstrate that NEURON offers a robust, scalable engineering solution for deploying trustworthy, human-centered connected health applications.",
+      "abstract": "Clinical AI adoption is hindered by the black-box/grey-box nature of high-performing models, which lack the ontological grounding and narrative transparency required for professional-level explainability. We present NEURON, a neuro-symbolic system designed to enhance both predictive reliability and clinical interpretability. NEURON integrates SNOMED CT ontology-informed structural representations with machine learning models to bridge the gap between raw data and medical nomenclature. To facilitate human-aligned interaction, the system utilizes a Retrieval-Augmented Generation (RAG) grounded Large Language Model (LLM) layer to synthesize SHAP feature attributions and patient-specific clinical notes into coherent, natural-language explanations. Validated on the MIMIC-IV dataset for Acute Heart Failure mortality prediction, NEURON improved the AUC from 0.71-0.74 to 0.74-0.77 and substantially outperformed SHAP-based explanations in human-aligned metrics (0.807 vs. 0.558). Our results demonstrate that NEURON offers a robust, scalable engineering solution for deploying trustworthy, human-centered connected health applications.",
       "authors": [
         "Anuradha Chandrasekaran",
         "Dimitrios Zikos",
@@ -144604,7 +144706,7 @@
     {
       "id": "2602.09774",
       "title": "QRS: A Rule-Synthesizing Neuro-Symbolic Triad for Autonomous Vulnerability Discovery",
-      "abstract": "Static Application Security Testing (SAST) tools are integral to modern DevSecOps pipelines, yet tools like CodeQL, Semgrep, and SonarQube remain fundamentally constrained: they require expert-crafted queries, generate excessive false positives, and detect only predefined vulnerability patterns. Recent work has explored augmenting SAST with Large Language Models (LLMs), but these approaches typically use LLMs to triage existing tool outputs rather than to reason about vulnerability semantics directly. We introduce QRS (Query, Review, Sanitize), a neuro-symbolic framework that inverts this paradigm. Rather than filtering results from static rules, QRS employs three autonomous agents that generate CodeQL queries from a structured schema definition and few-shot examples, then validate findings through semantic reasoning and automated exploit synthesis. This architecture enables QRS to discover vulnerability classes beyond predefined patterns while substantially reducing false positives. We evaluate QRS on full Python packages rather than isolated snippets. In 20 historical CVEs in popular PyPI libraries, QRS achieves 90.6% detection accuracy. Applied to the 100 most-downloaded PyPI packages, QRS identified 39 medium-to-high-severity vulnerabilities, 5 of which were assigned new CVEs, 5 received documentation updates, while the remaining 29 were independently discovered by concurrent researchers, validating both the severity and discoverability of these findings. QRS accomplishes this with low time overhead and manageable token costs, demonstrating that LLM-driven query synthesis and code review can complement manually curated rule sets and uncover vulnerability patterns that evade existing industry tools.",
+      "abstract": "Static Application Security Testing (SAST) tools are integral to DevSecOps pipelines, yet tools like CodeQL, Semgrep, and SonarQube remain constrained: they require expert-crafted queries, generate excessive false positives, and detect only predefined patterns. Recent work augments SAST with Large Language Models (LLMs), but typically requires fine-tuning or uses LLMs only to triage outputs rather than reason directly about vulnerability semantics. We introduce QRS (Query, Review, Sanitize), a neuro-symbolic framework that inverts this paradigm by relocating the LLM to the pipeline's generative core. Rather than filtering static-rule results, QRS employs three autonomous agents that generate CodeQL queries from a structured schema and few-shot examples, then validate findings through semantic reasoning and minimal proof-of-concept exploits, manually verified. This lets QRS surface vulnerability classes beyond predefined patterns while reducing the code volume needing audit. We evaluate QRS on complete packages rather than isolated snippets, across Python and Java ecosystems and three datasets. On the 100 most-downloaded PyPI packages, QRS reaches up to 94.06\\% verdict accuracy and surfaces 41 medium-to-high vulnerabilities: 8 received new CVEs, 4 were acknowledged via documentation updates, and the remaining 29 were previously published CVEs rediscovered from source alone. To evaluate language portability and enable direct comparison with prior work, we extend QRS to Java and evaluate it on CWE-Bench-Java, detecting 58/90 in-scope CVEs (64.44\\%) at 87.60\\% accuracy, 98.79\\% recall, and 0.857 F1 (0.794 macro-averaged) in one scan. QRS achieves these results with low time overhead and manageable token costs while handling large codebases, showing that LLM-driven query synthesis and review can complement curated rule sets and surface patterns that evade existing industry tools.",
       "authors": [
         "George Tsigkourakos",
         "Constantinos Patsakis"
@@ -361392,6 +361494,347 @@
         },
         {
           "name": "Avi Sharma",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.14585",
+      "title": "Euclid-Omni : A Unified Neuro-Symbolic Framework for Plane Geometry",
+      "abstract": "Euclidean geometry is a compelling testbed for AI reasoning, as it demands the combination of intuitive diagram understanding, axiomatic deduction, and algebraic computation. Yet, existing approaches typically address only a subset of these abilities or struggle with competition-level problems. We introduce \\textit{Euclid-Omni}, a unified neuro-symbolic framework that couples a formal geometry system with Large Language Models (LLMs) and Vision-Language Models (VLMs) to tackle both calculation- and proving-style problems, in formal and natural languages, up to Olympiad-level difficulty. At its core, we develop \\textit{Euclidea}, a versatile symbolic geometry solver that automatically generates reasoning steps through deductive inference and algebraic computation. Building on this, we develop a data-generation pipeline that synthesizes symbolic problems and solutions, renders diagrams, and translates them into natural language, producing large-scale, diverse datasets for training LLMs and VLMs across a wide range of reasoning settings. Experiments show that VLMs trained on our synthetic data achieve superior performance on calculation tasks, and that LLMs combined with \\textit{Euclidea} are competitive with state-of-the-art systems on Olympiad-level proving problems, despite using orders of magnitude less compute and training data. Code and scripts are publicly available at https://github.com/20171130/Euclid-Omni",
+      "authors": [
+        "Zhaoyu Li",
+        "Hangrui Bi",
+        "Youyuan Zhang",
+        "Wenjie Ma",
+        "Zenan Li",
+        "Zhaolei Zhang",
+        "Xujie Si",
+        "Kaiyu Yang"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Zhaoyu Li",
+          "authorEntityId": "author:c7d2cd3aab4d8cc8",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zhaoyu Li",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Hangrui Bi",
+          "authorEntityId": "author:3824b2afc79e9074",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Hangrui Bi",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Youyuan Zhang",
+          "authorEntityId": "author:691e308fb0b872b2",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Youyuan Zhang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Wenjie Ma",
+          "authorEntityId": "author:90a93cca7c02c521",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Wenjie Ma",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zenan Li",
+          "authorEntityId": "author:3d263809feab4da6",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zenan Li",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zhaolei Zhang",
+          "authorEntityId": "author:6bd485e2f5ad8069",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zhaolei Zhang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xujie Si",
+          "authorEntityId": "author:a2ed4c022c2e1262",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xujie Si",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Kaiyu Yang",
+          "authorEntityId": "author:e13b6b1d1e20fb42",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Kaiyu Yang",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-06-17",
+      "url": "https://arxiv.org/abs/2608.14585",
+      "pdfUrl": "https://arxiv.org/pdf/2608.14585",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.14585",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:ebfb98b2c775b074",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Zhaoyu Li",
+        "Hangrui Bi",
+        "Youyuan Zhang",
+        "Wenjie Ma",
+        "Zenan Li",
+        "Zhaolei Zhang",
+        "Xujie Si",
+        "Kaiyu Yang"
+      ],
+      "authorEntityIds": [
+        "author:c7d2cd3aab4d8cc8",
+        "author:3824b2afc79e9074",
+        "author:691e308fb0b872b2",
+        "author:90a93cca7c02c521",
+        "author:3d263809feab4da6",
+        "author:6bd485e2f5ad8069",
+        "author:a2ed4c022c2e1262",
+        "author:e13b6b1d1e20fb42"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Zhaoyu Li",
+          "affiliations": []
+        },
+        {
+          "name": "Hangrui Bi",
+          "affiliations": []
+        },
+        {
+          "name": "Youyuan Zhang",
+          "affiliations": []
+        },
+        {
+          "name": "Wenjie Ma",
+          "affiliations": []
+        },
+        {
+          "name": "Zenan Li",
+          "affiliations": []
+        },
+        {
+          "name": "Zhaolei Zhang",
+          "affiliations": []
+        },
+        {
+          "name": "Xujie Si",
+          "affiliations": []
+        },
+        {
+          "name": "Kaiyu Yang",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.14569",
+      "title": "Position: Certified Correctness in Neural Constraint Reasoning Requires Symbolic Integration",
+      "abstract": "Neural solvers for constraint satisfaction problems have achieved remarkable in-distribution accuracy, yet they suffer from a fundamental limitation persistent constraint violations occur under distribution shifts even when the model reports high confidence. This position paper argues that when hard constraints exist and the cost of verification is relatively low, neural constraint reasoning must prioritize symbolic integration over pure learning. We justify our focus on Sudoku as a representative NP-complete testbed because it exhibits a sharp asymmetry between easy verification and hard solving: checking a candidate solution requires only polynomial time $O(n^{2})$, while finding a solution may require exponential search. Through a comprehensive survey of solving methods spanning deterministic algorithms, metaheuristic optimization, learning-based approaches, and language-conditioned reasoning, we demonstrate that neural-only methods without instance-level certification fail to achieve the provable correctness that symbolic and neuro-symbolic approaches provide. We advocate for a bidirectional integration in which neural methods enhance symbolic solvers by learning heuristics and converting percepts into symbols, while symbolic methods verify neural outputs to ensure their reliability. To operationalize this position, we propose a multi-agent certified reasoning framework that demonstrates how this integration can achieve both computational efficiency and provable correctness.",
+      "authors": [
+        "Shufeng Kong",
+        "Xiaochuan Zhang",
+        "Caihua Liu"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Shufeng Kong",
+          "authorEntityId": "author:59002e09c02006d2",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Shufeng Kong",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xiaochuan Zhang",
+          "authorEntityId": "author:caf8b7fb2a5dd0b5",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xiaochuan Zhang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Caihua Liu",
+          "authorEntityId": "author:8750581f087713aa",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Caihua Liu",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-06-02",
+      "url": "https://arxiv.org/abs/2608.14569",
+      "pdfUrl": "https://arxiv.org/pdf/2608.14569",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.14569",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:77ab4bb7ce579104",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Shufeng Kong",
+        "Xiaochuan Zhang",
+        "Caihua Liu"
+      ],
+      "authorEntityIds": [
+        "author:59002e09c02006d2",
+        "author:caf8b7fb2a5dd0b5",
+        "author:8750581f087713aa"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Shufeng Kong",
+          "affiliations": []
+        },
+        {
+          "name": "Xiaochuan Zhang",
+          "affiliations": []
+        },
+        {
+          "name": "Caihua Liu",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2505.02763",
+      "title": "Bye-bye, Bluebook? Automating Legal Drudgery With AI-Augmented Rule Following",
+      "abstract": "One of the central promises of legal AI is to automate drudgery -- the formal, repetitive tasks of lawyers' work that consume time without calling for much discretion. Yet it remains an open question how well AI models actually perform on such tasks. This article presents the first empirical examination of AI performance on perhaps the most ubiquitous and lamented form of legal drudgery: citation formatting under the Bluebook. We make four contributions. First, we develop a new benchmark of 2,058 Bluebook queries and show that, on average, frontier language models produce a fully compliant legal citation only 42.6% of the time in a zero-shot setting. Second, we conduct an experiment with five top law reviews and show that even a \"reasoning\" model falls far below the average score of the human candidates in these journals' annual editor-selection competitions. Third, we show that simply providing the models with the rules offers only modest improvements, calling into question the ability of retrieval-augmented generation (RAG) to ensure rule-following alone. Finally, we develop an approach that does meaningfully improve compliance: a neuro-symbolic system that first uses a model to parse natural language into structured citation elements, and then delegates the formatting to a deterministic rule-execution engine. This approach achieves an average accuracy increase of 32.4 percentage points and total accuracy of up to 85.5% on our benchmark. These results point toward a reorientation for legal AI. The original promise of automating drudgery still remains out of reach for even frontier language models on their own -- but pairing them with symbolic rule engines may offer a tractable path forward.",
+      "authors": [
+        "Matthew Dahl",
+        "Eric Martínez"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Matthew Dahl",
+          "authorEntityId": "author:8c17bb96a7c84100",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Matthew Dahl",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Eric Martínez",
+          "authorEntityId": "author:d6aeaa2f13702c41",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Eric Martínez",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CY"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2025,
+      "published": "2025-05-05",
+      "url": "https://arxiv.org/abs/2505.02763",
+      "pdfUrl": "https://arxiv.org/pdf/2505.02763",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2505.02763",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:6804220470b6e9ad",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Matthew Dahl",
+        "Eric Martínez"
+      ],
+      "authorEntityIds": [
+        "author:8c17bb96a7c84100",
+        "author:d6aeaa2f13702c41"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Matthew Dahl",
+          "affiliations": []
+        },
+        {
+          "name": "Eric Martínez",
           "affiliations": []
         }
       ]
