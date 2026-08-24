@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T12:28:00.002Z",
+  "generatedAt": "2026-08-24T12:37:25.302Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1745,
+  "paperCount": 1750,
   "completeMetadataCount": 1374,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1440
+      "count": 1445
     },
     {
       "id": "nesy-proceedings",
@@ -296,7 +296,7 @@
         "aliases": [
           "Kristian Kersting"
         ],
-        "paperCount": 21,
+        "paperCount": 23,
         "institutionIds": [
           "institution:11591cc112c8c577",
           "institution:36c401a3c72be9ea",
@@ -2782,6 +2782,17 @@
         ]
       },
       {
+        "id": "author:27c5d55d159a7c18",
+        "name": "Sriraam Natarajan",
+        "aliases": [
+          "Sriraam Natarajan"
+        ],
+        "paperCount": 4,
+        "institutionIds": [
+          "institution:a55a77635edc8711"
+        ]
+      },
+      {
         "id": "author:cc9cb3b267d8b289",
         "name": "Stefan Heindorf",
         "aliases": [
@@ -4898,6 +4909,15 @@
         ]
       },
       {
+        "id": "author:40149d60e1a531ac",
+        "name": "Saurabh Mathur",
+        "aliases": [
+          "Saurabh Mathur"
+        ],
+        "paperCount": 3,
+        "institutionIds": []
+      },
+      {
         "id": "author:e03ed8e1aaa5bd09",
         "name": "Sean Welleck",
         "aliases": [
@@ -5404,6 +5424,19 @@
         "institutionIds": []
       },
       {
+        "id": "author:2f7922f6fa83f4fa",
+        "name": "Yifan Zhang",
+        "aliases": [
+          "Yifan Zhang"
+        ],
+        "paperCount": 3,
+        "institutionIds": [
+          "institution:648f5e028de2c7c8",
+          "institution:7d7f56dced000a09",
+          "institution:e897b676e22fa06e"
+        ]
+      },
+      {
         "id": "author:c0f14894532ea577",
         "name": "Yiming Yang",
         "aliases": [
@@ -5891,6 +5924,15 @@
         "institutionIds": [
           "institution:ea49558af4070e5b"
         ]
+      },
+      {
+        "id": "author:4a52cab557334a82",
+        "name": "Ameet Soni",
+        "aliases": [
+          "Ameet Soni"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
       },
       {
         "id": "author:c75df63ef64a13fd",
@@ -10025,6 +10067,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:0ad4b4b00c280047",
+        "name": "Ranveer Singh",
+        "aliases": [
+          "Ranveer Singh"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
+      },
+      {
         "id": "author:47b4282718839f2b",
         "name": "Rebecca Adam",
         "aliases": [
@@ -10774,17 +10825,6 @@
           "institution:7801abc579496f6a",
           "institution:857981dd59278383",
           "institution:8a595dcf26cccd4d"
-        ]
-      },
-      {
-        "id": "author:27c5d55d159a7c18",
-        "name": "Sriraam Natarajan",
-        "aliases": [
-          "Sriraam Natarajan"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:a55a77635edc8711"
         ]
       },
       {
@@ -12131,19 +12171,6 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:0418834df0ffcdf2"
-        ]
-      },
-      {
-        "id": "author:2f7922f6fa83f4fa",
-        "name": "Yifan Zhang",
-        "aliases": [
-          "Yifan Zhang"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:648f5e028de2c7c8",
-          "institution:7d7f56dced000a09",
-          "institution:e897b676e22fa06e"
         ]
       },
       {
@@ -15201,15 +15228,6 @@
         "name": "Amd Sanjit",
         "aliases": [
           "Amd Sanjit"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
-        "id": "author:4a52cab557334a82",
-        "name": "Ameet Soni",
-        "aliases": [
-          "Ameet Soni"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -20135,6 +20153,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:8048e0e98b1156d3",
+        "name": "Chenhui Pan",
+        "aliases": [
+          "Chenhui Pan"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:ed367428597fbd9e",
         "name": "Chenkai Hu",
         "aliases": [
@@ -22154,6 +22181,15 @@
         "institutionIds": [
           "institution:eefb779b4c760808"
         ]
+      },
+      {
+        "id": "author:c862e6134849b27a",
+        "name": "David M. Haas",
+        "aliases": [
+          "David M. Haas"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:b9ab81f03899a8b2",
@@ -25379,6 +25415,15 @@
         "institutionIds": [
           "institution:e8bfb7e7a9a814ec"
         ]
+      },
+      {
+        "id": "author:7b42a5c4910c9cca",
+        "name": "Francesco Cancelliere",
+        "aliases": [
+          "Francesco Cancelliere"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:1230c81b4d63f278",
@@ -35195,6 +35240,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:e0ed3ef84ec7b27a",
+        "name": "Kavimayil P. Komarasamy",
+        "aliases": [
+          "Kavimayil P. Komarasamy"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:09106c9cf099cfd0",
         "name": "Kaya Stechly",
         "aliases": [
@@ -38745,6 +38799,15 @@
         ]
       },
       {
+        "id": "author:dcf65a8ba889ffb1",
+        "name": "Malak Gamal El-Din",
+        "aliases": [
+          "Malak Gamal El-Din"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:a8291c390bd60fc0",
         "name": "Maleen Jayasuriya",
         "aliases": [
@@ -41106,6 +41169,15 @@
         "institutionIds": [
           "institution:cba6d305fcebbe08"
         ]
+      },
+      {
+        "id": "author:45f8b996c56d5e2a",
+        "name": "Michael Skinner",
+        "aliases": [
+          "Michael Skinner"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:c9d81e50d15f24c3",
@@ -46103,6 +46175,15 @@
         ]
       },
       {
+        "id": "author:cddc13ae4043b2c3",
+        "name": "Prasad Tadepalli",
+        "aliases": [
+          "Prasad Tadepalli"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:af25a03390f8cd3e",
         "name": "Prasad Tetali",
         "aliases": [
@@ -47312,15 +47393,6 @@
         "institutionIds": [
           "institution:228b8c5a3b9d4002"
         ]
-      },
-      {
-        "id": "author:0ad4b4b00c280047",
-        "name": "Ranveer Singh",
-        "aliases": [
-          "Ranveer Singh"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
       },
       {
         "id": "author:4436f9d9f079b909",
@@ -49302,6 +49374,15 @@
         ]
       },
       {
+        "id": "author:16fd9e0eb6b6460c",
+        "name": "Salma Elmalaki",
+        "aliases": [
+          "Salma Elmalaki"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:6a09400eae5ff52c",
         "name": "Salman Khan",
         "aliases": [
@@ -49961,15 +50042,6 @@
           "institution:9c48dc150de77a31",
           "institution:be79a7a7d850c9a5"
         ]
-      },
-      {
-        "id": "author:40149d60e1a531ac",
-        "name": "Saurabh Mathur",
-        "aliases": [
-          "Saurabh Mathur"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
       },
       {
         "id": "author:138b4c66adc835f3",
@@ -52003,6 +52075,15 @@
         "name": "Siska",
         "aliases": [
           "Siska"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:52d9c933be89a865",
+        "name": "Sitao Huang",
+        "aliases": [
+          "Sitao Huang"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -54361,6 +54442,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:5fd302e139ea9ed5",
+        "name": "Tianming Yang",
+        "aliases": [
+          "Tianming Yang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:e070b1ab4b575686",
         "name": "Tiansheng Zhou",
         "aliases": [
@@ -54909,6 +54999,15 @@
         "name": "Tong Xialiang",
         "aliases": [
           "Tong Xialiang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:428f0f184ab1ab78",
+        "name": "Tong Xu",
+        "aliases": [
+          "Tong Xu"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -58781,6 +58880,15 @@
         ]
       },
       {
+        "id": "author:8a551d8d11480a1b",
+        "name": "Xuesu Xiao",
+        "aliases": [
+          "Xuesu Xiao"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:1b93481ab685387d",
         "name": "Xueyan Liu",
         "aliases": [
@@ -59548,6 +59656,15 @@
         "name": "Yasra Chandio",
         "aliases": [
           "Yasra Chandio"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:e167f0c6c8a0778b",
+        "name": "Yasser Shoukry",
+        "aliases": [
+          "Yasser Shoukry"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -361835,6 +361952,578 @@
         },
         {
           "name": "Eric Martínez",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.21330",
+      "title": "NeSAM: Neuro-Symbolic Kinodynamics with Soil Adaptation for Off-Road Mobility",
+      "abstract": "Accurate prediction of off-road vehicle motion over deformable terrain remains challenging because sinkage, slip, and traction vary with local soil conditions. Existing learning-based kinodynamic models directly approximate vehicle-terrain interactions from data but do not explicitly represent soil mechanics and offer limited physical interpretability. To address these limitations, we present NeSAM, a neuro-symbolic framework that combines differentiable Bekker-Wong terramechanics with learned terrain representations and a Transformer-based residual dynamics model for long-horizon, six degree-of-freedom kinodynamic prediction. The terramechanics component models soil-dependent interaction forces, while the residual model corrects discrepancies between the analytical prediction and the observed vehicle dynamics. NeSAM further estimates physically meaningful soil parameters from terrain observations and updates them online using an extended Kalman filter. We evaluate NeSAM in Verti-Bench, a simulator built on the Chrono multiphysics engine, and validate its performance on a physical Verti-4-Wheeler platform. NeSAM improves prediction accuracy by up to 30% in simulation and 29% on real-world data relative to the strongest compared baselines. When integrated with a close-loop navigation controller, NeSAM further improves traversal success rate through online soil adaptation while reduces Hausdorff distance to the reference trajectory by 69.4%, indicating improved trajectory tracking accuracy.",
+      "authors": [
+        "Chenhui Pan",
+        "Tong Xu",
+        "Francesco Cancelliere",
+        "Xuesu Xiao"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Chenhui Pan",
+          "authorEntityId": "author:8048e0e98b1156d3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Chenhui Pan",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Tong Xu",
+          "authorEntityId": "author:428f0f184ab1ab78",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Tong Xu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Francesco Cancelliere",
+          "authorEntityId": "author:7b42a5c4910c9cca",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Francesco Cancelliere",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xuesu Xiao",
+          "authorEntityId": "author:8a551d8d11480a1b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xuesu Xiao",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-21",
+      "url": "https://arxiv.org/abs/2608.21330",
+      "pdfUrl": "https://arxiv.org/pdf/2608.21330",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.21330",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:4f7d40c72619e822",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Chenhui Pan",
+        "Tong Xu",
+        "Francesco Cancelliere",
+        "Xuesu Xiao"
+      ],
+      "authorEntityIds": [
+        "author:8048e0e98b1156d3",
+        "author:428f0f184ab1ab78",
+        "author:7b42a5c4910c9cca",
+        "author:8a551d8d11480a1b"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Chenhui Pan",
+          "affiliations": []
+        },
+        {
+          "name": "Tong Xu",
+          "affiliations": []
+        },
+        {
+          "name": "Francesco Cancelliere",
+          "affiliations": []
+        },
+        {
+          "name": "Xuesu Xiao",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.21186",
+      "title": "A Neurosymbolic Approach for Constructing Planning Domain Models from Clinical Narratives",
+      "abstract": "Surgical procedures such as laparoscopic appendectomy are complex, high-stakes processes, yet formalizing their workflows for decision support remains a significant challenge. Inducing probabilistic planning domain models in this setting is particularly difficult due to the lack of structured event data and the prevalence of implicit actions in clinical narratives, which neither empirical symbolic methods nor Large Language Models (LLMs) can adequately address on their own. We introduce NSPIN, a neurosymbolic framework for inducing probabilistic planning domain models from unstructured clinical narratives. Our method extracts and imputes structured event sequences from raw text using a pretrained LLM, then induces a PPDDL model and refines its preconditions with LLM-proposed revisions, guided by empirical validation. We evaluate the approach on 2,660 laparoscopic appendectomy notes written by 9 surgeons. NSPIN yields models that generalize to unseen notes, and expert clinical review indicates its induced knowledge is largely consistent with surgical practice.",
+      "authors": [
+        "Ranveer Singh",
+        "Saurabh Mathur",
+        "Michael Skinner",
+        "Prasad Tadepalli",
+        "Kristian Kersting",
+        "Sriraam Natarajan"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Ranveer Singh",
+          "authorEntityId": "author:0ad4b4b00c280047",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ranveer Singh",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Saurabh Mathur",
+          "authorEntityId": "author:40149d60e1a531ac",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Saurabh Mathur",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Michael Skinner",
+          "authorEntityId": "author:45f8b996c56d5e2a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Michael Skinner",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Prasad Tadepalli",
+          "authorEntityId": "author:cddc13ae4043b2c3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Prasad Tadepalli",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Kristian Kersting",
+          "authorEntityId": "author:b5e4080501f3c8fa",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Kristian Kersting",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Sriraam Natarajan",
+          "authorEntityId": "author:27c5d55d159a7c18",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Sriraam Natarajan",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-21",
+      "url": "https://arxiv.org/abs/2608.21186",
+      "pdfUrl": "https://arxiv.org/pdf/2608.21186",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.21186",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:a18cf5060cb9b0a3",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Ranveer Singh",
+        "Saurabh Mathur",
+        "Michael Skinner",
+        "Prasad Tadepalli",
+        "Kristian Kersting",
+        "Sriraam Natarajan"
+      ],
+      "authorEntityIds": [
+        "author:0ad4b4b00c280047",
+        "author:40149d60e1a531ac",
+        "author:45f8b996c56d5e2a",
+        "author:cddc13ae4043b2c3",
+        "author:b5e4080501f3c8fa",
+        "author:27c5d55d159a7c18"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Ranveer Singh",
+          "affiliations": []
+        },
+        {
+          "name": "Saurabh Mathur",
+          "affiliations": []
+        },
+        {
+          "name": "Michael Skinner",
+          "affiliations": []
+        },
+        {
+          "name": "Prasad Tadepalli",
+          "affiliations": []
+        },
+        {
+          "name": "Kristian Kersting",
+          "affiliations": []
+        },
+        {
+          "name": "Sriraam Natarajan",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.21079",
+      "title": "Causal Modeling of Adverse Pregnancy Outcomes via Adaptive LLM Proposals",
+      "abstract": "Adverse Pregnancy Outcomes (APOs) such as preterm birth and gestational diabetes can have long-term consequences for both the mother and child, yet an understanding of their causes remains elusive. Causal discovery in this domain is especially challenging due to a paucity of data and incomplete domain knowledge. As a result, pure data-driven methods fail, and Large Language Model (LLM) outputs remain inconsistent or contradictory. We introduce a neurosymbolic framework for generating plausible causal hypotheses that iteratively combines the broad prior knowledge of LLMs with empirical scoring on data. Our method treats the LLM as an adaptive proposal distribution, generating hypotheses that are scored against empirical data; the resulting high-scoring graphs are then used to update the LLM's context, steering subsequent generations toward more promising regions of the hypothesis space. We evaluate our approach on a real-world clinical dataset for modeling APOs and their risk factors, comparing our results against an expert-constructed causal graph. Our method recovers all expert-validated edges and identifies additional plausible causal relations not previously listed by experts, potentially providing new insights for targeted interventions.",
+      "authors": [
+        "Kavimayil P. Komarasamy",
+        "Saurabh Mathur",
+        "Ameet Soni",
+        "David M. Haas",
+        "Kristian Kersting",
+        "Sriraam Natarajan"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Kavimayil P. Komarasamy",
+          "authorEntityId": "author:e0ed3ef84ec7b27a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Kavimayil P. Komarasamy",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Saurabh Mathur",
+          "authorEntityId": "author:40149d60e1a531ac",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Saurabh Mathur",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ameet Soni",
+          "authorEntityId": "author:4a52cab557334a82",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ameet Soni",
+          "rawAffiliations": []
+        },
+        {
+          "name": "David M. Haas",
+          "authorEntityId": "author:c862e6134849b27a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "David M. Haas",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Kristian Kersting",
+          "authorEntityId": "author:b5e4080501f3c8fa",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Kristian Kersting",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Sriraam Natarajan",
+          "authorEntityId": "author:27c5d55d159a7c18",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Sriraam Natarajan",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-21",
+      "url": "https://arxiv.org/abs/2608.21079",
+      "pdfUrl": "https://arxiv.org/pdf/2608.21079",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.21079",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:f6d22e19c58de5f2",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Kavimayil P. Komarasamy",
+        "Saurabh Mathur",
+        "Ameet Soni",
+        "David M. Haas",
+        "Kristian Kersting",
+        "Sriraam Natarajan"
+      ],
+      "authorEntityIds": [
+        "author:e0ed3ef84ec7b27a",
+        "author:40149d60e1a531ac",
+        "author:4a52cab557334a82",
+        "author:c862e6134849b27a",
+        "author:b5e4080501f3c8fa",
+        "author:27c5d55d159a7c18"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Kavimayil P. Komarasamy",
+          "affiliations": []
+        },
+        {
+          "name": "Saurabh Mathur",
+          "affiliations": []
+        },
+        {
+          "name": "Ameet Soni",
+          "affiliations": []
+        },
+        {
+          "name": "David M. Haas",
+          "affiliations": []
+        },
+        {
+          "name": "Kristian Kersting",
+          "affiliations": []
+        },
+        {
+          "name": "Sriraam Natarajan",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.20723",
+      "title": "Conscious Access as Continuous-to-Discrete Translation",
+      "abstract": "The scientific study of consciousness frequently stalls on ontological debates regarding the \"Hard Problem.\" This paper proposes a pragmatic pivot. Rather than asking what consciousness is metaphysically, we ask how modeling conscious access as a specific computational transformation may address existing bottlenecks in neuroscience and artificial intelligence. We introduce the Continuous/Discrete (C/D) framework, which holds that the brain implements two distinct processing regimes: System C, a distributed sensory-motor network operating over continuous, high-dimensional manifolds, and System D, a centralized engine structured around discrete, scale-invariant symbols. We argue that conscious access requires a structure-preserving translation between these regimes, which maps localized continuous states onto discrete symbolic tokens, coupled with an inverse projection that grounds those tokens back into sensorimotor dynamics. By formalizing conscious access as this continuous-to-discrete conversion, we derive a unified set of testable predictions centered on representational geometry, specifically, on a measurable collapse from graded similarity structures to low-dimensional categorical equivalence classes. These predictions explicitly differentiate our account from Global Neuronal Workspace Theory, Integrated Information Theory, Predictive Processing, and Higher-Order Theories, shifting the focus from ontological status to computational mechanism. Beyond neuroscience, the framework provides a principled architecture for neuro-symbolic artificial intelligence. We argue that treating conscious access as translational computation offers a pragmatic, empirically tractable pathway forward, clarifying what conscious states functionally accomplish without requiring resolution of the hard problem of phenomenology.",
+      "authors": [
+        "Tianming Yang"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Tianming Yang",
+          "authorEntityId": "author:5fd302e139ea9ed5",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Tianming Yang",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "q-bio.NC",
+        "cs.SC"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-21",
+      "url": "https://arxiv.org/abs/2608.20723",
+      "pdfUrl": "https://arxiv.org/pdf/2608.20723",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.20723",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:0a98ebcfa303c989",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Tianming Yang"
+      ],
+      "authorEntityIds": [
+        "author:5fd302e139ea9ed5"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Tianming Yang",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.20497",
+      "title": "Bern2Edge: A Neurosymbolic Compiler for Edge Deployment via Bernstein Polynomial Networks",
+      "abstract": "Deploying high-accuracy neural networks on resource-constrained edge devices remains challenging, as existing approaches treat training, compression, and hardware synthesis as separate stages, leaving a gap between software-trained models and efficient end-to-end deployment with limited support for interpretability. We propose Bern2Edge, an end-to-end framework that uses knowledge distillation to convert a pretrained teacher feed-forward network into hardware-efficient representations via Bernstein polynomial activations. This representation enables two deployment paths: (i) a high-fidelity LUT-based realization that preserves model fidelity under compression, and (ii) a symbolic rule-based representation derived from Bernstein activation geometry, enabling interpretable inference with explicit input-space constraints. The resulting BNNs achieve up to 2.12 percentage-point (pp) accuracy improvement over ReLU under identical compression constraints. At the system level, Bern2Edge achieves up to 99.8% latency reduction and 95.2% BRAM reduction relative to a W8A8 quantized teacher on an AMD Xilinx KV260 FPGA, while maintaining accuracy within 0.5 pp, and further deploys on a low-power Spartan-7 XC7S15 FPGA. The rule-based path reduces DSP usage by up to 89.0% at a cost of 1.5 pp in total accuracy.",
+      "authors": [
+        "Malak Gamal El-Din",
+        "Yifan Zhang",
+        "Yasser Shoukry",
+        "Sitao Huang",
+        "Salma Elmalaki"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Malak Gamal El-Din",
+          "authorEntityId": "author:dcf65a8ba889ffb1",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Malak Gamal El-Din",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yifan Zhang",
+          "authorEntityId": "author:2f7922f6fa83f4fa",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yifan Zhang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yasser Shoukry",
+          "authorEntityId": "author:e167f0c6c8a0778b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yasser Shoukry",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Sitao Huang",
+          "authorEntityId": "author:52d9c933be89a865",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Sitao Huang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Salma Elmalaki",
+          "authorEntityId": "author:16fd9e0eb6b6460c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Salma Elmalaki",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AR"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-20",
+      "url": "https://arxiv.org/abs/2608.20497",
+      "pdfUrl": "https://arxiv.org/pdf/2608.20497",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.20497",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:6fcaab0c6a3d0a2e",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Malak Gamal El-Din",
+        "Yifan Zhang",
+        "Yasser Shoukry",
+        "Sitao Huang",
+        "Salma Elmalaki"
+      ],
+      "authorEntityIds": [
+        "author:dcf65a8ba889ffb1",
+        "author:2f7922f6fa83f4fa",
+        "author:e167f0c6c8a0778b",
+        "author:52d9c933be89a865",
+        "author:16fd9e0eb6b6460c"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Malak Gamal El-Din",
+          "affiliations": []
+        },
+        {
+          "name": "Yifan Zhang",
+          "affiliations": []
+        },
+        {
+          "name": "Yasser Shoukry",
+          "affiliations": []
+        },
+        {
+          "name": "Sitao Huang",
+          "affiliations": []
+        },
+        {
+          "name": "Salma Elmalaki",
           "affiliations": []
         }
       ]
