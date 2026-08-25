@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-24T12:37:25.302Z",
+  "generatedAt": "2026-08-25T12:36:29.760Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1750,
+  "paperCount": 1752,
   "completeMetadataCount": 1374,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1445
+      "count": 1447
     },
     {
       "id": "nesy-proceedings",
@@ -6269,6 +6269,15 @@
         ]
       },
       {
+        "id": "author:1b91b2ea86740f9e",
+        "name": "Bettina Finzel",
+        "aliases": [
+          "Bettina Finzel"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
+      },
+      {
         "id": "author:9790fa91a0655088",
         "name": "Bicheng Wang",
         "aliases": [
@@ -7547,6 +7556,15 @@
         "institutionIds": [
           "institution:8bac2b76214dcc68"
         ]
+      },
+      {
+        "id": "author:45b29b21b2978e2e",
+        "name": "Gesina Schwalbe",
+        "aliases": [
+          "Gesina Schwalbe"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
       },
       {
         "id": "author:cb305ca95d87e435",
@@ -10813,6 +10831,15 @@
         "institutionIds": [
           "institution:90b589325857dff0"
         ]
+      },
+      {
+        "id": "author:07cb7e5f8ca59809",
+        "name": "Sparsh Tiwari",
+        "aliases": [
+          "Sparsh Tiwari"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
       },
       {
         "id": "author:c00cc9ce59289c9f",
@@ -15455,6 +15482,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:dead01da6c390c84",
+        "name": "Ana Cleveland",
+        "aliases": [
+          "Ana Cleveland"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:9c1e59d77b1d8be0",
         "name": "Anak Agung Julius",
         "aliases": [
@@ -18246,15 +18282,6 @@
         "name": "Bettina Fazzinga",
         "aliases": [
           "Bettina Fazzinga"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
-        "id": "author:1b91b2ea86740f9e",
-        "name": "Bettina Finzel",
-        "aliases": [
-          "Bettina Finzel"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -26360,15 +26387,6 @@
         ]
       },
       {
-        "id": "author:45b29b21b2978e2e",
-        "name": "Gesina Schwalbe",
-        "aliases": [
-          "Gesina Schwalbe"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:9b8f8eb09f04c1bf",
         "name": "Ghanapriya Singh",
         "aliases": [
@@ -27503,6 +27521,15 @@
         "name": "Haihong E",
         "aliases": [
           "Haihong E"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:374a70e4aaa10424",
+        "name": "Haihua Chen",
+        "aliases": [
+          "Haihua Chen"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -36513,6 +36540,15 @@
         "institutionIds": [
           "institution:9f19e74d187beedd"
         ]
+      },
+      {
+        "id": "author:2577255abcf1a61f",
+        "name": "Laxmigayathri Challa",
+        "aliases": [
+          "Laxmigayathri Challa"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:3ccf94e378eb2271",
@@ -52614,15 +52650,6 @@
         ]
       },
       {
-        "id": "author:07cb7e5f8ca59809",
-        "name": "Sparsh Tiwari",
-        "aliases": [
-          "Sparsh Tiwari"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:fbb1ab92e239f7bd",
         "name": "Spencer M Dunn",
         "aliases": [
@@ -61701,6 +61728,15 @@
         "institutionIds": [
           "institution:89b9b3962b3327c8"
         ]
+      },
+      {
+        "id": "author:8dbcc3f8ccbc00b1",
+        "name": "Yuhan Zhou",
+        "aliases": [
+          "Yuhan Zhou"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:5a5bc486eed03031",
@@ -362524,6 +362560,207 @@
         },
         {
           "name": "Salma Elmalaki",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.22584",
+      "title": "Weakly supervised concept Bottleneck Learning for Robust Two stage Object centric visual reasoning",
+      "abstract": "Two-stage neuro-symbolic architectures provide an elegant paradigm for visual problem solving by cleanly separating connectionist perception of predefined symbols from possibly later defined relational reasoning thereon. However, anchoring high-level predicates into visual frames typically necessitates annotations that are expensive to acquire. In this work, we introduce the Dynamic Orthogonal Concept Bottleneck (D-OCB), an object-centric slot- VAE framework designed to extract human-aligned symbolic predicates under extremely weak supervision. D-OCB eliminates the arduous manual tuning of loss-balancing coef- ficients by dynamically learning optimal hyperparameter allocations during training. To infuse prior knowledge on independence of concept categories, in addition to standard re- construction self-supervision we penalize correlation across concept subspaces. Crucially, to combat the instability of very low supervision regimes, D-OCB incorporates a dynamic di- mensionality allocation mechanism; this adaptive formulation allows well-represented con- cepts to yield latent dimensions to underperforming concepts that are lagging behind, effectively preventing representation collapse and significantly improving overall concept accuracy. Through an extensive empirical evaluation, we demonstrate that our framework achieves high concept alignment and downstream visual reasoning accuracy using minimal label budgets, matching or outperforming end-to-end paradigms.",
+      "authors": [
+        "Sparsh Tiwari",
+        "Gesina Schwalbe",
+        "Bettina Finzel"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Sparsh Tiwari",
+          "authorEntityId": "author:07cb7e5f8ca59809",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Sparsh Tiwari",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Gesina Schwalbe",
+          "authorEntityId": "author:45b29b21b2978e2e",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Gesina Schwalbe",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Bettina Finzel",
+          "authorEntityId": "author:1b91b2ea86740f9e",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Bettina Finzel",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-23",
+      "url": "https://arxiv.org/abs/2608.22584",
+      "pdfUrl": "https://arxiv.org/pdf/2608.22584",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.22584",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:e95497b2e2161972",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Sparsh Tiwari",
+        "Gesina Schwalbe",
+        "Bettina Finzel"
+      ],
+      "authorEntityIds": [
+        "author:07cb7e5f8ca59809",
+        "author:45b29b21b2978e2e",
+        "author:1b91b2ea86740f9e"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Sparsh Tiwari",
+          "affiliations": []
+        },
+        {
+          "name": "Gesina Schwalbe",
+          "affiliations": []
+        },
+        {
+          "name": "Bettina Finzel",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.22085",
+      "title": "Dissecting Neuro-Symbolic Quality Assurance for Synthetic Oncology Data Generation",
+      "abstract": "Synthetic clinical data generation with large language models addresses the scarcity that limits cancer staging research, but oncology hallucinations are categorically harmful: one clinically impossible staging assignment contaminates every downstream model trained on it. Neuro-symbolic pipelines validate during generation, yet the contribution of individual quality-assurance components remains unclear. We report three controlled studies isolating gate necessity, constraint attribution, and retrieval conditionality, holding generation protocol, diversity thresholds, and fine-tuning hyperparameters constant across adapter conditions. The symbolic gate enforces schema completeness, ontology coverage against the Systematized Nomenclature of Medicine, and staging-logic consistency under American Joint Committee on Cancer eighth-edition rules. Ungated, 29.9% of records contain schema failures and 20.1% contain clinically invalid staging. Schema validation is the load-bearing filter: within the fully gated corpus it rejects 148 of 512 records, ontology grounding a further 24, and staging-logic validation none---the only generator producing logic violations is already excluded on schema, making clinical-logic validation a generator-conditional safeguard rather than the dominant filter. Retrieval augmentation is strongly model-dependent: it improves gate compliance for one generator by 12.5 percentage points, has no measurable effect for a second, and collapses output in a third. Across gated configurations ontology density is largely unchanged, indicating that symbolic validation improves clinical validity rather than vocabulary richness. Symbolic gating therefore buys corpus validity but no commensurate gain on real lung-cancer notes in this study; retrieval should be evaluated per model, and ontology density should not be reported as a proxy for corpus quality.",
+      "authors": [
+        "Laxmigayathri Challa",
+        "Yuhan Zhou",
+        "Ana Cleveland",
+        "Haihua Chen"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Laxmigayathri Challa",
+          "authorEntityId": "author:2577255abcf1a61f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Laxmigayathri Challa",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yuhan Zhou",
+          "authorEntityId": "author:8dbcc3f8ccbc00b1",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yuhan Zhou",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ana Cleveland",
+          "authorEntityId": "author:dead01da6c390c84",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ana Cleveland",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Haihua Chen",
+          "authorEntityId": "author:374a70e4aaa10424",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Haihua Chen",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-22",
+      "url": "https://arxiv.org/abs/2608.22085",
+      "pdfUrl": "https://arxiv.org/pdf/2608.22085",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.22085",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:5e23ae4727d4a097",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Laxmigayathri Challa",
+        "Yuhan Zhou",
+        "Ana Cleveland",
+        "Haihua Chen"
+      ],
+      "authorEntityIds": [
+        "author:2577255abcf1a61f",
+        "author:8dbcc3f8ccbc00b1",
+        "author:dead01da6c390c84",
+        "author:374a70e4aaa10424"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Laxmigayathri Challa",
+          "affiliations": []
+        },
+        {
+          "name": "Yuhan Zhou",
+          "affiliations": []
+        },
+        {
+          "name": "Ana Cleveland",
+          "affiliations": []
+        },
+        {
+          "name": "Haihua Chen",
           "affiliations": []
         }
       ]

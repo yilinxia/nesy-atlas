@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-08-24T12:37:24.625Z",
-  "cursorAt": "2026-08-24T12:37:24.625Z",
+  "generatedAt": "2026-08-25T12:36:29.096Z",
+  "cursorAt": "2026-08-25T12:36:29.096Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-08-23T12:27:59.374Z",
   "keywords": [
@@ -15,11 +15,96 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-08-23T12:27:59.374Z",
-  "windowStart": "2026-08-16T12:27:59.374Z",
+  "previousSnapshotAt": "2026-08-24T12:37:24.625Z",
+  "windowStart": "2026-08-17T12:37:24.625Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2608.22584",
+    "title": "Weakly supervised concept Bottleneck Learning for Robust Two stage Object centric visual reasoning",
+    "abstract": "Two-stage neuro-symbolic architectures provide an elegant paradigm for visual problem solving by cleanly separating connectionist perception of predefined symbols from possibly later defined relational reasoning thereon. However, anchoring high-level predicates into visual frames typically necessitates annotations that are expensive to acquire. In this work, we introduce the Dynamic Orthogonal Concept Bottleneck (D-OCB), an object-centric slot- VAE framework designed to extract human-aligned symbolic predicates under extremely weak supervision. D-OCB eliminates the arduous manual tuning of loss-balancing coef- ficients by dynamically learning optimal hyperparameter allocations during training. To infuse prior knowledge on independence of concept categories, in addition to standard re- construction self-supervision we penalize correlation across concept subspaces. Crucially, to combat the instability of very low supervision regimes, D-OCB incorporates a dynamic di- mensionality allocation mechanism; this adaptive formulation allows well-represented con- cepts to yield latent dimensions to underperforming concepts that are lagging behind, effectively preventing representation collapse and significantly improving overall concept accuracy. Through an extensive empirical evaluation, we demonstrate that our framework achieves high concept alignment and downstream visual reasoning accuracy using minimal label budgets, matching or outperforming end-to-end paradigms.",
+    "authors": [
+      "Sparsh Tiwari",
+      "Gesina Schwalbe",
+      "Bettina Finzel"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Sparsh Tiwari",
+        "affiliations": []
+      },
+      {
+        "name": "Gesina Schwalbe",
+        "affiliations": []
+      },
+      {
+        "name": "Bettina Finzel",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-23",
+    "updated": "2026-08-23",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2608.22584",
+    "pdfUrl": "https://arxiv.org/pdf/2608.22584",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.22085",
+    "title": "Dissecting Neuro-Symbolic Quality Assurance for Synthetic Oncology Data Generation",
+    "abstract": "Synthetic clinical data generation with large language models addresses the scarcity that limits cancer staging research, but oncology hallucinations are categorically harmful: one clinically impossible staging assignment contaminates every downstream model trained on it. Neuro-symbolic pipelines validate during generation, yet the contribution of individual quality-assurance components remains unclear. We report three controlled studies isolating gate necessity, constraint attribution, and retrieval conditionality, holding generation protocol, diversity thresholds, and fine-tuning hyperparameters constant across adapter conditions. The symbolic gate enforces schema completeness, ontology coverage against the Systematized Nomenclature of Medicine, and staging-logic consistency under American Joint Committee on Cancer eighth-edition rules. Ungated, 29.9% of records contain schema failures and 20.1% contain clinically invalid staging. Schema validation is the load-bearing filter: within the fully gated corpus it rejects 148 of 512 records, ontology grounding a further 24, and staging-logic validation none---the only generator producing logic violations is already excluded on schema, making clinical-logic validation a generator-conditional safeguard rather than the dominant filter. Retrieval augmentation is strongly model-dependent: it improves gate compliance for one generator by 12.5 percentage points, has no measurable effect for a second, and collapses output in a third. Across gated configurations ontology density is largely unchanged, indicating that symbolic validation improves clinical validity rather than vocabulary richness. Symbolic gating therefore buys corpus validity but no commensurate gain on real lung-cancer notes in this study; retrieval should be evaluated per model, and ontology density should not be reported as a proxy for corpus quality.",
+    "authors": [
+      "Laxmigayathri Challa",
+      "Yuhan Zhou",
+      "Ana Cleveland",
+      "Haihua Chen"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Laxmigayathri Challa",
+        "affiliations": []
+      },
+      {
+        "name": "Yuhan Zhou",
+        "affiliations": []
+      },
+      {
+        "name": "Ana Cleveland",
+        "affiliations": []
+      },
+      {
+        "name": "Haihua Chen",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-22",
+    "updated": "2026-08-22",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2608.22085",
+    "pdfUrl": "https://arxiv.org/pdf/2608.22085",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2608.21330",
     "title": "NeSAM: Neuro-Symbolic Kinodynamics with Soil Adaptation for Off-Road Mobility",
@@ -426,7 +511,7 @@ globalThis.ARXIV_PAPERS = [
     ],
     "affiliations": [],
     "published": "2026-08-18",
-    "updated": "2026-08-18",
+    "updated": "2026-08-24",
     "categories": [
       "cs.AI",
       "cs.LG"
