@@ -1870,5 +1870,32 @@
     "sourceUrl": "https://www.uniphore.com/blog/",
     "discovered": "2026-08-20",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Finance & Accounting Automation Shared Services: Why Centralization Stops Paying Off (2026) What shared services and GBS are, which functions they cover, the savings they deliver, and why cost curves flatten after the first wave. Aug 25, 2026 Read &rarr;",
+    "date": "2026-08-25",
+    "url": "https://www.kognitos.com/blog/shared-services/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Finance & Accounting Automation Three-Way Match vs Two-Way Match vs Four-Way: When to Use Each (2026) Two-way, three-way, and four-way matching are not a hierarchy. Each fits a different purchase. What each verifies and when to use it, by spend type and risk. July 14, 2026 Read &rarr;",
+    "date": "2026-07-14",
+    "url": "https://www.kognitos.com/blog/two-way-vs-three-way-vs-four-way-match-when-to-use-each-2026/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Finance & Accounting Automation Non-PO Invoice Automation: Handling Invoices Without a Purchase Order (2026) Non-PO invoices are the hardest part of AP automation and the main reason touchless rates stall. How AI handles invoices with no purchase order to match. June 30, 2026 Read &rarr;",
+    "date": "2026-06-30",
+    "url": "https://www.kognitos.com/blog/non-po-invoice-automation-handling-invoices-without-purchase-order-2026/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-08-25",
+    "status": "needs-review"
   }
 ]
