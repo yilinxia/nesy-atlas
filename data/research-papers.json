@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T12:36:29.760Z",
+  "generatedAt": "2026-08-26T12:39:45.065Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1752,
+  "paperCount": 1755,
   "completeMetadataCount": 1374,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1447
+      "count": 1450
     },
     {
       "id": "nesy-proceedings",
@@ -3516,6 +3516,17 @@
         "paperCount": 3,
         "institutionIds": [
           "institution:f86dba53ef72761b"
+        ]
+      },
+      {
+        "id": "author:1d857e732deb09d8",
+        "name": "Erik Cambria",
+        "aliases": [
+          "Erik Cambria"
+        ],
+        "paperCount": 3,
+        "institutionIds": [
+          "institution:c111feb812f1a7ed"
         ]
       },
       {
@@ -7185,17 +7196,6 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:9b1dca853f0d341b"
-        ]
-      },
-      {
-        "id": "author:1d857e732deb09d8",
-        "name": "Erik Cambria",
-        "aliases": [
-          "Erik Cambria"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:c111feb812f1a7ed"
         ]
       },
       {
@@ -12533,6 +12533,17 @@
         ]
       },
       {
+        "id": "author:07a0652ef13ada14",
+        "name": "Zhenning Yang",
+        "aliases": [
+          "Zhenning Yang"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:89b9b3962b3327c8"
+        ]
+      },
+      {
         "id": "author:4eb80d4885a8268a",
         "name": "Zhi Tu",
         "aliases": [
@@ -13310,6 +13321,15 @@
         "name": "Abdul Rahman",
         "aliases": [
           "Abdul Rahman"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:ddf35cecce1464d1",
+        "name": "Abdulhady Abas Abdullah",
+        "aliases": [
+          "Abdulhady Abas Abdullah"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -16005,6 +16025,15 @@
         ]
       },
       {
+        "id": "author:0ff1d397fd3e81af",
+        "name": "Ang Chen",
+        "aliases": [
+          "Ang Chen"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:c7cbe5db1ce74945",
         "name": "Ang Li",
         "aliases": [
@@ -16910,6 +16939,15 @@
         "institutionIds": [
           "institution:982b037479f88f02"
         ]
+      },
+      {
+        "id": "author:9ecc6f8e4f141da9",
+        "name": "Archit Bhatnagar",
+        "aliases": [
+          "Archit Bhatnagar"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:cf71e193e53f2acd",
@@ -36519,6 +36557,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:8b8560a1cbe1a314",
+        "name": "Lavdim Halilaj",
+        "aliases": [
+          "Lavdim Halilaj"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:7a83667612848586",
         "name": "Lawrence H Curtis Winndevelopment",
         "aliases": [
@@ -41557,6 +41604,15 @@
         ]
       },
       {
+        "id": "author:be4b34c8b7dce0de",
+        "name": "Milena Zivkovic",
+        "aliases": [
+          "Milena Zivkovic"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:a2e111761fb40d65",
         "name": "Milin Designs",
         "aliases": [
@@ -46160,6 +46216,15 @@
         ]
       },
       {
+        "id": "author:db1340b6b78c3d88",
+        "name": "Pramod Anantharam",
+        "aliases": [
+          "Pramod Anantharam"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:3e3bb9cfb6eedf1e",
         "name": "Pramod Motaganahall",
         "aliases": [
@@ -49910,6 +49975,15 @@
         ]
       },
       {
+        "id": "author:96117e48f33720e9",
+        "name": "Sarah McClure",
+        "aliases": [
+          "Sarah McClure"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:bf2d440e4b85460a",
         "name": "Sarah Seifi",
         "aliases": [
@@ -50191,6 +50265,15 @@
           "institution:797d861f0f3b0257",
           "institution:86201e758e095a0e"
         ]
+      },
+      {
+        "id": "author:da6516129311ba98",
+        "name": "Sebastian Monka",
+        "aliases": [
+          "Sebastian Monka"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:b8fa2336a7c823b6",
@@ -53598,6 +53681,15 @@
         ]
       },
       {
+        "id": "author:58dd1aa0a7ed971b",
+        "name": "Sylvia Ratnasamy",
+        "aliases": [
+          "Sylvia Ratnasamy"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:f795de63f3cf86ee",
         "name": "Szegedy Xai",
         "aliases": [
@@ -54148,6 +54240,15 @@
         "name": "Thi Minh Mac",
         "aliases": [
           "Thi Minh Mac"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:668cf5df37b22bf4",
+        "name": "Thien Vo Minh",
+        "aliases": [
+          "Thien Vo Minh"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -60277,6 +60378,15 @@
         ]
       },
       {
+        "id": "author:186b1259a2333d23",
+        "name": "Yiming Qiu",
+        "aliases": [
+          "Yiming Qiu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:9849aed1b0a96940",
         "name": "Yiming Su",
         "aliases": [
@@ -63462,17 +63572,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:07a0652ef13ada14",
-        "name": "Zhenning Yang",
-        "aliases": [
-          "Zhenning Yang"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:89b9b3962b3327c8"
-        ]
-      },
-      {
         "id": "author:8c043c8aaf2a1729",
         "name": "Zhenran Tang",
         "aliases": [
@@ -64985,15 +65084,6 @@
         "name": "Andrew C. Li",
         "aliases": [
           "Andrew C. Li"
-        ],
-        "paperCount": 0,
-        "institutionIds": []
-      },
-      {
-        "id": "author:0ff1d397fd3e81af",
-        "name": "Ang Chen",
-        "aliases": [
-          "Ang Chen"
         ],
         "paperCount": 0,
         "institutionIds": []
@@ -362761,6 +362851,348 @@
         },
         {
           "name": "Haihua Chen",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.24534",
+      "title": "Neurosymbolic Alignment for Physiologically-Safe Clinical Language Models",
+      "abstract": "Clinical LLMs can generate recommendations that are factually plausible yet physiologically unsafe. We investigate whether safety alignment can be improved by grounding preference optimization in structured physiological knowledge rather than text-only supervision. Methods: We propose Neurosymbolic Alignment, a training-time framework that couples a 7B clinical LLM with an HGNN-based Physiological World Model over an 847K-node biomedical knowledge graph. Candidate responses are scored using homeostatic constraints, multi-hop path plausibility, and drug-interaction penalties, and the resulting rankings drive iterative on-policy ORPO updates. Evaluation is performed on the Clinical Safety Benchmark (CSB), a 2,500-scenario benchmark for physiological constraint violations in generative clinical reasoning. Results: Relative to ORPO, the proposed method improves CSS from 69.5% to 90.8% (+21.3 pp), reduces physician-evaluated HR from 14.1% to 5.1% on the blinded subset, and improves DID from 72.8% to 91.6%. These gains are corroborated by an HGNN-independent Rule-Engine Safety Score (RSS: 86.4%, +21.2 pp over ORPO; r=0.97 concordance with CSS). The method also exceeds GPT-4 (5-shot) on all safety metrics despite a 10x parameter disadvantage, and outperforms an inference-time self-correction pipeline (SFT+SelfCorrect) by 11.4 pp CSS. Under synthetic EHR-style noise, 84.2% CSS is retained. Ablation analysis shows that HGNN scoring (-16.2 pp) and iterative training (-11.5 pp) are the dominant contributors. PhysioScore calibration against 200 clinician labels yielded ECE = 0.038 and kappa = 0.91. Conclusion: Training-time physiological grounding produces measurable and independently verifiable safety improvements in open-weight clinical LLMs under controlled evaluation. External validation on real clinical data is required to determine whether these gains transfer to deployment settings",
+      "authors": [
+        "Abdulhady Abas Abdullah",
+        "Erik Cambria",
+        "Milena Zivkovic"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Abdulhady Abas Abdullah",
+          "authorEntityId": "author:ddf35cecce1464d1",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Abdulhady Abas Abdullah",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Erik Cambria",
+          "authorEntityId": "author:1d857e732deb09d8",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Erik Cambria",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Milena Zivkovic",
+          "authorEntityId": "author:be4b34c8b7dce0de",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Milena Zivkovic",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-25",
+      "url": "https://arxiv.org/abs/2608.24534",
+      "pdfUrl": "https://arxiv.org/pdf/2608.24534",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.24534",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:2ef8361a486d123e",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Abdulhady Abas Abdullah",
+        "Erik Cambria",
+        "Milena Zivkovic"
+      ],
+      "authorEntityIds": [
+        "author:ddf35cecce1464d1",
+        "author:1d857e732deb09d8",
+        "author:be4b34c8b7dce0de"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Abdulhady Abas Abdullah",
+          "affiliations": []
+        },
+        {
+          "name": "Erik Cambria",
+          "affiliations": []
+        },
+        {
+          "name": "Milena Zivkovic",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.24218",
+      "title": "Constraint-Guided Enterprise Data Mapping with Large Language Models",
+      "abstract": "Enterprise entity alignment must handle semi-structured records, implicit attributes, and unit or granularity mismatches. Manual matching is still common in practice, but does not scale as schemas and providers evolve. LLM-only matching improves semantic recall, yet can violate structural and physical invariants, producing fluent yet operationally invalid correspondences. We propose constraint-guided mapping (CGM), a neuro-symbolic method with three stages: (i) schema-grounded admissibility constraints with metadata mc = <tau_c, delta_c>, where tau_c denotes the constraint type and delta_c provides executable relation and normalization logic; (ii) constraint-restricted candidate generation with cascade relaxation to guarantee a nonempty feasible set under noise; and (iii) neural ranking with bounded LLM disambiguation restricted to that feasible set. Methodologically, constraints operate as hypothesis-space operators rather than post-hoc validators, enabling controlled degradation under relaxation and auditable, human-guidable decisions. On a controlled structural-decoy benchmark, hard admissibility shrinks the candidate space by ~480x without dropping the GT, and a layer-by-layer ablation shows this gate, not the LLM, is the decisive lift (F1 0.08 to 0.66). The benefit is model-independent and adds no extra inference cost: a small model with constraints matches a frontier LLM used without them at ~28x lower cost. The method, not a single tuned configuration, transfers across seven enterprise makes (macro F1 0.70), each under its own automatically discovered, expert-refinable constraints, and lowers expert effort by ~7x versus spreadsheet workflows. Public Valentine results add an external ranking sanity check and mark the boundary: constraints should be hard only where structural invariants are match-determining.",
+      "authors": [
+        "Sebastian Monka",
+        "Pramod Anantharam",
+        "Thien Vo Minh",
+        "Lavdim Halilaj"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Sebastian Monka",
+          "authorEntityId": "author:da6516129311ba98",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Sebastian Monka",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Pramod Anantharam",
+          "authorEntityId": "author:db1340b6b78c3d88",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Pramod Anantharam",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Thien Vo Minh",
+          "authorEntityId": "author:668cf5df37b22bf4",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Thien Vo Minh",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Lavdim Halilaj",
+          "authorEntityId": "author:8b8560a1cbe1a314",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Lavdim Halilaj",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-25",
+      "url": "https://arxiv.org/abs/2608.24218",
+      "pdfUrl": "https://arxiv.org/pdf/2608.24218",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.24218",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:c0308fdf89521c7a",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Sebastian Monka",
+        "Pramod Anantharam",
+        "Thien Vo Minh",
+        "Lavdim Halilaj"
+      ],
+      "authorEntityIds": [
+        "author:da6516129311ba98",
+        "author:db1340b6b78c3d88",
+        "author:668cf5df37b22bf4",
+        "author:8b8560a1cbe1a314"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Sebastian Monka",
+          "affiliations": []
+        },
+        {
+          "name": "Pramod Anantharam",
+          "affiliations": []
+        },
+        {
+          "name": "Thien Vo Minh",
+          "affiliations": []
+        },
+        {
+          "name": "Lavdim Halilaj",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.23842",
+      "title": "Automated Synthesis of Cloud Emulators",
+      "abstract": "DevOps programming (e.g., using CLI/API scripts or IaC frameworks) is key to cloud infrastructure management. Unlike traditional programming tasks, DevOps program testing needs provisioning and execution against actual cloud resources, which is often time-consuming, unsafe, and costly. Cloud emulators have gained popularity for easing DevOps program testing; they are generally API-level mocks that can execute DevOps programs in a local environment. Still, building these emulators remains challenging: developers must manually interpret extensive cloud documentation and handcraft logic for each service, API, and their interaction. This does not scale to the complexity of the cloud, which is further a moving target as the services and APIs evolve. CloudEmu is an automated approach that constructs emulators based on cloud documentation via neurosymbolic code synthesis. The key idea is to combine LLMs' general strengths in documentation understanding and code generation with cloud-specific symbolic abstractions that suppress hallucinations and enforce precision at scale, while using the real cloud as an oracle for automated testing, repair, and alignment. Our evaluation shows the effectiveness of CloudEmu on major cloud provider (AWS and GCP) services in both coverage and accuracy. CloudEmu outperforms the existing leading tool LocalStack, which was manually developed by a large team of engineers over a decade.",
+      "authors": [
+        "Archit Bhatnagar",
+        "Zhenning Yang",
+        "Sarah McClure",
+        "Yiming Qiu",
+        "Sylvia Ratnasamy",
+        "Ang Chen"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Archit Bhatnagar",
+          "authorEntityId": "author:9ecc6f8e4f141da9",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Archit Bhatnagar",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zhenning Yang",
+          "authorEntityId": "author:07a0652ef13ada14",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zhenning Yang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Sarah McClure",
+          "authorEntityId": "author:96117e48f33720e9",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Sarah McClure",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yiming Qiu",
+          "authorEntityId": "author:186b1259a2333d23",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yiming Qiu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Sylvia Ratnasamy",
+          "authorEntityId": "author:58dd1aa0a7ed971b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Sylvia Ratnasamy",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ang Chen",
+          "authorEntityId": "author:0ff1d397fd3e81af",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ang Chen",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.DC"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-24",
+      "url": "https://arxiv.org/abs/2608.23842",
+      "pdfUrl": "https://arxiv.org/pdf/2608.23842",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.23842",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:4be54c42ca56e03a",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Archit Bhatnagar",
+        "Zhenning Yang",
+        "Sarah McClure",
+        "Yiming Qiu",
+        "Sylvia Ratnasamy",
+        "Ang Chen"
+      ],
+      "authorEntityIds": [
+        "author:9ecc6f8e4f141da9",
+        "author:07a0652ef13ada14",
+        "author:96117e48f33720e9",
+        "author:186b1259a2333d23",
+        "author:58dd1aa0a7ed971b",
+        "author:0ff1d397fd3e81af"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Archit Bhatnagar",
+          "affiliations": []
+        },
+        {
+          "name": "Zhenning Yang",
+          "affiliations": []
+        },
+        {
+          "name": "Sarah McClure",
+          "affiliations": []
+        },
+        {
+          "name": "Yiming Qiu",
+          "affiliations": []
+        },
+        {
+          "name": "Sylvia Ratnasamy",
+          "affiliations": []
+        },
+        {
+          "name": "Ang Chen",
           "affiliations": []
         }
       ]

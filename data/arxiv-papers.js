@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-08-25T12:36:29.096Z",
-  "cursorAt": "2026-08-25T12:36:29.096Z",
+  "generatedAt": "2026-08-26T12:39:44.612Z",
+  "cursorAt": "2026-08-26T12:39:44.612Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-08-23T12:27:59.374Z",
   "keywords": [
@@ -15,11 +15,153 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-08-24T12:37:24.625Z",
-  "windowStart": "2026-08-17T12:37:24.625Z",
+  "previousSnapshotAt": "2026-08-25T12:36:29.096Z",
+  "windowStart": "2026-08-18T12:36:29.096Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2608.24534",
+    "title": "Neurosymbolic Alignment for Physiologically-Safe Clinical Language Models",
+    "abstract": "Clinical LLMs can generate recommendations that are factually plausible yet physiologically unsafe. We investigate whether safety alignment can be improved by grounding preference optimization in structured physiological knowledge rather than text-only supervision. Methods: We propose Neurosymbolic Alignment, a training-time framework that couples a 7B clinical LLM with an HGNN-based Physiological World Model over an 847K-node biomedical knowledge graph. Candidate responses are scored using homeostatic constraints, multi-hop path plausibility, and drug-interaction penalties, and the resulting rankings drive iterative on-policy ORPO updates. Evaluation is performed on the Clinical Safety Benchmark (CSB), a 2,500-scenario benchmark for physiological constraint violations in generative clinical reasoning. Results: Relative to ORPO, the proposed method improves CSS from 69.5% to 90.8% (+21.3 pp), reduces physician-evaluated HR from 14.1% to 5.1% on the blinded subset, and improves DID from 72.8% to 91.6%. These gains are corroborated by an HGNN-independent Rule-Engine Safety Score (RSS: 86.4%, +21.2 pp over ORPO; r=0.97 concordance with CSS). The method also exceeds GPT-4 (5-shot) on all safety metrics despite a 10x parameter disadvantage, and outperforms an inference-time self-correction pipeline (SFT+SelfCorrect) by 11.4 pp CSS. Under synthetic EHR-style noise, 84.2% CSS is retained. Ablation analysis shows that HGNN scoring (-16.2 pp) and iterative training (-11.5 pp) are the dominant contributors. PhysioScore calibration against 200 clinician labels yielded ECE = 0.038 and kappa = 0.91. Conclusion: Training-time physiological grounding produces measurable and independently verifiable safety improvements in open-weight clinical LLMs under controlled evaluation. External validation on real clinical data is required to determine whether these gains transfer to deployment settings",
+    "authors": [
+      "Abdulhady Abas Abdullah",
+      "Erik Cambria",
+      "Milena Zivkovic"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Abdulhady Abas Abdullah",
+        "affiliations": []
+      },
+      {
+        "name": "Erik Cambria",
+        "affiliations": []
+      },
+      {
+        "name": "Milena Zivkovic",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-25",
+    "updated": "2026-08-25",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2608.24534",
+    "pdfUrl": "https://arxiv.org/pdf/2608.24534",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.24218",
+    "title": "Constraint-Guided Enterprise Data Mapping with Large Language Models",
+    "abstract": "Enterprise entity alignment must handle semi-structured records, implicit attributes, and unit or granularity mismatches. Manual matching is still common in practice, but does not scale as schemas and providers evolve. LLM-only matching improves semantic recall, yet can violate structural and physical invariants, producing fluent yet operationally invalid correspondences. We propose constraint-guided mapping (CGM), a neuro-symbolic method with three stages: (i) schema-grounded admissibility constraints with metadata mc = <tau_c, delta_c>, where tau_c denotes the constraint type and delta_c provides executable relation and normalization logic; (ii) constraint-restricted candidate generation with cascade relaxation to guarantee a nonempty feasible set under noise; and (iii) neural ranking with bounded LLM disambiguation restricted to that feasible set. Methodologically, constraints operate as hypothesis-space operators rather than post-hoc validators, enabling controlled degradation under relaxation and auditable, human-guidable decisions. On a controlled structural-decoy benchmark, hard admissibility shrinks the candidate space by ~480x without dropping the GT, and a layer-by-layer ablation shows this gate, not the LLM, is the decisive lift (F1 0.08 to 0.66). The benefit is model-independent and adds no extra inference cost: a small model with constraints matches a frontier LLM used without them at ~28x lower cost. The method, not a single tuned configuration, transfers across seven enterprise makes (macro F1 0.70), each under its own automatically discovered, expert-refinable constraints, and lowers expert effort by ~7x versus spreadsheet workflows. Public Valentine results add an external ranking sanity check and mark the boundary: constraints should be hard only where structural invariants are match-determining.",
+    "authors": [
+      "Sebastian Monka",
+      "Pramod Anantharam",
+      "Thien Vo Minh",
+      "Lavdim Halilaj"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Sebastian Monka",
+        "affiliations": []
+      },
+      {
+        "name": "Pramod Anantharam",
+        "affiliations": []
+      },
+      {
+        "name": "Thien Vo Minh",
+        "affiliations": []
+      },
+      {
+        "name": "Lavdim Halilaj",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-25",
+    "updated": "2026-08-25",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2608.24218",
+    "pdfUrl": "https://arxiv.org/pdf/2608.24218",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.23842",
+    "title": "Automated Synthesis of Cloud Emulators",
+    "abstract": "DevOps programming (e.g., using CLI/API scripts or IaC frameworks) is key to cloud infrastructure management. Unlike traditional programming tasks, DevOps program testing needs provisioning and execution against actual cloud resources, which is often time-consuming, unsafe, and costly. Cloud emulators have gained popularity for easing DevOps program testing; they are generally API-level mocks that can execute DevOps programs in a local environment. Still, building these emulators remains challenging: developers must manually interpret extensive cloud documentation and handcraft logic for each service, API, and their interaction. This does not scale to the complexity of the cloud, which is further a moving target as the services and APIs evolve. CloudEmu is an automated approach that constructs emulators based on cloud documentation via neurosymbolic code synthesis. The key idea is to combine LLMs' general strengths in documentation understanding and code generation with cloud-specific symbolic abstractions that suppress hallucinations and enforce precision at scale, while using the real cloud as an oracle for automated testing, repair, and alignment. Our evaluation shows the effectiveness of CloudEmu on major cloud provider (AWS and GCP) services in both coverage and accuracy. CloudEmu outperforms the existing leading tool LocalStack, which was manually developed by a large team of engineers over a decade.",
+    "authors": [
+      "Archit Bhatnagar",
+      "Zhenning Yang",
+      "Sarah McClure",
+      "Yiming Qiu",
+      "Sylvia Ratnasamy",
+      "Ang Chen"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Archit Bhatnagar",
+        "affiliations": []
+      },
+      {
+        "name": "Zhenning Yang",
+        "affiliations": []
+      },
+      {
+        "name": "Sarah McClure",
+        "affiliations": []
+      },
+      {
+        "name": "Yiming Qiu",
+        "affiliations": []
+      },
+      {
+        "name": "Sylvia Ratnasamy",
+        "affiliations": []
+      },
+      {
+        "name": "Ang Chen",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-24",
+    "updated": "2026-08-24",
+    "categories": [
+      "cs.SE",
+      "cs.AI",
+      "cs.DC"
+    ],
+    "primaryCategory": "cs.SE",
+    "url": "https://arxiv.org/abs/2608.23842",
+    "pdfUrl": "https://arxiv.org/pdf/2608.23842",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
   {
     "id": "2608.22584",
     "title": "Weakly supervised concept Bottleneck Learning for Robust Two stage Object centric visual reasoning",
