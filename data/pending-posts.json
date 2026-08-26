@@ -1897,5 +1897,23 @@
     "sourceUrl": "https://www.kognitos.com/blog/",
     "discovered": "2026-08-25",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Market Comparisons ServiceNow Alternatives: Workflow Platform or Reasoning Layer? (2026) Why teams look for ServiceNow alternatives, the ITSM platforms worth evaluating, and how to tell whether you need a different workflow platform or something that resolves the work inside it. Aug 25, 2026 Read &rarr;",
+    "date": "2026-08-25",
+    "url": "https://www.kognitos.com/blog/servicenow-alternatives/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-08-26",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Finance & Accounting Automation Chart of Accounts: Structure, Design, and Common Mistakes (2026) What a chart of accounts is, how numbering and segments work, how to size granularity, and why redesigning your COA rarely fixes reporting on its own. Aug 25, 2026 Read &rarr;",
+    "date": "2026-08-25",
+    "url": "https://www.kognitos.com/blog/chart-of-accounts/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-08-26",
+    "status": "needs-review"
   }
 ]
