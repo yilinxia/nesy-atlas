@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T12:39:45.065Z",
+  "generatedAt": "2026-08-27T21:35:59.259Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1755,
+  "paperCount": 1757,
   "completeMetadataCount": 1374,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1450
+      "count": 1452
     },
     {
       "id": "nesy-proceedings",
@@ -12150,6 +12150,17 @@
         "institutionIds": [
           "institution:0c021b1ef9e818a5",
           "institution:c111feb812f1a7ed"
+        ]
+      },
+      {
+        "id": "author:01d0d430ca83ff3b",
+        "name": "Yi Liu",
+        "aliases": [
+          "Yi Liu"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:9ab7959736f7be0d"
         ]
       },
       {
@@ -26170,6 +26181,15 @@
         ]
       },
       {
+        "id": "author:de36bbb9967853c0",
+        "name": "Gelei Deng",
+        "aliases": [
+          "Gelei Deng"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:83b0746fb208d19d",
         "name": "Gen Li",
         "aliases": [
@@ -31635,6 +31655,15 @@
         ]
       },
       {
+        "id": "author:09dd43624b283dad",
+        "name": "Jialiang Dong",
+        "aliases": [
+          "Jialiang Dong"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:28c19149068384c6",
         "name": "Jialu Wang",
         "aliases": [
@@ -34248,6 +34277,15 @@
         "name": "Junbo Li",
         "aliases": [
           "Junbo Li"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:14d305ca1992f174",
+        "name": "Junchen Ding",
+        "aliases": [
+          "Junchen Ding"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -52170,6 +52208,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:18e604dc79cf7693",
+        "name": "Siqi Ma",
+        "aliases": [
+          "Siqi Ma"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:9f692ec91af49784",
         "name": "Siqi Sun",
         "aliases": [
@@ -57152,6 +57199,15 @@
         ]
       },
       {
+        "id": "author:d4406f386a7f864f",
+        "name": "Wenjing Cun",
+        "aliases": [
+          "Wenjing Cun"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:a2d9ba9adeabf975",
         "name": "Wenjing Yang",
         "aliases": [
@@ -57399,6 +57455,15 @@
         "institutionIds": [
           "institution:0fbadc849bc98650"
         ]
+      },
+      {
+        "id": "author:362dfe7ca54257d4",
+        "name": "Willy Susilo",
+        "aliases": [
+          "Willy Susilo"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:5bbf46ab21d3666e",
@@ -59809,6 +59874,15 @@
         ]
       },
       {
+        "id": "author:55fe72d8d73ca4f9",
+        "name": "Yating Ling",
+        "aliases": [
+          "Yating Ling"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:cfa6f615248b95a5",
         "name": "Yaxiong Lei",
         "aliases": [
@@ -59957,17 +60031,6 @@
         ]
       },
       {
-        "id": "author:01d0d430ca83ff3b",
-        "name": "Yi Liu",
-        "aliases": [
-          "Yi Liu"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:9ab7959736f7be0d"
-        ]
-      },
-      {
         "id": "author:c7c18315fae3de10",
         "name": "Yi Qin Gao",
         "aliases": [
@@ -60053,6 +60116,15 @@
         "name": "Yichen Wei",
         "aliases": [
           "Yichen Wei"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:399f18cd366ca97c",
+        "name": "Yichen Zhu",
+        "aliases": [
+          "Yichen Zhu"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -61678,6 +61750,15 @@
         "name": "Yuefeng He",
         "aliases": [
           "Yuefeng He"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:58978745c4f5067b",
+        "name": "Yuekang Li",
+        "aliases": [
+          "Yuekang Li"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -63875,6 +63956,15 @@
         "name": "Zhiqiu Zhao",
         "aliases": [
           "Zhiqiu Zhao"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:c17135ed536b1196",
+        "name": "Zhitang Chen",
+        "aliases": [
+          "Zhitang Chen"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -363193,6 +363283,269 @@
         },
         {
           "name": "Ang Chen",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.25667",
+      "title": "AI Slop and Hallucinations in Vulnerability Assessment: A Survey on Reasoning Failures and Trustworthy Mitigation",
+      "abstract": "The integration of Large Language Models (LLMs) into cybersecurity has transformed vulnerability assessment, but it has also produced a trustworthiness crisis driven by the unchecked proliferation of \"AI slop.\" These artifacts, hallucinated vulnerabilities, plausible but incorrect patches, and semantically repackaged bug reports, impose a cognitive burden on human triage pipelines that mirrors a denial-of-service attack. This paper surveys the empirical evidence, identifies a unifying mechanism, and traces a path toward trustworthy triage. We formalize a taxonomy of AI slop grounded in a structured literature review and dissect its root cause: the gap between the causal deductive reasoning of security experts and the autoregressive probabilistic generation of current LLMs. We operationalize this gap through a measurable proxy, the Deductive Coverage Score, and show that chain-of-thought prompting and tool-using agents narrow but do not close it. We review mitigation strategies and argue that passive detection and watermarking target provenance rather than correctness, facing fundamental entropy constraints. We instead advocate for active neuro-symbolic verification, mapping each pipeline component to prior systems with documented limits on security inputs. Finally, we specify two evaluation instruments, CVE-Bench and Slop-Score, including dataset construction, metric formulas, and anti-gaming provisions. By shifting evaluation from linguistic fluency to mathematical verifiability, this survey provides a roadmap for securing emerging AI-driven triage systems.",
+      "authors": [
+        "Junchen Ding",
+        "Jialiang Dong",
+        "Yichen Zhu",
+        "Yi Liu",
+        "Gelei Deng",
+        "Willy Susilo",
+        "Siqi Ma",
+        "Yuekang Li"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Junchen Ding",
+          "authorEntityId": "author:14d305ca1992f174",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Junchen Ding",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jialiang Dong",
+          "authorEntityId": "author:09dd43624b283dad",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jialiang Dong",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yichen Zhu",
+          "authorEntityId": "author:399f18cd366ca97c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yichen Zhu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yi Liu",
+          "authorEntityId": "author:01d0d430ca83ff3b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yi Liu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Gelei Deng",
+          "authorEntityId": "author:de36bbb9967853c0",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Gelei Deng",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Willy Susilo",
+          "authorEntityId": "author:362dfe7ca54257d4",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Willy Susilo",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Siqi Ma",
+          "authorEntityId": "author:18e604dc79cf7693",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Siqi Ma",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yuekang Li",
+          "authorEntityId": "author:58978745c4f5067b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yuekang Li",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-26",
+      "url": "https://arxiv.org/abs/2608.25667",
+      "pdfUrl": "https://arxiv.org/pdf/2608.25667",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.25667",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:8b2925fbb1515b36",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Junchen Ding",
+        "Jialiang Dong",
+        "Yichen Zhu",
+        "Yi Liu",
+        "Gelei Deng",
+        "Willy Susilo",
+        "Siqi Ma",
+        "Yuekang Li"
+      ],
+      "authorEntityIds": [
+        "author:14d305ca1992f174",
+        "author:09dd43624b283dad",
+        "author:399f18cd366ca97c",
+        "author:01d0d430ca83ff3b",
+        "author:de36bbb9967853c0",
+        "author:362dfe7ca54257d4",
+        "author:18e604dc79cf7693",
+        "author:58978745c4f5067b"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Junchen Ding",
+          "affiliations": []
+        },
+        {
+          "name": "Jialiang Dong",
+          "affiliations": []
+        },
+        {
+          "name": "Yichen Zhu",
+          "affiliations": []
+        },
+        {
+          "name": "Yi Liu",
+          "affiliations": []
+        },
+        {
+          "name": "Gelei Deng",
+          "affiliations": []
+        },
+        {
+          "name": "Willy Susilo",
+          "affiliations": []
+        },
+        {
+          "name": "Siqi Ma",
+          "affiliations": []
+        },
+        {
+          "name": "Yuekang Li",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.25291",
+      "title": "InsightSR: Refining Symbolic Regression Search Spaces via Parallel Semantic and Structural LLM Guidance",
+      "abstract": "Symbolic regression (SR) seeks to discover parsimonious mathematical laws from observational data, yet conventional approaches often struggle with the vast combinatorial search space of physically meaningful expressions. We present InsightSR, a framework that embeds Large Language Models (LLMs) as a guiding layer around the PySR genetic programming engine. Rather than relying on LLMs to generate expressions directly, InsightSR uses LLMs to progressively transform the search space itself through two complementary pathways: a Semantic Seed Pathway that proposes dimensionally consistent functional skeletons, and a Structural Feature Pathway that recommends nonlinear feature transformations. These transformations accumulate over iterations, broadening the input space and shifting the symbolic search from constructing deep expression trees over raw variables to assembling shallow trees over a rich, semantically informed feature set. A post-generation feedback loop evaluates candidates, categorizes features by their empirical utility, and refines the guidance for the next iteration, transforming the discovery process from open-ended generation into iterative, self-correcting refinement. Across three benchmarks, InsightSR achieves a 95% exact recovery rate on the Feynman benchmark and 80.18% accuracy on the LLM-SRBench LSR-Transform task, substantially outperforming state-of-the-art genetic programming and neural-symbolic methods while maintaining strong out-of-distribution generalization on real-world datasets.",
+      "authors": [
+        "Yating Ling",
+        "Wenjing Cun",
+        "Zhitang Chen"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Yating Ling",
+          "authorEntityId": "author:55fe72d8d73ca4f9",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yating Ling",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Wenjing Cun",
+          "authorEntityId": "author:d4406f386a7f864f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Wenjing Cun",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zhitang Chen",
+          "authorEntityId": "author:c17135ed536b1196",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zhitang Chen",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neural-symbolic"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-26",
+      "url": "https://arxiv.org/abs/2608.25291",
+      "pdfUrl": "https://arxiv.org/pdf/2608.25291",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.25291",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:26b19faef8c95826",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Yating Ling",
+        "Wenjing Cun",
+        "Zhitang Chen"
+      ],
+      "authorEntityIds": [
+        "author:55fe72d8d73ca4f9",
+        "author:d4406f386a7f864f",
+        "author:c17135ed536b1196"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Yating Ling",
+          "affiliations": []
+        },
+        {
+          "name": "Wenjing Cun",
+          "affiliations": []
+        },
+        {
+          "name": "Zhitang Chen",
           "affiliations": []
         }
       ]

@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-08-26T12:39:44.612Z",
-  "cursorAt": "2026-08-26T12:39:44.612Z",
+  "generatedAt": "2026-08-27T21:35:58.600Z",
+  "cursorAt": "2026-08-27T21:35:58.600Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-08-23T12:27:59.374Z",
   "keywords": [
@@ -15,11 +15,116 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-08-25T12:36:29.096Z",
-  "windowStart": "2026-08-18T12:36:29.096Z",
+  "previousSnapshotAt": "2026-08-26T12:39:44.612Z",
+  "windowStart": "2026-08-19T12:39:44.612Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2608.25667",
+    "title": "AI Slop and Hallucinations in Vulnerability Assessment: A Survey on Reasoning Failures and Trustworthy Mitigation",
+    "abstract": "The integration of Large Language Models (LLMs) into cybersecurity has transformed vulnerability assessment, but it has also produced a trustworthiness crisis driven by the unchecked proliferation of \"AI slop.\" These artifacts, hallucinated vulnerabilities, plausible but incorrect patches, and semantically repackaged bug reports, impose a cognitive burden on human triage pipelines that mirrors a denial-of-service attack. This paper surveys the empirical evidence, identifies a unifying mechanism, and traces a path toward trustworthy triage. We formalize a taxonomy of AI slop grounded in a structured literature review and dissect its root cause: the gap between the causal deductive reasoning of security experts and the autoregressive probabilistic generation of current LLMs. We operationalize this gap through a measurable proxy, the Deductive Coverage Score, and show that chain-of-thought prompting and tool-using agents narrow but do not close it. We review mitigation strategies and argue that passive detection and watermarking target provenance rather than correctness, facing fundamental entropy constraints. We instead advocate for active neuro-symbolic verification, mapping each pipeline component to prior systems with documented limits on security inputs. Finally, we specify two evaluation instruments, CVE-Bench and Slop-Score, including dataset construction, metric formulas, and anti-gaming provisions. By shifting evaluation from linguistic fluency to mathematical verifiability, this survey provides a roadmap for securing emerging AI-driven triage systems.",
+    "authors": [
+      "Junchen Ding",
+      "Jialiang Dong",
+      "Yichen Zhu",
+      "Yi Liu",
+      "Gelei Deng",
+      "Willy Susilo",
+      "Siqi Ma",
+      "Yuekang Li"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Junchen Ding",
+        "affiliations": []
+      },
+      {
+        "name": "Jialiang Dong",
+        "affiliations": []
+      },
+      {
+        "name": "Yichen Zhu",
+        "affiliations": []
+      },
+      {
+        "name": "Yi Liu",
+        "affiliations": []
+      },
+      {
+        "name": "Gelei Deng",
+        "affiliations": []
+      },
+      {
+        "name": "Willy Susilo",
+        "affiliations": []
+      },
+      {
+        "name": "Siqi Ma",
+        "affiliations": []
+      },
+      {
+        "name": "Yuekang Li",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-26",
+    "updated": "2026-08-26",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.CR",
+    "url": "https://arxiv.org/abs/2608.25667",
+    "pdfUrl": "https://arxiv.org/pdf/2608.25667",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.25291",
+    "title": "InsightSR: Refining Symbolic Regression Search Spaces via Parallel Semantic and Structural LLM Guidance",
+    "abstract": "Symbolic regression (SR) seeks to discover parsimonious mathematical laws from observational data, yet conventional approaches often struggle with the vast combinatorial search space of physically meaningful expressions. We present InsightSR, a framework that embeds Large Language Models (LLMs) as a guiding layer around the PySR genetic programming engine. Rather than relying on LLMs to generate expressions directly, InsightSR uses LLMs to progressively transform the search space itself through two complementary pathways: a Semantic Seed Pathway that proposes dimensionally consistent functional skeletons, and a Structural Feature Pathway that recommends nonlinear feature transformations. These transformations accumulate over iterations, broadening the input space and shifting the symbolic search from constructing deep expression trees over raw variables to assembling shallow trees over a rich, semantically informed feature set. A post-generation feedback loop evaluates candidates, categorizes features by their empirical utility, and refines the guidance for the next iteration, transforming the discovery process from open-ended generation into iterative, self-correcting refinement. Across three benchmarks, InsightSR achieves a 95% exact recovery rate on the Feynman benchmark and 80.18% accuracy on the LLM-SRBench LSR-Transform task, substantially outperforming state-of-the-art genetic programming and neural-symbolic methods while maintaining strong out-of-distribution generalization on real-world datasets.",
+    "authors": [
+      "Yating Ling",
+      "Wenjing Cun",
+      "Zhitang Chen"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Yating Ling",
+        "affiliations": []
+      },
+      {
+        "name": "Wenjing Cun",
+        "affiliations": []
+      },
+      {
+        "name": "Zhitang Chen",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-26",
+    "updated": "2026-08-26",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2608.25291",
+    "pdfUrl": "https://arxiv.org/pdf/2608.25291",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neural-symbolic"
+      ]
+    }
+  },
   {
     "id": "2608.24534",
     "title": "Neurosymbolic Alignment for Physiologically-Safe Clinical Language Models",
