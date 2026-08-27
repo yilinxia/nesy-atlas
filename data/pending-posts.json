@@ -1915,5 +1915,23 @@
     "sourceUrl": "https://www.kognitos.com/blog/",
     "discovered": "2026-08-26",
     "status": "needs-review"
+  },
+  {
+    "company": "expert.ai",
+    "title": "News 14 Jul 2026 Expert.ai Recognized as a Sample Vendor in the 2026 Gartner&reg; Hype Cycle&trade; for AI in Finance Read",
+    "date": "2026-07-14",
+    "url": "https://www.expert.ai/news/expert-ai-recognized-as-a-sample-vendor-in-the-2026-gartner-hype-cycle-for-ai-in-finance/",
+    "sourceUrl": "https://www.expert.ai/news-resources/",
+    "discovered": "2026-08-27",
+    "status": "needs-review"
+  },
+  {
+    "company": "expert.ai",
+    "title": "News 12 Jun 2026 Expert.ai Recognized as a Representative Vendor in the 2026 Gartner&reg; How to Enable Trustworthy, Explainable Agentic AI With Knowledge Graphs in Healthcare and Life Science Research Read",
+    "date": "2026-06-12",
+    "url": "https://www.expert.ai/news/expert-ai-recognized-as-a-representative-vendor-in-the-2026-gartner-how-to-enable-trustworthy-explainable-agentic-ai-with-knowledge-graphs-in-healthcare-and-life-science-research/",
+    "sourceUrl": "https://www.expert.ai/news-resources/",
+    "discovered": "2026-08-27",
+    "status": "needs-review"
   }
 ]
