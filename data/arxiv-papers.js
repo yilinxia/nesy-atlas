@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-08-27T21:35:58.600Z",
-  "cursorAt": "2026-08-27T21:35:58.600Z",
+  "generatedAt": "2026-08-28T21:39:34.488Z",
+  "cursorAt": "2026-08-28T21:39:34.488Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-08-23T12:27:59.374Z",
   "keywords": [
@@ -15,11 +15,300 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-08-26T12:39:44.612Z",
-  "windowStart": "2026-08-19T12:39:44.612Z",
+  "previousSnapshotAt": "2026-08-27T21:35:58.600Z",
+  "windowStart": "2026-08-20T21:35:58.600Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2608.26836",
+    "title": "SymbolLKG: Towards Verifiable Logical Reasoning via Logical Knowledge Graph and Symbolic Solvers",
+    "abstract": "Large Language Models (LLMs) have demonstrated remarkable proficiency in natural language understanding, yet they struggle with strict multi-step reasoning, frequently suffering from hallucinations and inconsistency. Existing solutions like Chain-of-Thought (CoT) lack rigorous verification mechanisms, while standard Retrieval-Augmented Generation (RAG) often misses the complex, structural dependencies inherent in logical tasks. To bridge this gap, we propose a Neuro-Symbolic architecture that integrates a Logical Knowledge Graph (LKG) with dynamic solver routing. Specifically, we introduce an ontology-based LKG that treats logical rules and constraints as first-class topological nodes, enabling explicit modeling of dependencies extracted from text. We further design a Logic Router to dynamically dispatch tasks to the optimal symbolic engine, which is supported by a topology-aware hybrid retrieval mechanism. Experimental results on logical reasoning benchmarks demonstrate that our framework significantly outperforms state-of-the-art prompting and RAG baselines, delivering higher accuracy and verifiable reasoning paths.",
+    "authors": [
+      "Haizhao Fan",
+      "Yuchi Xiong",
+      "Jize Wang",
+      "Xinping Guan",
+      "Xinyi Le"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Haizhao Fan",
+        "affiliations": []
+      },
+      {
+        "name": "Yuchi Xiong",
+        "affiliations": []
+      },
+      {
+        "name": "Jize Wang",
+        "affiliations": []
+      },
+      {
+        "name": "Xinping Guan",
+        "affiliations": []
+      },
+      {
+        "name": "Xinyi Le",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-27",
+    "updated": "2026-08-27",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2608.26836",
+    "pdfUrl": "https://arxiv.org/pdf/2608.26836",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.26588",
+    "title": "Unsaid, Unsafe? Implicit Security Obligations in LLM-Based RTL Code Generation",
+    "abstract": "Large Language Models (LLMs) generate register-transfer-level (RTL) code with rapidly improving functional correctness. Security of LLM-generated code, however, has been studied mainly for software, where flaws can still be patched after deployment. Insecure RTL offers no such remedy once taped out into silicon. We construct SECRTL-GEN, a multi-language resource-access security benchmark grounded in real SoC IP: 392 tasks over five CWE families and four HDLs (Verilog, SystemVerilog, VHDL, and Python), each with black-box functional and security testbenches. Functional specifications intentionally omit security obligations, matching how obligations are often kept out of functional docs in practice. An empirical study of five frontier LLMs shows a sharp gap: under vanilla prompts they pass functional tests in about 73-79% of cases but security tests in only 14-35%, and stronger functional models are not safer. Adding CWE knowledge raises security, while unaided self-thinking helps less and both security-oriented prompts cut functional pass rates, showing that the bottleneck is missing weakness awareness in the specification, not an inability to write defensive RTL. We present RTL-Obliger, a neuro-symbolic framework that infers these implicit obligations. An LLM extracts a functional-semantic graph from the specification; a symbolic engine then matches it against a CWE pattern ontology to surface mitigation-evidence gaps and signal-level obligations; the LLM finally revises RTL under those obligations in a functionality-preserving two-stage generation. Across five models and four languages, RTL-Obliger raises mean all-pass from 49.6-51.4% (SecV/RESCUE) to 61.6%, with higher security and functional rates than these secure-generation baselines.",
+    "authors": [
+      "Guang Yang",
+      "Xing Hu",
+      "Xiang Chen",
+      "Xin Xia"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Guang Yang",
+        "affiliations": []
+      },
+      {
+        "name": "Xing Hu",
+        "affiliations": []
+      },
+      {
+        "name": "Xiang Chen",
+        "affiliations": []
+      },
+      {
+        "name": "Xin Xia",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-27",
+    "updated": "2026-08-27",
+    "categories": [
+      "cs.CR",
+      "cs.SE"
+    ],
+    "primaryCategory": "cs.CR",
+    "url": "https://arxiv.org/abs/2608.26588",
+    "pdfUrl": "https://arxiv.org/pdf/2608.26588",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.26334",
+    "title": "ProofEvolve: Neuro-Symbolic Evolution for Formal Automated Theorem Proving",
+    "abstract": "Automated theorem proving offers a natural foundation for recursive self-improvement in scientific discovery. However, existing neural provers do not fully preserve this recursive structure, where the learning process should be self-improving over time. Existing methods either embed proof experience into model parameters through expensive weight updates, or keep verified intermediate deductions only within the current problem. In addition, these methods also heavily rely on sparse whole-proof feedback, even when unsuccessful partial attempts contain useful discoveries. To close the gap, we propose ProofEvolve, a neuro-symbolic framework that evolves explicit, formally verified symbolic proof structures with neural models to decisively expand the knowledge boundary. In this framework, the neural model proposes variation operators, including decompositions, repairs, and schema recombinations. The symbolic Lean kernel verifies every proof transition. Over the evolution loops, ProofEvolve computes verified closure over the resulting proof directed acyclic graphs (DAGs). Within each problem, ProofEvolve evolves partial AND-OR proof DAGs in a behaviorally indexed archive. Across problems, kernel-checked schema extraction adds newly proved sub-DAGs to a persistent schema library. Proof DAGs inherit the solved results through typed schema recombination, with every residual premise exposed as a new subgoal. This evolutionary process preserves verified results from incomplete attempts and makes them available for later proofs without weakening formal soundness. Across three competition-level Lean benchmarks, ProofEvolve achieves the highest average solve rate among the evaluated proof systems.",
+    "authors": [
+      "Wenqian Ye",
+      "Ziwei Guan",
+      "Eric Xie",
+      "Bohan Liu",
+      "Shivani Modi",
+      "Buyun Zhang",
+      "Ellie Dingqiao Wen",
+      "Henry Kautz",
+      "Aidong Zhang"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Wenqian Ye",
+        "affiliations": []
+      },
+      {
+        "name": "Ziwei Guan",
+        "affiliations": []
+      },
+      {
+        "name": "Eric Xie",
+        "affiliations": []
+      },
+      {
+        "name": "Bohan Liu",
+        "affiliations": []
+      },
+      {
+        "name": "Shivani Modi",
+        "affiliations": []
+      },
+      {
+        "name": "Buyun Zhang",
+        "affiliations": []
+      },
+      {
+        "name": "Ellie Dingqiao Wen",
+        "affiliations": []
+      },
+      {
+        "name": "Henry Kautz",
+        "affiliations": []
+      },
+      {
+        "name": "Aidong Zhang",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-26",
+    "updated": "2026-08-26",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2608.26334",
+    "pdfUrl": "https://arxiv.org/pdf/2608.26334",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.26329",
+    "title": "Neuro-symbolic PRM: Enhancing Scientific Reasoning via Structured Traces and Symbolic Verification",
+    "abstract": "While tool-augmented Large Language Models have significantly improved multi-step reasoning in quantitative STEM tasks, a critical residual failure mode remains: intermediate reasoning steps that are syntactically well-formed, mathematically executable, and unit-consistent, yet contextually ungrounded. Current approaches either rely on formal verifiers that cannot assess semantic intent, or burden Process Reward Models (PRMs) with the dual task of checking both arithmetic and logic. In this paper, we propose a neuro-symbolic framework that cleanly decouples reasoning into two formal dimensions: Symbolic Validity ($V$) and Semantic Groundedness ($G$). We guarantee $V$ by construction using a deterministic symbolic verifier acting as a hard filter. To assess $G$, we train a PRM conditionally on the verifier-accepted manifold. To train this PRM efficiently, we introduce Counterfactual Symbolic Perturbation (CSP), a novel data synthesis strategy that algorithmically generates constraint-preserving hard negatives (steps that perfectly pass the verifier but are logically flawed). At inference, we deploy a verifier-first constrained search that guarantees execution consistency for verifier-covered operations while relying on the PRM solely to rank semantic grounding. By targeting the exact residual error class of strong tool-using LLMs, our method significantly improves reasoning reliability without the sprawling heuristics of prior frameworks.",
+    "authors": [
+      "Yuxin Zi",
+      "Cong Xu",
+      "Suparna Bhattacharya",
+      "Martin Foltin",
+      "Amit Sheth"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Yuxin Zi",
+        "affiliations": []
+      },
+      {
+        "name": "Cong Xu",
+        "affiliations": []
+      },
+      {
+        "name": "Suparna Bhattacharya",
+        "affiliations": []
+      },
+      {
+        "name": "Martin Foltin",
+        "affiliations": []
+      },
+      {
+        "name": "Amit Sheth",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-26",
+    "updated": "2026-08-26",
+    "categories": [
+      "cs.CL"
+    ],
+    "primaryCategory": "cs.CL",
+    "url": "https://arxiv.org/abs/2608.26329",
+    "pdfUrl": "https://arxiv.org/pdf/2608.26329",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.26236",
+    "title": "6.5% of the Neuro-Symbolic Literature Can Be Reproduced from Its Published Artifacts, a Six-Stage Audit Framework and First Instantiation",
+    "abstract": "We present a six-stage framework for auditing the reproducibility of scientific claims across a research literature within the computer science domain, and instantiate our framework for the neuro-symbolic AI (NSAI) subdomain. Instantiating the framework on the NSAI subdomain produced a multi-year audit. Stage one retrieved 5,497 records and removed 3,018 duplicates. Stage two screened the 2,479 unique records at title and abstract, identifying 1,365 self-identified NSAI records, then removed a further 61 at full text for off-topic, non-research, no-quantitative-evaluation, or inaccessible-full-text reasons. Stage three sought a verifiable public code artifact for each of the 1,304 eligible records and found none for 849, leaving 455 to enter the artifact inventory and bounded rerun of stages four and five. We fully or partially reproduced 85 studies, 6.52% of the eligible corpus and 18.68% of attempted reruns. We found that 321 attempted reruns were blocked by missing non- code artifacts and 42 by missing or unusable code repositories. These figures quantify a persistent reproducibility deficit that survives even nominal \"code available\" declarations, and signal the need for enforced, versioned, and permanently archived artifact bundles in future NSAI publications. We argue that empirical NSAI papers should be required at submission time to provide complete, versioned, and permanently archived artifact bundles.",
+    "authors": [
+      "Brandon Colelough",
+      "Vladimir Martirosyan",
+      "Ishan Tamrakar",
+      "William Regli",
+      "Aditya Kumar",
+      "Anh N. Nhu",
+      "Dhruv Dubey",
+      "Raj Ambavane",
+      "Haowei Deng"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Brandon Colelough",
+        "affiliations": []
+      },
+      {
+        "name": "Vladimir Martirosyan",
+        "affiliations": []
+      },
+      {
+        "name": "Ishan Tamrakar",
+        "affiliations": []
+      },
+      {
+        "name": "William Regli",
+        "affiliations": []
+      },
+      {
+        "name": "Aditya Kumar",
+        "affiliations": []
+      },
+      {
+        "name": "Anh N. Nhu",
+        "affiliations": []
+      },
+      {
+        "name": "Dhruv Dubey",
+        "affiliations": []
+      },
+      {
+        "name": "Raj Ambavane",
+        "affiliations": []
+      },
+      {
+        "name": "Haowei Deng",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-26",
+    "updated": "2026-08-26",
+    "categories": [
+      "cs.AI",
+      "cs.SE"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2608.26236",
+    "pdfUrl": "https://arxiv.org/pdf/2608.26236",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2608.25667",
     "title": "AI Slop and Hallucinations in Vulnerability Assessment: A Survey on Reasoning Failures and Trustworthy Mitigation",
