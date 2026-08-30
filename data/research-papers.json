@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T16:04:13.005Z",
+  "generatedAt": "2026-08-30T15:53:24.481Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -48630,6 +48630,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:5f24533bc114d628",
+        "name": "Rongfang Bie",
+        "aliases": [
+          "Rongfang Bie"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:6aa5ed5baef6f2dc",
         "name": "Rongge Xu",
         "aliases": [
@@ -58581,15 +58590,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:cc6237e8f528c11b",
-        "name": "Xin Xu",
-        "aliases": [
-          "Xin Xu"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:b81b2984111f087d",
         "name": "Xin Yan",
         "aliases": [
@@ -61133,6 +61133,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:ae0a243028cc7572",
+        "name": "Yong Zhao",
+        "aliases": [
+          "Yong Zhao"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:b1b0f7e5530be527",
         "name": "Yong-Jie Li",
         "aliases": [
@@ -61237,6 +61246,15 @@
         "institutionIds": [
           "institution:5c85faa51cc57a24"
         ]
+      },
+      {
+        "id": "author:593827d8b11d004f",
+        "name": "Yongqi Kang",
+        "aliases": [
+          "Yongqi Kang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:53df0b79de89d27b",
@@ -61525,6 +61543,15 @@
           "institution:f0727e8bcee3561f",
           "institution:fccd5d0ac9cc52f9"
         ]
+      },
+      {
+        "id": "author:b3c8dee0b7dd8bf3",
+        "name": "Yu Fu",
+        "aliases": [
+          "Yu Fu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:e07d8ca970e798d4",
@@ -102163,7 +102190,7 @@
     {
       "id": "2605.28739",
       "title": "BIRDNet: Mining and Encoding Boolean Implication Knowledge Graphs as Interpretable Deep Neural Networks",
-      "abstract": "Tabular data in knowledge-rich domains often carries a latent prior in the form of Boolean implication relationships (BIRs) between pairs of features. We mine such relationships with a sparse-exception binomial test. The mined implications form a typed directed graph, equivalent to a propositional rule base of 2-literal clauses. We encode this graph as the connectivity of a layered neural network, called BIRDNet, in which each hidden unit corresponds to one mined rule and binds only to its two features. We show two consequences of this design: First, the architecture is sparse by construction: at most $2/d$ of the weights in each BIR layer are active, where $d$ is the input dimension. Second, the model is interpretable: every trained unit keeps a stable symbolic identity, so rules can be read off the network without surrogate models. Unlike most neurosymbolic models, BIRDNet does not consume an external rule base; its structural prior is mined from the data. We evaluate BIRDNet on six transcriptomic and proteomic benchmarks. Our results show that BIRDNet stays within 0.02 AUROC of the strongest dense baseline, at a small accuracy cost, while using up to $96\\times$ fewer active parameters than an architecture-matched dense MLP. First-layer rules recover known biological signatures across multiple cancer subtypes and tissue types, including canonical amplicons, lineage-defining co-expression modules, and immune-infiltration markers. Data and code are available at: https://github.com/MAHI-Group/BIRDNet.",
+      "abstract": "Tabular data in knowledge-rich domains often carries a latent prior in the form of Boolean implication relationships (BIRs) between pairs of features. We mine such relationships with a sparse-exception binomial test. We encode the resulting typed graph as the connectivity of a layered neural network, called BIRDNet, in which each hidden unit corresponds to one mined rule and binds only to its two features. We show two consequences of this design: First, the architecture is sparse: at most $2/d$ of the weights in each BIR layer are active, where $d$ is the input dimension. Second, the model is intrinsically interpretable: every trained unit keeps a stable symbolic identity, so rules can be read off the network without surrogate models. Unlike most neurosymbolic models, BIRDNet does not consume an external rule base; its structural prior is mined from the data. We evaluate BIRDNet on six transcriptomic and proteomic benchmarks. Our results show that BIRDNet stays within $0.02$ AUROC of the strongest dense baseline, while using up to $95\\times$ fewer active parameters than an architecture-matched dense MLP. First-layer rules align with known biological signatures across multiple cancer subtypes and tissue types. Matched-topology controls show that the mined graph contributes symbolic meaning rather than predictive advantage: shuffled or random pairings match or improve AUROC but no longer correspond to mined implications. Data and code are available at: https://github.com/MAHI-Group/BIRDNet.",
       "authors": [
         "Tirtharaj Dash"
       ],
@@ -127025,8 +127052,8 @@
     },
     {
       "id": "2603.27204",
-      "title": "\"Elementary, My Dear Watson.\" Detecting Malicious Skills via Neuro-Symbolic Reasoning across Heterogeneous Artifacts",
-      "abstract": "Skills are increasingly used to extend LLM agents by packaging prompts, code, and configurations into reusable modules. As public registries and marketplaces expand, they form an emerging agentic supply chain, but also introduce a new attack surface for malicious skills. Detecting malicious skills is challenging because relevant evidence is often distributed across heterogeneous artifacts and must be reasoned in context. Existing static, LLM-based, and dynamic approaches each capture only part of this problem, making them insufficient for robust real-world detection. In this paper, we present MalSkills, a neuro-symbolic framework for malicious skills detection. MalSkills first extracts security-sensitive operations from heterogeneous artifacts through a combination of symbolic parsing and LLM-assisted semantic analysis. It then constructs the skill dependency graph that links artifacts, operations, operands, and value flows across the skill. On top of this graph, MalSkills performs neuro-symbolic reasoning to infer malicious patterns or previously unseen suspicious workflows. We evaluate MalSkills on a benchmark of 200 real-world skills against 5 state-of-the-art baselines. MalSkills achieves 93% F1, outperforming the baselines by 5~87 percentage points. We further apply MalSkills to analyze 150,108 skills collected from 7 public registries, revealing 620 malicious skills. As for now, we have finished reviewing 100 of them and identified 76 previously unknown malicious skills, all of which were responsibly reported and are currently awaiting confirmation from the platforms and maintainers. These results demonstrate the potential of MalSkills in securing the agentic supply chain.",
+      "title": "MalSkills: Detecting Malicious Skills in the Agentic Supply Chain via Neuro-symbolic Reasoning",
+      "abstract": "Skills are increasingly used to extend LLM agents by packaging prompts, code, and configurations into reusable modules. As public registries and marketplaces expand, they form an emerging agentic supply chain, but also introduce a new attack surface for malicious skills. Detecting malicious skills is challenging because relevant evidence is often distributed across heterogeneous artifacts and must be reasoned in context. Existing static, LLM-based, and dynamic approaches each capture only part of this problem, making them insufficient for robust real-world detection. In this paper, we present MalSkills, a neuro-symbolic framework for malicious skills detection. MalSkills first extracts security-sensitive operations from heterogeneous artifacts through a combination of symbolic parsing and LLM-assisted semantic analysis. It then constructs the skill dependency graph that links artifacts, operations, operands, and value flows across the skill. On top of this graph, MalSkills performs neuro-symbolic reasoning to infer malicious patterns or previously unseen suspicious workflows. We evaluate MalSkills on a benchmark of 200 real-world skills against 5 state-of-the-art baselines. MalSkills achieves 93% F1, outperforming the baselines by 5--87 percentage points. We further apply MalSkills to analyze 150,108 skills collected from 7 public registries, flagging 620 potentially malicious skills. Through manual review, we confirm that 400 of them are indeed malicious, all of which were responsibly reported and are currently awaiting confirmation from the platforms and maintainers. These results demonstrate the practical potential of MalSkills in securing the agentic supply chain.",
       "authors": [
         "Shenao Wang",
         "Junjie He",
@@ -139932,8 +139959,8 @@
     },
     {
       "id": "2602.23553",
-      "title": "LE-NeuS: Latency-Efficient Neuro-Symbolic Video Understanding via Adaptive Temporal Verification",
-      "abstract": "Neuro-symbolic approaches to long-form video question answering (LVQA) have demonstrated significant accuracy improvements by grounding temporal reasoning in formal verification. However, existing methods incur prohibitive latency overheads, up to 90x slower than base VLM prompting, rendering them impractical for latency-sensitive edge deployments. We present LE-NeuS, a latency-efficient neuro-symbolic framework that preserves the accuracy benefits of temporal logic-guided video understanding while drastically reducing inference latency. Our key insight is that the dominant computational bottleneck arises from sequential and dense proposition detection across video frames during automaton construction. We address this through two principled optimizations: (1) CLIP guided two-stage adaptive sampling that exploits visual redundancy to skip semantically similar frames while preserving temporal boundaries, and (2) batched proposition detection that parallelizes VLM inference across temporal windows. Theoretically, we derive latency bounds as a function of video length, proposition complexity, and sampling density, establishing conditions under which latency efficiency is achievable. Empirically, on LongVideoBench and Video-MME benchmarks deployed on NVIDIA H100 GPUs, LE-NeuS reduces the latency gap from 90x to approximately 10x while maintaining >10% accuracy gains on temporally complex queries.",
+      "title": "RT-NeuS: Towards Real-Time Neuro-Symbolic Video Understanding via Adaptive Temporal Verification",
+      "abstract": "Long-form video question answering (LVQA) requires answering natural-language queries about videos spanning minutes to hours, demanding temporal reasoning across thousands of frames. Standard vision-language models (VLMs) struggle with this task: their fixed frame budgets force aggressive downsampling that misses the temporal structure that complex queries depend on. Neuro-symbolic approaches address this by decomposing queries into atomic propositions, translating them into temporal logic specifications, and applying formal model checking to retrieve segments satisfying the specification. This yields up to 10% higher accuracy on temporally complex benchmarks, with interpretability and formal guarantees. However, constructing the video automaton requires grounding every proposition at every frame window via VLM calls, resulting in up to 130x slower inference than standard VLM prompting. We present RT-NeuS, a framework that preserves the accuracy and formal guarantees of temporal-logic-guided LVQA while closing this latency gap. RT-NeuS introduces coarse-to-fine adaptive sampling to identify the small set of query-relevant, visually distinct frames, and batched proposition detection with KV-cache reuse to evaluate all propositions per window in a single forward pass. We derive latency upper bounds as a function of video length, proposition count, and sampling density. Experiments on LongVideoBench, Video-MME, and MLVU reduce inference latency by up to 13x on a single NVIDIA H200 GPU, while matching or exceeding prior neuro-symbolic accuracy.",
       "authors": [
         "Shawn Liang",
         "Sahil Shah",
@@ -140079,6 +140106,14 @@
           "affiliationEntityIds": [],
           "rawName": "SP Sharan",
           "rawAffiliations": []
+        },
+        {
+          "name": "S P Sharan",
+          "authorEntityId": "author:db19b07a972a4f75",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "S P Sharan",
+          "rawAffiliations": []
         }
       ],
       "authorIds": [],
@@ -140206,6 +140241,10 @@
         },
         {
           "name": "SP Sharan",
+          "affiliations": []
+        },
+        {
+          "name": "S P Sharan",
           "affiliations": []
         }
       ]
@@ -169967,8 +170006,8 @@
     },
     {
       "id": "2511.04124",
-      "title": "Decomposable Neuro Symbolic Regression",
-      "abstract": "Symbolic regression (SR) models complex systems by discovering mathematical expressions that capture underlying relationships in observed data. However, most SR methods prioritize minimizing prediction error over identifying the governing equations, often producing overly complex or inaccurate expressions. To address this, we present a decomposable SR method that generates interpretable multivariate expressions leveraging transformer models, genetic algorithms (GAs), and genetic programming (GP). In particular, our explainable SR method distills a trained ``opaque'' regression model into mathematical expressions that serve as explanations of its computed function. Our method employs a Multi-Set Transformer to generate multiple univariate symbolic skeletons that characterize how each variable influences the opaque model's response. We then evaluate the generated skeletons' performance using a GA-based approach to select a subset of high-quality candidates before incrementally merging them via a GP-based cascade procedure that preserves their original skeleton structure. The final multivariate skeletons undergo coefficient optimization via a GA. We evaluated our method on problems with controlled and varying degrees of noise, demonstrating lower or comparable interpolation and extrapolation errors compared to two GP-based methods, three neural SR methods, and a hybrid approach. Unlike them, our approach consistently learned expressions that matched the original mathematical structure. Similarly, our method achieved both a high symbolic solution recovery rate and competitive predictive performance relative to benchmark methods on the Feynman dataset.",
+      "title": "Decomposable Neural Symbolic Regression",
+      "abstract": "Symbolic regression (SR) models complex systems by discovering mathematical expressions that capture underlying relationships in observed data. However, most SR methods prioritize minimizing prediction error over identifying the governing equations, often producing overly complex or inaccurate expressions. To address this, we present a decomposable SR method that generates interpretable multivariate expressions leveraging transformer models, genetic algorithms (GAs), and genetic programming (GP). In particular, our explainable SR method distills a trained \"opaque'' regression model into mathematical expressions that serve as explanations of its computed function. Our method employs a Multi-Set Transformer to generate multiple univariate symbolic skeletons that characterize how each variable influences the opaque model's response. We then evaluate the generated skeletons' performance using a GA-based approach to select a subset of high-quality candidates before incrementally merging them via a GP-based cascade procedure that preserves their original skeleton structure. The final multivariate skeletons undergo coefficient optimization via a GA. We evaluated our method on problems with controlled and varying degrees of noise, demonstrating lower or comparable interpolation and extrapolation errors compared to two GP-based methods, three neural SR methods, and a hybrid approach. Unlike these methods, our approach consistently learned expressions that matched the original mathematical structure. Similarly, our method achieved both a high symbolic solution recovery rate and competitive predictive performance relative to benchmark methods on the Feynman dataset.",
       "authors": [
         "Giorgio Morales",
         "John W Sheppard"
@@ -170008,7 +170047,8 @@
         "Montana State University"
       ],
       "keywords": [
-        "neuro symbolic"
+        "neuro symbolic",
+        "neural symbolic"
       ],
       "categories": [
         "cs.LG"
@@ -208200,7 +208240,7 @@
     {
       "id": "2505.14479",
       "title": "A Neuro-Symbolic Approach for Reliable Proof Generation with LLMs: A Case Study in Euclidean Geometry",
-      "abstract": "Large language models (LLMs) struggle with formal domains that require rigorous logical deduction and symbolic reasoning, such as mathematical proof generation. We propose a neuro-symbolic approach that combines LLMs' generative strengths with structured components to overcome this challenge. As a proof of concept, we focus on SAT-level geometry problems. Our approach is two-fold: (1) We retrieve analogous problems and use their proofs to guide the LLM, and (2) a formal verifier evaluates the generated proofs and provides feedback, helping the model fix incorrect proofs. Our method significantly improves proof accuracy across diverse model families, achieving significant gains across all evaluated models: OpenAI o1, GPT-5, Gemini-Flash-2.5, and Claude Sonnet 4.6. Accuracy increases from 10% to 44% for the base models to 68% to 96% with our approach, with both analogous problem guidance and verifier feedback contributing to these improvements. More broadly, shifting to LLMs that generate provably correct conclusions has the potential to dramatically improve their reliability, accuracy and consistency, unlocking complex tasks and critical real-world applications that require trustworthiness.",
+      "abstract": "Large language models (LLMs) struggle with formal domains that require rigorous logical deduction and symbolic reasoning, such as mathematical proof generation. We propose a neuro-symbolic approach that combines LLMs' generative strengths with structured components to overcome this challenge. As a proof-of-concept, we focus on SAT-level geometry problems. Our approach is two-fold: (1) We retrieve analogous problems and use their proofs to guide the LLM, and (2) a formal verifier evaluates the generated proofs and provides feedback, helping the model fix incorrect proofs. Our complete pipeline substantially improves proof accuracy across model families, achieving 68%-96% accuracy compared with 10%-44% for LLM-only baselines that use neither analogy retrieval nor verifier feedback. When comparing against models with the same verifier feedback and inference budget, adding analogy retrieval still improves accuracy from 88% to 96% for GPT-5, 78% to 86% for Claude Sonnet 4.6, 72% to 86% for Gemini-Flash-2.5, and 52% to 80% for OpenAI o1. More broadly, shifting to LLMs that generate provably correct conclusions has the potential to dramatically improve their reliability, accuracy and consistency, unlocking complex tasks and critical real-world applications that require trustworthiness.",
       "authors": [
         "Oren Sultan",
         "Eitan Stern",
@@ -359373,69 +359413,6 @@
       ]
     },
     {
-      "id": "2608.10420",
-      "title": "Reasoning Shortcuts and Value Symmetries: What Symmetry Permits, Architecture Realizes, and Optimization Selects",
-      "abstract": "Reasoning shortcuts are solutions of a neurosymbolic system's rules that produce correct predictions through unintended concepts. A recent framework of Takemura, Inoue, and Nishino analyzes them through an automorphism group of value relabelings and asks, as its central open question, when rules pin concepts down. We first show that the framework's key definition, one shared permutation applied at every position, does not apply as stated to any of the four heterogeneous benchmarks it was evaluated on, and that the most direct embedding, padding domains to a common size, produces confident false pathology: 90.91% of solution pairs reported unexplained on CLE4EVR, where every well-defined member of the hierarchy we introduce reports 0%, and the padded verdict's content rotates with configuration-file ordering. Re-measuring eleven rule families under fifteen pre-specified predictions (thirteen confirmed), unexplained-pair rates span 0% to 99.9999% and track provable structure: six theorems give sufficient conditions for transitivity and its failure, including a Free Slot Lemma certifying Kandinsky's pathology from syntax alone. For circuit-given rules, deciding symmetry-inertness of a coordinate is coNP-complete; nontrivial-automorphism existence is coNP-hard under randomized reductions, lies in $Σ_2^p$, is not $Σ_2^p$-complete unless PH collapses, and on monotone circuits is coNP-complete outright. In the Boolean case transitivity is classified exactly: automorphisms explain everything iff the solution set is an affine coset. Weakly supervised models place all 94 observed shortcuts at the one level the componentwise theory flags and none at the 48 it certifies transitive; twelve typed-ambiguous levels produce none, separating what symmetry permits from what optimization selects, and a dual-head control replicates the geography. All numbers trace to released artifacts.",
-      "authors": [
-        "Xin Xu"
-      ],
-      "authorAffiliations": [
-        {
-          "name": "Xin Xu",
-          "authorEntityId": "author:cc6237e8f528c11b",
-          "affiliations": [],
-          "affiliationEntityIds": [],
-          "rawName": "Xin Xu",
-          "rawAffiliations": []
-        }
-      ],
-      "authorIds": [],
-      "affiliations": [],
-      "keywords": [
-        "neurosymbolic"
-      ],
-      "categories": [
-        "cs.AI"
-      ],
-      "venue": "arXiv",
-      "conference": "",
-      "year": 2026,
-      "published": "2026-08-11",
-      "url": "https://arxiv.org/abs/2608.10420",
-      "pdfUrl": "https://arxiv.org/pdf/2608.10420",
-      "doi": "",
-      "doiUrl": "",
-      "arxivId": "2608.10420",
-      "primaryArea": "",
-      "paperType": "",
-      "tldr": "",
-      "award": "",
-      "sourceType": "arxiv",
-      "sourceIds": [
-        "arxiv-keywords"
-      ],
-      "resolutionStatus": "source-pdf",
-      "resolutionMethod": "",
-      "resolvedArxivUrl": "",
-      "metadataComplete": false,
-      "extractionStatus": "not-extracted",
-      "entityId": "paper:d24b3276b408c5df",
-      "rawAffiliations": [],
-      "affiliationEntityIds": [],
-      "rawAuthors": [
-        "Xin Xu"
-      ],
-      "authorEntityIds": [
-        "author:cc6237e8f528c11b"
-      ],
-      "rawAuthorAffiliations": [
-        {
-          "name": "Xin Xu",
-          "affiliations": []
-        }
-      ]
-    },
-    {
       "id": "2608.10213",
       "title": "VeriFin: A Neurosymbolic Framework for Verifying LLM-Generated Financial Claims",
       "abstract": "Large language models often produce plausible numerical claims from financial filings while using the wrong reporting period, unit, line item, or formula. Verifying such claims requires more than rechecking arithmetic: a verifier must ground the relevant facts, establish the authorized calculation, and determine whether the candidate value follows from both. We propose VeriFin, a neurosymbolic verification framework for numerical financial question answering that grounds operands in filed XBRL facts, derives calculations from the question, filing linkbases, or documented metric definitions, and checks claims using Z3. When a claim is inconsistent, solver-derived unsatisfiable cores identify the conflicting facts, formula, and candidate value, enabling targeted repair. We evaluate VeriFin on XBRLFiling, a new 600-question benchmark constructed from 10-K filings of 28 U.S. companies, and on FinanceBench. On fixed candidate pools shared by all verification methods, VeriFin accepts none of the incorrect claims, whereas the baselines accept 6 to 92 incorrect claims on XBRLFiling's 600 claims and 4 to 21 incorrect claims on FinanceBench's 67 claims. The zero false-accept result persists across multiple answer-generator models. Solver-derived feedback further improves repair, achieving up to 69.9% recovery among true catches. These results show that source-grounded symbolic verification can provide a reliable and auditable acceptance control for LLM-generated financial claims.",
@@ -364521,6 +364498,114 @@
         },
         {
           "name": "Haowei Deng",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.26107",
+      "title": "EduRiskX: A Neuro-Symbolic Framework with F-Logic Reasoning for Early Academic Risk Prediction",
+      "abstract": "Predicting students' academic risk in online education is crucial for enabling timely interventions that can improve retention and learning outcomes. However, existing models often suffer from limited early detection capability and insufficient interpretability, leading to a \"black-box\" trust crisis that hinders their adoption in real-world pedagogical settings. To address these challenges, we propose EduRiskX, a neuro-symbolic framework that integrates a temporal Transformer-based predictor with F-Logic symbolic reasoning. The neural component models longitudinal student activity sequences using temporal attention, class-weighted loss, and dynamic weekly truncation. Acting as a data-driven expert system, an F-Logic rule base -- grounded in established educational theories (Engagement Theory and Student Integration Model) to mimic the diagnostic logic of human educators -- is constructed exclusively from the training data. The neural risk probability and the symbolic confidence score are then combined through a logistic regression-based fusion mechanism that learns the relative contribution of each signal. Experiments on the Open University Learning Analytics Dataset (OULAD) using a strict 80/10/10 student-level split show that EduRiskX achieves an accuracy of 0.900 and an F1-score of 0.894 at the end of the semester (Week 38), with an average early detection week of 9.32 and a detection rate of 94.30 percent. Compared with state-of-the-art time-series models (PatchTST, iTransformer) and common deep learning baselines (LSTM, CNN), EduRiskX yields improved recall and earlier risk identification under identical conditions. Beyond predictive performance, the F-Logic module provides structured rule-based explanations linking predictions to observable behavioral patterns and educational theories.",
+      "authors": [
+        "Yu Fu",
+        "Yongqi Kang",
+        "Yong Zhao",
+        "Rongfang Bie"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Yu Fu",
+          "authorEntityId": "author:b3c8dee0b7dd8bf3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yu Fu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yongqi Kang",
+          "authorEntityId": "author:593827d8b11d004f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yongqi Kang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yong Zhao",
+          "authorEntityId": "author:ae0a243028cc7572",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yong Zhao",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Rongfang Bie",
+          "authorEntityId": "author:5f24533bc114d628",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Rongfang Bie",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-05-12",
+      "url": "https://arxiv.org/abs/2608.26107",
+      "pdfUrl": "https://arxiv.org/pdf/2608.26107",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.26107",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:50ccf40d2c5e5abd",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Yu Fu",
+        "Yongqi Kang",
+        "Yong Zhao",
+        "Rongfang Bie"
+      ],
+      "authorEntityIds": [
+        "author:b3c8dee0b7dd8bf3",
+        "author:593827d8b11d004f",
+        "author:ae0a243028cc7572",
+        "author:5f24533bc114d628"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Yu Fu",
+          "affiliations": []
+        },
+        {
+          "name": "Yongqi Kang",
+          "affiliations": []
+        },
+        {
+          "name": "Yong Zhao",
+          "affiliations": []
+        },
+        {
+          "name": "Rongfang Bie",
           "affiliations": []
         }
       ]
