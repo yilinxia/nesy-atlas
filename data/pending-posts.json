@@ -1933,5 +1933,14 @@
     "sourceUrl": "https://www.expert.ai/news-resources/",
     "discovered": "2026-08-27",
     "status": "needs-review"
+  },
+  {
+    "company": "CogniSwitch",
+    "title": "How to operationalize a context graph ANALYSIS",
+    "date": "2026-08-30",
+    "url": "https://cogniswitch.ai/blog/how-to-operationalize-a-context-graph",
+    "sourceUrl": "https://cogniswitch.ai/signal",
+    "discovered": "2026-08-30",
+    "status": "needs-review"
   }
 ]
