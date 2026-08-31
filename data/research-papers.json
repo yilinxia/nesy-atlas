@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T15:53:24.481Z",
+  "generatedAt": "2026-08-31T18:37:12.671Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1762,
+  "paperCount": 1764,
   "completeMetadataCount": 1374,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1457
+      "count": 1459
     },
     {
       "id": "nesy-proceedings",
@@ -11561,6 +11561,17 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:556024ebbe9f0f08"
+        ]
+      },
+      {
+        "id": "author:bb0c3d3ad263b425",
+        "name": "Wei Chen",
+        "aliases": [
+          "Wei Chen"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:e433baf78e80004b"
         ]
       },
       {
@@ -32335,6 +32346,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:8b009637fa411d1b",
+        "name": "Jiarun Fan",
+        "aliases": [
+          "Jiarun Fan"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:09b4b61a4f999854",
         "name": "Jiashu Zhang",
         "aliases": [
@@ -33382,6 +33402,15 @@
         ]
       },
       {
+        "id": "author:a51f6dbff3161d07",
+        "name": "Jiwen Feng",
+        "aliases": [
+          "Jiwen Feng"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:6b26a139c14c3085",
         "name": "Jiyao Zhang",
         "aliases": [
@@ -34278,6 +34307,15 @@
         "institutionIds": [
           "institution:9a63f2a219957d52"
         ]
+      },
+      {
+        "id": "author:92385c51d3d6f469",
+        "name": "Judy Song",
+        "aliases": [
+          "Judy Song"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:9ddddd122414e3df",
@@ -41047,6 +41085,15 @@
         ]
       },
       {
+        "id": "author:10394201d9c799e1",
+        "name": "Mengchen Qian",
+        "aliases": [
+          "Mengchen Qian"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:b43ddd3c035aa12b",
         "name": "Mengjie Mao",
         "aliases": [
@@ -41972,6 +42019,15 @@
         "institutionIds": [
           "institution:9d6de1abb22031d1"
         ]
+      },
+      {
+        "id": "author:6a157203f2409e6d",
+        "name": "Mingcong Xu",
+        "aliases": [
+          "Mingcong Xu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:52bcf2471af21290",
@@ -48720,6 +48776,15 @@
         ]
       },
       {
+        "id": "author:b22bb5473e43503c",
+        "name": "Rory Hu",
+        "aliases": [
+          "Rory Hu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:07f7efc2db89f514",
         "name": "Rory Ward",
         "aliases": [
@@ -49948,6 +50013,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:e2b63f6d3d7f0fe9",
+        "name": "Samuel Xiao",
+        "aliases": [
+          "Samuel Xiao"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:b654ad7c9818d4cf",
         "name": "Samyak Jain",
         "aliases": [
@@ -50946,6 +51020,15 @@
         "name": "Shanliang Yao",
         "aliases": [
           "Shanliang Yao"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:67e59ce049237f06",
+        "name": "Shanqing Xu",
+        "aliases": [
+          "Shanqing Xu"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -56818,17 +56901,6 @@
         ]
       },
       {
-        "id": "author:bb0c3d3ad263b425",
-        "name": "Wei Chen",
-        "aliases": [
-          "Wei Chen"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:e433baf78e80004b"
-        ]
-      },
-      {
         "id": "author:c6fdc3d1582899dc",
         "name": "Wei Chong Ng",
         "aliases": [
@@ -58323,6 +58395,15 @@
         ]
       },
       {
+        "id": "author:bb0e0a76109af9c9",
+        "name": "Xiaojin Zhang",
+        "aliases": [
+          "Xiaojin Zhang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:aab97c32133b1395",
         "name": "Xiaojing Du",
         "aliases": [
@@ -59706,6 +59787,15 @@
         ]
       },
       {
+        "id": "author:b4ef61a3aebac9f0",
+        "name": "Yangxiao Jiang",
+        "aliases": [
+          "Yangxiao Jiang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:3fb53403202122f7",
         "name": "Yanheng Li",
         "aliases": [
@@ -59864,6 +59954,15 @@
         "institutionIds": [
           "institution:7417258b2e3d3491"
         ]
+      },
+      {
+        "id": "author:827677300d26eecd",
+        "name": "Yanxi Guo",
+        "aliases": [
+          "Yanxi Guo"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:996128ff7569e5d9",
@@ -64912,6 +65011,15 @@
         "institutionIds": [
           "institution:6be66a5d1c865f00"
         ]
+      },
+      {
+        "id": "author:4920b136345d621f",
+        "name": "Ziliang Zong",
+        "aliases": [
+          "Ziliang Zong"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:246dbe7ff1f950cc",
@@ -364606,6 +364714,298 @@
         },
         {
           "name": "Rongfang Bie",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.28481",
+      "title": "NL2AGBench: Benchmarking LLM Auto-Formalization for AlphaGeometry",
+      "abstract": "Recent advances in large language models (LLMs) have demonstrated strong capabilities in natural language understanding and mathematical reasoning. However, their ability to translate informal mathematical problems into formal representations remains underexplored. This limitation is particularly important for neuro-symbolic geometry systems such as AlphaGeometry, whose theorem-proving engine requires inputs in a specialized domain-specific language (DSL). Although AlphaGeometry achieves near-IMO gold-medalist performance, manually converting natural-language problems into its formal syntax remains a significant usability bottleneck. To address this challenge, we introduce the Natural Language to AlphaGeometry Benchmark (NL2AGBench), which evaluates LLMs in translating English geometry problems into AlphaGeometry-compatible formal representations. NL2AGBench uses execution-based verification within AlphaGeometry to assess translation quality rather than relying solely on textual similarity. We evaluate ten state-of-the-art open- and closed-source LLMs across multiple parameter scales and analyze executable translation accuracy, syntactic correctness, and error characteristics. Our experiments reveal a substantial performance gap between closed- and open-source models: leading closed-source models achieve executable translation rates above 80%, while even the largest open-source models struggle to consistently preserve geometric constraints and produce valid formalizations. We introduce an error taxonomy distinguishing syntax and logic errors and investigate mitigation strategies, including few-shot prompting, fine-tuning, and human-guided hinting, which yield measurable improvements across multiple model families.",
+      "authors": [
+        "Samuel Xiao",
+        "Judy Song",
+        "Rory Hu",
+        "Ziliang Zong"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Samuel Xiao",
+          "authorEntityId": "author:e2b63f6d3d7f0fe9",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Samuel Xiao",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Judy Song",
+          "authorEntityId": "author:92385c51d3d6f469",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Judy Song",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Rory Hu",
+          "authorEntityId": "author:b22bb5473e43503c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Rory Hu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ziliang Zong",
+          "authorEntityId": "author:4920b136345d621f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ziliang Zong",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-28",
+      "url": "https://arxiv.org/abs/2608.28481",
+      "pdfUrl": "https://arxiv.org/pdf/2608.28481",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.28481",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:202c39a41caf0cc0",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Samuel Xiao",
+        "Judy Song",
+        "Rory Hu",
+        "Ziliang Zong"
+      ],
+      "authorEntityIds": [
+        "author:e2b63f6d3d7f0fe9",
+        "author:92385c51d3d6f469",
+        "author:b22bb5473e43503c",
+        "author:4920b136345d621f"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Samuel Xiao",
+          "affiliations": []
+        },
+        {
+          "name": "Judy Song",
+          "affiliations": []
+        },
+        {
+          "name": "Rory Hu",
+          "affiliations": []
+        },
+        {
+          "name": "Ziliang Zong",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.27984",
+      "title": "When Evidence Shapes Collaboration: Knowledge-Conditioned Topology Generation for Multi-Agent Systems",
+      "abstract": "Multi-Agent Systems (MAS) have recently moved from static workflows toward dynamically generated collaboration topologies. However, existing topology generation methods rely primarily on the parametric knowledge of large language models, with external search or retrieval used only as a reactive tool rather than an explicit determinant of collaboration structure. This leads to structure-knowledge misalignment, where systems exhibit redundant interactions or insufficient verification in knowledge-intensive tasks. We propose K-GAT (Knowledge-Guided Agent Topology Generator), a neuro-symbolic framework that formulates collaboration topology design as a knowledge-conditioned structure learning problem, integrating external evidence directly into autoregressive graph generation. Extensive experiments on knowledge-intensive benchmarks demonstrate K-GAT's efficiency and effectiveness: notably on the expert-level GPQA dataset, K-GAT outperforms the LLM-Debate baseline by a substantial margin of +15.7% in accuracy, while consuming less than half the computational tokens.",
+      "authors": [
+        "Yangxiao Jiang",
+        "Jiarun Fan",
+        "Mingcong Xu",
+        "Yanxi Guo",
+        "Jiwen Feng",
+        "Shanqing Xu",
+        "Mengchen Qian",
+        "Wei Chen",
+        "Xiaojin Zhang"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Yangxiao Jiang",
+          "authorEntityId": "author:b4ef61a3aebac9f0",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yangxiao Jiang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jiarun Fan",
+          "authorEntityId": "author:8b009637fa411d1b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jiarun Fan",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Mingcong Xu",
+          "authorEntityId": "author:6a157203f2409e6d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Mingcong Xu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yanxi Guo",
+          "authorEntityId": "author:827677300d26eecd",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yanxi Guo",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jiwen Feng",
+          "authorEntityId": "author:a51f6dbff3161d07",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jiwen Feng",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Shanqing Xu",
+          "authorEntityId": "author:67e59ce049237f06",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Shanqing Xu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Mengchen Qian",
+          "authorEntityId": "author:10394201d9c799e1",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Mengchen Qian",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Wei Chen",
+          "authorEntityId": "author:bb0c3d3ad263b425",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Wei Chen",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xiaojin Zhang",
+          "authorEntityId": "author:bb0e0a76109af9c9",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xiaojin Zhang",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-28",
+      "url": "https://arxiv.org/abs/2608.27984",
+      "pdfUrl": "https://arxiv.org/pdf/2608.27984",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.27984",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:78bdd578bb08b960",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Yangxiao Jiang",
+        "Jiarun Fan",
+        "Mingcong Xu",
+        "Yanxi Guo",
+        "Jiwen Feng",
+        "Shanqing Xu",
+        "Mengchen Qian",
+        "Wei Chen",
+        "Xiaojin Zhang"
+      ],
+      "authorEntityIds": [
+        "author:b4ef61a3aebac9f0",
+        "author:8b009637fa411d1b",
+        "author:6a157203f2409e6d",
+        "author:827677300d26eecd",
+        "author:a51f6dbff3161d07",
+        "author:67e59ce049237f06",
+        "author:10394201d9c799e1",
+        "author:bb0c3d3ad263b425",
+        "author:bb0e0a76109af9c9"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Yangxiao Jiang",
+          "affiliations": []
+        },
+        {
+          "name": "Jiarun Fan",
+          "affiliations": []
+        },
+        {
+          "name": "Mingcong Xu",
+          "affiliations": []
+        },
+        {
+          "name": "Yanxi Guo",
+          "affiliations": []
+        },
+        {
+          "name": "Jiwen Feng",
+          "affiliations": []
+        },
+        {
+          "name": "Shanqing Xu",
+          "affiliations": []
+        },
+        {
+          "name": "Mengchen Qian",
+          "affiliations": []
+        },
+        {
+          "name": "Wei Chen",
+          "affiliations": []
+        },
+        {
+          "name": "Xiaojin Zhang",
           "affiliations": []
         }
       ]
