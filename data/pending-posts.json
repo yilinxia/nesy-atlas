@@ -1942,5 +1942,41 @@
     "sourceUrl": "https://cogniswitch.ai/signal",
     "discovered": "2026-08-30",
     "status": "needs-review"
+  },
+  {
+    "company": "CogniSwitch",
+    "title": "Launching KL4A: From Raw SOPs to Verifiable Agent Action ANALYSIS",
+    "date": "2026-08-31",
+    "url": "https://cogniswitch.ai/blog/launching-kl4a-knowledge-layer-for-agents",
+    "sourceUrl": "https://cogniswitch.ai/signal",
+    "discovered": "2026-08-31",
+    "status": "needs-review"
+  },
+  {
+    "company": "CogniSwitch",
+    "title": "Why SOPs (and not tribal knowledge) is the right foundation for Agent Memory ANALYSIS",
+    "date": "2026-08-31",
+    "url": "https://cogniswitch.ai/blog/we-built-agent-memory-in-2019",
+    "sourceUrl": "https://cogniswitch.ai/signal",
+    "discovered": "2026-08-31",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Market Comparisons 08.27.2026 BlackLine Alternatives and Competitors: A 2026 Buyer's Guide Read",
+    "date": "2026-08-27",
+    "url": "https://www.kognitos.com/blog/blackline-alternatives/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-08-31",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Finance & Accounting Automation 08.27.2026 E-Invoicing in 2026: Mandates, Formats, and What Comes Next Read",
+    "date": "2026-08-27",
+    "url": "https://www.kognitos.com/blog/e-invoicing/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-08-31",
+    "status": "needs-review"
   }
 ]
