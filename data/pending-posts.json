@@ -1978,5 +1978,23 @@
     "sourceUrl": "https://www.kognitos.com/blog/",
     "discovered": "2026-08-31",
     "status": "needs-review"
+  },
+  {
+    "company": "DaaX",
+    "title": "Knowledge in Motion: From Plato to Heraclitus",
+    "date": "2026-09-01",
+    "url": "https://daax.ai/blog/knowledge-in-motion",
+    "sourceUrl": "https://daax.ai/blog",
+    "discovered": "2026-09-01",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Market Comparisons 09.01.2026 Tipalti Alternatives and Competitors: AP Automation Guide (2026) Read",
+    "date": "2026-09-01",
+    "url": "https://www.kognitos.com/blog/tipalti-alternatives/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-09-01",
+    "status": "needs-review"
   }
 ]
