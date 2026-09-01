@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-08-31T18:37:12.172Z",
-  "cursorAt": "2026-08-31T18:37:12.172Z",
+  "generatedAt": "2026-09-01T15:56:18.462Z",
+  "cursorAt": "2026-09-01T15:56:18.462Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-08-30T15:53:23.991Z",
   "keywords": [
@@ -15,11 +15,210 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-08-30T15:53:23.991Z",
-  "windowStart": "2026-08-23T15:53:23.991Z",
+  "previousSnapshotAt": "2026-08-31T18:37:12.172Z",
+  "windowStart": "2026-08-24T18:37:12.172Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2608.30258",
+    "title": "Stratified Consistency Distillation for Natural Language Formalization",
+    "abstract": "Neurosymbolic reasoning has shown promising success in addressing complex reasoning tasks by combining large language models (LLMs) and symbolic solvers. While this approach shows promise, a fundamental challenge remains: improving the accuracy of translations from natural language to logical formulas. Current methods predominantly rely on prompt engineering, which is difficult to scale across different domains and input formats. Drawing inspiration from the success of fine-tuning in other model adaptation and alignment applications, we propose a fine-tuning-based Stratified Consistency Distillation approach: (1) We generate K logical translations per input using a frontier LLM and cluster them by semantic equivalence (2) Based on the entropy level, we apply majority voting (low entropy), LLM-as-a-Judge (medium entropy), or unification/abstention (high entropy), and (3) fine-tune a smaller model using the selected pseudo-labels. Our experiments show significant and consistent improvements in both Pass@K and our novel Equivalent Logical Similarity metrics, demonstrating the potential of advancing logical translation through consistency distillation.",
+    "authors": [
+      "Zhichao Hou",
+      "Ferhat Erata",
+      "Joe Lilien",
+      "MohamadAli Torkamani"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Zhichao Hou",
+        "affiliations": []
+      },
+      {
+        "name": "Ferhat Erata",
+        "affiliations": []
+      },
+      {
+        "name": "Joe Lilien",
+        "affiliations": []
+      },
+      {
+        "name": "MohamadAli Torkamani",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-31",
+    "updated": "2026-08-31",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.CL",
+    "url": "https://arxiv.org/abs/2608.30258",
+    "pdfUrl": "https://arxiv.org/pdf/2608.30258",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.30250",
+    "title": "Generating Workflow DAGs from Natural Language with Non-Reasoning LLMs",
+    "abstract": "This paper addresses the problem of translating natural-language routing rules written by business administrators into executable workflow graphs for enterprise contact centers. Each target is a directed acyclic graph (DAG) of conditional actions with parallel branches, hit-first fallback chains, and per-branch Boolean predicates, encoded in the JSON dialect of a commercial routing platform. We show that neuro-symbolic decomposition enables lower-cost, non-reasoning large language models to generate complex workflow DAGs at production-relevant quality without expensive extended-reasoning models. Our central diagnostic is an emission-density bottleneck: on a 635-rule benchmark of manufactured synthetic data, models select the correct graph nodes with high accuracy but increasingly misconfigure attributes and Boolean grouping as the number of interdependent nodes emitted in one pass grows. We therefore move combinatorial graph construction from the model into a deterministic compiler driven by a compact intermediate representation, with a learned registry-selection front end that focuses generation on relevant vocabulary. Across four models, the full system reaches approximately 89% LLM-judge validity, approximately 90% exact-match condition accuracy, and 99-100% valid JSON while using roughly half the per-rule prompt tokens of a monolithic prompt. On GPT-5.3-chat, the method improves judge validity by 24 percentage points and achieves statistical equivalence to a reasoning model's out-of-the-box quality, although an approximately 8-point frontier gap remains. We also present a deployment path and transferable lessons for structured-generation applications.",
+    "authors": [
+      "Anand Iyer",
+      "Bhanu Khetharpal",
+      "Srinivas Upadhya",
+      "Ramkumar Rajagopal"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Anand Iyer",
+        "affiliations": []
+      },
+      {
+        "name": "Bhanu Khetharpal",
+        "affiliations": []
+      },
+      {
+        "name": "Srinivas Upadhya",
+        "affiliations": []
+      },
+      {
+        "name": "Ramkumar Rajagopal",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-31",
+    "updated": "2026-08-31",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2608.30250",
+    "pdfUrl": "https://arxiv.org/pdf/2608.30250",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.29808",
+    "title": "POLYFLOW: A Neuro-Symbolic Framework for Static Cross-Language Information Flow Analysis",
+    "abstract": "Modern software systems are commonly constructed in multiple, interacting programming languages. This construction leads to additional, often stealthy vulnerabilities buried in complex information flow due to language interactions. Existing static analyzers are impeded by the heterogeneous semantics of different languages, whereas dynamic approaches suffer from the limited coverage of (available and/or generated) test inputs. In this paper, we develop PolyFlow, a neural-symbolic framework for statically reasoning about information flow across language boundaries, combining large language models (LLMs) and static analysis synergistically. Governed by the control-flow representation of a given multi-language system, PolyFlow leverages LLMs to identify implicit flow facts due to challenging language features, hence augmenting the base representation and then propagating data flow through the system. It tackles inherent barriers (e.g., token limit and hallucination) of LLMs by putting them under careful guidance (e.g., static-analysis-guided scoping, context management, and fact checking), along with a multi-LLM expert panel for negotiated validation. Our experiments on real-world Python-C and Java-C systems show that PolyFlow is cost-effective and superior to various kinds of state-of-the-art baselines, revealing previously unknown cross-language vulnerabilities that are missed by all the baselines.",
+    "authors": [
+      "Haoran Yang",
+      "Zhixuan Zhong",
+      "Jiawei Guo",
+      "Haipeng Cai"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Haoran Yang",
+        "affiliations": []
+      },
+      {
+        "name": "Zhixuan Zhong",
+        "affiliations": []
+      },
+      {
+        "name": "Jiawei Guo",
+        "affiliations": []
+      },
+      {
+        "name": "Haipeng Cai",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-30",
+    "updated": "2026-08-30",
+    "categories": [
+      "cs.CR",
+      "cs.PL",
+      "cs.SE"
+    ],
+    "primaryCategory": "cs.CR",
+    "url": "https://arxiv.org/abs/2608.29808",
+    "pdfUrl": "https://arxiv.org/pdf/2608.29808",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neural-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.29665",
+    "title": "Evaluating a 4B open-weights local LLM for agentic DFT workflows: a literature reproducibility audit",
+    "abstract": "Agentic workflows in materials science relying on hosted commercial models face severe reproducibility, economic, and data-privacy constraints. To explore fully local agentic science, this work evaluates an open-weights Qwen3:4B model executing an autonomous scientific pipeline across varying hardware constraints. Applied to pentagonal two-dimensional materials, the system extracts parameters from unstructured text, translates them into density functional theory (DFT) inputs, and drives simulations to convergence under a strict neurosymbolic architecture where agents propose and deterministic code disposes. The workflow is guarded by verbatim text grounding and multi-pass inference unions to counteract hardware-induced structural collapse. Evaluated against 201 expert judgements, the extractor achieves 95.7% precision (95% CI 90.3-98.1%) and 67.3% recall (59.8-74.0%), ensuring extracted parameters are strictly factual. However, precision identifying absent parameters does not exceed 47.0%, establishing that the measured omission rate constitutes a loose upper bound on true literature incompleteness. Across three hardware configurations, complete GPU residency governs extraction quality more fundamentally than weight or cache precision, raising Matthews correlation from 0.414 to 0.530 at fixed quantisation and to 0.560 with an unquantised cache. A corpus-scale audit indicates only 19 (33.3%) of the 57 studies are reproducible in principle, reporting every method parameter needed to re-initialise the calculation. Driven to convergence, the workflow reproduces published lattice constants with a mean absolute relative error of 2.3% where the relaxed structure retains its prototype, establishing that lightweight open-weights models can reliably drive autonomous agentic workflows when bounded by deterministic code gates.",
+    "authors": [
+      "Shambhu Bhandari Sharma"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Shambhu Bhandari Sharma",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-30",
+    "updated": "2026-08-30",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.SE"
+    ],
+    "primaryCategory": "cond-mat.mtrl-sci",
+    "url": "https://arxiv.org/abs/2608.29665",
+    "pdfUrl": "https://arxiv.org/pdf/2608.29665",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.29529",
+    "title": "Argument-Aware Semantic Alignment of Normative Texts: A Toulmin-Based Neuro-Symbolic Approach",
+    "abstract": "Semantic alignment between specialized normative texts is challenging when equivalent requirements use different terms, syntax, and levels of abstraction. Lexical overlap, distributional embeddings, and semantic similarity capture topical relatedness but often miss the argumentative structure by which normative claims are supported, qualified, and justified. This paper asks whether explicit argument structure adds information complementary to neural semantics for aligning requirements. We treat cross-standard control mapping as argument-aware semantic alignment and build a neuro-symbolic pipeline that combines neural text representations with Toulmin features. An LLM explicitation step identifies claims, grounds, warrants, qualifiers, and backing and reconstructs enthymemes. These feed an alignment model via argument-aware similarity and structural features. On a NERC-CIP to NIST-CSF mapping benchmark, argument-derived features improve alignment over a neuro-symbolic semantic baseline. Feature selection shows especially strong signal from warrant-related features, indicating that the link between a claim and its supporting reasoning is not captured by conventional similarity alone. A compact claim--grounds--warrant subset remains competitive with the full Toulmin feature set. The results give preliminary evidence that argument structure is a useful intermediate representation for aligning specialized normative texts. Cybersecurity standards are used as a controlled testbed, not as proof of domain-independent generalization. The argument graphs produced by LLM explicitation may also support later work on retrieval, reasoning, and explanation over normative text.",
+    "authors": [
+      "William Schroeder"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "William Schroeder",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-30",
+    "updated": "2026-08-30",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.CL",
+    "url": "https://arxiv.org/abs/2608.29529",
+    "pdfUrl": "https://arxiv.org/pdf/2608.29529",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2608.28481",
     "title": "NL2AGBench: Benchmarking LLM Auto-Formalization for AlphaGeometry",

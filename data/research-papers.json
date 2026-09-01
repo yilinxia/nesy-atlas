@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T18:37:12.671Z",
+  "generatedAt": "2026-09-01T15:56:19.146Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1764,
+  "paperCount": 1769,
   "completeMetadataCount": 1374,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1459
+      "count": 1464
     },
     {
       "id": "nesy-proceedings",
@@ -2253,6 +2253,19 @@
         ]
       },
       {
+        "id": "author:e85e00df94c76a8a",
+        "name": "Ferhat Erata",
+        "aliases": [
+          "Ferhat Erata"
+        ],
+        "paperCount": 4,
+        "institutionIds": [
+          "institution:0d3d34a24da64353",
+          "institution:9846f523ca2ca6fc",
+          "institution:e286778b9c16222b"
+        ]
+      },
+      {
         "id": "author:1a2bc0ff15ed7cd4",
         "name": "Frank Kirchner",
         "aliases": [
@@ -3613,19 +3626,6 @@
         "paperCount": 3,
         "institutionIds": [
           "institution:36c401a3c72be9ea"
-        ]
-      },
-      {
-        "id": "author:e85e00df94c76a8a",
-        "name": "Ferhat Erata",
-        "aliases": [
-          "Ferhat Erata"
-        ],
-        "paperCount": 3,
-        "institutionIds": [
-          "institution:0d3d34a24da64353",
-          "institution:9846f523ca2ca6fc",
-          "institution:e286778b9c16222b"
         ]
       },
       {
@@ -7658,6 +7658,15 @@
           "institution:323e7eabc230aa6a",
           "institution:b81c8201acfc7639"
         ]
+      },
+      {
+        "id": "author:db1c9ecf241ac02d",
+        "name": "Haipeng Cai",
+        "aliases": [
+          "Haipeng Cai"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
       },
       {
         "id": "author:4481bd8edfeda340",
@@ -15582,6 +15591,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:385f40cfcb49e52a",
+        "name": "Anand Iyer",
+        "aliases": [
+          "Anand Iyer"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:cdd9beafd458330a",
         "name": "Ananjan Nandi",
         "aliases": [
@@ -18382,6 +18400,15 @@
         "name": "Bettina Fazzinga",
         "aliases": [
           "Bettina Fazzinga"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:f3443d27ef4b99de",
+        "name": "Bhanu Khetharpal",
+        "aliases": [
+          "Bhanu Khetharpal"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -27770,15 +27797,6 @@
         ]
       },
       {
-        "id": "author:db1c9ecf241ac02d",
-        "name": "Haipeng Cai",
-        "aliases": [
-          "Haipeng Cai"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:f85b7168ded9f050",
         "name": "Haiquan Qiu",
         "aliases": [
@@ -28405,6 +28423,15 @@
         "name": "Haoran Xie",
         "aliases": [
           "Haoran Xie"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:426172a3340787ed",
+        "name": "Haoran Yang",
+        "aliases": [
+          "Haoran Yang"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -32404,6 +32431,15 @@
         ]
       },
       {
+        "id": "author:c9643533b54b95eb",
+        "name": "Jiawei Guo",
+        "aliases": [
+          "Jiawei Guo"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:99ca19b07ead107f",
         "name": "Jiaxin Bai",
         "aliases": [
@@ -33527,6 +33563,15 @@
         "institutionIds": [
           "institution:e286778b9c16222b"
         ]
+      },
+      {
+        "id": "author:e1a9b6e086c2e0cf",
+        "name": "Joe Lilien",
+        "aliases": [
+          "Joe Lilien"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:33dc0283c97c934d",
@@ -42479,6 +42524,15 @@
         ]
       },
       {
+        "id": "author:399a21614b01e245",
+        "name": "MohamadAli Torkamani",
+        "aliases": [
+          "MohamadAli Torkamani"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:ef9ee4bb3cf95891",
         "name": "Mohamed Chahine Ghanem",
         "aliases": [
@@ -47709,6 +47763,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:61899a7ac2cd0ccd",
+        "name": "Ramkumar Rajagopal",
+        "aliases": [
+          "Ramkumar Rajagopal"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:a9dcec61f3063d3f",
         "name": "Ramon Fraga Pereira",
         "aliases": [
@@ -50930,6 +50993,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:4a68a7306e1f22be",
+        "name": "Shambhu Bhandari Sharma",
+        "aliases": [
+          "Shambhu Bhandari Sharma"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:6a8ea437a309029a",
         "name": "Shan Zhang",
         "aliases": [
@@ -53120,6 +53192,15 @@
         "institutionIds": [
           "institution:c00e7ad7bbe6619e"
         ]
+      },
+      {
+        "id": "author:dac9863e35296562",
+        "name": "Srinivas Upadhya",
+        "aliases": [
+          "Srinivas Upadhya"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:a3849f936cd18e3a",
@@ -57714,6 +57795,15 @@
         "institutionIds": [
           "institution:fbdf04b45fa9baad"
         ]
+      },
+      {
+        "id": "author:04880d7c8a6dd5ce",
+        "name": "William Schroeder",
+        "aliases": [
+          "William Schroeder"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:31e7c9d972577a99",
@@ -64145,6 +64235,15 @@
         ]
       },
       {
+        "id": "author:1a87acba7d00694a",
+        "name": "Zhichao Hou",
+        "aliases": [
+          "Zhichao Hou"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:7e65db318d8e9bd5",
         "name": "Zhifei Yang",
         "aliases": [
@@ -64401,6 +64500,15 @@
         "institutionIds": [
           "institution:0008285766dcabc7"
         ]
+      },
+      {
+        "id": "author:4542a8e6436b4676",
+        "name": "Zhixuan Zhong",
+        "aliases": [
+          "Zhixuan Zhong"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:f4c918ab46302008",
@@ -365006,6 +365114,462 @@
         },
         {
           "name": "Xiaojin Zhang",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.30258",
+      "title": "Stratified Consistency Distillation for Natural Language Formalization",
+      "abstract": "Neurosymbolic reasoning has shown promising success in addressing complex reasoning tasks by combining large language models (LLMs) and symbolic solvers. While this approach shows promise, a fundamental challenge remains: improving the accuracy of translations from natural language to logical formulas. Current methods predominantly rely on prompt engineering, which is difficult to scale across different domains and input formats. Drawing inspiration from the success of fine-tuning in other model adaptation and alignment applications, we propose a fine-tuning-based Stratified Consistency Distillation approach: (1) We generate K logical translations per input using a frontier LLM and cluster them by semantic equivalence (2) Based on the entropy level, we apply majority voting (low entropy), LLM-as-a-Judge (medium entropy), or unification/abstention (high entropy), and (3) fine-tune a smaller model using the selected pseudo-labels. Our experiments show significant and consistent improvements in both Pass@K and our novel Equivalent Logical Similarity metrics, demonstrating the potential of advancing logical translation through consistency distillation.",
+      "authors": [
+        "Zhichao Hou",
+        "Ferhat Erata",
+        "Joe Lilien",
+        "MohamadAli Torkamani"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Zhichao Hou",
+          "authorEntityId": "author:1a87acba7d00694a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zhichao Hou",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ferhat Erata",
+          "authorEntityId": "author:e85e00df94c76a8a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ferhat Erata",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Joe Lilien",
+          "authorEntityId": "author:e1a9b6e086c2e0cf",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Joe Lilien",
+          "rawAffiliations": []
+        },
+        {
+          "name": "MohamadAli Torkamani",
+          "authorEntityId": "author:399a21614b01e245",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "MohamadAli Torkamani",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-31",
+      "url": "https://arxiv.org/abs/2608.30258",
+      "pdfUrl": "https://arxiv.org/pdf/2608.30258",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.30258",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:c29e2d98d0ff9cc1",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Zhichao Hou",
+        "Ferhat Erata",
+        "Joe Lilien",
+        "MohamadAli Torkamani"
+      ],
+      "authorEntityIds": [
+        "author:1a87acba7d00694a",
+        "author:e85e00df94c76a8a",
+        "author:e1a9b6e086c2e0cf",
+        "author:399a21614b01e245"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Zhichao Hou",
+          "affiliations": []
+        },
+        {
+          "name": "Ferhat Erata",
+          "affiliations": []
+        },
+        {
+          "name": "Joe Lilien",
+          "affiliations": []
+        },
+        {
+          "name": "MohamadAli Torkamani",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.30250",
+      "title": "Generating Workflow DAGs from Natural Language with Non-Reasoning LLMs",
+      "abstract": "This paper addresses the problem of translating natural-language routing rules written by business administrators into executable workflow graphs for enterprise contact centers. Each target is a directed acyclic graph (DAG) of conditional actions with parallel branches, hit-first fallback chains, and per-branch Boolean predicates, encoded in the JSON dialect of a commercial routing platform. We show that neuro-symbolic decomposition enables lower-cost, non-reasoning large language models to generate complex workflow DAGs at production-relevant quality without expensive extended-reasoning models. Our central diagnostic is an emission-density bottleneck: on a 635-rule benchmark of manufactured synthetic data, models select the correct graph nodes with high accuracy but increasingly misconfigure attributes and Boolean grouping as the number of interdependent nodes emitted in one pass grows. We therefore move combinatorial graph construction from the model into a deterministic compiler driven by a compact intermediate representation, with a learned registry-selection front end that focuses generation on relevant vocabulary. Across four models, the full system reaches approximately 89% LLM-judge validity, approximately 90% exact-match condition accuracy, and 99-100% valid JSON while using roughly half the per-rule prompt tokens of a monolithic prompt. On GPT-5.3-chat, the method improves judge validity by 24 percentage points and achieves statistical equivalence to a reasoning model's out-of-the-box quality, although an approximately 8-point frontier gap remains. We also present a deployment path and transferable lessons for structured-generation applications.",
+      "authors": [
+        "Anand Iyer",
+        "Bhanu Khetharpal",
+        "Srinivas Upadhya",
+        "Ramkumar Rajagopal"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Anand Iyer",
+          "authorEntityId": "author:385f40cfcb49e52a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Anand Iyer",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Bhanu Khetharpal",
+          "authorEntityId": "author:f3443d27ef4b99de",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Bhanu Khetharpal",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Srinivas Upadhya",
+          "authorEntityId": "author:dac9863e35296562",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Srinivas Upadhya",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ramkumar Rajagopal",
+          "authorEntityId": "author:61899a7ac2cd0ccd",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ramkumar Rajagopal",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-31",
+      "url": "https://arxiv.org/abs/2608.30250",
+      "pdfUrl": "https://arxiv.org/pdf/2608.30250",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.30250",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:a65acf87f5111722",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Anand Iyer",
+        "Bhanu Khetharpal",
+        "Srinivas Upadhya",
+        "Ramkumar Rajagopal"
+      ],
+      "authorEntityIds": [
+        "author:385f40cfcb49e52a",
+        "author:f3443d27ef4b99de",
+        "author:dac9863e35296562",
+        "author:61899a7ac2cd0ccd"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Anand Iyer",
+          "affiliations": []
+        },
+        {
+          "name": "Bhanu Khetharpal",
+          "affiliations": []
+        },
+        {
+          "name": "Srinivas Upadhya",
+          "affiliations": []
+        },
+        {
+          "name": "Ramkumar Rajagopal",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.29808",
+      "title": "POLYFLOW: A Neuro-Symbolic Framework for Static Cross-Language Information Flow Analysis",
+      "abstract": "Modern software systems are commonly constructed in multiple, interacting programming languages. This construction leads to additional, often stealthy vulnerabilities buried in complex information flow due to language interactions. Existing static analyzers are impeded by the heterogeneous semantics of different languages, whereas dynamic approaches suffer from the limited coverage of (available and/or generated) test inputs. In this paper, we develop PolyFlow, a neural-symbolic framework for statically reasoning about information flow across language boundaries, combining large language models (LLMs) and static analysis synergistically. Governed by the control-flow representation of a given multi-language system, PolyFlow leverages LLMs to identify implicit flow facts due to challenging language features, hence augmenting the base representation and then propagating data flow through the system. It tackles inherent barriers (e.g., token limit and hallucination) of LLMs by putting them under careful guidance (e.g., static-analysis-guided scoping, context management, and fact checking), along with a multi-LLM expert panel for negotiated validation. Our experiments on real-world Python-C and Java-C systems show that PolyFlow is cost-effective and superior to various kinds of state-of-the-art baselines, revealing previously unknown cross-language vulnerabilities that are missed by all the baselines.",
+      "authors": [
+        "Haoran Yang",
+        "Zhixuan Zhong",
+        "Jiawei Guo",
+        "Haipeng Cai"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Haoran Yang",
+          "authorEntityId": "author:426172a3340787ed",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Haoran Yang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zhixuan Zhong",
+          "authorEntityId": "author:4542a8e6436b4676",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zhixuan Zhong",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jiawei Guo",
+          "authorEntityId": "author:c9643533b54b95eb",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jiawei Guo",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Haipeng Cai",
+          "authorEntityId": "author:db1c9ecf241ac02d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Haipeng Cai",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic",
+        "neural-symbolic"
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.PL",
+        "cs.SE"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-30",
+      "url": "https://arxiv.org/abs/2608.29808",
+      "pdfUrl": "https://arxiv.org/pdf/2608.29808",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.29808",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:b66c970d6d7cf665",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Haoran Yang",
+        "Zhixuan Zhong",
+        "Jiawei Guo",
+        "Haipeng Cai"
+      ],
+      "authorEntityIds": [
+        "author:426172a3340787ed",
+        "author:4542a8e6436b4676",
+        "author:c9643533b54b95eb",
+        "author:db1c9ecf241ac02d"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Haoran Yang",
+          "affiliations": []
+        },
+        {
+          "name": "Zhixuan Zhong",
+          "affiliations": []
+        },
+        {
+          "name": "Jiawei Guo",
+          "affiliations": []
+        },
+        {
+          "name": "Haipeng Cai",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.29665",
+      "title": "Evaluating a 4B open-weights local LLM for agentic DFT workflows: a literature reproducibility audit",
+      "abstract": "Agentic workflows in materials science relying on hosted commercial models face severe reproducibility, economic, and data-privacy constraints. To explore fully local agentic science, this work evaluates an open-weights Qwen3:4B model executing an autonomous scientific pipeline across varying hardware constraints. Applied to pentagonal two-dimensional materials, the system extracts parameters from unstructured text, translates them into density functional theory (DFT) inputs, and drives simulations to convergence under a strict neurosymbolic architecture where agents propose and deterministic code disposes. The workflow is guarded by verbatim text grounding and multi-pass inference unions to counteract hardware-induced structural collapse. Evaluated against 201 expert judgements, the extractor achieves 95.7% precision (95% CI 90.3-98.1%) and 67.3% recall (59.8-74.0%), ensuring extracted parameters are strictly factual. However, precision identifying absent parameters does not exceed 47.0%, establishing that the measured omission rate constitutes a loose upper bound on true literature incompleteness. Across three hardware configurations, complete GPU residency governs extraction quality more fundamentally than weight or cache precision, raising Matthews correlation from 0.414 to 0.530 at fixed quantisation and to 0.560 with an unquantised cache. A corpus-scale audit indicates only 19 (33.3%) of the 57 studies are reproducible in principle, reporting every method parameter needed to re-initialise the calculation. Driven to convergence, the workflow reproduces published lattice constants with a mean absolute relative error of 2.3% where the relaxed structure retains its prototype, establishing that lightweight open-weights models can reliably drive autonomous agentic workflows when bounded by deterministic code gates.",
+      "authors": [
+        "Shambhu Bhandari Sharma"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Shambhu Bhandari Sharma",
+          "authorEntityId": "author:4a68a7306e1f22be",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Shambhu Bhandari Sharma",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cs.SE"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-30",
+      "url": "https://arxiv.org/abs/2608.29665",
+      "pdfUrl": "https://arxiv.org/pdf/2608.29665",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.29665",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:63c393e085c7d966",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Shambhu Bhandari Sharma"
+      ],
+      "authorEntityIds": [
+        "author:4a68a7306e1f22be"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Shambhu Bhandari Sharma",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2608.29529",
+      "title": "Argument-Aware Semantic Alignment of Normative Texts: A Toulmin-Based Neuro-Symbolic Approach",
+      "abstract": "Semantic alignment between specialized normative texts is challenging when equivalent requirements use different terms, syntax, and levels of abstraction. Lexical overlap, distributional embeddings, and semantic similarity capture topical relatedness but often miss the argumentative structure by which normative claims are supported, qualified, and justified. This paper asks whether explicit argument structure adds information complementary to neural semantics for aligning requirements. We treat cross-standard control mapping as argument-aware semantic alignment and build a neuro-symbolic pipeline that combines neural text representations with Toulmin features. An LLM explicitation step identifies claims, grounds, warrants, qualifiers, and backing and reconstructs enthymemes. These feed an alignment model via argument-aware similarity and structural features. On a NERC-CIP to NIST-CSF mapping benchmark, argument-derived features improve alignment over a neuro-symbolic semantic baseline. Feature selection shows especially strong signal from warrant-related features, indicating that the link between a claim and its supporting reasoning is not captured by conventional similarity alone. A compact claim--grounds--warrant subset remains competitive with the full Toulmin feature set. The results give preliminary evidence that argument structure is a useful intermediate representation for aligning specialized normative texts. Cybersecurity standards are used as a controlled testbed, not as proof of domain-independent generalization. The argument graphs produced by LLM explicitation may also support later work on retrieval, reasoning, and explanation over normative text.",
+      "authors": [
+        "William Schroeder"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "William Schroeder",
+          "authorEntityId": "author:04880d7c8a6dd5ce",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "William Schroeder",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-30",
+      "url": "https://arxiv.org/abs/2608.29529",
+      "pdfUrl": "https://arxiv.org/pdf/2608.29529",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2608.29529",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:7de932e5c61ebe9f",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "William Schroeder"
+      ],
+      "authorEntityIds": [
+        "author:04880d7c8a6dd5ce"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "William Schroeder",
           "affiliations": []
         }
       ]
