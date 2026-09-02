@@ -1996,5 +1996,32 @@
     "sourceUrl": "https://www.kognitos.com/blog/",
     "discovered": "2026-09-01",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Finance 09.02.2026 What Is Finance Automation? How It Works and Where It Breaks Read",
+    "date": "2026-09-02",
+    "url": "https://www.kognitos.com/blog/finance-automation/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-09-02",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "AI Strategy 09.01.2026 Will AI Replace Accountants? What the Data Says in 2026 Read",
+    "date": "2026-09-01",
+    "url": "https://www.kognitos.com/blog/will-ai-replace-accountants/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-09-02",
+    "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "Blog SpendIQ: Turning AI Into Measurable Business Value",
+    "date": "2026-09-01",
+    "url": "https://www.uniphore.com/blog/spendiq-turning-ai-into-measurable-business-value/",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-09-02",
+    "status": "needs-review"
   }
 ]
