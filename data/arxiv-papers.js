@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-09-01T15:56:18.462Z",
-  "cursorAt": "2026-09-01T15:56:18.462Z",
+  "generatedAt": "2026-09-02T15:48:48.750Z",
+  "cursorAt": "2026-09-02T15:48:48.750Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-08-30T15:53:23.991Z",
   "keywords": [
@@ -15,11 +15,263 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-08-31T18:37:12.172Z",
-  "windowStart": "2026-08-24T18:37:12.172Z",
+  "previousSnapshotAt": "2026-09-01T15:56:18.462Z",
+  "windowStart": "2026-08-25T15:56:18.462Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2609.01408",
+    "title": "Neuro-Symbolic Geometric Abstraction (NeuSOGA): From Observations to Symbolic Mathematical Representations",
+    "abstract": "A fundamental challenge in artificial intelligence is the transformation of observations into explicit symbolic representations suitable for abstraction, interpretation, and reasoning. While modern AI systems achieve remarkable perceptual capabilities through large-scale statistical learning, the resulting knowledge is typically encoded within latent parameters that are difficult to inspect or manipulate analytically. Inspired by Neuro-Symbolic AI and theories of human abstraction, this paper investigates the formation of symbolic mathematical representations from geometric observations. We propose NeuSOGA (Neuro-Symbolic Geometric Abstraction), a framework that progressively transforms observations into topological abstractions, geometric abstractions, and ultimately symbolic mathematical representations. The architecture combines topology-guided structural discovery using Euclidean Distance Transforms, foundation-model perception using Segment Anything, adaptive multi-scale geometric abstraction, and symbolic synthesis through Implicit Area Splines. The resulting representation is an analytical implicit model supporting arbitrary-order smoothness, additive composition, and closed-form evaluation. Unlike neural latent encodings, the generated representation remains interpretable, editable, and mathematically explicit. Experiments on ModelNet40 point clouds, arbitrary-view projections, and segmented optical observations demonstrate that NeuSOGA transforms diverse observations into compact symbolic representations while preserving essential geometric and topological structure across sensing modalities and viewing directions. NeuSOGA provides an interpretable and explainable pathway from observation to symbol and establishes",
+    "authors": [
+      "Qingde Li",
+      "Qingqi Hong",
+      "Jie Tian"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Qingde Li",
+        "affiliations": []
+      },
+      {
+        "name": "Qingqi Hong",
+        "affiliations": []
+      },
+      {
+        "name": "Jie Tian",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-01",
+    "updated": "2026-09-01",
+    "categories": [
+      "cs.AI",
+      "cs.CV",
+      "cs.GR"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2609.01408",
+    "pdfUrl": "https://arxiv.org/pdf/2609.01408",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.01260",
+    "title": "Dual Process Motion Planning",
+    "abstract": "Robotic systems are deeply embedded in both industry and everyday life, where they are expected to act with speed, precision, and reliability. Classical control and planning methods have long delivered strong guarantees, but often at the cost of computational efficiency and adaptability. More recently, learning-based approaches have shown promise in overcoming these limitations, enabling agents to leverage experience to accelerate decision-making and address previously intractable problems. In this work, we bridge these two approaches through a neuro-symbolic perspective on nonlinear motion planning. Inspired by the Thinking Fast and Slow paradigm, we introduce a dual-process architecture that combines the strengths of robust reasoning and learning. Our framework integrates state-of-the-art symbolic solvers as a ``System-2'' component with experience-driven ``System-1'' modules. A metacognitive controller dynamically orchestrates their interaction, selecting when to rely on fast intuition versus slower, more precise reasoning. By evaluating the framework across diverse nonlinear benchmark environments, we demonstrate that this architecture yields consistent gains in planning efficiency, accuracy, and generalization, while promoting reuse across tasks. The results suggest that tightly coupling learning with structured reasoning offers a scalable path toward more capable and adaptive robotic systems.",
+    "authors": [
+      "Jiayi Yan",
+      "Francesco Fabiano",
+      "Alessandro Abate"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Jiayi Yan",
+        "affiliations": []
+      },
+      {
+        "name": "Francesco Fabiano",
+        "affiliations": []
+      },
+      {
+        "name": "Alessandro Abate",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-01",
+    "updated": "2026-09-01",
+    "categories": [
+      "cs.AI",
+      "cs.RO"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2609.01260",
+    "pdfUrl": "https://arxiv.org/pdf/2609.01260",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.01102",
+    "title": "Neural Symbollic Regression Using Deep Learning and Sparse Modelling",
+    "abstract": "Symbolic Regression (SR) seeks to find succinct mathematical expressions that represent the fundamental relationships within data, providing interpretability and scientific understanding that exceeds that of black-box models. Nevertheless, traditional methods like Genetic Programming face challenges with scalability and are highly sensitive to noise, while sparse regression techniques such as SINDy rely significantly on predetermined feature libraries. In this work, we present a Neural Symbolic Regression (NSR) framework that treats neural networks as functional preconditioners for symbolic discovery. Our approach uses a decoupled pipeline: a neural network first learns a smooth, noise-robust approximation of the target function in an interaction- aware nonlinear feature space. LASSO is then applied to extract sparse, interpretable closed-form expressions. To improve predictive accuracy and symbolic fidelity by integrating distributed hyperparameter optimization with Ray Tune and ASHA scheduling. Experiments on the Nguyen benchmark suite show that our approach consistently outperforms SINDy and non-tuned neural baselines in RMSE, noise robustness, and out-of-distribution generalization. Ablation studies confirm the significance of feature interactions, neural depth, and tuning strategies. In general, this study presents a scalable and understandable neural-symbolic framework, creating a solid link between neural approximation and the discovery of sparse equations for scientific machine learning.",
+    "authors": [
+      "Ravi Kumar U",
+      "Sumitra S"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Ravi Kumar U",
+        "affiliations": []
+      },
+      {
+        "name": "Sumitra S",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-01",
+    "updated": "2026-09-01",
+    "categories": [
+      "cs.LG",
+      "cs.NE",
+      "cs.SC"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2609.01102",
+    "pdfUrl": "https://arxiv.org/pdf/2609.01102",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neural symbolic",
+        "neural-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.00604",
+    "title": "NeuroGraph: An AI Graph-Driven Neuro-Symbolic Framework for Explainable Threat Reasoning in Advanced Manufacturing",
+    "abstract": "The growing complexity of cyber-physical attack surfaces in advanced manufacturing has made cyber threat intelligence analysis increasingly difficult. Although large language models and retrieval-augmented generation have improved CTI workflows, text-based approaches remain vulnerable to hallucinations and provide limited support for structured reasoning over interconnected threats. Graph-based RAG reduces some of these limitations, but existing approaches often lack ontology-consistent multi-hop reasoning and transparent evidence tracing across heterogeneous cybersecurity data. This paper proposes a graph-grounded neuro-symbolic framework that integrates ontology-aware symbolic query generation, knowledge graph retrieval, and neural language generation to support accurate and explainable threat analysis across information technology and operational technology environments. The framework adopts a dual-large language model architecture: the first model translates natural-language questions into executable Cypher queries for symbolic graph retrieval, while the second generates answers strictly from the retrieved graph evidence. Experimental evaluation using publicly available cyber threat intelligence benchmarks shows consistent improvements over the published baseline in reasoning accuracy, while also reducing hallucinations, strengthening multi-hop reasoning, and improving robustness to adversarial perturbations. Runtime and explainability analyses further demonstrate that the framework maintains interactive inference performance and exposes graph-grounded reasoning artifacts that allow analysts to inspect and verify each stage of the analysis. Overall, the results highlight the potential of graph-grounded neuro-symbolic reasoning as a scalable, interpretable, and reliable approach to cyber threat intelligence for next-generation Industry 5.0 environments.",
+    "authors": [
+      "Padmeswari Nandiya",
+      "Ahmad Mohsin",
+      "Ahmed Ibrahim",
+      "Iqbal H. Sarker",
+      "Helge Janicke"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Padmeswari Nandiya",
+        "affiliations": []
+      },
+      {
+        "name": "Ahmad Mohsin",
+        "affiliations": []
+      },
+      {
+        "name": "Ahmed Ibrahim",
+        "affiliations": []
+      },
+      {
+        "name": "Iqbal H. Sarker",
+        "affiliations": []
+      },
+      {
+        "name": "Helge Janicke",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-01",
+    "updated": "2026-09-01",
+    "categories": [
+      "cs.CR",
+      "cs.IR"
+    ],
+    "primaryCategory": "cs.CR",
+    "url": "https://arxiv.org/abs/2609.00604",
+    "pdfUrl": "https://arxiv.org/pdf/2609.00604",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.00464",
+    "title": "Does Reasoning Mitigate Backdoor Attacks? A Neuro-Symbolic Perspective",
+    "abstract": "Neuro-Symbolic (NeSy) AI has recently emerged as a novel paradigm to enable trustworthy AI, aiming at integrating sub-symbolic neural perception with grounded symbolic reasoning. The neuro-symbolic integration process that characterizes these models has been proven beneficial to achieve more transparent, explainable and efficient AI systems. Meanwhile, their properties under adversarial settings have been overlooked being frequently deemed robust-by-design. However, the neural-symbolic integration process they leverage constitutes an additional layer of complexity that may provide an attack entry-point. Therefore, in this paper, we claim that an in-depth investigation of the adversarial robustness of NeSy models is necessary and provide the first systematic evaluation of backdoor attacks against NeSy. To this end, we compare the most popular NeSy framework, namely DeepProbLog, against baseline neural networks across a total of eight backdoor settings and four reasoning tasks. Our experimental results show that while NeSy models are indeed more robust than their neural counterpart on average, their robustness vastly depend on the strictness of the reasoning process being enforced and its compatibility with the chosen adversarial target. The source code to reproduce our experiments is made available at https://github.com/marcoantoniocorallo/NeSy-Backdoor.",
+    "authors": [
+      "Marco Antonio Corallo",
+      "Andrea Agiollo",
+      "Mauro Conti",
+      "Alberto Giaretta"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Marco Antonio Corallo",
+        "affiliations": []
+      },
+      {
+        "name": "Andrea Agiollo",
+        "affiliations": []
+      },
+      {
+        "name": "Mauro Conti",
+        "affiliations": []
+      },
+      {
+        "name": "Alberto Giaretta",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-31",
+    "updated": "2026-08-31",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.CR",
+    "url": "https://arxiv.org/abs/2609.00464",
+    "pdfUrl": "https://arxiv.org/pdf/2609.00464",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic",
+        "NeSy",
+        "neural-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.00256",
+    "title": "NSIDDx: A Design Framework for Neuro-Symbolic, Practitioner-First Differential Diagnosis in Low-Resource Settings",
+    "abstract": "LLM-based diagnostic systems achieve high semantic accuracy on benchmarks, but open-ended evaluation on clinically uncommon presentations reveals a systematic gap between headline accuracy and verifiable clinical reliability. We evaluate an LLM+rare-disease-RAG pipeline across two cohorts and show that the paradigm produces confident outputs that are frequently unverifiable and systematically resistant to clinician interrogation. We present NSIDDx (Neuro-Symbolic Integrated Differential Diagnosis System), a design framework arguing that DDx systems in low-resource settings must treat the clinician as an active reasoning agent. We instantiate this through a neuro-symbolic pipeline with ternary symptom encoding, contradiction detection, audit strings, and practitioner override - running offline on consumer hardware. We distill five design principles for clinician-in-the-loop clinical NLP and invite the prospective studies needed to validate the claim at scale.",
+    "authors": [
+      "Aarav Singh"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Aarav Singh",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-31",
+    "updated": "2026-08-31",
+    "categories": [
+      "cs.CL"
+    ],
+    "primaryCategory": "cs.CL",
+    "url": "https://arxiv.org/abs/2609.00256",
+    "pdfUrl": "https://arxiv.org/pdf/2609.00256",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2608.30258",
     "title": "Stratified Consistency Distillation for Natural Language Formalization",

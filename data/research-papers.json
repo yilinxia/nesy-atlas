@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T15:56:19.146Z",
+  "generatedAt": "2026-09-02T15:48:49.423Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1769,
+  "paperCount": 1775,
   "completeMetadataCount": 1374,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1464
+      "count": 1470
     },
     {
       "id": "nesy-proceedings",
@@ -3135,6 +3135,18 @@
         ]
       },
       {
+        "id": "author:0939ff2cf413db5b",
+        "name": "Ahmed Ibrahim",
+        "aliases": [
+          "Ahmed Ibrahim"
+        ],
+        "paperCount": 3,
+        "institutionIds": [
+          "institution:255b3a4af3224331",
+          "institution:3d16981b3b17c3cd"
+        ]
+      },
+      {
         "id": "author:57d3a496447d9c7e",
         "name": "Aidong Zhang",
         "aliases": [
@@ -5710,18 +5722,6 @@
         ]
       },
       {
-        "id": "author:0939ff2cf413db5b",
-        "name": "Ahmed Ibrahim",
-        "aliases": [
-          "Ahmed Ibrahim"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:255b3a4af3224331",
-          "institution:3d16981b3b17c3cd"
-        ]
-      },
-      {
         "id": "author:03359a84e8f752a4",
         "name": "Alaia Solko-Breslin",
         "aliases": [
@@ -7419,6 +7419,17 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:aa2be35854d57bb8"
+        ]
+      },
+      {
+        "id": "author:9e4e3a8c99e02449",
+        "name": "Francesco Fabiano",
+        "aliases": [
+          "Francesco Fabiano"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:2b060591e7ddb7b6"
         ]
       },
       {
@@ -13256,6 +13267,15 @@
         ]
       },
       {
+        "id": "author:042436ccdf8e6dfc",
+        "name": "Aarav Singh",
+        "aliases": [
+          "Aarav Singh"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:315a246ebed883b7",
         "name": "Aaron Karlsberg",
         "aliases": [
@@ -13969,6 +13989,15 @@
         ]
       },
       {
+        "id": "author:f828e63d7d87641f",
+        "name": "Ahmad Mohsin",
+        "aliases": [
+          "Ahmad Mohsin"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:9af2921d3fd57fe8",
         "name": "Ahmed",
         "aliases": [
@@ -14330,6 +14359,15 @@
         ]
       },
       {
+        "id": "author:7798f27c330fa1ab",
+        "name": "Alberto Giaretta",
+        "aliases": [
+          "Alberto Giaretta"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:e81e2f6bd5805592",
         "name": "Alberto Hernández-Espinosa",
         "aliases": [
@@ -14449,6 +14487,15 @@
         "institutionIds": [
           "institution:aa2be35854d57bb8"
         ]
+      },
+      {
+        "id": "author:4fe337f29435043f",
+        "name": "Alessandro Abate",
+        "aliases": [
+          "Alessandro Abate"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:f8a38f14b1582f69",
@@ -15692,6 +15739,15 @@
         "institutionIds": [
           "institution:03ba9cd60cdf2e19"
         ]
+      },
+      {
+        "id": "author:c811b9f6c7a0e683",
+        "name": "Andrea Agiollo",
+        "aliases": [
+          "Andrea Agiollo"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:509990bb84f0df5a",
@@ -25652,17 +25708,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:9e4e3a8c99e02449",
-        "name": "Francesco Fabiano",
-        "aliases": [
-          "Francesco Fabiano"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:2b060591e7ddb7b6"
-        ]
-      },
-      {
         "id": "author:38d32ae7f801d270",
         "name": "Francesco Flammini",
         "aliases": [
@@ -28855,6 +28900,15 @@
         ]
       },
       {
+        "id": "author:572c954de52dc39d",
+        "name": "Helge Janicke",
+        "aliases": [
+          "Helge Janicke"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:241dfcf49cdf8b70",
         "name": "Hemang Jain",
         "aliases": [
@@ -30359,6 +30413,15 @@
         "institutionIds": [
           "institution:c5b80d395ee0b261"
         ]
+      },
+      {
+        "id": "author:cfb3c5ad8c5e93ae",
+        "name": "Iqbal H. Sarker",
+        "aliases": [
+          "Iqbal H. Sarker"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:a7540ff93c879287",
@@ -32502,6 +32565,15 @@
         ]
       },
       {
+        "id": "author:168417d052145997",
+        "name": "Jiayi Yan",
+        "aliases": [
+          "Jiayi Yan"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:11f65c439def5e81",
         "name": "Jiayi Zhou",
         "aliases": [
@@ -32656,6 +32728,15 @@
           "institution:3afb6cc453e0a8d9",
           "institution:69309405e04976ec"
         ]
+      },
+      {
+        "id": "author:bb53cf0725ea61e7",
+        "name": "Jie Tian",
+        "aliases": [
+          "Jie Tian"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:afabdfb31da2d7ba",
@@ -39533,6 +39614,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:e42c9ac268d98389",
+        "name": "Marco Antonio Corallo",
+        "aliases": [
+          "Marco Antonio Corallo"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:a3709eac262bee24",
         "name": "Marco Aruta",
         "aliases": [
@@ -40692,6 +40782,15 @@
           "institution:964e5e6ebf9ec50d",
           "institution:c376013522845bfc"
         ]
+      },
+      {
+        "id": "author:ef6473d84d29a846",
+        "name": "Mauro Conti",
+        "aliases": [
+          "Mauro Conti"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:1c0cec9255beb617",
@@ -45036,6 +45135,15 @@
         ]
       },
       {
+        "id": "author:1e0dcfa4e26c01fb",
+        "name": "Padmeswari Nandiya",
+        "aliases": [
+          "Padmeswari Nandiya"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:5a44ccbbf2b4859f",
         "name": "Panagiotis Eustratiadis",
         "aliases": [
@@ -47118,6 +47226,15 @@
         ]
       },
       {
+        "id": "author:d1065376bd9982ff",
+        "name": "Qingde Li",
+        "aliases": [
+          "Qingde Li"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:96e8002a13b6438c",
         "name": "Qingfeng Guo",
         "aliases": [
@@ -47154,6 +47271,15 @@
         "name": "Qingliang Zhang",
         "aliases": [
           "Qingliang Zhang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:318569a88234c65a",
+        "name": "Qingqi Hong",
+        "aliases": [
+          "Qingqi Hong"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -47897,6 +48023,15 @@
         "name": "Ravi Kumar",
         "aliases": [
           "Ravi Kumar"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:1d4763fae9ce20da",
+        "name": "Ravi Kumar U",
+        "aliases": [
+          "Ravi Kumar U"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -53840,6 +53975,15 @@
         "institutionIds": [
           "institution:dbb4589b8e2f8264"
         ]
+      },
+      {
+        "id": "author:4ed20ead51fdd046",
+        "name": "Sumitra S",
+        "aliases": [
+          "Sumitra S"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:de28dd3162e9f745",
@@ -365570,6 +365714,574 @@
       "rawAuthorAffiliations": [
         {
           "name": "William Schroeder",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.01408",
+      "title": "Neuro-Symbolic Geometric Abstraction (NeuSOGA): From Observations to Symbolic Mathematical Representations",
+      "abstract": "A fundamental challenge in artificial intelligence is the transformation of observations into explicit symbolic representations suitable for abstraction, interpretation, and reasoning. While modern AI systems achieve remarkable perceptual capabilities through large-scale statistical learning, the resulting knowledge is typically encoded within latent parameters that are difficult to inspect or manipulate analytically. Inspired by Neuro-Symbolic AI and theories of human abstraction, this paper investigates the formation of symbolic mathematical representations from geometric observations. We propose NeuSOGA (Neuro-Symbolic Geometric Abstraction), a framework that progressively transforms observations into topological abstractions, geometric abstractions, and ultimately symbolic mathematical representations. The architecture combines topology-guided structural discovery using Euclidean Distance Transforms, foundation-model perception using Segment Anything, adaptive multi-scale geometric abstraction, and symbolic synthesis through Implicit Area Splines. The resulting representation is an analytical implicit model supporting arbitrary-order smoothness, additive composition, and closed-form evaluation. Unlike neural latent encodings, the generated representation remains interpretable, editable, and mathematically explicit. Experiments on ModelNet40 point clouds, arbitrary-view projections, and segmented optical observations demonstrate that NeuSOGA transforms diverse observations into compact symbolic representations while preserving essential geometric and topological structure across sensing modalities and viewing directions. NeuSOGA provides an interpretable and explainable pathway from observation to symbol and establishes",
+      "authors": [
+        "Qingde Li",
+        "Qingqi Hong",
+        "Jie Tian"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Qingde Li",
+          "authorEntityId": "author:d1065376bd9982ff",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Qingde Li",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Qingqi Hong",
+          "authorEntityId": "author:318569a88234c65a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Qingqi Hong",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jie Tian",
+          "authorEntityId": "author:bb53cf0725ea61e7",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jie Tian",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.GR"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-01",
+      "url": "https://arxiv.org/abs/2609.01408",
+      "pdfUrl": "https://arxiv.org/pdf/2609.01408",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.01408",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:fa082c9c7d1082b5",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Qingde Li",
+        "Qingqi Hong",
+        "Jie Tian"
+      ],
+      "authorEntityIds": [
+        "author:d1065376bd9982ff",
+        "author:318569a88234c65a",
+        "author:bb53cf0725ea61e7"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Qingde Li",
+          "affiliations": []
+        },
+        {
+          "name": "Qingqi Hong",
+          "affiliations": []
+        },
+        {
+          "name": "Jie Tian",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.01260",
+      "title": "Dual Process Motion Planning",
+      "abstract": "Robotic systems are deeply embedded in both industry and everyday life, where they are expected to act with speed, precision, and reliability. Classical control and planning methods have long delivered strong guarantees, but often at the cost of computational efficiency and adaptability. More recently, learning-based approaches have shown promise in overcoming these limitations, enabling agents to leverage experience to accelerate decision-making and address previously intractable problems. In this work, we bridge these two approaches through a neuro-symbolic perspective on nonlinear motion planning. Inspired by the Thinking Fast and Slow paradigm, we introduce a dual-process architecture that combines the strengths of robust reasoning and learning. Our framework integrates state-of-the-art symbolic solvers as a ``System-2'' component with experience-driven ``System-1'' modules. A metacognitive controller dynamically orchestrates their interaction, selecting when to rely on fast intuition versus slower, more precise reasoning. By evaluating the framework across diverse nonlinear benchmark environments, we demonstrate that this architecture yields consistent gains in planning efficiency, accuracy, and generalization, while promoting reuse across tasks. The results suggest that tightly coupling learning with structured reasoning offers a scalable path toward more capable and adaptive robotic systems.",
+      "authors": [
+        "Jiayi Yan",
+        "Francesco Fabiano",
+        "Alessandro Abate"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Jiayi Yan",
+          "authorEntityId": "author:168417d052145997",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jiayi Yan",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Francesco Fabiano",
+          "authorEntityId": "author:9e4e3a8c99e02449",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Francesco Fabiano",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Alessandro Abate",
+          "authorEntityId": "author:4fe337f29435043f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Alessandro Abate",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-01",
+      "url": "https://arxiv.org/abs/2609.01260",
+      "pdfUrl": "https://arxiv.org/pdf/2609.01260",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.01260",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:babc9d16bb356be4",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Jiayi Yan",
+        "Francesco Fabiano",
+        "Alessandro Abate"
+      ],
+      "authorEntityIds": [
+        "author:168417d052145997",
+        "author:9e4e3a8c99e02449",
+        "author:4fe337f29435043f"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Jiayi Yan",
+          "affiliations": []
+        },
+        {
+          "name": "Francesco Fabiano",
+          "affiliations": []
+        },
+        {
+          "name": "Alessandro Abate",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.01102",
+      "title": "Neural Symbollic Regression Using Deep Learning and Sparse Modelling",
+      "abstract": "Symbolic Regression (SR) seeks to find succinct mathematical expressions that represent the fundamental relationships within data, providing interpretability and scientific understanding that exceeds that of black-box models. Nevertheless, traditional methods like Genetic Programming face challenges with scalability and are highly sensitive to noise, while sparse regression techniques such as SINDy rely significantly on predetermined feature libraries. In this work, we present a Neural Symbolic Regression (NSR) framework that treats neural networks as functional preconditioners for symbolic discovery. Our approach uses a decoupled pipeline: a neural network first learns a smooth, noise-robust approximation of the target function in an interaction- aware nonlinear feature space. LASSO is then applied to extract sparse, interpretable closed-form expressions. To improve predictive accuracy and symbolic fidelity by integrating distributed hyperparameter optimization with Ray Tune and ASHA scheduling. Experiments on the Nguyen benchmark suite show that our approach consistently outperforms SINDy and non-tuned neural baselines in RMSE, noise robustness, and out-of-distribution generalization. Ablation studies confirm the significance of feature interactions, neural depth, and tuning strategies. In general, this study presents a scalable and understandable neural-symbolic framework, creating a solid link between neural approximation and the discovery of sparse equations for scientific machine learning.",
+      "authors": [
+        "Ravi Kumar U",
+        "Sumitra S"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Ravi Kumar U",
+          "authorEntityId": "author:1d4763fae9ce20da",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ravi Kumar U",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Sumitra S",
+          "authorEntityId": "author:4ed20ead51fdd046",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Sumitra S",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neural symbolic",
+        "neural-symbolic"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.NE",
+        "cs.SC"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-01",
+      "url": "https://arxiv.org/abs/2609.01102",
+      "pdfUrl": "https://arxiv.org/pdf/2609.01102",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.01102",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:6c331856c393dd0b",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Ravi Kumar U",
+        "Sumitra S"
+      ],
+      "authorEntityIds": [
+        "author:1d4763fae9ce20da",
+        "author:4ed20ead51fdd046"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Ravi Kumar U",
+          "affiliations": []
+        },
+        {
+          "name": "Sumitra S",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.00604",
+      "title": "NeuroGraph: An AI Graph-Driven Neuro-Symbolic Framework for Explainable Threat Reasoning in Advanced Manufacturing",
+      "abstract": "The growing complexity of cyber-physical attack surfaces in advanced manufacturing has made cyber threat intelligence analysis increasingly difficult. Although large language models and retrieval-augmented generation have improved CTI workflows, text-based approaches remain vulnerable to hallucinations and provide limited support for structured reasoning over interconnected threats. Graph-based RAG reduces some of these limitations, but existing approaches often lack ontology-consistent multi-hop reasoning and transparent evidence tracing across heterogeneous cybersecurity data. This paper proposes a graph-grounded neuro-symbolic framework that integrates ontology-aware symbolic query generation, knowledge graph retrieval, and neural language generation to support accurate and explainable threat analysis across information technology and operational technology environments. The framework adopts a dual-large language model architecture: the first model translates natural-language questions into executable Cypher queries for symbolic graph retrieval, while the second generates answers strictly from the retrieved graph evidence. Experimental evaluation using publicly available cyber threat intelligence benchmarks shows consistent improvements over the published baseline in reasoning accuracy, while also reducing hallucinations, strengthening multi-hop reasoning, and improving robustness to adversarial perturbations. Runtime and explainability analyses further demonstrate that the framework maintains interactive inference performance and exposes graph-grounded reasoning artifacts that allow analysts to inspect and verify each stage of the analysis. Overall, the results highlight the potential of graph-grounded neuro-symbolic reasoning as a scalable, interpretable, and reliable approach to cyber threat intelligence for next-generation Industry 5.0 environments.",
+      "authors": [
+        "Padmeswari Nandiya",
+        "Ahmad Mohsin",
+        "Ahmed Ibrahim",
+        "Iqbal H. Sarker",
+        "Helge Janicke"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Padmeswari Nandiya",
+          "authorEntityId": "author:1e0dcfa4e26c01fb",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Padmeswari Nandiya",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ahmad Mohsin",
+          "authorEntityId": "author:f828e63d7d87641f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ahmad Mohsin",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ahmed Ibrahim",
+          "authorEntityId": "author:0939ff2cf413db5b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ahmed Ibrahim",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Iqbal H. Sarker",
+          "authorEntityId": "author:cfb3c5ad8c5e93ae",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Iqbal H. Sarker",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Helge Janicke",
+          "authorEntityId": "author:572c954de52dc39d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Helge Janicke",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.IR"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-01",
+      "url": "https://arxiv.org/abs/2609.00604",
+      "pdfUrl": "https://arxiv.org/pdf/2609.00604",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.00604",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:73d05abdd40c7021",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Padmeswari Nandiya",
+        "Ahmad Mohsin",
+        "Ahmed Ibrahim",
+        "Iqbal H. Sarker",
+        "Helge Janicke"
+      ],
+      "authorEntityIds": [
+        "author:1e0dcfa4e26c01fb",
+        "author:f828e63d7d87641f",
+        "author:0939ff2cf413db5b",
+        "author:cfb3c5ad8c5e93ae",
+        "author:572c954de52dc39d"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Padmeswari Nandiya",
+          "affiliations": []
+        },
+        {
+          "name": "Ahmad Mohsin",
+          "affiliations": []
+        },
+        {
+          "name": "Ahmed Ibrahim",
+          "affiliations": []
+        },
+        {
+          "name": "Iqbal H. Sarker",
+          "affiliations": []
+        },
+        {
+          "name": "Helge Janicke",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.00464",
+      "title": "Does Reasoning Mitigate Backdoor Attacks? A Neuro-Symbolic Perspective",
+      "abstract": "Neuro-Symbolic (NeSy) AI has recently emerged as a novel paradigm to enable trustworthy AI, aiming at integrating sub-symbolic neural perception with grounded symbolic reasoning. The neuro-symbolic integration process that characterizes these models has been proven beneficial to achieve more transparent, explainable and efficient AI systems. Meanwhile, their properties under adversarial settings have been overlooked being frequently deemed robust-by-design. However, the neural-symbolic integration process they leverage constitutes an additional layer of complexity that may provide an attack entry-point. Therefore, in this paper, we claim that an in-depth investigation of the adversarial robustness of NeSy models is necessary and provide the first systematic evaluation of backdoor attacks against NeSy. To this end, we compare the most popular NeSy framework, namely DeepProbLog, against baseline neural networks across a total of eight backdoor settings and four reasoning tasks. Our experimental results show that while NeSy models are indeed more robust than their neural counterpart on average, their robustness vastly depend on the strictness of the reasoning process being enforced and its compatibility with the chosen adversarial target. The source code to reproduce our experiments is made available at https://github.com/marcoantoniocorallo/NeSy-Backdoor.",
+      "authors": [
+        "Marco Antonio Corallo",
+        "Andrea Agiollo",
+        "Mauro Conti",
+        "Alberto Giaretta"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Marco Antonio Corallo",
+          "authorEntityId": "author:e42c9ac268d98389",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Marco Antonio Corallo",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Andrea Agiollo",
+          "authorEntityId": "author:c811b9f6c7a0e683",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Andrea Agiollo",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Mauro Conti",
+          "authorEntityId": "author:ef6473d84d29a846",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Mauro Conti",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Alberto Giaretta",
+          "authorEntityId": "author:7798f27c330fa1ab",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Alberto Giaretta",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic",
+        "NeSy",
+        "neural-symbolic"
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-31",
+      "url": "https://arxiv.org/abs/2609.00464",
+      "pdfUrl": "https://arxiv.org/pdf/2609.00464",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.00464",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:6f83d405f8eac396",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Marco Antonio Corallo",
+        "Andrea Agiollo",
+        "Mauro Conti",
+        "Alberto Giaretta"
+      ],
+      "authorEntityIds": [
+        "author:e42c9ac268d98389",
+        "author:c811b9f6c7a0e683",
+        "author:ef6473d84d29a846",
+        "author:7798f27c330fa1ab"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Marco Antonio Corallo",
+          "affiliations": []
+        },
+        {
+          "name": "Andrea Agiollo",
+          "affiliations": []
+        },
+        {
+          "name": "Mauro Conti",
+          "affiliations": []
+        },
+        {
+          "name": "Alberto Giaretta",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.00256",
+      "title": "NSIDDx: A Design Framework for Neuro-Symbolic, Practitioner-First Differential Diagnosis in Low-Resource Settings",
+      "abstract": "LLM-based diagnostic systems achieve high semantic accuracy on benchmarks, but open-ended evaluation on clinically uncommon presentations reveals a systematic gap between headline accuracy and verifiable clinical reliability. We evaluate an LLM+rare-disease-RAG pipeline across two cohorts and show that the paradigm produces confident outputs that are frequently unverifiable and systematically resistant to clinician interrogation. We present NSIDDx (Neuro-Symbolic Integrated Differential Diagnosis System), a design framework arguing that DDx systems in low-resource settings must treat the clinician as an active reasoning agent. We instantiate this through a neuro-symbolic pipeline with ternary symptom encoding, contradiction detection, audit strings, and practitioner override - running offline on consumer hardware. We distill five design principles for clinician-in-the-loop clinical NLP and invite the prospective studies needed to validate the claim at scale.",
+      "authors": [
+        "Aarav Singh"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Aarav Singh",
+          "authorEntityId": "author:042436ccdf8e6dfc",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Aarav Singh",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-08-31",
+      "url": "https://arxiv.org/abs/2609.00256",
+      "pdfUrl": "https://arxiv.org/pdf/2609.00256",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.00256",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:04b6f8988b29ed32",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Aarav Singh"
+      ],
+      "authorEntityIds": [
+        "author:042436ccdf8e6dfc"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Aarav Singh",
           "affiliations": []
         }
       ]
