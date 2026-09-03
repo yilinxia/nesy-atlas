@@ -2023,5 +2023,23 @@
     "sourceUrl": "https://www.uniphore.com/blog/",
     "discovered": "2026-09-02",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "AI Fundamentals 09.03.2026 Standard Operating Procedures: Why SOPs Go Stale and What to Do About It Read",
+    "date": "2026-09-03",
+    "url": "https://www.kognitos.com/blog/standard-operating-procedures/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-09-03",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "AI Strategy 09.03.2026 Knowledge Management: Why the Most Valuable Knowledge Never Gets Captured Read",
+    "date": "2026-09-03",
+    "url": "https://www.kognitos.com/blog/knowledge-management/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-09-03",
+    "status": "needs-review"
   }
 ]
