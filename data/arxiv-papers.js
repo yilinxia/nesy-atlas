@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-09-02T15:48:48.750Z",
-  "cursorAt": "2026-09-02T15:48:48.750Z",
+  "generatedAt": "2026-09-03T15:38:04.407Z",
+  "cursorAt": "2026-09-03T15:38:04.407Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-08-30T15:53:23.991Z",
   "keywords": [
@@ -15,11 +15,70 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-09-01T15:56:18.462Z",
-  "windowStart": "2026-08-25T15:56:18.462Z",
+  "previousSnapshotAt": "2026-09-02T15:48:48.750Z",
+  "windowStart": "2026-08-26T15:48:48.750Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2609.02371",
+    "title": "Diagnosing with Insights: Structured Analysis of Agent Failures via Behavioral Abstractions",
+    "abstract": "With the proliferation of LLM agents, the ability to understand and diagnose failures in agents is essential to achieving superior effectiveness and trustworthiness. As agent failures often manifest via long and complex trajectories, manually finding the needles in the haystack is untenable. However, traditional diagnosis techniques for software bugs can hardly address LLM agent failures, while completely relying on LLMs as the judge yields unreliable diagnosis results. To overcome these challenges, this paper presents AGENTSCOPE, a new neuro-symbolic approach for agent failure mode diagnosis. The key principle of AGENTSCOPE is to abstract agent behavior, based on its trajectories, into structured representations. Furthermore, AGENTSCOPE introduces the concept of neural invariants to specify agent behavior properties. AGENTSCOPE leverages LLM-guided reasoning atop the structured representation against neural invariants to pinpoint both the failure step and its type in the trajectory. We show the effectiveness of AGENTSCOPE on publicly available agent failure datasets (Who&When) and a more comprehensive dataset created by us (AgentErrata), where AGENTSCOPE significantly outperforms the current state of the art in fault localization and attribution accuracy. Our work shows that integrating structured abstractions with LLM-guided reasoning enables effective, reliable, and interpretable diagnosis for agent failures.",
+    "authors": [
+      "Jiayi Bi",
+      "Yanjie Gao",
+      "Yuanmin Xie",
+      "Liqun Li",
+      "Tianyin Xu",
+      "Fan Yang",
+      "Mao Yang"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Jiayi Bi",
+        "affiliations": []
+      },
+      {
+        "name": "Yanjie Gao",
+        "affiliations": []
+      },
+      {
+        "name": "Yuanmin Xie",
+        "affiliations": []
+      },
+      {
+        "name": "Liqun Li",
+        "affiliations": []
+      },
+      {
+        "name": "Tianyin Xu",
+        "affiliations": []
+      },
+      {
+        "name": "Fan Yang",
+        "affiliations": []
+      },
+      {
+        "name": "Mao Yang",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-02",
+    "updated": "2026-09-02",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2609.02371",
+    "pdfUrl": "https://arxiv.org/pdf/2609.02371",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2609.01408",
     "title": "Neuro-Symbolic Geometric Abstraction (NeuSOGA): From Observations to Symbolic Mathematical Representations",
@@ -27,6 +86,7 @@ globalThis.ARXIV_PAPERS = [
     "authors": [
       "Qingde Li",
       "Qingqi Hong",
+      "Zihan Li",
       "Jie Tian"
     ],
     "authorAffiliations": [
@@ -39,13 +99,17 @@ globalThis.ARXIV_PAPERS = [
         "affiliations": []
       },
       {
+        "name": "Zihan Li",
+        "affiliations": []
+      },
+      {
         "name": "Jie Tian",
         "affiliations": []
       }
     ],
     "affiliations": [],
     "published": "2026-09-01",
-    "updated": "2026-09-01",
+    "updated": "2026-09-02",
     "categories": [
       "cs.AI",
       "cs.CV",
@@ -472,51 +536,6 @@ globalThis.ARXIV_PAPERS = [
     }
   },
   {
-    "id": "2608.28481",
-    "title": "NL2AGBench: Benchmarking LLM Auto-Formalization for AlphaGeometry",
-    "abstract": "Recent advances in large language models (LLMs) have demonstrated strong capabilities in natural language understanding and mathematical reasoning. However, their ability to translate informal mathematical problems into formal representations remains underexplored. This limitation is particularly important for neuro-symbolic geometry systems such as AlphaGeometry, whose theorem-proving engine requires inputs in a specialized domain-specific language (DSL). Although AlphaGeometry achieves near-IMO gold-medalist performance, manually converting natural-language problems into its formal syntax remains a significant usability bottleneck. To address this challenge, we introduce the Natural Language to AlphaGeometry Benchmark (NL2AGBench), which evaluates LLMs in translating English geometry problems into AlphaGeometry-compatible formal representations. NL2AGBench uses execution-based verification within AlphaGeometry to assess translation quality rather than relying solely on textual similarity. We evaluate ten state-of-the-art open- and closed-source LLMs across multiple parameter scales and analyze executable translation accuracy, syntactic correctness, and error characteristics. Our experiments reveal a substantial performance gap between closed- and open-source models: leading closed-source models achieve executable translation rates above 80%, while even the largest open-source models struggle to consistently preserve geometric constraints and produce valid formalizations. We introduce an error taxonomy distinguishing syntax and logic errors and investigate mitigation strategies, including few-shot prompting, fine-tuning, and human-guided hinting, which yield measurable improvements across multiple model families.",
-    "authors": [
-      "Samuel Xiao",
-      "Judy Song",
-      "Rory Hu",
-      "Ziliang Zong"
-    ],
-    "authorAffiliations": [
-      {
-        "name": "Samuel Xiao",
-        "affiliations": []
-      },
-      {
-        "name": "Judy Song",
-        "affiliations": []
-      },
-      {
-        "name": "Rory Hu",
-        "affiliations": []
-      },
-      {
-        "name": "Ziliang Zong",
-        "affiliations": []
-      }
-    ],
-    "affiliations": [],
-    "published": "2026-08-28",
-    "updated": "2026-08-28",
-    "categories": [
-      "cs.CL",
-      "cs.AI"
-    ],
-    "primaryCategory": "cs.CL",
-    "url": "https://arxiv.org/abs/2608.28481",
-    "pdfUrl": "https://arxiv.org/pdf/2608.28481",
-    "matches": {
-      "title": [],
-      "abstract": [
-        "neuro-symbolic"
-      ]
-    }
-  },
-  {
     "id": "2608.27984",
     "title": "When Evidence Shapes Collaboration: Knowledge-Conditioned Topology Generation for Multi-Agent Systems",
     "abstract": "Multi-Agent Systems (MAS) have recently moved from static workflows toward dynamically generated collaboration topologies. However, existing topology generation methods rely primarily on the parametric knowledge of large language models, with external search or retrieval used only as a reactive tool rather than an explicit determinant of collaboration structure. This leads to structure-knowledge misalignment, where systems exhibit redundant interactions or insufficient verification in knowledge-intensive tasks. We propose K-GAT (Knowledge-Guided Agent Topology Generator), a neuro-symbolic framework that formulates collaboration topology design as a knowledge-conditioned structure learning problem, integrating external evidence directly into autoregressive graph generation. Extensive experiments on knowledge-intensive benchmarks demonstrate K-GAT's efficiency and effectiveness: notably on the expert-level GPQA dataset, K-GAT outperforms the LLM-Debate baseline by a substantial margin of +15.7% in accuracy, while consuming less than half the computational tokens.",
@@ -571,13 +590,58 @@ globalThis.ARXIV_PAPERS = [
     ],
     "affiliations": [],
     "published": "2026-08-28",
-    "updated": "2026-08-28",
+    "updated": "2026-09-02",
     "categories": [
       "cs.AI"
     ],
     "primaryCategory": "cs.AI",
     "url": "https://arxiv.org/abs/2608.27984",
     "pdfUrl": "https://arxiv.org/pdf/2608.27984",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2608.28481",
+    "title": "NL2AGBench: Benchmarking LLM Auto-Formalization for AlphaGeometry",
+    "abstract": "Recent advances in large language models (LLMs) have demonstrated strong capabilities in natural language understanding and mathematical reasoning. However, their ability to translate informal mathematical problems into formal representations remains underexplored. This limitation is particularly important for neuro-symbolic geometry systems such as AlphaGeometry, whose theorem-proving engine requires inputs in a specialized domain-specific language (DSL). Although AlphaGeometry achieves near-IMO gold-medalist performance, manually converting natural-language problems into its formal syntax remains a significant usability bottleneck. To address this challenge, we introduce the Natural Language to AlphaGeometry Benchmark (NL2AGBench), which evaluates LLMs in translating English geometry problems into AlphaGeometry-compatible formal representations. NL2AGBench uses execution-based verification within AlphaGeometry to assess translation quality rather than relying solely on textual similarity. We evaluate ten state-of-the-art open- and closed-source LLMs across multiple parameter scales and analyze executable translation accuracy, syntactic correctness, and error characteristics. Our experiments reveal a substantial performance gap between closed- and open-source models: leading closed-source models achieve executable translation rates above 80%, while even the largest open-source models struggle to consistently preserve geometric constraints and produce valid formalizations. We introduce an error taxonomy distinguishing syntax and logic errors and investigate mitigation strategies, including few-shot prompting, fine-tuning, and human-guided hinting, which yield measurable improvements across multiple model families.",
+    "authors": [
+      "Samuel Xiao",
+      "Judy Song",
+      "Rory Hu",
+      "Ziliang Zong"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Samuel Xiao",
+        "affiliations": []
+      },
+      {
+        "name": "Judy Song",
+        "affiliations": []
+      },
+      {
+        "name": "Rory Hu",
+        "affiliations": []
+      },
+      {
+        "name": "Ziliang Zong",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-08-28",
+    "updated": "2026-08-28",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.CL",
+    "url": "https://arxiv.org/abs/2608.28481",
+    "pdfUrl": "https://arxiv.org/pdf/2608.28481",
     "matches": {
       "title": [],
       "abstract": [

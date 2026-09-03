@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T15:48:49.423Z",
+  "generatedAt": "2026-09-03T15:38:05.100Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1775,
+  "paperCount": 1776,
   "completeMetadataCount": 1374,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1470
+      "count": 1471
     },
     {
       "id": "nesy-proceedings",
@@ -1154,6 +1154,21 @@
         ]
       },
       {
+        "id": "author:9187a64c64c0b01f",
+        "name": "Fan Yang",
+        "aliases": [
+          "Fan Yang"
+        ],
+        "paperCount": 6,
+        "institutionIds": [
+          "institution:2d48e57d4badf5d6",
+          "institution:323e7eabc230aa6a",
+          "institution:4f85329e76bc9454",
+          "institution:7b971ad17fd639eb",
+          "institution:a360549ab82d6b07"
+        ]
+      },
+      {
         "id": "author:6d4723171cf79f28",
         "name": "Fernando Zhapa-Camacho",
         "aliases": [
@@ -1515,21 +1530,6 @@
         "institutionIds": [
           "institution:7e844d6c7ab83760",
           "institution:9b1dca853f0d341b"
-        ]
-      },
-      {
-        "id": "author:9187a64c64c0b01f",
-        "name": "Fan Yang",
-        "aliases": [
-          "Fan Yang"
-        ],
-        "paperCount": 5,
-        "institutionIds": [
-          "institution:2d48e57d4badf5d6",
-          "institution:323e7eabc230aa6a",
-          "institution:4f85329e76bc9454",
-          "institution:7b971ad17fd639eb",
-          "institution:a360549ab82d6b07"
         ]
       },
       {
@@ -9056,6 +9056,17 @@
         ]
       },
       {
+        "id": "author:a1dacc9eef906eb3",
+        "name": "Mao Yang",
+        "aliases": [
+          "Mao Yang"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:a360549ab82d6b07"
+        ]
+      },
+      {
         "id": "author:0da329841d964910",
         "name": "Maonian Wu",
         "aliases": [
@@ -11256,6 +11267,17 @@
         "institutionIds": []
       },
       {
+        "id": "author:cce0fa33a5a16212",
+        "name": "Tianyin Xu",
+        "aliases": [
+          "Tianyin Xu"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:bf3ddd5552577ff0"
+        ]
+      },
+      {
         "id": "author:fd47124f21f5108e",
         "name": "Tianyu Ren",
         "aliases": [
@@ -12113,6 +12135,17 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:1ba4ddc6758a80c0"
+        ]
+      },
+      {
+        "id": "author:513ad4c1553315ac",
+        "name": "Yanjie Gao",
+        "aliases": [
+          "Yanjie Gao"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:a360549ab82d6b07"
         ]
       },
       {
@@ -32543,6 +32576,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:0de17015f22c41f5",
+        "name": "Jiayi Bi",
+        "aliases": [
+          "Jiayi Bi"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:02b877707b9e87f6",
         "name": "Jiayi Lin",
         "aliases": [
@@ -37802,6 +37844,15 @@
         ]
       },
       {
+        "id": "author:44582bfb4274d9b7",
+        "name": "Liqun Li",
+        "aliases": [
+          "Liqun Li"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:ef9ad87e884ddd81",
         "name": "Lirui Luo",
         "aliases": [
@@ -39508,17 +39559,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:a1dacc9eef906eb3",
-        "name": "Mao Yang",
-        "aliases": [
-          "Mao Yang"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:a360549ab82d6b07"
-        ]
       },
       {
         "id": "author:f2c7b6cfcdad4d07",
@@ -55224,17 +55264,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:cce0fa33a5a16212",
-        "name": "Tianyin Xu",
-        "aliases": [
-          "Tianyin Xu"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:bf3ddd5552577ff0"
-        ]
-      },
-      {
         "id": "author:b1c79b15cd93ff75",
         "name": "Tianyu Liu",
         "aliases": [
@@ -60061,17 +60090,6 @@
         ]
       },
       {
-        "id": "author:513ad4c1553315ac",
-        "name": "Yanjie Gao",
-        "aliases": [
-          "Yanjie Gao"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:a360549ab82d6b07"
-        ]
-      },
-      {
         "id": "author:547f81b4d60ff236",
         "name": "Yanjun Lin",
         "aliases": [
@@ -62169,6 +62187,15 @@
         "institutionIds": [
           "institution:6d9eb3829f721c40"
         ]
+      },
+      {
+        "id": "author:acf2bdda974308c5",
+        "name": "Yuanmin Xie",
+        "aliases": [
+          "Yuanmin Xie"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:1d004267ec91d57d",
@@ -65146,6 +65173,15 @@
         "institutionIds": [
           "institution:c5810afc25d178a5"
         ]
+      },
+      {
+        "id": "author:885a333c5f374a01",
+        "name": "Zihan Li",
+        "aliases": [
+          "Zihan Li"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:e005e96dc6c73ecb",
@@ -365725,6 +365761,7 @@
       "authors": [
         "Qingde Li",
         "Qingqi Hong",
+        "Zihan Li",
         "Jie Tian"
       ],
       "authorAffiliations": [
@@ -365750,6 +365787,14 @@
           "affiliations": [],
           "affiliationEntityIds": [],
           "rawName": "Jie Tian",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zihan Li",
+          "authorEntityId": "author:885a333c5f374a01",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zihan Li",
           "rawAffiliations": []
         }
       ],
@@ -365791,11 +365836,13 @@
       "rawAuthors": [
         "Qingde Li",
         "Qingqi Hong",
+        "Zihan Li",
         "Jie Tian"
       ],
       "authorEntityIds": [
         "author:d1065376bd9982ff",
         "author:318569a88234c65a",
+        "author:885a333c5f374a01",
         "author:bb53cf0725ea61e7"
       ],
       "rawAuthorAffiliations": [
@@ -365809,6 +365856,10 @@
         },
         {
           "name": "Jie Tian",
+          "affiliations": []
+        },
+        {
+          "name": "Zihan Li",
           "affiliations": []
         }
       ]
@@ -366282,6 +366333,159 @@
       "rawAuthorAffiliations": [
         {
           "name": "Aarav Singh",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.02371",
+      "title": "Diagnosing with Insights: Structured Analysis of Agent Failures via Behavioral Abstractions",
+      "abstract": "With the proliferation of LLM agents, the ability to understand and diagnose failures in agents is essential to achieving superior effectiveness and trustworthiness. As agent failures often manifest via long and complex trajectories, manually finding the needles in the haystack is untenable. However, traditional diagnosis techniques for software bugs can hardly address LLM agent failures, while completely relying on LLMs as the judge yields unreliable diagnosis results. To overcome these challenges, this paper presents AGENTSCOPE, a new neuro-symbolic approach for agent failure mode diagnosis. The key principle of AGENTSCOPE is to abstract agent behavior, based on its trajectories, into structured representations. Furthermore, AGENTSCOPE introduces the concept of neural invariants to specify agent behavior properties. AGENTSCOPE leverages LLM-guided reasoning atop the structured representation against neural invariants to pinpoint both the failure step and its type in the trajectory. We show the effectiveness of AGENTSCOPE on publicly available agent failure datasets (Who&When) and a more comprehensive dataset created by us (AgentErrata), where AGENTSCOPE significantly outperforms the current state of the art in fault localization and attribution accuracy. Our work shows that integrating structured abstractions with LLM-guided reasoning enables effective, reliable, and interpretable diagnosis for agent failures.",
+      "authors": [
+        "Jiayi Bi",
+        "Yanjie Gao",
+        "Yuanmin Xie",
+        "Liqun Li",
+        "Tianyin Xu",
+        "Fan Yang",
+        "Mao Yang"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Jiayi Bi",
+          "authorEntityId": "author:0de17015f22c41f5",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jiayi Bi",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yanjie Gao",
+          "authorEntityId": "author:513ad4c1553315ac",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yanjie Gao",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yuanmin Xie",
+          "authorEntityId": "author:acf2bdda974308c5",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yuanmin Xie",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Liqun Li",
+          "authorEntityId": "author:44582bfb4274d9b7",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Liqun Li",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Tianyin Xu",
+          "authorEntityId": "author:cce0fa33a5a16212",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Tianyin Xu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Fan Yang",
+          "authorEntityId": "author:9187a64c64c0b01f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Fan Yang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Mao Yang",
+          "authorEntityId": "author:a1dacc9eef906eb3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Mao Yang",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-02",
+      "url": "https://arxiv.org/abs/2609.02371",
+      "pdfUrl": "https://arxiv.org/pdf/2609.02371",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.02371",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:2d9d7952112b4d2a",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Jiayi Bi",
+        "Yanjie Gao",
+        "Yuanmin Xie",
+        "Liqun Li",
+        "Tianyin Xu",
+        "Fan Yang",
+        "Mao Yang"
+      ],
+      "authorEntityIds": [
+        "author:0de17015f22c41f5",
+        "author:513ad4c1553315ac",
+        "author:acf2bdda974308c5",
+        "author:44582bfb4274d9b7",
+        "author:cce0fa33a5a16212",
+        "author:9187a64c64c0b01f",
+        "author:a1dacc9eef906eb3"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Jiayi Bi",
+          "affiliations": []
+        },
+        {
+          "name": "Yanjie Gao",
+          "affiliations": []
+        },
+        {
+          "name": "Yuanmin Xie",
+          "affiliations": []
+        },
+        {
+          "name": "Liqun Li",
+          "affiliations": []
+        },
+        {
+          "name": "Tianyin Xu",
+          "affiliations": []
+        },
+        {
+          "name": "Fan Yang",
+          "affiliations": []
+        },
+        {
+          "name": "Mao Yang",
           "affiliations": []
         }
       ]
