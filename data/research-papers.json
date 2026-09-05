@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-03T15:38:05.100Z",
+  "generatedAt": "2026-09-05T14:24:26.062Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1776,
+  "paperCount": 1778,
   "completeMetadataCount": 1374,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1471
+      "count": 1473
     },
     {
       "id": "nesy-proceedings",
@@ -20612,6 +20612,15 @@
         ]
       },
       {
+        "id": "author:03f27c8245ceffa1",
+        "name": "Chieh-Ju Chao",
+        "aliases": [
+          "Chieh-Ju Chao"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:0cbac8c70683875a",
         "name": "Chien-Ming Huang",
         "aliases": [
@@ -34411,6 +34420,15 @@
         ]
       },
       {
+        "id": "author:a58da780891c6b3a",
+        "name": "Joy Saha",
+        "aliases": [
+          "Joy Saha"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:d6c3e0672b0c0d22",
         "name": "Juan L Reutter",
         "aliases": [
@@ -40591,6 +40609,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:46fc2cadac2f67fe",
+        "name": "Matthew B. Dwyer",
+        "aliases": [
+          "Matthew B. Dwyer"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:e6c5811c93eec3d1",
         "name": "Matthew Baugh",
         "aliases": [
@@ -43060,6 +43087,15 @@
         "institutionIds": [
           "institution:455b0c2c597e0bc1"
         ]
+      },
+      {
+        "id": "author:1546bb92ed705d54",
+        "name": "Monica S. Lam",
+        "aliases": [
+          "Monica S. Lam"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:e05cc498bc82d508",
@@ -50779,6 +50815,15 @@
         ]
       },
       {
+        "id": "author:33e2f8cd839395c9",
+        "name": "Sebastian Elbaum",
+        "aliases": [
+          "Sebastian Elbaum"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:280b64d0f92db365",
         "name": "Sebastian Houben",
         "aliases": [
@@ -55844,6 +55889,15 @@
         "name": "Trevor Turnquist",
         "aliases": [
           "Trevor Turnquist"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:7da63fb2da673df2",
+        "name": "Trey Woodlief",
+        "aliases": [
+          "Trey Woodlief"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -60973,6 +61027,15 @@
         ]
       },
       {
+        "id": "author:623352b1f05fe70a",
+        "name": "Yilin Xu",
+        "aliases": [
+          "Yilin Xu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:03f16ae5c9fd4e7d",
         "name": "Yilong Xu",
         "aliases": [
@@ -61997,6 +62060,15 @@
         ]
       },
       {
+        "id": "author:639bfa732be191fd",
+        "name": "Yu-Chiang Wang",
+        "aliases": [
+          "Yu-Chiang Wang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:a47970e6c9d1d438",
         "name": "Yu-Ning Qiu",
         "aliases": [
@@ -62462,6 +62534,15 @@
           "institution:29d5b251c6b26a9c",
           "institution:885fab7ed0f92891"
         ]
+      },
+      {
+        "id": "author:2b71ddf107495839",
+        "name": "Yufei Jin",
+        "aliases": [
+          "Yufei Jin"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:7fe8f617f0bd2988",
@@ -65266,6 +65347,15 @@
         "institutionIds": [
           "institution:e540a2485c3e954f"
         ]
+      },
+      {
+        "id": "author:aaf1eaf07ab61a76",
+        "name": "Zikai Zhou",
+        "aliases": [
+          "Zikai Zhou"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:fd4c4842e461ac61",
@@ -366486,6 +366576,254 @@
         },
         {
           "name": "Mao Yang",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.03366",
+      "title": "Accountable AI with Grounded, Faithful, Consistent, Actionable Rationales: A Case Study in Clinical Trial Matching with VERDICT",
+      "abstract": "Accountability means a decision can be examined, justified, and contested. LLMs make this hard: fluent output may be ungrounded, incomplete, or unfaithful to the decision process. Achieving accountability requires verified rationales (how was the decision reached), assumptions (what was assumed rather than known), policy consistency (the same treatment for the same facts), and pivotal conditions (what would change the outcome). We introduce self-faithfulness as an automatic test of accountability: changing the pivotal conditions should change the decision. We examine accountable AI through clinical trial matching, a high-stakes task central to evidence-based medicine. Although LLM-based matchers match patients to trials reasonably accurately, they apply decision policies inconsistently and produce rationales that are unfaithful to their own decisions. We introduce VERDICT, an LLM-based agent that translates a decision task, its constraints, and its policy into Satisfiability Modulo Theories (SMT), then derives the decision with SMT and MaxSMT solvers -- so policies are applied consistently and decisions are accountable by construction. Across a SIGIR 2016-derived dataset and TREC 2021, VERDICT achieves the strongest decision accuracy among LLM-only and neurosymbolic baselines, applies policies with perfect consistency, and produces clinician-preferred rationales grounded in explicit assumptions and pivotal conditions, with improved counterfactual self-faithfulness.",
+      "authors": [
+        "Zikai Zhou",
+        "Yufei Jin",
+        "Yilin Xu",
+        "Yu-Chiang Wang",
+        "Chieh-Ju Chao",
+        "Monica S. Lam"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Zikai Zhou",
+          "authorEntityId": "author:aaf1eaf07ab61a76",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zikai Zhou",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yufei Jin",
+          "authorEntityId": "author:2b71ddf107495839",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yufei Jin",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yilin Xu",
+          "authorEntityId": "author:623352b1f05fe70a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yilin Xu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yu-Chiang Wang",
+          "authorEntityId": "author:639bfa732be191fd",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yu-Chiang Wang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Chieh-Ju Chao",
+          "authorEntityId": "author:03f27c8245ceffa1",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Chieh-Ju Chao",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Monica S. Lam",
+          "authorEntityId": "author:1546bb92ed705d54",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Monica S. Lam",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CY",
+        "cs.LO"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-03",
+      "url": "https://arxiv.org/abs/2609.03366",
+      "pdfUrl": "https://arxiv.org/pdf/2609.03366",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.03366",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:f7d23fb9b12334f2",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Zikai Zhou",
+        "Yufei Jin",
+        "Yilin Xu",
+        "Yu-Chiang Wang",
+        "Chieh-Ju Chao",
+        "Monica S. Lam"
+      ],
+      "authorEntityIds": [
+        "author:aaf1eaf07ab61a76",
+        "author:2b71ddf107495839",
+        "author:623352b1f05fe70a",
+        "author:639bfa732be191fd",
+        "author:03f27c8245ceffa1",
+        "author:1546bb92ed705d54"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Zikai Zhou",
+          "affiliations": []
+        },
+        {
+          "name": "Yufei Jin",
+          "affiliations": []
+        },
+        {
+          "name": "Yilin Xu",
+          "affiliations": []
+        },
+        {
+          "name": "Yu-Chiang Wang",
+          "affiliations": []
+        },
+        {
+          "name": "Chieh-Ju Chao",
+          "affiliations": []
+        },
+        {
+          "name": "Monica S. Lam",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.03161",
+      "title": "NeuroSTAR: Automata-guided Neuro-symbolic Specification Formalization",
+      "abstract": "Automated translation of natural language (NL) descriptions into Linear Temporal Logic over finite traces (LTLf) is a prerequisite for automated formal verification of a system's dynamic behavior. Several LLM-based methods have recently shown potential for this task. However, they struggle with the nuance of natural language descriptions, which can lead LLMs to only partially capture the intended meaning. To address this limitation, we propose NeuroSTAR (Automata-guided Neuro-symbolic Specification Formalization), an NL-to-LTLf framework that builds on two insights. First, it leverages multiple generators to obtain diverse LTLf candidates. Second, it uses an automata-theoretic semantic comparison based on DFA traces to identify behavioral disagreements that guide formula refinement. We evaluate NeuroSTAR and show that it improves NL-to-LTLf translation performance by 8-18 percentage points relative to the prior state-of-the-art (SoTA) on unambiguous benchmarks. We further study its applicability to a body of driving law text, a complex, realistic, and reference-free domain critical for autonomous-vehicle specification. This study shows that NeuroSTAR can capture the necessary temporal semantics in 83.9% of the driving law sections, which demonstrates the effectiveness of automata-guided reference-free refinement in formalization.",
+      "authors": [
+        "Joy Saha",
+        "Trey Woodlief",
+        "Sebastian Elbaum",
+        "Matthew B. Dwyer"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Joy Saha",
+          "authorEntityId": "author:a58da780891c6b3a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Joy Saha",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Trey Woodlief",
+          "authorEntityId": "author:7da63fb2da673df2",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Trey Woodlief",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Sebastian Elbaum",
+          "authorEntityId": "author:33e2f8cd839395c9",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Sebastian Elbaum",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Matthew B. Dwyer",
+          "authorEntityId": "author:46fc2cadac2f67fe",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Matthew B. Dwyer",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.FL"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-02",
+      "url": "https://arxiv.org/abs/2609.03161",
+      "pdfUrl": "https://arxiv.org/pdf/2609.03161",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.03161",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:fed06d0668ac921f",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Joy Saha",
+        "Trey Woodlief",
+        "Sebastian Elbaum",
+        "Matthew B. Dwyer"
+      ],
+      "authorEntityIds": [
+        "author:a58da780891c6b3a",
+        "author:7da63fb2da673df2",
+        "author:33e2f8cd839395c9",
+        "author:46fc2cadac2f67fe"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Joy Saha",
+          "affiliations": []
+        },
+        {
+          "name": "Trey Woodlief",
+          "affiliations": []
+        },
+        {
+          "name": "Sebastian Elbaum",
+          "affiliations": []
+        },
+        {
+          "name": "Matthew B. Dwyer",
           "affiliations": []
         }
       ]

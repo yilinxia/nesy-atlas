@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-09-03T15:38:04.407Z",
-  "cursorAt": "2026-09-03T15:38:04.407Z",
+  "generatedAt": "2026-09-05T14:24:25.339Z",
+  "cursorAt": "2026-09-05T14:24:25.339Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-08-30T15:53:23.991Z",
   "keywords": [
@@ -15,11 +15,113 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-09-02T15:48:48.750Z",
-  "windowStart": "2026-08-26T15:48:48.750Z",
+  "previousSnapshotAt": "2026-09-03T15:38:04.407Z",
+  "windowStart": "2026-08-27T15:38:04.407Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2609.03366",
+    "title": "Accountable AI with Grounded, Faithful, Consistent, Actionable Rationales: A Case Study in Clinical Trial Matching with VERDICT",
+    "abstract": "Accountability means a decision can be examined, justified, and contested. LLMs make this hard: fluent output may be ungrounded, incomplete, or unfaithful to the decision process. Achieving accountability requires verified rationales (how was the decision reached), assumptions (what was assumed rather than known), policy consistency (the same treatment for the same facts), and pivotal conditions (what would change the outcome). We introduce self-faithfulness as an automatic test of accountability: changing the pivotal conditions should change the decision. We examine accountable AI through clinical trial matching, a high-stakes task central to evidence-based medicine. Although LLM-based matchers match patients to trials reasonably accurately, they apply decision policies inconsistently and produce rationales that are unfaithful to their own decisions. We introduce VERDICT, an LLM-based agent that translates a decision task, its constraints, and its policy into Satisfiability Modulo Theories (SMT), then derives the decision with SMT and MaxSMT solvers -- so policies are applied consistently and decisions are accountable by construction. Across a SIGIR 2016-derived dataset and TREC 2021, VERDICT achieves the strongest decision accuracy among LLM-only and neurosymbolic baselines, applies policies with perfect consistency, and produces clinician-preferred rationales grounded in explicit assumptions and pivotal conditions, with improved counterfactual self-faithfulness.",
+    "authors": [
+      "Zikai Zhou",
+      "Yufei Jin",
+      "Yilin Xu",
+      "Yu-Chiang Wang",
+      "Chieh-Ju Chao",
+      "Monica S. Lam"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Zikai Zhou",
+        "affiliations": []
+      },
+      {
+        "name": "Yufei Jin",
+        "affiliations": []
+      },
+      {
+        "name": "Yilin Xu",
+        "affiliations": []
+      },
+      {
+        "name": "Yu-Chiang Wang",
+        "affiliations": []
+      },
+      {
+        "name": "Chieh-Ju Chao",
+        "affiliations": []
+      },
+      {
+        "name": "Monica S. Lam",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-03",
+    "updated": "2026-09-03",
+    "categories": [
+      "cs.CL",
+      "cs.CY",
+      "cs.LO"
+    ],
+    "primaryCategory": "cs.CL",
+    "url": "https://arxiv.org/abs/2609.03366",
+    "pdfUrl": "https://arxiv.org/pdf/2609.03366",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.03161",
+    "title": "NeuroSTAR: Automata-guided Neuro-symbolic Specification Formalization",
+    "abstract": "Automated translation of natural language (NL) descriptions into Linear Temporal Logic over finite traces (LTLf) is a prerequisite for automated formal verification of a system's dynamic behavior. Several LLM-based methods have recently shown potential for this task. However, they struggle with the nuance of natural language descriptions, which can lead LLMs to only partially capture the intended meaning. To address this limitation, we propose NeuroSTAR (Automata-guided Neuro-symbolic Specification Formalization), an NL-to-LTLf framework that builds on two insights. First, it leverages multiple generators to obtain diverse LTLf candidates. Second, it uses an automata-theoretic semantic comparison based on DFA traces to identify behavioral disagreements that guide formula refinement. We evaluate NeuroSTAR and show that it improves NL-to-LTLf translation performance by 8-18 percentage points relative to the prior state-of-the-art (SoTA) on unambiguous benchmarks. We further study its applicability to a body of driving law text, a complex, realistic, and reference-free domain critical for autonomous-vehicle specification. This study shows that NeuroSTAR can capture the necessary temporal semantics in 83.9% of the driving law sections, which demonstrates the effectiveness of automata-guided reference-free refinement in formalization.",
+    "authors": [
+      "Joy Saha",
+      "Trey Woodlief",
+      "Sebastian Elbaum",
+      "Matthew B. Dwyer"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Joy Saha",
+        "affiliations": []
+      },
+      {
+        "name": "Trey Woodlief",
+        "affiliations": []
+      },
+      {
+        "name": "Sebastian Elbaum",
+        "affiliations": []
+      },
+      {
+        "name": "Matthew B. Dwyer",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-02",
+    "updated": "2026-09-02",
+    "categories": [
+      "cs.FL"
+    ],
+    "primaryCategory": "cs.FL",
+    "url": "https://arxiv.org/abs/2609.03161",
+    "pdfUrl": "https://arxiv.org/pdf/2609.03161",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2609.02371",
     "title": "Diagnosing with Insights: Structured Analysis of Agent Failures via Behavioral Abstractions",
