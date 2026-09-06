@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-05T14:24:26.062Z",
+  "generatedAt": "2026-09-06T14:47:16.133Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -14,7 +14,7 @@
     "NeSy"
   ],
   "paperCount": 1778,
-  "completeMetadataCount": 1374,
+  "completeMetadataCount": 1373,
   "sources": [
     {
       "id": "arxiv-keywords",
@@ -2499,18 +2499,6 @@
         ]
       },
       {
-        "id": "author:9472777e8375d5dd",
-        "name": "Lizhen Qu",
-        "aliases": [
-          "Lizhen Qu"
-        ],
-        "paperCount": 4,
-        "institutionIds": [
-          "institution:02e0cb0a82c051ec",
-          "institution:4a7d3f60b04f6fc0"
-        ]
-      },
-      {
         "id": "author:ebf75002ac2569e9",
         "name": "Marco Lippi",
         "aliases": [
@@ -3914,21 +3902,6 @@
         ]
       },
       {
-        "id": "author:8997d6c885c0511f",
-        "name": "Iryna Gurevych",
-        "aliases": [
-          "Iryna Gurevych"
-        ],
-        "paperCount": 3,
-        "institutionIds": [
-          "institution:11591cc112c8c577",
-          "institution:437485ad84af07fc",
-          "institution:773848405e617e0b",
-          "institution:7c2ecd07f1556484",
-          "institution:99d058378724c01d"
-        ]
-      },
-      {
         "id": "author:51417d1abae7ffba",
         "name": "Ivan Ruchkin",
         "aliases": [
@@ -4294,6 +4267,18 @@
         "paperCount": 3,
         "institutionIds": [
           "institution:551b187ae24c1df9"
+        ]
+      },
+      {
+        "id": "author:9472777e8375d5dd",
+        "name": "Lizhen Qu",
+        "aliases": [
+          "Lizhen Qu"
+        ],
+        "paperCount": 3,
+        "institutionIds": [
+          "institution:02e0cb0a82c051ec",
+          "institution:4a7d3f60b04f6fc0"
         ]
       },
       {
@@ -5242,6 +5227,18 @@
         "institutionIds": [
           "institution:5735eb4c699068e8",
           "institution:7801abc579496f6a"
+        ]
+      },
+      {
+        "id": "author:e551aa36f750c406",
+        "name": "Vishvesh Bhat",
+        "aliases": [
+          "Vishvesh Bhat"
+        ],
+        "paperCount": 3,
+        "institutionIds": [
+          "institution:21e8cabe855849bd",
+          "institution:ed72534d79b73fac"
         ]
       },
       {
@@ -7977,6 +7974,20 @@
         "institutionIds": [
           "institution:53515bdf9b364cf2",
           "institution:7e54719ddfce0cba"
+        ]
+      },
+      {
+        "id": "author:8997d6c885c0511f",
+        "name": "Iryna Gurevych",
+        "aliases": [
+          "Iryna Gurevych"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:11591cc112c8c577",
+          "institution:437485ad84af07fc",
+          "institution:7c2ecd07f1556484",
+          "institution:99d058378724c01d"
         ]
       },
       {
@@ -11547,18 +11558,6 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:cd622024ee3b15c8"
-        ]
-      },
-      {
-        "id": "author:e551aa36f750c406",
-        "name": "Vishvesh Bhat",
-        "aliases": [
-          "Vishvesh Bhat"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:21e8cabe855849bd",
-          "institution:ed72534d79b73fac"
         ]
       },
       {
@@ -16576,17 +16575,6 @@
         "paperCount": 1,
         "institutionIds": [
           "institution:d1fc408fc6c11498"
-        ]
-      },
-      {
-        "id": "author:0bb878c1edd3a8fe",
-        "name": "Anne Lauscher",
-        "aliases": [
-          "Anne Lauscher"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:5a73fc9b412db6f4"
         ]
       },
       {
@@ -47225,17 +47213,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:ce25150eb9f3ba5d",
-        "name": "Qile Wan",
-        "aliases": [
-          "Qile Wan"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:02e0cb0a82c051ec"
-        ]
-      },
-      {
         "id": "author:d65250e2eb48803c",
         "name": "Qin",
         "aliases": [
@@ -54002,18 +53979,6 @@
         "paperCount": 1,
         "institutionIds": [
           "institution:02e0cb0a82c051ec"
-        ]
-      },
-      {
-        "id": "author:26dcdb7639db1d85",
-        "name": "Sukannya Purkayastha",
-        "aliases": [
-          "Sukannya Purkayastha"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:11591cc112c8c577",
-          "institution:773848405e617e0b"
         ]
       },
       {
@@ -65953,6 +65918,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:bd2c22b8efaf40b5",
+        "name": "Anh Tuan Luu",
+        "aliases": [
+          "Anh Tuan Luu"
+        ],
+        "paperCount": 0,
+        "institutionIds": []
+      },
+      {
         "id": "author:aedac23c1c69e29f",
         "name": "Anna Mikeda",
         "aliases": [
@@ -66286,6 +66260,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:20611223691d83d6",
+        "name": "Dan Zhang",
+        "aliases": [
+          "Dan Zhang"
+        ],
+        "paperCount": 0,
+        "institutionIds": []
+      },
+      {
         "id": "author:280f74478d64792e",
         "name": "Danda B. Rawat",
         "aliases": [
@@ -66416,6 +66399,15 @@
         "name": "Elliott Zackrone",
         "aliases": [
           "Elliott Zackrone"
+        ],
+        "paperCount": 0,
+        "institutionIds": []
+      },
+      {
+        "id": "author:3a50028865997b46",
+        "name": "Emine Yilmaz",
+        "aliases": [
+          "Emine Yilmaz"
         ],
         "paperCount": 0,
         "institutionIds": []
@@ -66782,6 +66774,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:b64aea5a68a36e33",
+        "name": "Huadong Jian",
+        "aliases": [
+          "Huadong Jian"
+        ],
+        "paperCount": 0,
+        "institutionIds": []
+      },
+      {
         "id": "author:2dde7b364fb14c46",
         "name": "Huan Xiao",
         "aliases": [
@@ -66860,6 +66861,15 @@
         "name": "Jan Swidzinski",
         "aliases": [
           "Jan Swidzinski"
+        ],
+        "paperCount": 0,
+        "institutionIds": []
+      },
+      {
+        "id": "author:f10c6d56f69d93ca",
+        "name": "Jeff Z. Pan",
+        "aliases": [
+          "Jeff Z. Pan"
         ],
         "paperCount": 0,
         "institutionIds": []
@@ -67040,6 +67050,15 @@
         "name": "Julian Parsert",
         "aliases": [
           "Julian Parsert"
+        ],
+        "paperCount": 0,
+        "institutionIds": []
+      },
+      {
+        "id": "author:915bb5f9f3f7a025",
+        "name": "Junfeng Fang",
+        "aliases": [
+          "Junfeng Fang"
         ],
         "paperCount": 0,
         "institutionIds": []
@@ -68498,6 +68517,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:a9a0312851e20ea5",
+        "name": "Xinliang Zhou",
+        "aliases": [
+          "Xinliang Zhou"
+        ],
+        "paperCount": 0,
+        "institutionIds": []
+      },
+      {
         "id": "author:31727d596b1da595",
         "name": "Xiufeng Wu",
         "aliases": [
@@ -68574,6 +68602,15 @@
         "name": "Yibo Xuea",
         "aliases": [
           "Yibo Xuea"
+        ],
+        "paperCount": 0,
+        "institutionIds": []
+      },
+      {
+        "id": "author:9692ac697a7a7073",
+        "name": "Yida Xue",
+        "aliases": [
+          "Yida Xue"
         ],
         "paperCount": 0,
         "institutionIds": []
@@ -68700,6 +68737,15 @@
         "name": "Zhu Fangzhou",
         "aliases": [
           "Zhu Fangzhou"
+        ],
+        "paperCount": 0,
+        "institutionIds": []
+      },
+      {
+        "id": "author:69c0fe9860072781",
+        "name": "Zifan Cheng",
+        "aliases": [
+          "Zifan Cheng"
         ],
         "paperCount": 0,
         "institutionIds": []
@@ -69061,14 +69107,6 @@
         "paperCount": 11
       },
       {
-        "id": "institution:02e0cb0a82c051ec",
-        "name": "Monash University",
-        "aliases": [
-          "Monash University"
-        ],
-        "paperCount": 11
-      },
-      {
         "id": "institution:90b589325857dff0",
         "name": "Purdue University",
         "aliases": [
@@ -69110,6 +69148,14 @@
         "paperCount": 11
       },
       {
+        "id": "institution:02e0cb0a82c051ec",
+        "name": "Monash University",
+        "aliases": [
+          "Monash University"
+        ],
+        "paperCount": 10
+      },
+      {
         "id": "institution:c111feb812f1a7ed",
         "name": "Nanyang Technological University",
         "aliases": [
@@ -69126,18 +69172,18 @@
         "paperCount": 10
       },
       {
-        "id": "institution:11591cc112c8c577",
-        "name": "Technical University of Darmstadt",
-        "aliases": [
-          "Technical University of Darmstadt"
-        ],
-        "paperCount": 10
-      },
-      {
         "id": "institution:1813a4e691ee36ac",
         "name": "Independent Researcher",
         "aliases": [
           "Independent Researcher"
+        ],
+        "paperCount": 9
+      },
+      {
+        "id": "institution:11591cc112c8c577",
+        "name": "Technical University of Darmstadt",
+        "aliases": [
+          "Technical University of Darmstadt"
         ],
         "paperCount": 9
       },
@@ -72049,14 +72095,6 @@
         "name": "University of Groningen",
         "aliases": [
           "University of Groningen"
-        ],
-        "paperCount": 2
-      },
-      {
-        "id": "institution:5a73fc9b412db6f4",
-        "name": "University of Hamburg",
-        "aliases": [
-          "University of Hamburg"
         ],
         "paperCount": 2
       },
@@ -76963,14 +77001,6 @@
         "paperCount": 1
       },
       {
-        "id": "institution:773848405e617e0b",
-        "name": "National Research Center for Applied Cybersecurity ATHENE",
-        "aliases": [
-          "National Research Center for Applied Cybersecurity ATHENE"
-        ],
-        "paperCount": 1
-      },
-      {
         "id": "institution:99fc4c2921753ab6",
         "name": "National Research Center for Applied Cybersecurity Darmstadt",
         "aliases": [
@@ -79961,6 +79991,14 @@
         "name": "University of Granada",
         "aliases": [
           "University of Granada"
+        ],
+        "paperCount": 1
+      },
+      {
+        "id": "institution:5a73fc9b412db6f4",
+        "name": "University of Hamburg",
+        "aliases": [
+          "University of Hamburg"
         ],
         "paperCount": 1
       },
@@ -95178,7 +95216,7 @@
     {
       "id": "2606.17851",
       "title": "A homotopy-type-theoretic generalization of neurosymbolic inference",
-      "abstract": "A wide range of neurosymbolic (NeSy) systems compute one functional: a belief-weighted sum of a logical quantity over a space of $σ$-structures, of which weighted model counting, fuzzy logic, and probabilistic logic are special cases. This account is built on sets, and a set deliberately forgets two things that are important for NeSy: when two $σ$-structures are the same up to a symmetry of the theory, and how many distinct proofs witness a query. Replacing the underlying sets by types, in the sense of homotopy type theory, preserves this information, and turns this functional into a belief-weighted homotopy cardinality, a notion of size that counts each object in inverse proportion to its symmetries. We develop the framework from scratch for NeSy systems, prove a conservativity theorem that recovers the classical functional when symmetries are trivial, and show that the symmetry our framework exposes is exactly the one behind reasoning shortcuts. The payoff is concrete: the shortcut-aware concept posterior that recent methods reach by ensembling or expressive density estimation is the only symmetry-invariant point of the confusion-set simplex, computable in closed form by averaging a single model over the symmetry group. On MNIST reasoning-shortcut benchmarks this single-model wrapper is better calibrated than a diversity-trained ensemble, while leaving label accuracy and identifiable concepts untouched. Code is freely available at https://github.com/bio-ontology-research-group/hott-nesy.",
+      "abstract": "A wide range of neurosymbolic (NeSy) systems compute one functional: a belief-weighted sum of a logical quantity over a space of $σ$-structures, of which weighted model counting, fuzzy logic, and probabilistic logic are special cases. This account is built on sets, and a set deliberately forgets two things that are important for NeSy: when two $σ$-structures are the same up to a symmetry of the theory, and how many distinct proofs witness a query. Types, in the sense of homotopy type theory, preserve this information and turn the functional into a belief-weighted homotopy cardinality, a notion of size that counts each object in inverse proportion to its symmetries. We develop the framework from scratch for NeSy systems, prove a conservativity theorem that recovers the classical functional when symmetries are trivial, and show that the symmetry our framework exposes is exactly the one behind reasoning shortcuts. The payoff is concrete: the shortcut-aware concept posterior that recent methods reach by ensembling or expressive density estimation is the only symmetry-invariant point of the confusion-set simplex, computable in closed form by averaging a single model over the symmetry group. On MNIST reasoning-shortcut benchmarks this single-model wrapper is better calibrated than a diversity-trained ensemble, while leaving label accuracy and identifiable concepts untouched. Code is freely available at https://github.com/bio-ontology-research-group/hott-nesy.",
       "authors": [
         "Fernando Zhapa-Camacho",
         "Robert Hoehndorf"
@@ -101156,7 +101194,7 @@
     {
       "id": "2606.02837",
       "title": "Fixing FOLIO and MALLS: Verified Annotations and an LLM-assisted Framework to Focus Human Relabeling",
-      "abstract": "Accurate translation from Natural Language to First-Order Logic (NL-to-FOL) underpins neurosymbolic AI systems and Natural Language Inference (NLI), making the quality of NL-to-FOL benchmarks essential -- yet these datasets have never been rigorously audited. Our first contribution is to present a systematic human inspection of the validation split of \\textsf{FOLIO} and a subset of \\textsf{MALLS} test instances, finding that approximately 39% and 36% of entries, respectively, contain incorrect FOL formalizations (i.e., ground truth labels), with additional rates of ambiguous NL sentences (16.4% and 48%) and incorrect NLI labels in \\textsf{FOLIO} (8.4%). Our second contribution is to develop and release corrected ground truths for such datasets, showing that annotation errors distort model evaluation on a reference benchmark task: testing three state-of-the-art LLMs (Gemma~4 31B-it, Qwen3-30B-A3B, and GPT-4o-mini) with the corrected ground truths yields accuracy gains from +9 to +22 percentage points. Motivated by these findings, we propose an LLM-based framework to support humans in manual reviewing NL-to-FOL datasets. By directing reviewers toward the most error-prone instances, we empirically show that it is possible to achieve 90% dataset accuracy after reviewing fewer than 24% of instances, compared to over 70% required by unguided review. We release all human-verified annotations and the code for our framework.",
+      "abstract": "Accurate translation from Natural Language to First-Order Logic (NL-to-FOL) underpins neurosymbolic AI systems and Natural Language Inference (NLI), making the quality of NL-to-FOL benchmarks essential---yet these datasets have never been rigorously audited. Our first contribution is to present a systematic human inspection of the validation split of \\textsf{FOLIO} and a subset of \\textsf{MALLS} test instances, finding that approximately 42.5\\% and 42\\% of entries, respectively, contain incorrect FOL formalizations (i.e., ground truth labels), with additional rates of ambiguous NL sentences (17.8\\% and 51\\%) and incorrect NLI labels in \\textsf{FOLIO} (8.4\\%). Our second contribution is to develop and release corrected ground truths for such datasets, showing that annotation errors distort model evaluation on a reference benchmark task: testing three state-of-the-art LLMs (Gemma~4 31B-it, Qwen3-30B-A3B, and GPT-4o-mini) with the corrected ground truths yields accuracy gains from +11 to +23 percentage points. Motivated by these findings, we propose an LLM-based framework to support humans in manual reviewing NL-to-FOL datasets. By directing reviewers toward the most error-prone instances, we empirically show that it is possible to achieve 90\\% dataset accuracy after reviewing fewer than 20\\% of instances, compared to over 76\\% required by unguided review. We release all human-verified annotations and the code for our framework.",
       "authors": [
         "Andrea Brunello",
         "Cristian Curaba",
@@ -105175,8 +105213,8 @@
     },
     {
       "id": "2605.22878",
-      "title": "SciAtlas: A Large-Scale Knowledge Graph for Automated Scientific Research",
-      "abstract": "The exponential growth of global academic output has confronted researchers and AI agents with an unprecedented ``information explosion,'' where fragmented and unstructured knowledge organization impedes deep interdisciplinary integration. Current academic retrieval tools predominantly rely on superficial keyword matching or vector-space semantic retrieval, which lack the topological reasoning capabilities required to navigate complex logical connections. Agentic deep-research-based frameworks are often prone to logical hallucinations and consuming high inference costs. To bridge this gap, in this report, we introduce SciAtlas, a large-scale, multi-disciplinary, heterogeneous academic resource knowledge graph designed as a panoramic scientific evolution network. By integrating over 43M papers from 26 disciplines, and a total of 157M entities and 3B triplets, SciAtlas provides a structured topological cognitive substrate that dismantles disciplinary barriers and furnishes AI agents with a global perspective. Furthermore, we develop a neuro-symbolic retrieval algorithm featuring tri-path collaborative recall and graph reranking, achieving a seamless transition from simple semantic matching to deterministic association discovery. We also present key application directions of SciAtlas, including literature review, automated research trend synthesis, idea positioning, and academic trajectory exploration, to demonstrate that SciAtlas can serve as an effective ``cognitive map'' to empower the full loop of automated scientific research while significantly reducing reasoning costs. We have released the interfaces for KG retrieval and various downstream tasks in our GitHub repo.",
+      "title": "SciAtlas: A Computable Atlas of Science for Knowledge-Grounded AI Research",
+      "abstract": "Artificial intelligence is rapidly entering the core workflows of scientific research. Yet reliable scientific reasoning requires access to accumulated scientific knowledge with sufficient breadth, depth, and standardization. Current AI scientists typically assemble scientific knowledge through workflow- and discipline-specific pipelines, which provide incomplete coverage, leave relations implicit, and make knowledge acquisition pathways fragmented. Here we present SciAtlas, a shared, machine-actionable cross-disciplinary scholarly knowledge infrastructure that integrates evidential, conceptual, disciplinary, expertise, and normative layers under a shared schema. SciAtlas further achieves a unified neuro-symbolic retrieval mechanism that grounds heterogeneous research objects, propagates relevance across the scholarly topology, and projects the resulting relevance field into the context required by each scientific workflow. Across three representative workflows, SciAtlas broadens trajectory reconstruction by recovering overlooked research branches, deepens opportunity discovery by uncovering underexplored bottlenecks and cross-domain insights, and strengthens innovation assessment by integrating evidence, expertise, and evaluation signals. Across three representative workflows, SciAtlas broadens trajectory reconstruction by recovering overlooked stages and branches, deepens opportunity discovery by uncovering underexplored bottlenecks and cross-domain connections, and standardizes innovation assessment by integrating evidence, expertise and evaluation signals. Extensive evaluations validate the foundational capabilities underpinning it as reusable knowledge infrastructure for knowledge-intensive scientific research.",
       "authors": [
         "Shuofei Qiao",
         "Yunxiang Wei",
@@ -105347,6 +105385,78 @@
           "rawAffiliations": [
             "Zhejiang University"
           ]
+        },
+        {
+          "name": "Huadong Jian",
+          "authorEntityId": "author:b64aea5a68a36e33",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Huadong Jian",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Shumin Deng",
+          "authorEntityId": "author:94458953b0a7187a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Shumin Deng",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yida Xue",
+          "authorEntityId": "author:9692ac697a7a7073",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yida Xue",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zifan Cheng",
+          "authorEntityId": "author:69c0fe9860072781",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zifan Cheng",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xiang Chen",
+          "authorEntityId": "author:2d668d2c4a41297c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xiang Chen",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Dan Zhang",
+          "authorEntityId": "author:20611223691d83d6",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Dan Zhang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Junfeng Fang",
+          "authorEntityId": "author:915bb5f9f3f7a025",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Junfeng Fang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jeff Z. Pan",
+          "authorEntityId": "author:f10c6d56f69d93ca",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jeff Z. Pan",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Emine Yilmaz",
+          "authorEntityId": "author:3a50028865997b46",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Emine Yilmaz",
+          "rawAffiliations": []
         }
       ],
       "authorIds": [],
@@ -105487,6 +105597,42 @@
           "affiliations": [
             "Zhejiang University"
           ]
+        },
+        {
+          "name": "Huadong Jian",
+          "affiliations": []
+        },
+        {
+          "name": "Shumin Deng",
+          "affiliations": []
+        },
+        {
+          "name": "Yida Xue",
+          "affiliations": []
+        },
+        {
+          "name": "Zifan Cheng",
+          "affiliations": []
+        },
+        {
+          "name": "Xiang Chen",
+          "affiliations": []
+        },
+        {
+          "name": "Dan Zhang",
+          "affiliations": []
+        },
+        {
+          "name": "Junfeng Fang",
+          "affiliations": []
+        },
+        {
+          "name": "Jeff Z. Pan",
+          "affiliations": []
+        },
+        {
+          "name": "Emine Yilmaz",
+          "affiliations": []
         }
       ]
     },
@@ -131026,7 +131172,7 @@
     {
       "id": "2603.19828",
       "title": "FormalEvolve: Neuro-Symbolic Evolutionary Search for Diverse Autoformalization",
-      "abstract": "Autoformalization aims to produce formal statements that compile and faithfully preserve the intended meaning of informal mathematics. Yet standard single-output evaluation protocols collapse a many-to-many problem into a single-output prediction task. For downstream proving, this granularity is too coarse: a formal statement is not merely a faithful translation endpoint, but also a prover-facing interface whose structure can alter proof search under a fixed budget. We therefore recast autoformalization as budgeted test-time search: FormalEvolve maintains a compilation-feasible archive for reuse, while reporting the deduplicated semantically accepted repertoire for evaluation and downstream proving. It expands the archive with LLM-driven mutation, crossover, bounded patch repair, and symbolic Abstract Syntax Tree (AST) rewrites for structural diversity. Under a generator-call budget of T=100 with a fixed LLM semantic judge, FormalEvolve reaches SH@100 of 58.0% on CombiBench and 84.9% on ProofNet, improving over all no-archive controls while reducing the cross-problem concentration of semantic successes. To assess downstream value, we evaluate the resulting repertoires under a fixed B=64 prover budget, where they improve theorem-complete proving over the matched no-archive control; additional stronger-base statement-generation experiments show that archive-search gains hold with stronger seed and repair models. Manual faithfulness audits calibrate these judge-positive outputs.",
+      "abstract": "Autoformalization aims to produce formal statements that compile and faithfully preserve the intended meaning of informal mathematics. Yet standard single-output evaluation collapses this many-to-many structure into a single prediction. For downstream proving, this granularity is too coarse: a formal statement is not merely a faithful translation endpoint, but also a prover-facing interface whose structure can alter proof search under a fixed budget. We therefore recast autoformalization as budgeted test-time search: FormalEvolve maintains a compilation-feasible archive for reuse and returns a deduplicated, semantically accepted repertoire for evaluation and downstream proving. It expands the archive with LLM-driven mutation, crossover, bounded patch repair, and symbolic abstract syntax tree (AST) rewrites for structural diversity. Under a generator-call budget of T=100 with a fixed LLM semantic judge, FormalEvolve reaches SH@100 of 58.0% on CombiBench and 84.9% on ProofNet, improving over all no-archive controls while reducing the cross-problem concentration of semantic successes. Under a fixed B=64 prover budget, these repertoires improve theorem-complete proving over the matched no-archive control. Additional stronger-base statement-generation experiments show that archive-search gains persist with stronger seed and repair models.",
       "authors": [
         "Haijian Lu",
         "Wei Wang",
@@ -135130,7 +135276,7 @@
     {
       "id": "2603.09542",
       "title": "NS-VLA: Towards Neuro-Symbolic Vision-Language-Action Models",
-      "abstract": "Vision-Language-Action (VLA) models are formulated to ground instructions in visual context and generate action sequences for robotic manipulation. Despite recent progress, VLA models still face challenges in learning related and reusable primitives, reducing reliance on large-scale data and complex architectures, and enabling exploration beyond demonstrations. To address these challenges, we propose a novel Neuro-Symbolic Vision-Language-Action (NS-VLA) framework via online reinforcement learning (RL). It introduces a symbolic encoder to embedding vision and language features and extract structured primitives, utilizes a symbolic solver for data-efficient action sequencing, and leverages online RL to optimize generation via expansive exploration. Experiments on robotic manipulation benchmarks demonstrate that NS-VLA outperforms previous methods in both one-shot training and data-perturbed settings, while simultaneously exhibiting superior zero-shot generalizability, high data efficiency and expanded exploration space. Our code is available.",
+      "abstract": "Vision-Language-Action (VLA) models are formulated to ground instructions in visual context and generate action sequences for robotic manipulation. Despite recent progress, VLA models still face structure-blind backbones, backbone-bound generalization, and flat single-objective optimization. To address these challenges, we propose a novel Neuro-Symbolic Vision-Language-Action (NS-VLA) framework. It introduces a Neuro-Symbolic Encoder for plan-constrained primitive inference, a Neuro-Symbolic Solver that conditions a backbone-agnostic policy on the active primitive, and Hierarchical Joint Policy Optimization with reward-granularity matching. Experiments on robotic manipulation benchmarks demonstrate that NS-VLA outperforms previous methods in both one-shot training and data-perturbed settings, while simultaneously exhibiting superior zero-shot generalizability and expanded exploration space. Our code is publicly available.",
       "authors": [
         "Ziyue Zhu",
         "Shangyang Wu",
@@ -135250,6 +135396,30 @@
           "rawAffiliations": [
             "Nanyang Technological University Homepage"
           ]
+        },
+        {
+          "name": "Jian Zhang",
+          "authorEntityId": "author:9b4d19bac1a726f9",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jian Zhang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Anh Tuan Luu",
+          "authorEntityId": "author:bd2c22b8efaf40b5",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Anh Tuan Luu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xinliang Zhou",
+          "authorEntityId": "author:a9a0312851e20ea5",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xinliang Zhou",
+          "rawAffiliations": []
         }
       ],
       "authorIds": [],
@@ -135361,6 +135531,18 @@
           "affiliations": [
             "Nanyang Technological University Homepage"
           ]
+        },
+        {
+          "name": "Jian Zhang",
+          "affiliations": []
+        },
+        {
+          "name": "Anh Tuan Luu",
+          "affiliations": []
+        },
+        {
+          "name": "Xinliang Zhou",
+          "affiliations": []
         }
       ]
     },
@@ -151676,7 +151858,7 @@
     {
       "id": "2601.18987",
       "title": "LLMs versus the Halting Problem: Characterizing Program Termination Reasoning",
-      "abstract": "Determining whether a program terminates is a central problem in computer science. Turing's Halting Problem established termination as undecidable, showing that no algorithm can universally determine termination for all programs and inputs. Hence, verification tools approximate termination, sometimes failing to prove or disprove; these tools rely on problem specific architectures, and are usually tied to particular programming languages. Recent advances in LLMs raise a natural question: To what extent can they reason about program termination? We evaluate frontier LLMs on a diverse set of C programs from the International Competition on Software Verification (SV Comp) 2025. Our results show that GPT-5 and Claude Sonnet 4.5 achieve scores comparable to top ranked verification tools (with test time scaling). However, while models often correctly infer whether programs terminate, they frequently fail to construct a witness as formal proof, revealing a gap between semantic recognition and symbolic proof generation. Performance further degrades as code length increases. To analyze this gap, we introduce a divergence precondition formulation that characterizes non termination conditions as logical constraints. We hope these findings motivate future research on real-world termination benchmarks, neuro-symbolic approaches that combine LLMs with symbolic verification methods, and, more broadly LLM reasoning on other undecidable problems.",
+      "abstract": "Determining whether a program terminates is a central problem in computer science. Turing's Halting Problem established termination as undecidable, showing that no algorithm can universally determine termination for all programs and inputs. Hence, verification tools approximate termination, sometimes failing to prove or disprove; these tools rely on problem-specific architectures and are usually tied to particular programming languages. Recent advances in LLMs raise a natural question: To what extent can they reason about program termination? We evaluate frontier LLMs on a diverse set of C programs from the International Competition on Software Verification (SV-Comp) 2025. Our results show that GPT-5 and Claude Sonnet-4.5 achieve scores comparable to top-ranked verification tools (with test-time scaling). However, while models often correctly infer whether programs terminate, they frequently fail to construct a witness as formal proof, revealing a gap between semantic recognition and symbolic proof generation. Performance further degrades as code length increases. Beyond witness automaton graphs, we introduce a divergence-precondition formulation that characterizes non-termination conditions as logical constraints. We hope these findings motivate future research on real-world termination benchmarks, neuro-symbolic approaches that combine LLMs with symbolic verification methods, and, more broadly, LLM reasoning on other undecidable problems.",
       "authors": [
         "Oren Sultan",
         "Jordi Armengol-Estape",
@@ -154968,193 +155150,6 @@
           "name": "Mohammed Kaif Pasha",
           "affiliations": [
             "MJCET)"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2602.10118",
-      "title": "Reviewing the Reviewer: Elevating Peer Review Quality through LLM-Guided Feedback",
-      "abstract": "Peer review is central to scientific quality, yet reliance on simple heuristics -- lazy thinking -- has lowered standards. Prior work treats lazy thinking detection as a single-label task, but review segments may exhibit multiple issues, including broader clarity problems, or specificity issues. Turning detection into actionable improvements requires guideline-aware feedback, which is currently missing. We introduce an LLM-driven framework that decomposes reviews into argumentative segments, identifies issues via a neurosymbolic module combining LLM features with traditional classifiers, and generates targeted feedback using issue-specific templates refined by a genetic algorithm. Experiments show our method outperforms zero-shot LLM baselines and improves review quality by up to 92.4\\%. We also release LazyReviewPlus, a dataset of 1,309 sentences labeled for lazy thinking and specificity.",
-      "authors": [
-        "Sukannya Purkayastha",
-        "Qile Wan",
-        "Anne Lauscher",
-        "Lizhen Qu",
-        "Iryna Gurevych"
-      ],
-      "authorAffiliations": [
-        {
-          "name": "Sukannya Purkayastha",
-          "authorEntityId": "author:26dcdb7639db1d85",
-          "affiliations": [
-            "Technical University of Darmstadt",
-            "National Research Center for Applied Cybersecurity ATHENE"
-          ],
-          "affiliationEntityIds": [
-            "institution:11591cc112c8c577",
-            "institution:773848405e617e0b"
-          ],
-          "rawName": "Sukannya Purkayastha",
-          "rawAffiliations": [
-            "Technical University of Darmstadt",
-            "National Research Center for Applied Cybersecurity ATHENE"
-          ]
-        },
-        {
-          "name": "Qile Wan",
-          "authorEntityId": "author:ce25150eb9f3ba5d",
-          "affiliations": [
-            "Monash University"
-          ],
-          "affiliationEntityIds": [
-            "institution:02e0cb0a82c051ec"
-          ],
-          "rawName": "Qile Wan",
-          "rawAffiliations": [
-            "Monash University"
-          ]
-        },
-        {
-          "name": "Anne Lauscher",
-          "authorEntityId": "author:0bb878c1edd3a8fe",
-          "affiliations": [
-            "University of Hamburg"
-          ],
-          "affiliationEntityIds": [
-            "institution:5a73fc9b412db6f4"
-          ],
-          "rawName": "Anne Lauscher",
-          "rawAffiliations": [
-            "University of Hamburg"
-          ]
-        },
-        {
-          "name": "Lizhen Qu",
-          "authorEntityId": "author:9472777e8375d5dd",
-          "affiliations": [
-            "Monash University"
-          ],
-          "affiliationEntityIds": [
-            "institution:02e0cb0a82c051ec"
-          ],
-          "rawName": "Lizhen Qu",
-          "rawAffiliations": [
-            "Monash University"
-          ]
-        },
-        {
-          "name": "Iryna Gurevych",
-          "authorEntityId": "author:8997d6c885c0511f",
-          "affiliations": [
-            "Technical University of Darmstadt",
-            "National Research Center for Applied Cybersecurity ATHENE"
-          ],
-          "affiliationEntityIds": [
-            "institution:11591cc112c8c577",
-            "institution:773848405e617e0b"
-          ],
-          "rawName": "Iryna Gurevych",
-          "rawAffiliations": [
-            "Technical University of Darmstadt",
-            "National Research Center for Applied Cybersecurity ATHENE"
-          ]
-        }
-      ],
-      "authorIds": [],
-      "affiliations": [
-        "Technical University of Darmstadt",
-        "National Research Center for Applied Cybersecurity ATHENE",
-        "Monash University",
-        "University of Hamburg"
-      ],
-      "keywords": [
-        "neurosymbolic"
-      ],
-      "categories": [
-        "cs.CL",
-        "cs.CY"
-      ],
-      "venue": "arXiv",
-      "conference": "",
-      "year": 2026,
-      "published": "2026-01-17",
-      "url": "https://arxiv.org/abs/2602.10118",
-      "pdfUrl": "https://arxiv.org/pdf/2602.10118",
-      "doi": "",
-      "doiUrl": "",
-      "arxivId": "2602.10118",
-      "primaryArea": "",
-      "paperType": "",
-      "tldr": "",
-      "award": "",
-      "sourceType": "arxiv",
-      "sourceIds": [
-        "arxiv-keywords"
-      ],
-      "resolutionStatus": "source-pdf",
-      "resolutionMethod": "",
-      "resolvedArxivUrl": "",
-      "metadataComplete": true,
-      "extractionStatus": "extracted",
-      "entityId": "paper:2419b29002668d5c",
-      "rawAffiliations": [
-        "Technical University of Darmstadt",
-        "National Research Center for Applied Cybersecurity ATHENE",
-        "Monash University",
-        "University of Hamburg"
-      ],
-      "affiliationEntityIds": [
-        "institution:11591cc112c8c577",
-        "institution:773848405e617e0b",
-        "institution:02e0cb0a82c051ec",
-        "institution:5a73fc9b412db6f4"
-      ],
-      "rawAuthors": [
-        "Sukannya Purkayastha",
-        "Qile Wan",
-        "Anne Lauscher",
-        "Lizhen Qu",
-        "Iryna Gurevych"
-      ],
-      "authorEntityIds": [
-        "author:26dcdb7639db1d85",
-        "author:ce25150eb9f3ba5d",
-        "author:0bb878c1edd3a8fe",
-        "author:9472777e8375d5dd",
-        "author:8997d6c885c0511f"
-      ],
-      "rawAuthorAffiliations": [
-        {
-          "name": "Sukannya Purkayastha",
-          "affiliations": [
-            "Technical University of Darmstadt",
-            "National Research Center for Applied Cybersecurity ATHENE"
-          ]
-        },
-        {
-          "name": "Qile Wan",
-          "affiliations": [
-            "Monash University"
-          ]
-        },
-        {
-          "name": "Anne Lauscher",
-          "affiliations": [
-            "University of Hamburg"
-          ]
-        },
-        {
-          "name": "Lizhen Qu",
-          "affiliations": [
-            "Monash University"
-          ]
-        },
-        {
-          "name": "Iryna Gurevych",
-          "affiliations": [
-            "Technical University of Darmstadt",
-            "National Research Center for Applied Cybersecurity ATHENE"
           ]
         }
       ]
@@ -208725,8 +208720,8 @@
     },
     {
       "id": "2505.14479",
-      "title": "A Neuro-Symbolic Approach for Reliable Proof Generation with LLMs: A Case Study in Euclidean Geometry",
-      "abstract": "Large language models (LLMs) struggle with formal domains that require rigorous logical deduction and symbolic reasoning, such as mathematical proof generation. We propose a neuro-symbolic approach that combines LLMs' generative strengths with structured components to overcome this challenge. As a proof-of-concept, we focus on SAT-level geometry problems. Our approach is two-fold: (1) We retrieve analogous problems and use their proofs to guide the LLM, and (2) a formal verifier evaluates the generated proofs and provides feedback, helping the model fix incorrect proofs. Our complete pipeline substantially improves proof accuracy across model families, achieving 68%-96% accuracy compared with 10%-44% for LLM-only baselines that use neither analogy retrieval nor verifier feedback. When comparing against models with the same verifier feedback and inference budget, adding analogy retrieval still improves accuracy from 88% to 96% for GPT-5, 78% to 86% for Claude Sonnet 4.6, 72% to 86% for Gemini-Flash-2.5, and 52% to 80% for OpenAI o1. More broadly, shifting to LLMs that generate provably correct conclusions has the potential to dramatically improve their reliability, accuracy and consistency, unlocking complex tasks and critical real-world applications that require trustworthiness.",
+      "title": "Reliable Proof Generation with LLMs via Analogical Retrieval and Symbolic Verification: A Case Study in Euclidean Geometry",
+      "abstract": "Large language models (LLMs) struggle with formal domains that require rigorous logical deduction and symbolic reasoning, such as mathematical proof generation. We propose a neuro-symbolic approach centered on the hypothesis that structurally analogous problems often admit similar proofs. As a proof-of-concept, we focus on SAT-level geometry problems. Our approach is two-fold: (1) We retrieve analogous problems and use their proofs to guide the LLM, and (2) a formal verifier evaluates the generated proofs and provides feedback, helping the model fix incorrect proofs. Our complete pipeline substantially improves proof accuracy across model families, achieving 68%-96% accuracy compared with 10%-44% for LLM-only baselines that use neither analogy retrieval nor verifier feedback. When comparing against models with the same verifier feedback and inference budget, analogical guidance improves accuracy from 88% to 96% for GPT-5, 78% to 86% for Claude Sonnet 4.6, 72% to 86% for Gemini-Flash-2.5, and 52% to 80% for OpenAI o1. More broadly, shifting to LLMs that generate provably correct conclusions has the potential to dramatically improve their reliability, accuracy and consistency, unlocking complex tasks and critical real-world applications that require trustworthiness.",
       "authors": [
         "Oren Sultan",
         "Eitan Stern",
@@ -366824,6 +366819,71 @@
         },
         {
           "name": "Matthew B. Dwyer",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.00367",
+      "title": "Neurosymbolics for Data Engineering: Achieving Long Context Token Reduction Without Finetuning",
+      "abstract": "Large Language Models are increasingly deployed for sophisticated data engineering tasks such as generating structured queries from natural language, Text-to-SQL, and automating complex spreadsheet operations. However, maximizing their utility demands both higher finetuning-free accuracy and solutions to the computational bottleneck imposed by the Transformer architectures inherent quadratic (On2) time complexity. This paper introduces a novel drop-in neurosymbolic layer designed to seamlessly integrate into existing LLM backbones enhancing logical reasoning and mitigating long-context resource consumption. On the reasoning front, the layer immediately and significantly improves performance yielding an average accuracy increase of 85% across rigorous benchmarks including BIRD-CRITIC and LiveSQLBench, critically achieving these gains without any task specific finetuning or RLHF. Concurrently, we repurpose this approach to address the severe computational strain of long context inference. By leveraging symbolic processing to prioritize and compress relevant contextual information the layer reduces the effective token usage by over 50% and brings the effective time complexity down from O(n2) to approximately O(n) on certain long context tasks. This dual impact approach not only makes LLMs substantially more reliable for data engineering but also drastically reduces the computational pressure on inference chips, making long context tasks more manageable and cost effective.",
+      "authors": [
+        "Vishvesh Bhat"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Vishvesh Bhat",
+          "authorEntityId": "author:e551aa36f750c406",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Vishvesh Bhat",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-06-30",
+      "url": "https://arxiv.org/abs/2609.00367",
+      "pdfUrl": "https://arxiv.org/pdf/2609.00367",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.00367",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:206a2b0b5e68642f",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Vishvesh Bhat"
+      ],
+      "authorEntityIds": [
+        "author:e551aa36f750c406"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Vishvesh Bhat",
           "affiliations": []
         }
       ]
