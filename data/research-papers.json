@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-06T14:47:16.133Z",
+  "generatedAt": "2026-09-07T17:04:45.166Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1778,
+  "paperCount": 1784,
   "completeMetadataCount": 1373,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1473
+      "count": 1479
     },
     {
       "id": "nesy-proceedings",
@@ -1229,6 +1229,17 @@
         ]
       },
       {
+        "id": "author:f4dea1553dcd5ab5",
+        "name": "Lia Morra",
+        "aliases": [
+          "Lia Morra"
+        ],
+        "paperCount": 6,
+        "institutionIds": [
+          "institution:4bbc1b7d44637ee2"
+        ]
+      },
+      {
         "id": "author:f9ebd667d4502155",
         "name": "Manas Gaur",
         "aliases": [
@@ -1663,17 +1674,6 @@
         "paperCount": 5,
         "institutionIds": [
           "institution:323e7eabc230aa6a"
-        ]
-      },
-      {
-        "id": "author:f4dea1553dcd5ab5",
-        "name": "Lia Morra",
-        "aliases": [
-          "Lia Morra"
-        ],
-        "paperCount": 5,
-        "institutionIds": [
-          "institution:4bbc1b7d44637ee2"
         ]
       },
       {
@@ -5795,6 +5795,17 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:23181ae7d70d3069"
+        ]
+      },
+      {
+        "id": "author:db61b22b95e283d8",
+        "name": "Alessandro Russo",
+        "aliases": [
+          "Alessandro Russo"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:e0b0520932ab2444"
         ]
       },
       {
@@ -14174,6 +14185,15 @@
         ]
       },
       {
+        "id": "author:c1a201e601072fc2",
+        "name": "Ajay Gupta",
+        "aliases": [
+          "Ajay Gupta"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:56943a414a2f45b2",
         "name": "Ajay Krishna Vajjala",
         "aliases": [
@@ -14583,17 +14603,6 @@
         "paperCount": 1,
         "institutionIds": [
           "institution:977430a4473aa4b0"
-        ]
-      },
-      {
-        "id": "author:db61b22b95e283d8",
-        "name": "Alessandro Russo",
-        "aliases": [
-          "Alessandro Russo"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:e0b0520932ab2444"
         ]
       },
       {
@@ -17918,6 +17927,15 @@
         ]
       },
       {
+        "id": "author:ea49184ff36b02c5",
+        "name": "Bahar Uddin Mahmud",
+        "aliases": [
+          "Bahar Uddin Mahmud"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:5cbb69f4bd714c58",
         "name": "Bahareh Fatemi",
         "aliases": [
@@ -18379,6 +18397,15 @@
         "institutionIds": [
           "institution:87d9a45b3389372f"
         ]
+      },
+      {
+        "id": "author:6fd6c41f9994e9ca",
+        "name": "Benjamin Ruppik",
+        "aliases": [
+          "Benjamin Ruppik"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:664963ffe308c909",
@@ -19505,6 +19532,15 @@
         "name": "Cara Leigh Widmer",
         "aliases": [
           "Cara Leigh Widmer"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:8424dc6e8388b2b8",
+        "name": "Carel van Niekerk",
+        "aliases": [
+          "Carel van Niekerk"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -25052,6 +25088,15 @@
         ]
       },
       {
+        "id": "author:7cfff48ef4ca7f19",
+        "name": "Fabricio C. Avini",
+        "aliases": [
+          "Fabricio C. Avini"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:366f765a06bbfc86",
         "name": "Fabrizio Lamberti",
         "aliases": [
@@ -27267,6 +27312,15 @@
         ]
       },
       {
+        "id": "author:2ee99d9211207291",
+        "name": "Guan Yue Hong",
+        "aliases": [
+          "Guan Yue Hong"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:71ff368effa15d0a",
         "name": "Guanfeng Liu",
         "aliases": [
@@ -27387,6 +27441,15 @@
           "institution:569c943941cf9747",
           "institution:ffcb560498d89d25"
         ]
+      },
+      {
+        "id": "author:2077f0f746cb1935",
+        "name": "Guilherme Trez",
+        "aliases": [
+          "Guilherme Trez"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:53120c4ff4232e1f",
@@ -29077,6 +29140,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:e054e6dac2ddf9f8",
+        "name": "Hexu Liu",
+        "aliases": [
+          "Hexu Liu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:61de26acb66a8839",
         "name": "Heyu Wang",
         "aliases": [
@@ -29273,6 +29345,15 @@
         "institutionIds": [
           "institution:ff4b6fb0e7e3f155"
         ]
+      },
+      {
+        "id": "author:a1d3223516edb373",
+        "name": "Homayoun Afshari",
+        "aliases": [
+          "Homayoun Afshari"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:9c2364ba04c712fb",
@@ -29645,6 +29726,15 @@
         "name": "Hsiang Low",
         "aliases": [
           "Hsiang Low"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:83158d2da998fd7a",
+        "name": "Hsien-chin Lin",
+        "aliases": [
+          "Hsien-chin Lin"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -34148,6 +34238,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:2bbeefb54d5350e3",
+        "name": "Jörg Krüger",
+        "aliases": [
+          "Jörg Krüger"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:1cc05ece83840f4e",
         "name": "Jorge Goncalves",
         "aliases": [
@@ -36051,6 +36150,15 @@
         "institutionIds": [
           "institution:dd73702ff38d750e"
         ]
+      },
+      {
+        "id": "author:f70d8c1001247814",
+        "name": "Kevin Haninger",
+        "aliases": [
+          "Kevin Haninger"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:9caa7afde622ed5b",
@@ -41599,6 +41707,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:65cc22f5321129e1",
+        "name": "Michael Heck",
+        "aliases": [
+          "Michael Heck"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:405730aefbb8bff2",
         "name": "Michael Hopko",
         "aliases": [
@@ -42058,6 +42175,15 @@
         "name": "Milena Zivkovic",
         "aliases": [
           "Milena Zivkovic"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:6abbafd3280c636c",
+        "name": "Milica Gasic",
+        "aliases": [
+          "Milica Gasic"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -44800,6 +44926,15 @@
         ]
       },
       {
+        "id": "author:8ef4c0b2650f8c2d",
+        "name": "Nurul Lubis",
+        "aliases": [
+          "Nurul Lubis"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:d29b7945556b3e71",
         "name": "O Divine Eziolise",
         "aliases": [
@@ -44930,6 +45065,15 @@
         "institutionIds": [
           "institution:246fbc23666f6d0a"
         ]
+      },
+      {
+        "id": "author:a05f58f45b45b1ab",
+        "name": "Oliver Heimann",
+        "aliases": [
+          "Oliver Heimann"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:c037b201ae64f51b",
@@ -46478,6 +46622,15 @@
         "institutionIds": [
           "institution:723adb4552fb956f"
         ]
+      },
+      {
+        "id": "author:7bd0cc2623ff83e2",
+        "name": "Pietro Basci",
+        "aliases": [
+          "Pietro Basci"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:2725c6d4c26d0f7a",
@@ -48263,6 +48416,15 @@
         "name": "Renato Lui Geh",
         "aliases": [
           "Renato Lui Geh"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:48477d00399abef2",
+        "name": "Renato Vukovic",
+        "aliases": [
+          "Renato Vukovic"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -52318,6 +52480,15 @@
         ]
       },
       {
+        "id": "author:6872ddb0cb801e6b",
+        "name": "Shutong Feng",
+        "aliases": [
+          "Shutong Feng"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:97ed755f3e1f2663",
         "name": "Shuwei Chen",
         "aliases": [
@@ -54014,6 +54185,15 @@
         "institutionIds": [
           "institution:6a892bbe4ee57122"
         ]
+      },
+      {
+        "id": "author:08de644dbd03f358",
+        "name": "Sumit Barua",
+        "aliases": [
+          "Sumit Barua"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:4688e6032a31f7f7",
@@ -56826,6 +57006,15 @@
         "institutionIds": [
           "institution:30df34c95c4b8248"
         ]
+      },
+      {
+        "id": "author:77d1f88920e6e379",
+        "name": "Vivek Chavan",
+        "aliases": [
+          "Vivek Chavan"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:9e5de021537db834",
@@ -59802,6 +59991,15 @@
         "name": "Yaesol Kim",
         "aliases": [
           "Yaesol Kim"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:75b344501c306b4c",
+        "name": "Yahuan Shi",
+        "aliases": [
+          "Yahuan Shi"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -64146,6 +64344,15 @@
         "institutionIds": [
           "institution:8af390e38bab9df5"
         ]
+      },
+      {
+        "id": "author:df591c79ea528e7a",
+        "name": "Zheng Kui Lin",
+        "aliases": [
+          "Zheng Kui Lin"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:684d812ca538d4b2",
@@ -366884,6 +367091,673 @@
       "rawAuthorAffiliations": [
         {
           "name": "Vishvesh Bhat",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.05388",
+      "title": "Think-Verify-Revise: Neuro-Symbolic Visual Reasoning with Vision-Language Models and Dynamic Logic Tensor Networks",
+      "abstract": "Visual reasoning tasks require a system to jointly perceive visual content and apply formal relational constraints---a combination that neither pure neural nor purely symbolic approaches handle well in isolation. This paper proposes a Neuro-Symbolic (NeSy) framework that closes this gap by tightly coupling a Vision-Language Model (VLM) for automatic First-Order Logic (FOL) rule induction with a Dynamic Logic Tensor Network (D-LTN) for differentiable rule verification, in a closed iterative feedback loop. The VLM receives a small set of labelled visual examples and proposes candidate FOL rules conforming to a strict grammar (Think); the D-LTN is automatically assembled from these rules at runtime and evaluates them grounding on CNN-produced visual embeddings (Verify); and verification failures are fed back to guide the VLM's next hypothesis (Revise). Evaluated on the ViSudo-PC benchmark across four visual domains (MNIST, EMNIST, KMNIST, FMNIST), the system induces valid Sudoku constraint rules using only three training examples as visual context. The proposed method achieves AUC scores matching or outperforming previous methods (NeuPSL, LTN), showing the potential for automatic rule discovery through VLM. Code is available at https://github.com/homayoun-afshari/nesy.",
+      "authors": [
+        "Homayoun Afshari",
+        "Pietro Basci",
+        "Alessandro Russo",
+        "Lia Morra"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Homayoun Afshari",
+          "authorEntityId": "author:a1d3223516edb373",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Homayoun Afshari",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Pietro Basci",
+          "authorEntityId": "author:7bd0cc2623ff83e2",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Pietro Basci",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Alessandro Russo",
+          "authorEntityId": "author:db61b22b95e283d8",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Alessandro Russo",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Lia Morra",
+          "authorEntityId": "author:f4dea1553dcd5ab5",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Lia Morra",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic",
+        "NeSy"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-04",
+      "url": "https://arxiv.org/abs/2609.05388",
+      "pdfUrl": "https://arxiv.org/pdf/2609.05388",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.05388",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:8901eae0efe35773",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Homayoun Afshari",
+        "Pietro Basci",
+        "Alessandro Russo",
+        "Lia Morra"
+      ],
+      "authorEntityIds": [
+        "author:a1d3223516edb373",
+        "author:7bd0cc2623ff83e2",
+        "author:db61b22b95e283d8",
+        "author:f4dea1553dcd5ab5"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Homayoun Afshari",
+          "affiliations": []
+        },
+        {
+          "name": "Pietro Basci",
+          "affiliations": []
+        },
+        {
+          "name": "Alessandro Russo",
+          "affiliations": []
+        },
+        {
+          "name": "Lia Morra",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.05369",
+      "title": "Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation",
+      "abstract": "Vision-language-action (VLA) models can execute short manipulation skills, but remain brittle in long-horizon procedures requiring persistent task state, dependency-aware reasoning, conditional decisions, and reliable grounding. We investigate a neuro-symbolic framework that combines learned VLA control with explicit task graphs and multimodal procedural memory. Task graphs encode action dependencies, valid transitions, and branch conditions, while memory maintains the active step, completed actions, textual context, and task-relevant visual evidence. Together, these structures guide object selection, destination grounding, subgoal dispatch, and verification of expected state transitions. Human demonstrations provide additional spatial and temporal guidance through gaze or saliency cues. To isolate their effect on policy learning, our initial study bypasses cross-view gaze transfer and directly annotates pseudo-gaze in robot-view teleoperation videos. The resulting guidance is used during VLA fine-tuning and inference. We study two long-horizon manipulation domains, workspace clearing and surgical-instrument handling, which require ordered execution, visually grounded decisions, and conditional branching. We evaluate correct-object and destination selection, subtask completion, task progress, step-order consistency, complete-task success, and procedural or execution mistakes. This work positions structured symbolic reasoning and demonstration-derived visual guidance as complementary mechanisms for reliable long-horizon VLA manipulation.",
+      "authors": [
+        "Vivek Chavan",
+        "Yahuan Shi",
+        "Oliver Heimann",
+        "Kevin Haninger",
+        "Jörg Krüger"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Vivek Chavan",
+          "authorEntityId": "author:77d1f88920e6e379",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Vivek Chavan",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yahuan Shi",
+          "authorEntityId": "author:75b344501c306b4c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yahuan Shi",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Oliver Heimann",
+          "authorEntityId": "author:a05f58f45b45b1ab",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Oliver Heimann",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Kevin Haninger",
+          "authorEntityId": "author:f70d8c1001247814",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Kevin Haninger",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jörg Krüger",
+          "authorEntityId": "author:2bbeefb54d5350e3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jörg Krüger",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-04",
+      "url": "https://arxiv.org/abs/2609.05369",
+      "pdfUrl": "https://arxiv.org/pdf/2609.05369",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.05369",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:f87fe411a5cb01de",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Vivek Chavan",
+        "Yahuan Shi",
+        "Oliver Heimann",
+        "Kevin Haninger",
+        "Jörg Krüger"
+      ],
+      "authorEntityIds": [
+        "author:77d1f88920e6e379",
+        "author:75b344501c306b4c",
+        "author:a05f58f45b45b1ab",
+        "author:f70d8c1001247814",
+        "author:2bbeefb54d5350e3"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Vivek Chavan",
+          "affiliations": []
+        },
+        {
+          "name": "Yahuan Shi",
+          "affiliations": []
+        },
+        {
+          "name": "Oliver Heimann",
+          "affiliations": []
+        },
+        {
+          "name": "Kevin Haninger",
+          "affiliations": []
+        },
+        {
+          "name": "Jörg Krüger",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.05257",
+      "title": "Commonsense Reasoning in Computer Vision: Foundations, Recent Advancements, and Future Directions",
+      "abstract": "Commonsense reasoning in computer vision encompasses integrating visual data and contextual knowledge, crucial for enhancing AI's understanding of everyday scenarios. This understanding not only improves machine learning models but also enhances their ability to interact meaningfully with humans and the environment. Unlike CNN-based conventional vision models, which are designed to identify objects within a specific image, incorporating commonsense knowledge enables models to interpret scenes in a more holistic manner, thereby improving their spatial ability to reason about relationships among objects and actions. This integration not only enhances object recognition but also facilitates a deeper understanding of the contextual factors, ultimately leading to more precise predictions and interactions in real-world applications. This paper presents a comprehensive survey of recent developments that integrate commonsense knowledge into computer vision tasks. We systematically review approaches based on knowledge graphs, scene graphs, neuro-symbolic models, and commonsense-augmented transformers. We also outline current limitations related to dataset bias, knowledge incompleteness, and integration challenges. Finally, we highlight prospective research trajectories in cross-modal reasoning, scalable commonsense knowledge injection, and neuro-symbolic hybrid architectures to develop truly intelligent visual systems.",
+      "authors": [
+        "Bahar Uddin Mahmud",
+        "Sumit Barua",
+        "Guan Yue Hong",
+        "Ajay Gupta",
+        "Hexu Liu"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Bahar Uddin Mahmud",
+          "authorEntityId": "author:ea49184ff36b02c5",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Bahar Uddin Mahmud",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Sumit Barua",
+          "authorEntityId": "author:08de644dbd03f358",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Sumit Barua",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Guan Yue Hong",
+          "authorEntityId": "author:2ee99d9211207291",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Guan Yue Hong",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ajay Gupta",
+          "authorEntityId": "author:c1a201e601072fc2",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ajay Gupta",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Hexu Liu",
+          "authorEntityId": "author:e054e6dac2ddf9f8",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Hexu Liu",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-04",
+      "url": "https://arxiv.org/abs/2609.05257",
+      "pdfUrl": "https://arxiv.org/pdf/2609.05257",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.05257",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:7fc4768a185c4677",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Bahar Uddin Mahmud",
+        "Sumit Barua",
+        "Guan Yue Hong",
+        "Ajay Gupta",
+        "Hexu Liu"
+      ],
+      "authorEntityIds": [
+        "author:ea49184ff36b02c5",
+        "author:08de644dbd03f358",
+        "author:2ee99d9211207291",
+        "author:c1a201e601072fc2",
+        "author:e054e6dac2ddf9f8"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Bahar Uddin Mahmud",
+          "affiliations": []
+        },
+        {
+          "name": "Sumit Barua",
+          "affiliations": []
+        },
+        {
+          "name": "Guan Yue Hong",
+          "affiliations": []
+        },
+        {
+          "name": "Ajay Gupta",
+          "affiliations": []
+        },
+        {
+          "name": "Hexu Liu",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.05139",
+      "title": "NS-ST-GraphRAG: Neuro-Symbolic Spatio-Temporal GraphRAG for Literary Knowledge Processing",
+      "abstract": "Long-form literary narratives pose a distinctive information-processing challenge for retrieval-augmented generation: relevant evidence is distributed across chapters, relations evolve over narrative time, and correct answers may depend jointly on temporal, spatial, and relational constraints. We propose NS-ST-GraphRAG, a neuro-symbolic spatio-temporal GraphRAG framework that integrates ontology-guided extraction, deterministic constraint checking, dual temporal coordinates, spatial scene attributes, and dynamic sub-graph retrieval. Instead of retrieving from a single corpus-level graph, the framework selects the graph state valid for the temporal and spatial scope of a query and grounds generated answers in traceable evidence. We further introduce Red-Chamber-QA, to our knowledge the first open multi-hop question-answering benchmark for classical Chinese literature, with time-, space-, and general-question categories, per-part evidence spans, and deterministic shortcut controls. On a 120-question held-out split, NS-ST-GraphRAG achieves mechanical answer reproduction of 0.733 versus 0.675 for the frozen window baseline and 0.083 for a closed-book model (McNemar exact p = 0.092, directionally favorable but not significant); semantic-judge accuracy is 0.866 versus 0.850. The pre-specified constrained-category condition of H2 is not supported by the delivered comparison. These results show how temporal graph representation, constrained extraction, and auditable evaluation integrate into a unified framework for verifiable knowledge processing over long-form narrative.",
+      "authors": [
+        "Zheng Kui Lin"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Zheng Kui Lin",
+          "authorEntityId": "author:df591c79ea528e7a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zheng Kui Lin",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-04",
+      "url": "https://arxiv.org/abs/2609.05139",
+      "pdfUrl": "https://arxiv.org/pdf/2609.05139",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.05139",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:42f93c088c328f56",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Zheng Kui Lin"
+      ],
+      "authorEntityIds": [
+        "author:df591c79ea528e7a"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Zheng Kui Lin",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.05025",
+      "title": "Leveraging Low-Level Symbolic Competences for Unsupervised Grounding in Hallucination Detection",
+      "abstract": "Hallucination-where a language model generates outputs that are factually incorrect or unsupported by the source-is a major challenge for both prompted and fine-tuned language models. Detecting hallucinations is difficult due to the opaque reasoning processes of LLMs, which often provide little insight into why a model's output may be inaccurate. In this work, we investigate whether an LLM can use an alternative, low level, symbolic competence such as SQL for unsupervised hallucination detection in some high level task. For this, we make an LLM build an SQL database from reference documents. This SQL database is then used for reasoning over the reference and the sampled response in a hallucination detection pipeline that is grounded in the database, thereby providing a neurosymbolic checkup. On RAGTruth and DiaHalu hallucination detection datasets, we find that our approach improves on direct prediction and competes with state-of-the-art hallucination detection methods, while not requiring domain-specific fine-tuning. Instead it relies on a low-level general competence already present in LLMs. This warrants further investigation of low-level LLM competences in neurosymbolic approaches.",
+      "authors": [
+        "Renato Vukovic",
+        "Hsien-chin Lin",
+        "Carel van Niekerk",
+        "Benjamin Ruppik",
+        "Michael Heck",
+        "Shutong Feng",
+        "Nurul Lubis",
+        "Milica Gasic"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Renato Vukovic",
+          "authorEntityId": "author:48477d00399abef2",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Renato Vukovic",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Hsien-chin Lin",
+          "authorEntityId": "author:83158d2da998fd7a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Hsien-chin Lin",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Carel van Niekerk",
+          "authorEntityId": "author:8424dc6e8388b2b8",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Carel van Niekerk",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Benjamin Ruppik",
+          "authorEntityId": "author:6fd6c41f9994e9ca",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Benjamin Ruppik",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Michael Heck",
+          "authorEntityId": "author:65cc22f5321129e1",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Michael Heck",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Shutong Feng",
+          "authorEntityId": "author:6872ddb0cb801e6b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Shutong Feng",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Nurul Lubis",
+          "authorEntityId": "author:8ef4c0b2650f8c2d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Nurul Lubis",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Milica Gasic",
+          "authorEntityId": "author:6abbafd3280c636c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Milica Gasic",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.IR"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-04",
+      "url": "https://arxiv.org/abs/2609.05025",
+      "pdfUrl": "https://arxiv.org/pdf/2609.05025",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.05025",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:7bf1d38e9a1a6e7b",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Renato Vukovic",
+        "Hsien-chin Lin",
+        "Carel van Niekerk",
+        "Benjamin Ruppik",
+        "Michael Heck",
+        "Shutong Feng",
+        "Nurul Lubis",
+        "Milica Gasic"
+      ],
+      "authorEntityIds": [
+        "author:48477d00399abef2",
+        "author:83158d2da998fd7a",
+        "author:8424dc6e8388b2b8",
+        "author:6fd6c41f9994e9ca",
+        "author:65cc22f5321129e1",
+        "author:6872ddb0cb801e6b",
+        "author:8ef4c0b2650f8c2d",
+        "author:6abbafd3280c636c"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Renato Vukovic",
+          "affiliations": []
+        },
+        {
+          "name": "Hsien-chin Lin",
+          "affiliations": []
+        },
+        {
+          "name": "Carel van Niekerk",
+          "affiliations": []
+        },
+        {
+          "name": "Benjamin Ruppik",
+          "affiliations": []
+        },
+        {
+          "name": "Michael Heck",
+          "affiliations": []
+        },
+        {
+          "name": "Shutong Feng",
+          "affiliations": []
+        },
+        {
+          "name": "Nurul Lubis",
+          "affiliations": []
+        },
+        {
+          "name": "Milica Gasic",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.04377",
+      "title": "Corporate Language Model (CLM): Transforming Tacit and Fragmented Enterprise Knowledge into a Sovereign, Auditable, and Executable Corporate Intelligence Layer",
+      "abstract": "Enterprise AI deployments fail not from model inadequacy, but because organizations lack a structured substrate encoding how they decide, negotiate, and execute. Generic LLMs carry no firm-specific ontological priors; RAG remains brittle, with no path to executable action; static playbooks encode logic but cannot reason or adapt. This demands an architecture treating tacit-knowledge capture, ontological grounding, sovereign deployment, and auditable actuation as co-designed from the start. This paper introduces the Corporate Language Model (CLM), a framework transforming a firm's structured, unstructured, multimodal, and tacit knowledge into an ontology-grounded enterprise foundation upon which reasoning and governed execution are composed. CLM has five capability planes and four architectural pillars: a Neurosymbolic Mesh coupling generative models with a knowledge graph; a Skill Graph where reusable tactics, personas, objections, and goals are typed and composed; Living Digital Twins modeling functional areas as reasoning surrogates; and a Deep Security Layer enforcing sovereignty, traceability, and human oversight. A Spec-as-Code paradigm bridges grounded intent and executable artifact. CLM is one instantiation of this foundation-centric class. Four contributions follow: CLM is defined as a distinct object of study; the Skill Graph is introduced for compositional explainability by construction; the Wisdom Listener effect is proposed, whereby tacit-capable foundations compound in value with use, connecting to dynamic capabilities and organizational learning; and evidence from a JCI-accredited tertiary hospital in Brazil instantiates three of the six maturity stages under LGPD.",
+      "authors": [
+        "Fabricio C. Avini",
+        "Guilherme Trez"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Fabricio C. Avini",
+          "authorEntityId": "author:7cfff48ef4ca7f19",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Fabricio C. Avini",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Guilherme Trez",
+          "authorEntityId": "author:2077f0f746cb1935",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Guilherme Trez",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-03",
+      "url": "https://arxiv.org/abs/2609.04377",
+      "pdfUrl": "https://arxiv.org/pdf/2609.04377",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.04377",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:85879079c35b461b",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Fabricio C. Avini",
+        "Guilherme Trez"
+      ],
+      "authorEntityIds": [
+        "author:7cfff48ef4ca7f19",
+        "author:2077f0f746cb1935"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Fabricio C. Avini",
+          "affiliations": []
+        },
+        {
+          "name": "Guilherme Trez",
           "affiliations": []
         }
       ]
