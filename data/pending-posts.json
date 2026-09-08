@@ -2050,5 +2050,23 @@
     "sourceUrl": "https://www.expert.ai/news-resources/",
     "discovered": "2026-09-07",
     "status": "needs-review"
+  },
+  {
+    "company": "expert.ai",
+    "title": "News 08 Sep 2026 Expert.ai Named in the 2026 Gartner&reg; Coolest Vendor Innovations in Agentic AI for Banking, Part 1 Report Read",
+    "date": "2026-09-08",
+    "url": "https://www.expert.ai/news/expert-ai-named-in-the-2026-gartner-coolest-vendor-innovations-in-agentic-ai-for-banking-part-1-report/",
+    "sourceUrl": "https://www.expert.ai/news-resources/",
+    "discovered": "2026-09-08",
+    "status": "needs-review"
+  },
+  {
+    "company": "Onteric",
+    "title": "AI & Innovation September 7, 2026 FCA&#x27;s Mills Review: What It Actually Means for Financial Services Firms",
+    "date": "",
+    "url": "https://www.onteric.com/news-and-insights/fcas-mills-review-what-it-actually-means-for-financial-services-firms",
+    "sourceUrl": "https://www.onteric.com/news-and-insights/",
+    "discovered": "2026-09-08",
+    "status": "needs-review"
   }
 ]
