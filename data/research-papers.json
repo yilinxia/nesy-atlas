@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T15:50:13.700Z",
+  "generatedAt": "2026-09-09T15:45:57.252Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1784,
+  "paperCount": 1786,
   "completeMetadataCount": 1373,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1479
+      "count": 1481
     },
     {
       "id": "nesy-proceedings",
@@ -18675,6 +18675,15 @@
         ]
       },
       {
+        "id": "author:4d1326cdd1c65301",
+        "name": "Bin Han",
+        "aliases": [
+          "Bin Han"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:8b51b5aaa55d8deb",
         "name": "Bin Li",
         "aliases": [
@@ -21322,6 +21331,15 @@
         "name": "Cong Fang",
         "aliases": [
           "Cong Fang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:b5304896f354c569",
+        "name": "Cong Li",
+        "aliases": [
+          "Cong Li"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -29104,6 +29122,15 @@
         "name": "Henry Kautz",
         "aliases": [
           "Henry Kautz"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:4af0b5a29c69fe6a",
+        "name": "Henryk Mustroph",
+        "aliases": [
+          "Henryk Mustroph"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -53775,6 +53802,15 @@
         ]
       },
       {
+        "id": "author:7335410518eccb00",
+        "name": "Stefanie Rinderle-Ma",
+        "aliases": [
+          "Stefanie Rinderle-Ma"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:7aabe379718e097a",
         "name": "Stefano Buliani",
         "aliases": [
@@ -57900,6 +57936,15 @@
         ]
       },
       {
+        "id": "author:c9d099b30f39c0da",
+        "name": "WenDong Chen",
+        "aliases": [
+          "WenDong Chen"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:8f823e7bc6ef9939",
         "name": "Wenguan Wang",
         "aliases": [
@@ -60923,6 +60968,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:b25624fac3c13b01",
+        "name": "Yicheng Lin",
+        "aliases": [
+          "Yicheng Lin"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:b1363c9ff62254f6",
         "name": "Yichi Zhang",
         "aliases": [
@@ -63541,6 +63595,15 @@
         "name": "Yuxin Zi",
         "aliases": [
           "Yuxin Zi"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:3b8d5fc99fd49055",
+        "name": "Yuxiu Xu",
+        "aliases": [
+          "Yuxiu Xu"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -367758,6 +367821,208 @@
         },
         {
           "name": "Guilherme Trez",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.06169",
+      "title": "Decision-Aware Suffix Prediction and Reasoning of Business Processes",
+      "abstract": "Suffix prediction forecasts the remaining sequence of events of a running case until completion. Most approaches rely on neural networks trained on event logs, which, on average, perform well but struggle with short prefixes or targets belonging to a rare process variant. In such scenarios, the correct path may cross multiple branching decisions, determined primarily by case- and event-level attributes, a signal that NN-based suffix prediction models tend to underweight because they may heavily weight (dense) event labels. Decision mining extracts rules for such decisions from the event log, but has so far been applied only to post-hoc and what-if analysis, not suffix prediction. We therefore extend suffix prediction with decision mining, introducing a decision-aware suffix prediction framework, a neuro-symbolic approach that enables reasoning about predicted events via mined decision rules. Experiments on three of four event logs and three suffix predictors show that the framework can improve suffix prediction, especially for short prefixes but also for rare process variants, and adds intrinsic interpretability.",
+      "authors": [
+        "Henryk Mustroph",
+        "Stefanie Rinderle-Ma"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Henryk Mustroph",
+          "authorEntityId": "author:4af0b5a29c69fe6a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Henryk Mustroph",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Stefanie Rinderle-Ma",
+          "authorEntityId": "author:7335410518eccb00",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Stefanie Rinderle-Ma",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-05",
+      "url": "https://arxiv.org/abs/2609.06169",
+      "pdfUrl": "https://arxiv.org/pdf/2609.06169",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.06169",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:9524762ed283ce93",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Henryk Mustroph",
+        "Stefanie Rinderle-Ma"
+      ],
+      "authorEntityIds": [
+        "author:4af0b5a29c69fe6a",
+        "author:7335410518eccb00"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Henryk Mustroph",
+          "affiliations": []
+        },
+        {
+          "name": "Stefanie Rinderle-Ma",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.06074",
+      "title": "NSFlow: End-to-End Differentiable Neuro-Symbolic Optical Flow for Visual Odometry",
+      "abstract": "Sparse optical flow provides stable inter-frame correspondence, playing a key role in Visual Odometry (VO) and Visual-Inertial Odometry (VIO). Classical optimization-based methods, such as Lucas-Kanade (LK), perform well under small displacements but are sensitive to large motions and illumination changes. Modern regression-based learning methods, while more robust in complex scenes, are often computationally heavy and lack explicit geometric consistency, making them less suitable for efficient VO/VIO front-ends. To bridge this gap, we propose a hybrid neuro-symbolic framework that combines the strengths of both paradigms. Our method uses a Convolutional Neural Network (CNN) to extract robust feature representations, which is fed into a differentiable LK optimizer to estimate optical flow in an end-to-end trainable manner. Through implicit differentiation, gradients are propagated across the iterative solver, enabling joint optimization of feature extraction and flow estimation. The resulting system integrates seamlessly into existing VO/VIO pipelines and runs in real-time on embedded platforms. Experiments show that our method outperforms conventional optimization-based flow in challenging conditions such as dynamic lighting and low texture, while also achieving higher accuracy and lower latency than purely regression-based alternatives. When deployed in a VIO system, our method demonstrates significant performance improvement, achieving an average error reduction of 42\\% on challenging datasets while enhancing tracking stability. The code is publicly available.",
+      "authors": [
+        "Yicheng Lin",
+        "Yuxiu Xu",
+        "WenDong Chen",
+        "Cong Li",
+        "Bin Han"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Yicheng Lin",
+          "authorEntityId": "author:b25624fac3c13b01",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yicheng Lin",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yuxiu Xu",
+          "authorEntityId": "author:3b8d5fc99fd49055",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yuxiu Xu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "WenDong Chen",
+          "authorEntityId": "author:c9d099b30f39c0da",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "WenDong Chen",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Cong Li",
+          "authorEntityId": "author:b5304896f354c569",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Cong Li",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Bin Han",
+          "authorEntityId": "author:4d1326cdd1c65301",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Bin Han",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-05",
+      "url": "https://arxiv.org/abs/2609.06074",
+      "pdfUrl": "https://arxiv.org/pdf/2609.06074",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.06074",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:ef0ad4ffc4f1f886",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Yicheng Lin",
+        "Yuxiu Xu",
+        "WenDong Chen",
+        "Cong Li",
+        "Bin Han"
+      ],
+      "authorEntityIds": [
+        "author:b25624fac3c13b01",
+        "author:3b8d5fc99fd49055",
+        "author:c9d099b30f39c0da",
+        "author:b5304896f354c569",
+        "author:4d1326cdd1c65301"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Yicheng Lin",
+          "affiliations": []
+        },
+        {
+          "name": "Yuxiu Xu",
+          "affiliations": []
+        },
+        {
+          "name": "WenDong Chen",
+          "affiliations": []
+        },
+        {
+          "name": "Cong Li",
+          "affiliations": []
+        },
+        {
+          "name": "Bin Han",
           "affiliations": []
         }
       ]

@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-09-08T15:50:13.184Z",
-  "cursorAt": "2026-09-08T15:50:13.184Z",
+  "generatedAt": "2026-09-09T15:45:56.709Z",
+  "cursorAt": "2026-09-09T15:45:56.709Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-09-06T14:47:15.477Z",
   "keywords": [
@@ -15,11 +15,97 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-09-07T17:04:44.728Z",
-  "windowStart": "2026-08-31T17:04:44.728Z",
+  "previousSnapshotAt": "2026-09-08T15:50:13.184Z",
+  "windowStart": "2026-09-01T15:50:13.184Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2609.06169",
+    "title": "Decision-Aware Suffix Prediction and Reasoning of Business Processes",
+    "abstract": "Suffix prediction forecasts the remaining sequence of events of a running case until completion. Most approaches rely on neural networks trained on event logs, which, on average, perform well but struggle with short prefixes or targets belonging to a rare process variant. In such scenarios, the correct path may cross multiple branching decisions, determined primarily by case- and event-level attributes, a signal that NN-based suffix prediction models tend to underweight because they may heavily weight (dense) event labels. Decision mining extracts rules for such decisions from the event log, but has so far been applied only to post-hoc and what-if analysis, not suffix prediction. We therefore extend suffix prediction with decision mining, introducing a decision-aware suffix prediction framework, a neuro-symbolic approach that enables reasoning about predicted events via mined decision rules. Experiments on three of four event logs and three suffix predictors show that the framework can improve suffix prediction, especially for short prefixes but also for rare process variants, and adds intrinsic interpretability.",
+    "authors": [
+      "Henryk Mustroph",
+      "Stefanie Rinderle-Ma"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Henryk Mustroph",
+        "affiliations": []
+      },
+      {
+        "name": "Stefanie Rinderle-Ma",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-05",
+    "updated": "2026-09-05",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2609.06169",
+    "pdfUrl": "https://arxiv.org/pdf/2609.06169",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.06074",
+    "title": "NSFlow: End-to-End Differentiable Neuro-Symbolic Optical Flow for Visual Odometry",
+    "abstract": "Sparse optical flow provides stable inter-frame correspondence, playing a key role in Visual Odometry (VO) and Visual-Inertial Odometry (VIO). Classical optimization-based methods, such as Lucas-Kanade (LK), perform well under small displacements but are sensitive to large motions and illumination changes. Modern regression-based learning methods, while more robust in complex scenes, are often computationally heavy and lack explicit geometric consistency, making them less suitable for efficient VO/VIO front-ends. To bridge this gap, we propose a hybrid neuro-symbolic framework that combines the strengths of both paradigms. Our method uses a Convolutional Neural Network (CNN) to extract robust feature representations, which is fed into a differentiable LK optimizer to estimate optical flow in an end-to-end trainable manner. Through implicit differentiation, gradients are propagated across the iterative solver, enabling joint optimization of feature extraction and flow estimation. The resulting system integrates seamlessly into existing VO/VIO pipelines and runs in real-time on embedded platforms. Experiments show that our method outperforms conventional optimization-based flow in challenging conditions such as dynamic lighting and low texture, while also achieving higher accuracy and lower latency than purely regression-based alternatives. When deployed in a VIO system, our method demonstrates significant performance improvement, achieving an average error reduction of 42\\% on challenging datasets while enhancing tracking stability. The code is publicly available.",
+    "authors": [
+      "Yicheng Lin",
+      "Yuxiu Xu",
+      "WenDong Chen",
+      "Cong Li",
+      "Bin Han"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Yicheng Lin",
+        "affiliations": []
+      },
+      {
+        "name": "Yuxiu Xu",
+        "affiliations": []
+      },
+      {
+        "name": "WenDong Chen",
+        "affiliations": []
+      },
+      {
+        "name": "Cong Li",
+        "affiliations": []
+      },
+      {
+        "name": "Bin Han",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-05",
+    "updated": "2026-09-05",
+    "categories": [
+      "cs.CV"
+    ],
+    "primaryCategory": "cs.CV",
+    "url": "https://arxiv.org/abs/2609.06074",
+    "pdfUrl": "https://arxiv.org/pdf/2609.06074",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2609.05388",
     "title": "Think-Verify-Revise: Neuro-Symbolic Visual Reasoning with Vision-Language Models and Dynamic Logic Tensor Networks",
