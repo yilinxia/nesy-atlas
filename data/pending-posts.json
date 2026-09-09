@@ -2068,5 +2068,32 @@
     "sourceUrl": "https://www.onteric.com/news-and-insights/",
     "discovered": "2026-09-08",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "AI Governance 09.08.2026 Data Governance: Why Policy Is the Easy Part Read",
+    "date": "2026-09-08",
+    "url": "https://www.kognitos.com/blog/data-governance/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-09-09",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Finance 09.08.2026 Master Data Management: Why MDM Programs Stall and What Fixes Them Read",
+    "date": "2026-09-08",
+    "url": "https://www.kognitos.com/blog/master-data-management/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-09-09",
+    "status": "needs-review"
+  },
+  {
+    "company": "RAAPID",
+    "title": "READ MORE",
+    "date": "2026-09-09",
+    "url": "https://www.raapidinc.com/blogs/high-risk-diagnosis-codes-oig-audits-acute-stroke-acute-mi-active-cancer/",
+    "sourceUrl": "https://www.raapidinc.com/blogs/",
+    "discovered": "2026-09-09",
+    "status": "needs-review"
   }
 ]
