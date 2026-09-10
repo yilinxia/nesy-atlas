@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-09-09T15:45:56.709Z",
-  "cursorAt": "2026-09-09T15:45:56.709Z",
+  "generatedAt": "2026-09-10T15:41:47.902Z",
+  "cursorAt": "2026-09-10T15:41:47.902Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-09-06T14:47:15.477Z",
   "keywords": [
@@ -15,11 +15,40 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-09-08T15:50:13.184Z",
-  "windowStart": "2026-09-01T15:50:13.184Z",
+  "previousSnapshotAt": "2026-09-09T15:45:56.709Z",
+  "windowStart": "2026-09-02T15:45:56.709Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2609.09627",
+    "title": "Seven Sources of Physical AI Capability Formation",
+    "abstract": "Capabilities relevant to Physical AI can arise from materially different formation histories, yet existing taxonomies organized by morphology, architecture, learning algorithm, task, or domain do not directly answer what gives rise to a capability. We define a capability-formation source as a factor materially contributing to capability formation, distinct from components or construction steps. We identify seven non-exclusive sources: Recorded-Experience (RE), Predictive-Modeling (PM), Evaluative-Interaction (EI), Surrogate-Environment (SE), Mechanism-Grounded (MG), Embodied-Coupling (EC), and Evolution-Driven (ED) Formation. Using reconstructive induction with theoretical saturation, we traced a research matrix to primary studies, deduplicated the literature, set coding rules, and conducted three rounds of maximum-difference and negative-case sampling. Challenges included curriculum and self-supervised learning, active inference, open-ended and developmental learning, planning and search, neuro-symbolic architectures, digital twins, generative physical world models, and morphology-control co-design. Within the scope and criteria fixed as of September 4, 2026, all 49 evidence records were explainable by the seven sources individually or in combination. No R1-R3 challenge produced an irreducible eighth source, and R3 required no new core definition or substantive boundary rule. We therefore claim theoretical saturation within the stated scope, not logical completeness or exhaustive future coverage. The framework distinguishes similarity in observed capability from similarity in how it was formed, supporting analysis of explanation, transfer, replication, dependencies, governance evidence, and geoeconomic foundations.",
+    "authors": [
+      "Gang Chen"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Gang Chen",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-09",
+    "updated": "2026-09-09",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2609.09627",
+    "pdfUrl": "https://arxiv.org/pdf/2609.09627",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2609.06169",
     "title": "Decision-Aware Suffix Prediction and Reasoning of Business Processes",

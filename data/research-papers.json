@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T15:45:57.252Z",
+  "generatedAt": "2026-09-10T15:41:48.646Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1786,
+  "paperCount": 1787,
   "completeMetadataCount": 1373,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1481
+      "count": 1482
     },
     {
       "id": "nesy-proceedings",
@@ -26237,6 +26237,15 @@
           "institution:781afa4ed50a74b8",
           "institution:d5e3b6658d01daa4"
         ]
+      },
+      {
+        "id": "author:49b86dd9fc83467b",
+        "name": "Gang Chen",
+        "aliases": [
+          "Gang Chen"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:7e5ff7a11e36c3fe",
@@ -368023,6 +368032,69 @@
         },
         {
           "name": "Bin Han",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.09627",
+      "title": "Seven Sources of Physical AI Capability Formation",
+      "abstract": "Capabilities relevant to Physical AI can arise from materially different formation histories, yet existing taxonomies organized by morphology, architecture, learning algorithm, task, or domain do not directly answer what gives rise to a capability. We define a capability-formation source as a factor materially contributing to capability formation, distinct from components or construction steps. We identify seven non-exclusive sources: Recorded-Experience (RE), Predictive-Modeling (PM), Evaluative-Interaction (EI), Surrogate-Environment (SE), Mechanism-Grounded (MG), Embodied-Coupling (EC), and Evolution-Driven (ED) Formation. Using reconstructive induction with theoretical saturation, we traced a research matrix to primary studies, deduplicated the literature, set coding rules, and conducted three rounds of maximum-difference and negative-case sampling. Challenges included curriculum and self-supervised learning, active inference, open-ended and developmental learning, planning and search, neuro-symbolic architectures, digital twins, generative physical world models, and morphology-control co-design. Within the scope and criteria fixed as of September 4, 2026, all 49 evidence records were explainable by the seven sources individually or in combination. No R1-R3 challenge produced an irreducible eighth source, and R3 required no new core definition or substantive boundary rule. We therefore claim theoretical saturation within the stated scope, not logical completeness or exhaustive future coverage. The framework distinguishes similarity in observed capability from similarity in how it was formed, supporting analysis of explanation, transfer, replication, dependencies, governance evidence, and geoeconomic foundations.",
+      "authors": [
+        "Gang Chen"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Gang Chen",
+          "authorEntityId": "author:49b86dd9fc83467b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Gang Chen",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-09",
+      "url": "https://arxiv.org/abs/2609.09627",
+      "pdfUrl": "https://arxiv.org/pdf/2609.09627",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.09627",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:4f30bf00fde97458",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Gang Chen"
+      ],
+      "authorEntityIds": [
+        "author:49b86dd9fc83467b"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Gang Chen",
           "affiliations": []
         }
       ]
