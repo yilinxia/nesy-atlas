@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-09-10T15:41:47.902Z",
-  "cursorAt": "2026-09-10T15:41:47.902Z",
+  "generatedAt": "2026-09-11T15:42:34.219Z",
+  "cursorAt": "2026-09-11T15:42:34.219Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-09-06T14:47:15.477Z",
   "keywords": [
@@ -15,11 +15,133 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-09-09T15:45:56.709Z",
-  "windowStart": "2026-09-02T15:45:56.709Z",
+  "previousSnapshotAt": "2026-09-10T15:41:47.902Z",
+  "windowStart": "2026-09-03T15:41:47.902Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2609.11085",
+    "title": "Beyond Solver Verdicts: Generative Reward Models for Autoformalization",
+    "abstract": "Neurosymbolic systems rely on mathematical solvers to guarantee reasoning correctness, yet solvers are fundamentally blind to whether a formal translation maintains strict reference-equivalence to a designated formalization. We formalize this vulnerability as Verdict-Preserving-Unfaithfulness (VPU): a failure mode where an incorrect encoding executes successfully and matches the expected verdict. We theoretically prove that structural, verdict-only verification heuristics are mathematically bounded to chance-level detection on these deceptively valid traces. To resolve this, we introduce Generative Verification (GenV), which distills an offline Z3-equivalence oracle into a reference-free, continuous reference-equivalence score by repurposing the language model's native vocabulary space. Mechanistic analysis via decision-projected logit lenses and sparse autoencoders shows this generative readout natively extracts precise spatial error coordinates without explicit localization training. Empirically, our oracle-mined verifier (GenV+HN) achieves 0.961 AUROC in reference-equivalence verification, generalizes zero-shot across unseen translators and divergent formal styles, and yields an 11.3-point downstream accuracy gain in agentic test-time compute allocation.",
+    "authors": [
+      "Vikash Singh",
+      "Debargha Ganguly",
+      "Aman Goel",
+      "Ali Torkamani",
+      "Xiaoxue Han",
+      "Joseph Lilien",
+      "Ferhat Erata",
+      "Vipin Chaudhary"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Vikash Singh",
+        "affiliations": []
+      },
+      {
+        "name": "Debargha Ganguly",
+        "affiliations": []
+      },
+      {
+        "name": "Aman Goel",
+        "affiliations": []
+      },
+      {
+        "name": "Ali Torkamani",
+        "affiliations": []
+      },
+      {
+        "name": "Xiaoxue Han",
+        "affiliations": []
+      },
+      {
+        "name": "Joseph Lilien",
+        "affiliations": []
+      },
+      {
+        "name": "Ferhat Erata",
+        "affiliations": []
+      },
+      {
+        "name": "Vipin Chaudhary",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-10",
+    "updated": "2026-09-10",
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2609.11085",
+    "pdfUrl": "https://arxiv.org/pdf/2609.11085",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.10707",
+    "title": "Architecting the Secure AI-SOC: A Neurosymbolic Framework for Pipeline Integrity and Threat Mitigation",
+    "abstract": "The integration of Large Language Models (LLMs) into Security Operations Centers (SOCs) streamlines threat intelligence but introduces critical vulnerabilities, notably indirect prompt injection via log poisoning. Adversaries exploit this vector to execute multistep ``promptware'' kill chains by embedding malicious payloads within system logs to hijack the LLM's operational logic. Securing this pipeline presents a dichotomy: deterministic defenses are computationally efficient yet semantically blind, while purely neural evaluations introduce prohibitive latency and probabilistic flaws. To address this, we propose a novel neurosymbolic defense-in-depth architecture that ensures end-to-end pipeline integrity. The primary layer employs customized SIEM decoders as a deterministic pre-filter, performing immediate structural sanitization to neutralize volumetric padding and signature-based injections at the ingestion edge. The secondary layer leverages NeMo Guardrails to enforce strict semantic boundaries through self-checking validation on the structured SIEM alerts prior to LLM processing. Furthermore, the framework integrates a closed-loop telemetry system, providing critical Human-in-the-Loop (HITL) visibility into thwarted attacks directly within the SOC dashboard. We present a comprehensive experimental evaluation mapped to the MITRE ATLAS taxonomy, assessing the framework against diverse prompt injections. Our results demonstrate that this synergistic approach effectively dismantles the promptware kill chain - bounding LLM stochasticity with verifiable constraints, and delivering a resilient, highly observable defense mechanism for next-generation AI-SOCs.",
+    "authors": [
+      "Anna Gazani",
+      "Spyridon Kounoupidis",
+      "Panagiotis Katsaros",
+      "Nikolaos Kekatos",
+      "Grigorios Tsoumakas",
+      "Georgios Koutidis"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Anna Gazani",
+        "affiliations": []
+      },
+      {
+        "name": "Spyridon Kounoupidis",
+        "affiliations": []
+      },
+      {
+        "name": "Panagiotis Katsaros",
+        "affiliations": []
+      },
+      {
+        "name": "Nikolaos Kekatos",
+        "affiliations": []
+      },
+      {
+        "name": "Grigorios Tsoumakas",
+        "affiliations": []
+      },
+      {
+        "name": "Georgios Koutidis",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-09",
+    "updated": "2026-09-09",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.CR",
+    "url": "https://arxiv.org/abs/2609.10707",
+    "pdfUrl": "https://arxiv.org/pdf/2609.10707",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
   {
     "id": "2609.09627",
     "title": "Seven Sources of Physical AI Capability Formation",

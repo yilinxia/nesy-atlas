@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T15:41:48.646Z",
+  "generatedAt": "2026-09-11T15:42:34.868Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1787,
+  "paperCount": 1789,
   "completeMetadataCount": 1373,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1482
+      "count": 1484
     },
     {
       "id": "nesy-proceedings",
@@ -1544,6 +1544,19 @@
         ]
       },
       {
+        "id": "author:e85e00df94c76a8a",
+        "name": "Ferhat Erata",
+        "aliases": [
+          "Ferhat Erata"
+        ],
+        "paperCount": 5,
+        "institutionIds": [
+          "institution:0d3d34a24da64353",
+          "institution:9846f523ca2ca6fc",
+          "institution:e286778b9c16222b"
+        ]
+      },
+      {
         "id": "author:5b1aefc913336ac6",
         "name": "Gaia Saveri",
         "aliases": [
@@ -2250,19 +2263,6 @@
           "institution:43da693b4fa6eed4",
           "institution:a761c29c983e2e10",
           "institution:de85f8377f7fd093"
-        ]
-      },
-      {
-        "id": "author:e85e00df94c76a8a",
-        "name": "Ferhat Erata",
-        "aliases": [
-          "Ferhat Erata"
-        ],
-        "paperCount": 4,
-        "institutionIds": [
-          "institution:0d3d34a24da64353",
-          "institution:9846f523ca2ca6fc",
-          "institution:e286778b9c16222b"
         ]
       },
       {
@@ -3491,6 +3491,18 @@
         "institutionIds": [
           "institution:9582c288b4159f61",
           "institution:e286778b9c16222b"
+        ]
+      },
+      {
+        "id": "author:13121719945c6d74",
+        "name": "Debargha Ganguly",
+        "aliases": [
+          "Debargha Ganguly"
+        ],
+        "paperCount": 3,
+        "institutionIds": [
+          "institution:975baf152daabc81",
+          "institution:f43b260c65382b8b"
         ]
       },
       {
@@ -5218,6 +5230,29 @@
         ]
       },
       {
+        "id": "author:0c0d69b587b3e412",
+        "name": "Vikash Singh",
+        "aliases": [
+          "Vikash Singh"
+        ],
+        "paperCount": 3,
+        "institutionIds": [
+          "institution:975baf152daabc81"
+        ]
+      },
+      {
+        "id": "author:164855d67bcb89fc",
+        "name": "Vipin Chaudhary",
+        "aliases": [
+          "Vipin Chaudhary"
+        ],
+        "paperCount": 3,
+        "institutionIds": [
+          "institution:975baf152daabc81",
+          "institution:f43b260c65382b8b"
+        ]
+      },
+      {
         "id": "author:ba5c2bcdfde9373d",
         "name": "Vishal Pallagani",
         "aliases": [
@@ -5889,6 +5924,17 @@
         ]
       },
       {
+        "id": "author:1b773cb8e38c136b",
+        "name": "Ali Torkamani",
+        "aliases": [
+          "Ali Torkamani"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:e286778b9c16222b"
+        ]
+      },
+      {
         "id": "author:9a9493d20fe0ce23",
         "name": "Aliakbar Nafar",
         "aliases": [
@@ -5942,6 +5988,17 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:ea49558af4070e5b"
+        ]
+      },
+      {
+        "id": "author:923c0c8961d1f2c3",
+        "name": "Aman Goel",
+        "aliases": [
+          "Aman Goel"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:e286778b9c16222b"
         ]
       },
       {
@@ -6948,18 +7005,6 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:bf3ddd5552577ff0"
-        ]
-      },
-      {
-        "id": "author:13121719945c6d74",
-        "name": "Debargha Ganguly",
-        "aliases": [
-          "Debargha Ganguly"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:975baf152daabc81",
-          "institution:f43b260c65382b8b"
         ]
       },
       {
@@ -8440,6 +8485,17 @@
           "institution:2eb4e402831c134c",
           "institution:f138c3615bfbd805",
           "institution:fcd4cc8c75961fe6"
+        ]
+      },
+      {
+        "id": "author:2dc8b1100f038452",
+        "name": "Joseph Lilien",
+        "aliases": [
+          "Joseph Lilien"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:e286778b9c16222b"
         ]
       },
       {
@@ -11516,17 +11572,6 @@
         ]
       },
       {
-        "id": "author:0c0d69b587b3e412",
-        "name": "Vikash Singh",
-        "aliases": [
-          "Vikash Singh"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:975baf152daabc81"
-        ]
-      },
-      {
         "id": "author:47f28b387259956b",
         "name": "Vincent Cohen-Addad",
         "aliases": [
@@ -11546,18 +11591,6 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:40daaba93fe53990"
-        ]
-      },
-      {
-        "id": "author:164855d67bcb89fc",
-        "name": "Vipin Chaudhary",
-        "aliases": [
-          "Vipin Chaudhary"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:975baf152daabc81",
-          "institution:f43b260c65382b8b"
         ]
       },
       {
@@ -15074,17 +15107,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:1b773cb8e38c136b",
-        "name": "Ali Torkamani",
-        "aliases": [
-          "Ali Torkamani"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:e286778b9c16222b"
-        ]
-      },
-      {
         "id": "author:ce41a0d9f342fbab",
         "name": "Ali Younes",
         "aliases": [
@@ -15366,17 +15388,6 @@
         "paperCount": 1,
         "institutionIds": [
           "institution:152fb590eb8c5ea4"
-        ]
-      },
-      {
-        "id": "author:923c0c8961d1f2c3",
-        "name": "Aman Goel",
-        "aliases": [
-          "Aman Goel"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:e286778b9c16222b"
         ]
       },
       {
@@ -16544,6 +16555,15 @@
         "institutionIds": [
           "institution:11591cc112c8c577"
         ]
+      },
+      {
+        "id": "author:ddc9efe78b4a65af",
+        "name": "Anna Gazani",
+        "aliases": [
+          "Anna Gazani"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:82045a6f7a8c9b9a",
@@ -26644,6 +26664,15 @@
         ]
       },
       {
+        "id": "author:0cc38d8f5081927f",
+        "name": "Georgios Koutidis",
+        "aliases": [
+          "Georgios Koutidis"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:e54141d6058db3e1",
         "name": "Georgios Tzannetos",
         "aliases": [
@@ -27322,6 +27351,15 @@
         "name": "Gregory M. Wagner",
         "aliases": [
           "Gregory M. Wagner"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:c98cc8b31b94330b",
+        "name": "Grigorios Tsoumakas",
+        "aliases": [
+          "Grigorios Tsoumakas"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -34410,17 +34448,6 @@
         "institutionIds": [
           "institution:6432056cdf12bb16",
           "institution:cd887bf808040e61"
-        ]
-      },
-      {
-        "id": "author:2dc8b1100f038452",
-        "name": "Joseph Lilien",
-        "aliases": [
-          "Joseph Lilien"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:e286778b9c16222b"
         ]
       },
       {
@@ -44685,6 +44712,15 @@
         ]
       },
       {
+        "id": "author:c023b14f5e5ceb0d",
+        "name": "Nikolaos Kekatos",
+        "aliases": [
+          "Nikolaos Kekatos"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:b1754adfe022beea",
         "name": "Nikolaos Tsiogkas",
         "aliases": [
@@ -45419,6 +45455,15 @@
         "institutionIds": [
           "institution:67bc05688d5f2c39"
         ]
+      },
+      {
+        "id": "author:19bf9086480f32df",
+        "name": "Panagiotis Katsaros",
+        "aliases": [
+          "Panagiotis Katsaros"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:a6d9c3a20747eb8e",
@@ -53554,6 +53599,15 @@
         ]
       },
       {
+        "id": "author:d2b0e3bd73580401",
+        "name": "Spyridon Kounoupidis",
+        "aliases": [
+          "Spyridon Kounoupidis"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:4d201916bfb48551",
         "name": "Sri Thuraisamy",
         "aliases": [
@@ -59063,6 +59117,15 @@
         "institutionIds": [
           "institution:43da693b4fa6eed4"
         ]
+      },
+      {
+        "id": "author:b5a578167bc7abc0",
+        "name": "Xiaoxue Han",
+        "aliases": [
+          "Xiaoxue Han"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:97284880a7536a36",
@@ -368095,6 +368158,314 @@
       "rawAuthorAffiliations": [
         {
           "name": "Gang Chen",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.11085",
+      "title": "Beyond Solver Verdicts: Generative Reward Models for Autoformalization",
+      "abstract": "Neurosymbolic systems rely on mathematical solvers to guarantee reasoning correctness, yet solvers are fundamentally blind to whether a formal translation maintains strict reference-equivalence to a designated formalization. We formalize this vulnerability as Verdict-Preserving-Unfaithfulness (VPU): a failure mode where an incorrect encoding executes successfully and matches the expected verdict. We theoretically prove that structural, verdict-only verification heuristics are mathematically bounded to chance-level detection on these deceptively valid traces. To resolve this, we introduce Generative Verification (GenV), which distills an offline Z3-equivalence oracle into a reference-free, continuous reference-equivalence score by repurposing the language model's native vocabulary space. Mechanistic analysis via decision-projected logit lenses and sparse autoencoders shows this generative readout natively extracts precise spatial error coordinates without explicit localization training. Empirically, our oracle-mined verifier (GenV+HN) achieves 0.961 AUROC in reference-equivalence verification, generalizes zero-shot across unseen translators and divergent formal styles, and yields an 11.3-point downstream accuracy gain in agentic test-time compute allocation.",
+      "authors": [
+        "Vikash Singh",
+        "Debargha Ganguly",
+        "Aman Goel",
+        "Ali Torkamani",
+        "Xiaoxue Han",
+        "Joseph Lilien",
+        "Ferhat Erata",
+        "Vipin Chaudhary"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Vikash Singh",
+          "authorEntityId": "author:0c0d69b587b3e412",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Vikash Singh",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Debargha Ganguly",
+          "authorEntityId": "author:13121719945c6d74",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Debargha Ganguly",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Aman Goel",
+          "authorEntityId": "author:923c0c8961d1f2c3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Aman Goel",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ali Torkamani",
+          "authorEntityId": "author:1b773cb8e38c136b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ali Torkamani",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xiaoxue Han",
+          "authorEntityId": "author:b5a578167bc7abc0",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xiaoxue Han",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Joseph Lilien",
+          "authorEntityId": "author:2dc8b1100f038452",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Joseph Lilien",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ferhat Erata",
+          "authorEntityId": "author:e85e00df94c76a8a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ferhat Erata",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Vipin Chaudhary",
+          "authorEntityId": "author:164855d67bcb89fc",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Vipin Chaudhary",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-10",
+      "url": "https://arxiv.org/abs/2609.11085",
+      "pdfUrl": "https://arxiv.org/pdf/2609.11085",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.11085",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:be0166b991f80aed",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Vikash Singh",
+        "Debargha Ganguly",
+        "Aman Goel",
+        "Ali Torkamani",
+        "Xiaoxue Han",
+        "Joseph Lilien",
+        "Ferhat Erata",
+        "Vipin Chaudhary"
+      ],
+      "authorEntityIds": [
+        "author:0c0d69b587b3e412",
+        "author:13121719945c6d74",
+        "author:923c0c8961d1f2c3",
+        "author:1b773cb8e38c136b",
+        "author:b5a578167bc7abc0",
+        "author:2dc8b1100f038452",
+        "author:e85e00df94c76a8a",
+        "author:164855d67bcb89fc"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Vikash Singh",
+          "affiliations": []
+        },
+        {
+          "name": "Debargha Ganguly",
+          "affiliations": []
+        },
+        {
+          "name": "Aman Goel",
+          "affiliations": []
+        },
+        {
+          "name": "Ali Torkamani",
+          "affiliations": []
+        },
+        {
+          "name": "Xiaoxue Han",
+          "affiliations": []
+        },
+        {
+          "name": "Joseph Lilien",
+          "affiliations": []
+        },
+        {
+          "name": "Ferhat Erata",
+          "affiliations": []
+        },
+        {
+          "name": "Vipin Chaudhary",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.10707",
+      "title": "Architecting the Secure AI-SOC: A Neurosymbolic Framework for Pipeline Integrity and Threat Mitigation",
+      "abstract": "The integration of Large Language Models (LLMs) into Security Operations Centers (SOCs) streamlines threat intelligence but introduces critical vulnerabilities, notably indirect prompt injection via log poisoning. Adversaries exploit this vector to execute multistep ``promptware'' kill chains by embedding malicious payloads within system logs to hijack the LLM's operational logic. Securing this pipeline presents a dichotomy: deterministic defenses are computationally efficient yet semantically blind, while purely neural evaluations introduce prohibitive latency and probabilistic flaws. To address this, we propose a novel neurosymbolic defense-in-depth architecture that ensures end-to-end pipeline integrity. The primary layer employs customized SIEM decoders as a deterministic pre-filter, performing immediate structural sanitization to neutralize volumetric padding and signature-based injections at the ingestion edge. The secondary layer leverages NeMo Guardrails to enforce strict semantic boundaries through self-checking validation on the structured SIEM alerts prior to LLM processing. Furthermore, the framework integrates a closed-loop telemetry system, providing critical Human-in-the-Loop (HITL) visibility into thwarted attacks directly within the SOC dashboard. We present a comprehensive experimental evaluation mapped to the MITRE ATLAS taxonomy, assessing the framework against diverse prompt injections. Our results demonstrate that this synergistic approach effectively dismantles the promptware kill chain - bounding LLM stochasticity with verifiable constraints, and delivering a resilient, highly observable defense mechanism for next-generation AI-SOCs.",
+      "authors": [
+        "Anna Gazani",
+        "Spyridon Kounoupidis",
+        "Panagiotis Katsaros",
+        "Nikolaos Kekatos",
+        "Grigorios Tsoumakas",
+        "Georgios Koutidis"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Anna Gazani",
+          "authorEntityId": "author:ddc9efe78b4a65af",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Anna Gazani",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Spyridon Kounoupidis",
+          "authorEntityId": "author:d2b0e3bd73580401",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Spyridon Kounoupidis",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Panagiotis Katsaros",
+          "authorEntityId": "author:19bf9086480f32df",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Panagiotis Katsaros",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Nikolaos Kekatos",
+          "authorEntityId": "author:c023b14f5e5ceb0d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Nikolaos Kekatos",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Grigorios Tsoumakas",
+          "authorEntityId": "author:c98cc8b31b94330b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Grigorios Tsoumakas",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Georgios Koutidis",
+          "authorEntityId": "author:0cc38d8f5081927f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Georgios Koutidis",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-09",
+      "url": "https://arxiv.org/abs/2609.10707",
+      "pdfUrl": "https://arxiv.org/pdf/2609.10707",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.10707",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:31a1a1bfbf823e69",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Anna Gazani",
+        "Spyridon Kounoupidis",
+        "Panagiotis Katsaros",
+        "Nikolaos Kekatos",
+        "Grigorios Tsoumakas",
+        "Georgios Koutidis"
+      ],
+      "authorEntityIds": [
+        "author:ddc9efe78b4a65af",
+        "author:d2b0e3bd73580401",
+        "author:19bf9086480f32df",
+        "author:c023b14f5e5ceb0d",
+        "author:c98cc8b31b94330b",
+        "author:0cc38d8f5081927f"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Anna Gazani",
+          "affiliations": []
+        },
+        {
+          "name": "Spyridon Kounoupidis",
+          "affiliations": []
+        },
+        {
+          "name": "Panagiotis Katsaros",
+          "affiliations": []
+        },
+        {
+          "name": "Nikolaos Kekatos",
+          "affiliations": []
+        },
+        {
+          "name": "Grigorios Tsoumakas",
+          "affiliations": []
+        },
+        {
+          "name": "Georgios Koutidis",
           "affiliations": []
         }
       ]
