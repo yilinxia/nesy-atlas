@@ -2095,5 +2095,14 @@
     "sourceUrl": "https://www.raapidinc.com/blogs/",
     "discovered": "2026-09-09",
     "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "Blog It’s Time to Say Goodbye to Segment Averaging",
+    "date": "2026-09-10",
+    "url": "https://www.uniphore.com/blog/its-time-to-say-goodbye-to-segment-averaging/",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-09-11",
+    "status": "needs-review"
   }
 ]
