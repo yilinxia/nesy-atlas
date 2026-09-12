@@ -2104,5 +2104,23 @@
     "sourceUrl": "https://www.uniphore.com/blog/",
     "discovered": "2026-09-11",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "AI Governance 09.11.2026 Internal Controls: Automating a Control Is Not the Same as Strengthening It Read",
+    "date": "2026-09-11",
+    "url": "https://www.kognitos.com/blog/internal-controls/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-09-12",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Solutions 09.11.2026 API Integration Demystified: What It Solves, What It Can’t, and Why Read",
+    "date": "2026-09-11",
+    "url": "https://www.kognitos.com/blog/api-integration/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-09-12",
+    "status": "needs-review"
   }
 ]
