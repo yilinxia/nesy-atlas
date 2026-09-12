@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-09-11T15:42:34.219Z",
-  "cursorAt": "2026-09-11T15:42:34.219Z",
+  "generatedAt": "2026-09-12T14:50:34.609Z",
+  "cursorAt": "2026-09-12T14:50:34.609Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-09-06T14:47:15.477Z",
   "keywords": [
@@ -15,8 +15,8 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-09-10T15:41:47.902Z",
-  "windowStart": "2026-09-03T15:41:47.902Z",
+  "previousSnapshotAt": "2026-09-11T15:42:34.219Z",
+  "windowStart": "2026-09-04T15:42:34.219Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
