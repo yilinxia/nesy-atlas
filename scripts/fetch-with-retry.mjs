@@ -1,5 +1,12 @@
 const RETRYABLE_STATUS = (status) => status === 429 || status >= 500 && status <= 599;
 
+export class FetchNetworkError extends Error {
+  constructor(cause) {
+    super(cause.message, { cause });
+    this.name = 'FetchNetworkError';
+  }
+}
+
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
@@ -20,6 +27,7 @@ export async function fetchWithRetry(url, options = {}) {
     maxAttempts = 3,
     baseDelayMs = 1000,
     maxDelayMs = 30000,
+    maxElapsedMs = Infinity,
     sleepImpl = sleep,
     randomImpl = Math.random,
     nowImpl = Date.now,
@@ -36,6 +44,7 @@ export async function fetchWithRetry(url, options = {}) {
     throw new Error('maxAttempts must be a positive integer');
   }
 
+  const startedAt = nowImpl();
   let lastError;
   for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
     const controller = new AbortController();
@@ -47,7 +56,7 @@ export async function fetchWithRetry(url, options = {}) {
     try {
       response = await fetchImpl(url, { ...fetchOptions, signal: controller.signal });
     } catch (error) {
-      lastError = error;
+      lastError = new FetchNetworkError(error);
     } finally {
       if (timer) clearTimeout(timer);
     }
@@ -60,7 +69,13 @@ export async function fetchWithRetry(url, options = {}) {
     const exponentialDelay = Math.min(maxDelayMs, baseDelayMs * 2 ** (attempt - 1));
     const serverDelay = response ? retryAfterMs(response.headers, nowImpl()) : null;
     const jitter = Math.floor(exponentialDelay * 0.2 * randomImpl());
-    const delayMs = Math.min(maxDelayMs, serverDelay ?? exponentialDelay + jitter);
+    // Retry-After is a minimum, even when it exceeds our local backoff cap.
+    const delayMs = Math.max(serverDelay ?? 0, Math.min(maxDelayMs, exponentialDelay + jitter));
+    // Give up instead of retrying early or exceeding the caller's time budget.
+    if (nowImpl() - startedAt + delayMs + timeoutMs > maxElapsedMs) {
+      if (response) return response;
+      throw lastError;
+    }
     const reason = response ? `HTTP ${response.status}` : lastError?.message || 'a network error';
 
     if (response?.body?.cancel) await response.body.cancel();

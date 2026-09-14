@@ -1,7 +1,45 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 
-import { fetchWithRetry, retryAfterMs } from './fetch-with-retry.mjs';
+import { FetchNetworkError, fetchWithRetry, retryAfterMs } from './fetch-with-retry.mjs';
+
+test('does not shorten Retry-After to the local backoff cap', async () => {
+  const delays = [];
+  let attempts = 0;
+  await fetchWithRetry('https://example.com/data', {
+    fetchImpl: async () => ++attempts === 1
+      ? new Response('', { status: 429, headers: { 'Retry-After': '600' } })
+      : new Response('ok'),
+    maxDelayMs: 240000,
+    sleepImpl: async (ms) => { delays.push(ms); },
+    onRetry: () => {}
+  });
+  assert.equal(attempts, 2);
+  assert.deepEqual(delays, [600000]);
+});
+
+test('stops when Retry-After exceeds the remaining budget without retrying early', async () => {
+  let attempts = 0;
+  const response = await fetchWithRetry('https://example.com/data', {
+    fetchImpl: async () => {
+      attempts += 1;
+      return new Response('rate limited', { status: 429, headers: { 'Retry-After': '3600' } });
+    },
+    maxElapsedMs: 900000,
+    sleepImpl: async () => assert.fail('must not sleep beyond the retry budget')
+  });
+  assert.equal(response.status, 429);
+  assert.equal(await response.text(), 'rate limited');
+  assert.equal(attempts, 1);
+});
+
+test('identifies exhausted network failures and preserves their cause', async () => {
+  const cause = new TypeError('fetch failed');
+  await assert.rejects(fetchWithRetry('https://example.com/data', {
+    fetchImpl: async () => { throw cause; },
+    maxAttempts: 1
+  }), (error) => error instanceof FetchNetworkError && error.cause === cause);
+});
 
 test('parses Retry-After seconds and HTTP dates', () => {
   assert.equal(retryAfterMs(new Headers({ 'Retry-After': '12' }), 0), 12000);

@@ -80,6 +80,8 @@ node scripts/paper-corpus.mjs refresh-arxiv
 
 The default update is incremental: it rechecks a seven-day overlap from the last successful snapshot and merges papers by arXiv ID. Use `node scripts/update-arxiv-papers.mjs --full` for a complete reconciliation. The workflow runs at 7:00 AM America/Chicago every day, using incremental updates Monday–Saturday and a full reconciliation on Sunday. The browser fetches `research-papers.json` only when the Papers view is opened, keeping the initial page lightweight.
 
+Scheduled runs use `--allow-stale`: if rate limits, server errors, or network failures persist after retries, the run emits a warning and job summary, preserves the snapshot and its cursor, and skips corpus generation and commits. The next successful incremental run catches up from that cursor. Manual runs remain strict, and malformed feeds or permanent HTTP errors still fail. Retries respect `Retry-After`; requests stop when the requested wait would exceed the 15-minute retry budget for a page.
+
 ### Full paper corpus
 
 The paper pipeline combines arXiv with NeSy, ICLR, ICML, NeurIPS, AAAI, and IJCAI proceedings. Its sources and limits are configured in `config/paper-corpus.json`.

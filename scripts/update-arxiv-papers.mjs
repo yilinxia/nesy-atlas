@@ -1,10 +1,12 @@
 #!/usr/bin/env node
 
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { appendFile, mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { fetchWithRetry } from './fetch-with-retry.mjs';
+import { FetchNetworkError, fetchWithRetry } from './fetch-with-retry.mjs';
+
+export class ArxivUnavailableError extends Error {}
 
 export const PAPER_KEYWORDS = [
   'neurosymbolic',
@@ -197,13 +199,18 @@ export async function fetchPapers(fetchImpl = fetch, options = {}) {
       maxAttempts: retryAttempts,
       baseDelayMs: retryBaseDelayMs,
       maxDelayMs: retryMaxDelayMs,
+      maxElapsedMs: 15 * 60 * 1000,
       sleepImpl,
       randomImpl,
       nowImpl,
       label: `arXiv API page starting at ${start}`,
       ...(onRetry ? { onRetry } : {})
     });
-    if (!response.ok) throw new Error(`arXiv API returned HTTP ${response.status}`);
+    if (!response.ok) {
+      const ErrorType = response.status === 429 || response.status >= 500 && response.status <= 599
+        ? ArxivUnavailableError : Error;
+      throw new ErrorType(`arXiv API returned HTTP ${response.status}`);
+    }
 
     const xml = await response.text();
     validateArxivFeed(xml);
@@ -258,14 +265,20 @@ export function assertSafeFullRefresh(previousPapers, freshPapers) {
   }
 }
 
-async function main() {
+export async function main({
+  args = process.argv.slice(2),
+  fetchImpl = fetch,
+  fetchOptions = {},
+  env = process.env,
+  warn = console.warn
+} = {}) {
   const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-  const outputIndex = process.argv.indexOf('--output');
-  const inputPaths = process.argv.flatMap((argument, index) => (
-    argument === '--input' && process.argv[index + 1] ? [process.argv[index + 1]] : []
+  const outputIndex = args.indexOf('--output');
+  const inputPaths = args.flatMap((argument, index) => (
+    argument === '--input' && args[index + 1] ? [args[index + 1]] : []
   ));
   const outputPath = outputIndex >= 0
-    ? resolve(process.argv[outputIndex + 1])
+    ? resolve(args[outputIndex + 1])
     : resolve(projectRoot, 'data/arxiv-papers.js');
   const previous = await readExistingSnapshot(outputPath);
   const queryEnd = new Date();
@@ -273,52 +286,71 @@ async function main() {
   let papers;
   let metadataOverrides;
 
-  if (inputPaths.length > 0) {
-    freshPapers = [...new Map((await Promise.all(inputPaths.map((inputPath) => readFile(resolve(inputPath), 'utf8'))))
-      .flatMap(parseArxivFeed)
-      .map((paper) => [paper.id, paper])).values()]
-      .sort((a, b) => b.published.localeCompare(a.published));
-    papers = freshPapers;
-    metadataOverrides = { refreshMode: 'full' };
-  } else if (process.argv.includes('--full') || !previous) {
-    freshPapers = await fetchPapers();
-    assertSafeFullRefresh(previous?.papers || [], freshPapers);
-    papers = freshPapers;
-    metadataOverrides = { refreshMode: 'full' };
-  } else {
-    if (previous.papers.length === 0) {
-      throw new Error('Incremental refresh requires a non-empty existing snapshot; run again with --full.');
+  try {
+    if (inputPaths.length > 0) {
+      freshPapers = [...new Map((await Promise.all(inputPaths.map((inputPath) => readFile(resolve(inputPath), 'utf8'))))
+        .flatMap(parseArxivFeed)
+        .map((paper) => [paper.id, paper])).values()]
+        .sort((a, b) => b.published.localeCompare(a.published));
+      papers = freshPapers;
+      metadataOverrides = { refreshMode: 'full' };
+    } else if (args.includes('--full') || !previous) {
+      freshPapers = await fetchPapers(fetchImpl, fetchOptions);
+      assertSafeFullRefresh(previous?.papers || [], freshPapers);
+      papers = freshPapers;
+      metadataOverrides = { refreshMode: 'full' };
+    } else {
+      if (previous.papers.length === 0) {
+        throw new Error('Incremental refresh requires a non-empty existing snapshot; run again with --full.');
+      }
+      const previousCursor = new Date(previous.metadata.cursorAt || previous.metadata.generatedAt);
+      if (!Number.isFinite(previousCursor.getTime())) {
+        throw new Error('The existing arXiv snapshot has no valid cursor; run again with --full.');
+      }
+      const windowStart = new Date(
+        Math.min(previousCursor.getTime(), queryEnd.getTime())
+        - INCREMENTAL_LOOKBACK_DAYS * 24 * 60 * 60 * 1000
+      );
+      freshPapers = await fetchPapers(fetchImpl, {
+        ...fetchOptions,
+        submittedAfter: windowStart,
+        submittedBefore: queryEnd
+      });
+      papers = mergePaperSnapshots(previous.papers, freshPapers);
+      metadataOverrides = {
+        refreshMode: 'incremental',
+        lastFullRefreshAt: previous.metadata.lastFullRefreshAt || previous.metadata.generatedAt,
+        previousSnapshotAt: previous.metadata.generatedAt,
+        windowStart: windowStart.toISOString(),
+        lookbackDays: INCREMENTAL_LOOKBACK_DAYS
+      };
     }
-    const previousCursor = new Date(previous.metadata.cursorAt || previous.metadata.generatedAt);
-    if (!Number.isFinite(previousCursor.getTime())) {
-      throw new Error('The existing arXiv snapshot has no valid cursor; run again with --full.');
+  } catch (error) {
+    const cursor = previous?.metadata.cursorAt || previous?.metadata.generatedAt;
+    if (!args.includes('--allow-stale') || !previous?.papers.length
+      || !Number.isFinite(Date.parse(cursor))
+      || !(error instanceof ArxivUnavailableError || error instanceof FetchNetworkError)) {
+      throw error;
     }
-    const windowStart = new Date(
-      Math.min(previousCursor.getTime(), queryEnd.getTime())
-      - INCREMENTAL_LOOKBACK_DAYS * 24 * 60 * 60 * 1000
-    );
-    freshPapers = await fetchPapers(fetch, {
-      submittedAfter: windowStart,
-      submittedBefore: queryEnd
-    });
-    papers = mergePaperSnapshots(previous.papers, freshPapers);
-    metadataOverrides = {
-      refreshMode: 'incremental',
-      lastFullRefreshAt: previous.metadata.lastFullRefreshAt || previous.metadata.generatedAt,
-      previousSnapshotAt: previous.metadata.generatedAt,
-      windowStart: windowStart.toISOString(),
-      lookbackDays: INCREMENTAL_LOOKBACK_DAYS
-    };
+    const message = `arXiv refresh deferred: ${error.message}. `
+      + `Preserved ${previous.papers.length} papers and cursor ${cursor}; the next run will catch up.`;
+    const escaped = message.replaceAll('%', '%25').replaceAll('\r', '%0D').replaceAll('\n', '%0A');
+    warn(env.GITHUB_ACTIONS === 'true' ? `::warning::${escaped}` : message);
+    if (env.GITHUB_STEP_SUMMARY) await appendFile(env.GITHUB_STEP_SUMMARY, `${message}\n`);
+    if (env.GITHUB_OUTPUT) await appendFile(env.GITHUB_OUTPUT, 'refreshed=false\n');
+    return { refreshed: false };
   }
 
   const generatedAt = new Date().toISOString();
   if (metadataOverrides.refreshMode === 'full') metadataOverrides.lastFullRefreshAt = generatedAt;
   await mkdir(dirname(outputPath), { recursive: true });
   await writeFile(outputPath, buildDataScript(papers, generatedAt, metadataOverrides), 'utf8');
+  if (env.GITHUB_OUTPUT) await appendFile(env.GITHUB_OUTPUT, 'refreshed=true\n');
   console.log(
     `Wrote ${papers.length} qualifying arXiv papers to ${outputPath} `
     + `(${metadataOverrides.refreshMode}; fetched ${freshPapers.length})`
   );
+  return { refreshed: true };
 }
 
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

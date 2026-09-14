@@ -1,5 +1,8 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
+import { mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
 
 import {
   assertSafeFullRefresh,
@@ -7,6 +10,7 @@ import {
   buildSearchQuery,
   fetchPapers,
   matchedKeywords,
+  main,
   mergePaperSnapshots,
   parseArxivFeed,
   parseDataScript,
@@ -133,4 +137,111 @@ test('rejects a malformed successful response instead of replacing paper data', 
     () => fetchPapers(async () => new Response('<html>temporary error</html>', { status: 200 })),
     /malformed feed/
   );
+});
+
+async function refreshFixture(t) {
+  const directory = await mkdtemp(join(tmpdir(), 'arxiv-refresh-'));
+  t.after(() => rm(directory, { recursive: true, force: true }));
+  const outputPath = join(directory, 'papers.js');
+  const original = buildDataScript(parseArxivFeed(feed), '2026-08-05T00:00:00.000Z');
+  await writeFile(outputPath, original);
+  return {
+    outputPath,
+    original,
+    options: {
+      args: ['--output', outputPath, '--allow-stale'],
+      fetchOptions: { retryAttempts: 2, sleepImpl: async () => {}, onRetry: () => {} },
+      env: {
+        GITHUB_ACTIONS: 'true',
+        GITHUB_OUTPUT: join(directory, 'output'),
+        GITHUB_STEP_SUMMARY: join(directory, 'summary')
+      },
+      warn: () => {}
+    }
+  };
+}
+
+for (const full of [false, true]) {
+  test(`preserves snapshot and cursor after exhausted 429s (${full ? 'full' : 'incremental'})`, async (t) => {
+    const { outputPath, original, options } = await refreshFixture(t);
+    if (full) options.args.push('--full');
+    let attempts = 0;
+    const warnings = [];
+    const result = await main({
+      ...options,
+      warn: (message) => warnings.push(message),
+      fetchImpl: async () => {
+        attempts += 1;
+        return new Response('Rate exceeded', { status: 429 });
+      }
+    });
+    assert.equal(attempts, 2);
+    assert.deepEqual(result, { refreshed: false });
+    assert.equal(await readFile(outputPath, 'utf8'), original);
+    assert.equal(await readFile(options.env.GITHUB_OUTPUT, 'utf8'), 'refreshed=false\n');
+    assert.match(await readFile(options.env.GITHUB_STEP_SUMMARY, 'utf8'), /cursor 2026-08-05/);
+    assert.match(warnings[0], /^::warning::arXiv refresh deferred/);
+  });
+}
+
+test('discards partial pages when a later page is rate limited', async (t) => {
+  const { outputPath, original, options } = await refreshFixture(t);
+  let attempts = 0;
+  await main({
+    ...options,
+    fetchImpl: async () => ++attempts === 1
+      ? new Response(feed.replace('totalResults>2<', 'totalResults>501<'))
+      : new Response('', { status: 429 })
+  });
+  assert.equal(attempts, 3);
+  assert.equal(await readFile(outputPath, 'utf8'), original);
+});
+
+for (const status of [400, 403, 200]) {
+  test(`does not suppress permanent HTTP errors or malformed feeds (${status})`, async (t) => {
+    const { outputPath, original, options } = await refreshFixture(t);
+    await assert.rejects(main({ ...options, fetchImpl: async () => new Response('bad feed', { status }) }));
+    assert.equal(await readFile(outputPath, 'utf8'), original);
+    await assert.rejects(readFile(options.env.GITHUB_OUTPUT), { code: 'ENOENT' });
+  });
+}
+
+test('manual refreshes and refreshes without usable snapshots still fail on 429', async (t) => {
+  const { outputPath, options } = await refreshFixture(t);
+  const fetchImpl = async () => new Response('', { status: 429 });
+  await assert.rejects(main({ ...options, args: ['--output', outputPath], fetchImpl }), /HTTP 429/);
+  await rm(outputPath);
+  await assert.rejects(main({ ...options, fetchImpl }), /HTTP 429/);
+  await writeFile(outputPath, buildDataScript([], '2026-08-05T00:00:00.000Z'));
+  await assert.rejects(main({ ...options, args: [...options.args, '--full'], fetchImpl }), /HTTP 429/);
+});
+
+test('defers exhausted network errors and server failures', async (t) => {
+  const { outputPath, original, options } = await refreshFixture(t);
+  for (const fetchImpl of [
+    async () => { throw new TypeError('fetch failed'); },
+    async () => new Response('', { status: 503 })
+  ]) {
+    assert.deepEqual(await main({ ...options, fetchImpl }), { refreshed: false });
+    assert.equal(await readFile(outputPath, 'utf8'), original);
+  }
+});
+
+test('a successful refresh after deferral queries from the preserved cursor', async (t) => {
+  const { outputPath, options } = await refreshFixture(t);
+  await main({ ...options, fetchImpl: async () => new Response('', { status: 429 }) });
+  let query;
+  const result = await main({
+    ...options,
+    fetchImpl: async (url) => {
+      query = new URL(url).searchParams.get('search_query');
+      return new Response(feed);
+    }
+  });
+  assert.deepEqual(result, { refreshed: true });
+  assert.match(query, /submittedDate:\[202607290000 TO/);
+  const snapshot = parseDataScript(await readFile(outputPath, 'utf8'));
+  assert.equal(snapshot.papers.length, 2);
+  assert.notEqual(snapshot.metadata.cursorAt, '2026-08-05T00:00:00.000Z');
+  assert.match(await readFile(options.env.GITHUB_OUTPUT, 'utf8'), /refreshed=true\n$/);
 });

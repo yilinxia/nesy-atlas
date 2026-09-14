@@ -16,6 +16,9 @@ for (const relativePath of workflows) {
     if (relativePath.includes('arxiv')) {
       assert.match(workflow, /TZ=America\/Chicago date \+%u/);
       assert.match(workflow, /update-arxiv-papers\.mjs --full/);
+      assert.match(workflow, /if \[ "\$EVENT_NAME" = "schedule" \]; then\s+args\+=\(--allow-stale\)/);
+      assert.equal((workflow.match(/if: steps\.extract\.outputs\.refreshed == 'true'/g) || []).length, 2);
+      assert.doesNotMatch(workflow, /continue-on-error/);
     }
   });
 }

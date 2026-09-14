@@ -31,19 +31,28 @@ jobs:
         run: node --test scripts/fetch-with-retry.test.mjs scripts/update-arxiv-papers.test.mjs scripts/paper-corpus.test.mjs
 
       - name: Extract arXiv papers
+        id: extract
+        env:
+          EVENT_NAME: ${{ github.event_name }}
         run: |
+          args=()
+          if [ "$EVENT_NAME" = "schedule" ]; then
+            args+=(--allow-stale)
+          fi
           if [ "$(TZ=America/Chicago date +%u)" = "7" ]; then
             echo "Running the weekly full arXiv reconciliation."
-            node scripts/update-arxiv-papers.mjs --full
+            node scripts/update-arxiv-papers.mjs --full "${args[@]}"
           else
             echo "Running the daily incremental arXiv refresh."
-            node scripts/update-arxiv-papers.mjs
+            node scripts/update-arxiv-papers.mjs "${args[@]}"
           fi
 
       - name: Refresh the Paper tab corpus
+        if: steps.extract.outputs.refreshed == 'true'
         run: node scripts/paper-corpus.mjs refresh-arxiv
 
       - name: Commit the refreshed paper data
+        if: steps.extract.outputs.refreshed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
