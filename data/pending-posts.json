@@ -2122,5 +2122,23 @@
     "sourceUrl": "https://www.kognitos.com/blog/",
     "discovered": "2026-09-12",
     "status": "needs-review"
+  },
+  {
+    "company": "expert.ai",
+    "title": "Blog 15 Sep 2026 Composite AI: The Foundation for Mission-Critical AI in Banking  Read",
+    "date": "2026-09-15",
+    "url": "https://www.expert.ai/blog/composite-ai-the-foundation-for-mission-critical-ai-in-banking/",
+    "sourceUrl": "https://www.expert.ai/news-resources/",
+    "discovered": "2026-09-15",
+    "status": "needs-review"
+  },
+  {
+    "company": "Rippletide",
+    "title": "Thought Leadership An Action Runtime Must Do More Than Secure Tool Calls Security decides who may act. Business autonomy requires knowing what should happen, on which evidence, through which process, and validating it before the action takes effect. Patrick Joubert 2026-09-15",
+    "date": "2026-09-15",
+    "url": "https://www.rippletide.com/resources/blog/an-action-runtime-must-do-more-than-secure-tool-calls",
+    "sourceUrl": "https://www.rippletide.com/resources/blog/",
+    "discovered": "2026-09-15",
+    "status": "needs-review"
   }
 ]
