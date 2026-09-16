@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-09-12T14:50:34.609Z",
-  "cursorAt": "2026-09-12T14:50:34.609Z",
+  "generatedAt": "2026-09-16T15:56:37.885Z",
+  "cursorAt": "2026-09-16T15:56:37.885Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-09-06T14:47:15.477Z",
   "keywords": [
@@ -15,11 +15,775 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-09-11T15:42:34.219Z",
-  "windowStart": "2026-09-04T15:42:34.219Z",
+  "previousSnapshotAt": "2026-09-12T14:50:34.609Z",
+  "windowStart": "2026-09-05T14:50:34.609Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2609.17107",
+    "title": "Symbolic Separation: Grounding Deep Agents in Knowledge Graphs for Trustworthy Operational Data Analytics",
+    "abstract": "Generative AI promises natural language access to the massive numerical telemetry of data centers and Industry 4.0 installations, yet text-to-query and tool-using agents stay unreliable: even frontier models answer little more than half of real-world database questions, and far fewer of the multi-step, operational ones, because the LLM must compose how heterogeneous sources relate and hallucinates the relations, not just the fields. We propose symbolic separation: a deep agent reasons freely but may act on data only through an ontology-constrained Virtual Knowledge Graph with deterministic pre-execution validation. Unlike a tool API's interface contract, this domain-semantic contract turns a complex question into one validated graph traversal instead of LLM-inferred joins. Instantiated as the Neurosymbolic Deep Analyst and evaluated on 49.9 TB of superconputer telemetry against a rigid workflow and a non-symbolic ablation, it raises end-to-end task success from 43% to 86%, prevents silent data-integrity errors that no syntactic check catches, and cuts token cost by 2.4x, letting a smaller on-premise model outperform a larger one.",
+    "authors": [
+      "Baibek Davletiyarov",
+      "Junaid Ahmed Khan",
+      "Andrea Bartolini"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Baibek Davletiyarov",
+        "affiliations": []
+      },
+      {
+        "name": "Junaid Ahmed Khan",
+        "affiliations": []
+      },
+      {
+        "name": "Andrea Bartolini",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-15",
+    "updated": "2026-09-15",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2609.17107",
+    "pdfUrl": "https://arxiv.org/pdf/2609.17107",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.17064",
+    "title": "Neuro-Symbolic Hierarchical Intention Anticipation in Human Behavior",
+    "abstract": "Assistive autonomous systems must anticipate human goals before an observed behavior is complete. This article formulates anticipation as goal inference from a partially observed multimodal episode together with structured prediction of the remaining behavior, rather than exact motor forecasting. A compact Hierarchical Planning Decoder (HPD) is attached to a frozen neuro-symbolic recognition encoder and predicts, at four ontological levels, the next actions, the remaining activities and low-level intentions, and the episode high-level intention(HLI). The decoder is trained with soft neuro-symbolic regularization combining transition-coherence and hierarchical continuity losses, and is decoded with hard reachability masks that enforce ontological validity at inference. On a compositional four-level benchmark of 15,002 multimodal episodes built over NTU RGB+D 120 features, three headline properties are observed together. The advantage over the strongest sequential baseline grows with the anticipation horizon, from +1.7 points at step 1 to +7.3 points at step 3 (top-5). Under compositional generalization, where one parent association per multi-parent low level intention is held out, this advantage widens to +4.9 points at step 1. At the episode level, 96.8% of anticipated trajectories satisfy the joint logic constraints, above the 88.1% strongest-baseline value and the 73.9% ground-truth floor; soft logic terms alone account for a 59.8 to 71.1% relative reduction of HLI-reachability violations, and the hard masks then eliminate them entirely. Neural generation supplies predictive ranking, symbolic constraints supply onto logical validity, and their combination yields coherent hierarchical anticipation while exposing remaining challenges in compositional goal generalization and unordered set prediction.",
+    "authors": [
+      "Farnaz Soleimani",
+      "Abdelghani Chibani",
+      "Yacine Amirat",
+      "Ghazaleh Khodabandelou"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Farnaz Soleimani",
+        "affiliations": [
+          "LISSI"
+        ]
+      },
+      {
+        "name": "Abdelghani Chibani",
+        "affiliations": [
+          "LISSI"
+        ]
+      },
+      {
+        "name": "Yacine Amirat",
+        "affiliations": [
+          "LISSI"
+        ]
+      },
+      {
+        "name": "Ghazaleh Khodabandelou",
+        "affiliations": [
+          "LISSI"
+        ]
+      }
+    ],
+    "affiliations": [
+      "LISSI"
+    ],
+    "published": "2026-09-15",
+    "updated": "2026-09-15",
+    "categories": [
+      "cs.AI",
+      "cs.CV",
+      "cs.HC",
+      "cs.LG",
+      "cs.NE"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2609.17064",
+    "pdfUrl": "https://arxiv.org/pdf/2609.17064",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.16991",
+    "title": "Autoformalizing Argumentative Material Inferences",
+    "abstract": "Natural language arguments are compelling before they are formally explicit. A premise supports a claim through defeasible warrants, background commitments, and exception conditions that the text leaves implicit. However, formal verification requires the opposite. Making such arguments machine-checkable requires constructing the missing commitments, not only translating given sentences into logic. Construction, however, carries a risk that translation does not: a system free to add premises can make any claim provable, and a formally valid proof may assert the claim outright, prove it without the original premise, or establish more than the claim itself. We address this problem by formulating autoformalization for argumentative material inference as guard completion, in which non-monotonic material support is turned into monotonic formal inference relative to an explicitly constructed guard set. A completion is accepted only when its proof both passes the theorem prover and survives contrastive tests of premise dependence and claim selectivity. We implement this formulation in GUARD, a neuro-symbolic framework in which LLMs construct and formalize candidate guards, Isabelle/HOL verifies the resulting theories and returns step-level feedback for iterative refinement, and the system abstains when no faithful completion can be reached. Our empirical results on Debatepedia and ARCT using different LLMs demonstrate that GUARD yields significant improvements in verified-faithful (+35.3, +32.9 points) and substantial reductions in leakage (-25.9, -21.9 points) over the state-of-the-art LLM-driven theorem proving approach. Moreover, we show that the symbolic soft critique and the explicit assumption layer account for most of these gains, with the soft critique also improving the initial validity of the elicited context and reducing the number of iterations required for successful verification.",
+    "authors": [
+      "Xin Quan",
+      "Reto Gubelmann",
+      "André Freitas"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Xin Quan",
+        "affiliations": []
+      },
+      {
+        "name": "Reto Gubelmann",
+        "affiliations": []
+      },
+      {
+        "name": "André Freitas",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-15",
+    "updated": "2026-09-15",
+    "categories": [
+      "cs.CL"
+    ],
+    "primaryCategory": "cs.CL",
+    "url": "https://arxiv.org/abs/2609.16991",
+    "pdfUrl": "https://arxiv.org/pdf/2609.16991",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.16919",
+    "title": "NeuroSymbEAD: A Large Scale Neuro-Symbolic Caption Dataset for Omni-Directional Embodied Autonomous Driving",
+    "abstract": "This paper introduces NeuroSymbEAD, a large-scale neuro-symbolic caption dataset featuring an ego-centric knowledge graph (KG) of static and dynamic objects annotated with classes, categories, heading directions, orientations, and distances from the ego-vehicle. These annotations are used on the KITTI-360 dataset to generate multilevel textual captions representing a lightweight version of an ego-centric scene map. Outdoor scene-map reconstruction, visual recognition, and object grounding establish baselines for driving common sense and traffic/scene understanding. For these purposes, natural language-based grounded captioning of objects and their complex relationships is a widely adopted contextual representation for indoor scene tasks. Neuro-symbolic representations have proven effective in handling structured information for various computer vision and language applications. Our data annotation pipeline allows the generation of varied map segments, populating simulated or real objects within the bounding boxes predicted by any 3D object detection network, and building hierarchical text captions. We benchmark our neuro-symbolic and ontological caption generation using pre-trained grounding and learned auto-regressive captioning networks. By converting 3D driving scenes into structured ego-centric language, NeuroSymbEAD provides a benchmark for vision-language and foundation models for traffic-scene explanation, 3D reasoning, and interpretable autonomous-driving perception.",
+    "authors": [
+      "Muhammad Ahmed Ullah Khan",
+      "Mohammed Elamine",
+      "Sheikh Talha Uddin",
+      "Didier Stricker",
+      "Sk Aziz Ali",
+      "Muhammad Zeshan Afzal"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Muhammad Ahmed Ullah Khan",
+        "affiliations": []
+      },
+      {
+        "name": "Mohammed Elamine",
+        "affiliations": []
+      },
+      {
+        "name": "Sheikh Talha Uddin",
+        "affiliations": []
+      },
+      {
+        "name": "Didier Stricker",
+        "affiliations": []
+      },
+      {
+        "name": "Sk Aziz Ali",
+        "affiliations": []
+      },
+      {
+        "name": "Muhammad Zeshan Afzal",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-15",
+    "updated": "2026-09-15",
+    "categories": [
+      "cs.CV"
+    ],
+    "primaryCategory": "cs.CV",
+    "url": "https://arxiv.org/abs/2609.16919",
+    "pdfUrl": "https://arxiv.org/pdf/2609.16919",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.16331",
+    "title": "ManiSkillFormer: Demonstration-Free Compositional Manipulation via Task-Conditioned Geometric Contracts",
+    "abstract": "We present ManiSkillFormer, a neuro-symbolic framework for demonstration-free and compositional robotic manipulation. Instead of learning end-to-end visuomotor policies, ManiSkillFormer introduces task-conditioned geometric contracts that explicitly structure the interface between perception and action. Each manipulation skill declares the semantic geometric primitives required for execution, such as object keypoints and surface normals. Building on human-defined skill structures, LLM agents generate these contracts and corresponding motion templates for different objects and task contexts. These contracts guide the perception module to ground task-relevant 3D primitives from observations, which are then used to instantiate reusable motion templates stored in a skill library. We evaluate ManiSkillFormer on Galaxea R1-Lite dual-arm robot across three settings: zero-shot pick-and-place over 8 object categories with 30 different instances, functional manipulation tasks including unscrewing, pouring, pressing, and folding, and 3 long-horizon tasks. ManiSkillFormer achieves higher average success rates than the evaluated baselines and two ablated pipelines: 88.24% for demonstration-free pick-and-place, 75.00% average success on functional manipulation and 50--80% completion rates across the long-horizon tasks. These results show that our design enables composable and reusable manipulation across objects and tasks without per-object policy fine-tuning or additional robot demonstrations.",
+    "authors": [
+      "Peiqi Yu",
+      "Mosam Dabhi",
+      "Shangtao Li",
+      "Bowei Li",
+      "Laszlo Jeni",
+      "Changliu Liu"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Peiqi Yu",
+        "affiliations": []
+      },
+      {
+        "name": "Mosam Dabhi",
+        "affiliations": []
+      },
+      {
+        "name": "Shangtao Li",
+        "affiliations": []
+      },
+      {
+        "name": "Bowei Li",
+        "affiliations": []
+      },
+      {
+        "name": "Laszlo Jeni",
+        "affiliations": []
+      },
+      {
+        "name": "Changliu Liu",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-14",
+    "updated": "2026-09-14",
+    "categories": [
+      "cs.RO"
+    ],
+    "primaryCategory": "cs.RO",
+    "url": "https://arxiv.org/abs/2609.16331",
+    "pdfUrl": "https://arxiv.org/pdf/2609.16331",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.15523",
+    "title": "Automating Attack Graph Construction for Agentic Pentesting. Towards Neuro-Symbolic Vulnerability Hunting",
+    "abstract": "Logic attack graphs grounded in scanner output provide explicit and auditable attack path reasoning LLM-based agents lack. Integrating symbolic frameworks such as MulVAL to contemporary security workflows or agentic pipelines, however, requires translating scanner evidence to initial facts, and creating domain-specific rules. We present a semi-automated pipeline that addresses this interoperability problem and depict its feasibility in a web-security case study. Our pipeline parses findings from Trivy, Semgrep, and Nmap into MulVAL predicates and uses an LLM-assisted process to construct domain-specific Datalog rules linking scanner-detectable evidence to attack techniques. MulVAL/XSB then performs symbolic inference to generate structured attack paths. We evaluate the attack-graph construction infrastructure on 54 web Capture-the-Flag tasks from CyBench within an agentic pipeline (Hybrid Reasoner); we do not evaluate the performance of the downstream agent. Every task produced at least one goal-reaching graph, and we achieve mean ground-truth vulnerability coverage of 53.7%, with 51.9% achieving full coverage; mean noise-path rate was 83.9%. With median end-to-end time of 24.9 s (MulVAL reasoning: 2.7 s) the pipeline is feasible and runtime-practical for agentic workflows, but predicate coverage, rule coverage, and path precision remain limiting factors. Next steps include semantic rule validation and agent-level comparison for graph-guided pentesting.",
+    "authors": [
+      "Oliver Stevanovic",
+      "Jasmin Wachter"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Oliver Stevanovic",
+        "affiliations": []
+      },
+      {
+        "name": "Jasmin Wachter",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-14",
+    "updated": "2026-09-14",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.CR",
+    "url": "https://arxiv.org/abs/2609.15523",
+    "pdfUrl": "https://arxiv.org/pdf/2609.15523",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": []
+    }
+  },
+  {
+    "id": "2609.14874",
+    "title": "MedVA: An End-to-End Neuro-Symbolic Agentic System for Medical Volume Visualization",
+    "abstract": "Medical volume visualization requires selecting regions of interest (ROIs) and carefully controlling their relative visual emphasis according to a given clinical intent. Implementing these decisions in conventional workflows demands substantial clinical and visualization expertise and often involves trial-and-error optimization. Recent agentic systems have introduced natural-language interaction and autonomous visualization operations but largely rely on MLLM-based inference throughout the workflow. Although MLLMs encode broad medical knowledge and provide strong reasoning capabilities, such inference may be suboptimal for medical volume visualization, potentially leading to clinically incomplete interpretations of user requests and unreliable ROI identification and visualization optimization. In this work, we present MedVA, an end-to-end neuro-symbolic agentic system for medical volume visualization that addresses these limitations through three complementary agents. The neuro-symbolic intent formulation agent refines MLLM-based interpretations of natural-language requests through symbolic reasoning over established clinical knowledge, which provides more complete, clinically grounded ROI specifications than MLLM-only reasoning. The multi-model ROI identification agent directly identifies semantically specified ROIs in the original volume by leveraging complementary large-scale pretrained medical segmentation models. The objective-driven visualization optimization agent explicitly evaluates ROI visibility and occlusion in the original volume using a volume-based visibility objective. Extensive agent-level and system-level evaluations across diverse medical datasets and interaction scenarios support the effectiveness of the individual agents. A formative user study further indicates high usability and practical value among users with different levels of expertise.",
+    "authors": [
+      "Haill An",
+      "Suhyeon Kim",
+      "Minjun Kang",
+      "Eunwoo Lee",
+      "Bin Sheng",
+      "Lei Bi",
+      "Younhyun Jung"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Haill An",
+        "affiliations": []
+      },
+      {
+        "name": "Suhyeon Kim",
+        "affiliations": []
+      },
+      {
+        "name": "Minjun Kang",
+        "affiliations": []
+      },
+      {
+        "name": "Eunwoo Lee",
+        "affiliations": []
+      },
+      {
+        "name": "Bin Sheng",
+        "affiliations": []
+      },
+      {
+        "name": "Lei Bi",
+        "affiliations": []
+      },
+      {
+        "name": "Younhyun Jung",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-14",
+    "updated": "2026-09-14",
+    "categories": [
+      "cs.GR",
+      "cs.CV",
+      "cs.HC"
+    ],
+    "primaryCategory": "cs.GR",
+    "url": "https://arxiv.org/abs/2609.14874",
+    "pdfUrl": "https://arxiv.org/pdf/2609.14874",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.16056",
+    "title": "Managing Action Preconditions in Neuro-Symbolic RL: Three Placement Strategies for Embodied Agents",
+    "abstract": "Humans carry behaviour knowledge of how to act in familiar situations into every new task rather than relearning it from scratch. There is no reason a Reinforcement Learning (RL) agent shouldn't do the same: known behaviour patterns need not be learned, only applied. Neuro-symbolic RL bridges prior knowledge and RL by injecting symbolic knowledge alongside a learned policy. The point at which this knowledge is integrated is critical: a poor choice can produce, for instance, hallucinated preconditions, which surface as safety and reliability problems in agents acting in changing environments. We formalise this behavioural knowledge as a precondition Bayesian network (BN) over the agent's \\emph{structural actions} - the actions whose legality depends on preconditions, such as picking up a key, grasping a block, toggling a door, or dropping an object. The BN restricts when these actions may fire, and we inject it into the RL loop at three placements: (1) a \\emph{symbolic verifier}, consulted only at inference, that fires a structural action once its preconditions hold; (2) a \\emph{symbolic enforcer}, active during both training and inference, that governs structural-action use throughout learning; and (3) a \\emph{symbolic learner}, which folds the knowledge into the network and learns the restriction and use of structural actions itself. To test the three variants we run experiments on two benchmarks with opposite regimes: one built on long, ordered planning chains, the other on continuous manipulation. We compare against strong baselines on solution quality, sample efficiency, and traceability. The payoff is substantial. On MiniGrid, all three placements improve the \\emph{solution quality} over the PPO+RND baseline, the symbolic enforcer leading at $98.2\\%$ against the baseline's $88.8\\%$. On Fetch, $\\dots$",
+    "authors": [
+      "Norbert Oswald",
+      "Fabian Deuser",
+      "Thomas Bräunl"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Norbert Oswald",
+        "affiliations": []
+      },
+      {
+        "name": "Fabian Deuser",
+        "affiliations": []
+      },
+      {
+        "name": "Thomas Bräunl",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-13",
+    "updated": "2026-09-13",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2609.16056",
+    "pdfUrl": "https://arxiv.org/pdf/2609.16056",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.14533",
+    "title": "Proving olympiad geometry theorems on a superconducting quantum processor",
+    "abstract": "Automated theorem proving seeks to use computational systems to prove or disprove mathematical and logical statements [1, 2]. It underpins a wide range of applications, and enhancing theorem-proving capabilities remains a central objective in artificial intelligence [3]. Although recent neuro-symbolic systems have achieved remarkable progress [4-7], their operation is ultimately constrained by classical computational architectures. Quantum computing [8], by contrast, enables information encoding and coherent parallelism beyond classical limits [9-14], raising the possibility of accelerating structured symbolic deduction [15]. Here we report the experimental realization of automated geometry theorem proving on a fully programmable superconducting quantum processor. We develop two complementary quantum proving frameworks. The first implements Wu's algebraic elimination method using quantum pseudo-division, with multivariate polynomials represented in superposition states, enabling quantum algebraic theorem proving. The second implements the full-angle method as backward symbolic reasoning through a hybrid quantum strategy-guided architecture, demonstrating a general route toward quantum symbolic proof search. As illustrative examples, we prove two theorems on a superconducting quantum processor: the perpendicularity of the diagonals of a square and a 1978 International Mathematical Olympiad geometry problem. Our results establish, at the experimental level, automated logical reasoning as a viable task for near-term quantum processors and provide a concrete pathway toward quantum-enhanced symbolic intelligence.",
+    "authors": [
+      "Ning Wang",
+      "Zheng-Zhi Sun",
+      "Zhengyi Cui",
+      "Yiren Zou",
+      "Aosai Zhang",
+      "Fanhao Shen",
+      "Jiarun Zhong",
+      "Zehang Bao",
+      "Zitian Zhu",
+      "Han Wang",
+      "Jia-Nan Yang",
+      "Jiayuan Shen",
+      "Gongyu Liu",
+      "Yanzhe Wang",
+      "Yihang Han",
+      "Yiyang He",
+      "Jiahua Huang",
+      "Sailang Zhou",
+      "Xinrong Zhang",
+      "Yaozu Wu",
+      "Zixuan Song",
+      "Jinfeng Deng",
+      "Hang Dong",
+      "Qi Ye",
+      "Weikang Li",
+      "Si Jiang",
+      "Yixuan Ma",
+      "Shuangyue Geng",
+      "Zhide Lu",
+      "Chao Song",
+      "Hekang Li",
+      "Pengfei Zhang",
+      "Qiujiang Guo",
+      "H. Wang",
+      "Dong-Ling Deng"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Ning Wang",
+        "affiliations": []
+      },
+      {
+        "name": "Zheng-Zhi Sun",
+        "affiliations": []
+      },
+      {
+        "name": "Zhengyi Cui",
+        "affiliations": []
+      },
+      {
+        "name": "Yiren Zou",
+        "affiliations": []
+      },
+      {
+        "name": "Aosai Zhang",
+        "affiliations": []
+      },
+      {
+        "name": "Fanhao Shen",
+        "affiliations": []
+      },
+      {
+        "name": "Jiarun Zhong",
+        "affiliations": []
+      },
+      {
+        "name": "Zehang Bao",
+        "affiliations": []
+      },
+      {
+        "name": "Zitian Zhu",
+        "affiliations": []
+      },
+      {
+        "name": "Han Wang",
+        "affiliations": []
+      },
+      {
+        "name": "Jia-Nan Yang",
+        "affiliations": []
+      },
+      {
+        "name": "Jiayuan Shen",
+        "affiliations": []
+      },
+      {
+        "name": "Gongyu Liu",
+        "affiliations": []
+      },
+      {
+        "name": "Yanzhe Wang",
+        "affiliations": []
+      },
+      {
+        "name": "Yihang Han",
+        "affiliations": []
+      },
+      {
+        "name": "Yiyang He",
+        "affiliations": []
+      },
+      {
+        "name": "Jiahua Huang",
+        "affiliations": []
+      },
+      {
+        "name": "Sailang Zhou",
+        "affiliations": []
+      },
+      {
+        "name": "Xinrong Zhang",
+        "affiliations": []
+      },
+      {
+        "name": "Yaozu Wu",
+        "affiliations": []
+      },
+      {
+        "name": "Zixuan Song",
+        "affiliations": []
+      },
+      {
+        "name": "Jinfeng Deng",
+        "affiliations": []
+      },
+      {
+        "name": "Hang Dong",
+        "affiliations": []
+      },
+      {
+        "name": "Qi Ye",
+        "affiliations": []
+      },
+      {
+        "name": "Weikang Li",
+        "affiliations": []
+      },
+      {
+        "name": "Si Jiang",
+        "affiliations": []
+      },
+      {
+        "name": "Yixuan Ma",
+        "affiliations": []
+      },
+      {
+        "name": "Shuangyue Geng",
+        "affiliations": []
+      },
+      {
+        "name": "Zhide Lu",
+        "affiliations": []
+      },
+      {
+        "name": "Chao Song",
+        "affiliations": []
+      },
+      {
+        "name": "Hekang Li",
+        "affiliations": []
+      },
+      {
+        "name": "Pengfei Zhang",
+        "affiliations": []
+      },
+      {
+        "name": "Qiujiang Guo",
+        "affiliations": []
+      },
+      {
+        "name": "H. Wang",
+        "affiliations": []
+      },
+      {
+        "name": "Dong-Ling Deng",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-13",
+    "updated": "2026-09-13",
+    "categories": [
+      "quant-ph",
+      "cs.AI"
+    ],
+    "primaryCategory": "quant-ph",
+    "url": "https://arxiv.org/abs/2609.14533",
+    "pdfUrl": "https://arxiv.org/pdf/2609.14533",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.14142",
+    "title": "T-SMART: Mechanism-Level Attribution for Tool-Augmented Time-Series Question Answering",
+    "abstract": "Large language models (LLMs) can struggle with time-series question answering (TS-QA), especially when numerical signals are serialized as text and require explicit computation. Tool-augmented approaches improve performance, but existing systems often intertwine language reasoning, computation, and perception, making it difficult to determine which components drive the gains. We present T-SMART, a neurosymbolic framework that separates these roles: a frozen LLM interprets questions and selects operations, deterministic tools perform numerical computation, and structured perception is invoked only when needed. Controlled paired ablations show that deterministic computation provides the dominant benefit, improving accuracy by 31.7 percentage points over direct LLM reasoning on serialized time series, while language understanding and perception offer smaller complementary gains. These results indicate that tool-augmented TS-QA benefits primarily from reliable numerical execution rather than additional language-model reasoning and provide a controlled framework for analyzing component contributions in neurosymbolic time-series systems.",
+    "authors": [
+      "Ivan Delgado",
+      "Himansi Gupta",
+      "Bishal Khatri",
+      "Niharika Sapre",
+      "Lameta Shamoon",
+      "Onat Gungor",
+      "Tajana Rosing"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Ivan Delgado",
+        "affiliations": []
+      },
+      {
+        "name": "Himansi Gupta",
+        "affiliations": []
+      },
+      {
+        "name": "Bishal Khatri",
+        "affiliations": []
+      },
+      {
+        "name": "Niharika Sapre",
+        "affiliations": []
+      },
+      {
+        "name": "Lameta Shamoon",
+        "affiliations": []
+      },
+      {
+        "name": "Onat Gungor",
+        "affiliations": []
+      },
+      {
+        "name": "Tajana Rosing",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-12",
+    "updated": "2026-09-12",
+    "categories": [
+      "cs.LG"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2609.14142",
+    "pdfUrl": "https://arxiv.org/pdf/2609.14142",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.13776",
+    "title": "Surprising Effectiveness of Self-Demonstrations in Enhancing Schema-Ontology Mapping with LLMs",
+    "abstract": "Integrating heterogeneous relational databases into a centralized ontology remains a persistent challenge in enterprise knowledge representation, primarily due to semantic heterogeneity, cryptic schema naming, missing metadata, and the abstraction gap between relational schemas and ontological models. Although large language models (LLMs) offer strong semantic reasoning capabilities, we show that directly applying them through one-shot prompting or naive multi-stage pipelines leads to poor performance for schema-ontology mapping. This paper presents a self-demonstration-driven approach that combines a neuro-symbolic task decomposition with a novel mechanism for automatically generating pattern-guided, dependency-aware demonstrations to address this integration challenge. Our approach incorporates two key strategies to achieve substantial accuracy gains over existing LLM-based schema integration methods: (i) a neuro-symbolic decomposition of the task into cascaded sub-tasks, where symbolic constraints structure the search space and LLMs perform semantic reasoning within each focused sub-task, and (ii) self-generated demonstrations guided by domain-agnostic patterns to supervise each sub-task. Experiments on three of the most challenging scenarios from the RODI benchmark show that our approach achieves state-of-the-art performance, substantially outperforming (25 percentage points F1 improvements) both traditional schema-to-ontology mapping techniques and recent LLM-based schema-to-ontology and schema matching approaches. Ablation studies further reveal the significant benefits of pattern-guided self-demonstrations and the complementary benefits of neuro-symbolic task decomposition.",
+    "authors": [
+      "Siddhesh Thombre",
+      "Manasi Patwardhan",
+      "Sunita Sarawagi"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Siddhesh Thombre",
+        "affiliations": []
+      },
+      {
+        "name": "Manasi Patwardhan",
+        "affiliations": []
+      },
+      {
+        "name": "Sunita Sarawagi",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-12",
+    "updated": "2026-09-12",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2609.13776",
+    "pdfUrl": "https://arxiv.org/pdf/2609.13776",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.13529",
+    "title": "Generative Interpretability via Scalable Neuro-Symbolic Models",
+    "abstract": "As the use of Large Language Models moves from chatbots into agentic systems, where outputs become actions with irreversible consequences on reality, the existing paradigm on AI Interpretability research, post-hoc interpretability, is structurally inadequate for safe and trustworthy model deployment: it explains behavior after the fact but cannot audit or intervene in an inference computation before it commits to an output. We therefore argue for a shift toward \\emph{generative interpretability}, an architectural property under which a model's inference pass natively exposes semantically meaningful checkpoints that are human-understandable and amenable to causal intervention. We show the merits of generative interpretability as comparison to other interpretability research paradigms, and propose Neuro-Symbolic Models as a concrete instantiation.",
+    "authors": [
+      "Xiaocong Yang"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Xiaocong Yang",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-11",
+    "updated": "2026-09-11",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "cs.SC"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2609.13529",
+    "pdfUrl": "https://arxiv.org/pdf/2609.13529",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.12863",
+    "title": "GenOR-Twin: A Semantic Middleware for Integrating Operational Discourse with Mathematical Optimization",
+    "abstract": "We introduce GenOR-Twin, a neuro-symbolic framework that bridges the translation gap between unstructured operational logs and rigorous mathematical optimization. Our architecture uniquely positions Large Language Models as semantic translators rather than direct solvers, ensuring that the system retains the feasibility guarantees of exact combinatorial methods. { \\color{red}We design a dynamic constraint injection mechanism (the runtime translation of qualitative disruption events into formal mathematical constraints) that allows the system to structurally modify the optimization problem's feasibility region in real-time based on qualitative human inputs. The resulting bidirectional coupling---where operational observations update the virtual model state and optimized decisions are reflected back into the Knowledge Graph---satisfies the synchronization requirement of a proper Digital Twin. The framework features an adaptive decision policy} that automatically selects between low-complexity schedule repair and full re-optimization by analyzing the available system slack. Finally, we demonstrate the generalization of this approach across six distinct optimization domains, {\\color{red}turning static models into resilient systems that adapt to the operational uncertainty and variability of real-world environments.}",
+    "authors": [
+      "Rahimeh Neamatian Monemi",
+      "Shahin Gelareh",
+      "Lubin Cui",
+      "Nelson Maculan"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Rahimeh Neamatian Monemi",
+        "affiliations": []
+      },
+      {
+        "name": "Shahin Gelareh",
+        "affiliations": []
+      },
+      {
+        "name": "Lubin Cui",
+        "affiliations": []
+      },
+      {
+        "name": "Nelson Maculan",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-11",
+    "updated": "2026-09-11",
+    "categories": [
+      "cs.LG"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2609.12863",
+    "pdfUrl": "https://arxiv.org/pdf/2609.12863",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2609.11085",
     "title": "Beyond Solver Verdicts: Generative Reward Models for Autoformalization",
@@ -70,7 +834,7 @@ globalThis.ARXIV_PAPERS = [
     ],
     "affiliations": [],
     "published": "2026-09-10",
-    "updated": "2026-09-10",
+    "updated": "2026-09-11",
     "categories": [
       "cs.LG",
       "cs.CL"
@@ -82,6 +846,101 @@ globalThis.ARXIV_PAPERS = [
       "title": [],
       "abstract": [
         "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.12267",
+    "title": "Learning Symbolic Constraint Representations from Examples: A Neuro-Symbolic Approach",
+    "abstract": "Learning user-defined concepts as constraint networks has been extensively studied in the constraint acquisition (CA) literature. However, existing approaches typically rely on intensive interactions with a human oracle, making the learning process costly in terms of time and number of queries. In this paper, we propose a neuro-symbolic framework for automatic CA that significantly reduces user involvement by introducing neural Oracle Transformer models which learn to emulate user responses and to generalize conceptual knowledge. Trained on previously available examples, the learned oracle interacts with a dedicated CA engine, FastCA, which systematically refines the oracle's responses into a sound, consistent, and interpretable constraint network. This neuro-symbolic interaction enables the recovery of structured symbolic models from data without prior domain knowledge. Our results demonstrate that this neuro-symbolic interplay effectively aligns data-driven pattern recognition with symbolic reasoning, offering a robust approach to automating model construction in combinatorial domains.",
+    "authors": [
+      "Nassim Belmecheri",
+      "Arnaud Gotlieb",
+      "Nadjib Lazaar",
+      "Helge Spieker"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Nassim Belmecheri",
+        "affiliations": []
+      },
+      {
+        "name": "Arnaud Gotlieb",
+        "affiliations": []
+      },
+      {
+        "name": "Nadjib Lazaar",
+        "affiliations": []
+      },
+      {
+        "name": "Helge Spieker",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-10",
+    "updated": "2026-09-10",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2609.12267",
+    "pdfUrl": "https://arxiv.org/pdf/2609.12267",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.12247",
+    "title": "Soft Symbol Grounding for Prototypical Concepts",
+    "abstract": "Neuro-symbolic models are usually trained with supervision only on final labels, leaving the intermediate concepts unobserved. Since many concept assignments are consistent with a given label, training can predict labels correctly while recovering the wrong concepts, a failure known as a reasoning shortcut. Prototypical networks reduce shortcuts by anchoring each concept to a few labeled examples, but existing methods still couple perception and reasoning through a hand-crafted, task-specific differentiable loss that must be redesigned for every task. We introduce \\textbf{Soft-PNet}, which removes this loss: it reframes concept grounding as a Metropolis walk over a precomputed cache of feasible symbolic solutions, guided by a prototype distribution built from a single labeled anchor per concept, and trains against one KL objective between the prototype-weighted cache and the network's concept predictions. The objective is identical across tasks and remains applicable when the solution space cannot be enumerated. On \\texttt{MNIST-EvenOdd}, Visual Sudoku, and \\texttt{Kand-Logic} under scarce supervision, Soft-PNet matches loss-engineered prototypical networks at the concept and label levels and recovers concepts that soft-grounding baselines miss, with no loss engineering and lower training time.",
+    "authors": [
+      "Marcos Galván-López",
+      "Nijesh Upreti",
+      "Hiram Calvo",
+      "Carlos Aguilar-Ibáñez",
+      "Vaishak Belle"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Marcos Galván-López",
+        "affiliations": []
+      },
+      {
+        "name": "Nijesh Upreti",
+        "affiliations": []
+      },
+      {
+        "name": "Hiram Calvo",
+        "affiliations": []
+      },
+      {
+        "name": "Carlos Aguilar-Ibáñez",
+        "affiliations": []
+      },
+      {
+        "name": "Vaishak Belle",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-10",
+    "updated": "2026-09-10",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2609.12247",
+    "pdfUrl": "https://arxiv.org/pdf/2609.12247",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
       ]
     }
   },
