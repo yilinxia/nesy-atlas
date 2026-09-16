@@ -2140,5 +2140,32 @@
     "sourceUrl": "https://www.rippletide.com/resources/blog/",
     "discovered": "2026-09-15",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Finance 09.16.2026 Cost Accounting: Why the Variance Is Easy and the Explanation Is Hard Read",
+    "date": "2026-09-16",
+    "url": "https://www.kognitos.com/blog/cost-accounting/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-09-16",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Solutions 09.16.2026 ERP Implementation: The Workaround Column Is Your Real Operating Model Read",
+    "date": "2026-09-16",
+    "url": "https://www.kognitos.com/blog/erp-implementation/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-09-16",
+    "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "Blog From AI Ownership to Recursive Self-Improvement",
+    "date": "2026-09-15",
+    "url": "https://www.uniphore.com/blog/from-ai-ownership-to-recursive-self-improvement/",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-09-16",
+    "status": "needs-review"
   }
 ]
