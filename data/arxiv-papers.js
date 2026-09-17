@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-09-16T15:56:37.885Z",
-  "cursorAt": "2026-09-16T15:56:37.885Z",
+  "generatedAt": "2026-09-17T16:03:23.714Z",
+  "cursorAt": "2026-09-17T16:03:23.714Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-09-06T14:47:15.477Z",
   "keywords": [
@@ -15,11 +15,84 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-09-12T14:50:34.609Z",
-  "windowStart": "2026-09-05T14:50:34.609Z",
+  "previousSnapshotAt": "2026-09-16T15:56:37.885Z",
+  "windowStart": "2026-09-09T15:56:37.885Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2609.18461",
+    "title": "Disentangling Long-Term Memory via Latent Neuro-Symbolic Reasoning",
+    "abstract": "Personalized agents are required to reason over long-term history interactions to infer both explicit preferences and implicit behavioral evidence. While early flat retrieval methods score memory fragments independently and neglect the distributed information, current structured memory frameworks rely on query-agnostic static graphs that fail to capture the context-dependent relations. Crucially, raw textual memories are inherently entangled and noisy, making fine-grained personalization and cross-session reasoning computationally prohibitive. To this end, we present LGM, a novel neuro-symbolic framework that shifts long-term memory disentanglement into a continuous latent space. Specifically, (i) instead of persisting fixed graphs, we design a tailored latent graph construction with a sparse autoencoder. Subject to each query, it maps historical interactions into latent memory nodes and disentangles the memory traces into sparse concept activations, dynamically synthesizing query-aware relational edge weights. (ii) A graph encoder then treats the query embedding as a conditioning preference to direct non-linear message passing across the task-specific latent subgraph. This yields a highly expressive memory representation for effective activations. Extensive experiments on long-term personalization benchmarks demonstrate that LGM significantly outperforms state-of-the-art baselines in capturing both explicit and implicit preferences while enabling personalized responses.",
+    "authors": [
+      "Cai Ke",
+      "Xinghao Chen",
+      "Xiaoyu Shen",
+      "Keyu Chen",
+      "Siyu An",
+      "Junnan Dong",
+      "Ruifeng Xu",
+      "Ruizhi Qiao",
+      "Xing Sun"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Cai Ke",
+        "affiliations": []
+      },
+      {
+        "name": "Xinghao Chen",
+        "affiliations": []
+      },
+      {
+        "name": "Xiaoyu Shen",
+        "affiliations": []
+      },
+      {
+        "name": "Keyu Chen",
+        "affiliations": []
+      },
+      {
+        "name": "Siyu An",
+        "affiliations": []
+      },
+      {
+        "name": "Junnan Dong",
+        "affiliations": []
+      },
+      {
+        "name": "Ruifeng Xu",
+        "affiliations": []
+      },
+      {
+        "name": "Ruizhi Qiao",
+        "affiliations": []
+      },
+      {
+        "name": "Xing Sun",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-16",
+    "updated": "2026-09-16",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2609.18461",
+    "pdfUrl": "https://arxiv.org/pdf/2609.18461",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2609.17107",
     "title": "Symbolic Separation: Grounding Deep Agents in Knowledge Graphs for Trustworthy Operational Data Analytics",

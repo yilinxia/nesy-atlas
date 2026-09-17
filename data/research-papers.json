@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T15:56:38.632Z",
+  "generatedAt": "2026-09-17T16:03:24.408Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1804,
+  "paperCount": 1805,
   "completeMetadataCount": 1374,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1499
+      "count": 1500
     },
     {
       "id": "nesy-proceedings",
@@ -19537,6 +19537,15 @@
         ]
       },
       {
+        "id": "author:0ff908faebe929c1",
+        "name": "Cai Ke",
+        "aliases": [
+          "Cai Ke"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:90b57941a0bfd854",
         "name": "Caifeng Shan",
         "aliases": [
@@ -35424,6 +35433,15 @@
         ]
       },
       {
+        "id": "author:6ceb4a98db31f3e8",
+        "name": "Junnan Dong",
+        "aliases": [
+          "Junnan Dong"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:2e1e36c75e9849e0",
         "name": "Junnan Lyu",
         "aliases": [
@@ -36699,6 +36717,15 @@
         "name": "Keyan Guo",
         "aliases": [
           "Keyan Guo"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:b531710c3d55b03f",
+        "name": "Keyu Chen",
+        "aliases": [
+          "Keyu Chen"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -50079,6 +50106,15 @@
         ]
       },
       {
+        "id": "author:36789807ef662671",
+        "name": "Ruifeng Xu",
+        "aliases": [
+          "Ruifeng Xu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:ccd2aa51a44e4c99",
         "name": "Ruijian Gou",
         "aliases": [
@@ -50180,6 +50216,15 @@
         "institutionIds": [
           "institution:2a39d65a0e60d26b"
         ]
+      },
+      {
+        "id": "author:e07d2f9b082eb9de",
+        "name": "Ruizhi Qiao",
+        "aliases": [
+          "Ruizhi Qiao"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:48babab8e75aacae",
@@ -53660,6 +53705,15 @@
         "institutionIds": [
           "institution:48f2a1a1c5c15d6d"
         ]
+      },
+      {
+        "id": "author:19f30b3dd926f04d",
+        "name": "Siyu An",
+        "aliases": [
+          "Siyu An"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:3b811f1aa77e9217",
@@ -59768,6 +59822,15 @@
         ]
       },
       {
+        "id": "author:d1635404f4c8ee14",
+        "name": "Xiaoyu Shen",
+        "aliases": [
+          "Xiaoyu Shen"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:187853ddaad4157e",
         "name": "Xiaoyu Xu",
         "aliases": [
@@ -59924,6 +59987,15 @@
         ]
       },
       {
+        "id": "author:69a2bf34c1cd4b18",
+        "name": "Xing Sun",
+        "aliases": [
+          "Xing Sun"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:c9ad5629d518fb6f",
         "name": "Xing Zhang",
         "aliases": [
@@ -59933,6 +60005,15 @@
         "institutionIds": [
           "institution:c17b5dc0c46b5852"
         ]
+      },
+      {
+        "id": "author:ca20599bcca62c7c",
+        "name": "Xinghao Chen",
+        "aliases": [
+          "Xinghao Chen"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:ae533270499b700e",
@@ -371394,6 +371475,191 @@
         },
         {
           "name": "Vaishak Belle",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.18461",
+      "title": "Disentangling Long-Term Memory via Latent Neuro-Symbolic Reasoning",
+      "abstract": "Personalized agents are required to reason over long-term history interactions to infer both explicit preferences and implicit behavioral evidence. While early flat retrieval methods score memory fragments independently and neglect the distributed information, current structured memory frameworks rely on query-agnostic static graphs that fail to capture the context-dependent relations. Crucially, raw textual memories are inherently entangled and noisy, making fine-grained personalization and cross-session reasoning computationally prohibitive. To this end, we present LGM, a novel neuro-symbolic framework that shifts long-term memory disentanglement into a continuous latent space. Specifically, (i) instead of persisting fixed graphs, we design a tailored latent graph construction with a sparse autoencoder. Subject to each query, it maps historical interactions into latent memory nodes and disentangles the memory traces into sparse concept activations, dynamically synthesizing query-aware relational edge weights. (ii) A graph encoder then treats the query embedding as a conditioning preference to direct non-linear message passing across the task-specific latent subgraph. This yields a highly expressive memory representation for effective activations. Extensive experiments on long-term personalization benchmarks demonstrate that LGM significantly outperforms state-of-the-art baselines in capturing both explicit and implicit preferences while enabling personalized responses.",
+      "authors": [
+        "Cai Ke",
+        "Xinghao Chen",
+        "Xiaoyu Shen",
+        "Keyu Chen",
+        "Siyu An",
+        "Junnan Dong",
+        "Ruifeng Xu",
+        "Ruizhi Qiao",
+        "Xing Sun"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Cai Ke",
+          "authorEntityId": "author:0ff908faebe929c1",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Cai Ke",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xinghao Chen",
+          "authorEntityId": "author:ca20599bcca62c7c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xinghao Chen",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xiaoyu Shen",
+          "authorEntityId": "author:d1635404f4c8ee14",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xiaoyu Shen",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Keyu Chen",
+          "authorEntityId": "author:b531710c3d55b03f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Keyu Chen",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Siyu An",
+          "authorEntityId": "author:19f30b3dd926f04d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Siyu An",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Junnan Dong",
+          "authorEntityId": "author:6ceb4a98db31f3e8",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Junnan Dong",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ruifeng Xu",
+          "authorEntityId": "author:36789807ef662671",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ruifeng Xu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ruizhi Qiao",
+          "authorEntityId": "author:e07d2f9b082eb9de",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ruizhi Qiao",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xing Sun",
+          "authorEntityId": "author:69a2bf34c1cd4b18",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xing Sun",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-16",
+      "url": "https://arxiv.org/abs/2609.18461",
+      "pdfUrl": "https://arxiv.org/pdf/2609.18461",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.18461",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:81b6aba994866b9c",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Cai Ke",
+        "Xinghao Chen",
+        "Xiaoyu Shen",
+        "Keyu Chen",
+        "Siyu An",
+        "Junnan Dong",
+        "Ruifeng Xu",
+        "Ruizhi Qiao",
+        "Xing Sun"
+      ],
+      "authorEntityIds": [
+        "author:0ff908faebe929c1",
+        "author:ca20599bcca62c7c",
+        "author:d1635404f4c8ee14",
+        "author:b531710c3d55b03f",
+        "author:19f30b3dd926f04d",
+        "author:6ceb4a98db31f3e8",
+        "author:36789807ef662671",
+        "author:e07d2f9b082eb9de",
+        "author:69a2bf34c1cd4b18"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Cai Ke",
+          "affiliations": []
+        },
+        {
+          "name": "Xinghao Chen",
+          "affiliations": []
+        },
+        {
+          "name": "Xiaoyu Shen",
+          "affiliations": []
+        },
+        {
+          "name": "Keyu Chen",
+          "affiliations": []
+        },
+        {
+          "name": "Siyu An",
+          "affiliations": []
+        },
+        {
+          "name": "Junnan Dong",
+          "affiliations": []
+        },
+        {
+          "name": "Ruifeng Xu",
+          "affiliations": []
+        },
+        {
+          "name": "Ruizhi Qiao",
+          "affiliations": []
+        },
+        {
+          "name": "Xing Sun",
           "affiliations": []
         }
       ]
