@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T16:03:24.408Z",
+  "generatedAt": "2026-09-18T15:39:00.231Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1805,
+  "paperCount": 1807,
   "completeMetadataCount": 1374,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1500
+      "count": 1502
     },
     {
       "id": "nesy-proceedings",
@@ -8319,6 +8319,15 @@
         ]
       },
       {
+        "id": "author:bb53cf0725ea61e7",
+        "name": "Jie Tian",
+        "aliases": [
+          "Jie Tian"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
+      },
+      {
         "id": "author:76fb0ceb39fefef8",
         "name": "Jing Jiang",
         "aliases": [
@@ -10077,6 +10086,24 @@
         "name": "Qing Yang",
         "aliases": [
           "Qing Yang"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
+      },
+      {
+        "id": "author:d1065376bd9982ff",
+        "name": "Qingde Li",
+        "aliases": [
+          "Qingde Li"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
+      },
+      {
+        "id": "author:318569a88234c65a",
+        "name": "Qingqi Hong",
+        "aliases": [
+          "Qingqi Hong"
         ],
         "paperCount": 2,
         "institutionIds": []
@@ -12877,6 +12904,15 @@
           "institution:9227419bc2d596ef",
           "institution:dd9cbe72362f1695"
         ]
+      },
+      {
+        "id": "author:885a333c5f374a01",
+        "name": "Zihan Li",
+        "aliases": [
+          "Zihan Li"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
       },
       {
         "id": "author:e1ae648b92a33503",
@@ -27650,6 +27686,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:cf7fea4fdbb67468",
+        "name": "Guangyu Lei",
+        "aliases": [
+          "Guangyu Lei"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:92b1664aba39a0b8",
         "name": "Guangyu Wu",
         "aliases": [
@@ -33260,15 +33305,6 @@
         ]
       },
       {
-        "id": "author:bb53cf0725ea61e7",
-        "name": "Jie Tian",
-        "aliases": [
-          "Jie Tian"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:afabdfb31da2d7ba",
         "name": "Jie Xu",
         "aliases": [
@@ -35503,6 +35539,15 @@
         "name": "Juntao Gao",
         "aliases": [
           "Juntao Gao"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:46c6f626d72ffe8a",
+        "name": "Junwei Wu",
+        "aliases": [
+          "Junwei Wu"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -44335,6 +44380,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:6644ae4648d287c8",
+        "name": "Nanchi Su",
+        "aliases": [
+          "Nanchi Su"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:e9618b6cab26abbf",
         "name": "Nandana Mihindukulasooriya",
         "aliases": [
@@ -48025,15 +48079,6 @@
         ]
       },
       {
-        "id": "author:d1065376bd9982ff",
-        "name": "Qingde Li",
-        "aliases": [
-          "Qingde Li"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:96e8002a13b6438c",
         "name": "Qingfeng Guo",
         "aliases": [
@@ -48075,15 +48120,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:318569a88234c65a",
-        "name": "Qingqi Hong",
-        "aliases": [
-          "Qingqi Hong"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:d6f8be59226528af",
         "name": "Qingxing Cao",
         "aliases": [
@@ -48115,6 +48151,15 @@
         "institutionIds": [
           "institution:027af32d36728391"
         ]
+      },
+      {
+        "id": "author:8b76706f58008095",
+        "name": "Qinyu Zhang",
+        "aliases": [
+          "Qinyu Zhang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:32b6f74c60b6d326",
@@ -56039,6 +56084,15 @@
         ]
       },
       {
+        "id": "author:8328fb2945867a92",
+        "name": "Tianhao Liang",
+        "aliases": [
+          "Tianhao Liang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:b70e11ea963d0dd6",
         "name": "Tianhao Su",
         "aliases": [
@@ -56466,6 +56520,15 @@
         "institutionIds": [
           "institution:3b285049615b2341"
         ]
+      },
+      {
+        "id": "author:980db47f78982729",
+        "name": "Tingting Zhang",
+        "aliases": [
+          "Tingting Zhang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:31552e918f48b008",
@@ -64245,6 +64308,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:27c9e279525bcccb",
+        "name": "Yuqi Ping",
+        "aliases": [
+          "Yuqi Ping"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:b160ab5935dffb36",
         "name": "Yuqi Zhu",
         "aliases": [
@@ -66379,15 +66451,6 @@
         "institutionIds": [
           "institution:c5810afc25d178a5"
         ]
-      },
-      {
-        "id": "author:885a333c5f374a01",
-        "name": "Zihan Li",
-        "aliases": [
-          "Zihan Li"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
       },
       {
         "id": "author:e005e96dc6c73ecb",
@@ -371660,6 +371723,268 @@
         },
         {
           "name": "Xing Sun",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.20323",
+      "title": "NeuSOGA3D: A Neuro-Symbolic Framework for Explainable 3D Geometric Reconstruction",
+      "abstract": "Three-dimensional reconstruction from unorganized point clouds remains a challenging problem in computer vision, geometric modeling, and computer-aided design. While neural implicit methods achieve impressive reconstruction accuracy, geometry is typically encoded in latent representations that limit interpretability and reuse within engineering workflows. We present NeuSOGA3D (Neuro-Symbolic Geometric Abstraction in 3D), a hybrid framework that combines learned perceptual priors inherited from NeuSOGA with explicit symbolic geometric reasoning. The method projects point clouds onto principal orthographic planes, constructs symbolic implicit spline representations from the resulting observations, and fuses them through shape-preserving constructive solid geometry operations to generate a coarse visual hull. Additional geometric detail is recovered through cross-sectional decomposition and volumetric reconstruction using Partial Shape-Preserving Splines. Unlike conventional neural implicit approaches, NeuSOGA3D progressively transforms observations into explicit symbolic entities, including control polygons, implicit spline fields, cross-sections, and volumetric lofts. Experiments on all forty categories of the ModelNet40 benchmark demonstrate the ability of the framework to recover structurally meaningful and CAD-compatible geometric representations from diverse point-cloud observations. The results highlight the potential of combining learned perception with symbolic geometric reasoning for explainable geometric intelligence.",
+      "authors": [
+        "Qingde Li",
+        "Qingqi Hong",
+        "Zihan Li",
+        "Jie Tian"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Qingde Li",
+          "authorEntityId": "author:d1065376bd9982ff",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Qingde Li",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Qingqi Hong",
+          "authorEntityId": "author:318569a88234c65a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Qingqi Hong",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zihan Li",
+          "authorEntityId": "author:885a333c5f374a01",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zihan Li",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jie Tian",
+          "authorEntityId": "author:bb53cf0725ea61e7",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jie Tian",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-17",
+      "url": "https://arxiv.org/abs/2609.20323",
+      "pdfUrl": "https://arxiv.org/pdf/2609.20323",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.20323",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:8145d66b63baf7ce",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Qingde Li",
+        "Qingqi Hong",
+        "Zihan Li",
+        "Jie Tian"
+      ],
+      "authorEntityIds": [
+        "author:d1065376bd9982ff",
+        "author:318569a88234c65a",
+        "author:885a333c5f374a01",
+        "author:bb53cf0725ea61e7"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Qingde Li",
+          "affiliations": []
+        },
+        {
+          "name": "Qingqi Hong",
+          "affiliations": []
+        },
+        {
+          "name": "Zihan Li",
+          "affiliations": []
+        },
+        {
+          "name": "Jie Tian",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.19961",
+      "title": "Neuro-Symbolic Agentic AI for Networked Low-Altitude UAVs",
+      "abstract": "Networked low-altitude unmanned aerial vehicles (UAVs) need reliable and adaptive decision-making capabilities to operate under uncertain observations, dynamic environments, and intermittent connectivity, while many existing agentic systems remain limited by hallucination risks, data dependence, and weak generalization. This article investigates neuro-symbolic agentic AI (NSAAI) as a framework for combining neural grounding, symbolic reasoning, and closed-loop agentic interaction to support more reliable and adaptive UAV autonomy. We first examine its capability foundations in data efficiency, compositional generalization, continual learning, and zero-shot transfer, and then develop a reference architecture integrating task and goal management, neuro-symbolic planning, verification and metacognition, skill execution and network interaction, and shared knowledge and memory. An urban fire-inspection case implemented in LAESim illustrates how a UAV can coordinate sensing and cloud access under intermittent connectivity, reuse a verified image-delivery skill, and satisfy explicit evidence conditions before completing the mission. The results illustrate the potential of NSAAI to support reusable skills, evidence-grounded decision-making, and adaptive mission execution in networked UAV systems. We further discuss key research directions in uncertainty-aware reasoning, knowledge and skill expansion, adaptive self-monitoring, and standardized evaluation.",
+      "authors": [
+        "Yuqi Ping",
+        "Tianhao Liang",
+        "Nanchi Su",
+        "Guangyu Lei",
+        "Junwei Wu",
+        "Qinyu Zhang",
+        "Tingting Zhang"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Yuqi Ping",
+          "authorEntityId": "author:27c9e279525bcccb",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yuqi Ping",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Tianhao Liang",
+          "authorEntityId": "author:8328fb2945867a92",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Tianhao Liang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Nanchi Su",
+          "authorEntityId": "author:6644ae4648d287c8",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Nanchi Su",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Guangyu Lei",
+          "authorEntityId": "author:cf7fea4fdbb67468",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Guangyu Lei",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Junwei Wu",
+          "authorEntityId": "author:46c6f626d72ffe8a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Junwei Wu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Qinyu Zhang",
+          "authorEntityId": "author:8b76706f58008095",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Qinyu Zhang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Tingting Zhang",
+          "authorEntityId": "author:980db47f78982729",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Tingting Zhang",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.SY"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-17",
+      "url": "https://arxiv.org/abs/2609.19961",
+      "pdfUrl": "https://arxiv.org/pdf/2609.19961",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.19961",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:11cf708f88aef20f",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Yuqi Ping",
+        "Tianhao Liang",
+        "Nanchi Su",
+        "Guangyu Lei",
+        "Junwei Wu",
+        "Qinyu Zhang",
+        "Tingting Zhang"
+      ],
+      "authorEntityIds": [
+        "author:27c9e279525bcccb",
+        "author:8328fb2945867a92",
+        "author:6644ae4648d287c8",
+        "author:cf7fea4fdbb67468",
+        "author:46c6f626d72ffe8a",
+        "author:8b76706f58008095",
+        "author:980db47f78982729"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Yuqi Ping",
+          "affiliations": []
+        },
+        {
+          "name": "Tianhao Liang",
+          "affiliations": []
+        },
+        {
+          "name": "Nanchi Su",
+          "affiliations": []
+        },
+        {
+          "name": "Guangyu Lei",
+          "affiliations": []
+        },
+        {
+          "name": "Junwei Wu",
+          "affiliations": []
+        },
+        {
+          "name": "Qinyu Zhang",
+          "affiliations": []
+        },
+        {
+          "name": "Tingting Zhang",
           "affiliations": []
         }
       ]

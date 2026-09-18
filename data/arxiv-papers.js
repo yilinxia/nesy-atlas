@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-09-17T16:03:23.714Z",
-  "cursorAt": "2026-09-17T16:03:23.714Z",
+  "generatedAt": "2026-09-18T15:38:59.519Z",
+  "cursorAt": "2026-09-18T15:38:59.519Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-09-06T14:47:15.477Z",
   "keywords": [
@@ -15,11 +15,119 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-09-16T15:56:37.885Z",
-  "windowStart": "2026-09-09T15:56:37.885Z",
+  "previousSnapshotAt": "2026-09-17T16:03:23.714Z",
+  "windowStart": "2026-09-10T16:03:23.714Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2609.20323",
+    "title": "NeuSOGA3D: A Neuro-Symbolic Framework for Explainable 3D Geometric Reconstruction",
+    "abstract": "Three-dimensional reconstruction from unorganized point clouds remains a challenging problem in computer vision, geometric modeling, and computer-aided design. While neural implicit methods achieve impressive reconstruction accuracy, geometry is typically encoded in latent representations that limit interpretability and reuse within engineering workflows. We present NeuSOGA3D (Neuro-Symbolic Geometric Abstraction in 3D), a hybrid framework that combines learned perceptual priors inherited from NeuSOGA with explicit symbolic geometric reasoning. The method projects point clouds onto principal orthographic planes, constructs symbolic implicit spline representations from the resulting observations, and fuses them through shape-preserving constructive solid geometry operations to generate a coarse visual hull. Additional geometric detail is recovered through cross-sectional decomposition and volumetric reconstruction using Partial Shape-Preserving Splines. Unlike conventional neural implicit approaches, NeuSOGA3D progressively transforms observations into explicit symbolic entities, including control polygons, implicit spline fields, cross-sections, and volumetric lofts. Experiments on all forty categories of the ModelNet40 benchmark demonstrate the ability of the framework to recover structurally meaningful and CAD-compatible geometric representations from diverse point-cloud observations. The results highlight the potential of combining learned perception with symbolic geometric reasoning for explainable geometric intelligence.",
+    "authors": [
+      "Qingde Li",
+      "Qingqi Hong",
+      "Zihan Li",
+      "Jie Tian"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Qingde Li",
+        "affiliations": []
+      },
+      {
+        "name": "Qingqi Hong",
+        "affiliations": []
+      },
+      {
+        "name": "Zihan Li",
+        "affiliations": []
+      },
+      {
+        "name": "Jie Tian",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-17",
+    "updated": "2026-09-17",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2609.20323",
+    "pdfUrl": "https://arxiv.org/pdf/2609.20323",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.19961",
+    "title": "Neuro-Symbolic Agentic AI for Networked Low-Altitude UAVs",
+    "abstract": "Networked low-altitude unmanned aerial vehicles (UAVs) need reliable and adaptive decision-making capabilities to operate under uncertain observations, dynamic environments, and intermittent connectivity, while many existing agentic systems remain limited by hallucination risks, data dependence, and weak generalization. This article investigates neuro-symbolic agentic AI (NSAAI) as a framework for combining neural grounding, symbolic reasoning, and closed-loop agentic interaction to support more reliable and adaptive UAV autonomy. We first examine its capability foundations in data efficiency, compositional generalization, continual learning, and zero-shot transfer, and then develop a reference architecture integrating task and goal management, neuro-symbolic planning, verification and metacognition, skill execution and network interaction, and shared knowledge and memory. An urban fire-inspection case implemented in LAESim illustrates how a UAV can coordinate sensing and cloud access under intermittent connectivity, reuse a verified image-delivery skill, and satisfy explicit evidence conditions before completing the mission. The results illustrate the potential of NSAAI to support reusable skills, evidence-grounded decision-making, and adaptive mission execution in networked UAV systems. We further discuss key research directions in uncertainty-aware reasoning, knowledge and skill expansion, adaptive self-monitoring, and standardized evaluation.",
+    "authors": [
+      "Yuqi Ping",
+      "Tianhao Liang",
+      "Nanchi Su",
+      "Guangyu Lei",
+      "Junwei Wu",
+      "Qinyu Zhang",
+      "Tingting Zhang"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Yuqi Ping",
+        "affiliations": []
+      },
+      {
+        "name": "Tianhao Liang",
+        "affiliations": []
+      },
+      {
+        "name": "Nanchi Su",
+        "affiliations": []
+      },
+      {
+        "name": "Guangyu Lei",
+        "affiliations": []
+      },
+      {
+        "name": "Junwei Wu",
+        "affiliations": []
+      },
+      {
+        "name": "Qinyu Zhang",
+        "affiliations": []
+      },
+      {
+        "name": "Tingting Zhang",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-17",
+    "updated": "2026-09-17",
+    "categories": [
+      "cs.AI",
+      "eess.SY"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2609.19961",
+    "pdfUrl": "https://arxiv.org/pdf/2609.19961",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2609.18461",
     "title": "Disentangling Long-Term Memory via Latent Neuro-Symbolic Reasoning",
