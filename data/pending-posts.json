@@ -2185,5 +2185,23 @@
     "sourceUrl": "https://www.kognitos.com/blog/",
     "discovered": "2026-09-17",
     "status": "needs-review"
+  },
+  {
+    "company": "DaaX",
+    "title": "The Pyramid Is Out of Date. The Knowledge It Built Is Not.",
+    "date": "2026-09-17",
+    "url": "https://daax.ai/blog/pyramid-knowledge",
+    "sourceUrl": "https://daax.ai/blog",
+    "discovered": "2026-09-18",
+    "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "Blog Know Before You Spend",
+    "date": "2026-09-18",
+    "url": "https://www.uniphore.com/blog/know-before-you-spend/",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-09-18",
+    "status": "needs-review"
   }
 ]
