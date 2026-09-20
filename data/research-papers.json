@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T15:11:48.722Z",
+  "generatedAt": "2026-09-20T15:17:02.782Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,8 +13,8 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1807,
-  "completeMetadataCount": 1374,
+  "paperCount": 1804,
+  "completeMetadataCount": 1371,
   "sources": [
     {
       "id": "arxiv-keywords",
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1502
+      "count": 1499
     },
     {
       "id": "nesy-proceedings",
@@ -1484,17 +1484,6 @@
         ]
       },
       {
-        "id": "author:d3e7355c93098842",
-        "name": "Changliu Liu",
-        "aliases": [
-          "Changliu Liu"
-        ],
-        "paperCount": 5,
-        "institutionIds": [
-          "institution:c5235efb76365de2"
-        ]
-      },
-      {
         "id": "author:1fc759019988d5f0",
         "name": "Chathurangi Shyalika",
         "aliases": [
@@ -2103,19 +2092,6 @@
         ]
       },
       {
-        "id": "author:a00f6de0c0588fab",
-        "name": "Antonin Sulc",
-        "aliases": [
-          "Antonin Sulc"
-        ],
-        "paperCount": 4,
-        "institutionIds": [
-          "institution:1215176a0952ba23",
-          "institution:ab69dedd981b240f",
-          "institution:f283b56fb757f3d4"
-        ]
-      },
-      {
         "id": "author:f2cedfe84e2481a9",
         "name": "Arthur Ledaguenel",
         "aliases": [
@@ -2161,6 +2137,17 @@
         "paperCount": 4,
         "institutionIds": [
           "institution:b3bb746fd90120e9"
+        ]
+      },
+      {
+        "id": "author:d3e7355c93098842",
+        "name": "Changliu Liu",
+        "aliases": [
+          "Changliu Liu"
+        ],
+        "paperCount": 4,
+        "institutionIds": [
+          "institution:c5235efb76365de2"
         ]
       },
       {
@@ -3226,6 +3213,19 @@
         "paperCount": 3,
         "institutionIds": [
           "institution:36c401a3c72be9ea"
+        ]
+      },
+      {
+        "id": "author:a00f6de0c0588fab",
+        "name": "Antonin Sulc",
+        "aliases": [
+          "Antonin Sulc"
+        ],
+        "paperCount": 3,
+        "institutionIds": [
+          "institution:1215176a0952ba23",
+          "institution:ab69dedd981b240f",
+          "institution:f283b56fb757f3d4"
         ]
       },
       {
@@ -4688,18 +4688,6 @@
           "institution:70d16cbbf8e41719",
           "institution:99d058378724c01d",
           "institution:ab1cd87bcde4cfab"
-        ]
-      },
-      {
-        "id": "author:e3b644d9d61e2084",
-        "name": "Peiqi Yu",
-        "aliases": [
-          "Peiqi Yu"
-        ],
-        "paperCount": 3,
-        "institutionIds": [
-          "institution:0d58f17d1772b18f",
-          "institution:c5235efb76365de2"
         ]
       },
       {
@@ -6488,18 +6476,6 @@
         ]
       },
       {
-        "id": "author:106424638dc4012a",
-        "name": "Bowei Li",
-        "aliases": [
-          "Bowei Li"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:0d58f17d1772b18f",
-          "institution:c5235efb76365de2"
-        ]
-      },
-      {
         "id": "author:79e2df9dd44b47cc",
         "name": "Bowen Xi",
         "aliases": [
@@ -7110,18 +7086,6 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:3e1dfa8e96a800e1"
-        ]
-      },
-      {
-        "id": "author:80e079c6626cabe5",
-        "name": "Dhavalkumar Thakker",
-        "aliases": [
-          "Dhavalkumar Thakker"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:2843c26fef196e32",
-          "institution:6fd7bbd2f5c0d075"
         ]
       },
       {
@@ -9949,6 +9913,18 @@
         ]
       },
       {
+        "id": "author:e3b644d9d61e2084",
+        "name": "Peiqi Yu",
+        "aliases": [
+          "Peiqi Yu"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:0d58f17d1772b18f",
+          "institution:c5235efb76365de2"
+        ]
+      },
+      {
         "id": "author:92c691182281e9e7",
         "name": "Peng Wang",
         "aliases": [
@@ -10769,17 +10745,6 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:50c86a6fc102a2c1"
-        ]
-      },
-      {
-        "id": "author:b5ffa3469e8216a6",
-        "name": "Shangtao Li",
-        "aliases": [
-          "Shangtao Li"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:c5235efb76365de2"
         ]
       },
       {
@@ -14146,17 +14111,6 @@
         ]
       },
       {
-        "id": "author:7962938418ca6e2b",
-        "name": "Ahma Rameez",
-        "aliases": [
-          "Ahma Rameez"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:6fd7bbd2f5c0d075"
-        ]
-      },
-      {
         "id": "author:f828e63d7d87641f",
         "name": "Ahmad Mohsin",
         "aliases": [
@@ -14808,17 +14762,6 @@
         "paperCount": 1,
         "institutionIds": [
           "institution:6798e3f9af11e5c6"
-        ]
-      },
-      {
-        "id": "author:7ad1802c387ee6a6",
-        "name": "Alessio Merlo",
-        "aliases": [
-          "Alessio Merlo"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:71ec68bb2d1f00ec"
         ]
       },
       {
@@ -18321,17 +18264,6 @@
         ]
       },
       {
-        "id": "author:cadd6c63a136b164",
-        "name": "Baseer Mishra",
-        "aliases": [
-          "Baseer Mishra"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:6fd7bbd2f5c0d075"
-        ]
-      },
-      {
         "id": "author:73e128d07b5de521",
         "name": "Behrouz Minaei-Bidgoli",
         "aliases": [
@@ -18737,28 +18669,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:1805d1624b08030f",
-        "name": "Bhupesh Aslansefat",
-        "aliases": [
-          "Bhupesh Aslansefat"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:6fd7bbd2f5c0d075"
-        ]
-      },
-      {
-        "id": "author:4b931769b7edadd5",
-        "name": "Bhupesh Kuma",
-        "aliases": [
-          "Bhupesh Kuma"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:6fd7bbd2f5c0d075"
-        ]
       },
       {
         "id": "author:4c99991af75cdb96",
@@ -19215,6 +19125,18 @@
         ],
         "paperCount": 1,
         "institutionIds": []
+      },
+      {
+        "id": "author:106424638dc4012a",
+        "name": "Bowei Li",
+        "aliases": [
+          "Bowei Li"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:0d58f17d1772b18f",
+          "institution:c5235efb76365de2"
+        ]
       },
       {
         "id": "author:bd5fa600f0f3d6c0",
@@ -20703,6 +20625,15 @@
         "institutionIds": [
           "institution:f42de06978b10eb5"
         ]
+      },
+      {
+        "id": "author:f81d6ede49cb1012",
+        "name": "Chenyang Yu",
+        "aliases": [
+          "Chenyang Yu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:70a37e615d77d4b1",
@@ -23245,6 +23176,17 @@
         "paperCount": 1,
         "institutionIds": [
           "institution:7f45bf26d89eafb3"
+        ]
+      },
+      {
+        "id": "author:80e079c6626cabe5",
+        "name": "Dhavalkumar Thakker",
+        "aliases": [
+          "Dhavalkumar Thakker"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:2843c26fef196e32"
         ]
       },
       {
@@ -27044,17 +26986,6 @@
         ]
       },
       {
-        "id": "author:c8c4d0fdef37cf6e",
-        "name": "Gian Luca Pozzato",
-        "aliases": [
-          "Gian Luca Pozzato"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:81d8f22d8d0ed557"
-        ]
-      },
-      {
         "id": "author:72c5e88e3b17331b",
         "name": "Gianluca Cima",
         "aliases": [
@@ -28538,6 +28469,15 @@
         "name": "Hangyu Lv",
         "aliases": [
           "Hangyu Lv"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:4c3997bbb0b4b800",
+        "name": "Hanhan Wu",
+        "aliases": [
+          "Hanhan Wu"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -35711,28 +35651,6 @@
         ]
       },
       {
-        "id": "author:5f4bef379660b118",
-        "name": "K {m Anoosha",
-        "aliases": [
-          "K {m Anoosha"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:6fd7bbd2f5c0d075"
-        ]
-      },
-      {
-        "id": "author:351184812a5d10fa",
-        "name": "K Azuma-2021",
-        "aliases": [
-          "K Azuma-2021"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:6fd7bbd2f5c0d075"
-        ]
-      },
-      {
         "id": "author:30d9eb393543b85a",
         "name": "K Eywords",
         "aliases": [
@@ -36946,17 +36864,6 @@
         ]
       },
       {
-        "id": "author:8aeefdf3f64f342b",
-        "name": "Koorosh Aslansefat",
-        "aliases": [
-          "Koorosh Aslansefat"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:6fd7bbd2f5c0d075"
-        ]
-      },
-      {
         "id": "author:17b16b4e3a794c96",
         "name": "Korab Hoxha",
         "aliases": [
@@ -37191,17 +37098,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:4e5140098a414899",
-        "name": "Kuniko Paxton",
-        "aliases": [
-          "Kuniko Paxton"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:6fd7bbd2f5c0d075"
-        ]
       },
       {
         "id": "author:17898d0c8523dc81",
@@ -37488,15 +37384,6 @@
         "institutionIds": [
           "institution:acf973ebbe2994df"
         ]
-      },
-      {
-        "id": "author:257c933a75e83e64",
-        "name": "Laszlo Jeni",
-        "aliases": [
-          "Laszlo Jeni"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
       },
       {
         "id": "author:1dcf71f8c571df79",
@@ -42303,18 +42190,6 @@
         ]
       },
       {
-        "id": "author:e7399ea6571cf825",
-        "name": "Michael Romei De Socio",
-        "aliases": [
-          "Michael Romei De Socio"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:71ec68bb2d1f00ec",
-          "institution:81d8f22d8d0ed557"
-        ]
-      },
-      {
         "id": "author:6f6d85bcea6c1413",
         "name": "Michael S Hsiao",
         "aliases": [
@@ -43224,17 +43099,6 @@
         ]
       },
       {
-        "id": "author:9ce0560527b3ca8e",
-        "name": "Mishra Baseer",
-        "aliases": [
-          "Mishra Baseer"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:6fd7bbd2f5c0d075"
-        ]
-      },
-      {
         "id": "author:c04bd5ebd10ab696",
         "name": "Mistral Ai",
         "aliases": [
@@ -43827,15 +43691,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:b9483790e8172077",
-        "name": "Mosam Dabhi",
-        "aliases": [
-          "Mosam Dabhi"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:3aec036891786453",
         "name": "Moseli Mots'oehli",
         "aliases": [
@@ -43854,17 +43709,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:c76ed2bf5e3f1ee5",
-        "name": "Mostafa Anoosha",
-        "aliases": [
-          "Mostafa Anoosha"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:6fd7bbd2f5c0d075"
-        ]
       },
       {
         "id": "author:d4d0c6f986a763c2",
@@ -48343,17 +48187,6 @@
         ]
       },
       {
-        "id": "author:22dc3265a81a96a8",
-        "name": "R Ahmad",
-        "aliases": [
-          "R Ahmad"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:6fd7bbd2f5c0d075"
-        ]
-      },
-      {
         "id": "author:980676a9ccd63aa4",
         "name": "R Feynman",
         "aliases": [
@@ -48644,17 +48477,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:03147bd78f963247",
-        "name": "Raj Kureshi",
-        "aliases": [
-          "Raj Kureshi"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:6fd7bbd2f5c0d075"
-        ]
       },
       {
         "id": "author:f1a6cc6d69effb78",
@@ -52091,6 +51913,17 @@
         ],
         "paperCount": 1,
         "institutionIds": []
+      },
+      {
+        "id": "author:b5ffa3469e8216a6",
+        "name": "Shangtao Li",
+        "aliases": [
+          "Shangtao Li"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:c5235efb76365de2"
+        ]
       },
       {
         "id": "author:a6b7b597f39f4e19",
@@ -60777,6 +60610,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:3336dace061122e3",
+        "name": "Xujun Che",
+        "aliases": [
+          "Xujun Che"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:b9d33d20fa44f196",
         "name": "Xun Jiang",
         "aliases": [
@@ -63439,6 +63281,15 @@
         ]
       },
       {
+        "id": "author:3e90fbbe1f8bc8e3",
+        "name": "Yuchen Yuan",
+        "aliases": [
+          "Yuchen Yuan"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:d7177a6c528df1b8",
         "name": "Yucheng Chu",
         "aliases": [
@@ -65811,6 +65662,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:96033f4328566a98",
+        "name": "Zhipeng Fei",
+        "aliases": [
+          "Zhipeng Fei"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:069f61733745ee7c",
         "name": "Zhiping Peng",
         "aliases": [
@@ -67217,15 +67077,6 @@
         "name": "Baizhi Chen",
         "aliases": [
           "Baizhi Chen"
-        ],
-        "paperCount": 0,
-        "institutionIds": []
-      },
-      {
-        "id": "author:4956a85c2a8b86c9",
-        "name": "Baseer Ahmad",
-        "aliases": [
-          "Baseer Ahmad"
         ],
         "paperCount": 0,
         "institutionIds": []
@@ -69196,15 +69047,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:6afb317abc79c5ff",
-        "name": "Rameez Raja Kureshi",
-        "aliases": [
-          "Rameez Raja Kureshi"
-        ],
-        "paperCount": 0,
-        "institutionIds": []
-      },
-      {
         "id": "author:ac6aeae103b646b2",
         "name": "Rangeet Pan",
         "aliases": [
@@ -69771,6 +69613,15 @@
         "name": "Xiufeng Wu",
         "aliases": [
           "Xiufeng Wu"
+        ],
+        "paperCount": 0,
+        "institutionIds": []
+      },
+      {
+        "id": "author:9145967b89fb1420",
+        "name": "Xuan Huang",
+        "aliases": [
+          "Xuan Huang"
         ],
         "paperCount": 0,
         "institutionIds": []
@@ -72726,14 +72577,6 @@
         "paperCount": 2
       },
       {
-        "id": "institution:f283b56fb757f3d4",
-        "name": "Lawrence Berkeley National Lab",
-        "aliases": [
-          "Lawrence Berkeley National Lab"
-        ],
-        "paperCount": 2
-      },
-      {
         "id": "institution:445fbc012a174ac3",
         "name": "LIG",
         "aliases": [
@@ -74748,14 +74591,6 @@
         "name": "Carnegie Mellon University Pittsburgh",
         "aliases": [
           "Carnegie Mellon University Pittsburgh"
-        ],
-        "paperCount": 1
-      },
-      {
-        "id": "institution:71ec68bb2d1f00ec",
-        "name": "CASD -School of Advanced Defense Studies",
-        "aliases": [
-          "CASD -School of Advanced Defense Studies"
         ],
         "paperCount": 1
       },
@@ -77397,6 +77232,14 @@
         "name": "Laura Nenzi",
         "aliases": [
           "Laura Nenzi"
+        ],
+        "paperCount": 1
+      },
+      {
+        "id": "institution:f283b56fb757f3d4",
+        "name": "Lawrence Berkeley National Lab",
+        "aliases": [
+          "Lawrence Berkeley National Lab"
         ],
         "paperCount": 1
       },
@@ -81276,14 +81119,6 @@
         "paperCount": 1
       },
       {
-        "id": "institution:6fd7bbd2f5c0d075",
-        "name": "University of Hull Kingston upon Hull",
-        "aliases": [
-          "University of Hull Kingston upon Hull"
-        ],
-        "paperCount": 1
-      },
-      {
         "id": "institution:7ce695da7bf003bd",
         "name": "University of Illinois Urbana",
         "aliases": [
@@ -81880,14 +81715,6 @@
         "name": "University of Tuebingen",
         "aliases": [
           "University of Tuebingen"
-        ],
-        "paperCount": 1
-      },
-      {
-        "id": "institution:81d8f22d8d0ed557",
-        "name": "University of Turin",
-        "aliases": [
-          "University of Turin"
         ],
         "paperCount": 1
       },
@@ -84667,142 +84494,6 @@
           "name": "Andreas Schuppert",
           "affiliations": [
             "RWTH Aachen University"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2607.22365",
-      "title": "Learning Structural Convergence: A Neuro-Symbolic Benchmark for Temporal Reasoning",
-      "abstract": "High-complexity operational environments require methods that detect and anticipate temporally distributed patterns rather than classify isolated events. This paper introduces TRACTA (Temporal Reasoning and Capability-Trajectory Analysis), a controlled synthetic benchmark for temporal structural reasoning in high-complexity event-driven systems, instantiated through Multi-Domain Operations (MDO)-like scenarios. The benchmark includes three tasks: early_warning, pattern_detection, and run_classification, and compares raw-event neural models, a contract-lite semantic baseline, and a neuro-symbolic configuration operating on semantically grounded trajectories. Results show that raw event-level learning remains informative, but learned temporal modeling over semantic capability and contextual direct-impact trajectories achieves the highest aggregate point estimates, with the largest margins on the temporal tasks. Ablation analysis indicates that capability dynamics, contextual impacts, and temporal structure contribute complementary information. Shortcut diagnostics indicate that the most direct cross-run global-identifier shortcut is controlled in the primary neural input view, while residual shallow signals remain. Overall, the findings support a bounded methodological conclusion: in controlled synthetic settings, semantically grounded trajectories provide an effective representation for temporal structural reasoning, supporting further investigation of semantic interfaces between event data, structured representations, and temporal learning.",
-      "authors": [
-        "Michael Romei De Socio",
-        "Gian Luca Pozzato",
-        "Alessio Merlo"
-      ],
-      "authorAffiliations": [
-        {
-          "name": "Michael Romei De Socio",
-          "authorEntityId": "author:e7399ea6571cf825",
-          "affiliations": [
-            "University of Turin",
-            "CASD -School of Advanced Defense Studies"
-          ],
-          "affiliationEntityIds": [
-            "institution:81d8f22d8d0ed557",
-            "institution:71ec68bb2d1f00ec"
-          ],
-          "rawName": "Michael Romei De Socio",
-          "rawAffiliations": [
-            "University of Turin",
-            "CASD -School of Advanced Defense Studies"
-          ]
-        },
-        {
-          "name": "Gian Luca Pozzato",
-          "authorEntityId": "author:c8c4d0fdef37cf6e",
-          "affiliations": [
-            "University of Turin"
-          ],
-          "affiliationEntityIds": [
-            "institution:81d8f22d8d0ed557"
-          ],
-          "rawName": "Gian Luca Pozzato",
-          "rawAffiliations": [
-            "University of Turin"
-          ]
-        },
-        {
-          "name": "Alessio Merlo",
-          "authorEntityId": "author:7ad1802c387ee6a6",
-          "affiliations": [
-            "CASD -School of Advanced Defense Studies"
-          ],
-          "affiliationEntityIds": [
-            "institution:71ec68bb2d1f00ec"
-          ],
-          "rawName": "Alessio Merlo",
-          "rawAffiliations": [
-            "CASD -School of Advanced Defense Studies"
-          ]
-        }
-      ],
-      "authorIds": [],
-      "affiliations": [
-        "University of Turin",
-        "CASD -School of Advanced Defense Studies"
-      ],
-      "keywords": [
-        "temporal reasoning",
-        "structural convergence",
-        "neuro-symbolic learning",
-        "semantic trajectories",
-        "synthetic benchmark",
-        "early warning",
-        "neuro-symbolic"
-      ],
-      "categories": [
-        "cs.AI"
-      ],
-      "venue": "arXiv",
-      "conference": "",
-      "year": 2026,
-      "published": "2026-07-24",
-      "url": "https://arxiv.org/abs/2607.22365",
-      "pdfUrl": "https://arxiv.org/pdf/2607.22365",
-      "doi": "",
-      "doiUrl": "",
-      "arxivId": "2607.22365",
-      "primaryArea": "",
-      "paperType": "",
-      "tldr": "",
-      "award": "",
-      "sourceType": "arxiv",
-      "sourceIds": [
-        "arxiv-keywords"
-      ],
-      "resolutionStatus": "source-pdf",
-      "resolutionMethod": "",
-      "resolvedArxivUrl": "",
-      "metadataComplete": true,
-      "extractionStatus": "extracted",
-      "entityId": "paper:d957aa8330f36842",
-      "rawAffiliations": [
-        "University of Turin",
-        "CASD -School of Advanced Defense Studies"
-      ],
-      "affiliationEntityIds": [
-        "institution:81d8f22d8d0ed557",
-        "institution:71ec68bb2d1f00ec"
-      ],
-      "rawAuthors": [
-        "Michael Romei De Socio",
-        "Gian Luca Pozzato",
-        "Alessio Merlo"
-      ],
-      "authorEntityIds": [
-        "author:e7399ea6571cf825",
-        "author:c8c4d0fdef37cf6e",
-        "author:7ad1802c387ee6a6"
-      ],
-      "rawAuthorAffiliations": [
-        {
-          "name": "Michael Romei De Socio",
-          "affiliations": [
-            "University of Turin",
-            "CASD -School of Advanced Defense Studies"
-          ]
-        },
-        {
-          "name": "Gian Luca Pozzato",
-          "affiliations": [
-            "University of Turin"
-          ]
-        },
-        {
-          "name": "Alessio Merlo",
-          "affiliations": [
-            "CASD -School of Advanced Defense Studies"
           ]
         }
       ]
@@ -89137,7 +88828,8 @@
       ],
       "categories": [
         "cs.GR",
-        "cs.RO"
+        "cs.RO",
+        "cs.SE"
       ],
       "venue": "arXiv",
       "conference": "",
@@ -96778,7 +96470,7 @@
     {
       "id": "2606.16845",
       "title": "Robust Dual-Signal Fusion: Hybrid Neuro-Symbolic Gating with Compressed Chain-of-Thought Refinement for Irony Detection in Social Media Texts",
-      "abstract": "Small-scale Large Language Models (LLMs) natively default to literal semantic interpretations, making few-shot irony detection a persistent challenge in noisy, user-generated text. We introduce the Robust Dual-Signal (RDS) Fusion framework, a hybrid neuro-symbolic architecture that compresses Chain-of-Thought (CoT) reasoning trajectories without Supervised Fine-Tuning (SFT). Evaluated on a strictly held-out TweetEval test set ($N=734$), RDS achieves $78.1\\%$ accuracy and a Macro F1 of $0.777$, matching the absolute performance ceiling of a fine-tuned BERTweet. On the heavily imbalanced iSarcasm dataset, the frozen CoT pipeline filters $22.5\\%$ of out-of-distribution hallucinations, yielding a few-shot Macro F1 of $0.6726$ and Ironic F1 of $0.4821$, outperforming multiple heavily supervised SemEval transformer ensembles. Statistical ablation confirms this structural synergy: while adding the symbolic prior to the neural baseline yields an insignificant gain, and the RDS fusion is statistically insignificant compared to the combined RoBERTa and symbolic prior ablation; the concurrent fusion achieves a statistically significant improvement over the standalone baseline ($p=0.005$).",
+      "abstract": "Small-scale Large Language Models (LLMs) natively default to literal semantic interpretations, making few-shot irony detection a persistent challenge in noisy, user-generated text. In this study, we show that, despite this limitation, inference from compact LLMs can still be effectively harnessed for this task. We introduce the Robust Dual-Signal (RDS) Fusion framework, a hybrid neuro-symbolic architecture that utilizes a compressed Chain-of-Thought (CoT) of an LLM, alongside a static, pretrained RoBERTa and a symbolic prior module in two downstream fusions. RDS Fusion demonstrates better performance than an unrestricted reasoning ablation, while requiring substantially lower inference time. We also find that in our experiments, unrestricted reasoning does not yield better results than restricted reasoning. Evaluated on a strictly held-out TweetEval test set ($N=734$), RDS Fusion achieves $78.1\\%$ accuracy and a Macro F1 of $0.777$, which is comparable to a finetuned BERTweet-base. On the heavily imbalanced iSarcasm dataset, the frozen CoT pipeline suppresses $22.5\\%$ of baseline false positives, yielding a Macro F1 of $0.6726$ and Ironic F1 of $0.4821$, outperforming multiple heavily supervised SemEval transformer ensembles. Paired McNemar's tests show that, while adding the symbolic prior to the neural baseline yields an insignificant gain, and the RDS Fusion is statistically insignificant compared to the combined RoBERTa and symbolic prior ablation; the concurrent fusion achieves a statistically significant improvement over the standalone baseline ($p=0.005$).",
       "authors": [
         "Ankit Bhattacharjee",
         "Krityapriya Bhaumik"
@@ -129725,402 +129417,6 @@
       ]
     },
     {
-      "id": "2603.26483",
-      "title": "EcoFair: Trustworthy and Energy-Aware Routing for Privacy-Preserving Vertically Partitioned Medical Inference",
-      "abstract": "Privacy-preserving medical inference must balance data locality, diagnostic reliability, and deployment efficiency. This paper presents EcoFair, a simulated vertically partitioned inference framework for dermatological diagnosis in which raw image and tabular data remain local and only modality-specific embeddings are transmitted for server-side multimodal fusion. EcoFair introduces a lightweight-first routing mechanism that selectively activates a heavier image encoder when local uncertainty or metadata-derived clinical risk indicates that additional computation is warranted. The routing decision combines predictive uncertainty, a safe--danger probability gap, and a tabular neurosymbolic risk score derived from patient age and lesion localisation. Experiments on three dermatology benchmarks show that EcoFair can substantially reduce edge-side inference energy in representative model pairings while remaining competitive in classification performance. The results further indicate that selective routing can improve subgroup-sensitive malignant-case behaviour in representative settings without modifying the global training objective. These findings position EcoFair as a practical framework for privacy-preserving and energy-aware medical inference under edge deployment constraints.",
-      "authors": [
-        "Mostafa Anoosha",
-        "Dhavalkumar Thakker",
-        "Kuniko Paxton",
-        "Koorosh Aslansefat",
-        "Bhupesh Kuma",
-        "Mishra Baseer",
-        "Ahma Rameez",
-        "Raj Kureshi",
-        "K {m Anoosha",
-        "K Azuma-2021",
-        "Bhupesh Aslansefat",
-        "Baseer Mishra",
-        "R Ahmad"
-      ],
-      "authorAffiliations": [
-        {
-          "name": "Mostafa Anoosha",
-          "authorEntityId": "author:c76ed2bf5e3f1ee5",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ],
-          "affiliationEntityIds": [
-            "institution:6fd7bbd2f5c0d075"
-          ],
-          "rawName": "Mostafa Anoosha",
-          "rawAffiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "Dhavalkumar Thakker",
-          "authorEntityId": "author:80e079c6626cabe5",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ],
-          "affiliationEntityIds": [
-            "institution:6fd7bbd2f5c0d075"
-          ],
-          "rawName": "Dhavalkumar Thakker",
-          "rawAffiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "Kuniko Paxton",
-          "authorEntityId": "author:4e5140098a414899",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ],
-          "affiliationEntityIds": [
-            "institution:6fd7bbd2f5c0d075"
-          ],
-          "rawName": "Kuniko Paxton",
-          "rawAffiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "Koorosh Aslansefat",
-          "authorEntityId": "author:8aeefdf3f64f342b",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ],
-          "affiliationEntityIds": [
-            "institution:6fd7bbd2f5c0d075"
-          ],
-          "rawName": "Koorosh Aslansefat",
-          "rawAffiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "Bhupesh Kuma",
-          "authorEntityId": "author:4b931769b7edadd5",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ],
-          "affiliationEntityIds": [
-            "institution:6fd7bbd2f5c0d075"
-          ],
-          "rawName": "Bhupesh Kuma",
-          "rawAffiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "Mishra Baseer",
-          "authorEntityId": "author:9ce0560527b3ca8e",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ],
-          "affiliationEntityIds": [
-            "institution:6fd7bbd2f5c0d075"
-          ],
-          "rawName": "Mishra Baseer",
-          "rawAffiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "Ahma Rameez",
-          "authorEntityId": "author:7962938418ca6e2b",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ],
-          "affiliationEntityIds": [
-            "institution:6fd7bbd2f5c0d075"
-          ],
-          "rawName": "Ahma Rameez",
-          "rawAffiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "Raj Kureshi",
-          "authorEntityId": "author:03147bd78f963247",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ],
-          "affiliationEntityIds": [
-            "institution:6fd7bbd2f5c0d075"
-          ],
-          "rawName": "Raj Kureshi",
-          "rawAffiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "K {m Anoosha",
-          "authorEntityId": "author:5f4bef379660b118",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ],
-          "affiliationEntityIds": [
-            "institution:6fd7bbd2f5c0d075"
-          ],
-          "rawName": "K {m Anoosha",
-          "rawAffiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "K Azuma-2021",
-          "authorEntityId": "author:351184812a5d10fa",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ],
-          "affiliationEntityIds": [
-            "institution:6fd7bbd2f5c0d075"
-          ],
-          "rawName": "K Azuma-2021",
-          "rawAffiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "Bhupesh Aslansefat",
-          "authorEntityId": "author:1805d1624b08030f",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ],
-          "affiliationEntityIds": [
-            "institution:6fd7bbd2f5c0d075"
-          ],
-          "rawName": "Bhupesh Aslansefat",
-          "rawAffiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "Baseer Mishra",
-          "authorEntityId": "author:cadd6c63a136b164",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ],
-          "affiliationEntityIds": [
-            "institution:6fd7bbd2f5c0d075"
-          ],
-          "rawName": "Baseer Mishra",
-          "rawAffiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "R Ahmad",
-          "authorEntityId": "author:22dc3265a81a96a8",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ],
-          "affiliationEntityIds": [
-            "institution:6fd7bbd2f5c0d075"
-          ],
-          "rawName": "R Ahmad",
-          "rawAffiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "Bhupesh Kumar Mishra",
-          "authorEntityId": "author:db616aeb17871805",
-          "affiliations": [],
-          "affiliationEntityIds": [],
-          "rawName": "Bhupesh Kumar Mishra",
-          "rawAffiliations": []
-        },
-        {
-          "name": "Baseer Ahmad",
-          "authorEntityId": "author:4956a85c2a8b86c9",
-          "affiliations": [],
-          "affiliationEntityIds": [],
-          "rawName": "Baseer Ahmad",
-          "rawAffiliations": []
-        },
-        {
-          "name": "Rameez Raja Kureshi",
-          "authorEntityId": "author:6afb317abc79c5ff",
-          "affiliations": [],
-          "affiliationEntityIds": [],
-          "rawName": "Rameez Raja Kureshi",
-          "rawAffiliations": []
-        }
-      ],
-      "authorIds": [],
-      "affiliations": [
-        "University of Hull Kingston upon Hull"
-      ],
-      "keywords": [
-        "Privacy-preserving medical AI",
-        "vertically partitioned inference",
-        "edge-cloud computing",
-        "dynamic routing",
-        "trustworthy AI",
-        "algorithmic fairness",
-        "neurosymbolic risk modelling",
-        "neurosymbolic"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "venue": "arXiv",
-      "conference": "",
-      "year": 2026,
-      "published": "2026-03-27",
-      "url": "https://arxiv.org/abs/2603.26483",
-      "pdfUrl": "https://arxiv.org/pdf/2603.26483",
-      "doi": "",
-      "doiUrl": "",
-      "arxivId": "2603.26483",
-      "primaryArea": "",
-      "paperType": "",
-      "tldr": "",
-      "award": "",
-      "sourceType": "arxiv",
-      "sourceIds": [
-        "arxiv-keywords"
-      ],
-      "resolutionStatus": "source-pdf",
-      "resolutionMethod": "",
-      "resolvedArxivUrl": "",
-      "metadataComplete": true,
-      "extractionStatus": "extracted",
-      "entityId": "paper:4e5e8767f04fdadc",
-      "rawAffiliations": [
-        "University of Hull Kingston upon Hull"
-      ],
-      "affiliationEntityIds": [
-        "institution:6fd7bbd2f5c0d075"
-      ],
-      "rawAuthors": [
-        "Mostafa Anoosha",
-        "Dhavalkumar Thakker",
-        "Kuniko Paxton",
-        "Koorosh Aslansefat",
-        "Bhupesh Kuma",
-        "Mishra Baseer",
-        "Ahma Rameez",
-        "Raj Kureshi",
-        "K {m Anoosha",
-        "K Azuma-2021",
-        "Bhupesh Aslansefat",
-        "Baseer Mishra",
-        "R Ahmad"
-      ],
-      "authorEntityIds": [
-        "author:c76ed2bf5e3f1ee5",
-        "author:80e079c6626cabe5",
-        "author:4e5140098a414899",
-        "author:8aeefdf3f64f342b",
-        "author:4b931769b7edadd5",
-        "author:9ce0560527b3ca8e",
-        "author:7962938418ca6e2b",
-        "author:03147bd78f963247",
-        "author:5f4bef379660b118",
-        "author:351184812a5d10fa",
-        "author:1805d1624b08030f",
-        "author:cadd6c63a136b164",
-        "author:22dc3265a81a96a8"
-      ],
-      "rawAuthorAffiliations": [
-        {
-          "name": "Mostafa Anoosha",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "Dhavalkumar Thakker",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "Kuniko Paxton",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "Koorosh Aslansefat",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "Bhupesh Kuma",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "Mishra Baseer",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "Ahma Rameez",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "Raj Kureshi",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "K {m Anoosha",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "K Azuma-2021",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "Bhupesh Aslansefat",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "Baseer Mishra",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "R Ahmad",
-          "affiliations": [
-            "University of Hull Kingston upon Hull"
-          ]
-        },
-        {
-          "name": "Bhupesh Kumar Mishra",
-          "affiliations": []
-        },
-        {
-          "name": "Baseer Ahmad",
-          "affiliations": []
-        },
-        {
-          "name": "Rameez Raja Kureshi",
-          "affiliations": []
-        }
-      ]
-    },
-    {
       "id": "2603.26461",
       "title": "Neuro-Symbolic Process Anomaly Detection",
       "abstract": "Process anomaly detection is an important application of process mining for identifying deviations from the normal behavior of a process. Neural network-based methods have recently been applied to this task, learning directly from event logs without requiring a predefined process model. However, since anomaly detection is a purely statistical task, these models fail to incorporate human domain knowledge. As a result, rare but conformant traces are often misclassified as anomalies due to their low frequency, which limits the effectiveness of the detection process. Recent developments in the field of neuro-symbolic AI have introduced Logic Tensor Networks (LTN) as a means to integrate symbolic knowledge into neural networks using real-valued logic. In this work, we propose a neuro-symbolic approach that integrates domain knowledge into neural anomaly detection using LTN and Declare constraints. Using autoencoder models as a foundation, we encode Declare constraints as soft logical guiderails within the learning process to distinguish between anomalous and rare but conformant behavior. Evaluations on synthetic and real-world datasets demonstrate that our approach improves F1 scores even when as few as 10 conformant traces exist, and that the choice of Declare constraint and by extension human domain knowledge significantly influences performance gains.",
@@ -140015,7 +139311,7 @@
     {
       "id": "2603.02504",
       "title": "NeuroProlog: Multi-Task Fine-Tuning for Neurosymbolic Mathematical Reasoning via the Cocktail Effect",
-      "abstract": "Large Language Models (LLMs) achieve strong performance on natural language tasks but remain unreliable in mathematical reasoning, frequently generating fluent yet logically inconsistent solutions. We present \\textbf{NeuroProlog}, a neurosymbolic framework that ensures verifiable reasoning by compiling math word problems into executable Prolog programs with formal verification guarantees. We propose a multi-task Cocktail training strategy that jointly optimizes three synergistic objectives in a unified symbolic representation space: (i) mathematical formula-to-rule translation (KB), (ii) natural language-to-program synthesis (SOLVE), and (iii) program-answer alignment. This joint supervision enables positive transfer, where symbolic grounding in formula translation directly improves compositional reasoning capabilities. At inference, we introduce an execution-guided decoding pipeline with fine-grained error taxonomy that enables iterative program repair and quantifies model self-debugging capacity. Comprehensive evaluation on GSM8K across four model scales (3B--32B parameters) demonstrates consistent improvements: cocktail training achieves significant accuracy gains of +5.23\\% (Qwen-32B, $p < 0.01$), +3.43\\% (GPT-OSS-20B, $p < 0.01$), and +5.54\\% (Llama-3B, $p < 0.05$) over single-task baselines. Systematic error analysis reveals scale-dependent learning dynamics: at 32B scale, cocktail training transforms unfixable type errors (12\\% repair rate) into correctable domain errors (96\\% repair rate), achieving 92.7\\% overall correction; at 8B scale, the same training eliminates syntactic errors but introduces semantic failures, revealing a critical capacity threshold for type-safe symbolic reasoning.",
+      "abstract": "Large Language Models (LLMs) achieve strong performance on natural language tasks but remain unreliable in mathematical reasoning, frequently generating fluent yet logically inconsistent solutions. We present \\textbf{NeuroProlog}, a neurosymbolic framework that ensures verifiable reasoning by compiling math word problems into executable Prolog programs with formal verification guarantees. We propose a multi-task Cocktail training strategy that jointly optimizes three synergistic objectives in a unified symbolic representation space: (i) mathematical formula-to-rule translation (KB), (ii) natural language-to-program synthesis (SOLVE), and (iii) program-answer alignment. This joint supervision enables positive transfer, where symbolic grounding in formula translation directly improves compositional reasoning capabilities. At inference, we introduce an execution-guided decoding pipeline with fine-grained error taxonomy that enables iterative program repair and quantifies model self-debugging capacity. Evaluation on GSM8K across multiple model scales demonstrates that cocktail training improves accuracy over single-task baselines, with statistically significant gains for most evaluated models. Error analysis reveals scale-associated differences in repair behavior: larger models exhibit more readily correctable errors, whereas smaller models show reduced syntactic errors but persistent semantic failures. These findings suggest that model capacity influences the acquisition of reliable symbolic reasoning and self-correction capabilities.",
       "authors": [
         "Pratibha Zunjare",
         "Michael S Hsiao"
@@ -147123,8 +146419,8 @@
     },
     {
       "id": "2602.10480",
-      "title": "Neuro-Symbolic Synergy for Interactive World Modeling",
-      "abstract": "Large language models (LLMs) exhibit strong general-purpose reasoning capabilities, yet they frequently hallucinate when used as world models (WMs), where strict compliance with deterministic transition rules--particularly in corner cases--is essential. In contrast, Symbolic WMs provide logical consistency but lack semantic expressivity. To bridge this gap, we propose Neuro-Symbolic Synergy (NeSyS), a framework that integrates the probabilistic semantic priors of LLMs with executable symbolic rules to achieve both expressivity and robustness. NeSyS alternates training between the two models using trajectories inadequately explained by the other. Unlike rule-based prompting, the symbolic WM directly constrains the LLM by modifying its output probability distribution. The neural WM is fine-tuned only on trajectories not covered by symbolic rules, reducing training data by 50% without loss of accuracy. Extensive experiments on three distinct interactive environments, i.e., ScienceWorld, Webshop, and Plancraft, demonstrate NeSyS's consistent advantages over baselines in both WM prediction accuracy and data efficiency. Our models and code are available at https://github.com/tianyi-lab/NeSyS.",
+      "title": "Neuro-Symbolic Synergy for World Modeling",
+      "abstract": "Large language models (LLMs) exhibit strong general-purpose reasoning capabilities, yet they frequently hallucinate when used as world models (WMs), where strict compliance with deterministic transition rules--particularly in corner cases--is essential. In contrast, Symbolic WMs provide logical consistency but lack semantic expressivity. To bridge this gap, we propose Neuro-Symbolic Synergy (NeSyS), a framework that integrates the probabilistic semantic priors of LLMs with executable symbolic rules to achieve both expressivity and robustness. NeSyS alternates training between the two models using trajectories inadequately explained by the other. Unlike rule-based prompting, the symbolic WM contributes candidate-level scores through log-linear reranking, without requiring the LLM to interpret rule text. Rule-guided sampling prioritizes transitions that are weakly covered by symbolic rules, using 35--60% of the training pairs while outperforming full-data supervised fine-tuning in five of six settings. Experiments on ScienceWorld, WebShop, and PlanCraft demonstrate consistent gains in WM prediction accuracy and data efficiency; one-step lookahead on open-ended WebShop also improves agent reward. Our models, rules, and code are available at https://github.com/tianyi-lab/NeSyS.",
       "authors": [
         "Hongyu Zhao",
         "Siyu Zhou",
@@ -158060,7 +157356,7 @@
     {
       "id": "2601.07315",
       "title": "VLM-CAD: VLM-Optimized Collaborative Agent Design Workflow for Analog Circuit Sizing",
-      "abstract": "Vision Language Models (VLMs) have demonstrated remarkable potential in multimodal reasoning, yet they inherently suffer from spatial blindness and logical hallucinations when interpreting densely structured engineering content, such as analog circuit schematics. To address these challenges, we propose a Vision Language Model-Optimized Collaborative Agent Design Workflow for Analog Circuit Sizing (VLM-CAD) designed for robust, step-by-step reasoning over multimodal evidence. VLM-CAD bridges the modality gap by integrating a neuro-symbolic structural parsing module, Image2Net, which transforms raw pixels into explicit topological graphs and structured JSON representations to anchor VLM interpretation in deterministic facts. To ensure the reliability required for engineering decisions, we further propose ExTuRBO, an Explainable Trust Region Bayesian Optimization method. ExTuRBO serves as an explainable grounding engine, employing agent-generated semantic seeds to warm-start local searches and utilizing Automatic Relevance Determination to provide quantified evidence for the VLM's decisions. Experimental results on two complex circuit benchmarks demonstrate that VLM-CAD significantly enhances spatial reasoning accuracy and maintains physics-based explainability. VLM-CAD consistently satisfies complex specification requirements while achieving low power consumption, with a total runtime under 66 minutes, marking a significant step toward robust, explainable multimodal reasoning in specialized technical domains.",
+      "abstract": "Vision Language Models (VLMs) have demonstrated remarkable potential in multimodal reasoning. However, they can have spatial blindness and logical hallucinations when interpreting densely structured engineering content, such as analog circuit schematics. To address these challenges, we propose a Vision Language Model-Optimized Collaborative Agent Design Workflow for Analog Circuit Sizing (VLM-CAD) designed to support step-by-step reasoning over multimodal evidence. VLM-CAD bridges the modality gap by integrating a neuro-symbolic structural parsing module, Image2Net, which transforms raw pixels into explicit topological graphs and structured JSON representations to anchor VLM interpretation in deterministic facts. To ensure the reliability required for engineering decisions, we further propose ExTuRBO, an Explainable Trust Region Bayesian Optimization method. ExTuRBO employs agent-generated semantic seeds to warm-start local searches and uses Automatic Relevance Determination to provide sensitivity evidence for the final design report. Experimental results on 12 sizing tasks covering six circuits and four technology platforms show that VLM-CAD achieves a pooled Strict Pass@1 of 23.3% and a Relaxed Pass@1 of 91.7%, while providing sensitivity evidence for final design reports.",
       "authors": [
         "Guanyuan Pan",
         "Shuai Wang",
@@ -159869,8 +159165,8 @@
     },
     {
       "id": "2601.05280",
-      "title": "On Solomonoff Induction in Large Language Models and the Limits of Self-Improving: The Singularity Is Not Near Without Symbolic Model Synthesis",
-      "abstract": "On the one hand, the question of whether large language models (LLMs) are Solomonoff induction estimators has become an explicit question at the intersection of Algorithmic Information Theory (AIT) and Machine Learning (ML) of great interest. On the other hand, the now old idea of an AI Singularity that requires a reliable positive-feedback process in which a system can generate, evaluate and retain genuine improvements to itself continues to come up and is a recurrent concept in the discussion of AGI. We connect and provide some answers to these issues based on current assumptions and future developments of neurosymbolic ML. We will demonstrate that cross-entropy, negative log-likelihood and cognate next-token objectives do not or cannot, by themselves, implement Solomonoff induction: they optimise fit to a supplied conditional distribution rather than a program-weighted universal mixture. While more compute within a fixed objective can improve fit without changing the inductive principle, additional computational resources do not intrinsically without external hyper-parameter or architectural changes, behave as optimal predictors in the Solomonoff and Levin sense. While the data-processing inequality (DPI) and Levin non-growth remain valid, we will show that for finite learners and finite observers, theoretical boundaries have less relevancy and generate a drift between possible approaches. To this end, we interpret different resource-bounded estimators as finite tools for mechanism search that show divergence, not violation, of (algorithmic) information conservation laws. A neurosymbolic direction taken by current frontier-model developers points towards the adoption of model synthesis and no longer purely statistical approaches to LLMs but where Solomonoff estimators are possible.",
+      "title": "Large Language Models As Shannon Lossy Compressors Not Solomonoff Induction Estimators: The Singularity Is Not Near Without Symbolic Model Synthesis in Program Space",
+      "abstract": "On the one hand, the question of whether Large Language Models (LLMs) are Solomonoff induction estimators has become an explicit question at the intersection of Algorithmic Information Theory (AIT) and Machine Learning (ML) of great interest. On the other hand, the now old idea of an AI Singularity that requires a reliable positive-feedback process in which a system can generate, evaluate and retain genuine improvements to itself continues to come up and is a recurrent concept in the discussion of AGI. We connect and provide some answers to these issues based on current assumptions and future developments of neurosymbolic ML. We will demonstrate that cross-entropy, negative log-likelihood and cognate next-token objectives do not or cannot, by themselves, implement Solomonoff induction: they optimise fit to a supplied conditional distribution rather than a program-weighted universal mixture. While more compute within a fixed objective can improve fit without changing the inductive principle, additional computational resources do not intrinsically without external hyper-parameter or architectural changes, behave as optimal predictors in the Solomonoff and Levin sense. While the data-processing inequality (DPI) and Levin non-growth remain valid, we will show that for finite learners and finite observers, theoretical boundaries have less relevancy and generate a drift between possible approaches. To this end, we interpret different resource-bounded estimators as finite tools for mechanism search that show divergence, not violation, of (algorithmic) information conservation laws. A neurosymbolic direction taken by current frontier-model developers points towards the adoption of model synthesis and no longer purely statistical approaches to LLMs but where Solomonoff estimators are possible.",
       "authors": [
         "Hector Zenil"
       ],
@@ -159894,6 +159190,22 @@
             "King's College London",
             "Oxford University Innovation and London Institute for Healthcare Engineering"
           ]
+        },
+        {
+          "name": "Abicumaran Uthamacumaran",
+          "authorEntityId": "author:ffac9072f264bebc",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Abicumaran Uthamacumaran",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Luan Ozelim",
+          "authorEntityId": "author:65a49f08f663d1fd",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Luan Ozelim",
+          "rawAffiliations": []
         }
       ],
       "authorIds": [],
@@ -159963,6 +159275,14 @@
             "King's College London",
             "Oxford University Innovation and London Institute for Healthcare Engineering"
           ]
+        },
+        {
+          "name": "Abicumaran Uthamacumaran",
+          "affiliations": []
+        },
+        {
+          "name": "Luan Ozelim",
+          "affiliations": []
         }
       ]
     },
@@ -160442,7 +159762,7 @@
     {
       "id": "2601.00743",
       "title": "An Agentic Framework for Neuro-Symbolic Programming",
-      "abstract": "Integrating symbolic constraints into deep learning models could make them more robust, interpretable, and data-efficient. Still, it remains a time-consuming and challenging task. Existing frameworks like DomiKnowS help this integration by providing a high-level declarative programming interface, but they still assume the user is proficient with the library's specific syntax. We propose AgenticDomiKnowS (ADS) to eliminate this dependency. ADS translates free-form task descriptions into a complete DomiKnowS program using an agentic workflow that creates and tests each DomiKnowS component separately. The workflow supports optional human-in-the-loop intervention, enabling users familiar with DomiKnowS to refine intermediate outputs. We show how ADS enables experienced DomiKnowS users and non-users to rapidly construct neuro-symbolic programs, reducing development time from hours to 10-15 minutes.",
+      "abstract": "Integrating symbolic constraints into deep learning models could make them more robust, interpretable, and data-efficient. Still, it remains a time-consuming and challenging task. Existing frameworks like DomiKnowS help this integration by providing a high-level declarative programming interface, but they still assume the user is proficient with the library's specific syntax. We propose AgenticDomiKnowS (ADS) to eliminate this dependency. ADS translates free-form task descriptions into a complete DomiKnowS program using an agentic workflow that creates and tests each DomiKnowS component separately. The workflow supports optional human-in-the-loop intervention, enabling users familiar with DomiKnowS to refine intermediate outputs. We show how ADS enables experienced DomiKnowS users and non-users alike to construct complete neuro-symbolic programs in 10-15 minutes, whereas manually coding even a component of DomiKnowS takes an hour. Access the UI at https://hlr-demo.egr.msu.edu/.",
       "authors": [
         "Aliakbar Nafar",
         "Chetan Chigurupati",
@@ -165304,85 +164624,6 @@
           "name": "Sathyanarayanan N Aakur",
           "affiliations": [
             "Auburn University"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2512.03491",
-      "title": "Modal Logical Neural Networks",
-      "abstract": "We propose Modal Logical Neural Networks (MLNNs), a neurosymbolic framework that integrates deep learning with the formal semantics of modal logic, enabling reasoning about necessity and possibility. Drawing on Kripke semantics, we introduce specialized neurons for the modal operators $\\Box$ and $\\Diamond$ that operate over a set of possible worlds, enabling the framework to act as a differentiable ``logical guardrail.'' The architecture is highly flexible: the accessibility relation between worlds can either be fixed by the user to enforce known rules or, as an inductive feature, be parameterized by a neural network. This allows the model to optionally learn the relational structure of a logical system from data while simultaneously performing deductive reasoning within that structure. This versatile construction is designed for flexibility. The entire framework is differentiable from end to end, with learning driven by minimizing a logical contradiction loss. This not only makes the system resilient to inconsistent knowledge but also enables it to learn nonlinear relationships that can help define the logic of a problem space. We illustrate MLNNs on four case studies: grammatical guardrailing, multi-agent epistemic trust, detecting constructive deception in natural language negotiation, and combinatorial constraint satisfaction in Sudoku. These experiments demonstrate how enforcing or learning accessibility can increase logical consistency and interpretability without changing the underlying task architecture.",
-      "authors": [
-        "Antonin Sulc"
-      ],
-      "authorAffiliations": [
-        {
-          "name": "Antonin Sulc",
-          "authorEntityId": "author:a00f6de0c0588fab",
-          "affiliations": [
-            "Lawrence Berkeley National Lab"
-          ],
-          "affiliationEntityIds": [
-            "institution:f283b56fb757f3d4"
-          ],
-          "rawName": "Antonin Sulc",
-          "rawAffiliations": [
-            "Lawrence Berkeley National Lab"
-          ]
-        }
-      ],
-      "authorIds": [],
-      "affiliations": [
-        "Lawrence Berkeley National Lab"
-      ],
-      "keywords": [
-        "neurosymbolic"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.LO",
-        "cs.MA"
-      ],
-      "venue": "arXiv",
-      "conference": "",
-      "year": 2025,
-      "published": "2025-12-03",
-      "url": "https://arxiv.org/abs/2512.03491",
-      "pdfUrl": "https://arxiv.org/pdf/2512.03491",
-      "doi": "",
-      "doiUrl": "",
-      "arxivId": "2512.03491",
-      "primaryArea": "",
-      "paperType": "",
-      "tldr": "",
-      "award": "",
-      "sourceType": "arxiv",
-      "sourceIds": [
-        "arxiv-keywords"
-      ],
-      "resolutionStatus": "source-pdf",
-      "resolutionMethod": "",
-      "resolvedArxivUrl": "",
-      "metadataComplete": true,
-      "extractionStatus": "extracted",
-      "entityId": "paper:0477c060ec2c5e62",
-      "rawAffiliations": [
-        "Lawrence Berkeley National Lab"
-      ],
-      "affiliationEntityIds": [
-        "institution:f283b56fb757f3d4"
-      ],
-      "rawAuthors": [
-        "Antonin Sulc"
-      ],
-      "authorEntityIds": [
-        "author:a00f6de0c0588fab"
-      ],
-      "rawAuthorAffiliations": [
-        {
-          "name": "Antonin Sulc",
-          "affiliations": [
-            "Lawrence Berkeley National Lab"
           ]
         }
       ]
@@ -179191,8 +178432,8 @@
     },
     {
       "id": "2510.09011",
-      "title": "TripScore: Benchmarking and rewarding real-world travel planning with fine-grained evaluation",
-      "abstract": "Travel planning is a valuable yet complex task that poses significant challenges even for advanced large language models (LLMs). While recent benchmarks have advanced in evaluating LLMs' planning capabilities, they often fall short in evaluating feasibility, reliability, and engagement of travel plans. We introduce a comprehensive benchmark for travel planning that unifies fine-grained criteria into a single reward, enabling direct comparison of plan quality and seamless integration with reinforcement learning (RL). Our evaluator achieves moderate agreement with travel-expert annotations (60.75%) and outperforms multiple LLM-as-judge baselines. We further release a large-scale dataset of 4,870 queries including 219 real-world, free-form requests for generalization to authentic user intent. Using this benchmark, we conduct extensive experiments across diverse methods and LLMs, including test-time computation, neuro-symbolic approaches, supervised fine-tuning, and RL via GRPO. Across base models, RL generally improves itinerary feasibility over prompt-only and supervised baselines, yielding higher unified reward scores.",
+      "title": "TripScore: Aligning LLMs for Real-World Travel Planning via Expert-Calibrated Reward",
+      "abstract": "In our deployed travel-planning service, most users give minimal inputs or free-form requests rather than the structured constraint checklists assumed by existing benchmarks. We therefore present TripScore, a behavior-grounded benchmark and evaluation framework built from real user logs and calibrated against 1,468 pairwise judgments by 203 travel experts. TripScore couples a hierarchical feasibility gate (format and commonsense) with a unified, point-wise reward that aggregates soft quality and preference fulfillment. Using TripScore as both evaluator and reward signal, we benchmark direct prompting, test-time compute, neuro-symbolic solvers, code agents, and fine-tuning. We find that reinforcement learning fine-tuning (e.g., GRPO) provides consistent gains over other approaches under the same base model and practical latency.",
       "authors": [
         "Yincen Qu",
         "♠ Huan",
@@ -179316,6 +178557,14 @@
           "affiliationEntityIds": [],
           "rawName": "Feng Li",
           "rawAffiliations": []
+        },
+        {
+          "name": "Xuan Huang",
+          "authorEntityId": "author:9145967b89fb1420",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xuan Huang",
+          "rawAffiliations": []
         }
       ],
       "authorIds": [],
@@ -179425,6 +178674,10 @@
         },
         {
           "name": "Feng Li",
+          "affiliations": []
+        },
+        {
+          "name": "Xuan Huang",
           "affiliations": []
         }
       ]
@@ -358777,7 +358030,7 @@
     {
       "id": "2608.05169",
       "title": "ConWriter: Transition-Constrained Stateful Long-Form Story Generation with Lightweight Neuro-Symbolic Consistency Control",
-      "abstract": "Long-form story generation requires models to preserve narrative consistency across extended contexts, yet existing prompting-based methods often accumulate temporal, factual, character, commonsense, and stylistic errors as the story grows. We propose ConWriter, a training-free framework for consistency-aware long story generation. ConWriter writes stories incrementally at the scene level, guided by static story requirements, dynamic narrative memory, symbolic state reasoning, and uncertainty-aware risk signals. Rather than treating long-story generation as a single free-form decoding process, ConWriter maintains evolving story states, checks whether new scenes satisfy required narrative transitions, and uses uncertainty-aware risk signals to prioritize validation and localized repair. This enables consistency control during generation, before local errors propagate into later scenes. We evaluate ConWriter on ConStory-Bench, covering four long-story tasks: continuation, generation, expansion, and completion. Due to the high cost of long-form generation and evaluation, we use the first five cases from each task and test 3k, 6k, and 12k target lengths across Qwen3.5-Plus, DeepSeek-V4-Flash, and GPT-5 series. Experiments follow the official ConStory-Bench evaluation protocol.",
+      "abstract": "Long-form story generation requires models to preserve narrative consistency across extended contexts, yet existing prompting-based methods often accumulate temporal, factual, character, commonsense, and stylistic errors as the story grows. We propose ConWriter, a training-free framework for consistency-aware long-form story generation. ConWriter writes stories incrementally at the scene level, guided by static story requirements, dynamic narrative memory, symbolic state reasoning, and uncertainty-aware risk signals. Rather than treating long-story generation as a single free-form decoding process, ConWriter maintains evolving story states, checks whether new scenes satisfy required narrative transitions, and uses uncertainty-aware risk signals to prioritize validation and localized repair. This enables consistency control during generation, before local errors propagate into later scenes. We evaluate ConWriter on ConStory-Bench across four long-story tasks, three target lengths, and multiple base LLMs following the official evaluation protocol. Across models and story lengths, ConWriter consistently matches or improves upon direct generation and outperforms the recent training-free baseline DOME in narrative consistency. These results demonstrate the effectiveness of lightweight neuro-symbolic consistency control for training-free long-form story generation. Code is available on \\href{https://github.com/jindongli-Ai/ConWriter}{GitHub}.",
       "authors": [
         "Jindong Li",
         "Yang Yang",
@@ -367327,7 +366580,8 @@
       "categories": [
         "cs.LG",
         "cs.NE",
-        "cs.SC"
+        "cs.SC",
+        "cs.AI"
       ],
       "venue": "arXiv",
       "conference": "",
@@ -368889,6 +368143,7 @@
       "abstract": "Sparse optical flow provides stable inter-frame correspondence, playing a key role in Visual Odometry (VO) and Visual-Inertial Odometry (VIO). Classical optimization-based methods, such as Lucas-Kanade (LK), perform well under small displacements but are sensitive to large motions and illumination changes. Modern regression-based learning methods, while more robust in complex scenes, are often computationally heavy and lack explicit geometric consistency, making them less suitable for efficient VO/VIO front-ends. To bridge this gap, we propose a hybrid neuro-symbolic framework that combines the strengths of both paradigms. Our method uses a Convolutional Neural Network (CNN) to extract robust feature representations, which is fed into a differentiable LK optimizer to estimate optical flow in an end-to-end trainable manner. Through implicit differentiation, gradients are propagated across the iterative solver, enabling joint optimization of feature extraction and flow estimation. The resulting system integrates seamlessly into existing VO/VIO pipelines and runs in real-time on embedded platforms. Experiments show that our method outperforms conventional optimization-based flow in challenging conditions such as dynamic lighting and low texture, while also achieving higher accuracy and lower latency than purely regression-based alternatives. When deployed in a VIO system, our method demonstrates significant performance improvement, achieving an average error reduction of 42\\% on challenging datasets while enhancing tracking stability. The code is publicly available.",
       "authors": [
         "Yicheng Lin",
+        "Zhipeng Fei",
         "Yuxiu Xu",
         "WenDong Chen",
         "Cong Li",
@@ -368934,6 +368189,14 @@
           "affiliationEntityIds": [],
           "rawName": "Bin Han",
           "rawAffiliations": []
+        },
+        {
+          "name": "Zhipeng Fei",
+          "authorEntityId": "author:96033f4328566a98",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zhipeng Fei",
+          "rawAffiliations": []
         }
       ],
       "authorIds": [],
@@ -368971,6 +368234,7 @@
       "affiliationEntityIds": [],
       "rawAuthors": [
         "Yicheng Lin",
+        "Zhipeng Fei",
         "Yuxiu Xu",
         "WenDong Chen",
         "Cong Li",
@@ -368978,6 +368242,7 @@
       ],
       "authorEntityIds": [
         "author:b25624fac3c13b01",
+        "author:96033f4328566a98",
         "author:3b8d5fc99fd49055",
         "author:c9d099b30f39c0da",
         "author:b5304896f354c569",
@@ -369002,6 +368267,10 @@
         },
         {
           "name": "Bin Han",
+          "affiliations": []
+        },
+        {
+          "name": "Zhipeng Fei",
           "affiliations": []
         }
       ]
@@ -369847,144 +369116,6 @@
         },
         {
           "name": "Muhammad Zeshan Afzal",
-          "affiliations": []
-        }
-      ]
-    },
-    {
-      "id": "2609.16331",
-      "title": "ManiSkillFormer: Demonstration-Free Compositional Manipulation via Task-Conditioned Geometric Contracts",
-      "abstract": "We present ManiSkillFormer, a neuro-symbolic framework for demonstration-free and compositional robotic manipulation. Instead of learning end-to-end visuomotor policies, ManiSkillFormer introduces task-conditioned geometric contracts that explicitly structure the interface between perception and action. Each manipulation skill declares the semantic geometric primitives required for execution, such as object keypoints and surface normals. Building on human-defined skill structures, LLM agents generate these contracts and corresponding motion templates for different objects and task contexts. These contracts guide the perception module to ground task-relevant 3D primitives from observations, which are then used to instantiate reusable motion templates stored in a skill library. We evaluate ManiSkillFormer on Galaxea R1-Lite dual-arm robot across three settings: zero-shot pick-and-place over 8 object categories with 30 different instances, functional manipulation tasks including unscrewing, pouring, pressing, and folding, and 3 long-horizon tasks. ManiSkillFormer achieves higher average success rates than the evaluated baselines and two ablated pipelines: 88.24% for demonstration-free pick-and-place, 75.00% average success on functional manipulation and 50--80% completion rates across the long-horizon tasks. These results show that our design enables composable and reusable manipulation across objects and tasks without per-object policy fine-tuning or additional robot demonstrations.",
-      "authors": [
-        "Peiqi Yu",
-        "Mosam Dabhi",
-        "Shangtao Li",
-        "Bowei Li",
-        "Laszlo Jeni",
-        "Changliu Liu"
-      ],
-      "authorAffiliations": [
-        {
-          "name": "Peiqi Yu",
-          "authorEntityId": "author:e3b644d9d61e2084",
-          "affiliations": [],
-          "affiliationEntityIds": [],
-          "rawName": "Peiqi Yu",
-          "rawAffiliations": []
-        },
-        {
-          "name": "Mosam Dabhi",
-          "authorEntityId": "author:b9483790e8172077",
-          "affiliations": [],
-          "affiliationEntityIds": [],
-          "rawName": "Mosam Dabhi",
-          "rawAffiliations": []
-        },
-        {
-          "name": "Shangtao Li",
-          "authorEntityId": "author:b5ffa3469e8216a6",
-          "affiliations": [],
-          "affiliationEntityIds": [],
-          "rawName": "Shangtao Li",
-          "rawAffiliations": []
-        },
-        {
-          "name": "Bowei Li",
-          "authorEntityId": "author:106424638dc4012a",
-          "affiliations": [],
-          "affiliationEntityIds": [],
-          "rawName": "Bowei Li",
-          "rawAffiliations": []
-        },
-        {
-          "name": "Laszlo Jeni",
-          "authorEntityId": "author:257c933a75e83e64",
-          "affiliations": [],
-          "affiliationEntityIds": [],
-          "rawName": "Laszlo Jeni",
-          "rawAffiliations": []
-        },
-        {
-          "name": "Changliu Liu",
-          "authorEntityId": "author:d3e7355c93098842",
-          "affiliations": [],
-          "affiliationEntityIds": [],
-          "rawName": "Changliu Liu",
-          "rawAffiliations": []
-        }
-      ],
-      "authorIds": [],
-      "affiliations": [],
-      "keywords": [
-        "neuro-symbolic"
-      ],
-      "categories": [
-        "cs.RO"
-      ],
-      "venue": "arXiv",
-      "conference": "",
-      "year": 2026,
-      "published": "2026-09-14",
-      "url": "https://arxiv.org/abs/2609.16331",
-      "pdfUrl": "https://arxiv.org/pdf/2609.16331",
-      "doi": "",
-      "doiUrl": "",
-      "arxivId": "2609.16331",
-      "primaryArea": "",
-      "paperType": "",
-      "tldr": "",
-      "award": "",
-      "sourceType": "arxiv",
-      "sourceIds": [
-        "arxiv-keywords"
-      ],
-      "resolutionStatus": "source-pdf",
-      "resolutionMethod": "",
-      "resolvedArxivUrl": "",
-      "metadataComplete": false,
-      "extractionStatus": "not-extracted",
-      "entityId": "paper:765a28ec3600fa8f",
-      "rawAffiliations": [],
-      "affiliationEntityIds": [],
-      "rawAuthors": [
-        "Peiqi Yu",
-        "Mosam Dabhi",
-        "Shangtao Li",
-        "Bowei Li",
-        "Laszlo Jeni",
-        "Changliu Liu"
-      ],
-      "authorEntityIds": [
-        "author:e3b644d9d61e2084",
-        "author:b9483790e8172077",
-        "author:b5ffa3469e8216a6",
-        "author:106424638dc4012a",
-        "author:257c933a75e83e64",
-        "author:d3e7355c93098842"
-      ],
-      "rawAuthorAffiliations": [
-        {
-          "name": "Peiqi Yu",
-          "affiliations": []
-        },
-        {
-          "name": "Mosam Dabhi",
-          "affiliations": []
-        },
-        {
-          "name": "Shangtao Li",
-          "affiliations": []
-        },
-        {
-          "name": "Bowei Li",
-          "affiliations": []
-        },
-        {
-          "name": "Laszlo Jeni",
-          "affiliations": []
-        },
-        {
-          "name": "Changliu Liu",
           "affiliations": []
         }
       ]
@@ -371985,6 +371116,115 @@
         },
         {
           "name": "Tingting Zhang",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.20319",
+      "title": "QEncodeBench: Can Large Language Models Encode Classical Problems into Verified Quantum Oracles?",
+      "abstract": "Grover search, amplitude amplification, and quantum counting all rely on the same reusable subroutine, a phase oracle, whose construction the algorithms literature takes as given: the classical predicate is assumed to be already encoded as a correct, resource-bounded circuit. We turn this assumption into a measured capability. QEncodeBench tasks large language models (LLMs) with encoding classical constraint problems as phase oracles and scores the generated circuits with an adversarially self-validated verifier that decides full solution-set equivalence up to a global phase, with ancillas restored and resource budgets enforced. Sampled basis-state tests, we show, systematically overestimate this ability. Measured this way, models separate sharply: code models without a reasoning mode solve essentially nothing, and enabling native reasoning on identical weights improves accuracy by an order of magnitude. The failures are overwhelmingly semantic rather than syntactic. Two architectures, a unit-verified constraint agent and a neuro-symbolic compilation pipeline, close most of the remaining gap by delegating correctness-critical composition to deterministic procedures. Ablations quantify the contribution of each component, and resource gating exposes an architecture-dependent trade-off between circuit width and depth. Finally, controlled difficulty escalation reveals architecture-specific responses to difficulty structure: different difficulty axes degrade different methods, while the neuro-symbolic pipeline passes every evaluated instance. Code and data are available at https://github.com/chexujun/QEncodeBench.",
+      "authors": [
+        "Xujun Che",
+        "Hanhan Wu",
+        "Yuchen Yuan",
+        "Chenyang Yu"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Xujun Che",
+          "authorEntityId": "author:3336dace061122e3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xujun Che",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Hanhan Wu",
+          "authorEntityId": "author:4c3997bbb0b4b800",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Hanhan Wu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yuchen Yuan",
+          "authorEntityId": "author:3e90fbbe1f8bc8e3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yuchen Yuan",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Chenyang Yu",
+          "authorEntityId": "author:f81d6ede49cb1012",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Chenyang Yu",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "quant-ph",
+        "cs.LG"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-07-31",
+      "url": "https://arxiv.org/abs/2609.20319",
+      "pdfUrl": "https://arxiv.org/pdf/2609.20319",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.20319",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:3857dfa90fac3c41",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Xujun Che",
+        "Hanhan Wu",
+        "Yuchen Yuan",
+        "Chenyang Yu"
+      ],
+      "authorEntityIds": [
+        "author:3336dace061122e3",
+        "author:4c3997bbb0b4b800",
+        "author:3e90fbbe1f8bc8e3",
+        "author:f81d6ede49cb1012"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Xujun Che",
+          "affiliations": []
+        },
+        {
+          "name": "Hanhan Wu",
+          "affiliations": []
+        },
+        {
+          "name": "Yuchen Yuan",
+          "affiliations": []
+        },
+        {
+          "name": "Chenyang Yu",
           "affiliations": []
         }
       ]
