@@ -2212,5 +2212,23 @@
     "sourceUrl": "https://www.uniphore.com/blog/",
     "discovered": "2026-09-19",
     "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "Uniphore Named a Leader in the 2026 Gartner® Magic Quadrant™ for CDPs",
+    "date": "2026-01-29",
+    "url": "https://www.uniphore.com/blog/gartner-magic-quadrant-cdp-report/",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-09-21",
+    "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "How to Choose the Right Agentic AI Use Cases: A Strategic Playbook for CIOs",
+    "date": "2026-04-03",
+    "url": "https://www.uniphore.com/blog/how-to-choose-the-right-agentic-ai-use-cases-a-strategic-playbook-for-cios/",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-09-21",
+    "status": "needs-review"
   }
 ]
