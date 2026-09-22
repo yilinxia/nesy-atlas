@@ -2230,5 +2230,41 @@
     "sourceUrl": "https://www.uniphore.com/blog/",
     "discovered": "2026-09-21",
     "status": "needs-review"
+  },
+  {
+    "company": "expert.ai",
+    "title": "News 10 Aug 2026 Expert.ai Included in the 2026 Gartner&reg; Neurosymbolic AI, a Shortcut to Agentic Systems Governance Report Read",
+    "date": "2026-08-10",
+    "url": "https://www.expert.ai/news/expert-ai-included-in-the-2026-gartner-neurosymbolic-ai-a-shortcut-to-agentic-systems-governance-report/",
+    "sourceUrl": "https://www.expert.ai/news-resources/",
+    "discovered": "2026-09-22",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Finance 09.22.2026 PBC List: Why Audit Cost Is Decided by How Fast You Can Find Things Read",
+    "date": "2026-09-22",
+    "url": "https://www.kognitos.com/blog/pbc-list/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-09-22",
+    "status": "needs-review"
+  },
+  {
+    "company": "Rippletide",
+    "title": "Technical How to Combine Sandbox Safety with a Decision Layer That Gets the Job Done How sandboxed execution and a decision layer work together to help coding agents act safely, follow architecture rules, and ship the right change. Yann Bilien 2026-09-22",
+    "date": "2026-09-22",
+    "url": "https://www.rippletide.com/resources/blog/how-to-combine-sandbox-safety-with-a-decision-layer-that-gets-the-job-done",
+    "sourceUrl": "https://www.rippletide.com/resources/blog/",
+    "discovered": "2026-09-22",
+    "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "The Real Reason AI Doesn’t Scale",
+    "date": "2026-09-21",
+    "url": "https://www.uniphore.com/blog/the-real-reason-ai-doesnt-scale/",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-09-22",
+    "status": "needs-review"
   }
 ]
