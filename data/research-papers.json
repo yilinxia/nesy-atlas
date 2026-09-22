@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T17:40:37.449Z",
+  "generatedAt": "2026-09-22T16:06:29.691Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1806,
+  "paperCount": 1808,
   "completeMetadataCount": 1371,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1501
+      "count": 1503
     },
     {
       "id": "nesy-proceedings",
@@ -6753,6 +6753,15 @@
         ]
       },
       {
+        "id": "author:8048e0e98b1156d3",
+        "name": "Chenhui Pan",
+        "aliases": [
+          "Chenhui Pan"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
+      },
+      {
         "id": "author:ab437249b1225892",
         "name": "Chiara Bonfanti",
         "aliases": [
@@ -11549,6 +11558,15 @@
         ]
       },
       {
+        "id": "author:428f0f184ab1ab78",
+        "name": "Tong Xu",
+        "aliases": [
+          "Tong Xu"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
+      },
+      {
         "id": "author:f22d9570a5247bc7",
         "name": "Tremel",
         "aliases": [
@@ -12177,6 +12195,15 @@
         "name": "Xiyuan Chen",
         "aliases": [
           "Xiyuan Chen"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
+      },
+      {
+        "id": "author:8a551d8d11480a1b",
+        "name": "Xuesu Xiao",
+        "aliases": [
+          "Xuesu Xiao"
         ],
         "paperCount": 2,
         "institutionIds": []
@@ -18367,6 +18394,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:935cdf56b28eaf05",
+        "name": "Benedikt Kantz",
+        "aliases": [
+          "Benedikt Kantz"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:03444ea47085a756",
         "name": "Benjamin A Christie",
         "aliases": [
@@ -20583,15 +20619,6 @@
         "name": "Chenhao Ge",
         "aliases": [
           "Chenhao Ge"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
-        "id": "author:8048e0e98b1156d3",
-        "name": "Chenhui Pan",
-        "aliases": [
-          "Chenhui Pan"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -27058,6 +27085,15 @@
           "institution:1ba4ddc6758a80c0",
           "institution:70ccb485197bbb6c"
         ]
+      },
+      {
+        "id": "author:bccec75643c17b4c",
+        "name": "Gianmaria Silvello",
+        "aliases": [
+          "Gianmaria Silvello"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:ff86ff3ac0399460",
@@ -56418,6 +56454,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:b5700dd063349bd6",
+        "name": "Tobias Schreck",
+        "aliases": [
+          "Tobias Schreck"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:63fba9cf604c3b50",
         "name": "Tobias Sukianto",
         "aliases": [
@@ -56588,15 +56633,6 @@
         "name": "Tong Xialiang",
         "aliases": [
           "Tong Xialiang"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
-        "id": "author:428f0f184ab1ab78",
-        "name": "Tong Xu",
-        "aliases": [
-          "Tong Xu"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -60614,15 +60650,6 @@
           "institution:34a45809bb46aad9",
           "institution:ddb0b5fad12c5f5e"
         ]
-      },
-      {
-        "id": "author:8a551d8d11480a1b",
-        "name": "Xuesu Xiao",
-        "aliases": [
-          "Xuesu Xiao"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
       },
       {
         "id": "author:1b93481ab685387d",
@@ -371488,6 +371515,192 @@
         },
         {
           "name": "Di Wang",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.24236",
+      "title": "Efficient Dense Vector Search within Knowledge Graph Content Embeddings",
+      "abstract": "Knowledge graphs are a core component of today's knowledge infrastructure, supporting reasoning and anchoring knowledge systems to verifiable facts. RDF stores and SPARQL engines fulfill this function, enabling a range of retrieval and inference tasks on structured knowledge. Coupling them with Language Models (LMs) extends RAG toward neurosymbolic reasoning, where structured queries gate or re-rank generative outputs. This line of reasoning requires that SPARQL evaluation natively support tensor operations on dense embeddings, enabling multimodal querying and learned similarity-based ranking to be expressed together with graph-structural constraints. This approach is feasible only if the engine can efficiently perform dense vector search. We present QLever-Unified Indexed Vector Embedding Retrieval (QUIVER), an extension to QLever that adds native support for dense vector retrieval within RDF knowledge graphs. It implements three optimizations: engine-level registration of tensor functions, vocabulary-time parsing of JSON-encoded vectors, and a virtual SERVICE that exposes a vector index inside the query. We propose two new benchmarks: an extension of Berlin Sparql Benchmark (BSBM) with text embeddings and an extension of DBpedia with image embeddings. Against the baselines, vocabulary-time parsing alone yields median speedups of up to 41.9x on BSBM and 20x on DBpedia for single-type ranking; adding an approximate nearest-neighbor index yields speedups of 355x on BSBM and 97.8x on DBpedia. The index further makes cross-modal vector joins on DBpedia feasible in seconds, whereas all non-indexed configurations time out.",
+      "authors": [
+        "Benedikt Kantz",
+        "Tobias Schreck",
+        "Gianmaria Silvello"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Benedikt Kantz",
+          "authorEntityId": "author:935cdf56b28eaf05",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Benedikt Kantz",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Tobias Schreck",
+          "authorEntityId": "author:b5700dd063349bd6",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Tobias Schreck",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Gianmaria Silvello",
+          "authorEntityId": "author:bccec75643c17b4c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Gianmaria Silvello",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.DB"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-21",
+      "url": "https://arxiv.org/abs/2609.24236",
+      "pdfUrl": "https://arxiv.org/pdf/2609.24236",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.24236",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:dfd71b1c1ea64ba0",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Benedikt Kantz",
+        "Tobias Schreck",
+        "Gianmaria Silvello"
+      ],
+      "authorEntityIds": [
+        "author:935cdf56b28eaf05",
+        "author:b5700dd063349bd6",
+        "author:bccec75643c17b4c"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Benedikt Kantz",
+          "affiliations": []
+        },
+        {
+          "name": "Tobias Schreck",
+          "affiliations": []
+        },
+        {
+          "name": "Gianmaria Silvello",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.23118",
+      "title": "Verti-WM: A Physics-Aided Exteroceptive World Model for Off-Road Reinforcement Learning",
+      "abstract": "Reinforcement learning for off-road navigation requires extensive vehicle-terrain interaction data, which are costly to collect in high-fidelity simulation. World models offer a promising alternative by replacing simulator roll-outs during policy optimization. However, an off-road world model must condition state transitions on exteroceptive terrain information, which proprioception alone does not provide. This challenge is further amplified by the need to model both rigid and deformable terrain, where data-driven and physics-based approaches offer complementary strengths. We propose Verti-WM, a physics-aided exteroceptive world model that recurrently fuses a frozen Transformer for rigid terrain and a neuro-symbolic terramechanics model for deformable terrain. Elevation and semantic observations queried from a supplied map at each predicted pose condition fusion, enabling six-degree-of-freedom rollouts for policy optimization without further simulator access. Verti-WM reduces prediction error by 34.6% and 21.7% over data-driven and physics-based baselines, respectively. Policies trained entirely within Verti-WM achieve comparable task success rates while reducing computation time by 23.6X relative to direct training in the high-fidelity simulator. We further validate Verti-WM using real-world data, enabling policy optimization within learned real-world kinodynamics and achieving a 80% success rate on the Verti-4-Wheeler platform, compared with 40% for direct sim-to-real transfer.",
+      "authors": [
+        "Chenhui Pan",
+        "Tong Xu",
+        "Xuesu Xiao"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Chenhui Pan",
+          "authorEntityId": "author:8048e0e98b1156d3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Chenhui Pan",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Tong Xu",
+          "authorEntityId": "author:428f0f184ab1ab78",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Tong Xu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xuesu Xiao",
+          "authorEntityId": "author:8a551d8d11480a1b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xuesu Xiao",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-19",
+      "url": "https://arxiv.org/abs/2609.23118",
+      "pdfUrl": "https://arxiv.org/pdf/2609.23118",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.23118",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:70468d878e45fadd",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Chenhui Pan",
+        "Tong Xu",
+        "Xuesu Xiao"
+      ],
+      "authorEntityIds": [
+        "author:8048e0e98b1156d3",
+        "author:428f0f184ab1ab78",
+        "author:8a551d8d11480a1b"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Chenhui Pan",
+          "affiliations": []
+        },
+        {
+          "name": "Tong Xu",
+          "affiliations": []
+        },
+        {
+          "name": "Xuesu Xiao",
           "affiliations": []
         }
       ]

@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-09-21T17:40:36.906Z",
-  "cursorAt": "2026-09-21T17:40:36.906Z",
+  "generatedAt": "2026-09-22T16:06:28.903Z",
+  "cursorAt": "2026-09-22T16:06:28.903Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-09-20T15:17:02.321Z",
   "keywords": [
@@ -15,11 +15,89 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-09-20T15:17:02.321Z",
-  "windowStart": "2026-09-13T15:17:02.321Z",
+  "previousSnapshotAt": "2026-09-21T17:40:36.906Z",
+  "windowStart": "2026-09-14T17:40:36.906Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2609.24236",
+    "title": "Efficient Dense Vector Search within Knowledge Graph Content Embeddings",
+    "abstract": "Knowledge graphs are a core component of today's knowledge infrastructure, supporting reasoning and anchoring knowledge systems to verifiable facts. RDF stores and SPARQL engines fulfill this function, enabling a range of retrieval and inference tasks on structured knowledge. Coupling them with Language Models (LMs) extends RAG toward neurosymbolic reasoning, where structured queries gate or re-rank generative outputs. This line of reasoning requires that SPARQL evaluation natively support tensor operations on dense embeddings, enabling multimodal querying and learned similarity-based ranking to be expressed together with graph-structural constraints. This approach is feasible only if the engine can efficiently perform dense vector search. We present QLever-Unified Indexed Vector Embedding Retrieval (QUIVER), an extension to QLever that adds native support for dense vector retrieval within RDF knowledge graphs. It implements three optimizations: engine-level registration of tensor functions, vocabulary-time parsing of JSON-encoded vectors, and a virtual SERVICE that exposes a vector index inside the query. We propose two new benchmarks: an extension of Berlin Sparql Benchmark (BSBM) with text embeddings and an extension of DBpedia with image embeddings. Against the baselines, vocabulary-time parsing alone yields median speedups of up to 41.9x on BSBM and 20x on DBpedia for single-type ranking; adding an approximate nearest-neighbor index yields speedups of 355x on BSBM and 97.8x on DBpedia. The index further makes cross-modal vector joins on DBpedia feasible in seconds, whereas all non-indexed configurations time out.",
+    "authors": [
+      "Benedikt Kantz",
+      "Tobias Schreck",
+      "Gianmaria Silvello"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Benedikt Kantz",
+        "affiliations": []
+      },
+      {
+        "name": "Tobias Schreck",
+        "affiliations": []
+      },
+      {
+        "name": "Gianmaria Silvello",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-21",
+    "updated": "2026-09-21",
+    "categories": [
+      "cs.DB"
+    ],
+    "primaryCategory": "cs.DB",
+    "url": "https://arxiv.org/abs/2609.24236",
+    "pdfUrl": "https://arxiv.org/pdf/2609.24236",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.23118",
+    "title": "Verti-WM: A Physics-Aided Exteroceptive World Model for Off-Road Reinforcement Learning",
+    "abstract": "Reinforcement learning for off-road navigation requires extensive vehicle-terrain interaction data, which are costly to collect in high-fidelity simulation. World models offer a promising alternative by replacing simulator roll-outs during policy optimization. However, an off-road world model must condition state transitions on exteroceptive terrain information, which proprioception alone does not provide. This challenge is further amplified by the need to model both rigid and deformable terrain, where data-driven and physics-based approaches offer complementary strengths. We propose Verti-WM, a physics-aided exteroceptive world model that recurrently fuses a frozen Transformer for rigid terrain and a neuro-symbolic terramechanics model for deformable terrain. Elevation and semantic observations queried from a supplied map at each predicted pose condition fusion, enabling six-degree-of-freedom rollouts for policy optimization without further simulator access. Verti-WM reduces prediction error by 34.6% and 21.7% over data-driven and physics-based baselines, respectively. Policies trained entirely within Verti-WM achieve comparable task success rates while reducing computation time by 23.6X relative to direct training in the high-fidelity simulator. We further validate Verti-WM using real-world data, enabling policy optimization within learned real-world kinodynamics and achieving a 80% success rate on the Verti-4-Wheeler platform, compared with 40% for direct sim-to-real transfer.",
+    "authors": [
+      "Chenhui Pan",
+      "Tong Xu",
+      "Xuesu Xiao"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Chenhui Pan",
+        "affiliations": []
+      },
+      {
+        "name": "Tong Xu",
+        "affiliations": []
+      },
+      {
+        "name": "Xuesu Xiao",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-19",
+    "updated": "2026-09-19",
+    "categories": [
+      "cs.RO"
+    ],
+    "primaryCategory": "cs.RO",
+    "url": "https://arxiv.org/abs/2609.23118",
+    "pdfUrl": "https://arxiv.org/pdf/2609.23118",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2609.21673",
     "title": "PRISM-BN: A Controlled Corpus and Benchmark for Text-to-Parameterized Bayesian Network Extraction",
