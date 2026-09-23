@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-09-22T16:06:28.903Z",
-  "cursorAt": "2026-09-22T16:06:28.903Z",
+  "generatedAt": "2026-09-23T15:57:08.477Z",
+  "cursorAt": "2026-09-23T15:57:08.477Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-09-20T15:17:02.321Z",
   "keywords": [
@@ -15,11 +15,57 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-09-21T17:40:36.906Z",
-  "windowStart": "2026-09-14T17:40:36.906Z",
+  "previousSnapshotAt": "2026-09-22T16:06:28.903Z",
+  "windowStart": "2026-09-15T16:06:28.903Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2609.25766",
+    "title": "Neurosymbolic Action Model Learning under Partial Observability",
+    "abstract": "AI planning studies how an agent can reach a goal by executing a sequence of actions. To plan correctly, the agent needs an action model describing when each action can be executed and how it changes the world. Constructing such models by hand requires domain expertise, and can be costly and error-prone. Action models can instead be learned from available data using existing neurosymbolic approaches, but they currently assume access to complete traces of fully observable images . These approaches fail to learn action models under partial observability where some of the images might not be present or are not fully informative of the current state of the world. Hence, this paper proposes NeSyAM, a novel neurosymbolic modeling paradigm for action model learning under partial observability. In addition, the paper presents a unified variational framework for theoretically analysing the limitations of existing methods compared to our proposed approach. NeSyAM is then tested extensively on six visual planning domains and three observation regimes to show it consistently recovers relevant parts of the true action model under partial observability.",
+    "authors": [
+      "Adem Kikaj",
+      "Lennert De Smet",
+      "Giuseppe Marra",
+      "Luc De Raedt"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Adem Kikaj",
+        "affiliations": []
+      },
+      {
+        "name": "Lennert De Smet",
+        "affiliations": []
+      },
+      {
+        "name": "Giuseppe Marra",
+        "affiliations": []
+      },
+      {
+        "name": "Luc De Raedt",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-22",
+    "updated": "2026-09-22",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2609.25766",
+    "pdfUrl": "https://arxiv.org/pdf/2609.25766",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
   {
     "id": "2609.24236",
     "title": "Efficient Dense Vector Search within Knowledge Graph Content Embeddings",

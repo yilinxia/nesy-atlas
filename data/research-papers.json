@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T16:06:29.691Z",
+  "generatedAt": "2026-09-23T15:57:09.176Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1808,
+  "paperCount": 1809,
   "completeMetadataCount": 1371,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1503
+      "count": 1504
     },
     {
       "id": "nesy-proceedings",
@@ -324,7 +324,7 @@
         "aliases": [
           "Giuseppe Marra"
         ],
-        "paperCount": 20,
+        "paperCount": 21,
         "institutionIds": [
           "institution:01ff763ef3518b63",
           "institution:209034bdbec1f11d",
@@ -345,7 +345,7 @@
         "aliases": [
           "Luc De Raedt"
         ],
-        "paperCount": 19,
+        "paperCount": 20,
         "institutionIds": [
           "institution:01ff763ef3518b63",
           "institution:04dbd7b6cbec9625",
@@ -768,6 +768,18 @@
         ]
       },
       {
+        "id": "author:0cc87281463af4e4",
+        "name": "Lennert De Smet",
+        "aliases": [
+          "Lennert De Smet"
+        ],
+        "paperCount": 8,
+        "institutionIds": [
+          "institution:01ff763ef3518b63",
+          "institution:cf1c67afebae5548"
+        ]
+      },
+      {
         "id": "author:32997c1487efe4d1",
         "name": "Luca Bortolussi",
         "aliases": [
@@ -988,18 +1000,6 @@
         "institutionIds": [
           "institution:556024ebbe9f0f08",
           "institution:e320ed6db43c3d7d"
-        ]
-      },
-      {
-        "id": "author:0cc87281463af4e4",
-        "name": "Lennert De Smet",
-        "aliases": [
-          "Lennert De Smet"
-        ],
-        "paperCount": 7,
-        "institutionIds": [
-          "institution:01ff763ef3518b63",
-          "institution:cf1c67afebae5548"
         ]
       },
       {
@@ -5729,6 +5729,18 @@
         "institutionIds": [
           "institution:7e844d6c7ab83760",
           "institution:9b1dca853f0d341b"
+        ]
+      },
+      {
+        "id": "author:cd15fc10d9c655d4",
+        "name": "Adem Kikaj",
+        "aliases": [
+          "Adem Kikaj"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:cd57e36d402863ba",
+          "institution:cf1c67afebae5548"
         ]
       },
       {
@@ -13938,18 +13950,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:cd15fc10d9c655d4",
-        "name": "Adem Kikaj",
-        "aliases": [
-          "Adem Kikaj"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:cd57e36d402863ba",
-          "institution:cf1c67afebae5548"
-        ]
       },
       {
         "id": "author:6047158f2c59d29c",
@@ -371701,6 +371701,114 @@
         },
         {
           "name": "Xuesu Xiao",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.25766",
+      "title": "Neurosymbolic Action Model Learning under Partial Observability",
+      "abstract": "AI planning studies how an agent can reach a goal by executing a sequence of actions. To plan correctly, the agent needs an action model describing when each action can be executed and how it changes the world. Constructing such models by hand requires domain expertise, and can be costly and error-prone. Action models can instead be learned from available data using existing neurosymbolic approaches, but they currently assume access to complete traces of fully observable images . These approaches fail to learn action models under partial observability where some of the images might not be present or are not fully informative of the current state of the world. Hence, this paper proposes NeSyAM, a novel neurosymbolic modeling paradigm for action model learning under partial observability. In addition, the paper presents a unified variational framework for theoretically analysing the limitations of existing methods compared to our proposed approach. NeSyAM is then tested extensively on six visual planning domains and three observation regimes to show it consistently recovers relevant parts of the true action model under partial observability.",
+      "authors": [
+        "Adem Kikaj",
+        "Lennert De Smet",
+        "Giuseppe Marra",
+        "Luc De Raedt"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Adem Kikaj",
+          "authorEntityId": "author:cd15fc10d9c655d4",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Adem Kikaj",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Lennert De Smet",
+          "authorEntityId": "author:0cc87281463af4e4",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Lennert De Smet",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Giuseppe Marra",
+          "authorEntityId": "author:b8361c8e17f83d53",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Giuseppe Marra",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Luc De Raedt",
+          "authorEntityId": "author:e2c4c99259e7c585",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Luc De Raedt",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-22",
+      "url": "https://arxiv.org/abs/2609.25766",
+      "pdfUrl": "https://arxiv.org/pdf/2609.25766",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.25766",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:cf8ff8315e2be7ab",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Adem Kikaj",
+        "Lennert De Smet",
+        "Giuseppe Marra",
+        "Luc De Raedt"
+      ],
+      "authorEntityIds": [
+        "author:cd15fc10d9c655d4",
+        "author:0cc87281463af4e4",
+        "author:b8361c8e17f83d53",
+        "author:e2c4c99259e7c585"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Adem Kikaj",
+          "affiliations": []
+        },
+        {
+          "name": "Lennert De Smet",
+          "affiliations": []
+        },
+        {
+          "name": "Giuseppe Marra",
+          "affiliations": []
+        },
+        {
+          "name": "Luc De Raedt",
           "affiliations": []
         }
       ]
