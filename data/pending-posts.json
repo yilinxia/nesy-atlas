@@ -2266,5 +2266,41 @@
     "sourceUrl": "https://www.uniphore.com/blog/",
     "discovered": "2026-09-22",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Supply Chain 09.22.2026 Production Planning: Why the Plan Decays Between MRP Runs Read",
+    "date": "2026-09-22",
+    "url": "https://www.kognitos.com/blog/production-planning/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-09-23",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "AI Governance 09.18.2026 Certificate of Analysis: Why the Document Proves Less Than You Think Read",
+    "date": "2026-09-18",
+    "url": "https://www.kognitos.com/blog/certificate-of-analysis/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-09-23",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "AI Governance 09.18.2026 21 CFR Part 11: What It Requires, and Why It Decides Which AI You Can Use Read",
+    "date": "2026-09-18",
+    "url": "https://www.kognitos.com/blog/21-cfr-part-11/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-09-23",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Partnership Kognitos Partners with TypeSafe AI on AI Decision Intelligence Kognitos and TypeSafe AI let business teams bring specialized AI judgment into governed workflows, with decisions, confidence thresholds and human review controlled in English. Sep 22, 2026 Read &rarr;",
+    "date": "2026-09-22",
+    "url": "https://www.kognitos.com/news/kognitos-typesafe-ai-partnership/",
+    "sourceUrl": "https://www.kognitos.com/news/",
+    "discovered": "2026-09-23",
+    "status": "needs-review"
   }
 ]
