@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T15:57:09.176Z",
+  "generatedAt": "2026-09-24T16:19:35.337Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1809,
+  "paperCount": 1811,
   "completeMetadataCount": 1371,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1504
+      "count": 1506
     },
     {
       "id": "nesy-proceedings",
@@ -10918,6 +10918,18 @@
         "institutionIds": []
       },
       {
+        "id": "author:bd2f3cf64daf9044",
+        "name": "Sidahmed Benabderrahmane",
+        "aliases": [
+          "Sidahmed Benabderrahmane"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:366d19fb30bd6edd",
+          "institution:c83aeae887827902"
+        ]
+      },
+      {
         "id": "author:629de323ef030361",
         "name": "Siegfried Nijssen",
         "aliases": [
@@ -15527,6 +15539,15 @@
         "name": "Amd Sanjit",
         "aliases": [
           "Amd Sanjit"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:fb582ca38ff4f75e",
+        "name": "Ameer Rahwan",
+        "aliases": [
+          "Ameer Rahwan"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -36864,6 +36885,15 @@
         ]
       },
       {
+        "id": "author:07cbf2f46c740713",
+        "name": "Kirill Sabitov",
+        "aliases": [
+          "Kirill Sabitov"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:50568a453fd1fae6",
         "name": "Kislay Raj",
         "aliases": [
@@ -37878,6 +37908,15 @@
           "institution:169e11f4a4203871",
           "institution:4bbc1b7d44637ee2"
         ]
+      },
+      {
+        "id": "author:78e1f885f361f0f3",
+        "name": "Levi Dubrovin",
+        "aliases": [
+          "Levi Dubrovin"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:959405f0d8814be3",
@@ -44402,6 +44441,15 @@
         ]
       },
       {
+        "id": "author:eb90c63239b01ed8",
+        "name": "Naser Mansour",
+        "aliases": [
+          "Naser Mansour"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:4720ee0b06c1c9d3",
         "name": "Nasim Borazjanizadeh",
         "aliases": [
@@ -45107,6 +45155,15 @@
         "institutionIds": [
           "institution:9fbf261b62c1d7c0"
         ]
+      },
+      {
+        "id": "author:7e1434e478ef0612",
+        "name": "Nikita Pospelov",
+        "aliases": [
+          "Nikita Pospelov"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:50345ad5cc280d60",
@@ -53187,18 +53244,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:bd2f3cf64daf9044",
-        "name": "Sidahmed Benabderrahmane",
-        "aliases": [
-          "Sidahmed Benabderrahmane"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:366d19fb30bd6edd",
-          "institution:c83aeae887827902"
-        ]
       },
       {
         "id": "author:0c201e7e3167ef64",
@@ -371809,6 +371854,193 @@
         },
         {
           "name": "Luc De Raedt",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.27203",
+      "title": "XLOG: A CUDA-Native Engine for Neurosymbolic Integration",
+      "abstract": "xlog is a CUDA-native logic programming engine integrating neural perception with deterministic Datalog, probabilistic inference, and epistemic world views through a typed frontend and provider-owned CUDA runtime. Its reasoning modes share device data planes, but their execution boundaries differ: ordinary Datalog and exact inference are host-orchestrated, while certified resident recursive and Monte Carlo sampled cores record zero tracked host-device transfers before a bounded terminal receipt. The probabilistic path supports end-to-end gradients through GPU knowledge compilation from provenance to CNF to Decision-DNNF, exact weighted model counting, and backward gradients. A final smoothed circuit is certified against its source formula before caching or evaluation. Circuit caching yields a 2.74x MNIST-addition training speedup; a worst-case-optimal join subsystem yields a 27.96x geometric-mean gain over xlog's binary-join baseline. MNIST-addition accuracy matches Scallop's (0.9561 versus 0.9468), but no per-epoch speed claim is made because baseline epoch time varies with CPU quota. In five hub-skewed triangle-counting cases, the Souffle-to-fused-xlog execution-time ratio rises from 0.88x at 150k edges, where Souffle is faster, to 5.54x at 1.2M; fused peak device allocations are 85-1,033 MB versus 3,287-44,979 MB for the materializing arm. Exact inference is correctness-equivalent to but slower than ProbLog2. On a public video benchmark, a proximity predicate trained only through symbolic credit replaces hand-set geometry at unchanged held-out accuracy; within Event-Calculus rule search it fails ten-fold cross-validation and does not transfer on a leak-free split. On a maritime corpus, weighted clauses beat crisp selection by 0.065 F1, with the result reproduced by one chronological training pass.",
+      "authors": [
+        "Levi Dubrovin",
+        "Nikita Pospelov",
+        "Kirill Sabitov"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Levi Dubrovin",
+          "authorEntityId": "author:78e1f885f361f0f3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Levi Dubrovin",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Nikita Pospelov",
+          "authorEntityId": "author:7e1434e478ef0612",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Nikita Pospelov",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Kirill Sabitov",
+          "authorEntityId": "author:07cbf2f46c740713",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Kirill Sabitov",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-23",
+      "url": "https://arxiv.org/abs/2609.27203",
+      "pdfUrl": "https://arxiv.org/pdf/2609.27203",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.27203",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:7c0f057931f8d332",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Levi Dubrovin",
+        "Nikita Pospelov",
+        "Kirill Sabitov"
+      ],
+      "authorEntityIds": [
+        "author:78e1f885f361f0f3",
+        "author:7e1434e478ef0612",
+        "author:07cbf2f46c740713"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Levi Dubrovin",
+          "affiliations": []
+        },
+        {
+          "name": "Nikita Pospelov",
+          "affiliations": []
+        },
+        {
+          "name": "Kirill Sabitov",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.26820",
+      "title": "Signal2Symbol: Neuro-Symbolic Temporal Reasoning for Explainable Physiological Time-Series Anomaly Detection",
+      "abstract": "Physiological time series such as electrocardiograms (ECG) and electroencephalograms (EEG) exhibit complex temporal structure, substantial acquisition variability, and a strong need for transparent decision-making. Although deep models can achieve high detection performance, they often provide limited insight into why a segment is anomalous, how local anomalies relate over time, and whether a detection belongs to a broader recurring pattern. We propose Signal2Symbol, a neuro-symbolic framework for explainable biosignal anomaly detection. The method first converts ECG/EEG signals into symbolic sequences using either a learned VQ-VAE (Vector Quantized Variational Autoencoder) codebook or a SAX (Symbolic Aggregate approXimation) baseline. It then constructs bigram enriched token-window transactions and scores anomalies through rare itemset evidence derived from minimal rare itemset mining. Detected anomalous windows are merged into intervals and related using Allen interval algebra, enabling composite temporal explanations such as escalation chains, artifact overlap, and cross-channel synchrony. Finally, we introduce a rare temporal concept lattice based on Formal Concept Analysis (FCA), which groups anomalous intervals by shared rare symbolic evidence, Allen temporal relations, channel context, and robustness attributes. The resulting Galois lattice compresses many local detections into interpretable families of temporal-symbolic anomalies. We evaluate on three public benchmarks: MIT-BIH Arrhythmia (beat-level ECG), PTB-XL (record-level ECG), and the Bonn EEG dataset (segment-level EEG). We stress-test robustness under additive noise and baseline-wander perturbations. The results highlight the value of neuro-symbolic tokenization for temporal anomaly analysis and show that Allen/FCA reasoning provides compact, interpretable summaries of local detections.",
+      "authors": [
+        "Naser Mansour",
+        "Sidahmed Benabderrahmane",
+        "Ameer Rahwan"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Naser Mansour",
+          "authorEntityId": "author:eb90c63239b01ed8",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Naser Mansour",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Sidahmed Benabderrahmane",
+          "authorEntityId": "author:bd2f3cf64daf9044",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Sidahmed Benabderrahmane",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ameer Rahwan",
+          "authorEntityId": "author:fb582ca38ff4f75e",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ameer Rahwan",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-20",
+      "url": "https://arxiv.org/abs/2609.26820",
+      "pdfUrl": "https://arxiv.org/pdf/2609.26820",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.26820",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:45cedf8c99cab977",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Naser Mansour",
+        "Sidahmed Benabderrahmane",
+        "Ameer Rahwan"
+      ],
+      "authorEntityIds": [
+        "author:eb90c63239b01ed8",
+        "author:bd2f3cf64daf9044",
+        "author:fb582ca38ff4f75e"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Naser Mansour",
+          "affiliations": []
+        },
+        {
+          "name": "Sidahmed Benabderrahmane",
+          "affiliations": []
+        },
+        {
+          "name": "Ameer Rahwan",
           "affiliations": []
         }
       ]

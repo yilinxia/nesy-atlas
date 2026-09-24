@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-09-23T15:57:08.477Z",
-  "cursorAt": "2026-09-23T15:57:08.477Z",
+  "generatedAt": "2026-09-24T16:19:34.657Z",
+  "cursorAt": "2026-09-24T16:19:34.657Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-09-20T15:17:02.321Z",
   "keywords": [
@@ -15,11 +15,50 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-09-22T16:06:28.903Z",
-  "windowStart": "2026-09-15T16:06:28.903Z",
+  "previousSnapshotAt": "2026-09-23T15:57:08.477Z",
+  "windowStart": "2026-09-16T15:57:08.477Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2609.27203",
+    "title": "XLOG: A CUDA-Native Engine for Neurosymbolic Integration",
+    "abstract": "xlog is a CUDA-native logic programming engine integrating neural perception with deterministic Datalog, probabilistic inference, and epistemic world views through a typed frontend and provider-owned CUDA runtime. Its reasoning modes share device data planes, but their execution boundaries differ: ordinary Datalog and exact inference are host-orchestrated, while certified resident recursive and Monte Carlo sampled cores record zero tracked host-device transfers before a bounded terminal receipt. The probabilistic path supports end-to-end gradients through GPU knowledge compilation from provenance to CNF to Decision-DNNF, exact weighted model counting, and backward gradients. A final smoothed circuit is certified against its source formula before caching or evaluation. Circuit caching yields a 2.74x MNIST-addition training speedup; a worst-case-optimal join subsystem yields a 27.96x geometric-mean gain over xlog's binary-join baseline. MNIST-addition accuracy matches Scallop's (0.9561 versus 0.9468), but no per-epoch speed claim is made because baseline epoch time varies with CPU quota. In five hub-skewed triangle-counting cases, the Souffle-to-fused-xlog execution-time ratio rises from 0.88x at 150k edges, where Souffle is faster, to 5.54x at 1.2M; fused peak device allocations are 85-1,033 MB versus 3,287-44,979 MB for the materializing arm. Exact inference is correctness-equivalent to but slower than ProbLog2. On a public video benchmark, a proximity predicate trained only through symbolic credit replaces hand-set geometry at unchanged held-out accuracy; within Event-Calculus rule search it fails ten-fold cross-validation and does not transfer on a leak-free split. On a maritime corpus, weighted clauses beat crisp selection by 0.065 F1, with the result reproduced by one chronological training pass.",
+    "authors": [
+      "Levi Dubrovin",
+      "Nikita Pospelov",
+      "Kirill Sabitov"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Levi Dubrovin",
+        "affiliations": []
+      },
+      {
+        "name": "Nikita Pospelov",
+        "affiliations": []
+      },
+      {
+        "name": "Kirill Sabitov",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-23",
+    "updated": "2026-09-23",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2609.27203",
+    "pdfUrl": "https://arxiv.org/pdf/2609.27203",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": []
+    }
+  },
   {
     "id": "2609.25766",
     "title": "Neurosymbolic Action Model Learning under Partial Observability",
@@ -102,6 +141,48 @@ globalThis.ARXIV_PAPERS = [
       "title": [],
       "abstract": [
         "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.26820",
+    "title": "Signal2Symbol: Neuro-Symbolic Temporal Reasoning for Explainable Physiological Time-Series Anomaly Detection",
+    "abstract": "Physiological time series such as electrocardiograms (ECG) and electroencephalograms (EEG) exhibit complex temporal structure, substantial acquisition variability, and a strong need for transparent decision-making. Although deep models can achieve high detection performance, they often provide limited insight into why a segment is anomalous, how local anomalies relate over time, and whether a detection belongs to a broader recurring pattern. We propose Signal2Symbol, a neuro-symbolic framework for explainable biosignal anomaly detection. The method first converts ECG/EEG signals into symbolic sequences using either a learned VQ-VAE (Vector Quantized Variational Autoencoder) codebook or a SAX (Symbolic Aggregate approXimation) baseline. It then constructs bigram enriched token-window transactions and scores anomalies through rare itemset evidence derived from minimal rare itemset mining. Detected anomalous windows are merged into intervals and related using Allen interval algebra, enabling composite temporal explanations such as escalation chains, artifact overlap, and cross-channel synchrony. Finally, we introduce a rare temporal concept lattice based on Formal Concept Analysis (FCA), which groups anomalous intervals by shared rare symbolic evidence, Allen temporal relations, channel context, and robustness attributes. The resulting Galois lattice compresses many local detections into interpretable families of temporal-symbolic anomalies. We evaluate on three public benchmarks: MIT-BIH Arrhythmia (beat-level ECG), PTB-XL (record-level ECG), and the Bonn EEG dataset (segment-level EEG). We stress-test robustness under additive noise and baseline-wander perturbations. The results highlight the value of neuro-symbolic tokenization for temporal anomaly analysis and show that Allen/FCA reasoning provides compact, interpretable summaries of local detections.",
+    "authors": [
+      "Naser Mansour",
+      "Sidahmed Benabderrahmane",
+      "Ameer Rahwan"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Naser Mansour",
+        "affiliations": []
+      },
+      {
+        "name": "Sidahmed Benabderrahmane",
+        "affiliations": []
+      },
+      {
+        "name": "Ameer Rahwan",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-20",
+    "updated": "2026-09-20",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2609.26820",
+    "pdfUrl": "https://arxiv.org/pdf/2609.26820",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
       ]
     }
   },
