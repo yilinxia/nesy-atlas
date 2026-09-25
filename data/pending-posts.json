@@ -2302,5 +2302,41 @@
     "sourceUrl": "https://www.kognitos.com/news/",
     "discovered": "2026-09-23",
     "status": "needs-review"
+  },
+  {
+    "company": "DaaX",
+    "title": "From BM25 to RAG to GraphRAG to LAKEer: The Road to Trustworthy Information Retrieval",
+    "date": "2026-09-25",
+    "url": "https://daax.ai/blog/bm25-rag-graphrag-lakeer",
+    "sourceUrl": "https://daax.ai/blog",
+    "discovered": "2026-09-25",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Finance 09.25.2026 Rebate Management: Why Money You Already Earned Goes Unclaimed Read",
+    "date": "2026-09-25",
+    "url": "https://www.kognitos.com/blog/rebate-management/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-09-25",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Finance 09.24.2026 Bank Fee Analysis: Why the Statement and the Contract Don’t Speak the Same Language Read",
+    "date": "2026-09-24",
+    "url": "https://www.kognitos.com/blog/bank-fee-analysis/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-09-25",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Press Release Kognitos Named in Two More Gartner&reg; Reports, on Agentic Governance and Process Agents Listed among vendors for which neurosymbolic AI is a core product focus, and named a sample vendor for process agents in KYC onboarding. Sep 25, 2026 Read &rarr;",
+    "date": "2026-09-25",
+    "url": "https://www.kognitos.com/news/kognitos-named-2026-gartner-neurosymbolic-governance-process-agents/",
+    "sourceUrl": "https://www.kognitos.com/news/",
+    "discovered": "2026-09-25",
+    "status": "needs-review"
   }
 ]

@@ -284,7 +284,8 @@
     "https://daax.ai/blog/domain-knowledge",
     "https://daax.ai/blog/preserving-knowledge",
     "https://daax.ai/blog/knowledge-in-motion",
-    "https://daax.ai/blog/pyramid-knowledge"
+    "https://daax.ai/blog/pyramid-knowledge",
+    "https://daax.ai/blog/bm25-rag-graphrag-lakeer"
   ],
   "expert.ai": [
     "https://www.expert.ai/blog/explainable-ai-in-banking-why-trust-matters/",
@@ -885,7 +886,10 @@
     "https://www.kognitos.com/blog/production-planning/",
     "https://www.kognitos.com/blog/certificate-of-analysis/",
     "https://www.kognitos.com/blog/21-cfr-part-11/",
-    "https://www.kognitos.com/news/kognitos-typesafe-ai-partnership/"
+    "https://www.kognitos.com/news/kognitos-typesafe-ai-partnership/",
+    "https://www.kognitos.com/blog/rebate-management/",
+    "https://www.kognitos.com/blog/bank-fee-analysis/",
+    "https://www.kognitos.com/news/kognitos-named-2026-gartner-neurosymbolic-governance-process-agents/"
   ],
   "Kortexya": [],
   "KYield": [
