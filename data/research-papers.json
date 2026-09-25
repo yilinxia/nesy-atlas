@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T16:19:35.337Z",
+  "generatedAt": "2026-09-25T16:19:53.888Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1811,
+  "paperCount": 1815,
   "completeMetadataCount": 1371,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1506
+      "count": 1510
     },
     {
       "id": "nesy-proceedings",
@@ -6949,6 +6949,15 @@
         ]
       },
       {
+        "id": "author:68f832490d662b54",
+        "name": "Danilo Valerio",
+        "aliases": [
+          "Danilo Valerio"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
+      },
+      {
         "id": "author:f517e45b590fd730",
         "name": "Darian Onchis",
         "aliases": [
@@ -8038,6 +8047,17 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:b3bb746fd90120e9"
+        ]
+      },
+      {
+        "id": "author:054340ff817b7b63",
+        "name": "Huzefa Rangwala",
+        "aliases": [
+          "Huzefa Rangwala"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:9582c288b4159f61"
         ]
       },
       {
@@ -11052,6 +11072,15 @@
           "institution:857981dd59278383",
           "institution:8a595dcf26cccd4d"
         ]
+      },
+      {
+        "id": "author:9dd33542c0ce56d7",
+        "name": "Stefan Bischof",
+        "aliases": [
+          "Stefan Bischof"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
       },
       {
         "id": "author:fee29d2baf5bb44d",
@@ -24174,6 +24203,15 @@
         ]
       },
       {
+        "id": "author:3e469b857c5e5253",
+        "name": "Ebrahim Ardeshir-Larijani",
+        "aliases": [
+          "Ebrahim Ardeshir-Larijani"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:ddf0771a0b4466af",
         "name": "Ed Chi",
         "aliases": [
@@ -30489,6 +30527,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:3ddf4d99607cf84e",
+        "name": "Hung Viet Pham",
+        "aliases": [
+          "Hung Viet Pham"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:ae66853ef6a792f1",
         "name": "Hung Vo",
         "aliases": [
@@ -30519,17 +30566,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:054340ff817b7b63",
-        "name": "Huzefa Rangwala",
-        "aliases": [
-          "Huzefa Rangwala"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:9582c288b4159f61"
-        ]
       },
       {
         "id": "author:35a50dd00ed669b2",
@@ -33467,6 +33503,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:34f28bd16ff71be0",
+        "name": "Jiho Shin",
+        "aliases": [
+          "Jiho Shin"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:c629219ff9711d5f",
         "name": "Jilai Pan",
         "aliases": [
@@ -35135,6 +35180,15 @@
         "institutionIds": [
           "institution:5d8a75c45c7dbfa4"
         ]
+      },
+      {
+        "id": "author:26779a6379c6f4d9",
+        "name": "Juliana Kainz",
+        "aliases": [
+          "Juliana Kainz"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:945a572ae30d3eac",
@@ -41700,6 +41754,15 @@
         ]
       },
       {
+        "id": "author:d4e61ff862dc5100",
+        "name": "Mehdi Nasiri",
+        "aliases": [
+          "Mehdi Nasiri"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:b05541128323a8d3",
         "name": "Mehdi Soltani",
         "aliases": [
@@ -43423,6 +43486,15 @@
         "institutionIds": [
           "institution:6432056cdf12bb16"
         ]
+      },
+      {
+        "id": "author:67f2127a2f43bbcb",
+        "name": "Mohammad Saeed Arvenaghi",
+        "aliases": [
+          "Mohammad Saeed Arvenaghi"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:1e3caf78ff8b9046",
@@ -47145,6 +47217,15 @@
         ]
       },
       {
+        "id": "author:ac2a1baedcc55545",
+        "name": "Philipp Kogler",
+        "aliases": [
+          "Philipp Kogler"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:eb82a534998497a1",
         "name": "Phillip Howard",
         "aliases": [
@@ -50182,6 +50263,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:20a8a8a8d727c63c",
+        "name": "Ruixin Zhang",
+        "aliases": [
+          "Ruixin Zhang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:9a64aa5cae0ab426",
         "name": "Ruixu Zhang",
         "aliases": [
@@ -50706,6 +50796,15 @@
           "institution:6897907a26009a77",
           "institution:cbfd83f30ca739fd"
         ]
+      },
+      {
+        "id": "author:89b48f48167a4248",
+        "name": "Sadegh Vaezi",
+        "aliases": [
+          "Sadegh Vaezi"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:0cfbcd22ba7b65b7",
@@ -53967,6 +54066,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:bfd3b05f05ddeef7",
+        "name": "Song Wang",
+        "aliases": [
+          "Song Wang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:a7dcddc2987f49ae",
         "name": "Song Zuo",
         "aliases": [
@@ -55849,6 +55957,15 @@
         "institutionIds": [
           "institution:c952a08fdb0ff916"
         ]
+      },
+      {
+        "id": "author:83541345f25c95b1",
+        "name": "Thomas Hubauer",
+        "aliases": [
+          "Thomas Hubauer"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:141dc744ec2810cf",
@@ -372041,6 +372158,439 @@
         },
         {
           "name": "Ameer Rahwan",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.30178",
+      "title": "NEUROTESTGEN: Neuro-Symbolic Guided Test Generation with Large Language Models",
+      "abstract": "Ensuring high structural coverage remains a fundamental challenge in automated test generation, particularly for complex software systems where reaching specific lines or branches requires satisfying intricate control- and data-flow constraints. Large Language Models (LLMs) have recently demonstrated strong capabilities in producing human-like test cases; however, they often struggle to generate inputs that satisfy precise path conditions. Conversely, symbolic execution can systematically derive such constraints, but it often fails to construct realistic, executable test cases and is constrained by scalability limitations. In this paper, we introduce NEUROTESTGEN, a hybrid approach that integrates symbolic execution with LLM-driven test synthesis to generate test cases targeting on-demand code coverage. Given a set of target statements within a method, NEUROTESTGEN first employs a symbolic analysis engine (i.e., the Z3 SMT solver) to extract path-specific constraints and construct a symbolic guidance specification for the desired coverage goal. This specification is then used to guide an LLM in synthesizing concrete test cases that are both structurally valid and semantically meaningful. For paths involving complex object-related constraints that are difficult for SMT solvers to handle, NEUROTESTGEN leverages LLMs to infer plausible constraints. Furthermore, NEUROTESTGEN incorporates an iterative feedback loop that validates LLM-generated tests and provides corrective guidance until the target line or branch is covered or a limit is reached. Our empirical evaluation on a widely used benchmark demonstrates that NEUROTESTGEN significantly outperforms the state-of-the-art approach across multiple LLMs, including Llama 3.3 70B1, GPT-4o Mini, Claude 3.5 Haiku3, and Claude Sonnet 4.6.",
+      "authors": [
+        "Ruixin Zhang",
+        "Jiho Shin",
+        "Hung Viet Pham",
+        "Song Wang"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Ruixin Zhang",
+          "authorEntityId": "author:20a8a8a8d727c63c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ruixin Zhang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jiho Shin",
+          "authorEntityId": "author:34f28bd16ff71be0",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jiho Shin",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Hung Viet Pham",
+          "authorEntityId": "author:3ddf4d99607cf84e",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Hung Viet Pham",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Song Wang",
+          "authorEntityId": "author:bfd3b05f05ddeef7",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Song Wang",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.SE"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-24",
+      "url": "https://arxiv.org/abs/2609.30178",
+      "pdfUrl": "https://arxiv.org/pdf/2609.30178",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.30178",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:e94431a534b10a9f",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Ruixin Zhang",
+        "Jiho Shin",
+        "Hung Viet Pham",
+        "Song Wang"
+      ],
+      "authorEntityIds": [
+        "author:20a8a8a8d727c63c",
+        "author:34f28bd16ff71be0",
+        "author:3ddf4d99607cf84e",
+        "author:bfd3b05f05ddeef7"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Ruixin Zhang",
+          "affiliations": []
+        },
+        {
+          "name": "Jiho Shin",
+          "affiliations": []
+        },
+        {
+          "name": "Hung Viet Pham",
+          "affiliations": []
+        },
+        {
+          "name": "Song Wang",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.29947",
+      "title": "Neuro-symbolic AI for Industrial Configuration",
+      "abstract": "Large Language Models (LLMs) have shown impressive performance on a wide range of generative tasks. Yet their probabilistic nature makes them, in isolation, fundamentally unsuited for industrial product configuration, where outputs must be syntactically valid, semantically consistent with a knowledge base of hundreds of features and rules, and producible by an existing manufacturing chain. We argue that Neuro-symbolic (NeSy) AI methods lay out a promising path towards industrial-grade configurators that are reliable by design, explainable, and trustworthy. This paper describes a taxonomy of three NeSy integration strategies, namely hybrid inference, hybrid fine-tuning, and hybrid training, exploring their usage in the configuration domain. We report our effort to operationalize NeSy concepts in an industrial configuration copilot and derive a set of practical design choices for deploying trustworthy AI in engineering environments. We close with a discussion of open research challenges we consider most pressing, in particular how to scale NeSy methods from small academic demonstrators to the size of industrial configurators.",
+      "authors": [
+        "Danilo Valerio",
+        "Philipp Kogler",
+        "Stefan Bischof",
+        "Thomas Hubauer",
+        "Huzefa Rangwala"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Danilo Valerio",
+          "authorEntityId": "author:68f832490d662b54",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Danilo Valerio",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Philipp Kogler",
+          "authorEntityId": "author:ac2a1baedcc55545",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Philipp Kogler",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Stefan Bischof",
+          "authorEntityId": "author:9dd33542c0ce56d7",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Stefan Bischof",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Thomas Hubauer",
+          "authorEntityId": "author:83541345f25c95b1",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Thomas Hubauer",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Huzefa Rangwala",
+          "authorEntityId": "author:054340ff817b7b63",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Huzefa Rangwala",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic",
+        "NeSy"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-24",
+      "url": "https://arxiv.org/abs/2609.29947",
+      "pdfUrl": "https://arxiv.org/pdf/2609.29947",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.29947",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:55f31c100dca856b",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Danilo Valerio",
+        "Philipp Kogler",
+        "Stefan Bischof",
+        "Thomas Hubauer",
+        "Huzefa Rangwala"
+      ],
+      "authorEntityIds": [
+        "author:68f832490d662b54",
+        "author:ac2a1baedcc55545",
+        "author:9dd33542c0ce56d7",
+        "author:83541345f25c95b1",
+        "author:054340ff817b7b63"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Danilo Valerio",
+          "affiliations": []
+        },
+        {
+          "name": "Philipp Kogler",
+          "affiliations": []
+        },
+        {
+          "name": "Stefan Bischof",
+          "affiliations": []
+        },
+        {
+          "name": "Thomas Hubauer",
+          "affiliations": []
+        },
+        {
+          "name": "Huzefa Rangwala",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.29876",
+      "title": "Ontology-Mediated Neurosymbolic Constraint Acquisition from Multiple Stakeholders",
+      "abstract": "Neurosymbolic research typically assumes a pre-existing symbolic specification, leaving the upstream challenge of acquiring and formalizing requirements and constraints largely unaddressed. We present an architecture that fills this gap by using an OWL configuration ontology to mediate between neural constraint sources and downstream consumers. In this framework, LLM assistants elicit soft stakeholder preferences, while hardware specifications define hard physical and engineering limits. The ontology unifies these heterogeneous inputs, leverages description logic to identify unsatisfiability, and generates symbolic explanations that enable LLMs to interactively renegotiate terms with users. Any remaining conflicts are resolved downstream via priority-based relaxation. We illustrate our approach on a microgrid use case from the FLEXI project and argue its generalizability to multi-stakeholder domains where constraint acquisition is distributed across human and automated sources of unequal authority.",
+      "authors": [
+        "Stefan Bischof",
+        "Juliana Kainz",
+        "Danilo Valerio"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Stefan Bischof",
+          "authorEntityId": "author:9dd33542c0ce56d7",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Stefan Bischof",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Juliana Kainz",
+          "authorEntityId": "author:26779a6379c6f4d9",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Juliana Kainz",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Danilo Valerio",
+          "authorEntityId": "author:68f832490d662b54",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Danilo Valerio",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-24",
+      "url": "https://arxiv.org/abs/2609.29876",
+      "pdfUrl": "https://arxiv.org/pdf/2609.29876",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.29876",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:7b9d691d4c65fde9",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Stefan Bischof",
+        "Juliana Kainz",
+        "Danilo Valerio"
+      ],
+      "authorEntityIds": [
+        "author:9dd33542c0ce56d7",
+        "author:26779a6379c6f4d9",
+        "author:68f832490d662b54"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Stefan Bischof",
+          "affiliations": []
+        },
+        {
+          "name": "Juliana Kainz",
+          "affiliations": []
+        },
+        {
+          "name": "Danilo Valerio",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2609.29366",
+      "title": "Epistemic-Probabilistic Model for Guarded Multi-Agent LLM Coordination",
+      "abstract": "Multi-agent large language models (LLMs) have become ubiquitous in applied AI, yet their theoretical foundations remain surprisingly understudied. Viewed through the lens of multi-agent systems theory, several shortcomings come to light: a lack of social intelligence, the absence of coordination mechanisms among agents, unknown emergent behavior, and interactions between agents that are bounded by natural language. We address two of these gaps: the absence of social behavior and the lack of mechanisms for inter-agent coordination. We introduce Epistemic Probabilistic Language Agents (EPLA), a neuro-symbolic architecture for multi-agent coordination under uncertainty. A Symbolic Guard provides structured diagnostic feedback. The LLM generates typed actions, and the Guard controls their execution against an authoritative symbolic state. We formalize the epistemic layer in a gossip testbed through epistemic lottery gossip models, which combine view-based call histories with agent-indexed probability weights. We argue that implementing such a formalism can address shortcomings of agentic LLMs.",
+      "authors": [
+        "Mehdi Nasiri",
+        "Mohammad Saeed Arvenaghi",
+        "Sadegh Vaezi",
+        "Ebrahim Ardeshir-Larijani"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Mehdi Nasiri",
+          "authorEntityId": "author:d4e61ff862dc5100",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Mehdi Nasiri",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Mohammad Saeed Arvenaghi",
+          "authorEntityId": "author:67f2127a2f43bbcb",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Mohammad Saeed Arvenaghi",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Sadegh Vaezi",
+          "authorEntityId": "author:89b48f48167a4248",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Sadegh Vaezi",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ebrahim Ardeshir-Larijani",
+          "authorEntityId": "author:3e469b857c5e5253",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ebrahim Ardeshir-Larijani",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-24",
+      "url": "https://arxiv.org/abs/2609.29366",
+      "pdfUrl": "https://arxiv.org/pdf/2609.29366",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2609.29366",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:4519e92b1b2423fc",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Mehdi Nasiri",
+        "Mohammad Saeed Arvenaghi",
+        "Sadegh Vaezi",
+        "Ebrahim Ardeshir-Larijani"
+      ],
+      "authorEntityIds": [
+        "author:d4e61ff862dc5100",
+        "author:67f2127a2f43bbcb",
+        "author:89b48f48167a4248",
+        "author:3e469b857c5e5253"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Mehdi Nasiri",
+          "affiliations": []
+        },
+        {
+          "name": "Mohammad Saeed Arvenaghi",
+          "affiliations": []
+        },
+        {
+          "name": "Sadegh Vaezi",
+          "affiliations": []
+        },
+        {
+          "name": "Ebrahim Ardeshir-Larijani",
           "affiliations": []
         }
       ]

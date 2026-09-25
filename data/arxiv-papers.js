@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-09-24T16:19:34.657Z",
-  "cursorAt": "2026-09-24T16:19:34.657Z",
+  "generatedAt": "2026-09-25T16:19:53.209Z",
+  "cursorAt": "2026-09-25T16:19:53.209Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-09-20T15:17:02.321Z",
   "keywords": [
@@ -15,11 +15,192 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-09-23T15:57:08.477Z",
-  "windowStart": "2026-09-16T15:57:08.477Z",
+  "previousSnapshotAt": "2026-09-24T16:19:34.657Z",
+  "windowStart": "2026-09-17T16:19:34.657Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2609.30178",
+    "title": "NEUROTESTGEN: Neuro-Symbolic Guided Test Generation with Large Language Models",
+    "abstract": "Ensuring high structural coverage remains a fundamental challenge in automated test generation, particularly for complex software systems where reaching specific lines or branches requires satisfying intricate control- and data-flow constraints. Large Language Models (LLMs) have recently demonstrated strong capabilities in producing human-like test cases; however, they often struggle to generate inputs that satisfy precise path conditions. Conversely, symbolic execution can systematically derive such constraints, but it often fails to construct realistic, executable test cases and is constrained by scalability limitations. In this paper, we introduce NEUROTESTGEN, a hybrid approach that integrates symbolic execution with LLM-driven test synthesis to generate test cases targeting on-demand code coverage. Given a set of target statements within a method, NEUROTESTGEN first employs a symbolic analysis engine (i.e., the Z3 SMT solver) to extract path-specific constraints and construct a symbolic guidance specification for the desired coverage goal. This specification is then used to guide an LLM in synthesizing concrete test cases that are both structurally valid and semantically meaningful. For paths involving complex object-related constraints that are difficult for SMT solvers to handle, NEUROTESTGEN leverages LLMs to infer plausible constraints. Furthermore, NEUROTESTGEN incorporates an iterative feedback loop that validates LLM-generated tests and provides corrective guidance until the target line or branch is covered or a limit is reached. Our empirical evaluation on a widely used benchmark demonstrates that NEUROTESTGEN significantly outperforms the state-of-the-art approach across multiple LLMs, including Llama 3.3 70B1, GPT-4o Mini, Claude 3.5 Haiku3, and Claude Sonnet 4.6.",
+    "authors": [
+      "Ruixin Zhang",
+      "Jiho Shin",
+      "Hung Viet Pham",
+      "Song Wang"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Ruixin Zhang",
+        "affiliations": []
+      },
+      {
+        "name": "Jiho Shin",
+        "affiliations": []
+      },
+      {
+        "name": "Hung Viet Pham",
+        "affiliations": []
+      },
+      {
+        "name": "Song Wang",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-24",
+    "updated": "2026-09-24",
+    "categories": [
+      "cs.SE"
+    ],
+    "primaryCategory": "cs.SE",
+    "url": "https://arxiv.org/abs/2609.30178",
+    "pdfUrl": "https://arxiv.org/pdf/2609.30178",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": []
+    }
+  },
+  {
+    "id": "2609.29947",
+    "title": "Neuro-symbolic AI for Industrial Configuration",
+    "abstract": "Large Language Models (LLMs) have shown impressive performance on a wide range of generative tasks. Yet their probabilistic nature makes them, in isolation, fundamentally unsuited for industrial product configuration, where outputs must be syntactically valid, semantically consistent with a knowledge base of hundreds of features and rules, and producible by an existing manufacturing chain. We argue that Neuro-symbolic (NeSy) AI methods lay out a promising path towards industrial-grade configurators that are reliable by design, explainable, and trustworthy. This paper describes a taxonomy of three NeSy integration strategies, namely hybrid inference, hybrid fine-tuning, and hybrid training, exploring their usage in the configuration domain. We report our effort to operationalize NeSy concepts in an industrial configuration copilot and derive a set of practical design choices for deploying trustworthy AI in engineering environments. We close with a discussion of open research challenges we consider most pressing, in particular how to scale NeSy methods from small academic demonstrators to the size of industrial configurators.",
+    "authors": [
+      "Danilo Valerio",
+      "Philipp Kogler",
+      "Stefan Bischof",
+      "Thomas Hubauer",
+      "Huzefa Rangwala"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Danilo Valerio",
+        "affiliations": []
+      },
+      {
+        "name": "Philipp Kogler",
+        "affiliations": []
+      },
+      {
+        "name": "Stefan Bischof",
+        "affiliations": []
+      },
+      {
+        "name": "Thomas Hubauer",
+        "affiliations": []
+      },
+      {
+        "name": "Huzefa Rangwala",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-24",
+    "updated": "2026-09-24",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2609.29947",
+    "pdfUrl": "https://arxiv.org/pdf/2609.29947",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic",
+        "NeSy"
+      ]
+    }
+  },
+  {
+    "id": "2609.29876",
+    "title": "Ontology-Mediated Neurosymbolic Constraint Acquisition from Multiple Stakeholders",
+    "abstract": "Neurosymbolic research typically assumes a pre-existing symbolic specification, leaving the upstream challenge of acquiring and formalizing requirements and constraints largely unaddressed. We present an architecture that fills this gap by using an OWL configuration ontology to mediate between neural constraint sources and downstream consumers. In this framework, LLM assistants elicit soft stakeholder preferences, while hardware specifications define hard physical and engineering limits. The ontology unifies these heterogeneous inputs, leverages description logic to identify unsatisfiability, and generates symbolic explanations that enable LLMs to interactively renegotiate terms with users. Any remaining conflicts are resolved downstream via priority-based relaxation. We illustrate our approach on a microgrid use case from the FLEXI project and argue its generalizability to multi-stakeholder domains where constraint acquisition is distributed across human and automated sources of unequal authority.",
+    "authors": [
+      "Stefan Bischof",
+      "Juliana Kainz",
+      "Danilo Valerio"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Stefan Bischof",
+        "affiliations": []
+      },
+      {
+        "name": "Juliana Kainz",
+        "affiliations": []
+      },
+      {
+        "name": "Danilo Valerio",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-24",
+    "updated": "2026-09-24",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2609.29876",
+    "pdfUrl": "https://arxiv.org/pdf/2609.29876",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.29366",
+    "title": "Epistemic-Probabilistic Model for Guarded Multi-Agent LLM Coordination",
+    "abstract": "Multi-agent large language models (LLMs) have become ubiquitous in applied AI, yet their theoretical foundations remain surprisingly understudied. Viewed through the lens of multi-agent systems theory, several shortcomings come to light: a lack of social intelligence, the absence of coordination mechanisms among agents, unknown emergent behavior, and interactions between agents that are bounded by natural language. We address two of these gaps: the absence of social behavior and the lack of mechanisms for inter-agent coordination. We introduce Epistemic Probabilistic Language Agents (EPLA), a neuro-symbolic architecture for multi-agent coordination under uncertainty. A Symbolic Guard provides structured diagnostic feedback. The LLM generates typed actions, and the Guard controls their execution against an authoritative symbolic state. We formalize the epistemic layer in a gossip testbed through epistemic lottery gossip models, which combine view-based call histories with agent-indexed probability weights. We argue that implementing such a formalism can address shortcomings of agentic LLMs.",
+    "authors": [
+      "Mehdi Nasiri",
+      "Mohammad Saeed Arvenaghi",
+      "Sadegh Vaezi",
+      "Ebrahim Ardeshir-Larijani"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Mehdi Nasiri",
+        "affiliations": []
+      },
+      {
+        "name": "Mohammad Saeed Arvenaghi",
+        "affiliations": []
+      },
+      {
+        "name": "Sadegh Vaezi",
+        "affiliations": []
+      },
+      {
+        "name": "Ebrahim Ardeshir-Larijani",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-24",
+    "updated": "2026-09-24",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2609.29366",
+    "pdfUrl": "https://arxiv.org/pdf/2609.29366",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2609.27203",
     "title": "XLOG: A CUDA-Native Engine for Neurosymbolic Integration",
