@@ -2338,5 +2338,32 @@
     "sourceUrl": "https://www.kognitos.com/news/",
     "discovered": "2026-09-25",
     "status": "needs-review"
+  },
+  {
+    "company": "Imandra",
+    "title": "Scalable Deep Symbolic Reinforcement Learning with Imandra: Part I ### Combining statistical (e.g. neural networks) and classical “symbolic” AI has long interested AI researchers and has seen some very…",
+    "date": "2018-07-31",
+    "url": "https://medium.com/imandra/scalable-deep-symbolic-reinforcement-learning-with-imandra-part-i-346ebb67433a",
+    "sourceUrl": "https://medium.com/imandra",
+    "discovered": "2026-09-26",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "News",
+    "date": "2026-09-25",
+    "url": "https://www.kognitos.com/news/latest/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-09-26",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "View all",
+    "date": "2026-09-25",
+    "url": "https://www.kognitos.com/news/recognitions/",
+    "sourceUrl": "https://www.kognitos.com/news/",
+    "discovered": "2026-09-26",
+    "status": "needs-review"
   }
 ]
