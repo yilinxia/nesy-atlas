@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T15:33:55.213Z",
+  "generatedAt": "2026-09-27T16:14:05.452Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,8 +13,8 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1815,
-  "completeMetadataCount": 1371,
+  "paperCount": 1814,
+  "completeMetadataCount": 1370,
   "sources": [
     {
       "id": "arxiv-keywords",
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1510
+      "count": 1509
     },
     {
       "id": "nesy-proceedings",
@@ -9115,19 +9115,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:cb20eaf4ea8b32eb",
-        "name": "Lun Ai",
-        "aliases": [
-          "Lun Ai"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:1ba4ddc6758a80c0",
-          "institution:323e7eabc230aa6a",
-          "institution:b631cf7716d0f4b7"
-        ]
-      },
-      {
         "id": "author:b8a7b1dda5c4602b",
         "name": "Maarten C Stol",
         "aliases": [
@@ -10997,6 +10984,17 @@
         ]
       },
       {
+        "id": "author:ab49a0fecbf35f8a",
+        "name": "Simon Razniewski",
+        "aliases": [
+          "Simon Razniewski"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:3ab4f761d3ca5c20"
+        ]
+      },
+      {
         "id": "author:5046804697b0551e",
         "name": "Simone Silvetti",
         "aliases": [
@@ -11664,17 +11662,6 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:0f6a35d31853845a"
-        ]
-      },
-      {
-        "id": "author:f4345461e3d53be2",
-        "name": "Ute Schmid",
-        "aliases": [
-          "Ute Schmid"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:ec08e4870fb766b2"
         ]
       },
       {
@@ -34355,17 +34342,6 @@
         ]
       },
       {
-        "id": "author:8d5eac607af4db6f",
-        "name": "Johannes Langer",
-        "aliases": [
-          "Johannes Langer"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:ec08e4870fb766b2"
-        ]
-      },
-      {
         "id": "author:53cb9e35992f338a",
         "name": "John Domingue",
         "aliases": [
@@ -39124,6 +39100,15 @@
         ]
       },
       {
+        "id": "author:5e7c744c20359f67",
+        "name": "Luca Giordano",
+        "aliases": [
+          "Luca Giordano"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:fcfe79c9dd57d6ec",
         "name": "Luca Luceri",
         "aliases": [
@@ -39446,6 +39431,18 @@
         ],
         "paperCount": 1,
         "institutionIds": []
+      },
+      {
+        "id": "author:cb20eaf4ea8b32eb",
+        "name": "Lun Ai",
+        "aliases": [
+          "Lun Ai"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:323e7eabc230aa6a",
+          "institution:b631cf7716d0f4b7"
+        ]
       },
       {
         "id": "author:28cc6699ecdc7ebe",
@@ -43220,15 +43217,6 @@
         "name": "Minsu Kim",
         "aliases": [
           "Minsu Kim"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
-        "id": "author:627d600efcccf1a7",
-        "name": "Minwoo Yu",
-        "aliases": [
-          "Minwoo Yu"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -52968,6 +52956,15 @@
         ]
       },
       {
+        "id": "author:464844d2b359105c",
+        "name": "Shrestha Ghosh",
+        "aliases": [
+          "Shrestha Ghosh"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:4c2c5978b60fc4c0",
         "name": "Shreya Ghosh",
         "aliases": [
@@ -53566,17 +53563,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:ab49a0fecbf35f8a",
-        "name": "Simon Razniewski",
-        "aliases": [
-          "Simon Razniewski"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:3ab4f761d3ca5c20"
-        ]
       },
       {
         "id": "author:cfe0bef1a6741082",
@@ -54759,17 +54745,6 @@
         "institutionIds": [
           "institution:5c3b510138928bf4",
           "institution:9a7670ce91c30b4d"
-        ]
-      },
-      {
-        "id": "author:258c5de66a9be10e",
-        "name": "Stephen Muggleton",
-        "aliases": [
-          "Stephen Muggleton"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:1ba4ddc6758a80c0"
         ]
       },
       {
@@ -57038,6 +57013,15 @@
         ]
       },
       {
+        "id": "author:c8633ffbe97f20e9",
+        "name": "Tuan-Phong Nguyen",
+        "aliases": [
+          "Tuan-Phong Nguyen"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:0a101f7d6b39bdeb",
         "name": "Tumininu Awonuga",
         "aliases": [
@@ -57168,6 +57152,17 @@
         "paperCount": 1,
         "institutionIds": [
           "institution:a55a77635edc8711"
+        ]
+      },
+      {
+        "id": "author:f4345461e3d53be2",
+        "name": "Ute Schmid",
+        "aliases": [
+          "Ute Schmid"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:ec08e4870fb766b2"
         ]
       },
       {
@@ -63032,15 +63027,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:9e4326021a1ccba6",
-        "name": "Young-guk Ha",
-        "aliases": [
-          "Young-guk Ha"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:0ecbbfd3b169489f",
         "name": "Youngki Lee",
         "aliases": [
@@ -63905,6 +63891,15 @@
         "name": "Yuhua Zhou",
         "aliases": [
           "Yuhua Zhou"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:2611f82d6cb6026a",
+        "name": "Yujia Hu",
+        "aliases": [
+          "Yujia Hu"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -70127,7 +70122,7 @@
         "aliases": [
           "Imperial College London"
         ],
-        "paperCount": 28
+        "paperCount": 27
       },
       {
         "id": "institution:0fbadc849bc98650",
@@ -71415,14 +71410,6 @@
         "paperCount": 4
       },
       {
-        "id": "institution:ec08e4870fb766b2",
-        "name": "University of Bamberg",
-        "aliases": [
-          "University of Bamberg"
-        ],
-        "paperCount": 4
-      },
-      {
         "id": "institution:117fcda9a6399108",
         "name": "University of Modena and Reggio Emilia",
         "aliases": [
@@ -71895,6 +71882,14 @@
         "name": "Université Grenoble Alpes",
         "aliases": [
           "Université Grenoble Alpes"
+        ],
+        "paperCount": 3
+      },
+      {
+        "id": "institution:ec08e4870fb766b2",
+        "name": "University of Bamberg",
+        "aliases": [
+          "University of Bamberg"
         ],
         "paperCount": 3
       },
@@ -94503,7 +94498,7 @@
     {
       "id": "2606.22694",
       "title": "SATURN: Symbolic Spatial Reasoning for Multi-Perspective Grounding",
-      "abstract": "Vision-Language Models (VLMs) remain unreliable when spatial reasoning requires composing relations whose meanings depend on frames of reference. Existing neuro-symbolic methods make reasoning more explicit, but often depend on brittle geometric procedures and hard decisions over noisy perception. We propose SATURN, a neuro-symbolic framework for perspective-aware compositional spatial reasoning. SATURN reconstructs an approximate 3D scene, derives soft perspective-aware spatial predicates, and composes them with a training-free Pythonic symbolic executor, separating perception from reasoning while preserving uncertainty through multi-hop inference. We also introduce 3D FORCE, a diagnostic benchmark that controls reasoning depth, view, and perspective composition across spatial arrangement grounding (SAG) and referring expression grounding (REF). On 3D FORCE, VLMs and spatially trained models degrade sharply as depth and perspective complexity increase, whereas SATURN remains stable and outperforms strong baselines. On the real-world MindCube benchmark, SATURN achieves 78.57% overall accuracy, outperforming the strongest baseline by 14 pp.",
+      "abstract": "Vision-Language Models (VLMs) remain unreliable when spatial reasoning requires composing relations whose meanings depend on frames of reference. Existing tool-augmented spatial reasoning methods make reasoning more explicit, but often rely on low-level geometric procedures and hard binary decisions over noisy perception. We propose SATURN, a neuro-symbolic framework for perspective-aware compositional spatial reasoning. SATURN reconstructs an approximate 3D scene, derives soft perspective-aware spatial predicates, and composes them with a training-free Pythonic symbolic executor, separating perception from reasoning while preserving uncertainty through multi-hop inference. We also introduce 3D FORCE, a diagnostic benchmark that controls reasoning depth, view, and perspective composition for spatial arrangement grounding (SAG) and referring expression grounding (REF). On 3D FORCE, VLMs and spatially trained models degrade sharply as depth and perspective complexity increase, whereas SATURN degrades the least and outperforms every baseline at each depth. On the real-world MindCube benchmark, SATURN achieves \\(78.06\\%\\) overall accuracy, outperforming the strongest baseline by \\(14\\) percentage points.",
       "authors": [
         "Danial Kamali",
         "Tanawan Premsri",
@@ -135335,7 +135330,7 @@
     {
       "id": "2603.11351",
       "title": "Novelty Adaptation Through Hybrid Large Language Model (LLM)-Symbolic Planning and LLM-guided Reinforcement Learning",
-      "abstract": "In dynamic open-world environments, autonomous agents often encounter novelties that hinder their ability to find plans to achieve their goals. Specifically, traditional symbolic planners fail to generate plans when the robot's planning domain lacks the operators that enable it to interact appropriately with novel objects in the environment. We propose a neuro-symbolic architecture that integrates symbolic planning, reinforcement learning, and a large language model (LLM) to learn how to handle novel objects. In particular, we leverage the common sense reasoning capability of the LLM to identify missing operators, generate plans with the symbolic AI planner, and write reward functions to guide the reinforcement learning agent in learning control policies for newly identified operators. Our method outperforms the state-of-the-art methods in operator discovery as well as operator learning in continuous robotic domains.",
+      "abstract": "In dynamic open-world environments, autonomous agents often encounter novelties that hinder their ability to find plans to achieve their goals. Specifically, traditional symbolic planners fail to generate plans when the robot's planning domain lacks the operators that enable it to interact appropriately with novel objects in the environment. We propose a neuro-symbolic architecture that integrates symbolic planning, reinforcement learning, and a large language model (LLM) to learn how to handle novel objects. In particular, we leverage the common sense reasoning capability of the LLM to identify missing operators, generate plans with the symbolic AI planner, and write reward functions to guide the reinforcement learning agent in learning control policies for newly identified operators. Our method outperforms the state-of-the-art methods in operator discovery as well as operator learning in continuous robotic domains.Our webpage and code can be access here: helenlu66.github.io/hybridLLMguided/",
       "authors": [
         "Hong Lu",
         "Pierrick Lorang",
@@ -159399,8 +159394,8 @@
     },
     {
       "id": "2601.05280",
-      "title": "Large Language Models As Shannon Lossy Compressors Not Solomonoff Induction Estimators: The Singularity Is Not Near Without Symbolic Model Synthesis in Program Space",
-      "abstract": "On the one hand, the question of whether Large Language Models (LLMs) are Solomonoff induction estimators has become an explicit question at the intersection of Algorithmic Information Theory (AIT) and Machine Learning (ML) of great interest. On the other hand, the now old idea of an AI Singularity that requires a reliable positive-feedback process in which a system can generate, evaluate and retain genuine improvements to itself continues to come up and is a recurrent concept in the discussion of AGI. We connect and provide some answers to these issues based on current assumptions and future developments of neurosymbolic ML. We will demonstrate that cross-entropy, negative log-likelihood and cognate next-token objectives do not or cannot, by themselves, implement Solomonoff induction: they optimise fit to a supplied conditional distribution rather than a program-weighted universal mixture. While more compute within a fixed objective can improve fit without changing the inductive principle, additional computational resources do not intrinsically without external hyper-parameter or architectural changes, behave as optimal predictors in the Solomonoff and Levin sense. While the data-processing inequality (DPI) and Levin non-growth remain valid, we will show that for finite learners and finite observers, theoretical boundaries have less relevancy and generate a drift between possible approaches. To this end, we interpret different resource-bounded estimators as finite tools for mechanism search that show divergence, not violation, of (algorithmic) information conservation laws. A neurosymbolic direction taken by current frontier-model developers points towards the adoption of model synthesis and no longer purely statistical approaches to LLMs but where Solomonoff estimators are possible.",
+      "title": "Large Language Models As Shannon Lossy Compressors Not Solomonoff Induction Estimators: The Singularity Is Not Near Without Symbolic Model Synthesis",
+      "abstract": "On the one hand, the question of whether Large Language Models (LLMs) are Solomonoff induction estimators has become an explicit question at the intersection of Algorithmic Information Theory (AIT) and Machine Learning (ML) of great interest. On the other hand, the now old idea of an AI Singularity that requires a reliable positive-feedback process in which a system can generate, evaluate and retain genuine improvements to itself continues to come up and is a recurrent concept in the discussion of AGI. We connect and provide some answers to these issues based on current assumptions and future developments of neurosymbolic ML. We will demonstrate that cross-entropy, negative log-likelihood and cognate next-token objectives do not or cannot, by themselves, implement Solomonoff induction: they optimise fit to a supplied conditional distribution rather than a program-weighted universal mixture. While more compute within a fixed objective can improve fit without changing the inductive principle, additional computational resources do not intrinsically without external hyper-parameter or architectural changes, behave as optimal predictors in the Solomonoff and Levin sense. While the data-processing inequality (DPI) and Levin non-growth remain valid, we will show that for finite learners and finite observers, theoretical boundaries have less relevancy and generate a drift between possible approaches. To this end, we interpret different resource-bounded estimators as finite tools for mechanism search that show divergence, not violation, of (algorithmic) information conservation laws. A neurosymbolic approach is already being taken and adopted by current frontier-model developers, including models like Fable and Astra, embracing aspects of model synthesis through symbolic computation and cannot longer be considered purely statistical LLMs.",
       "authors": [
         "Hector Zenil"
       ],
@@ -185927,156 +185922,6 @@
           "name": "Elisabeth Lex",
           "affiliations": [
             "Graz University of Technology"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2509.00961",
-      "title": "LLM-Generated Explanations Do Not Suffice for Ultra-Strong Machine Learning",
-      "abstract": "Ultra Strong Machine Learning (USML) refers to symbolic learning systems that not only improve their own performance but can also teach their acquired knowledge to quantifiably improve human performance. We introduce LENS (Logic Programming Explanation via Neural Summarisation), a neuro-symbolic framework that combines symbolic program synthesis with large language models (LLMs). This framework automatically generates natural language explanations of learned logic programs, replacing hand-crafted templates used in prior USML work. Using LLMs-as-judges evaluation and expert validation, we show that LENS produces higher-quality explanations than both direct LLM prompting and hand-crafted templates. We then examine whether LENS explanations suffice for achieving USML in a human trial teaching active learning strategies across three related domains. Our exploratory analysis suggests that concise, expert-written explanations may benefit learners with higher initial performance, while LLM-generated explanations provide no advantage over human self learning despite being rated as higher quality. This case study reveals that achieving USML requires methods grounded in human learning, where current LLM-generated explanations do not capture human cognitive constraints and LLMs-as-judges evaluations do not reflect what effectively supports human learning.",
-      "authors": [
-        "Lun Ai",
-        "Johannes Langer",
-        "Ute Schmid",
-        "Stephen Muggleton"
-      ],
-      "authorAffiliations": [
-        {
-          "name": "Lun Ai",
-          "authorEntityId": "author:cb20eaf4ea8b32eb",
-          "affiliations": [
-            "Imperial College London"
-          ],
-          "affiliationEntityIds": [
-            "institution:1ba4ddc6758a80c0"
-          ],
-          "rawName": "Lun Ai",
-          "rawAffiliations": [
-            "Imperial College London"
-          ]
-        },
-        {
-          "name": "Johannes Langer",
-          "authorEntityId": "author:8d5eac607af4db6f",
-          "affiliations": [
-            "University of Bamberg"
-          ],
-          "affiliationEntityIds": [
-            "institution:ec08e4870fb766b2"
-          ],
-          "rawName": "Johannes Langer",
-          "rawAffiliations": [
-            "University of Bamberg"
-          ]
-        },
-        {
-          "name": "Ute Schmid",
-          "authorEntityId": "author:f4345461e3d53be2",
-          "affiliations": [
-            "University of Bamberg"
-          ],
-          "affiliationEntityIds": [
-            "institution:ec08e4870fb766b2"
-          ],
-          "rawName": "Ute Schmid",
-          "rawAffiliations": [
-            "University of Bamberg"
-          ]
-        },
-        {
-          "name": "Stephen Muggleton",
-          "authorEntityId": "author:258c5de66a9be10e",
-          "affiliations": [
-            "Imperial College London"
-          ],
-          "affiliationEntityIds": [
-            "institution:1ba4ddc6758a80c0"
-          ],
-          "rawName": "Stephen Muggleton",
-          "rawAffiliations": [
-            "Imperial College London"
-          ]
-        }
-      ],
-      "authorIds": [],
-      "affiliations": [
-        "Imperial College London",
-        "University of Bamberg"
-      ],
-      "keywords": [
-        "neuro-symbolic"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.LG"
-      ],
-      "venue": "arXiv",
-      "conference": "",
-      "year": 2025,
-      "published": "2025-08-31",
-      "url": "https://arxiv.org/abs/2509.00961",
-      "pdfUrl": "https://arxiv.org/pdf/2509.00961",
-      "doi": "",
-      "doiUrl": "",
-      "arxivId": "2509.00961",
-      "primaryArea": "",
-      "paperType": "",
-      "tldr": "",
-      "award": "",
-      "sourceType": "arxiv",
-      "sourceIds": [
-        "arxiv-keywords"
-      ],
-      "resolutionStatus": "source-pdf",
-      "resolutionMethod": "",
-      "resolvedArxivUrl": "",
-      "metadataComplete": true,
-      "extractionStatus": "extracted",
-      "entityId": "paper:66ac310098d4cab2",
-      "rawAffiliations": [
-        "Imperial College London",
-        "University of Bamberg"
-      ],
-      "affiliationEntityIds": [
-        "institution:1ba4ddc6758a80c0",
-        "institution:ec08e4870fb766b2"
-      ],
-      "rawAuthors": [
-        "Lun Ai",
-        "Johannes Langer",
-        "Ute Schmid",
-        "Stephen Muggleton"
-      ],
-      "authorEntityIds": [
-        "author:cb20eaf4ea8b32eb",
-        "author:8d5eac607af4db6f",
-        "author:f4345461e3d53be2",
-        "author:258c5de66a9be10e"
-      ],
-      "rawAuthorAffiliations": [
-        {
-          "name": "Lun Ai",
-          "affiliations": [
-            "Imperial College London"
-          ]
-        },
-        {
-          "name": "Johannes Langer",
-          "affiliations": [
-            "University of Bamberg"
-          ]
-        },
-        {
-          "name": "Ute Schmid",
-          "affiliations": [
-            "University of Bamberg"
-          ]
-        },
-        {
-          "name": "Stephen Muggleton",
-          "affiliations": [
-            "Imperial College London"
           ]
         }
       ]
@@ -258356,7 +258201,7 @@
     {
       "id": "2407.09693",
       "title": "A Mathematical Framework and a Suite of Learning Techniques for Neural-Symbolic Systems",
-      "abstract": "The field of Neural-Symbolic (NeSy) systems is growing rapidly. Proposed approaches show great promise in achieving symbiotic unions of neural and symbolic methods. However, a unifying framework is needed to organize common NeSy modeling patterns and develop general learning approaches. In this paper, we introduce Neural-Symbolic Energy-Based Models (NeSy-EBMs), a unifying mathematical framework for discriminative and generative NeSy modeling. Importantly, NeSy-EBMs allow the derivation of general expressions for gradients of prominent learning losses, and we introduce a suite of four learning approaches that leverage methods from multiple domains, including bilevel and stochastic policy optimization. Finally, we ground the NeSy-EBM framework with Neural Probabilistic Soft Logic (NeuPSL), an open-source NeSy-EBM library designed for scalability and expressivity, facilitating the real-world application of NeSy systems. Through extensive empirical analysis across multiple datasets, we demonstrate the practical advantages of NeSy-EBMs in various tasks, including image classification, graph node labeling, autonomous vehicle situation awareness, and question answering.",
+      "abstract": "The field of Neural-Symbolic (NeSy) systems is growing rapidly. Proposed approaches show great promise in achieving symbiotic unions of neural and symbolic methods. However, a unifying framework is needed to organize common NeSy modeling patterns and develop general learning approaches. In this paper, we introduce Neural-Symbolic Energy-Based Models (NeSy-EBMs), a unifying mathematical framework for discriminative and generative NeSy modeling. Importantly, NeSy-EBMs allow the derivation of general expressions for gradients of prominent learning losses, and we introduce a suite of four learning approaches that leverage methods from multiple domains, including bilevel and stochastic policy optimization. Finally, we ground the NeSy-EBM framework with Neural Probabilistic Soft Logic (NeuPSL), an open-source NeSy-EBM library designed for scalability and expressivity, facilitating the real-world application of NeSy systems. Through extensive empirical analysis across multiple datasets, we study NeSy-EBMs as instantiated through NeuPSL in tasks including image classification, graph node labeling, autonomous vehicle situation awareness, and question answering. The results provide evidence for the practical utility of this instantiation in the studied settings.",
       "authors": [
         "Charles Dickens",
         "Connor Pryor",
@@ -359347,84 +359192,6 @@
       ]
     },
     {
-      "id": "2608.06765",
-      "title": "LiFTER: A Grounded Neuro-Symbolic Microscope for Continuous-Time Dynamic Graph Forecasting",
-      "abstract": "Continuous-time dynamic graph models predict future links by compressing past interactions into neural states. Although effective for forecasting, this computation obscures which entities are shared across events and how temporal patterns contribute to a prediction. We treat this gap as a property of the predictive architecture rather than a problem to be addressed after prediction. Link-Fact Temporal Rule Inducer (LiFTER) is a neuro-symbolic predictor that preserves observed interactions as grounded temporal facts and applies executable tempo- ral rules to pre-query facts. Each score is a signed sum of rule exe- cutions whose historical facts, entity bindings, and temporal order are explicitly satisfied. The evidence and rules responsible for a prediction can therefore be inspected, independently recomputed, and intervened upon. Across four CTDG benchmarks, LiFTER achieves competitive historical-negative forecasting and the highest macro explanation ac- curacy and deletion fidelity. The same architecture also serves as a microscope that separates the contributions of recurrence, history po- sition, and transition across datasets and traces them to individual facts. Independent execution reconstructs all logits for 19,664 test predictions with a maximum error of 0.0000131. LiFTER turns future-link forecasting into a verifiable grounded computation.",
-      "authors": [
-        "Minwoo Yu",
-        "Young-guk Ha"
-      ],
-      "authorAffiliations": [
-        {
-          "name": "Minwoo Yu",
-          "authorEntityId": "author:627d600efcccf1a7",
-          "affiliations": [],
-          "affiliationEntityIds": [],
-          "rawName": "Minwoo Yu",
-          "rawAffiliations": []
-        },
-        {
-          "name": "Young-guk Ha",
-          "authorEntityId": "author:9e4326021a1ccba6",
-          "affiliations": [],
-          "affiliationEntityIds": [],
-          "rawName": "Young-guk Ha",
-          "rawAffiliations": []
-        }
-      ],
-      "authorIds": [],
-      "affiliations": [],
-      "keywords": [
-        "neuro-symbolic"
-      ],
-      "categories": [
-        "cs.AI"
-      ],
-      "venue": "arXiv",
-      "conference": "",
-      "year": 2026,
-      "published": "2026-08-07",
-      "url": "https://arxiv.org/abs/2608.06765",
-      "pdfUrl": "https://arxiv.org/pdf/2608.06765",
-      "doi": "",
-      "doiUrl": "",
-      "arxivId": "2608.06765",
-      "primaryArea": "",
-      "paperType": "",
-      "tldr": "",
-      "award": "",
-      "sourceType": "arxiv",
-      "sourceIds": [
-        "arxiv-keywords"
-      ],
-      "resolutionStatus": "source-pdf",
-      "resolutionMethod": "",
-      "resolvedArxivUrl": "",
-      "metadataComplete": false,
-      "extractionStatus": "not-extracted",
-      "entityId": "paper:4bd5460ac47a987a",
-      "rawAffiliations": [],
-      "affiliationEntityIds": [],
-      "rawAuthors": [
-        "Minwoo Yu",
-        "Young-guk Ha"
-      ],
-      "authorEntityIds": [
-        "author:627d600efcccf1a7",
-        "author:9e4326021a1ccba6"
-      ],
-      "rawAuthorAffiliations": [
-        {
-          "name": "Minwoo Yu",
-          "affiliations": []
-        },
-        {
-          "name": "Young-guk Ha",
-          "affiliations": []
-        }
-      ]
-    },
-    {
       "id": "2608.09294",
       "title": "Graphing the Everyday: A Neurosymbolic Approach to Eliciting Routines for Just-In-Time Adaptive Interventions",
       "abstract": "Just-In-Time Adaptive Interventions (JITAIs) increasingly rely on conversational agents to elicit user routines, yet translating fluid human dialogue into rigid schedule data remains a significant challenge. We conducted a qualitative investigation of a neurosymbolic pipeline, combining Large Language Models (LLMs) with a Neo4j knowledge graph, to map unstructured verbal narratives into actionable interventions. Through human-centric evaluation using natural-language playbacks, we identified a critical \"mental-model gap,\" where the linear extraction of LLMs clashes with hierarchical, non-linear human storytelling, causing severe entity fragmentation. Furthermore, we articulate an \"ecological mismatch,\" demonstrating that algorithmic schedule availability frequently ignores the user's fluctuating psychological receptivity and physical energy levels. To resolve these tensions, we propose actionable design heuristics, including routine piggybacking, adaptive negotiation, and scalable transparency. Ultimately, these guidelines provide a foundational framework for evolving rigid schedule-trackers into empathetic, context-aware proactive agents capable of supporting long-term health behavior change.",
@@ -372591,6 +372358,130 @@
         },
         {
           "name": "Ebrahim Ardeshir-Larijani",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2510.07024",
+      "title": "Auditing a KB Elicitation of Frontier LLM Knowledge: A Multi-dimensional Analysis of GPTKB v1.5",
+      "abstract": "LLMs are remarkable artifacts that have revolutionized a range of knowledge-intensive tasks. A significant contributor is their factual knowledge, which, to date, remains poorly understood, and is usually analyzed from biased samples. In this paper, we provide a framework and the results of a multi-dimensional analysis of GPTKB v1.5 (Hu et al., 2025a), a recursively elicited Knowledge Base (KB) of 100 million facts (or beliefs) of a frontier LLM, namely, GPT-4.1. Given the scale of the elicited facts, we provide a multi-dimensional approach to qualitatively and quantitatively analyze these facts as opposed to the mainstream fact completion benchmarks, which are prone to availability bias. We find that the models' factual knowledge differs quite significantly from established knowledge bases, and that its accuracy is significantly lower than indicated by previous benchmarks. We also find that inconsistency, ambiguity and hallucinations are major issues, shedding light on future research opportunities in neuro-symbolic AI concerning extraction, consolidation and verification of factual LLM knowledge.",
+      "authors": [
+        "Shrestha Ghosh",
+        "Luca Giordano",
+        "Yujia Hu",
+        "Tuan-Phong Nguyen",
+        "Simon Razniewski"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Shrestha Ghosh",
+          "authorEntityId": "author:464844d2b359105c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Shrestha Ghosh",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Luca Giordano",
+          "authorEntityId": "author:5e7c744c20359f67",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Luca Giordano",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yujia Hu",
+          "authorEntityId": "author:2611f82d6cb6026a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yujia Hu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Tuan-Phong Nguyen",
+          "authorEntityId": "author:c8633ffbe97f20e9",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Tuan-Phong Nguyen",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Simon Razniewski",
+          "authorEntityId": "author:ab49a0fecbf35f8a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Simon Razniewski",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2025,
+      "published": "2025-10-08",
+      "url": "https://arxiv.org/abs/2510.07024",
+      "pdfUrl": "https://arxiv.org/pdf/2510.07024",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2510.07024",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:6d2224067c99b5dc",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Shrestha Ghosh",
+        "Luca Giordano",
+        "Yujia Hu",
+        "Tuan-Phong Nguyen",
+        "Simon Razniewski"
+      ],
+      "authorEntityIds": [
+        "author:464844d2b359105c",
+        "author:5e7c744c20359f67",
+        "author:2611f82d6cb6026a",
+        "author:c8633ffbe97f20e9",
+        "author:ab49a0fecbf35f8a"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Shrestha Ghosh",
+          "affiliations": []
+        },
+        {
+          "name": "Luca Giordano",
+          "affiliations": []
+        },
+        {
+          "name": "Yujia Hu",
+          "affiliations": []
+        },
+        {
+          "name": "Tuan-Phong Nguyen",
+          "affiliations": []
+        },
+        {
+          "name": "Simon Razniewski",
           "affiliations": []
         }
       ]
