@@ -2365,5 +2365,122 @@
     "sourceUrl": "https://www.kognitos.com/news/",
     "discovered": "2026-09-26",
     "status": "needs-review"
+  },
+  {
+    "company": "AUI",
+    "title": "Blog Reasoning in Code, Not Weights Read the story →",
+    "date": "2026-09-22",
+    "url": "https://www.aui.io/resources/beyond-generative-ai",
+    "sourceUrl": "https://www.aui.io/resources/",
+    "discovered": "2026-09-28",
+    "status": "needs-review"
+  },
+  {
+    "company": "AUI",
+    "title": "Blog Welcoming Quack AI to AUI Today we announced that AUI has acquired Quack AI. The entire Quack team is joining us in full force, doubling our Israeli R&D site in Tel Aviv. Quack’s existing customers will continue to receive full,… Read the story →",
+    "date": "2026-02-23",
+    "url": "https://www.aui.io/resources/welcoming-quack-ai-to-aui",
+    "sourceUrl": "https://www.aui.io/resources/",
+    "discovered": "2026-09-28",
+    "status": "needs-review"
+  },
+  {
+    "company": "AUI",
+    "title": "News Welcoming Zac Maufe to AUI Earlier today I posted on Slack to welcome Zac Maufe to AUI as our Chief Commercial Officer . I want to share a bit more context here, because the timing is not an accident. For the past eight and a half… Read the story →",
+    "date": "2025-11-18",
+    "url": "https://www.aui.io/resources/welcoming-zac-maufe-to-aui",
+    "sourceUrl": "https://www.aui.io/resources/",
+    "discovered": "2026-09-28",
+    "status": "needs-review"
+  },
+  {
+    "company": "AUI",
+    "title": "Press Releases AUI Raises $20 Million at $750 Million Valuation Cap Following Breakthrough in Neuro-Symbolic AI Bridge SAFE closed in one week for Apollo-1, AUI’s neuro-symbolic conversational AI foundation model. NEW YORK, November 2025 — AUI (Augmented Intelligence Inc.), the company behind Apollo-1 , the world’s… Read the story →",
+    "date": "2025-11-03",
+    "url": "https://www.aui.io/resources/aui-raises-20-million-at-750-million-valuation-cap-following-breakthrough-in-neuro-symbolic-ai",
+    "sourceUrl": "https://www.aui.io/resources/",
+    "discovered": "2026-09-28",
+    "status": "needs-review"
+  },
+  {
+    "company": "AUI",
+    "title": "Blog Neuro-Symbolic AI in Action: Apollo-1 Aces Amazon Scenarios; Rufus Falls Short 91% one-shot success vs 17% in a 120-run head-to-head on Amazon’s own catalog: Showing that only controllable, neuro-symbolic agents can reliably operate on behalf of companies. Read the story →",
+    "date": "2025-06-12",
+    "url": "https://www.aui.io/resources/apollo-1-amazon-rufus-comparison",
+    "sourceUrl": "https://www.aui.io/resources/",
+    "discovered": "2026-09-28",
+    "status": "needs-review"
+  },
+  {
+    "company": "AUI",
+    "title": "Blog Apollo-1 One-Shots 83% of 111 Live Google-Flights Scenarios — A Neuro-Symbolic AI Showcase Generative AI unlocked fluent chat. Apollo-1 adds something generative models can’t: verifiable action. Read the story →",
+    "date": "2025-06-10",
+    "url": "https://www.aui.io/resources/apollo-1-one-shots-83-of-111-live-google-flights-scenarios",
+    "sourceUrl": "https://www.aui.io/resources/",
+    "discovered": "2026-09-28",
+    "status": "needs-review"
+  },
+  {
+    "company": "AUI",
+    "title": "Videos The Animal Kingdom of AI Video Watch the conversation →",
+    "date": "2025-03-14",
+    "url": "https://www.aui.io/resources/the-animal-kingdom-of-ai-video",
+    "sourceUrl": "https://www.aui.io/resources/",
+    "discovered": "2026-09-28",
+    "status": "needs-review"
+  },
+  {
+    "company": "AUI",
+    "title": "Videos Ohad Elhelo on The Atlantic’s AI podcast, part 2 Part 2 of AUI CEO Ohad Elhelo’s talk with Nicholas Thompson on “The Most Interesting Thing in A.I.,” The Atlantic Re:Think podcast. Watch the conversation →",
+    "date": "2025-01-31",
+    "url": "https://www.aui.io/resources/atlantic-video-3",
+    "sourceUrl": "https://www.aui.io/resources/",
+    "discovered": "2026-09-28",
+    "status": "needs-review"
+  },
+  {
+    "company": "AUI",
+    "title": "Videos Ohad Elhelo on The Atlantic’s AI podcast, part 1 Part 1 of AUI CEO Ohad Elhelo’s talk with Nicholas Thompson on “The Most Interesting Thing in A.I.,” The Atlantic Re:Think podcast. Watch the conversation →",
+    "date": "2025-01-31",
+    "url": "https://www.aui.io/resources/atlantic-video-2",
+    "sourceUrl": "https://www.aui.io/resources/",
+    "discovered": "2026-09-28",
+    "status": "needs-review"
+  },
+  {
+    "company": "AUI",
+    "title": "Press Releases Press Release | Augmented Intelligence (AUI) Inc. Brings Next Generation AI Agents to Enterprise Customers with Google Cloud Augmented Intelligence (AUI) Inc. announced today its strategic partnership with Google Cloud aimed at accelerating the deployment of AI agents for consumer and enterprise companies. Read the story →",
+    "date": "2024-09-30",
+    "url": "https://www.aui.io/resources/augmented-intelligence-aui-inc-brings-next-generation-ai-agents-to-enterprise-customers-with-google-cloud",
+    "sourceUrl": "https://www.aui.io/resources/",
+    "discovered": "2026-09-28",
+    "status": "needs-review"
+  },
+  {
+    "company": "AUI",
+    "title": "Podcasts / Videos Neuro-Symbolic AI: with Ohad Elhelo and Nicholas Thompson Watch the conversation →",
+    "date": "2024-09-21",
+    "url": "https://www.aui.io/resources/neuro-symbolic-ai-with-ohad-elhelo-and-nicholas-thompson-2",
+    "sourceUrl": "https://www.aui.io/resources/",
+    "discovered": "2026-09-28",
+    "status": "needs-review"
+  },
+  {
+    "company": "AUI",
+    "title": "Videos Gen AI talks. Apollo-1 delivers. Watch the conversation →",
+    "date": "2024-08-22",
+    "url": "https://www.aui.io/resources/gen-ai-talks-apollo-1-delivers",
+    "sourceUrl": "https://www.aui.io/resources/",
+    "discovered": "2026-09-28",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Solutions 09.26.2026 Freight Audit: Why Accessorials Need Evidence, Not Just a Rate Card Read",
+    "date": "2026-09-26",
+    "url": "https://www.kognitos.com/blog/freight-audit/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-09-28",
+    "status": "needs-review"
   }
 ]
