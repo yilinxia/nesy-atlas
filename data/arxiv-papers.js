@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-09-28T19:06:49.968Z",
-  "cursorAt": "2026-09-28T19:06:49.968Z",
+  "generatedAt": "2026-09-29T17:28:32.919Z",
+  "cursorAt": "2026-09-29T17:28:32.919Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-09-27T16:14:04.769Z",
   "keywords": [
@@ -15,11 +15,250 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-09-27T16:14:04.769Z",
-  "windowStart": "2026-09-20T16:14:04.769Z",
+  "previousSnapshotAt": "2026-09-28T19:06:49.968Z",
+  "windowStart": "2026-09-21T19:06:49.968Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2609.33547",
+    "title": "Neuro-Symbolic Indirect-Call Analysis under Opaque Pointers",
+    "abstract": "Resolving indirect calls is central to call-graph construction for C. Scalable type-based analyses such as MLTA use type information in LLVM IR to associate indirect calls with functions assigned to the corresponding structure fields. However, a single pointee type often misrepresents the memory a pointer addresses, and LLVM 17 removed pointee types in favor of opaque pointers. Therefore, field-sensitive analyses lose their matching key. Recovering the erased types restores the matching key but still misses the relation that the type encoded: which functions the program assigns to the field. We present Facet, to our knowledge the first analysis that reconstructs this dispatch relation over opaque IR. Facet identifies the structure field from which an indirect call loads its function pointer. It separately recovers the functions assigned to that field through initializers, stores, and aggregate copies. It then joins the two by field identity, without requiring an end-to-end value-flow path. Facet classifies proposed call-graph changes under distinct evidence rules for edge addition and removal and records the assumption behind each refinement. An LLM decides only the residual cases among symbolically bounded candidates. One analysis yields both a recall-preserving call graph and a refined call graph. On 14 C programs, Facet reduces the mean target-set size from 25.9 to 5.2 and raises observed recall from 0.79 to 0.99. Its recovered field identities agree with typed IR at 98.1% of jointly resolved sites. Applied to bug detection, the refined call graph found 17 deep bugs in C software from nginx to the Linux kernel, three of them latent for over a decade; 12 are confirmed.",
+    "authors": [
+      "Kaixuan Li",
+      "Bozhi Wu",
+      "Jian Zhang",
+      "Peixin Wang",
+      "Ting Su",
+      "Yang Liu"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Kaixuan Li",
+        "affiliations": []
+      },
+      {
+        "name": "Bozhi Wu",
+        "affiliations": []
+      },
+      {
+        "name": "Jian Zhang",
+        "affiliations": []
+      },
+      {
+        "name": "Peixin Wang",
+        "affiliations": []
+      },
+      {
+        "name": "Ting Su",
+        "affiliations": []
+      },
+      {
+        "name": "Yang Liu",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-27",
+    "updated": "2026-09-27",
+    "categories": [
+      "cs.SE",
+      "cs.PL"
+    ],
+    "primaryCategory": "cs.SE",
+    "url": "https://arxiv.org/abs/2609.33547",
+    "pdfUrl": "https://arxiv.org/pdf/2609.33547",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": []
+    }
+  },
+  {
+    "id": "2609.33256",
+    "title": "ActionGround: Training-Free Runtime Refinement of Frozen VLA Policies",
+    "abstract": "Vision-Language-Action (VLA) models map visual observations and language instructions directly to robot actions, but they do not explicitly represent the phase structure of manipulation tasks or the rigid-body dynamics governing execution. We present ActionGround, a neuro-symbolic, training-free runtime layer that wraps a frozen VLA policy without retraining, fine-tuning, or weight access, adding less than 1 ms of overhead per control step. A symbolic phase-aware finite-state machine identifies the manipulation phase (approach, grasp, transport, or place) and applies a phase-specific rule-based correction. In parallel, an always-on, inertia-weighted Euler-Lagrange term incorporates the robot's equations of motion into each control step, while its dynamics residual is logged as a consistency diagnostic rather than used as a gate. We evaluate ActionGround across OpenVLA, OpenVLA-OFT, Force-VLA, and Generalist-VLA on ten LIBERO-Spatial pick-and-place tasks using a 7-DoF Franka Panda. With fixed parameters across tasks and backbones, ActionGround improves success rate by up to 6 percentage points and stability by up to 19.3 percentage points, while improving trajectory efficiency by up to 15%. In a separate Robosuite noise sweep, ActionGround provides approximately a 10x improvement in trajectory-jerk robustness under injected action noise. In a matched-seed Robosuite simulation companion to a real Agilex Piper trial, simulated baseline success increases from 35% to 95%. The physical-hardware experiment is presented as a qualitative deployment demonstration; quantitative per-trial success on the real arm is left for future work. Our evaluation is limited to rigid-object pick-and-place manipulation.",
+    "authors": [
+      "Namai Chandra",
+      "Madhur Thareja",
+      "Shriram Damodaran",
+      "Addison Lin Wang"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Namai Chandra",
+        "affiliations": []
+      },
+      {
+        "name": "Madhur Thareja",
+        "affiliations": []
+      },
+      {
+        "name": "Shriram Damodaran",
+        "affiliations": []
+      },
+      {
+        "name": "Addison Lin Wang",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-27",
+    "updated": "2026-09-27",
+    "categories": [
+      "cs.RO"
+    ],
+    "primaryCategory": "cs.RO",
+    "url": "https://arxiv.org/abs/2609.33256",
+    "pdfUrl": "https://arxiv.org/pdf/2609.33256",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.32645",
+    "title": "From Scene Graphs to Answers: Selective Neuro-Symbolic Reasoning for Autonomous Driving",
+    "abstract": "Autonomous-driving question answering requires reasoning over structured scene information, yet existing vision-language approaches largely delegate heterogeneous reasoning operations to a single neural inference process. We argue that this uniform strategy overlooks a fundamental distinction: some queries admit exact symbolic solutions, while others require semantic interpretation. We introduce a query-adaptive neuro-symbolic reasoning framework that explicitly allocates computation according to the nature of the query. At its core is a hierarchical Spatiotemporal Scene Graph (STSG) that separates persistent object identities from frame-specific states and represents spatial relations and temporal transitions as explicit directed structures. Given a query, a symbolic executor first attempts to resolve it through exact graph operations; only when symbolic execution abstains is an LLM invoked for semantic reasoning. For these unresolved queries, query-conditioned graph retrieval and evidence filtering preserve relation direction, temporal locality, and object semantics, providing the LLM with compact and verified task-relevant evidence. This design shifts the role of the LLM from a universal reasoning engine to a targeted semantic reasoner, while allowing deterministic computation to be handled exactly and efficiently. We evaluate the framework on 5,916 NuScenes-QA questions across all ten scenes of nuScenes v1.0-mini under an oracle-perception setting. The complete system achieves 80.63 percent overall accuracy with GPT-5.4-mini, improving over the corresponding LLM-only configuration by 5.48 percentage points; with DeepSeek-V4-Flash, the improvement reaches 6.64 points. The largest gains occur on counting questions, with improvements of 10.20 and 12.61 points, respectively. These results show that selective reasoning improves both accuracy and inference efficiency.",
+    "authors": [
+      "Yiyao Wang",
+      "Pei Liu",
+      "Fangzhou Liu",
+      "Jun Ma"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Yiyao Wang",
+        "affiliations": []
+      },
+      {
+        "name": "Pei Liu",
+        "affiliations": []
+      },
+      {
+        "name": "Fangzhou Liu",
+        "affiliations": []
+      },
+      {
+        "name": "Jun Ma",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-26",
+    "updated": "2026-09-26",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2609.32645",
+    "pdfUrl": "https://arxiv.org/pdf/2609.32645",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.32643",
+    "title": "Business Compromise Detection with Agentic AI and LLM-driven Knowledge Discovery",
+    "abstract": "Detecting compromised business ad accounts is a challenge in digital advertising, as attackers exploit hijacked accounts to launch fraudulent campaigns. Large Language Model (LLM) agents show promise for integrity enforcement, but hallucinated mistakes on hard cases create business friction. In a study we find the autonomous agent is a strong, recall-heavy signal extractor but an unreliable final arbiter, conceding precision on ambiguous decisions. We therefore keep the agent as an investigator that emits a structured, interpretable signal vector, and delegate the verdict to a neuro-symbolic stage: symbolic rules discovered by Inductive Logic Programming (FOIL-IE), a Naïve Bayes calibration layer, and a data-tuned contradiction layer. Evaluating on a compromise-over-sampled population and a realistic low-prevalence sample with subject-matter-expert labels, this arbiter substitution raises MCC from 0.295 to 0.435 (ΔMCC +0.139, 95% CI [+0.026, +0.245], p=0.018, paired bootstrap), lifting precision from 0.250 to 0.446 (1.8x) at a recall cost (0.920 to 0.660). Benchmarked under identical conditions, it also edge tree ensembles (0.386).The rules encode domain w labels while remaininginterpretable and auditable.",
+    "authors": [
+      "Diego Palma",
+      "Kyu Bin Kim",
+      "Zhen Han",
+      "Allbright Dsouza",
+      "Zhiyuan Liu"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Diego Palma",
+        "affiliations": []
+      },
+      {
+        "name": "Kyu Bin Kim",
+        "affiliations": []
+      },
+      {
+        "name": "Zhen Han",
+        "affiliations": []
+      },
+      {
+        "name": "Allbright Dsouza",
+        "affiliations": []
+      },
+      {
+        "name": "Zhiyuan Liu",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-26",
+    "updated": "2026-09-26",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2609.32643",
+    "pdfUrl": "https://arxiv.org/pdf/2609.32643",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.32491",
+    "title": "Explaining Textual Entailment with Lexical Entailments: Using LLMs to Supply Lexical Relations for Formal Proofs",
+    "abstract": "Large Language Models (LLMs) are highly capable of natural language reasoning and appear to store a great deal of lexical knowledge, but it is still unclear how much of this knowledge they actually use when reasoning, and whether they use it in the right way. On the other hand, logic-based Natural Language Inference (NLI) systems provide transparent and formally grounded reasoning, but they need to be supplied with rich lexical knowledge to prove inferences beyond purely logical ones. In this paper, we evaluate whether LLMs can identify all lexical knowledge needed to solve NLI problems and how much this knowledge contributes to proof search in a logic-based NLI system. Our research focuses exclusively on structured lexical entailments (e.g., chinchilla$\\sqsubseteq$small animal) as a proxy for structured explanations for NLI problems with an entailment label. First, we curate a dataset for a new task of explaining sentential entailments with a set of lexical entailments. The dataset is used to intrinsically evaluate LLMs on generating structured lexical explanations. Then, we use NLI as an extrinsic evaluation in a simple neuro-symbolic setting, assessing whether LLMs can supply sufficient lexical relations to LangPro, a natural-logic theorem prover for natural language. The results show that the proposed task remains challenging even for hosted proprietary LLMs, and that their contribution to theorem proving is moderate: generated relations are often only partially sound and may be tailored to the specific NLI problem rather than representing generally valid lexical knowledge.",
+    "authors": [
+      "Jorryt de Jong",
+      "Stefan Moraca",
+      "Ettore Cesari",
+      "Lasha Abzianidze"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Jorryt de Jong",
+        "affiliations": []
+      },
+      {
+        "name": "Stefan Moraca",
+        "affiliations": []
+      },
+      {
+        "name": "Ettore Cesari",
+        "affiliations": []
+      },
+      {
+        "name": "Lasha Abzianidze",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-26",
+    "updated": "2026-09-26",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.CL",
+    "url": "https://arxiv.org/abs/2609.32491",
+    "pdfUrl": "https://arxiv.org/pdf/2609.32491",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2609.30178",
     "title": "NEUROTESTGEN: Neuro-Symbolic Guided Test Generation with Large Language Models",
