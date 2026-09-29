@@ -2482,5 +2482,50 @@
     "sourceUrl": "https://www.kognitos.com/blog/",
     "discovered": "2026-09-28",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Industry Solutions 09.29.2026 Payer Contract Management: Why an Underpayment Looks Exactly Like a Payment Read",
+    "date": "2026-09-29",
+    "url": "https://www.kognitos.com/blog/payer-contract-management/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-09-29",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Industry Solutions 09.29.2026 Provider Credentialing: A Revenue Control, Not an HR Task Read",
+    "date": "2026-09-29",
+    "url": "https://www.kognitos.com/blog/provider-credentialing/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-09-29",
+    "status": "needs-review"
+  },
+  {
+    "company": "UnlikelyAI",
+    "title": "Sep 20, 2026 Press How do we prepare for AI risks we cannot yet foresee? Our founder on Sky News Is AI safe? Sky News put the question to our founder and CEO, William Tunstall-Pedoe. Here’s why he argues safety is an engineering challenge, and why a kill switch alone is not a safety plan. UnlikelyAI",
+    "date": "2026-09-20",
+    "url": "https://www.unlikely.ai/newsroom/how-do-we-prepare-for-ai-risks-we-cannot-yet-foresee-our-founder-on-sky-news",
+    "sourceUrl": "https://www.unlikely.ai/newsroom",
+    "discovered": "2026-09-29",
+    "status": "needs-review"
+  },
+  {
+    "company": "UnlikelyAI",
+    "title": "Sep 14, 2026 Blog Inside UnlikelyAI's 2026 internship: projects, impact and culture This summer the UnlikelyAI team welcomed 4 interns that multiplied the energy of the team with their fresh ideas, energy, drive, and full charge of the projects they delivered. Over three months, they became an essential part of the team. They developed features that went live, did fresh research into how LLMs behave, a Python package and a drawing-game rivalry the office still cannot settle. UnlikelyAI",
+    "date": "2026-09-14",
+    "url": "https://www.unlikely.ai/newsroom/inside-unlikely-ai-s-2026-internship-projects-impact-and-culture",
+    "sourceUrl": "https://www.unlikely.ai/newsroom",
+    "discovered": "2026-09-29",
+    "status": "needs-review"
+  },
+  {
+    "company": "UnlikelyAI",
+    "title": "Aug 28, 2026 Blog UnlikelyAI Webinar: Is LLM-as-a-Judge Ready for Production in Financial Services? Any AI system in production needs a way to check its outputs. One way of doing that is having LLM-as-Judge, which is when you have one language model evaluate the output of another. This method is becoming more common because it is fast, cheap and it allows to scale the system without having a human reviewing the data and labelling the outputs. UnlikelyAI",
+    "date": "2026-08-28",
+    "url": "https://www.unlikely.ai/newsroom/unlikely-ai-webinar-is-llm-as-a-judge-ready-for-production-in-financial-services",
+    "sourceUrl": "https://www.unlikely.ai/newsroom",
+    "discovered": "2026-09-29",
+    "status": "needs-review"
   }
 ]
