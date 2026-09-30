@@ -2527,5 +2527,14 @@
     "sourceUrl": "https://www.unlikely.ai/newsroom",
     "discovered": "2026-09-29",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Industry Solutions 09.30.2026 Coordination of Benefits: When the Claim Is Right and the Payer Is Wrong Read",
+    "date": "2026-09-30",
+    "url": "https://www.kognitos.com/blog/coordination-of-benefits/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-09-30",
+    "status": "needs-review"
   }
 ]
