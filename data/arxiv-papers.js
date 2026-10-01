@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-09-29T17:28:32.919Z",
-  "cursorAt": "2026-09-29T17:28:32.919Z",
+  "generatedAt": "2026-10-01T17:52:18.530Z",
+  "cursorAt": "2026-10-01T17:52:18.530Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-09-27T16:14:04.769Z",
   "keywords": [
@@ -15,11 +15,318 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-09-28T19:06:49.968Z",
-  "windowStart": "2026-09-21T19:06:49.968Z",
+  "previousSnapshotAt": "2026-09-29T17:28:32.919Z",
+  "windowStart": "2026-09-22T17:28:32.919Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2609.40131",
+    "title": "Prototype-Rule Neurosymbolic Regularization for Rank-Constrained Tensor Neural Networks under Label Scarcity",
+    "abstract": "Rank-constrained tensor neural networks reduce the parameterization of high-order inputs, but they do not explicitly constrain class geometry in the learned representation. This study investigates whether a differentiable prototype-rule can provide a complementary inductive bias for Rank-R tensor learning under limited supervision. The proposed framework augments the Rank-R objective with prototype-based regularization and optionally fuses prototype evidence with neural logits at inference. Four hyperspectral benchmarks are evaluated with four Rank-R configurations under both seven-fold stratification and spatially separated folds that mitigate leakage; a separate spatial study varies the class support budget from 2 to 20 samples. Under spatial evaluation, full neurosymbolic inference changes Macro-F1 score by +8.82 percentage points on Botswana, +5.49 on Indian Pines, +1.59 on Pavia University, and -0.62 on Salinas. Most of the benefit arises from training-time regularization, whereas inference fusion is small and dataset dependent.",
+    "authors": [
+      "Eftychios Protopapadakis",
+      "Konstantinos Makantasis",
+      "Konstantinos M. Giannoutakis"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Eftychios Protopapadakis",
+        "affiliations": []
+      },
+      {
+        "name": "Konstantinos Makantasis",
+        "affiliations": []
+      },
+      {
+        "name": "Konstantinos M. Giannoutakis",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-30",
+    "updated": "2026-09-30",
+    "categories": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2609.40131",
+    "pdfUrl": "https://arxiv.org/pdf/2609.40131",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.39594",
+    "title": "Neuro-Symbolic Predicate Learning for Semantic Safe Robot Control",
+    "abstract": "As robots are increasingly deployed in everyday environments, ensuring their safety has become a central challenge. Existing methods often encode safety requirements as opaque mathematical/logical formulations or dense cost functions. While effective in specific tasks, they remain difficult to interpret, tightly coupled to individual tasks, and offer limited insight into why a robot action is considered safe or unsafe. To address this limitation, we propose ``Neuro-Symbolic Predicate Learning for Semantic Safe Robot Control'' (NEUPRO), which leverages a differentiable reasoner that can learn reusable safety representations from human-specified safety knowledge. NEUPRO allows practitioners to express task-related safety requirements as transparent symbolic rules, while enabling gradients to propagate through these rules to a feature extractor that maps raw observations to safety-relevant concepts. As a result, the learned feature extractor is (softly) grounded in human-understandable semantics, supports transparent constraint evaluation, and is transferable across tasks. By coupling interpretability with differentiability, NEUPRO moves beyond opaque cost design toward reusable safety reasoning. To evaluate NEUPRO's capability, we collect and release REASON, the first real robot benchmark dataset for interpretable robot safety specification. Experiments on REASON show that NEUPRO learns safety-critical features that generalize across tasks, mitigate the interpretability limitations of conventional black-box cost formulations, and provide explicit explanations of safety violation.",
+    "authors": [
+      "Zihan Ye",
+      "Jiayi Liu",
+      "Puze Liu",
+      "Jiayun Li",
+      "Georgia Chalvatzaki",
+      "Jan Peters",
+      "Kristian Kersting"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Zihan Ye",
+        "affiliations": []
+      },
+      {
+        "name": "Jiayi Liu",
+        "affiliations": []
+      },
+      {
+        "name": "Puze Liu",
+        "affiliations": []
+      },
+      {
+        "name": "Jiayun Li",
+        "affiliations": []
+      },
+      {
+        "name": "Georgia Chalvatzaki",
+        "affiliations": []
+      },
+      {
+        "name": "Jan Peters",
+        "affiliations": []
+      },
+      {
+        "name": "Kristian Kersting",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-30",
+    "updated": "2026-09-30",
+    "categories": [
+      "cs.RO"
+    ],
+    "primaryCategory": "cs.RO",
+    "url": "https://arxiv.org/abs/2609.39594",
+    "pdfUrl": "https://arxiv.org/pdf/2609.39594",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.38420",
+    "title": "What Was Said, Not What Was 'Thought': Type-6 Logic for CoT Verification",
+    "abstract": "We introduce Type-6 logic, a variant of dynamic epistemic logic augmented with two operators (uncertainty and recurrence), designed to model the inferential dynamics of contemporary large language model (LLM) chain-of-thought (CoT) reasoning. Type-6 accounts for common LLM reasoning pathologies such as unlicensed revision, enthymemes, loopbacks, and unverifiable/incorrect claims. We propose a verifier based on Type-6 logic that builds a graph out the trace, and checks it against Type-6's axioms and inference rules. We evaluate our framework on LLM-generated CoTs four splits spanning formal and informal reasoning. Our verifier detects structurally unsound reasoning steps that surface-level heuristics miss, and allows for easy visualisation of the model's reasoning process. In our corpus, our verifier shows that derived contradiction is the most common hard-fail category in CoT, and that only about 3\\% of the propositions of a trace have impact on the final derivation. Ablation studies show that other verification methods (LLMs-as-judges, other neurosymbolic approaches, etc.) cannot be considered interchangeable: for example, agreement between LLMs-as-judges and LINC is $κ\\approx 0.034$, and this persists within a method across underlying models. Type-6, however, is the most agreed-with method amongst the ones we tested. We prove our verifier runs on average-case linear time; and release our logic specification and artefacts.",
+    "authors": [
+      "Adrian de Wynter"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Adrian de Wynter",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-29",
+    "updated": "2026-09-29",
+    "categories": [
+      "cs.LO",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primaryCategory": "cs.LO",
+    "url": "https://arxiv.org/abs/2609.38420",
+    "pdfUrl": "https://arxiv.org/pdf/2609.38420",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.36927",
+    "title": "Neuro-Symbolic Computer Use: Learning Reusable Policies for Reliable and Efficient Execution",
+    "abstract": "Many computer tasks recur: the same workflow runs many times, with new inputs and from different starting states. Current computer-use agents re-plan every step of every run, which makes them costly and unreliable on such tasks. We introduce neuro-symbolic computer use, in which a recurring workflow is executed by a learned policy rather than re-derived by an agent on each run. The policy fixes the decisions that are stable across runs (ordering, variables, loops, and branches) in executable code, and delegates observation-dependent decisions, such as grounding and state checks, to neural models. We learn these policies with neuro-symbolic policy iteration: starting from one agent trajectory, it executes the policy, diagnoses failures with task-completion and step-level judges, and revises the code with a coding model informed by an agent's continuation from the point of failure, without access to the benchmark evaluator. Iterating on generated parameter and initial-state variants makes the policy reusable, and a pre-action verifier guards each state-mutating step at deployment. On OSWorld-Verified and ScienceBoard, the learned policies achieve the highest Pass^3 of all methods in all four settings, 3.6-15.8 points above the base agent, while cutting per-run cost by 15-217$\\times$ and latency by 3.4-5.1$\\times$. On OSWorld-Verified, policies built only on variants transfer to the held-out original tasks, exceeding AutoRPA by 8.6-17.5 points in Pass^3.",
+    "authors": [
+      "Hyewon Suh",
+      "Thanh Minh Nguyen",
+      "Chih-Lun Lee",
+      "Darrow Hartman",
+      "Lizhao Liu",
+      "Xin Eric Wang",
+      "Ang Li",
+      "Jiachen Yang"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Hyewon Suh",
+        "affiliations": []
+      },
+      {
+        "name": "Thanh Minh Nguyen",
+        "affiliations": []
+      },
+      {
+        "name": "Chih-Lun Lee",
+        "affiliations": []
+      },
+      {
+        "name": "Darrow Hartman",
+        "affiliations": []
+      },
+      {
+        "name": "Lizhao Liu",
+        "affiliations": []
+      },
+      {
+        "name": "Xin Eric Wang",
+        "affiliations": []
+      },
+      {
+        "name": "Ang Li",
+        "affiliations": []
+      },
+      {
+        "name": "Jiachen Yang",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-29",
+    "updated": "2026-09-29",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2609.36927",
+    "pdfUrl": "https://arxiv.org/pdf/2609.36927",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.37490",
+    "title": "CPUNeSy: Controlling Model Writes for Reliable Neuro-Symbolic Reasoning",
+    "abstract": "LLMs excel at recalling statistical patterns but degrade sharply when answers must be derived, especially on multi-hop chains. Delegating derivation to deterministic symbolic executors shifts reliability to whether model-generated premises are source-supported. We introduce CPUNeSy, a serving architecture that controls model writes to symbolic state via a task-defined predicate interface and certificate gate, abstaining when grounding passes disagree. Component analysis isolates deterministic execution, restricted grounding, agreement, and source rechecking. Experiments show deterministic execution drives most accuracy recovery on derivation-heavy tasks; controlled writes mainly improve selective reliability by withholding unsupported or inconsistent answers, at a coverage cost. On multi-hop tests in law and formal math, deterministic execution recovers most of the gap over chain-of-thought and retrieval baselines, with full-pool gains up to 35.0 points. Certification is selective-serving control, not accuracy mechanism: with grounding traces fixed on ContractNLI, source rechecking removes a quarter of DeepSeek's wrong answers surviving two-vote agreement, at measurable coverage cost. When abstention is costly, routing withheld cases to an uncertified same-model fallback raises full-pool accuracy on MedCalc-Bench Verified by 13.9 and 4.9 points for Seed and DeepSeek; these gains are not from the certified channel. On LeanDojo Benchmark 4, kernel-restricted pools match BM25 recall@15 (89.3%). Gains depend on the grounder's error regime: bias-dominated grounders benefit less, consistent with our voting bound. Certificates guarantee derivational validity relative to admitted premises; semantic faithfulness to natural-language sources remains conditional on the source checker, and prospective validation is future work.",
+    "authors": [
+      "Zeyan Li",
+      "Siyuan Qiu",
+      "Shuai Zhao",
+      "Jianfeng Xu"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Zeyan Li",
+        "affiliations": []
+      },
+      {
+        "name": "Siyuan Qiu",
+        "affiliations": []
+      },
+      {
+        "name": "Shuai Zhao",
+        "affiliations": []
+      },
+      {
+        "name": "Jianfeng Xu",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-28",
+    "updated": "2026-09-28",
+    "categories": [
+      "cs.SC"
+    ],
+    "primaryCategory": "cs.SC",
+    "url": "https://arxiv.org/abs/2609.37490",
+    "pdfUrl": "https://arxiv.org/pdf/2609.37490",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": []
+    }
+  },
+  {
+    "id": "2609.35924",
+    "title": "Grab a Coffee: Future-Aware Guidance for Discrete Diffusion with Compiled Objectives",
+    "abstract": "Discrete diffusion models generate sequences by iteratively resolving multiple tokens in parallel, offering a flexible alternative to left-to-right generation. However, guiding this process with a sequence-level objective is difficult because the value of one unresolved token depends on the other tokens with which it can form a high-reward sequence. Enumerating all such completions makes the whole guidance computation grow exponentially with the number of unresolved positions. We introduce COFFEE, a plug-and-play framework that avoids this enumeration by separating sequence dependence from the objective. At each diffusion step, a target-free carrier absorbs the marginal token distributions predicted by the denoiser to construct a joint model over the unresolved tokens, while a compiled finite-state model records how their combinations affect the sequence-level preference. Pairing their states allows COFFEE to transfer global preferences to unresolved positions and sample a clean reconstruction without retraining the diffusion model. The same framework supports explicit hard constraints and learned soft objectives. We evaluate COFFEE across multiple symbolic, language, and biological benchmarks, where it achieves strong control results with task-dependent quality and diversity trade-offs. By making objectives available to inference rather than only evaluation, COFFEE brings joint conditioning, completion-weighted guidance, and optimization-based constraints into pretrained neural generation, showing the potential of neural-symbolic methods in diffusion guidance.",
+    "authors": [
+      "Hua",
+      "Xu",
+      "Dongxin Li",
+      "Gwen Yidou-Weng",
+      "Guy Van den Broeck",
+      "Wei Wang",
+      "Anji Liu"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Hua",
+        "affiliations": [
+          "Edward"
+        ]
+      },
+      {
+        "name": "Xu",
+        "affiliations": []
+      },
+      {
+        "name": "Dongxin Li",
+        "affiliations": []
+      },
+      {
+        "name": "Gwen Yidou-Weng",
+        "affiliations": []
+      },
+      {
+        "name": "Guy Van den Broeck",
+        "affiliations": []
+      },
+      {
+        "name": "Wei Wang",
+        "affiliations": []
+      },
+      {
+        "name": "Anji Liu",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [
+      "Edward"
+    ],
+    "published": "2026-09-28",
+    "updated": "2026-09-28",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2609.35924",
+    "pdfUrl": "https://arxiv.org/pdf/2609.35924",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neural-symbolic"
+      ]
+    }
+  },
   {
     "id": "2609.33547",
     "title": "Neuro-Symbolic Indirect-Call Analysis under Opaque Pointers",
@@ -60,7 +367,7 @@ globalThis.ARXIV_PAPERS = [
     ],
     "affiliations": [],
     "published": "2026-09-27",
-    "updated": "2026-09-27",
+    "updated": "2026-09-30",
     "categories": [
       "cs.SE",
       "cs.PL"
@@ -256,6 +563,48 @@ globalThis.ARXIV_PAPERS = [
       "title": [],
       "abstract": [
         "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2609.35833",
+    "title": "Neurosymbolic Routing for Reliable Reasoning on Resource-Constrained Edge Devices",
+    "abstract": "Running a language model on edge hardware provides private and low-latency reasoning without a network connection, and yet the small models that fit on such devices are unreliable on the tasks computers are expected to handle well, such as arithmetic, algebra, and formal logic problems. We argue that much of this unreliability is avoidable. Many queries appearing to demand reasoning are in fact structurally deterministic and permit fast and exact symbolic solutions. Therefore, forcing a probabilistic model to approximate them sacrifices accuracy and energy for little benefit. We present a neurosymbolic router that classifies each incoming query and dispatches it to the cheapest correct solver, sending structured tasks to deterministic engines and reserving the small language model (SLM) for open-ended word problems. Instead of hand-coding the routing logic, we learn a deterministic finite automaton (DFA) with the L* grammatical inference algorithm, using the SLM as a membership oracle and labeled data as an equivalence oracle. On a Raspberry Pi 4B (8 GB RAM, no GPU), evaluated on 100 untested prompts from DeepMind Mathematics, GSM8K, and RuleTaker, learned routing attains 100% routing accuracy and 98.3% overall accuracy with a 512-token reasoning budget (93.3% on word problems), compared with 72.0% for the strongest agent baseline, Program-of-Thought, and 58.7% for a tool-calling agent given the same solvers. Since formatted queries never reach the model, the router answers them in 1-11 ms and, in its 30-token configuration, runs 8.8x faster and 2.8x more energy-efficient than Program-of-Thought.",
+    "authors": [
+      "Avyay Sadhu",
+      "Alvaro Velasquez",
+      "Lekai Chen"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Avyay Sadhu",
+        "affiliations": []
+      },
+      {
+        "name": "Alvaro Velasquez",
+        "affiliations": []
+      },
+      {
+        "name": "Lekai Chen",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-09-24",
+    "updated": "2026-09-24",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2609.35833",
+    "pdfUrl": "https://arxiv.org/pdf/2609.35833",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
       ]
     }
   },
