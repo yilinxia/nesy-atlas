@@ -2536,5 +2536,32 @@
     "sourceUrl": "https://www.kognitos.com/blog/",
     "discovered": "2026-09-30",
     "status": "needs-review"
+  },
+  {
+    "company": "DaaX",
+    "title": "Why Verification Is AI's Next Category",
+    "date": "2026-10-01",
+    "url": "https://daax.ai/blog/why-verification-is-ais-next-category",
+    "sourceUrl": "https://daax.ai/blog",
+    "discovered": "2026-10-01",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Finance 10.01.2026 SaaS Management: The Deadline That Matters Isn’t the Renewal Date Read",
+    "date": "2026-10-01",
+    "url": "https://www.kognitos.com/blog/saas-management/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-10-01",
+    "status": "needs-review"
+  },
+  {
+    "company": "UnlikelyAI",
+    "title": "Sep 30, 2026 Blog Bringing AI to audit checklists without bringing new risk When you can't trust AI's answers, you check them again and the time saved disappears. Here is the bar audit checklist automation has to clear, and how neurosymbolic AI meets it. Maria Kuroedova",
+    "date": "2026-09-30",
+    "url": "https://www.unlikely.ai/newsroom/bringing-ai-to-audit-checklists-without-bringing-new-risk",
+    "sourceUrl": "https://www.unlikely.ai/newsroom",
+    "discovered": "2026-10-01",
+    "status": "needs-review"
   }
 ]
