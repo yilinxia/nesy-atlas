@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-10-01T17:52:18.530Z",
-  "cursorAt": "2026-10-01T17:52:18.530Z",
+  "generatedAt": "2026-10-02T17:16:05.201Z",
+  "cursorAt": "2026-10-02T17:16:05.201Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-09-27T16:14:04.769Z",
   "keywords": [
@@ -15,11 +15,69 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-09-29T17:28:32.919Z",
-  "windowStart": "2026-09-22T17:28:32.919Z",
+  "previousSnapshotAt": "2026-10-01T17:52:18.530Z",
+  "windowStart": "2026-09-24T17:52:18.530Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2610.01519",
+    "title": "Auto-Formalizing Neuro-Symbolic Predictors",
+    "abstract": "Neuro-Symbolic (NeSy) predictors incorporate prior knowledge into the prediction process of neural networks, ensuring that outputs satisfy specified constraints, making them particularly suitable for high-stakes applications where compliance with domain knowledge is essential. A key bottleneck in this paradigm is the acquisition of symbolic constraints: encoding domain knowledge into logical formulas remains a manual and expert-intensive process. In this work, we investigate the extent to which auto-formalization via LLMs can systematically translate textual knowledge into symbolic knowledge that can be plugged into NeSy predictors. To this end, we introduce auto-nesy-bench, a new benchmark for evaluating constraint formalization and its impact on downstream accuracy of NeSy predictors. Through an extensive evaluation across several domains, we find that LLMs can formalize constraints to a meaningful extent, generating formulas that are often similar to those provided by human experts. Moreover, when the generated formulas are syntactically valid, they can lead to high-quality downstream predictions. The code and benchmark are available at https://unitn-sml.github.io/auto-nesy-bench/.",
+    "authors": [
+      "Samuele Bortolotti",
+      "Weixin Chen",
+      "Han Zhao",
+      "Andrea Passerini",
+      "Stefano Teso",
+      "Antonio Vergari"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Samuele Bortolotti",
+        "affiliations": []
+      },
+      {
+        "name": "Weixin Chen",
+        "affiliations": []
+      },
+      {
+        "name": "Han Zhao",
+        "affiliations": []
+      },
+      {
+        "name": "Andrea Passerini",
+        "affiliations": []
+      },
+      {
+        "name": "Stefano Teso",
+        "affiliations": []
+      },
+      {
+        "name": "Antonio Vergari",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-01",
+    "updated": "2026-10-01",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2610.01519",
+    "pdfUrl": "https://arxiv.org/pdf/2610.01519",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic",
+        "NeSy"
+      ]
+    }
+  },
   {
     "id": "2609.40131",
     "title": "Prototype-Rule Neurosymbolic Regularization for Rank-Constrained Tensor Neural Networks under Label Scarcity",
@@ -367,7 +425,7 @@ globalThis.ARXIV_PAPERS = [
     ],
     "affiliations": [],
     "published": "2026-09-27",
-    "updated": "2026-09-30",
+    "updated": "2026-10-01",
     "categories": [
       "cs.SE",
       "cs.PL"
