@@ -2563,5 +2563,32 @@
     "sourceUrl": "https://www.unlikely.ai/newsroom",
     "discovered": "2026-10-01",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Supply Chain 10.01.2026 Reverse Logistics: The Goods Come Back. The Money Often Doesn’t. Read",
+    "date": "2026-10-01",
+    "url": "https://www.kognitos.com/blog/reverse-logistics/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-10-02",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Technology 10.01.2026 IT Asset Management: Discovery Solves Half the Problem Read",
+    "date": "2026-10-01",
+    "url": "https://www.kognitos.com/blog/it-asset-management/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-10-02",
+    "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "Transforming the Workflow into a Learning Engine",
+    "date": "2026-10-01",
+    "url": "https://www.uniphore.com/blog/transforming-the-workflow-into-a-learning-engine/",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-10-02",
+    "status": "needs-review"
   }
 ]
