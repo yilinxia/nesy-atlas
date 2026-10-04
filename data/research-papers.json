@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T15:34:29.279Z",
+  "generatedAt": "2026-10-04T16:18:57.106Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -673,19 +673,6 @@
         ]
       },
       {
-        "id": "author:a2ed4c022c2e1262",
-        "name": "Xujie Si",
-        "aliases": [
-          "Xujie Si"
-        ],
-        "paperCount": 9,
-        "institutionIds": [
-          "institution:308cc32aff97f3d9",
-          "institution:6a892bbe4ee57122",
-          "institution:f138c3615bfbd805"
-        ]
-      },
-      {
         "id": "author:081afe9977fe80fb",
         "name": "Zhi Zhou",
         "aliases": [
@@ -866,6 +853,19 @@
         "paperCount": 8,
         "institutionIds": [
           "institution:323e7eabc230aa6a"
+        ]
+      },
+      {
+        "id": "author:a2ed4c022c2e1262",
+        "name": "Xujie Si",
+        "aliases": [
+          "Xujie Si"
+        ],
+        "paperCount": 8,
+        "institutionIds": [
+          "institution:308cc32aff97f3d9",
+          "institution:6a892bbe4ee57122",
+          "institution:f138c3615bfbd805"
         ]
       },
       {
@@ -1939,6 +1939,17 @@
         ]
       },
       {
+        "id": "author:ae0e9e1d75a89d01",
+        "name": "Xiaowei Huang",
+        "aliases": [
+          "Xiaowei Huang"
+        ],
+        "paperCount": 5,
+        "institutionIds": [
+          "institution:6897907a26009a77"
+        ]
+      },
+      {
         "id": "author:adf208fb9e07dd95",
         "name": "Yangqiu Song",
         "aliases": [
@@ -2393,6 +2404,15 @@
           "institution:8cc41e1a54d82744",
           "institution:9ed23c2db75b5eee"
         ]
+      },
+      {
+        "id": "author:27151c73b1c735ab",
+        "name": "Jinwei Hu",
+        "aliases": [
+          "Jinwei Hu"
+        ],
+        "paperCount": 4,
+        "institutionIds": []
       },
       {
         "id": "author:202de17d3b433a73",
@@ -2937,17 +2957,6 @@
         ]
       },
       {
-        "id": "author:ae0e9e1d75a89d01",
-        "name": "Xiaowei Huang",
-        "aliases": [
-          "Xiaowei Huang"
-        ],
-        "paperCount": 4,
-        "institutionIds": [
-          "institution:6897907a26009a77"
-        ]
-      },
-      {
         "id": "author:411554832773622a",
         "name": "Xuyao Feng",
         "aliases": [
@@ -2991,6 +3000,18 @@
           "institution:320d597682ed208c",
           "institution:c111feb812f1a7ed",
           "institution:c5235efb76365de2"
+        ]
+      },
+      {
+        "id": "author:178e1a97ea0d570a",
+        "name": "Yi Dong",
+        "aliases": [
+          "Yi DONG",
+          "Yi Dong"
+        ],
+        "paperCount": 4,
+        "institutionIds": [
+          "institution:6897907a26009a77"
         ]
       },
       {
@@ -3414,18 +3435,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:949fd28f237c11d9",
-        "name": "Chuqin Geng",
-        "aliases": [
-          "Chuqin Geng"
-        ],
-        "paperCount": 3,
-        "institutionIds": [
-          "institution:6a892bbe4ee57122",
-          "institution:f138c3615bfbd805"
-        ]
-      },
-      {
         "id": "author:1b36fd1adad574c6",
         "name": "Claudiu Leoveanu-Condrei",
         "aliases": [
@@ -3837,18 +3846,6 @@
         ]
       },
       {
-        "id": "author:7b1e5067475e6c07",
-        "name": "Haolin Ye",
-        "aliases": [
-          "Haolin Ye"
-        ],
-        "paperCount": 3,
-        "institutionIds": [
-          "institution:6a892bbe4ee57122",
-          "institution:f138c3615bfbd805"
-        ]
-      },
-      {
         "id": "author:5b4cd8f3d763ab14",
         "name": "Haozhe Lei",
         "aliases": [
@@ -4116,15 +4113,6 @@
         "institutionIds": [
           "institution:323e7eabc230aa6a"
         ]
-      },
-      {
-        "id": "author:27151c73b1c735ab",
-        "name": "Jinwei Hu",
-        "aliases": [
-          "Jinwei Hu"
-        ],
-        "paperCount": 3,
-        "institutionIds": []
       },
       {
         "id": "author:466457775690397b",
@@ -5554,18 +5542,6 @@
         ]
       },
       {
-        "id": "author:178e1a97ea0d570a",
-        "name": "Yi Dong",
-        "aliases": [
-          "Yi DONG",
-          "Yi Dong"
-        ],
-        "paperCount": 3,
-        "institutionIds": [
-          "institution:6897907a26009a77"
-        ]
-      },
-      {
         "id": "author:c6b4efb246c21830",
         "name": "Yi Qi",
         "aliases": [
@@ -5701,18 +5677,6 @@
         "institutionIds": [
           "institution:02e0cb0a82c051ec",
           "institution:4a7d3f60b04f6fc0"
-        ]
-      },
-      {
-        "id": "author:c211828c0653bffb",
-        "name": "Ziyu Zhao",
-        "aliases": [
-          "Ziyu Zhao"
-        ],
-        "paperCount": 3,
-        "institutionIds": [
-          "institution:6a892bbe4ee57122",
-          "institution:f138c3615bfbd805"
         ]
       },
       {
@@ -6771,6 +6735,18 @@
         ]
       },
       {
+        "id": "author:15b4f2439c75db29",
+        "name": "Changshun Wu",
+        "aliases": [
+          "Changshun Wu"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:6897907a26009a77",
+          "institution:cbfd83f30ca739fd"
+        ]
+      },
+      {
         "id": "author:2b3ece17de9c8d57",
         "name": "Changyu Gao",
         "aliases": [
@@ -6926,6 +6902,18 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:323e7eabc230aa6a"
+        ]
+      },
+      {
+        "id": "author:949fd28f237c11d9",
+        "name": "Chuqin Geng",
+        "aliases": [
+          "Chuqin Geng"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:6a892bbe4ee57122",
+          "institution:f138c3615bfbd805"
         ]
       },
       {
@@ -7963,6 +7951,18 @@
         ]
       },
       {
+        "id": "author:7b1e5067475e6c07",
+        "name": "Haolin Ye",
+        "aliases": [
+          "Haolin Ye"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:6a892bbe4ee57122",
+          "institution:f138c3615bfbd805"
+        ]
+      },
+      {
         "id": "author:19ff9f82cf0ffc04",
         "name": "Haoran Li",
         "aliases": [
@@ -8971,15 +8971,6 @@
         "name": "Lekai Chen",
         "aliases": [
           "Lekai Chen"
-        ],
-        "paperCount": 2,
-        "institutionIds": []
-      },
-      {
-        "id": "author:a741582a5479004d",
-        "name": "Li Zhang",
-        "aliases": [
-          "Li Zhang"
         ],
         "paperCount": 2,
         "institutionIds": []
@@ -12750,18 +12741,6 @@
         ]
       },
       {
-        "id": "author:baea01f7cc5901e9",
-        "name": "Yuhe Jiang",
-        "aliases": [
-          "Yuhe Jiang"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:6a892bbe4ee57122",
-          "institution:f138c3615bfbd805"
-        ]
-      },
-      {
         "id": "author:02508dabc6b1aea2",
         "name": "Yuntian Liu",
         "aliases": [
@@ -13122,6 +13101,18 @@
           "institution:cb0a5a73b1a1100d",
           "institution:f0727e8bcee3561f",
           "institution:fccd5d0ac9cc52f9"
+        ]
+      },
+      {
+        "id": "author:c211828c0653bffb",
+        "name": "Ziyu Zhao",
+        "aliases": [
+          "Ziyu Zhao"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:6a892bbe4ee57122",
+          "institution:f138c3615bfbd805"
         ]
       },
       {
@@ -16899,15 +16890,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:0f427051db24634f",
-        "name": "Anqi Xing",
-        "aliases": [
-          "Anqi Xing"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:0c19d1f325803006",
         "name": "Anrui Han",
         "aliases": [
@@ -20311,18 +20293,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:15b4f2439c75db29",
-        "name": "Changshun Wu",
-        "aliases": [
-          "Changshun Wu"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:6897907a26009a77",
-          "institution:cbfd83f30ca739fd"
-        ]
       },
       {
         "id": "author:839dcd8c9cd186af",
@@ -38281,6 +38251,15 @@
         ]
       },
       {
+        "id": "author:a741582a5479004d",
+        "name": "Li Zhang",
+        "aliases": [
+          "Li Zhang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:cd4e1f0a5358ff48",
         "name": "Li-Jen Chen",
         "aliases": [
@@ -48530,6 +48509,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:e1db993bdd653f79",
+        "name": "Qisong He",
+        "aliases": [
+          "Qisong He"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:62ab611a165c2511",
         "name": "Qitong Chu",
         "aliases": [
@@ -48998,6 +48986,15 @@
         "name": "Rajarshi Mazumder",
         "aliases": [
           "Rajarshi Mazumder"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:a0fe4504dc945680",
+        "name": "Rajarshi Roy",
+        "aliases": [
+          "Rajarshi Roy"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -60582,6 +60579,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:587871a433350fc0",
+        "name": "Xinmiao Huang",
+        "aliases": [
+          "Xinmiao Huang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:0966f967f7b617c5",
         "name": "Xinmin Fang",
         "aliases": [
@@ -64223,6 +64229,18 @@
         ],
         "paperCount": 1,
         "institutionIds": []
+      },
+      {
+        "id": "author:baea01f7cc5901e9",
+        "name": "Yuhe Jiang",
+        "aliases": [
+          "Yuhe Jiang"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:6a892bbe4ee57122",
+          "institution:f138c3615bfbd805"
+        ]
       },
       {
         "id": "author:bd7e3a05d8ce207e",
@@ -145094,8 +145112,8 @@
     },
     {
       "id": "2602.16954",
-      "title": "Neural Proposals, Symbolic Guarantees: Neuro-Symbolic Graph Generation with Hard Constraints",
-      "abstract": "We challenge black-box purely deep neural approaches for molecules and graph generation, which are limited in controllability and lack formal guarantees. We introduce Neuro-Symbolic Graph Generative Modeling (NSGGM), a neurosymbolic framework that reapproaches molecule generation as a scaffold and interaction learning task with symbolic assembly. An autoregressive neural model proposes scaffolds and refines interaction signals, and a CPU-efficient SMT solver constructs full graphs while enforcing chemical validity, structural rules, and user-specific constraints, yielding molecules that are correct by construction and interpretable control that pure neural methods cannot provide. NSGGM delivers strong performance on both unconstrained generation and constrained generation tasks, demonstrating that neuro-symbolic modeling can match state-of-the-art generative performance while offering explicit controllability and guarantees. To evaluate more nuanced controllability, we also introduce a Logical-Constraint Molecular Benchmark, designed to test strict hard-rule satisfaction in workflows that require explicit, interpretable specifications together with verifiable compliance.",
+      "title": "Neural Proposals, Symbolic Guarantees: Neuro-Symbolic Graph Generative Modeling",
+      "abstract": "While deep generative models excel at capturing graph data distributions, they struggle to satisfy complex, hard constraints. In unconstrained settings, these models typically produce valid topologies; yet imposing strict compositional rules, like those in drug discovery, creates an out-of-distribution (OOD) setting where purely neural methods frequently fail. Because these neural approaches rely on soft conditioning and post-hoc filtering on such tasks, they cannot provide the formal guarantees needed for high-stakes domains. To address this, we introduce Neuro-Symbolic Graph Generative Modeling (NSGGM), a framework built on the principle of Neural Proposals, Symbolic Guarantees. NSGGM decouples generation: an autoregressive model proposes structural scaffolds, and a Satisfiability Modulo Theories (SMT) solver handles the final discrete assembly of the proposed substructures. Empirically, NSGGM is competitive with state-of-the-art methods on unconstrained tasks. To evaluate logical-constraint satisfaction inspired by real drug discovery workflows, we introduce MolSAT, a benchmark for hard compositional rules. On MolSAT, purely neural baselines completely fail OOD (0% satisfaction with zero training support), while NSGGM achieves >95% satisfaction in-distribution and 64-86% with zero training support.",
       "authors": [
         "Chuqin Geng",
         "Li Zhang",
@@ -145151,6 +145169,14 @@
           "affiliations": [],
           "affiliationEntityIds": [],
           "rawName": "Xujie Si",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zhaoyue Wang",
+          "authorEntityId": "author:dd73caf68776c9d7",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zhaoyue Wang",
           "rawAffiliations": []
         }
       ],
@@ -145227,6 +145253,10 @@
         },
         {
           "name": "Xujie Si",
+          "affiliations": []
+        },
+        {
+          "name": "Zhaoyue Wang",
           "affiliations": []
         }
       ]
@@ -159765,8 +159795,8 @@
     },
     {
       "id": "2601.05280",
-      "title": "Large Language Models As Shannon Lossy Compressors Not Solomonoff Induction Estimators: The Singularity Is Not Near Without Symbolic Model Synthesis",
-      "abstract": "On the one hand, the question of whether Large Language Models (LLMs) are Solomonoff induction estimators has become an explicit question at the intersection of Algorithmic Information Theory (AIT) and Machine Learning (ML) of great interest. On the other hand, the now old idea of an AI Singularity that requires a reliable positive-feedback process in which a system can generate, evaluate and retain genuine improvements to itself continues to come up and is a recurrent concept in the discussion of AGI. We connect and provide some answers to these issues based on current assumptions and future developments of neurosymbolic ML. We will demonstrate that cross-entropy, negative log-likelihood and cognate next-token objectives do not or cannot, by themselves, implement Solomonoff induction: they optimise fit to a supplied conditional distribution rather than a program-weighted universal mixture. While more compute within a fixed objective can improve fit without changing the inductive principle, additional computational resources do not intrinsically without external hyper-parameter or architectural changes, behave as optimal predictors in the Solomonoff and Levin sense. While the data-processing inequality (DPI) and Levin non-growth remain valid, we will show that for finite learners and finite observers, theoretical boundaries have less relevancy and generate a drift between possible approaches. To this end, we interpret different resource-bounded estimators as finite tools for mechanism search that show divergence, not violation, of (algorithmic) information conservation laws. A neurosymbolic approach is already being taken and adopted by current frontier-model developers, including models like Fable and Astra, embracing aspects of model synthesis through symbolic computation and cannot longer be considered purely statistical LLMs.",
+      "title": "Large Language Models are Shannon Lossy Compressors Not Solomonoff Induction Estimators: Self-improvement and Singularity Are Not Near Without Symbolic Model Synthesis",
+      "abstract": "We connect two questions in Algorithmic Information Theory (AIT), Machine Learning (ML) and Artificial General Intelligence (AGI): whether LLMs estimate Solomonoff induction, and whether they can self-improve towards an AI Singularity. We provide theoretical, methodological and empirical answers in the negative but show how limits can be circumvented. Cross-entropy, negative log-likelihood and related next-token objectives cannot alone implement Solomonoff induction: they fit supplied conditionals rather than a program-weighted universal mixture. More computation can improve fit within a fixed objective but cannot change its inductive principle without external hyperparameter or architectural tuning; they alone do not deliver Solomonoff-Levin optimal prediction. For finite learners and observers, theoretical boundaries become less decisive and approaches diverge. Resource-bounded estimators are finite mechanism-search tools whose divergence does not violate algorithmic information conservation. All 26 served language-model checkpoints across five pre-training families, 0.8-35 billion parameters and 1.9-8.5 bits per weight, evaluated at their commitments over a closed alphabet, violate the dominance guarantee defining a universal mixture. Against a 3.32-bit bound attained by a genuine mixture, the best model trails a Krichevsky-Trofimov code by 4.5 bits, the median by 36 and the worst by 128; excess grows to every stream's end rather than settling to a constant. Served conditionals fail to form a mixture over the declared class in 79 of 91 checkpoint-designs; neither scale nor post-training closes the gap. Frontier developers adopt neurosymbolic approaches, including Fable and Astra, incorporating model synthesis via neurosymbolic computation. They are no longer purely statistical LLMs, making them better, though still limited, candidates for higher forms of induction & model synthesis.",
       "authors": [
         "Hector Zenil"
       ],
@@ -212190,7 +212220,7 @@
     },
     {
       "id": "2505.06191",
-      "title": "Neuro-Symbolic Concepts",
+      "title": "Building Intelligent Agents with Neuro-Symbolic Concepts",
       "abstract": "This article presents a concept-centric paradigm for building agents that can learn continually and reason flexibly. The concept-centric agent utilizes a vocabulary of neuro-symbolic concepts. These concepts, such as object, relation, and action concepts, are grounded on sensory inputs and actuation outputs. They are also compositional, allowing for the creation of novel concepts through their structural combination. To facilitate learning and reasoning, the concepts are typed and represented using a combination of symbolic programs and neural network representations. Leveraging such neuro-symbolic concepts, the agent can efficiently learn and recombine them to solve various tasks across different domains, ranging from 2D images, videos, 3D scenes, and robotic manipulation tasks. This concept-centric framework offers several advantages, including data efficiency, compositional generalization, continual learning, and zero-shot transfer.",
       "authors": [
         "Jiayuan Mao",
@@ -222058,159 +222088,6 @@
         },
         {
           "name": "Abu Sebastian",
-          "affiliations": []
-        }
-      ]
-    },
-    {
-      "id": "2503.10547",
-      "title": "VISIONLOGIC: From Neuron Activations to Causally Grounded Concept Rules for Vision Models",
-      "abstract": "While concept-based explanations improve interpretability over local attributions, they often rely on correlational signals and lack causal validation. We introduce VisionLogic, a novel neural-symbolic framework that produces faithful, hierarchical explanations as global logical rules over causally validated concepts. VisionLogic first learns activation thresholds that abstract neuron activations into predicates, then induces class-level logical rules from these predicates. It then grounds predicates to visual concepts via ablation-based causal tests with iterative region refinement, ensuring that discovered concepts correspond to features that are causal for predicate activation. Across different vision architectures such as CNNs and ViTs, it produces interpretable concepts and compact rules that largely preserve the original model's predictive performance. In our large-scale human evaluations, VisionLogic's concept explanations significantly improve participants' understanding of model behavior over prior concept-based methods.",
-      "authors": [
-        "Chuqin Geng",
-        "Yuhe Jiang",
-        "Ziyu Zhao",
-        "Haolin Ye",
-        "Anqi Xing",
-        "Li Zhang",
-        "Xujie Si"
-      ],
-      "authorAffiliations": [
-        {
-          "name": "Chuqin Geng",
-          "authorEntityId": "author:949fd28f237c11d9",
-          "affiliations": [],
-          "affiliationEntityIds": [],
-          "rawName": "Chuqin Geng",
-          "rawAffiliations": []
-        },
-        {
-          "name": "Yuhe Jiang",
-          "authorEntityId": "author:baea01f7cc5901e9",
-          "affiliations": [],
-          "affiliationEntityIds": [],
-          "rawName": "Yuhe Jiang",
-          "rawAffiliations": []
-        },
-        {
-          "name": "Ziyu Zhao",
-          "authorEntityId": "author:c211828c0653bffb",
-          "affiliations": [],
-          "affiliationEntityIds": [],
-          "rawName": "Ziyu Zhao",
-          "rawAffiliations": []
-        },
-        {
-          "name": "Haolin Ye",
-          "authorEntityId": "author:7b1e5067475e6c07",
-          "affiliations": [],
-          "affiliationEntityIds": [],
-          "rawName": "Haolin Ye",
-          "rawAffiliations": []
-        },
-        {
-          "name": "Anqi Xing",
-          "authorEntityId": "author:0f427051db24634f",
-          "affiliations": [],
-          "affiliationEntityIds": [],
-          "rawName": "Anqi Xing",
-          "rawAffiliations": []
-        },
-        {
-          "name": "Li Zhang",
-          "authorEntityId": "author:a741582a5479004d",
-          "affiliations": [],
-          "affiliationEntityIds": [],
-          "rawName": "Li Zhang",
-          "rawAffiliations": []
-        },
-        {
-          "name": "Xujie Si",
-          "authorEntityId": "author:a2ed4c022c2e1262",
-          "affiliations": [],
-          "affiliationEntityIds": [],
-          "rawName": "Xujie Si",
-          "rawAffiliations": []
-        }
-      ],
-      "authorIds": [],
-      "affiliations": [],
-      "keywords": [
-        "neural-symbolic"
-      ],
-      "categories": [
-        "cs.CV"
-      ],
-      "venue": "arXiv",
-      "conference": "",
-      "year": 2025,
-      "published": "2025-03-13",
-      "url": "https://arxiv.org/abs/2503.10547",
-      "pdfUrl": "https://arxiv.org/pdf/2503.10547",
-      "doi": "",
-      "doiUrl": "",
-      "arxivId": "2503.10547",
-      "primaryArea": "",
-      "paperType": "",
-      "tldr": "",
-      "award": "",
-      "sourceType": "arxiv",
-      "sourceIds": [
-        "arxiv-keywords"
-      ],
-      "resolutionStatus": "source-pdf",
-      "resolutionMethod": "",
-      "resolvedArxivUrl": "",
-      "metadataComplete": false,
-      "extractionStatus": "extracted",
-      "entityId": "paper:5141da7b452ebd9b",
-      "rawAffiliations": [],
-      "affiliationEntityIds": [],
-      "rawAuthors": [
-        "Chuqin Geng",
-        "Yuhe Jiang",
-        "Ziyu Zhao",
-        "Haolin Ye",
-        "Anqi Xing",
-        "Li Zhang",
-        "Xujie Si"
-      ],
-      "authorEntityIds": [
-        "author:949fd28f237c11d9",
-        "author:baea01f7cc5901e9",
-        "author:c211828c0653bffb",
-        "author:7b1e5067475e6c07",
-        "author:0f427051db24634f",
-        "author:a741582a5479004d",
-        "author:a2ed4c022c2e1262"
-      ],
-      "rawAuthorAffiliations": [
-        {
-          "name": "Chuqin Geng",
-          "affiliations": []
-        },
-        {
-          "name": "Yuhe Jiang",
-          "affiliations": []
-        },
-        {
-          "name": "Ziyu Zhao",
-          "affiliations": []
-        },
-        {
-          "name": "Haolin Ye",
-          "affiliations": []
-        },
-        {
-          "name": "Anqi Xing",
-          "affiliations": []
-        },
-        {
-          "name": "Li Zhang",
-          "affiliations": []
-        },
-        {
-          "name": "Xujie Si",
           "affiliations": []
         }
       ]
@@ -374429,6 +374306,159 @@
         },
         {
           "name": "Antonio Vergari",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2605.06455",
+      "title": "PrefixGuard: Online Failure Warning and Trace-Grounded Diagnosis for LLM Agents",
+      "abstract": "Large language model (LLM) agents execute multi-step tasks, but terminal verdicts arrive too late for intervention. Agent traces mix messages, tool calls, and feedback, making it difficult to learn failure signals from terminal outcomes. Even if a model learns to predict failure from execution prefixes, its predictions alone cannot show which actions, feedback, or unmet conditions need inspection. Existing work studies online failure prediction and diagnosis from completed trajectories, yet few methods connect timely warning to a compact symbolic model of execution behavior. We introduce \\textbf{PrefixGuard}, a neuro-symbolic method that uses learned events to connect online failure warning with finite-state execution diagnosis. A gated recurrent unit (GRU) predicts horizon-specific failure risk from these events. A deterministic finite automaton (DFA) organizes their histories into compact risk-labeled paths for replay and rule-monitor composition. Across all 24 benchmark--horizon settings, PrefixGuard exceeds the strongest evaluated baseline in mean test area under the precision--recall curve (AUPRC). Average gains range from 12.0 to 21.9 percentage points. At a nominal 10\\% FAR budget, averaged test recall spans 56.1\\%--93.0\\% across benchmarks. On one frozen $τ^2$-Bench DFA, model checking five specifications identifies violations in 21 of 265 benchmark-successful runs.",
+      "authors": [
+        "Xinmiao Huang",
+        "Jinwei Hu",
+        "Qisong He",
+        "Rajarshi Roy",
+        "Changshun Wu",
+        "Yi Dong",
+        "Xiaowei Huang"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Xinmiao Huang",
+          "authorEntityId": "author:587871a433350fc0",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xinmiao Huang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jinwei Hu",
+          "authorEntityId": "author:27151c73b1c735ab",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jinwei Hu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Qisong He",
+          "authorEntityId": "author:e1db993bdd653f79",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Qisong He",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Rajarshi Roy",
+          "authorEntityId": "author:a0fe4504dc945680",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Rajarshi Roy",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Changshun Wu",
+          "authorEntityId": "author:15b4f2439c75db29",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Changshun Wu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yi Dong",
+          "authorEntityId": "author:178e1a97ea0d570a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yi Dong",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xiaowei Huang",
+          "authorEntityId": "author:ae0e9e1d75a89d01",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xiaowei Huang",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-05-07",
+      "url": "https://arxiv.org/abs/2605.06455",
+      "pdfUrl": "https://arxiv.org/pdf/2605.06455",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2605.06455",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:9585121407c286b0",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Xinmiao Huang",
+        "Jinwei Hu",
+        "Qisong He",
+        "Rajarshi Roy",
+        "Changshun Wu",
+        "Yi Dong",
+        "Xiaowei Huang"
+      ],
+      "authorEntityIds": [
+        "author:587871a433350fc0",
+        "author:27151c73b1c735ab",
+        "author:e1db993bdd653f79",
+        "author:a0fe4504dc945680",
+        "author:15b4f2439c75db29",
+        "author:178e1a97ea0d570a",
+        "author:ae0e9e1d75a89d01"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Xinmiao Huang",
+          "affiliations": []
+        },
+        {
+          "name": "Jinwei Hu",
+          "affiliations": []
+        },
+        {
+          "name": "Qisong He",
+          "affiliations": []
+        },
+        {
+          "name": "Rajarshi Roy",
+          "affiliations": []
+        },
+        {
+          "name": "Changshun Wu",
+          "affiliations": []
+        },
+        {
+          "name": "Yi Dong",
+          "affiliations": []
+        },
+        {
+          "name": "Xiaowei Huang",
           "affiliations": []
         }
       ]
