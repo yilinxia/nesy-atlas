@@ -2590,5 +2590,32 @@
     "sourceUrl": "https://www.uniphore.com/blog/",
     "discovered": "2026-10-02",
     "status": "needs-review"
+  },
+  {
+    "company": "Imandra",
+    "title": "Formalising the FIX Protocol in Imandra ### Financial markets run on many distributed systems – interconnected with multiple loosely-specified protocols such as FIX, SWIFT and ITCH…",
+    "date": "2018-06-19",
+    "url": "https://medium.com/imandra/formalising-the-fix-protocol-in-imandra-c976ed390159",
+    "sourceUrl": "https://medium.com/imandra",
+    "discovered": "2026-10-04",
+    "status": "needs-review"
+  },
+  {
+    "company": "Imandra",
+    "title": "Machine Reasonable APIs and Regulations ### Our world runs on many distributed systems. This is especially true of financial markets – an industry plagued by expensive inefficiencies…",
+    "date": "2018-04-05",
+    "url": "https://medium.com/imandra/machine-reasonable-apis-and-regulations-20f29e1bd4cf",
+    "sourceUrl": "https://medium.com/imandra",
+    "discovered": "2026-10-04",
+    "status": "needs-review"
+  },
+  {
+    "company": "Imandra",
+    "title": "The IEX Auction: Pursuing Greater Clarity ### Today, the behaviour of most complex financial systems such as stock exchanges, alternative trading systems (dark pools) and smart order…",
+    "date": "2017-12-22",
+    "url": "https://medium.com/imandra/the-iex-auction-pursuing-greater-clarity-481172789d64",
+    "sourceUrl": "https://medium.com/imandra",
+    "discovered": "2026-10-04",
+    "status": "needs-review"
   }
 ]
