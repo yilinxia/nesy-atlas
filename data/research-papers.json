@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T16:18:57.106Z",
+  "generatedAt": "2026-10-06T17:46:09.095Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,8 +13,8 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1827,
-  "completeMetadataCount": 1371,
+  "paperCount": 1836,
+  "completeMetadataCount": 1372,
   "sources": [
     {
       "id": "arxiv-keywords",
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1522
+      "count": 1531
     },
     {
       "id": "nesy-proceedings",
@@ -1065,6 +1065,17 @@
         ]
       },
       {
+        "id": "author:c7d2cd3aab4d8cc8",
+        "name": "Zhaoyu Li",
+        "aliases": [
+          "Zhaoyu Li"
+        ],
+        "paperCount": 7,
+        "institutionIds": [
+          "institution:6a892bbe4ee57122"
+        ]
+      },
+      {
         "id": "author:9d03aabda2981e81",
         "name": "Alessandro Daniele",
         "aliases": [
@@ -1434,17 +1445,6 @@
         "paperCount": 6,
         "institutionIds": [
           "institution:4f85329e76bc9454"
-        ]
-      },
-      {
-        "id": "author:c7d2cd3aab4d8cc8",
-        "name": "Zhaoyu Li",
-        "aliases": [
-          "Zhaoyu Li"
-        ],
-        "paperCount": 6,
-        "institutionIds": [
-          "institution:6a892bbe4ee57122"
         ]
       },
       {
@@ -2684,6 +2684,17 @@
         ]
       },
       {
+        "id": "author:54334a466a63f1f6",
+        "name": "Qiufeng Wang",
+        "aliases": [
+          "Qiufeng Wang"
+        ],
+        "paperCount": 4,
+        "institutionIds": [
+          "institution:e55ffcb7148588f3"
+        ]
+      },
+      {
         "id": "author:62b6ddec853c043e",
         "name": "Quanyan Zhu",
         "aliases": [
@@ -2724,6 +2735,17 @@
         "paperCount": 4,
         "institutionIds": [
           "institution:8af390e38bab9df5"
+        ]
+      },
+      {
+        "id": "author:d21b420a1506710a",
+        "name": "Ruoran Xu",
+        "aliases": [
+          "Ruoran Xu"
+        ],
+        "paperCount": 4,
+        "institutionIds": [
+          "institution:e55ffcb7148588f3"
         ]
       },
       {
@@ -4379,6 +4401,23 @@
         ]
       },
       {
+        "id": "author:3c7e4fc6c0297717",
+        "name": "Luisa Sophie Werner",
+        "aliases": [
+          "Luisa Sophie Werner"
+        ],
+        "paperCount": 3,
+        "institutionIds": [
+          "institution:4bd52b63d3d981c9",
+          "institution:5b8a1b1210b50bec",
+          "institution:62481c26d7e9053b",
+          "institution:a5797c66ddbaf964",
+          "institution:a76d3c97c5824bc9",
+          "institution:c079d5742948e22b",
+          "institution:e6405787e8a9312c"
+        ]
+      },
+      {
         "id": "author:d9af9ce255907fb2",
         "name": "Lukas Helff",
         "aliases": [
@@ -4791,17 +4830,6 @@
         ],
         "paperCount": 3,
         "institutionIds": []
-      },
-      {
-        "id": "author:54334a466a63f1f6",
-        "name": "Qiufeng Wang",
-        "aliases": [
-          "Qiufeng Wang"
-        ],
-        "paperCount": 3,
-        "institutionIds": [
-          "institution:e55ffcb7148588f3"
-        ]
       },
       {
         "id": "author:80a04e473f7a031d",
@@ -8003,6 +8031,17 @@
         "institutionIds": []
       },
       {
+        "id": "author:84180664927aab82",
+        "name": "Haoyu Cheng",
+        "aliases": [
+          "Haoyu Cheng"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:e55ffcb7148588f3"
+        ]
+      },
+      {
         "id": "author:4fb0498211d3d099",
         "name": "Haoze Wu",
         "aliases": [
@@ -9168,22 +9207,6 @@
         "institutionIds": [
           "institution:170dfa69b011d41a",
           "institution:6574ebeb7e3e3acf"
-        ]
-      },
-      {
-        "id": "author:3c7e4fc6c0297717",
-        "name": "Luisa Sophie Werner",
-        "aliases": [
-          "Luisa Sophie Werner"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:4bd52b63d3d981c9",
-          "institution:62481c26d7e9053b",
-          "institution:a5797c66ddbaf964",
-          "institution:a76d3c97c5824bc9",
-          "institution:c079d5742948e22b",
-          "institution:e6405787e8a9312c"
         ]
       },
       {
@@ -10624,17 +10647,6 @@
         ]
       },
       {
-        "id": "author:d21b420a1506710a",
-        "name": "Ruoran Xu",
-        "aliases": [
-          "Ruoran Xu"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:e55ffcb7148588f3"
-        ]
-      },
-      {
         "id": "author:e3ab7b04cd0db73b",
         "name": "Rushitha Santhoshi Mamidala",
         "aliases": [
@@ -11985,6 +11997,15 @@
         "name": "Wendi Ren",
         "aliases": [
           "Wendi Ren"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
+      },
+      {
+        "id": "author:0e7f8216f2f1cf10",
+        "name": "Wending Gao",
+        "aliases": [
+          "Wending Gao"
         ],
         "paperCount": 2,
         "institutionIds": []
@@ -14476,6 +14497,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:1203b853da528220",
+        "name": "Akash Das",
+        "aliases": [
+          "Akash Das"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:730fdac7ee1eb477",
         "name": "Akhil Thomas",
         "aliases": [
@@ -14961,6 +14991,15 @@
         ]
       },
       {
+        "id": "author:6c9706605329a681",
+        "name": "Alex Chan",
+        "aliases": [
+          "Alex Chan"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:ac9dbd0ecad1063a",
         "name": "Alex Goessmann",
         "aliases": [
@@ -15008,6 +15047,15 @@
         "name": "Alex Watkins",
         "aliases": [
           "Alex Watkins"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:5f1b842bdffb3086",
+        "name": "Alex Yakovlev",
+        "aliases": [
+          "Alex Yakovlev"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -16682,6 +16730,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:87b3b610737b4992",
+        "name": "Anjiang Wei",
+        "aliases": [
+          "Anjiang Wei"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:79f333f2d0818f47",
         "name": "Ankit Bhattacharjee",
         "aliases": [
@@ -17788,6 +17845,15 @@
         "institutionIds": [
           "institution:c2dab080fa856716"
         ]
+      },
+      {
+        "id": "author:a6159b79ab672976",
+        "name": "Ashraf A. Naji",
+        "aliases": [
+          "Ashraf A. Naji"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:cc50ac90a7cd83ad",
@@ -24158,6 +24224,15 @@
         ]
       },
       {
+        "id": "author:2b4396eddc3e4d01",
+        "name": "Duckham Matt",
+        "aliases": [
+          "Duckham Matt"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:b1b30ca45f78339f",
         "name": "Dugang Liu",
         "aliases": [
@@ -24516,6 +24591,15 @@
         "name": "Ekaterina Krivich",
         "aliases": [
           "Ekaterina Krivich"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:c11eec07c51e3b12",
+        "name": "Ekin Can Erkuş",
+        "aliases": [
+          "Ekin Can Erkuş"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -25765,6 +25849,15 @@
         "name": "Fatima M Anwar",
         "aliases": [
           "Fatima M Anwar"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:3991f34dc60a06c5",
+        "name": "Fawwaz An-Nashef",
+        "aliases": [
+          "Fawwaz An-Nashef"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -29232,17 +29325,6 @@
         ]
       },
       {
-        "id": "author:84180664927aab82",
-        "name": "Haoyu Cheng",
-        "aliases": [
-          "Haoyu Cheng"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:e55ffcb7148588f3"
-        ]
-      },
-      {
         "id": "author:4335b40a317c9299",
         "name": "Haoyu Dong",
         "aliases": [
@@ -29471,6 +29553,15 @@
           "institution:baa1df7c4adddbda",
           "institution:c107a95b6cb53ac5"
         ]
+      },
+      {
+        "id": "author:115766974d2010e9",
+        "name": "He Estrid",
+        "aliases": [
+          "He Estrid"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:7fc06169987e8da1",
@@ -30253,6 +30344,15 @@
         "name": "Hoque",
         "aliases": [
           "Hoque"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:afbb04682bbc83f1",
+        "name": "Horde-Vo Alexis",
+        "aliases": [
+          "Horde-Vo Alexis"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -31209,6 +31309,15 @@
         ]
       },
       {
+        "id": "author:51601fe5d9285f3d",
+        "name": "Ishan Roy",
+        "aliases": [
+          "Ishan Roy"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:3fd295e36367b3a7",
         "name": "Ishan Tamrakar",
         "aliases": [
@@ -31677,6 +31786,15 @@
         "institutionIds": [
           "institution:4eb14e462916c5fe"
         ]
+      },
+      {
+        "id": "author:1bc4ec5337fa664a",
+        "name": "Jameel Ahmed Elayah",
+        "aliases": [
+          "Jameel Ahmed Elayah"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:2717ac47ebd757d5",
@@ -35641,6 +35759,15 @@
         "institutionIds": [
           "institution:bab8cc568deae58e"
         ]
+      },
+      {
+        "id": "author:fd3c2e6e2e7be141",
+        "name": "Junhyun Nam",
+        "aliases": [
+          "Junhyun Nam"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:a7466a96355156ca",
@@ -42503,6 +42630,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:adf264843d7ba49f",
+        "name": "Michael Genesereth",
+        "aliases": [
+          "Michael Genesereth"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:8d42fca189a9414c",
         "name": "Michael Gertz",
         "aliases": [
@@ -43816,6 +43952,15 @@
         ]
       },
       {
+        "id": "author:3eaa072899fa94bb",
+        "name": "Mohammed Damom",
+        "aliases": [
+          "Mohammed Damom"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:702d1ce78f15cf3c",
         "name": "Mohammed Diab",
         "aliases": [
@@ -43867,6 +44012,15 @@
         "institutionIds": [
           "institution:66b131743f038fe7"
         ]
+      },
+      {
+        "id": "author:01af9e02063e0a5e",
+        "name": "Mohammed Q. Shormani",
+        "aliases": [
+          "Mohammed Q. Shormani"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:81846d6360be7615",
@@ -44317,6 +44471,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:a2c34735bde0279d",
+        "name": "Muneef Y. Alshawsh",
+        "aliases": [
+          "Muneef Y. Alshawsh"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:6056523fcf3027d3",
         "name": "Muntaha Nujat Khan",
         "aliases": [
@@ -44387,6 +44550,15 @@
           "institution:41521fc1464b6dea",
           "institution:610848049e237294"
         ]
+      },
+      {
+        "id": "author:6f6ffd7a6c95fd2f",
+        "name": "Mustafa Ali Alhamzi",
+        "aliases": [
+          "Mustafa Ali Alhamzi"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:af01c4c9c4d3a1bf",
@@ -44504,6 +44676,17 @@
         "institutionIds": [
           "institution:0418834df0ffcdf2",
           "institution:457e9ce36439eb1c"
+        ]
+      },
+      {
+        "id": "author:83194ef0a8169d19",
+        "name": "Nabil Laya{ï}da",
+        "aliases": [
+          "Nabil Laya{ï}da"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:5ed2cdf3c06e055f"
         ]
       },
       {
@@ -45607,6 +45790,17 @@
         ]
       },
       {
+        "id": "author:e3892d4f25b01cc9",
+        "name": "Nils Gesbert",
+        "aliases": [
+          "Nils Gesbert"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:4149a97ad3c64d71"
+        ]
+      },
+      {
         "id": "author:9435bd5ab240c26b",
         "name": "Nils Grandien",
         "aliases": [
@@ -45810,6 +46004,15 @@
         ]
       },
       {
+        "id": "author:d4ecba37bc8b86fc",
+        "name": "Noman AL-Sayadi",
+        "aliases": [
+          "Noman AL-Sayadi"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:0374c0ff9ef1c486",
         "name": "Nora Leonie",
         "aliases": [
@@ -45932,6 +46135,15 @@
         "institutionIds": [
           "institution:8758902c10feb2ee"
         ]
+      },
+      {
+        "id": "author:3ca56342e86e9836",
+        "name": "Ole-Christoffer Granmo",
+        "aliases": [
+          "Ole-Christoffer Granmo"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:52afa518ced2ef42",
@@ -47552,6 +47764,17 @@
         "paperCount": 1,
         "institutionIds": [
           "institution:165d5857a9bfb2f2"
+        ]
+      },
+      {
+        "id": "author:42e758b4727fd18b",
+        "name": "Pierre Genev{è}s",
+        "aliases": [
+          "Pierre Genev{è}s"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:5b8a1b1210b50bec"
         ]
       },
       {
@@ -49629,6 +49852,15 @@
         "institutionIds": [
           "institution:34ca8b7d6c0822cd"
         ]
+      },
+      {
+        "id": "author:537768ffeaaf673b",
+        "name": "Rishad Shafik",
+        "aliases": [
+          "Rishad Shafik"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:efc375e2e098952b",
@@ -51716,6 +51948,17 @@
         ]
       },
       {
+        "id": "author:50efab3fae345108",
+        "name": "Sarah Chlyah",
+        "aliases": [
+          "Sarah Chlyah"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:5ed2cdf3c06e055f"
+        ]
+      },
+      {
         "id": "author:b7b8f6e04eaf7c38",
         "name": "Sarah Ghidalia",
         "aliases": [
@@ -52320,6 +52563,15 @@
         "name": "Shafi Goldwasser",
         "aliases": [
           "Shafi Goldwasser"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:851c4f8fc2e66be6",
+        "name": "Shafi Muhtasim Chowdhury",
+        "aliases": [
+          "Shafi Muhtasim Chowdhury"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -54502,6 +54754,15 @@
         ]
       },
       {
+        "id": "author:5cde1e4c6a3fa348",
+        "name": "Sophia Simeng Han",
+        "aliases": [
+          "Sophia Simeng Han"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:46ff4051c34aed7a",
         "name": "Sophie Barbe",
         "aliases": [
@@ -56271,6 +56532,18 @@
         ],
         "paperCount": 1,
         "institutionIds": []
+      },
+      {
+        "id": "author:3006e88ff0aaf179",
+        "name": "Thomas Jean-Michel Valentin",
+        "aliases": [
+          "Thomas Jean-Michel Valentin"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:212d8dcc1a46b96e",
+          "institution:e9f75e3bf0e983c4"
+        ]
       },
       {
         "id": "author:141dc744ec2810cf",
@@ -59115,15 +59388,6 @@
         ]
       },
       {
-        "id": "author:0e7f8216f2f1cf10",
-        "name": "Wending Gao",
-        "aliases": [
-          "Wending Gao"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:6533bb6813f9f27d",
         "name": "Wendong Bu",
         "aliases": [
@@ -59520,6 +59784,15 @@
         "name": "Wolfgang Banzhaf",
         "aliases": [
           "Wolfgang Banzhaf"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:0b90a611eb9cc61a",
+        "name": "Wonse Jo",
+        "aliases": [
+          "Wonse Jo"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -60210,6 +60483,15 @@
         "institutionIds": [
           "institution:fccd5d0ac9cc52f9"
         ]
+      },
+      {
+        "id": "author:4ec72c67f2d84a96",
+        "name": "Xiaoqiang Kang",
+        "aliases": [
+          "Xiaoqiang Kang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:7156ce1a99fec7cf",
@@ -63290,6 +63572,15 @@
         "institutionIds": [
           "institution:943b42ad910c2615"
         ]
+      },
+      {
+        "id": "author:11b1636545fd686c",
+        "name": "Yoshiki Takashima",
+        "aliases": [
+          "Yoshiki Takashima"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:449021bba446e4b7",
@@ -69747,17 +70038,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:50efab3fae345108",
-        "name": "Sarah Chlyah",
-        "aliases": [
-          "Sarah Chlyah"
-        ],
-        "paperCount": 0,
-        "institutionIds": [
-          "institution:5ed2cdf3c06e055f"
-        ]
-      },
-      {
         "id": "author:36a1dc4a400ac50c",
         "name": "Shaahin Angizi",
         "aliases": [
@@ -69947,17 +70227,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:3006e88ff0aaf179",
-        "name": "Thomas Jean-Michel Valentin",
-        "aliases": [
-          "Thomas Jean-Michel Valentin"
-        ],
-        "paperCount": 0,
-        "institutionIds": [
-          "institution:212d8dcc1a46b96e"
-        ]
-      },
-      {
         "id": "author:6030d1b37e36321e",
         "name": "Thomas Schiex",
         "aliases": [
@@ -70133,15 +70402,6 @@
         "name": "Wenwei Huang",
         "aliases": [
           "Wenwei Huang"
-        ],
-        "paperCount": 0,
-        "institutionIds": []
-      },
-      {
-        "id": "author:0b90a611eb9cc61a",
-        "name": "Wonse Jo",
-        "aliases": [
-          "Wonse Jo"
         ],
         "paperCount": 0,
         "institutionIds": []
@@ -72080,6 +72340,15 @@
         "paperCount": 3
       },
       {
+        "id": "institution:5b8a1b1210b50bec",
+        "name": "LIG,TYREX",
+        "aliases": [
+          "LIG, TYREX",
+          "LIG,TYREX"
+        ],
+        "paperCount": 3
+      },
+      {
         "id": "institution:8d46fb97eb92c110",
         "name": "Max Planck Institute for Software Systems",
         "aliases": [
@@ -73195,15 +73464,6 @@
         "paperCount": 2
       },
       {
-        "id": "institution:5b8a1b1210b50bec",
-        "name": "LIG, TYREX",
-        "aliases": [
-          "LIG, TYREX",
-          "LIG,TYREX"
-        ],
-        "paperCount": 2
-      },
-      {
         "id": "institution:e22a016a639e519f",
         "name": "Macquarie University Sydney",
         "aliases": [
@@ -73604,6 +73864,14 @@
         "name": "Tsinghua University Beijing",
         "aliases": [
           "Tsinghua University Beijing"
+        ],
+        "paperCount": 2
+      },
+      {
+        "id": "institution:5ed2cdf3c06e055f",
+        "name": "TYREX",
+        "aliases": [
+          "TYREX"
         ],
         "paperCount": 2
       },
@@ -75974,6 +76242,14 @@
         "paperCount": 1
       },
       {
+        "id": "institution:e9f75e3bf0e983c4",
+        "name": "ENS Paris Saclay,TYREX",
+        "aliases": [
+          "ENS Paris Saclay,TYREX"
+        ],
+        "paperCount": 1
+      },
+      {
         "id": "institution:a24f7c52117f1454",
         "name": "ens-paris-saclay.fr",
         "aliases": [
@@ -76386,6 +76662,14 @@
         "name": "Graz University of Technology Graz",
         "aliases": [
           "Graz University of Technology Graz"
+        ],
+        "paperCount": 1
+      },
+      {
+        "id": "institution:4149a97ad3c64d71",
+        "name": "Grenoble INP ENSIMAG,TYREX",
+        "aliases": [
+          "Grenoble INP ENSIMAG,TYREX"
         ],
         "paperCount": 1
       },
@@ -80885,14 +81169,6 @@
         "name": "TU Wien, Austria",
         "aliases": [
           "TU Wien, Austria"
-        ],
-        "paperCount": 1
-      },
-      {
-        "id": "institution:5ed2cdf3c06e055f",
-        "name": "TYREX",
-        "aliases": [
-          "TYREX"
         ],
         "paperCount": 1
       },
@@ -95713,7 +95989,7 @@
           "name": "Nabil Layaïda",
           "authorEntityId": "author:e28c73eaa0e906bc",
           "affiliations": [
-            "LIG, TYREX"
+            "LIG,TYREX"
           ],
           "affiliationEntityIds": [
             "institution:5b8a1b1210b50bec"
@@ -95749,7 +96025,7 @@
       "authorIds": [],
       "affiliations": [
         "LIG",
-        "LIG, TYREX"
+        "LIG,TYREX"
       ],
       "keywords": [
         "neuro-symbolic"
@@ -231114,7 +231390,7 @@
             "CNRS",
             "Inria",
             "Grenoble INP",
-            "LIG, TYREX"
+            "LIG,TYREX"
           ],
           "affiliationEntityIds": [
             "institution:4bd52b63d3d981c9",
@@ -231172,7 +231448,7 @@
         "ens-paris-saclay.fr",
         "UGA, LIG",
         "LIG",
-        "LIG, TYREX"
+        "LIG,TYREX"
       ],
       "keywords": [
         "neurosymbolic"
@@ -374459,6 +374735,1073 @@
         },
         {
           "name": "Xiaowei Huang",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.06270",
+      "title": "DPNL: A DPLL-based Algorithm for Probabilistic Neurosymbolic Learning",
+      "abstract": "Probabilistic Neurosymbolic Learning (PNL) combines neural predictions with symbolic reasoning, enabling end-to-end learning from final-output supervision without labels for intermediate concepts. A central challenge is probabilistic inference: state-of-the-art approaches often rely on materializing the logical provenance of a query, which can itself become a major computational bottleneck. We introduce Dynamic Probabilistic Neurosymbolic Learning (DPNL), an oracle-guided framework that avoids requiring complete provenance materialization before inference. DPNL lazily explores the space of intermediate assignments, while oracles resolve entire regions that can already be certified to produce or exclude the target output. We establish conditions ensuring soundness and termination. ApproxDPNL extends the same search with early termination while maintaining certified bounds on the exact output probability, providing controlled approximation guarantees. The oracle interface decouples inference from the representation of the symbolic component, enabling problem-specific reasoning within the same framework. Experiments on several neurosymbolic tasks show that DPNL and ApproxDPNL substantially extend the range of problem instances tractable by probabilistic neurosymbolic inference.",
+      "authors": [
+        "Thomas Jean-Michel Valentin",
+        "Pierre Genev{è}s",
+        "Luisa Sophie Werner",
+        "Sarah Chlyah",
+        "Nabil Laya{ï}da",
+        "Nils Gesbert"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Thomas Jean-Michel Valentin",
+          "authorEntityId": "author:3006e88ff0aaf179",
+          "affiliations": [
+            "ENS Paris Saclay,TYREX"
+          ],
+          "affiliationEntityIds": [
+            "institution:e9f75e3bf0e983c4"
+          ],
+          "rawName": "Thomas Jean-Michel Valentin",
+          "rawAffiliations": [
+            "ENS Paris Saclay,TYREX"
+          ]
+        },
+        {
+          "name": "Pierre Genev{è}s",
+          "authorEntityId": "author:42e758b4727fd18b",
+          "affiliations": [
+            "LIG,TYREX"
+          ],
+          "affiliationEntityIds": [
+            "institution:5b8a1b1210b50bec"
+          ],
+          "rawName": "Pierre Genev{è}s",
+          "rawAffiliations": [
+            "LIG,TYREX"
+          ]
+        },
+        {
+          "name": "Luisa Sophie Werner",
+          "authorEntityId": "author:3c7e4fc6c0297717",
+          "affiliations": [
+            "LIG,TYREX"
+          ],
+          "affiliationEntityIds": [
+            "institution:5b8a1b1210b50bec"
+          ],
+          "rawName": "Luisa Sophie Werner",
+          "rawAffiliations": [
+            "LIG,TYREX"
+          ]
+        },
+        {
+          "name": "Sarah Chlyah",
+          "authorEntityId": "author:50efab3fae345108",
+          "affiliations": [
+            "TYREX"
+          ],
+          "affiliationEntityIds": [
+            "institution:5ed2cdf3c06e055f"
+          ],
+          "rawName": "Sarah Chlyah",
+          "rawAffiliations": [
+            "TYREX"
+          ]
+        },
+        {
+          "name": "Nabil Laya{ï}da",
+          "authorEntityId": "author:83194ef0a8169d19",
+          "affiliations": [
+            "TYREX"
+          ],
+          "affiliationEntityIds": [
+            "institution:5ed2cdf3c06e055f"
+          ],
+          "rawName": "Nabil Laya{ï}da",
+          "rawAffiliations": [
+            "TYREX"
+          ]
+        },
+        {
+          "name": "Nils Gesbert",
+          "authorEntityId": "author:e3892d4f25b01cc9",
+          "affiliations": [
+            "Grenoble INP ENSIMAG,TYREX"
+          ],
+          "affiliationEntityIds": [
+            "institution:4149a97ad3c64d71"
+          ],
+          "rawName": "Nils Gesbert",
+          "rawAffiliations": [
+            "Grenoble INP ENSIMAG,TYREX"
+          ]
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [
+        "ENS Paris Saclay,TYREX",
+        "LIG,TYREX",
+        "TYREX",
+        "Grenoble INP ENSIMAG,TYREX"
+      ],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-05",
+      "url": "https://arxiv.org/abs/2610.06270",
+      "pdfUrl": "https://arxiv.org/pdf/2610.06270",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.06270",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": true,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:f7ebd2eba53efb70",
+      "rawAffiliations": [
+        "ENS Paris Saclay,TYREX",
+        "LIG,TYREX",
+        "TYREX",
+        "Grenoble INP ENSIMAG,TYREX"
+      ],
+      "affiliationEntityIds": [
+        "institution:e9f75e3bf0e983c4",
+        "institution:5b8a1b1210b50bec",
+        "institution:5ed2cdf3c06e055f",
+        "institution:4149a97ad3c64d71"
+      ],
+      "rawAuthors": [
+        "Thomas Jean-Michel Valentin",
+        "Pierre Genev{è}s",
+        "Luisa Sophie Werner",
+        "Sarah Chlyah",
+        "Nabil Laya{ï}da",
+        "Nils Gesbert"
+      ],
+      "authorEntityIds": [
+        "author:3006e88ff0aaf179",
+        "author:42e758b4727fd18b",
+        "author:3c7e4fc6c0297717",
+        "author:50efab3fae345108",
+        "author:83194ef0a8169d19",
+        "author:e3892d4f25b01cc9"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Thomas Jean-Michel Valentin",
+          "affiliations": [
+            "ENS Paris Saclay,TYREX"
+          ]
+        },
+        {
+          "name": "Pierre Genev{è}s",
+          "affiliations": [
+            "LIG,TYREX"
+          ]
+        },
+        {
+          "name": "Luisa Sophie Werner",
+          "affiliations": [
+            "LIG,TYREX"
+          ]
+        },
+        {
+          "name": "Sarah Chlyah",
+          "affiliations": [
+            "TYREX"
+          ]
+        },
+        {
+          "name": "Nabil Laya{ï}da",
+          "affiliations": [
+            "TYREX"
+          ]
+        },
+        {
+          "name": "Nils Gesbert",
+          "affiliations": [
+            "Grenoble INP ENSIMAG,TYREX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2610.05757",
+      "title": "Human-in-the-Loop Neuro-Symbolic Drift Anticipation for Reliable Visual SLAM",
+      "abstract": "This paper introduces Hybrid DeepSEE (HDS), a Human-in-the-Loop (HITL) neuro-symbolic framework for proactive drift anticipation in Visual SLAM (V-SLAM). While data-driven models offer predictive power, their \"black-box\" nature often yields physically inconsistent outputs in out-of-distribution (OOD) environments. To address this, HDS integrates neural drift risk estimation with symbolic constraint reasoning. By utilizing a Large Language Model (LLM) as a reasoning bridge, the framework translates qualitative human context into interpretable symbolic constraints. Building upon this architecture, we propose a superior drift anticipation framework that ensures enhanced reliability and consistency in Visual SLAM",
+      "authors": [
+        "Junhyun Nam",
+        "Wonse Jo"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Junhyun Nam",
+          "authorEntityId": "author:fd3c2e6e2e7be141",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Junhyun Nam",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Wonse Jo",
+          "authorEntityId": "author:0b90a611eb9cc61a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Wonse Jo",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-05",
+      "url": "https://arxiv.org/abs/2610.05757",
+      "pdfUrl": "https://arxiv.org/pdf/2610.05757",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.05757",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:ceeae7ffeae5c38c",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Junhyun Nam",
+        "Wonse Jo"
+      ],
+      "authorEntityIds": [
+        "author:fd3c2e6e2e7be141",
+        "author:0b90a611eb9cc61a"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Junhyun Nam",
+          "affiliations": []
+        },
+        {
+          "name": "Wonse Jo",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.05223",
+      "title": "Look Before You Leap: Thermodynamic Arbitration of Parametric and Non-Parametric Knowledge in LLM Agents via Self-Regulating Memory Architectures",
+      "abstract": "The architecture of modern LLMs consists of a profound cognitive polarization. LLMs possess implicit intuition encoded in their parameters, yet rely on a disconnected, explicit mechanism to access the outside world. Agentic frameworks have not bridged this gap; instead, models are often compelled into pathological \"induced amnesia.\" Under the prevailing \"Retrieve-Always\" paradigm, agents must distrust their internal knowledge, making every user interaction a \"tabula rasa\" event that must be checked externally. This creates reflexive dependence that can be thermodynamically wasteful, cognitively fragile, and susceptible to irrelevant context. We propose a return to first principles, operationalizing the biological maxim \"Look Before You Leap.\" We introduce MARTA (Metacognitive Adaptive Retrieval and Thought Architecture), a neuro-symbolic framework that bridges parametric and non-parametric knowledge. Rather than treating retrieval as mandatory, MARTA models it as a cost, taking the leap only when perceived internal inadequacy warrants external information. By allowing the agent to gauge the entropy of its own thoughts before acting, MARTA enables deliberative retrieval and uncertainty-aware decision making. Our approach suggests that giving agents the capacity for introspection can restore a more efficient balance between internal knowledge and external information.",
+      "authors": [
+        "Akash Das",
+        "Ishan Roy"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Akash Das",
+          "authorEntityId": "author:1203b853da528220",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Akash Das",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ishan Roy",
+          "authorEntityId": "author:51601fe5d9285f3d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ishan Roy",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-04",
+      "url": "https://arxiv.org/abs/2610.05223",
+      "pdfUrl": "https://arxiv.org/pdf/2610.05223",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.05223",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:dbbbed2d45eb7e7e",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Akash Das",
+        "Ishan Roy"
+      ],
+      "authorEntityIds": [
+        "author:1203b853da528220",
+        "author:51601fe5d9285f3d"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Akash Das",
+          "affiliations": []
+        },
+        {
+          "name": "Ishan Roy",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.05028",
+      "title": "Do We Still Need Gazetteers in the Era of LLMs? Chaining Retrieval with a Spatial Neuro-Symbolic Index",
+      "abstract": "Geographic information retrieval (GeoIR) tasks require systems to interpret ambiguous toponyms for downstream applications. Traditionally, toponym resolution relies on gazetteers to provide an explicit index of place entities and spatial relationships. Recently, gazetteer-free approaches seek to reduce dependence on handcrafted searches: dense retrieval utilizes text encoders to capture rich context, moving beyond the limitations of lexical search. However, text encoders implicitly assume that learned representations can function as reliable spatial-semantic indexes. In this paper, we evaluate this assumption through a spatial-semantic indexing setup: given a contextualized toponym mention, we retrieve the corresponding gazetteer entity represented by text derived from a gazetteer knowledge graph. We benchmark five frozen text encoders under two retrieval strategies: brute-force nearest-neighbor retrieval over entity representations, and a neuro-symbolic hierarchical beam search that constrains retrieval (i.e. chaining the search with gazetteer hierarchy). Experimental results reveal a distinct coarse-versus-fine trade-off. Unconstrained dense retrieval frequently incurs catastrophic spatial errors. Conversely, hierarchical constraints improve coarse geographic grounding, but still yield limited benefit for fine-grained localization metrics: vanilla text encoders fail to capture the fine-scale spatial fidelity encoded in gazetteers. Our code is publicly available at: https://doi.org/10.25439/rmt.31094269",
+      "authors": [
+        "Horde-Vo Alexis",
+        "Duckham Matt",
+        "He Estrid"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Horde-Vo Alexis",
+          "authorEntityId": "author:afbb04682bbc83f1",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Horde-Vo Alexis",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Duckham Matt",
+          "authorEntityId": "author:2b4396eddc3e4d01",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Duckham Matt",
+          "rawAffiliations": []
+        },
+        {
+          "name": "He Estrid",
+          "authorEntityId": "author:115766974d2010e9",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "He Estrid",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.IR"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-04",
+      "url": "https://arxiv.org/abs/2610.05028",
+      "pdfUrl": "https://arxiv.org/pdf/2610.05028",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.05028",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:7f4e51701226922b",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Horde-Vo Alexis",
+        "Duckham Matt",
+        "He Estrid"
+      ],
+      "authorEntityIds": [
+        "author:afbb04682bbc83f1",
+        "author:2b4396eddc3e4d01",
+        "author:115766974d2010e9"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Horde-Vo Alexis",
+          "affiliations": []
+        },
+        {
+          "name": "Duckham Matt",
+          "affiliations": []
+        },
+        {
+          "name": "He Estrid",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.04280",
+      "title": "Dense Neuro-Symbolic Reasoning in a Unified Geometry State",
+      "abstract": "Geometry reasoning is naturally stateful: solving a problem repeatedly alternates between structural proposals and exact deductions. We formulate this process as dense neural-symbolic coupling, in which neural guidance and symbolic execution share a typed state and communicate through executable actions at every search step. Neural proposals contribute theorem instances, constructions, and algebraic bridges; the symbolic runtime applies registered rules, propagates exact constraints, and records provenance. A nested controller allocates computation first between neural and symbolic proposal sources and then among admitted actions. We instantiate the framework in OmniGeo, a single solver for plane, analytic, and solid geometry. With Claude Sonnet 4.6, OmniGeo reaches 94.2%, 88.5%, and 89.8% on FormalGeo7K, Conic10K, and SolidFGeo, respectively (90.8% macro average), and solves 21/30 IMO-AG-30 problems.",
+      "authors": [
+        "Ruoran Xu",
+        "Wending Gao",
+        "Haoyu Cheng",
+        "Xiaoqiang Kang",
+        "Qiufeng Wang"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Ruoran Xu",
+          "authorEntityId": "author:d21b420a1506710a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ruoran Xu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Wending Gao",
+          "authorEntityId": "author:0e7f8216f2f1cf10",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Wending Gao",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Haoyu Cheng",
+          "authorEntityId": "author:84180664927aab82",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Haoyu Cheng",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xiaoqiang Kang",
+          "authorEntityId": "author:4ec72c67f2d84a96",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xiaoqiang Kang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Qiufeng Wang",
+          "authorEntityId": "author:54334a466a63f1f6",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Qiufeng Wang",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic",
+        "neural-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-03",
+      "url": "https://arxiv.org/abs/2610.04280",
+      "pdfUrl": "https://arxiv.org/pdf/2610.04280",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.04280",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:f66aba9eb1d65f3c",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Ruoran Xu",
+        "Wending Gao",
+        "Haoyu Cheng",
+        "Xiaoqiang Kang",
+        "Qiufeng Wang"
+      ],
+      "authorEntityIds": [
+        "author:d21b420a1506710a",
+        "author:0e7f8216f2f1cf10",
+        "author:84180664927aab82",
+        "author:4ec72c67f2d84a96",
+        "author:54334a466a63f1f6"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Ruoran Xu",
+          "affiliations": []
+        },
+        {
+          "name": "Wending Gao",
+          "affiliations": []
+        },
+        {
+          "name": "Haoyu Cheng",
+          "affiliations": []
+        },
+        {
+          "name": "Xiaoqiang Kang",
+          "affiliations": []
+        },
+        {
+          "name": "Qiufeng Wang",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.04275",
+      "title": "Symbolic Search Is Not Exhausted: Persistent Proof-Space Exploration in Lean4",
+      "abstract": "Formal theorem proving increasingly combines learned semantic guidance with verified symbolic execution. The quality of the symbolic search substrate therefore determines how much useful mathematical structure can be accumulated, reused, and exposed under a finite inference budget. We introduce ViaLean, a Lean4 prover that organizes symbolic reasoning as bounded exploration of a persistent proof-state graph. Its search preserves coverage across complementary reasoning modes, merges semantically equivalent goals, retains verified intermediate structure, and observes short symbolic futures before committing to a transition. On the complete miniF2F test split, the model-free configuration solves 122/244 problems (50.0% pass@1). Historical and recent symbolic reference points range from Lean's earlier tidy search to modern grind and SMT-backed verification, showing that proof-space organization remains a substantial source of capability. The same persistent state also provides a natural interface for neural--symbolic agents: neural reasoning can operate over verified regions and intermediate objects while Lean continuously expands and validates the local proof space.",
+      "authors": [
+        "Ruoran Xu"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Ruoran Xu",
+          "authorEntityId": "author:d21b420a1506710a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ruoran Xu",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neural--symbolic"
+      ],
+      "categories": [
+        "cs.LO"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-03",
+      "url": "https://arxiv.org/abs/2610.04275",
+      "pdfUrl": "https://arxiv.org/pdf/2610.04275",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.04275",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:905038d5eebfa460",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Ruoran Xu"
+      ],
+      "authorEntityIds": [
+        "author:d21b420a1506710a"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Ruoran Xu",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.02792",
+      "title": "Law And Order: Tax Law Autoformalization",
+      "abstract": "Legal systems are increasingly implemented through software, yet scalable methods for translating legal texts into accurate symbolic representations remain underdeveloped. We study this problem through tax law, where forms and filing instructions define large computational structures involving arithmetic, branching, recursion, and tabular reasoning. We propose Law&Order, a neuro-symbolic framework for automatically formalizing tax forms and instructions into executable symbolic programs. Our approach establishes two forms of correspondence between law and logic: structural correspondence, which aligns legal and symbolic components such as cells and schedules, and denotational correspondence, which requires symbolic components to implement the computations specified by their legal counterparts. We combine large language model synthesis with cell-level verification and iterative localized error repair using human-written OpenTaxSolver tax returns. We then evaluate the resulting formalizations on independently authored, held-out TaxCalcBench returns, that are never exposed during generation or repair. Although the most advanced LLM achieves only 66% accuracy, Law&Order achieves 100% cell-level and form-level accuracy on 51 held-out returns, demonstrating the effectiveness of combining LLM-based synthesis with symbolic verification for scalable and verifiable large-scale legal autoformalization compared with using an LLM alone.",
+      "authors": [
+        "Sophia Simeng Han",
+        "Yoshiki Takashima",
+        "Anjiang Wei",
+        "Zhaoyu Li",
+        "Michael Genesereth"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Sophia Simeng Han",
+          "authorEntityId": "author:5cde1e4c6a3fa348",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Sophia Simeng Han",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yoshiki Takashima",
+          "authorEntityId": "author:11b1636545fd686c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yoshiki Takashima",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Anjiang Wei",
+          "authorEntityId": "author:87b3b610737b4992",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Anjiang Wei",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zhaoyu Li",
+          "authorEntityId": "author:c7d2cd3aab4d8cc8",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zhaoyu Li",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Michael Genesereth",
+          "authorEntityId": "author:adf264843d7ba49f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Michael Genesereth",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-02",
+      "url": "https://arxiv.org/abs/2610.02792",
+      "pdfUrl": "https://arxiv.org/pdf/2610.02792",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.02792",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:439676a0da8a74dc",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Sophia Simeng Han",
+        "Yoshiki Takashima",
+        "Anjiang Wei",
+        "Zhaoyu Li",
+        "Michael Genesereth"
+      ],
+      "authorEntityIds": [
+        "author:5cde1e4c6a3fa348",
+        "author:11b1636545fd686c",
+        "author:87b3b610737b4992",
+        "author:c7d2cd3aab4d8cc8",
+        "author:adf264843d7ba49f"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Sophia Simeng Han",
+          "affiliations": []
+        },
+        {
+          "name": "Yoshiki Takashima",
+          "affiliations": []
+        },
+        {
+          "name": "Anjiang Wei",
+          "affiliations": []
+        },
+        {
+          "name": "Zhaoyu Li",
+          "affiliations": []
+        },
+        {
+          "name": "Michael Genesereth",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.02529",
+      "title": "A generative-informed neuro-symbolic framework for syntactic ambiguity resolution: Evidence from Arabic DPs",
+      "abstract": "Syntactic ambiguity poses a persistent challenge for Arabic NLP, particularly in morphologically rich nominal constructions where multiple structu6ral interpretations may be compatible with the same surface sequence. This study proposes a generatively informed neuro-symbolic framework for resolving structural ambiguity in Modern Standard Arabic (MSA) DPs. The framework integrates generative syntactic notions with AraBERT by representing ambiguity as a candidate-based decision task in which linguistically motivated alternatives are explicitly constructed and evaluated through candidate-conditioned input representations. Findings indicate that the model achieved 96.88% accuracy, 95.92% macro-F1, 96.83% weighted F1, and 93.94% binary F1 on the unseen evaluation set. Class-level analysis revealed asymmetric performance, with recall of 99.71% for High/VP Attachment (N1) and 89.26% for Low/NP/Embedded Attachment (N2), indicating greater difficulty in recovering the embedded interpretation. The study concludes that formal syntactic representations can be operationalized within Transformer-based NLP as an explicit interface between linguistic structure and contextual neural modeling, providing a controlled and interpretable approach to Arabic syntactic ambiguity resolution and beyond.",
+      "authors": [
+        "Mohammed Damom",
+        "Muneef Y. Alshawsh",
+        "Ashraf A. Naji",
+        "Mustafa Ali Alhamzi",
+        "Fawwaz An-Nashef",
+        "Jameel Ahmed Elayah",
+        "Mohammed Q. Shormani",
+        "Noman AL-Sayadi"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Mohammed Damom",
+          "authorEntityId": "author:3eaa072899fa94bb",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Mohammed Damom",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Muneef Y. Alshawsh",
+          "authorEntityId": "author:a2c34735bde0279d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Muneef Y. Alshawsh",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ashraf A. Naji",
+          "authorEntityId": "author:a6159b79ab672976",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ashraf A. Naji",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Mustafa Ali Alhamzi",
+          "authorEntityId": "author:6f6ffd7a6c95fd2f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Mustafa Ali Alhamzi",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Fawwaz An-Nashef",
+          "authorEntityId": "author:3991f34dc60a06c5",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Fawwaz An-Nashef",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jameel Ahmed Elayah",
+          "authorEntityId": "author:1bc4ec5337fa664a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jameel Ahmed Elayah",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Mohammed Q. Shormani",
+          "authorEntityId": "author:01af9e02063e0a5e",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Mohammed Q. Shormani",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Noman AL-Sayadi",
+          "authorEntityId": "author:d4ecba37bc8b86fc",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Noman AL-Sayadi",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-01",
+      "url": "https://arxiv.org/abs/2610.02529",
+      "pdfUrl": "https://arxiv.org/pdf/2610.02529",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.02529",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:be140cb0ef63e9f7",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Mohammed Damom",
+        "Muneef Y. Alshawsh",
+        "Ashraf A. Naji",
+        "Mustafa Ali Alhamzi",
+        "Fawwaz An-Nashef",
+        "Jameel Ahmed Elayah",
+        "Mohammed Q. Shormani",
+        "Noman AL-Sayadi"
+      ],
+      "authorEntityIds": [
+        "author:3eaa072899fa94bb",
+        "author:a2c34735bde0279d",
+        "author:a6159b79ab672976",
+        "author:6f6ffd7a6c95fd2f",
+        "author:3991f34dc60a06c5",
+        "author:1bc4ec5337fa664a",
+        "author:01af9e02063e0a5e",
+        "author:d4ecba37bc8b86fc"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Mohammed Damom",
+          "affiliations": []
+        },
+        {
+          "name": "Muneef Y. Alshawsh",
+          "affiliations": []
+        },
+        {
+          "name": "Ashraf A. Naji",
+          "affiliations": []
+        },
+        {
+          "name": "Mustafa Ali Alhamzi",
+          "affiliations": []
+        },
+        {
+          "name": "Fawwaz An-Nashef",
+          "affiliations": []
+        },
+        {
+          "name": "Jameel Ahmed Elayah",
+          "affiliations": []
+        },
+        {
+          "name": "Mohammed Q. Shormani",
+          "affiliations": []
+        },
+        {
+          "name": "Noman AL-Sayadi",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.02431",
+      "title": "CRISP: A Framework for Clause-Reconstructed Interpretable NeuroSymbolic Propositions",
+      "abstract": "Deep neural networks achieve high accuracy through layered numerical transformations, yet their decisions remain difficult to audit because decision evidence is encoded in hidden activations rather than explicit rules. This paper introduces CRISP, a framework that reconstructs the last-layer activation vector (LLAV) of binary neural teachers as Tsetlin Machine (TM) clauses. CRISP sign-binarizes the teacher's penultimate pre-logit activations, and assigns one Individual TM (ITM) to each LLAV neuron. Each reconstructed hidden bit is represented by propositional clauses over Booleanized input features, which gives a direct symbolic trace from named input thresholds to a named teacher neuron. CRISP is evaluated on MNIST, KMNIST, FashionMNIST (FMNIST), SVHN, and CIFAR10 using a BinaryConnect convolutional neural network (BCCNN) teacher and a fully binary neural network (BNN) teacher, with an additional study on binary thresholding, thermometer encoding, and quartile binning at multiple bit depths. The results show that LLAV sign-binarization does not reduce teacher-head accuracy in the tested BNN setting, while ITM reconstruction error is the main limiting factor. Quartile one-bit Booleanization gives the strongest reconstruction fidelity on SVHN at 87.52% test fidelity and is competitive on CIFAR10, and the reconstructed LLAV preserves 78.41% teacher-head accuracy on FMNIST. Pooled clause-evidence visualizations show that the learned ITM literals concentrate on the object region in centered benchmarks. CRISP therefore provides a clause-level route for inspecting the final hidden representation of binary neural teachers.",
+      "authors": [
+        "Alex Chan",
+        "Shafi Muhtasim Chowdhury",
+        "Ekin Can Erkuş",
+        "Ole-Christoffer Granmo",
+        "Alex Yakovlev",
+        "Rishad Shafik"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Alex Chan",
+          "authorEntityId": "author:6c9706605329a681",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Alex Chan",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Shafi Muhtasim Chowdhury",
+          "authorEntityId": "author:851c4f8fc2e66be6",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Shafi Muhtasim Chowdhury",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ekin Can Erkuş",
+          "authorEntityId": "author:c11eec07c51e3b12",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ekin Can Erkuş",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ole-Christoffer Granmo",
+          "authorEntityId": "author:3ca56342e86e9836",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ole-Christoffer Granmo",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Alex Yakovlev",
+          "authorEntityId": "author:5f1b842bdffb3086",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Alex Yakovlev",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Rishad Shafik",
+          "authorEntityId": "author:537768ffeaaf673b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Rishad Shafik",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-01",
+      "url": "https://arxiv.org/abs/2610.02431",
+      "pdfUrl": "https://arxiv.org/pdf/2610.02431",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.02431",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:ba7d4a4e8d4a1dc7",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Alex Chan",
+        "Shafi Muhtasim Chowdhury",
+        "Ekin Can Erkuş",
+        "Ole-Christoffer Granmo",
+        "Alex Yakovlev",
+        "Rishad Shafik"
+      ],
+      "authorEntityIds": [
+        "author:6c9706605329a681",
+        "author:851c4f8fc2e66be6",
+        "author:c11eec07c51e3b12",
+        "author:3ca56342e86e9836",
+        "author:5f1b842bdffb3086",
+        "author:537768ffeaaf673b"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Alex Chan",
+          "affiliations": []
+        },
+        {
+          "name": "Shafi Muhtasim Chowdhury",
+          "affiliations": []
+        },
+        {
+          "name": "Ekin Can Erkuş",
+          "affiliations": []
+        },
+        {
+          "name": "Ole-Christoffer Granmo",
+          "affiliations": []
+        },
+        {
+          "name": "Alex Yakovlev",
+          "affiliations": []
+        },
+        {
+          "name": "Rishad Shafik",
           "affiliations": []
         }
       ]
