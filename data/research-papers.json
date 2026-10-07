@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-06T17:46:09.095Z",
+  "generatedAt": "2026-10-07T18:17:38.158Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1836,
+  "paperCount": 1838,
   "completeMetadataCount": 1372,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1531
+      "count": 1533
     },
     {
       "id": "nesy-proceedings",
@@ -931,6 +931,19 @@
         ]
       },
       {
+        "id": "author:a02f353aca35c46a",
+        "name": "Efthymia Tsamoura",
+        "aliases": [
+          "Efthymia Tsamoura"
+        ],
+        "paperCount": 7,
+        "institutionIds": [
+          "institution:72f9022c7ba72d5a",
+          "institution:9b1dca853f0d341b",
+          "institution:a54b78c9533cdcf1"
+        ]
+      },
+      {
         "id": "author:9dad33896fbe7d02",
         "name": "Francesca Toni",
         "aliases": [
@@ -1136,19 +1149,6 @@
           "institution:01ff763ef3518b63",
           "institution:cf1c67afebae5548",
           "institution:ef18b90aec166cb2"
-        ]
-      },
-      {
-        "id": "author:a02f353aca35c46a",
-        "name": "Efthymia Tsamoura",
-        "aliases": [
-          "Efthymia Tsamoura"
-        ],
-        "paperCount": 6,
-        "institutionIds": [
-          "institution:72f9022c7ba72d5a",
-          "institution:9b1dca853f0d341b",
-          "institution:a54b78c9533cdcf1"
         ]
       },
       {
@@ -15266,6 +15266,15 @@
         ]
       },
       {
+        "id": "author:faa57b548b41f238",
+        "name": "Alexis Horde-Vo",
+        "aliases": [
+          "Alexis Horde-Vo"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:1814950c9592517d",
         "name": "Alfonso Emilio Gerevini",
         "aliases": [
@@ -24224,15 +24233,6 @@
         ]
       },
       {
-        "id": "author:2b4396eddc3e4d01",
-        "name": "Duckham Matt",
-        "aliases": [
-          "Duckham Matt"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:b1b30ca45f78339f",
         "name": "Dugang Liu",
         "aliases": [
@@ -25268,6 +25268,15 @@
         "institutionIds": [
           "institution:2bf36a65f5f2c661"
         ]
+      },
+      {
+        "id": "author:def6c74cec857f14",
+        "name": "Estrid He",
+        "aliases": [
+          "Estrid He"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:026d23f366c1c4e0",
@@ -27534,6 +27543,15 @@
         ]
       },
       {
+        "id": "author:d3ecf39fe9da40ae",
+        "name": "Giovanni Colavizza",
+        "aliases": [
+          "Giovanni Colavizza"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:5b40d2efefcd5536",
         "name": "Giovanni Pio Delvecchio",
         "aliases": [
@@ -29555,15 +29573,6 @@
         ]
       },
       {
-        "id": "author:115766974d2010e9",
-        "name": "He Estrid",
-        "aliases": [
-          "He Estrid"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:7fc06169987e8da1",
         "name": "Heather Heckman",
         "aliases": [
@@ -30344,15 +30353,6 @@
         "name": "Hoque",
         "aliases": [
           "Hoque"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
-        "id": "author:afbb04682bbc83f1",
-        "name": "Horde-Vo Alexis",
-        "aliases": [
-          "Horde-Vo Alexis"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -39724,6 +39724,15 @@
         ]
       },
       {
+        "id": "author:61800ddbdb9bccd6",
+        "name": "Lukas Klic",
+        "aliases": [
+          "Lukas Klic"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:269234175fed6d87",
         "name": "Lukas Rüttgers",
         "aliases": [
@@ -41563,6 +41572,15 @@
         "name": "Mathur Soni",
         "aliases": [
           "Mathur Soni"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:c57eaa7377e99ada",
+        "name": "Matt Duckham",
+        "aliases": [
+          "Matt Duckham"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -49592,6 +49610,15 @@
         ]
       },
       {
+        "id": "author:7c6d2f11b1f90770",
+        "name": "Remo Grillo",
+        "aliases": [
+          "Remo Grillo"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:50fcb8adcd99a645",
         "name": "Remzi Celebi",
         "aliases": [
@@ -55141,6 +55168,15 @@
         "institutionIds": [
           "institution:5a73fc9b412db6f4"
         ]
+      },
+      {
+        "id": "author:c70b922989b435fd",
+        "name": "Stefania Dumbrava",
+        "aliases": [
+          "Stefania Dumbrava"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:b4770f8a19509b83",
@@ -68370,6 +68406,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:2b4396eddc3e4d01",
+        "name": "Duckham Matt",
+        "aliases": [
+          "Duckham Matt"
+        ],
+        "paperCount": 0,
+        "institutionIds": []
+      },
+      {
         "id": "author:c62c898fba5a1b3f",
         "name": "Dung Le",
         "aliases": [
@@ -68419,15 +68464,6 @@
         "name": "Erwin Walraven",
         "aliases": [
           "Erwin Walraven"
-        ],
-        "paperCount": 0,
-        "institutionIds": []
-      },
-      {
-        "id": "author:def6c74cec857f14",
-        "name": "Estrid He",
-        "aliases": [
-          "Estrid He"
         ],
         "paperCount": 0,
         "institutionIds": []
@@ -68740,6 +68776,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:115766974d2010e9",
+        "name": "He Estrid",
+        "aliases": [
+          "He Estrid"
+        ],
+        "paperCount": 0,
+        "institutionIds": []
+      },
+      {
         "id": "author:45080065efd52bc2",
         "name": "Heimo Müller",
         "aliases": [
@@ -68762,6 +68807,15 @@
         "name": "Hoa Khanh Dam",
         "aliases": [
           "Hoa Khanh Dam"
+        ],
+        "paperCount": 0,
+        "institutionIds": []
+      },
+      {
+        "id": "author:afbb04682bbc83f1",
+        "name": "Horde-Vo Alexis",
+        "aliases": [
+          "Horde-Vo Alexis"
         ],
         "paperCount": 0,
         "institutionIds": []
@@ -375102,9 +375156,9 @@
       "title": "Do We Still Need Gazetteers in the Era of LLMs? Chaining Retrieval with a Spatial Neuro-Symbolic Index",
       "abstract": "Geographic information retrieval (GeoIR) tasks require systems to interpret ambiguous toponyms for downstream applications. Traditionally, toponym resolution relies on gazetteers to provide an explicit index of place entities and spatial relationships. Recently, gazetteer-free approaches seek to reduce dependence on handcrafted searches: dense retrieval utilizes text encoders to capture rich context, moving beyond the limitations of lexical search. However, text encoders implicitly assume that learned representations can function as reliable spatial-semantic indexes. In this paper, we evaluate this assumption through a spatial-semantic indexing setup: given a contextualized toponym mention, we retrieve the corresponding gazetteer entity represented by text derived from a gazetteer knowledge graph. We benchmark five frozen text encoders under two retrieval strategies: brute-force nearest-neighbor retrieval over entity representations, and a neuro-symbolic hierarchical beam search that constrains retrieval (i.e. chaining the search with gazetteer hierarchy). Experimental results reveal a distinct coarse-versus-fine trade-off. Unconstrained dense retrieval frequently incurs catastrophic spatial errors. Conversely, hierarchical constraints improve coarse geographic grounding, but still yield limited benefit for fine-grained localization metrics: vanilla text encoders fail to capture the fine-scale spatial fidelity encoded in gazetteers. Our code is publicly available at: https://doi.org/10.25439/rmt.31094269",
       "authors": [
-        "Horde-Vo Alexis",
-        "Duckham Matt",
-        "He Estrid"
+        "Alexis Horde-Vo",
+        "Matt Duckham",
+        "Estrid He"
       ],
       "authorAffiliations": [
         {
@@ -375129,6 +375183,30 @@
           "affiliations": [],
           "affiliationEntityIds": [],
           "rawName": "He Estrid",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Alexis Horde-Vo",
+          "authorEntityId": "author:faa57b548b41f238",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Alexis Horde-Vo",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Matt Duckham",
+          "authorEntityId": "author:c57eaa7377e99ada",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Matt Duckham",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Estrid He",
+          "authorEntityId": "author:def6c74cec857f14",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Estrid He",
           "rawAffiliations": []
         }
       ],
@@ -375166,14 +375244,14 @@
       "rawAffiliations": [],
       "affiliationEntityIds": [],
       "rawAuthors": [
-        "Horde-Vo Alexis",
-        "Duckham Matt",
-        "He Estrid"
+        "Alexis Horde-Vo",
+        "Matt Duckham",
+        "Estrid He"
       ],
       "authorEntityIds": [
-        "author:afbb04682bbc83f1",
-        "author:2b4396eddc3e4d01",
-        "author:115766974d2010e9"
+        "author:faa57b548b41f238",
+        "author:c57eaa7377e99ada",
+        "author:def6c74cec857f14"
       ],
       "rawAuthorAffiliations": [
         {
@@ -375186,6 +375264,18 @@
         },
         {
           "name": "He Estrid",
+          "affiliations": []
+        },
+        {
+          "name": "Alexis Horde-Vo",
+          "affiliations": []
+        },
+        {
+          "name": "Matt Duckham",
+          "affiliations": []
+        },
+        {
+          "name": "Estrid He",
           "affiliations": []
         }
       ]
@@ -375802,6 +375892,179 @@
         },
         {
           "name": "Rishad Shafik",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.08095",
+      "title": "Natural Language Questions as an Interface for Knowledge Graphs: QRAKEN Graph Distillation and Semantic Self-Healing",
+      "abstract": "Natural-language access to RDF knowledge graphs is a core Semantic Web ambition. Large language models (LLMs) have advanced Text-to-SPARQL, yet on unfamiliar graphs they often generate valid queries that misrepresent the populated data model. QRAKEN is a training-free, ontology-agnostic neurosymbolic pipeline grounding generation in empirical graph evidence rather than schema expectations. An offline distiller produces TTQL, a compact description of populated multi-hop patterns, conditional frequencies and path-conditioned literal examples, plus a class-property co-occurrence matrix. Online, TTQL guides the LLM, while deterministic syntax, vocabulary and data-model checks provide diagnostics for iterative refinement. On CK25 (First International Text2SPARQL Challenge), under matched-condition recomputation on a QLever snapshot, QRAKEN achieves strict F1 of 0.643 $\\pm$ 0.026 with GPT-4.1 mini and 0.652 $\\pm$ 0.012 with GPT-5.4: relative gains of 30% and 32% over the strongest recomputed participant, outperforming systems using the same base model family. Ablations identify TTQL patterns as the dominant driver (+0.31 strict F1 over a shape-only baseline); the refinement loop provides a cheap safety net, rejecting triple patterns unsupported by the co-occurrence matrix. Compared with auto-derived SHACL, TTQL yields 64% higher strict F1, supporting the value of empirical patterns beyond schema exposure. With two local 35B 4-bit open-weight models at zero marginal cost, the same pipeline matches the strongest recomputed participant, and TTQL advantages over shape-only and SHACL baselines persist. Results on a single, relatively small benchmark provide an initial empirical signal; monolithic TTQL injection on very open cross-domain graphs remains the main limitation.",
+      "authors": [
+        "Remo Grillo",
+        "Lukas Klic",
+        "Giovanni Colavizza"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Remo Grillo",
+          "authorEntityId": "author:7c6d2f11b1f90770",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Remo Grillo",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Lukas Klic",
+          "authorEntityId": "author:61800ddbdb9bccd6",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Lukas Klic",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Giovanni Colavizza",
+          "authorEntityId": "author:d3ecf39fe9da40ae",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Giovanni Colavizza",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-06",
+      "url": "https://arxiv.org/abs/2610.08095",
+      "pdfUrl": "https://arxiv.org/pdf/2610.08095",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.08095",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:0320e8196b0b36c1",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Remo Grillo",
+        "Lukas Klic",
+        "Giovanni Colavizza"
+      ],
+      "authorEntityIds": [
+        "author:7c6d2f11b1f90770",
+        "author:61800ddbdb9bccd6",
+        "author:d3ecf39fe9da40ae"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Remo Grillo",
+          "affiliations": []
+        },
+        {
+          "name": "Lukas Klic",
+          "affiliations": []
+        },
+        {
+          "name": "Giovanni Colavizza",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.07313",
+      "title": "Rule-Based Languages for Neurosymbolic AI",
+      "abstract": "Logic programming is increasingly used as the symbolic component of neurosymbolic AI systems. We survey the main rule-based languages in this setting, namely Datalog, answer set, and probabilistic logic programs, along four axes: semantics, expressiveness, neural integration, and evaluation mechanism. We analyse over 50 recent systems and applications, comparing formalism usage across four research areas: databases and programming languages, machine learning, vision, and robotics. We provide a decision matrix mapping application scenarios to required features and close by outlining open problems.",
+      "authors": [
+        "Stefania Dumbrava",
+        "Efthymia Tsamoura"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Stefania Dumbrava",
+          "authorEntityId": "author:c70b922989b435fd",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Stefania Dumbrava",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Efthymia Tsamoura",
+          "authorEntityId": "author:a02f353aca35c46a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Efthymia Tsamoura",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LO"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-05",
+      "url": "https://arxiv.org/abs/2610.07313",
+      "pdfUrl": "https://arxiv.org/pdf/2610.07313",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.07313",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:f33c07c79e5eb985",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Stefania Dumbrava",
+        "Efthymia Tsamoura"
+      ],
+      "authorEntityIds": [
+        "author:c70b922989b435fd",
+        "author:a02f353aca35c46a"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Stefania Dumbrava",
+          "affiliations": []
+        },
+        {
+          "name": "Efthymia Tsamoura",
           "affiliations": []
         }
       ]

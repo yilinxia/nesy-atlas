@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-10-06T17:46:08.562Z",
-  "cursorAt": "2026-10-06T17:46:08.562Z",
+  "generatedAt": "2026-10-07T18:17:37.624Z",
+  "cursorAt": "2026-10-07T18:17:37.624Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-10-04T16:18:56.460Z",
   "keywords": [
@@ -15,11 +15,88 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-10-04T16:18:56.460Z",
-  "windowStart": "2026-09-27T16:18:56.460Z",
+  "previousSnapshotAt": "2026-10-06T17:46:08.562Z",
+  "windowStart": "2026-09-29T17:46:08.562Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2610.08095",
+    "title": "Natural Language Questions as an Interface for Knowledge Graphs: QRAKEN Graph Distillation and Semantic Self-Healing",
+    "abstract": "Natural-language access to RDF knowledge graphs is a core Semantic Web ambition. Large language models (LLMs) have advanced Text-to-SPARQL, yet on unfamiliar graphs they often generate valid queries that misrepresent the populated data model. QRAKEN is a training-free, ontology-agnostic neurosymbolic pipeline grounding generation in empirical graph evidence rather than schema expectations. An offline distiller produces TTQL, a compact description of populated multi-hop patterns, conditional frequencies and path-conditioned literal examples, plus a class-property co-occurrence matrix. Online, TTQL guides the LLM, while deterministic syntax, vocabulary and data-model checks provide diagnostics for iterative refinement. On CK25 (First International Text2SPARQL Challenge), under matched-condition recomputation on a QLever snapshot, QRAKEN achieves strict F1 of 0.643 $\\pm$ 0.026 with GPT-4.1 mini and 0.652 $\\pm$ 0.012 with GPT-5.4: relative gains of 30% and 32% over the strongest recomputed participant, outperforming systems using the same base model family. Ablations identify TTQL patterns as the dominant driver (+0.31 strict F1 over a shape-only baseline); the refinement loop provides a cheap safety net, rejecting triple patterns unsupported by the co-occurrence matrix. Compared with auto-derived SHACL, TTQL yields 64% higher strict F1, supporting the value of empirical patterns beyond schema exposure. With two local 35B 4-bit open-weight models at zero marginal cost, the same pipeline matches the strongest recomputed participant, and TTQL advantages over shape-only and SHACL baselines persist. Results on a single, relatively small benchmark provide an initial empirical signal; monolithic TTQL injection on very open cross-domain graphs remains the main limitation.",
+    "authors": [
+      "Remo Grillo",
+      "Lukas Klic",
+      "Giovanni Colavizza"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Remo Grillo",
+        "affiliations": []
+      },
+      {
+        "name": "Lukas Klic",
+        "affiliations": []
+      },
+      {
+        "name": "Giovanni Colavizza",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-06",
+    "updated": "2026-10-06",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2610.08095",
+    "pdfUrl": "https://arxiv.org/pdf/2610.08095",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.07313",
+    "title": "Rule-Based Languages for Neurosymbolic AI",
+    "abstract": "Logic programming is increasingly used as the symbolic component of neurosymbolic AI systems. We survey the main rule-based languages in this setting, namely Datalog, answer set, and probabilistic logic programs, along four axes: semantics, expressiveness, neural integration, and evaluation mechanism. We analyse over 50 recent systems and applications, comparing formalism usage across four research areas: databases and programming languages, machine learning, vision, and robotics. We provide a decision matrix mapping application scenarios to required features and close by outlining open problems.",
+    "authors": [
+      "Stefania Dumbrava",
+      "Efthymia Tsamoura"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Stefania Dumbrava",
+        "affiliations": []
+      },
+      {
+        "name": "Efthymia Tsamoura",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-05",
+    "updated": "2026-10-05",
+    "categories": [
+      "cs.AI",
+      "cs.LO"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2610.07313",
+    "pdfUrl": "https://arxiv.org/pdf/2610.07313",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
   {
     "id": "2610.06270",
     "title": "DPNL: A DPLL-based Algorithm for Probabilistic Neurosymbolic Learning",
@@ -130,6 +207,47 @@ globalThis.ARXIV_PAPERS = [
     }
   },
   {
+    "id": "2610.05028",
+    "title": "Do We Still Need Gazetteers in the Era of LLMs? Chaining Retrieval with a Spatial Neuro-Symbolic Index",
+    "abstract": "Geographic information retrieval (GeoIR) tasks require systems to interpret ambiguous toponyms for downstream applications. Traditionally, toponym resolution relies on gazetteers to provide an explicit index of place entities and spatial relationships. Recently, gazetteer-free approaches seek to reduce dependence on handcrafted searches: dense retrieval utilizes text encoders to capture rich context, moving beyond the limitations of lexical search. However, text encoders implicitly assume that learned representations can function as reliable spatial-semantic indexes. In this paper, we evaluate this assumption through a spatial-semantic indexing setup: given a contextualized toponym mention, we retrieve the corresponding gazetteer entity represented by text derived from a gazetteer knowledge graph. We benchmark five frozen text encoders under two retrieval strategies: brute-force nearest-neighbor retrieval over entity representations, and a neuro-symbolic hierarchical beam search that constrains retrieval (i.e. chaining the search with gazetteer hierarchy). Experimental results reveal a distinct coarse-versus-fine trade-off. Unconstrained dense retrieval frequently incurs catastrophic spatial errors. Conversely, hierarchical constraints improve coarse geographic grounding, but still yield limited benefit for fine-grained localization metrics: vanilla text encoders fail to capture the fine-scale spatial fidelity encoded in gazetteers. Our code is publicly available at: https://doi.org/10.25439/rmt.31094269",
+    "authors": [
+      "Alexis Horde-Vo",
+      "Matt Duckham",
+      "Estrid He"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Alexis Horde-Vo",
+        "affiliations": []
+      },
+      {
+        "name": "Matt Duckham",
+        "affiliations": []
+      },
+      {
+        "name": "Estrid He",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-04",
+    "updated": "2026-10-06",
+    "categories": [
+      "cs.IR"
+    ],
+    "primaryCategory": "cs.IR",
+    "url": "https://arxiv.org/abs/2610.05028",
+    "pdfUrl": "https://arxiv.org/pdf/2610.05028",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
     "id": "2610.05223",
     "title": "Look Before You Leap: Thermodynamic Arbitration of Parametric and Non-Parametric Knowledge in LLM Agents via Self-Regulating Memory Architectures",
     "abstract": "The architecture of modern LLMs consists of a profound cognitive polarization. LLMs possess implicit intuition encoded in their parameters, yet rely on a disconnected, explicit mechanism to access the outside world. Agentic frameworks have not bridged this gap; instead, models are often compelled into pathological \"induced amnesia.\" Under the prevailing \"Retrieve-Always\" paradigm, agents must distrust their internal knowledge, making every user interaction a \"tabula rasa\" event that must be checked externally. This creates reflexive dependence that can be thermodynamically wasteful, cognitively fragile, and susceptible to irrelevant context. We propose a return to first principles, operationalizing the biological maxim \"Look Before You Leap.\" We introduce MARTA (Metacognitive Adaptive Retrieval and Thought Architecture), a neuro-symbolic framework that bridges parametric and non-parametric knowledge. Rather than treating retrieval as mandatory, MARTA models it as a cost, taking the leap only when perceived internal inadequacy warrants external information. By allowing the agent to gauge the entropy of its own thoughts before acting, MARTA enables deliberative retrieval and uncertainty-aware decision making. Our approach suggests that giving agents the capacity for introspection can restore a more efficient balance between internal knowledge and external information.",
@@ -159,47 +277,6 @@ globalThis.ARXIV_PAPERS = [
     "pdfUrl": "https://arxiv.org/pdf/2610.05223",
     "matches": {
       "title": [],
-      "abstract": [
-        "neuro-symbolic"
-      ]
-    }
-  },
-  {
-    "id": "2610.05028",
-    "title": "Do We Still Need Gazetteers in the Era of LLMs? Chaining Retrieval with a Spatial Neuro-Symbolic Index",
-    "abstract": "Geographic information retrieval (GeoIR) tasks require systems to interpret ambiguous toponyms for downstream applications. Traditionally, toponym resolution relies on gazetteers to provide an explicit index of place entities and spatial relationships. Recently, gazetteer-free approaches seek to reduce dependence on handcrafted searches: dense retrieval utilizes text encoders to capture rich context, moving beyond the limitations of lexical search. However, text encoders implicitly assume that learned representations can function as reliable spatial-semantic indexes. In this paper, we evaluate this assumption through a spatial-semantic indexing setup: given a contextualized toponym mention, we retrieve the corresponding gazetteer entity represented by text derived from a gazetteer knowledge graph. We benchmark five frozen text encoders under two retrieval strategies: brute-force nearest-neighbor retrieval over entity representations, and a neuro-symbolic hierarchical beam search that constrains retrieval (i.e. chaining the search with gazetteer hierarchy). Experimental results reveal a distinct coarse-versus-fine trade-off. Unconstrained dense retrieval frequently incurs catastrophic spatial errors. Conversely, hierarchical constraints improve coarse geographic grounding, but still yield limited benefit for fine-grained localization metrics: vanilla text encoders fail to capture the fine-scale spatial fidelity encoded in gazetteers. Our code is publicly available at: https://doi.org/10.25439/rmt.31094269",
-    "authors": [
-      "Horde-Vo Alexis",
-      "Duckham Matt",
-      "He Estrid"
-    ],
-    "authorAffiliations": [
-      {
-        "name": "Horde-Vo Alexis",
-        "affiliations": []
-      },
-      {
-        "name": "Duckham Matt",
-        "affiliations": []
-      },
-      {
-        "name": "He Estrid",
-        "affiliations": []
-      }
-    ],
-    "affiliations": [],
-    "published": "2026-10-04",
-    "updated": "2026-10-04",
-    "categories": [
-      "cs.IR"
-    ],
-    "primaryCategory": "cs.IR",
-    "url": "https://arxiv.org/abs/2610.05028",
-    "pdfUrl": "https://arxiv.org/pdf/2610.05028",
-    "matches": {
-      "title": [
-        "neuro-symbolic"
-      ],
       "abstract": [
         "neuro-symbolic"
       ]
