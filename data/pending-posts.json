@@ -2644,5 +2644,23 @@
     "sourceUrl": "https://www.kognitos.com/blog/",
     "discovered": "2026-10-07",
     "status": "needs-review"
+  },
+  {
+    "company": "expert.ai",
+    "title": "News 09 Oct 2026 Expert.ai Named to the 2026 InsurTech100, Recognized for Its Contribution to the Future of Insurance through Neurosymbolic AI Read",
+    "date": "2026-10-09",
+    "url": "https://www.expert.ai/news/expert-ai-named-to-the-2026-insurtech100-recognized-for-its-contribution-to-the-future-of-insurance-through-neurosymbolic-ai/",
+    "sourceUrl": "https://www.expert.ai/news-resources/",
+    "discovered": "2026-10-09",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Finance 10.08.2026 Deal Desk: A Slow Desk Doesn't Produce Slow Deals. It Produces Ungoverned Ones. Read",
+    "date": "2026-10-08",
+    "url": "https://www.kognitos.com/blog/deal-desk/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-10-09",
+    "status": "needs-review"
   }
 ]
