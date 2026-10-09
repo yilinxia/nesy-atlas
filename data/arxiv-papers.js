@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-10-08T18:18:15.405Z",
-  "cursorAt": "2026-10-08T18:18:15.405Z",
+  "generatedAt": "2026-10-09T17:51:27.711Z",
+  "cursorAt": "2026-10-09T17:51:27.711Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-10-04T16:18:56.460Z",
   "keywords": [
@@ -15,11 +15,116 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-10-07T18:17:37.624Z",
-  "windowStart": "2026-09-30T18:17:37.624Z",
+  "previousSnapshotAt": "2026-10-08T18:18:15.405Z",
+  "windowStart": "2026-10-01T18:18:15.405Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2610.12303",
+    "title": "Learning Probabilistic Logic Programs with Functional Gradient Guided Language Models",
+    "abstract": "Declarative logic programs offer a powerful and interpretable abstraction for encoding relational structure and neurosymbolic reasoning, by expressing dependencies as weighted compositional rules. However, inducing them from data remains fundamentally hard, bottlenecked by the combinatorial explosion of symbolic search spaces. LLMs have recently emerged as powerful hypothesis generators, but when used in isolation, they lack the capacity to do systematic inductive reasoning needed to reliably synthesize valid programs that fit complex relational distributions. We introduce grasp (Gradient-boosted Synthesis of Probabilistic logic programs), a neurosymbolic framework that casts relational structure learning as functional gradient boosting in which the weak learner is a first-order rule and the intractable inner search is delegated to an LLM proposal oracle. We evaluate grasp on four relational benchmarks spanning molecular toxicity prediction (Tox21), mutagenesis, and citation matching (Cora), and show that it improves over purely symbolic, neural, and LLM-based baselines, while producing interpretable weighted rule ensembles. By replacing combinatorial search with gradient-guided LLM hypothesis generation, grasp retains boosting guarantees without sacrificing the transparency of symbolic outputs.",
+    "authors": [
+      "Saurabh Mathur",
+      "Sahil Sidheekh",
+      "Bhavan Vasu",
+      "Farbod Tavakkoli",
+      "Prasad Tadepalli",
+      "Kristian Kersting",
+      "Sriraam Natarajan"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Saurabh Mathur",
+        "affiliations": []
+      },
+      {
+        "name": "Sahil Sidheekh",
+        "affiliations": []
+      },
+      {
+        "name": "Bhavan Vasu",
+        "affiliations": []
+      },
+      {
+        "name": "Farbod Tavakkoli",
+        "affiliations": []
+      },
+      {
+        "name": "Prasad Tadepalli",
+        "affiliations": []
+      },
+      {
+        "name": "Kristian Kersting",
+        "affiliations": []
+      },
+      {
+        "name": "Sriraam Natarajan",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-08",
+    "updated": "2026-10-08",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2610.12303",
+    "pdfUrl": "https://arxiv.org/pdf/2610.12303",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.10580",
+    "title": "A Survey on LLM-Integrated Hardware Design Verification",
+    "abstract": "Large language models (LLMs) are increasingly being integrated into hardware verification to automate specification interpretation, verification-artifact generation, debugging, formal reasoning, and tool orchestration. This survey provides a systematic review of LLM-assisted hardware functional verification across SystemVerilog assertion generation, stimulus and testbench generation, bug localization and design repair, model checking and equivalence checking, SAT/SMT optimization, and emerging agentic verification workflows. We organize the literature by methodology, verification objective, tool interaction, benchmark, and evaluation criterion, and examine both inference-time techniques--including prompting, retrieval, structured reasoning, and agentic workflows--and training-time adaptation. Across these areas, a common pattern emerges: LLMs are most effective as semantic reasoning, search, and orchestration components embedded within verification-aware workflows, while simulators, formal engines, coverage tools, and solvers provide executable feedback and correctness evidence. However, tool acceptance alone does not establish verification correctness, since assertions, tests, repairs, or proofs may satisfy available checks without faithfully capturing the complete design intent. We therefore identify semantic alignment between specifications and verification evidence, scalable integration with deterministic tools, generalization to unseen designs, and rigorous evaluation of correctness, cost, robustness, and human effort as key challenges. Finally, we discuss emerging directions toward specification-centered, neuro-symbolic, and persistent agentic verification systems that combine LLM flexibility with independently checkable verification evidence.",
+    "authors": [
+      "Hao Zheng",
+      "Jaime Rafael Imperial",
+      "Bardia Nadimi",
+      "Xiangfei Kong"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Hao Zheng",
+        "affiliations": []
+      },
+      {
+        "name": "Jaime Rafael Imperial",
+        "affiliations": []
+      },
+      {
+        "name": "Bardia Nadimi",
+        "affiliations": []
+      },
+      {
+        "name": "Xiangfei Kong",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-06",
+    "updated": "2026-10-06",
+    "categories": [
+      "cs.AR",
+      "cs.AI",
+      "cs.SE"
+    ],
+    "primaryCategory": "cs.AR",
+    "url": "https://arxiv.org/abs/2610.10580",
+    "pdfUrl": "https://arxiv.org/pdf/2610.10580",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2610.08095",
     "title": "Natural Language Questions as an Interface for Knowledge Graphs: QRAKEN Graph Distillation and Semantic Self-Healing",

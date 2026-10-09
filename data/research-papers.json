@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-08T18:18:16.111Z",
+  "generatedAt": "2026-10-09T17:51:28.398Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1838,
+  "paperCount": 1840,
   "completeMetadataCount": 1372,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1533
+      "count": 1535
     },
     {
       "id": "nesy-proceedings",
@@ -296,7 +296,7 @@
         "aliases": [
           "Kristian Kersting"
         ],
-        "paperCount": 24,
+        "paperCount": 25,
         "institutionIds": [
           "institution:11591cc112c8c577",
           "institution:36c401a3c72be9ea",
@@ -1910,6 +1910,17 @@
         ]
       },
       {
+        "id": "author:27c5d55d159a7c18",
+        "name": "Sriraam Natarajan",
+        "aliases": [
+          "Sriraam Natarajan"
+        ],
+        "paperCount": 5,
+        "institutionIds": [
+          "institution:a55a77635edc8711"
+        ]
+      },
+      {
         "id": "author:239de5c63564faaa",
         "name": "Stefano De Giorgis",
         "aliases": [
@@ -2791,6 +2802,15 @@
         ]
       },
       {
+        "id": "author:40149d60e1a531ac",
+        "name": "Saurabh Mathur",
+        "aliases": [
+          "Saurabh Mathur"
+        ],
+        "paperCount": 4,
+        "institutionIds": []
+      },
+      {
         "id": "author:4f83e86b290da151",
         "name": "Shi-Yu Tian",
         "aliases": [
@@ -2810,17 +2830,6 @@
         "paperCount": 4,
         "institutionIds": [
           "institution:f336b3005794930b"
-        ]
-      },
-      {
-        "id": "author:27c5d55d159a7c18",
-        "name": "Sriraam Natarajan",
-        "aliases": [
-          "Sriraam Natarajan"
-        ],
-        "paperCount": 4,
-        "institutionIds": [
-          "institution:a55a77635edc8711"
         ]
       },
       {
@@ -5013,15 +5022,6 @@
           "institution:0256be43fd48d281",
           "institution:57c99a7a8e0cbe1c"
         ]
-      },
-      {
-        "id": "author:40149d60e1a531ac",
-        "name": "Saurabh Mathur",
-        "aliases": [
-          "Saurabh Mathur"
-        ],
-        "paperCount": 3,
-        "institutionIds": []
       },
       {
         "id": "author:e03ed8e1aaa5bd09",
@@ -7979,6 +7979,15 @@
         ]
       },
       {
+        "id": "author:a0ee83005c06dd6c",
+        "name": "Hao Zheng",
+        "aliases": [
+          "Hao Zheng"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
+      },
+      {
         "id": "author:7b1e5067475e6c07",
         "name": "Haolin Ye",
         "aliases": [
@@ -10145,6 +10154,15 @@
         "institutionIds": [
           "institution:1820a35199df3a77"
         ]
+      },
+      {
+        "id": "author:cddc13ae4043b2c3",
+        "name": "Prasad Tadepalli",
+        "aliases": [
+          "Prasad Tadepalli"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
       },
       {
         "id": "author:20529fd979a7d779",
@@ -18497,6 +18515,15 @@
         ]
       },
       {
+        "id": "author:26ed588d5e77bd19",
+        "name": "Bardia Nadimi",
+        "aliases": [
+          "Bardia Nadimi"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:06c9d613b9464e06",
         "name": "Bart Selman",
         "aliases": [
@@ -18914,6 +18941,15 @@
         "institutionIds": [
           "institution:2c4a38c569856640"
         ]
+      },
+      {
+        "id": "author:08a1a68019203f9c",
+        "name": "Bhavan Vasu",
+        "aliases": [
+          "Bhavan Vasu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:6c1179ea9fd9028c",
@@ -25770,6 +25806,15 @@
         ]
       },
       {
+        "id": "author:a6edfe0b1e7fee38",
+        "name": "Farbod Tavakkoli",
+        "aliases": [
+          "Farbod Tavakkoli"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:9dbf39ebec37330d",
         "name": "Farhad Imani",
         "aliases": [
@@ -29045,15 +29090,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:a0ee83005c06dd6c",
-        "name": "Hao Zheng",
-        "aliases": [
-          "Hao Zheng"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:1a5b3f035632fe49",
         "name": "Hao-Ran Hao",
         "aliases": [
@@ -31674,6 +31710,15 @@
         "institutionIds": [
           "institution:51c7b8ae6dba95b4"
         ]
+      },
+      {
+        "id": "author:c6c3f62df2011d31",
+        "name": "Jaime Rafael Imperial",
+        "aliases": [
+          "Jaime Rafael Imperial"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:8622e9f8f9d5339b",
@@ -48143,15 +48188,6 @@
         ]
       },
       {
-        "id": "author:cddc13ae4043b2c3",
-        "name": "Prasad Tadepalli",
-        "aliases": [
-          "Prasad Tadepalli"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:af25a03390f8cd3e",
         "name": "Prasad Tetali",
         "aliases": [
@@ -51372,6 +51408,15 @@
         "name": "Sahar Vahdati",
         "aliases": [
           "Sahar Vahdati"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:793b4c8b0c744d3c",
+        "name": "Sahil Sidheekh",
+        "aliases": [
+          "Sahil Sidheekh"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -60066,6 +60111,15 @@
         "institutionIds": [
           "institution:b0a00f02c9053d40"
         ]
+      },
+      {
+        "id": "author:8974526e9ec1b010",
+        "name": "Xiangfei Kong",
+        "aliases": [
+          "Xiangfei Kong"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:c9f2fbe56453217b",
@@ -376065,6 +376119,269 @@
         },
         {
           "name": "Efthymia Tsamoura",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.12303",
+      "title": "Learning Probabilistic Logic Programs with Functional Gradient Guided Language Models",
+      "abstract": "Declarative logic programs offer a powerful and interpretable abstraction for encoding relational structure and neurosymbolic reasoning, by expressing dependencies as weighted compositional rules. However, inducing them from data remains fundamentally hard, bottlenecked by the combinatorial explosion of symbolic search spaces. LLMs have recently emerged as powerful hypothesis generators, but when used in isolation, they lack the capacity to do systematic inductive reasoning needed to reliably synthesize valid programs that fit complex relational distributions. We introduce grasp (Gradient-boosted Synthesis of Probabilistic logic programs), a neurosymbolic framework that casts relational structure learning as functional gradient boosting in which the weak learner is a first-order rule and the intractable inner search is delegated to an LLM proposal oracle. We evaluate grasp on four relational benchmarks spanning molecular toxicity prediction (Tox21), mutagenesis, and citation matching (Cora), and show that it improves over purely symbolic, neural, and LLM-based baselines, while producing interpretable weighted rule ensembles. By replacing combinatorial search with gradient-guided LLM hypothesis generation, grasp retains boosting guarantees without sacrificing the transparency of symbolic outputs.",
+      "authors": [
+        "Saurabh Mathur",
+        "Sahil Sidheekh",
+        "Bhavan Vasu",
+        "Farbod Tavakkoli",
+        "Prasad Tadepalli",
+        "Kristian Kersting",
+        "Sriraam Natarajan"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Saurabh Mathur",
+          "authorEntityId": "author:40149d60e1a531ac",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Saurabh Mathur",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Sahil Sidheekh",
+          "authorEntityId": "author:793b4c8b0c744d3c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Sahil Sidheekh",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Bhavan Vasu",
+          "authorEntityId": "author:08a1a68019203f9c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Bhavan Vasu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Farbod Tavakkoli",
+          "authorEntityId": "author:a6edfe0b1e7fee38",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Farbod Tavakkoli",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Prasad Tadepalli",
+          "authorEntityId": "author:cddc13ae4043b2c3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Prasad Tadepalli",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Kristian Kersting",
+          "authorEntityId": "author:b5e4080501f3c8fa",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Kristian Kersting",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Sriraam Natarajan",
+          "authorEntityId": "author:27c5d55d159a7c18",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Sriraam Natarajan",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-08",
+      "url": "https://arxiv.org/abs/2610.12303",
+      "pdfUrl": "https://arxiv.org/pdf/2610.12303",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.12303",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:7018cb454afa67d6",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Saurabh Mathur",
+        "Sahil Sidheekh",
+        "Bhavan Vasu",
+        "Farbod Tavakkoli",
+        "Prasad Tadepalli",
+        "Kristian Kersting",
+        "Sriraam Natarajan"
+      ],
+      "authorEntityIds": [
+        "author:40149d60e1a531ac",
+        "author:793b4c8b0c744d3c",
+        "author:08a1a68019203f9c",
+        "author:a6edfe0b1e7fee38",
+        "author:cddc13ae4043b2c3",
+        "author:b5e4080501f3c8fa",
+        "author:27c5d55d159a7c18"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Saurabh Mathur",
+          "affiliations": []
+        },
+        {
+          "name": "Sahil Sidheekh",
+          "affiliations": []
+        },
+        {
+          "name": "Bhavan Vasu",
+          "affiliations": []
+        },
+        {
+          "name": "Farbod Tavakkoli",
+          "affiliations": []
+        },
+        {
+          "name": "Prasad Tadepalli",
+          "affiliations": []
+        },
+        {
+          "name": "Kristian Kersting",
+          "affiliations": []
+        },
+        {
+          "name": "Sriraam Natarajan",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.10580",
+      "title": "A Survey on LLM-Integrated Hardware Design Verification",
+      "abstract": "Large language models (LLMs) are increasingly being integrated into hardware verification to automate specification interpretation, verification-artifact generation, debugging, formal reasoning, and tool orchestration. This survey provides a systematic review of LLM-assisted hardware functional verification across SystemVerilog assertion generation, stimulus and testbench generation, bug localization and design repair, model checking and equivalence checking, SAT/SMT optimization, and emerging agentic verification workflows. We organize the literature by methodology, verification objective, tool interaction, benchmark, and evaluation criterion, and examine both inference-time techniques--including prompting, retrieval, structured reasoning, and agentic workflows--and training-time adaptation. Across these areas, a common pattern emerges: LLMs are most effective as semantic reasoning, search, and orchestration components embedded within verification-aware workflows, while simulators, formal engines, coverage tools, and solvers provide executable feedback and correctness evidence. However, tool acceptance alone does not establish verification correctness, since assertions, tests, repairs, or proofs may satisfy available checks without faithfully capturing the complete design intent. We therefore identify semantic alignment between specifications and verification evidence, scalable integration with deterministic tools, generalization to unseen designs, and rigorous evaluation of correctness, cost, robustness, and human effort as key challenges. Finally, we discuss emerging directions toward specification-centered, neuro-symbolic, and persistent agentic verification systems that combine LLM flexibility with independently checkable verification evidence.",
+      "authors": [
+        "Hao Zheng",
+        "Jaime Rafael Imperial",
+        "Bardia Nadimi",
+        "Xiangfei Kong"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Hao Zheng",
+          "authorEntityId": "author:a0ee83005c06dd6c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Hao Zheng",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jaime Rafael Imperial",
+          "authorEntityId": "author:c6c3f62df2011d31",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jaime Rafael Imperial",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Bardia Nadimi",
+          "authorEntityId": "author:26ed588d5e77bd19",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Bardia Nadimi",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xiangfei Kong",
+          "authorEntityId": "author:8974526e9ec1b010",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xiangfei Kong",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AR",
+        "cs.AI",
+        "cs.SE"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-06",
+      "url": "https://arxiv.org/abs/2610.10580",
+      "pdfUrl": "https://arxiv.org/pdf/2610.10580",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.10580",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:b65f59de791fe7e5",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Hao Zheng",
+        "Jaime Rafael Imperial",
+        "Bardia Nadimi",
+        "Xiangfei Kong"
+      ],
+      "authorEntityIds": [
+        "author:a0ee83005c06dd6c",
+        "author:c6c3f62df2011d31",
+        "author:26ed588d5e77bd19",
+        "author:8974526e9ec1b010"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Hao Zheng",
+          "affiliations": []
+        },
+        {
+          "name": "Jaime Rafael Imperial",
+          "affiliations": []
+        },
+        {
+          "name": "Bardia Nadimi",
+          "affiliations": []
+        },
+        {
+          "name": "Xiangfei Kong",
           "affiliations": []
         }
       ]
