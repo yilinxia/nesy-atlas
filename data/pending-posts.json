@@ -2662,5 +2662,23 @@
     "sourceUrl": "https://www.kognitos.com/blog/",
     "discovered": "2026-10-09",
     "status": "needs-review"
+  },
+  {
+    "company": "DaaX",
+    "title": "Off by 1,000×: How AI Misreads Numbers in Multilingual Documents",
+    "date": "2026-10-12",
+    "url": "https://daax.ai/blog/off-by-1000x-ai-misreads-numbers",
+    "sourceUrl": "https://daax.ai/blog",
+    "discovered": "2026-10-12",
+    "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "Inside the Marketing AI Flywheel: How Do We Make the Next One Smarter?",
+    "date": "2026-10-12",
+    "url": "https://www.uniphore.com/blog/inside-the-marketing-ai-flywheel-how-do-we-make-the-next-one-smarter/",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-10-12",
+    "status": "needs-review"
   }
 ]
