@@ -2680,5 +2680,95 @@
     "sourceUrl": "https://www.uniphore.com/blog/",
     "discovered": "2026-10-12",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Insurance 10.13.2026 First Notice of Loss: The Baseline Everything Else Is Measured Against Read",
+    "date": "2026-10-13",
+    "url": "https://www.kognitos.com/blog/first-notice-of-loss/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-10-13",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Banking 10.13.2026 RPA in Banking: Where Bots Work and Where They Break Read",
+    "date": "2026-10-13",
+    "url": "https://www.kognitos.com/blog/rpa-in-banking/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-10-13",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Banking 10.13.2026 Mortgage Automation: Where Time Is Lost Between Application and Close Read",
+    "date": "2026-10-13",
+    "url": "https://www.kognitos.com/blog/mortgage-automation/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-10-13",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Finance 10.12.2026 Audit Automation: Evidence Is Cheaper to Collect Than to Rebuild Read",
+    "date": "2026-10-12",
+    "url": "https://www.kognitos.com/blog/audit-automation/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-10-13",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "AI Governance 10.12.2026 Continuous Controls Monitoring: Test Every Transaction, Not a Sample Read",
+    "date": "2026-10-12",
+    "url": "https://www.kognitos.com/blog/continuous-controls-monitoring/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-10-13",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "AI Governance 10.12.2026 Operational Risk: The Loss Starts in an Ordinary Process Read",
+    "date": "2026-10-12",
+    "url": "https://www.kognitos.com/blog/operational-risk/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-10-13",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Finance 10.12.2026 Third-Party Risk Management: The Evidence Behind the Score Read",
+    "date": "2026-10-12",
+    "url": "https://www.kognitos.com/blog/third-party-risk-management-finance-procurement/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-10-13",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "AI Governance 10.12.2026 NIST AI Risk Management Framework: What Govern, Map, Measure, and Manage Mean in Operations Read",
+    "date": "2026-10-12",
+    "url": "https://www.kognitos.com/blog/nist-ai-risk-management-framework/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-10-13",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "AI Fundamentals 05.05.2026 Intelligent Document Processing: The Reading Is Probabilistic, the Deciding Must Not Be Read",
+    "date": "2026-05-05",
+    "url": "https://www.kognitos.com/blog/intelligent-document-processing/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-10-13",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Aug 4, 2026 Kognitos Launches Context Graph for Finance, Bringing Deterministic, Hallucination-Free AI to the Office of the CFO Organization-specific knowledge, human-approved business rules and deterministic execution, beginning with accounts payable.",
+    "date": "2026-08-04",
+    "url": "https://www.kognitos.com/news/kognitos-launches-context-graph-for-finance/",
+    "sourceUrl": "https://www.kognitos.com/news/",
+    "discovered": "2026-10-13",
+    "status": "needs-review"
   }
 ]
