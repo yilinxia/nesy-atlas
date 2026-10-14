@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-10-13T18:46:03.153Z",
-  "cursorAt": "2026-10-13T18:46:03.153Z",
+  "generatedAt": "2026-10-14T16:20:38.439Z",
+  "cursorAt": "2026-10-14T16:20:38.439Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-10-11T17:13:01.117Z",
   "keywords": [
@@ -15,11 +15,433 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-10-12T20:45:46.931Z",
-  "windowStart": "2026-10-05T20:45:46.931Z",
+  "previousSnapshotAt": "2026-10-13T18:46:03.153Z",
+  "windowStart": "2026-10-06T18:46:03.153Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2610.18850",
+    "title": "Collaborative Planning for UAV-UGV Teams under Operational Constraints via Masked Error-bounded Neuro-Symbolic Diffusion",
+    "abstract": "Collaborative planning under operational constraints is essential for heterogeneous robot teams in large-scale missions. Unmanned Aerial Vehicles (UAVs) provide rapid area coverage but are limited by onboard energy, while Unmanned Ground Vehicles (UGVs) can serve as mobile recharging stations yet are constrained by road-network traversability. Effective collaboration must enforce operational constraints during execution while enabling parallel, coordinated actions. Masked Diffusion Models (MDMs) have shown promise through token unmasking but have two key limitations: entropy-guided scheduling assumes distributional alignment and reliance on differentiable constraints for diffusion-time optimization. We propose Masked Error-bounded Neuro-Symbolic Diffusion (MEND), which formulates collaborative planning as a conditional masked generative process to generate context-aware action sequences for UAV-UGV teams. MEND introduces a neuro-symbolic diffusion paradigm that constrains conditional masked diffusion policies at execution by reweighting the learned action distribution with a logic-induced admissibility indicator, thereby enforcing compliance with operational constraints. MEND introduces an error-bounded inference scheduling at execution that constructs the unmasking schedule by selecting positions with minimal predictive entropy over the constraint-aware action distribution, enhancing collaborative planning optimality under operational constraints. Extensive experimental results in simulation, on real-world maps, and with physical robot teams demonstrate that MEND advances UAV-UGV collaborative planning under operational constraints.",
+    "authors": [
+      "Zihao Deng",
+      "Qianhuang Li",
+      "Maggie Wigness",
+      "John Rogers",
+      "Donghyun Kim",
+      "Hao Zhang"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Zihao Deng",
+        "affiliations": []
+      },
+      {
+        "name": "Qianhuang Li",
+        "affiliations": []
+      },
+      {
+        "name": "Maggie Wigness",
+        "affiliations": []
+      },
+      {
+        "name": "John Rogers",
+        "affiliations": []
+      },
+      {
+        "name": "Donghyun Kim",
+        "affiliations": []
+      },
+      {
+        "name": "Hao Zhang",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-13",
+    "updated": "2026-10-13",
+    "categories": [
+      "cs.RO"
+    ],
+    "primaryCategory": "cs.RO",
+    "url": "https://arxiv.org/abs/2610.18850",
+    "pdfUrl": "https://arxiv.org/pdf/2610.18850",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.18176",
+    "title": "Neuro-Symbolic Graph Transformers for Hierarchical Intention Recognition from Multimodal Human Activity Sequences",
+    "abstract": "Proactive human-robot collaboration requires autonomous systems to infer not only immediate actions but also the underlying hierarchical intentions governing human behavior. Current deep learning approaches predominantly focus on flat action classification, failing to capture the structural dependencies connecting kinematic motion to high-level goals. A Neuro-Symbolic Graph Transformer (NSGT) is proposed within this multimodal framework, a Human Reasoning Graph (HR-G) is integrated into the self-attention mechanism via learnable topological biases. Furthermore, the architecture is augmented with a differentiable First-Order Logic (FOL) loss, acting as a structural regularizer by which ontological consistency is enforced across four levels: atomic actions, composite activities, Low-Level Intentions, and High-Level Intentions. Evaluation is performed on the synthesized NTU-Hierarchy dataset, a four-level ontological extension of NTU RGB+D 120, wherein existing sequences were mapped into 119,383 complex hierarchical episodes (85 actions, 16 activities, 8 LLIs, 4 HLIs). To prevent circular supervision, strict isolation between label generation and FOL constraints was maintained. In the base configuration, 91.65% top-1 action accuracy is achieved by the NSGT. When the FOL loss is incorporated into the baseline, logic consistency is improved by 3.26 percentage points to 96.67%. Through the HR-G biases, a tunable trade-off between accuracy and structural coherence is established. In the primary consistency-maximizing configuration ($λ$ = 0.5), a logic consistency of 94.59% is reached and ontological contradictions are reduced by 33%, while a robust 89.90% top-1 action accuracy is retained. Finally, interpretable reasoning evidence is provided by the learned HR-G weights, wherein transition edges are strongly exploited ($β$ trans $\\approx$ +2.6) without explicit supervision.",
+    "authors": [
+      "Farnaz Soleimani",
+      "Abdelghani Chibani",
+      "Yacine Amirat",
+      "Ghazaleh Khodabandelou"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Farnaz Soleimani",
+        "affiliations": [
+          "LISSI"
+        ]
+      },
+      {
+        "name": "Abdelghani Chibani",
+        "affiliations": [
+          "LISSI"
+        ]
+      },
+      {
+        "name": "Yacine Amirat",
+        "affiliations": [
+          "LISSI"
+        ]
+      },
+      {
+        "name": "Ghazaleh Khodabandelou",
+        "affiliations": [
+          "LISSI"
+        ]
+      }
+    ],
+    "affiliations": [
+      "LISSI"
+    ],
+    "published": "2026-10-13",
+    "updated": "2026-10-13",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2610.18176",
+    "pdfUrl": "https://arxiv.org/pdf/2610.18176",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.17994",
+    "title": "Improving Neural Symbolic Regression with a Diverse Prior and Post-training Alignment",
+    "abstract": "Symbolic regression is the problem of finding an expression that fits a dataset. Solving it requires searching a combinatorial space of candidate expressions. Neural symbolic regression can amortize that search by training a model once on synthetic data and then predicting expressions for a new dataset. But existing models still underperform genetic programming on real, noisy data. We argue that the deficit lies in the training rather than in the paradigm, and present RASR (Reinforced Amortized Symbolic Regression), a method with two key changes to the training recipe. First, we design a synthetic prior that narrows the gap with real-world data: inputs come from the prior of a tabular foundation model; constants are sampled bottom-up, conditioned on the data; targets carry heteroscedastic and structured noise; and everything is standardized. Second, we split training into two stages. Supervised pre-training maximizes the token-level likelihood of a reference expression. This is followed by reinforcement-learning post-training that aligns the model with its inference-time use by rewarding held-out fit and penalizing expression size. On the black-box track of SRBench 2.0, RASR achieves the best mean test $R^2$ rank of all evaluated methods. Three RASR variants, trained with different size penalties, make up most of the accuracy-complexity Pareto front. On Strogatz, our method recovers more ground-truth expressions than any baseline, and on Feynman it is competitive with the best-performing methods.",
+    "authors": [
+      "David Otte",
+      "Jörg K. H. Franke",
+      "Frank Hutter"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "David Otte",
+        "affiliations": []
+      },
+      {
+        "name": "Jörg K. H. Franke",
+        "affiliations": []
+      },
+      {
+        "name": "Frank Hutter",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-13",
+    "updated": "2026-10-13",
+    "categories": [
+      "cs.LG"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2610.17994",
+    "pdfUrl": "https://arxiv.org/pdf/2610.17994",
+    "matches": {
+      "title": [
+        "neural symbolic"
+      ],
+      "abstract": [
+        "neural symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.17493",
+    "title": "VeriPIE: Checkable Query Plans and Evidence-Guided Selection for Text-to-SQL",
+    "abstract": "Financial Artificial Intelligence (AI) governance and model risk management (MRM) emphasize independent validation, transparency, and effective challenge of AI-generated computations. Text-to-SQL translates natural-language questions into Structured Query Language (SQL), but queries that agree on one database can still express different computations. We present VeriPIE, a neurosymbolic framework combining language-model generation with symbolic checks. It ensembles direct SQL generation with QuerySketch, a structured plan language checked by a backend implemented in Lean, a theorem prover and programming language. Plan diagnostics guide repair before SQL generation, while execution agreement and bounded searches for distinguishing databases inform candidate selection. These checks expose malformed plans and hidden disagreement without proving agreement with the user's intent. In single-run experiments on the complete Spider development set, VeriPIE achieves 72.05% test-suite accuracy (745/1,034), compared with DeepEye's 65.67% (679/1,034). Its two-query shortlist covers 78.43% (811 questions), compared with 74.66% for DIN-SQL (772) and 69.05% for DeepEye (714). On BIRD, VeriPIE reaches 68.90% execution accuracy and 73.73% two-query coverage. The central benefit is reviewable evidence about the generated computation: explicit plan checks, repair diagnostics, and concrete disagreements that support safer financial analysis.",
+    "authors": [
+      "Piyush Jha",
+      "Cruise Song",
+      "Zhengyu Li",
+      "Yatharth Sejpal"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Piyush Jha",
+        "affiliations": []
+      },
+      {
+        "name": "Cruise Song",
+        "affiliations": []
+      },
+      {
+        "name": "Zhengyu Li",
+        "affiliations": []
+      },
+      {
+        "name": "Yatharth Sejpal",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-12",
+    "updated": "2026-10-12",
+    "categories": [
+      "cs.LO",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.LO",
+    "url": "https://arxiv.org/abs/2610.17493",
+    "pdfUrl": "https://arxiv.org/pdf/2610.17493",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.15556",
+    "title": "Vision-Predictor-Action: Towards Efficient Embodied AI via Neuro-Symbolic JEPA Predictors",
+    "abstract": "Vision-Language-Action (VLA) models commonly generate robot actions token by token through Large Language Model (LLM) decoders, causing inference latency to grow with action sequence length and limiting closed-loop control frequency. We present Goal-Conditioned Vision-Predictor-Action (VPA), which replaces autoregressive decoders with a lightweight latent control loop. A shared vision encoder and a frozen text encoder embed observations, goal images, and instructions; a neuro-symbolic selector chooses a discrete skill; a Joint-Embedding Predictive Architecture (JEPA) predictor forecasts the next latent state; and a flow-matching solver generates an entire action chunk in a few integration steps, so that sequential network evaluations per decision step do not depend on the action horizon. We analyze inference complexity, regularization against representation collapse, and conditions under which latent sub-goal thresholding limits error accumulation across task phases. As an initial proof of concept, we evaluated VPA on the LIBERO-10 suite. The trainable model has under 20M parameters (checkpoint under 75 MB, excluding a frozen 63.4M-parameter CLIP text encoder); a decision step of a single-camera reference configuration takes 10-14 ms on an Apple M4; and trained only on LIBERO-10 demonstrations in under three hours on a single GPU, a two-camera policy succeeded in 40.0% of 200 evaluation episodes. These preliminary results from a single training run suggest the approach is workable. Code and weights are available at https://github.com/ylee-sling/Vision-Predictor-Action and https://huggingface.co/ylee-sling/vpa-libero10, and archived at https://doi.org/10.5281/zenodo.22960920.",
+    "authors": [
+      "Yeonseok Lee"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Yeonseok Lee",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-11",
+    "updated": "2026-10-11",
+    "categories": [
+      "cs.LO",
+      "cs.LG",
+      "cs.RO"
+    ],
+    "primaryCategory": "cs.LO",
+    "url": "https://arxiv.org/abs/2610.15556",
+    "pdfUrl": "https://arxiv.org/pdf/2610.15556",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.15158",
+    "title": "Learning Proposition-Level Links from Sentence-Level Supervision for Neuro-Symbolic NLI",
+    "abstract": "We study neuro-symbolic natural language inference (NLI) with independently translated propositional representations of the premise and hypothesis. Before symbolic reasoning, the system must infer semantic links between their proposition-level units (atoms). Existing systems based on Abstract Meaning Representation (AMR) and Boolean satisfiability (SAT) identify these links using fixed embedding-based source selection and pretrained sentence-level NLI models not trained for atom-level linking. We introduce a trainable atom linker that jointly predicts link existence, source selection, and relation type. Without atom-pair training annotations, we treat cross-formula link structures as latent and train the linker from sentence-level NLI labels, keeping the translator and SAT reasoner fixed. We evaluate on the full public test splits of Stanford Natural Language Inference (SNLI) and Sentences Involving Compositional Knowledge (SICK), and the matched and mismatched validation splits of Multi-Genre Natural Language Inference (MNLI). Our system improves accuracy by 11.40-27.09 percentage points over a baseline applying sentence-trained NLI models unchanged to atom pairs within the same SAT pipeline. It also improves over the prior fixed-linker AMR-to-SAT system by 8.14-26.32 percentage points on SNLI and both MNLI splits, with a smaller gain on SICK.",
+    "authors": [
+      "Xuyao Feng",
+      "Antonis Bikakis"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Xuyao Feng",
+        "affiliations": []
+      },
+      {
+        "name": "Antonis Bikakis",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-10",
+    "updated": "2026-10-10",
+    "categories": [
+      "cs.CL"
+    ],
+    "primaryCategory": "cs.CL",
+    "url": "https://arxiv.org/abs/2610.15158",
+    "pdfUrl": "https://arxiv.org/pdf/2610.15158",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.15091",
+    "title": "Have You Been Convinced? A Neuro-symbolic Argumentation Reasoning Approach to Detecting Persuasiveness in ChangeMyView Discussions",
+    "abstract": "Argument structures represent how individual arguments interact within a discourse. However, leveraging these structures to infer meaningful knowledge remains challenging, as it requires a formal representation of how argumentative influence propagates across the structure. We propose Neuro-symbolic Argumentation Reasoning System (NARS) for performing persuasiveness detection directly from online discussions. The neural component employs retrieval-augmented iterative LLM reasoning to extract bipolar argument structures, while the symbolic component applies gradual argumentation semantics to propagate argumentative influence over the structure. Using the Webis-CMV-20 corpus, we construct CMV2BAS, a dataset of long, multi-threaded ChangeMyView discussions annotated with LLM-derived bipolar argument structures and labeled with delta events (view change vs.\\ no change). We investigate whether gradual argumentation semantics can effectively detect persuasiveness, whether augmenting them with argument quality and graph-based centrality improves performance, and whether symbolic reasoning remains necessary in the presence of modern LLMs. NARS achieves F1=0.57 and AUC=0.56 under its best configuration, outperforming zero-shot Qwen3.6:27B and GPT-oss:20B. We identify support-dominant discussions and long argumentative chains as key failure modes limiting attack influence propagation. Our work demonstrates the feasibility of operationalizing formal gradual argumentation semantics over noisy real-world discourse for scalable macro-level persuasion analysis, while highlighting key challenges and directions for future research in neuro-symbolic argumentation reasoning. We release both CMV2BAS dataset and the NARS framework for public use.",
+    "authors": [
+      "Siddharth Bhargava",
+      "Sara Tonelli",
+      "Patricia Martín-Rodilla"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Siddharth Bhargava",
+        "affiliations": []
+      },
+      {
+        "name": "Sara Tonelli",
+        "affiliations": []
+      },
+      {
+        "name": "Patricia Martín-Rodilla",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-10",
+    "updated": "2026-10-10",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.SC"
+    ],
+    "primaryCategory": "cs.CL",
+    "url": "https://arxiv.org/abs/2610.15091",
+    "pdfUrl": "https://arxiv.org/pdf/2610.15091",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.14530",
+    "title": "Who to Trust in Multi-Robot Systems: Joint Robot and Object Hypothesis Trust Inference via Neural-Symbolic Cross-Validation",
+    "abstract": "Multi-robot systems (MRS) offer significant advantages over single-robot platforms by enabling information sharing and coordination for different tasks in complex environments. However, reliable cooperation critically depends on inferring trust over both information sources and their reported hypotheses, particularly under partial observability and potential adversarial interference. Existing approaches frequently depend on pre-established trust relationships or side-channel information, which may not be available or reliable in realistic MRS deployments. This work introduces NeST-Bayes, a neural-symbolic framework that jointly infers robot and hypothesis trust using only inter-robot observation consistency, without requiring preassigned robot trust, reputation information, or side-channel identity signals. NeST-Bayes infers instantaneous trust evidence scores for robots and object hypotheses by reasoning over ego-centric relational graphs constructed from cross-robot observation consistency. These evidence scores are accumulated over time through Bayesian updates of Beta-distributed trust beliefs to maintain temporally consistent trust estimates. Extensive evaluations show that NeST-Bayes achieves the highest mean object precision and robot recall across all benchmark settings, and the highest robot precision and object recall in most settings, compared to trust-based methods. Under aggressive optimized attacks, it achieves 98.8\\% robot precision with 93.8\\% recall and 98.3\\% object precision with 95.4\\% recall. In an occlusion-rich Webots warehouse, it maintains 92.5\\% robot precision with 92.0\\% recall and 97.3\\% object precision with 85.0\\% recall. These results demonstrate joint improvements in the reliability and coverage of retained information.",
+    "authors": [
+      "Ruiyang Wang",
+      "Hao-Lun Hsu",
+      "Haocheng Meng",
+      "Songqiao Xie",
+      "Miroslav Pajic"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Ruiyang Wang",
+        "affiliations": []
+      },
+      {
+        "name": "Hao-Lun Hsu",
+        "affiliations": []
+      },
+      {
+        "name": "Haocheng Meng",
+        "affiliations": []
+      },
+      {
+        "name": "Songqiao Xie",
+        "affiliations": []
+      },
+      {
+        "name": "Miroslav Pajic",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-10",
+    "updated": "2026-10-10",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.RO",
+    "url": "https://arxiv.org/abs/2610.14530",
+    "pdfUrl": "https://arxiv.org/pdf/2610.14530",
+    "matches": {
+      "title": [
+        "neural-symbolic"
+      ],
+      "abstract": [
+        "neural-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.14381",
+    "title": "ACED-Bench: Evaluating How LLM Agents Acquire and Act on Causal Evidence",
+    "abstract": "Large language models are increasingly used as scientific assistants, yet we still lack reliable ways to evaluate whether they can investigate a system rather than merely answer a prompt. A useful evaluation must let agents choose experiments, interpret finite evidence, and make causal decisions, while keeping the environment coherent across repeated observations and interventions and preserving objective ground truth. We introduce ACED-BENCH (Active Causal Evidence and Decision Benchmark), a neuro-symbolic benchmark built around this requirement. The key idea is to separate the readable scientific surface from the formal causal world: LLMs generate natural-language scenarios and task text, while hidden probabilistic graphical models define the causal graph, data-generating process, intervention semantics, validation checks, and oracle answers. This yields scientific worlds that are natural for agents to investigate but exact enough for scalable, programmatic evaluation. The main leaderboard ACED-CORE contains 180 tasks: 60 set-valued causal ancestry/descendancy questions and 120 constrained causal-decision tasks. We also report ACED-QUAL, a 150-question yes/no qualification check using the same hidden-PGM interface. We evaluate seven contemporary LLMs and two earlier-generation models across three active agent designs. ACED-QUAL checks whether agents can use the interface to draw conclusions from evidence, while ACED-CORE tests whether they can decide what evidence to collect and when to commit to an answer. Evidence-ledger analysis localizes failures within the investigation: agents test the wrong intervention, lose relevant evidence, or continue after sufficient evidence has appeared. These results suggest that reliable AI co-scientists need explicit support for experiment design, evidence retention, answer commitment, and stopping.",
+    "authors": [
+      "Yiwei Chen",
+      "Amila Weerasinghe",
+      "Siddharth Biswal",
+      "Utkrisht Rajkumar",
+      "Olcay Boz",
+      "Taylor Berg-Kirkpatrick",
+      "Rose Yu"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Yiwei Chen",
+        "affiliations": []
+      },
+      {
+        "name": "Amila Weerasinghe",
+        "affiliations": []
+      },
+      {
+        "name": "Siddharth Biswal",
+        "affiliations": []
+      },
+      {
+        "name": "Utkrisht Rajkumar",
+        "affiliations": []
+      },
+      {
+        "name": "Olcay Boz",
+        "affiliations": []
+      },
+      {
+        "name": "Taylor Berg-Kirkpatrick",
+        "affiliations": []
+      },
+      {
+        "name": "Rose Yu",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-09",
+    "updated": "2026-10-09",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2610.14381",
+    "pdfUrl": "https://arxiv.org/pdf/2610.14381",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2610.12303",
     "title": "Learning Probabilistic Logic Programs with Functional Gradient Guided Language Models",
