@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T16:20:39.002Z",
+  "generatedAt": "2026-10-15T16:09:33.044Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1850,
+  "paperCount": 1853,
   "completeMetadataCount": 1373,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1545
+      "count": 1548
     },
     {
       "id": "nesy-proceedings",
@@ -67,9 +67,10 @@
         "id": "author:8fce6b55cc19e66d",
         "name": "Emile Van Krieken",
         "aliases": [
-          "Emile Van Krieken"
+          "Emile Van Krieken",
+          "Emile van Krieken"
         ],
-        "paperCount": 69,
+        "paperCount": 70,
         "institutionIds": [
           "institution:027af32d36728391",
           "institution:0418834df0ffcdf2",
@@ -906,6 +907,19 @@
         ]
       },
       {
+        "id": "author:9d03aabda2981e81",
+        "name": "Alessandro Daniele",
+        "aliases": [
+          "Alessandro Daniele"
+        ],
+        "paperCount": 7,
+        "institutionIds": [
+          "institution:3726d09232c921c9",
+          "institution:639c249df1420bad",
+          "institution:8ba18f744718a0a2"
+        ]
+      },
+      {
         "id": "author:86c7ae8773e2d8b7",
         "name": "Bowen Li",
         "aliases": [
@@ -1086,19 +1100,6 @@
         "paperCount": 7,
         "institutionIds": [
           "institution:6a892bbe4ee57122"
-        ]
-      },
-      {
-        "id": "author:9d03aabda2981e81",
-        "name": "Alessandro Daniele",
-        "aliases": [
-          "Alessandro Daniele"
-        ],
-        "paperCount": 6,
-        "institutionIds": [
-          "institution:3726d09232c921c9",
-          "institution:639c249df1420bad",
-          "institution:8ba18f744718a0a2"
         ]
       },
       {
@@ -3466,6 +3467,15 @@
         ]
       },
       {
+        "id": "author:a7808828c41845ac",
+        "name": "Chiara Ghidini",
+        "aliases": [
+          "Chiara Ghidini"
+        ],
+        "paperCount": 3,
+        "institutionIds": []
+      },
+      {
         "id": "author:52fd2d24357bef2a",
         "name": "Chris Eliasmith",
         "aliases": [
@@ -3800,6 +3810,18 @@
         "institutionIds": [
           "institution:150eb1db1c38ccd0",
           "institution:d6605c3fcc2ab482"
+        ]
+      },
+      {
+        "id": "author:6444042faa1886ed",
+        "name": "Giorgio Morales",
+        "aliases": [
+          "Giorgio Morales"
+        ],
+        "paperCount": 3,
+        "institutionIds": [
+          "institution:16d9de38e3e46f34",
+          "institution:a7ecaf22770890a8"
         ]
       },
       {
@@ -4548,6 +4570,15 @@
         ]
       },
       {
+        "id": "author:7fc7a0695d997850",
+        "name": "Massimiliano Ronzani",
+        "aliases": [
+          "Massimiliano Ronzani"
+        ],
+        "paperCount": 3,
+        "institutionIds": []
+      },
+      {
         "id": "author:41d16a6aaec2dc44",
         "name": "Mehwish Alam",
         "aliases": [
@@ -4895,6 +4926,15 @@
           "institution:7801abc579496f6a",
           "institution:d9f3c1cf99959329"
         ]
+      },
+      {
+        "id": "author:d38b05f905443033",
+        "name": "Riccardo Andreoni",
+        "aliases": [
+          "Riccardo Andreoni"
+        ],
+        "paperCount": 3,
+        "institutionIds": []
       },
       {
         "id": "author:0ac479c5ea2b5bce",
@@ -6928,15 +6968,6 @@
         ]
       },
       {
-        "id": "author:a7808828c41845ac",
-        "name": "Chiara Ghidini",
-        "aliases": [
-          "Chiara Ghidini"
-        ],
-        "paperCount": 2,
-        "institutionIds": []
-      },
-      {
         "id": "author:85321747e36b3b35",
         "name": "Christophe Cruz",
         "aliases": [
@@ -7882,18 +7913,6 @@
         "institutionIds": [
           "institution:3c4903b35459f2b5",
           "institution:8ba18f744718a0a2"
-        ]
-      },
-      {
-        "id": "author:6444042faa1886ed",
-        "name": "Giorgio Morales",
-        "aliases": [
-          "Giorgio Morales"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:16d9de38e3e46f34",
-          "institution:a7ecaf22770890a8"
         ]
       },
       {
@@ -9491,15 +9510,6 @@
         ]
       },
       {
-        "id": "author:7fc7a0695d997850",
-        "name": "Massimiliano Ronzani",
-        "aliases": [
-          "Massimiliano Ronzani"
-        ],
-        "paperCount": 2,
-        "institutionIds": []
-      },
-      {
         "id": "author:b96ea99e6c986538",
         "name": "Mateja Jamnik",
         "aliases": [
@@ -10548,15 +10558,6 @@
         "institutionIds": [
           "institution:02e0cb0a82c051ec"
         ]
-      },
-      {
-        "id": "author:d38b05f905443033",
-        "name": "Riccardo Andreoni",
-        "aliases": [
-          "Riccardo Andreoni"
-        ],
-        "paperCount": 2,
-        "institutionIds": []
       },
       {
         "id": "author:7d9371253fe9d504",
@@ -12230,6 +12231,15 @@
         "institutionIds": [
           "institution:4f85329e76bc9454"
         ]
+      },
+      {
+        "id": "author:ea7e92d57cbfc3c8",
+        "name": "Xiaocong Yang",
+        "aliases": [
+          "Xiaocong Yang"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
       },
       {
         "id": "author:687693ba1f62859c",
@@ -16714,6 +16724,15 @@
         ]
       },
       {
+        "id": "author:5843d5f465c448e0",
+        "name": "Anikó Ekárt",
+        "aliases": [
+          "Anikó Ekárt"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:3e59d789cf4cc206",
         "name": "Anil Murthy",
         "aliases": [
@@ -20882,6 +20901,15 @@
           "institution:c107a95b6cb53ac5",
           "institution:f336b3005794930b"
         ]
+      },
+      {
+        "id": "author:807d1a4a78e8c6d7",
+        "name": "ChengXiang Zhai",
+        "aliases": [
+          "ChengXiang Zhai"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:41bae90896e6d506",
@@ -33523,6 +33551,15 @@
         "name": "Jiawei Guo",
         "aliases": [
           "Jiawei Guo"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:6dfce82cb7931eb2",
+        "name": "Jiawei Han",
+        "aliases": [
+          "Jiawei Han"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -60571,15 +60608,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:ea7e92d57cbfc3c8",
-        "name": "Xiaocong Yang",
-        "aliases": [
-          "Xiaocong Yang"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:38a7000d139fcb34",
         "name": "Xiaodong Zhang",
         "aliases": [
@@ -61628,6 +61656,15 @@
         "name": "Xuanyao Fong",
         "aliases": [
           "Xuanyao Fong"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:f7582c27029003ac",
+        "name": "Xuanyu Meng",
+        "aliases": [
+          "Xuanyu Meng"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -64855,6 +64892,15 @@
         "name": "Yuhua Zhou",
         "aliases": [
           "Yuhua Zhou"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:3d787d486daadc7d",
+        "name": "Yuji Zhang",
+        "aliases": [
+          "Yuji Zhang"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -377696,6 +377742,333 @@
         },
         {
           "name": "Rose Yu",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.20108",
+      "title": "Exhaustive Canonical Skeletons Generation: A Formal Dataset for Decomposable Symbolic Regression",
+      "abstract": "Neural symbolic regression (SR) models require diverse datasets of mathematical expressions for robust training. However, existing datasets rely predominantly on stochastic sampling methods, which suffer from high structural redundancy and incomplete functional coverage. To address this, we introduce an exhaustive dataset of univariate canonical skeletons generated via a deterministic constrained context-free grammar. A canonical skeleton acts as a generic structural representation that subsumes more specific functional forms, eliminating redundant expressions and avoiding repeated computational efforts. Although our dataset consists of univariate skeletons, it is designed to support the decomposable SR paradigm to solve multivariate SR problems without assuming linear separability. Furthermore, we pair this dataset with a sampling strategy that generates clean numerical data without triggering numerical instabilities or relying on artificial protected operators. Canonicalizing two existing neural SR datasets reveals that our dataset is substantially more compact, eliminates structural repetitions, and achieves a uniform operator distribution free of simplicity bias. Finally, we establish a benchmark of 150 SR problems across three tiers, on which state-of-the-art SR methods are shown to struggle significantly.",
+      "authors": [
+        "Giorgio Morales",
+        "Anikó Ekárt"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Giorgio Morales",
+          "authorEntityId": "author:6444042faa1886ed",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Giorgio Morales",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Anikó Ekárt",
+          "authorEntityId": "author:5843d5f465c448e0",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Anikó Ekárt",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neural symbolic"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-14",
+      "url": "https://arxiv.org/abs/2610.20108",
+      "pdfUrl": "https://arxiv.org/pdf/2610.20108",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.20108",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:2d433d93b3d3db26",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Giorgio Morales",
+        "Anikó Ekárt"
+      ],
+      "authorEntityIds": [
+        "author:6444042faa1886ed",
+        "author:5843d5f465c448e0"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Giorgio Morales",
+          "affiliations": []
+        },
+        {
+          "name": "Anikó Ekárt",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.19955",
+      "title": "Neurosymbolic Learning of Interpretable World Models",
+      "abstract": "World models aim to learn compact representations of an environment from observations, enabling agents to predict future states and plan their behaviour. However, most existing approaches learn black-box representations, with limited ability to incorporate prior knowledge about the world. We introduce Concept-Grounded World Models (CGWMs), a neurosymbolic world model design that instead learns interpretable concept representations. We learn these concepts from observations using explicit and complete knowledge, expressed in temporal logic, that specifies the valid world states and the temporal relations governing their dynamics. Furthermore, we directly use this knowledge by formulating planning as differentiable reasoning, optimising the agent's actions by gradient ascent to satisfy a goal. We experimentally compare CGWM with a purely neural baseline and a neurosymbolic baseline on two game environments. We find that CGWMs ground concepts much more accurately, even over long horizons, resulting in significantly more robust planning both in and out of distribution.",
+      "authors": [
+        "Riccardo Andreoni",
+        "Massimiliano Ronzani",
+        "Chiara Ghidini",
+        "Alessandro Daniele",
+        "Emile Van Krieken"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Riccardo Andreoni",
+          "authorEntityId": "author:d38b05f905443033",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Riccardo Andreoni",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Massimiliano Ronzani",
+          "authorEntityId": "author:7fc7a0695d997850",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Massimiliano Ronzani",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Chiara Ghidini",
+          "authorEntityId": "author:a7808828c41845ac",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Chiara Ghidini",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Alessandro Daniele",
+          "authorEntityId": "author:9d03aabda2981e81",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Alessandro Daniele",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Emile Van Krieken",
+          "authorEntityId": "author:8fce6b55cc19e66d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Emile van Krieken",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-14",
+      "url": "https://arxiv.org/abs/2610.19955",
+      "pdfUrl": "https://arxiv.org/pdf/2610.19955",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.19955",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:27727454aba6c02b",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Riccardo Andreoni",
+        "Massimiliano Ronzani",
+        "Chiara Ghidini",
+        "Alessandro Daniele",
+        "Emile van Krieken"
+      ],
+      "authorEntityIds": [
+        "author:d38b05f905443033",
+        "author:7fc7a0695d997850",
+        "author:a7808828c41845ac",
+        "author:9d03aabda2981e81",
+        "author:8fce6b55cc19e66d"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Riccardo Andreoni",
+          "affiliations": []
+        },
+        {
+          "name": "Massimiliano Ronzani",
+          "affiliations": []
+        },
+        {
+          "name": "Chiara Ghidini",
+          "affiliations": []
+        },
+        {
+          "name": "Alessandro Daniele",
+          "affiliations": []
+        },
+        {
+          "name": "Emile van Krieken",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.19636",
+      "title": "Sparse Autoencoders Are a Shared Coordinate System for Symbolic Matching",
+      "abstract": "Large language models (LLMs) hold broad knowledge in one set of weights, but lack interpretability and trustworthy reasoning, especially in high-stakes use cases. A neuro-symbolic model, with its interpretable architecture and System 2 reasoning capacity, is a promising alternative if built at the scale of LLMs; however, its symbolic backbone is usually constructed with human effort, so existing neuro-symbolic models are bottlenecked by the scope of the symbol component and usually domain-specific. A data-driven method could instead build a larger symbolic system by aligning and merging existing ones. We target its first, foundational step: matching units across these heterogeneous systems. Our method, SAE-IDF, encodes a symbol in its native context into a sparse code with a sparse autoencoder (SAE), re-weights each dimension by its rarity and matches across systems. On 12 tasks across 6 kinds of symbolic system, SAE-IDF outperforms the same LLM's dense baseline on all tasks with Gemma-2-9B and all but one with Llama-3.1-8B, by up to 45 points, consistently across SAE layers and configurations. SAE-IDF is also interpretable: every dimension of the sparse code has a human-readable meaning, so each match decomposes into named concepts (features). Our work paves the way to a universal symbolic backbone.",
+      "authors": [
+        "Xiaocong Yang",
+        "Xuanyu Meng",
+        "Yuji Zhang",
+        "Jiawei Han",
+        "ChengXiang Zhai"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Xiaocong Yang",
+          "authorEntityId": "author:ea7e92d57cbfc3c8",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xiaocong Yang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xuanyu Meng",
+          "authorEntityId": "author:f7582c27029003ac",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xuanyu Meng",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yuji Zhang",
+          "authorEntityId": "author:3d787d486daadc7d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yuji Zhang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jiawei Han",
+          "authorEntityId": "author:6dfce82cb7931eb2",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jiawei Han",
+          "rawAffiliations": []
+        },
+        {
+          "name": "ChengXiang Zhai",
+          "authorEntityId": "author:807d1a4a78e8c6d7",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "ChengXiang Zhai",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL",
+        "cs.SC"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-14",
+      "url": "https://arxiv.org/abs/2610.19636",
+      "pdfUrl": "https://arxiv.org/pdf/2610.19636",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.19636",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:1d3a945fc34b2a15",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Xiaocong Yang",
+        "Xuanyu Meng",
+        "Yuji Zhang",
+        "Jiawei Han",
+        "ChengXiang Zhai"
+      ],
+      "authorEntityIds": [
+        "author:ea7e92d57cbfc3c8",
+        "author:f7582c27029003ac",
+        "author:3d787d486daadc7d",
+        "author:6dfce82cb7931eb2",
+        "author:807d1a4a78e8c6d7"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Xiaocong Yang",
+          "affiliations": []
+        },
+        {
+          "name": "Xuanyu Meng",
+          "affiliations": []
+        },
+        {
+          "name": "Yuji Zhang",
+          "affiliations": []
+        },
+        {
+          "name": "Jiawei Han",
+          "affiliations": []
+        },
+        {
+          "name": "ChengXiang Zhai",
           "affiliations": []
         }
       ]

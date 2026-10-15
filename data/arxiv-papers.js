@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-10-14T16:20:38.439Z",
-  "cursorAt": "2026-10-14T16:20:38.439Z",
+  "generatedAt": "2026-10-15T16:09:32.366Z",
+  "cursorAt": "2026-10-15T16:09:32.366Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-10-11T17:13:01.117Z",
   "keywords": [
@@ -15,11 +15,148 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-10-13T18:46:03.153Z",
-  "windowStart": "2026-10-06T18:46:03.153Z",
+  "previousSnapshotAt": "2026-10-14T16:20:38.439Z",
+  "windowStart": "2026-10-07T16:20:38.439Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2610.20108",
+    "title": "Exhaustive Canonical Skeletons Generation: A Formal Dataset for Decomposable Symbolic Regression",
+    "abstract": "Neural symbolic regression (SR) models require diverse datasets of mathematical expressions for robust training. However, existing datasets rely predominantly on stochastic sampling methods, which suffer from high structural redundancy and incomplete functional coverage. To address this, we introduce an exhaustive dataset of univariate canonical skeletons generated via a deterministic constrained context-free grammar. A canonical skeleton acts as a generic structural representation that subsumes more specific functional forms, eliminating redundant expressions and avoiding repeated computational efforts. Although our dataset consists of univariate skeletons, it is designed to support the decomposable SR paradigm to solve multivariate SR problems without assuming linear separability. Furthermore, we pair this dataset with a sampling strategy that generates clean numerical data without triggering numerical instabilities or relying on artificial protected operators. Canonicalizing two existing neural SR datasets reveals that our dataset is substantially more compact, eliminates structural repetitions, and achieves a uniform operator distribution free of simplicity bias. Finally, we establish a benchmark of 150 SR problems across three tiers, on which state-of-the-art SR methods are shown to struggle significantly.",
+    "authors": [
+      "Giorgio Morales",
+      "Anikó Ekárt"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Giorgio Morales",
+        "affiliations": []
+      },
+      {
+        "name": "Anikó Ekárt",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-14",
+    "updated": "2026-10-14",
+    "categories": [
+      "cs.LG"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2610.20108",
+    "pdfUrl": "https://arxiv.org/pdf/2610.20108",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neural symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.19955",
+    "title": "Neurosymbolic Learning of Interpretable World Models",
+    "abstract": "World models aim to learn compact representations of an environment from observations, enabling agents to predict future states and plan their behaviour. However, most existing approaches learn black-box representations, with limited ability to incorporate prior knowledge about the world. We introduce Concept-Grounded World Models (CGWMs), a neurosymbolic world model design that instead learns interpretable concept representations. We learn these concepts from observations using explicit and complete knowledge, expressed in temporal logic, that specifies the valid world states and the temporal relations governing their dynamics. Furthermore, we directly use this knowledge by formulating planning as differentiable reasoning, optimising the agent's actions by gradient ascent to satisfy a goal. We experimentally compare CGWM with a purely neural baseline and a neurosymbolic baseline on two game environments. We find that CGWMs ground concepts much more accurately, even over long horizons, resulting in significantly more robust planning both in and out of distribution.",
+    "authors": [
+      "Riccardo Andreoni",
+      "Massimiliano Ronzani",
+      "Chiara Ghidini",
+      "Alessandro Daniele",
+      "Emile van Krieken"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Riccardo Andreoni",
+        "affiliations": []
+      },
+      {
+        "name": "Massimiliano Ronzani",
+        "affiliations": []
+      },
+      {
+        "name": "Chiara Ghidini",
+        "affiliations": []
+      },
+      {
+        "name": "Alessandro Daniele",
+        "affiliations": []
+      },
+      {
+        "name": "Emile van Krieken",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-14",
+    "updated": "2026-10-14",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2610.19955",
+    "pdfUrl": "https://arxiv.org/pdf/2610.19955",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.19636",
+    "title": "Sparse Autoencoders Are a Shared Coordinate System for Symbolic Matching",
+    "abstract": "Large language models (LLMs) hold broad knowledge in one set of weights, but lack interpretability and trustworthy reasoning, especially in high-stakes use cases. A neuro-symbolic model, with its interpretable architecture and System 2 reasoning capacity, is a promising alternative if built at the scale of LLMs; however, its symbolic backbone is usually constructed with human effort, so existing neuro-symbolic models are bottlenecked by the scope of the symbol component and usually domain-specific. A data-driven method could instead build a larger symbolic system by aligning and merging existing ones. We target its first, foundational step: matching units across these heterogeneous systems. Our method, SAE-IDF, encodes a symbol in its native context into a sparse code with a sparse autoencoder (SAE), re-weights each dimension by its rarity and matches across systems. On 12 tasks across 6 kinds of symbolic system, SAE-IDF outperforms the same LLM's dense baseline on all tasks with Gemma-2-9B and all but one with Llama-3.1-8B, by up to 45 points, consistently across SAE layers and configurations. SAE-IDF is also interpretable: every dimension of the sparse code has a human-readable meaning, so each match decomposes into named concepts (features). Our work paves the way to a universal symbolic backbone.",
+    "authors": [
+      "Xiaocong Yang",
+      "Xuanyu Meng",
+      "Yuji Zhang",
+      "Jiawei Han",
+      "ChengXiang Zhai"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Xiaocong Yang",
+        "affiliations": []
+      },
+      {
+        "name": "Xuanyu Meng",
+        "affiliations": []
+      },
+      {
+        "name": "Yuji Zhang",
+        "affiliations": []
+      },
+      {
+        "name": "Jiawei Han",
+        "affiliations": []
+      },
+      {
+        "name": "ChengXiang Zhai",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-14",
+    "updated": "2026-10-14",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "cs.SC"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2610.19636",
+    "pdfUrl": "https://arxiv.org/pdf/2610.19636",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2610.18850",
     "title": "Collaborative Planning for UAV-UGV Teams under Operational Constraints via Masked Error-bounded Neuro-Symbolic Diffusion",
@@ -272,7 +409,7 @@ globalThis.ARXIV_PAPERS = [
     ],
     "affiliations": [],
     "published": "2026-10-10",
-    "updated": "2026-10-10",
+    "updated": "2026-10-14",
     "categories": [
       "cs.CL"
     ],
