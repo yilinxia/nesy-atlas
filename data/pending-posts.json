@@ -2779,5 +2779,50 @@
     "sourceUrl": "https://www.kognitos.com/blog/",
     "discovered": "2026-10-14",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Finance 10.14.2026 Legal Spend Management: A Guideline You Cannot Test Is a Preference Read",
+    "date": "2026-10-14",
+    "url": "https://www.kognitos.com/blog/legal-spend-management/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-10-15",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Business 10.14.2026 Process Automation Software: How to Choose the Right Category and Platform (2026) Read",
+    "date": "2026-10-14",
+    "url": "https://www.kognitos.com/blog/process-automation-software/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-10-15",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Supply Chain 10.14.2026 Recall Management: The Defect Decides That It Happens. Your Records Decide How Big It Is. (2026) Read",
+    "date": "2026-10-14",
+    "url": "https://www.kognitos.com/blog/recall-management/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-10-15",
+    "status": "needs-review"
+  },
+  {
+    "company": "Rippletide",
+    "title": "Technical Checking AI Agent Actions Against the Law Before They Execute Carver Agents works out what the law requires of an AI agent. Rippletide uses it to decide on each action before it reaches a business system. Yann Bilien 2026-10-15",
+    "date": "2026-10-15",
+    "url": "https://www.rippletide.com/resources/blog/checking-ai-agent-actions-against-the-law-before-they-execute",
+    "sourceUrl": "https://www.rippletide.com/resources/blog/",
+    "discovered": "2026-10-15",
+    "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "Beyond Go-Live: Optimizing FDE Outcomes with Self-Learning Agents",
+    "date": "2026-10-14",
+    "url": "https://www.uniphore.com/blog/optimizing-fde-outcomes-with-self-learning-agents/",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-10-15",
+    "status": "needs-review"
   }
 ]
