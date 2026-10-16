@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T16:09:33.044Z",
+  "generatedAt": "2026-10-16T15:56:04.792Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1853,
+  "paperCount": 1855,
   "completeMetadataCount": 1373,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1548
+      "count": 1550
     },
     {
       "id": "nesy-proceedings",
@@ -8881,6 +8881,15 @@
         ]
       },
       {
+        "id": "author:ab2dfdc06e804b7d",
+        "name": "Kai Yu",
+        "aliases": [
+          "Kai Yu"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
+      },
+      {
         "id": "author:9ea52848cbdb99de",
         "name": "Kaifu Wang",
         "aliases": [
@@ -9210,6 +9219,15 @@
         "institutionIds": [
           "institution:7b1053a525f83bbf"
         ]
+      },
+      {
+        "id": "author:5855c5b956502ef4",
+        "name": "Lu Chen",
+        "aliases": [
+          "Lu Chen"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
       },
       {
         "id": "author:c9cd3522835ad8db",
@@ -11059,6 +11077,15 @@
         "institutionIds": [
           "institution:895161bc97f39bbf"
         ]
+      },
+      {
+        "id": "author:f0d6d235dcad484a",
+        "name": "Shuai Fan",
+        "aliases": [
+          "Shuai Fan"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
       },
       {
         "id": "author:0d259d58bb5eb1bd",
@@ -19467,6 +19494,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:5d5d0ffec8f0a681",
+        "name": "Bong Gyun Kang",
+        "aliases": [
+          "Bong Gyun Kang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:0a8c7fcfa2a1d703",
         "name": "Borchuluun Yadamsuren",
         "aliases": [
@@ -24095,6 +24131,15 @@
         "institutionIds": [
           "institution:5ef49d72b20b7cdb"
         ]
+      },
+      {
+        "id": "author:6589f14d7086ee82",
+        "name": "Donghyeok Lee",
+        "aliases": [
+          "Donghyeok Lee"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:af727b84d2bed0a5",
@@ -28938,6 +28983,15 @@
         "name": "Hang Zhang",
         "aliases": [
           "Hang Zhang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:3b36bbaf98d0ccac",
+        "name": "Hang Zheng",
+        "aliases": [
+          "Hang Zheng"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -36192,6 +36246,15 @@
         ]
       },
       {
+        "id": "author:3fd6fe981393fa79",
+        "name": "Junyong Ahn",
+        "aliases": [
+          "Junyong Ahn"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:16786ab305e22fbe",
         "name": "Junyong Lee",
         "aliases": [
@@ -36399,15 +36462,6 @@
         "name": "Kai Ye",
         "aliases": [
           "Kai Ye"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
-        "id": "author:ab2dfdc06e804b7d",
-        "name": "Kai Yu",
-        "aliases": [
-          "Kai Yu"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -39499,15 +39553,6 @@
         "institutionIds": [
           "institution:ee888cebf2bcf1bb"
         ]
-      },
-      {
-        "id": "author:5855c5b956502ef4",
-        "name": "Lu Chen",
-        "aliases": [
-          "Lu Chen"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
       },
       {
         "id": "author:dd2d84d4eac25a8b",
@@ -45046,6 +45091,15 @@
         "name": "Nan Cai",
         "aliases": [
           "Nan Cai"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:931070e1991defcf",
+        "name": "Nan Jiang",
+        "aliases": [
+          "Nan Jiang"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -53899,15 +53953,6 @@
         ]
       },
       {
-        "id": "author:f0d6d235dcad484a",
-        "name": "Shuai Fan",
-        "aliases": [
-          "Shuai Fan"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:3bd9e76246e55c17",
         "name": "Shuai Han",
         "aliases": [
@@ -55971,6 +56016,15 @@
         "institutionIds": [
           "institution:e80b94c605da24ce"
         ]
+      },
+      {
+        "id": "author:647ecc7d702ad3c1",
+        "name": "Sungroh Yoon",
+        "aliases": [
+          "Sungroh Yoon"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:b07067a72664d8e7",
@@ -60586,6 +60640,15 @@
         "institutionIds": [
           "institution:9ed23c2db75b5eee"
         ]
+      },
+      {
+        "id": "author:f3eb252f395f975d",
+        "name": "Xiaobao Wu",
+        "aliases": [
+          "Xiaobao Wu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:7197a69cb67a1aa7",
@@ -67097,6 +67160,15 @@
         ]
       },
       {
+        "id": "author:1ec4a45e12d15305",
+        "name": "Zhiyang Tang",
+        "aliases": [
+          "Zhiyang Tang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:40754b33fe22210b",
         "name": "Zhiyang Teng",
         "aliases": [
@@ -67523,6 +67595,15 @@
         ]
       },
       {
+        "id": "author:a716578a7a75c6e0",
+        "name": "Zichen Zhu",
+        "aliases": [
+          "Zichen Zhu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:29759dbf3836a579",
         "name": "Zicheng Feng",
         "aliases": [
@@ -67848,6 +67929,15 @@
         "institutionIds": [
           "institution:5c85faa51cc57a24"
         ]
+      },
+      {
+        "id": "author:a725d42ac9820150",
+        "name": "Zixu Yang",
+        "aliases": [
+          "Zixu Yang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:14807c85a6876f74",
@@ -378069,6 +378159,298 @@
         },
         {
           "name": "ChengXiang Zhai",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.21983",
+      "title": "OntoAct: Hypothesis-Based Neuro-Symbolic Agents through Ontological Abstraction",
+      "abstract": "Learning from experience requires recovering reusable knowledge and determining when it applies to a new situation. We introduce OntoAct, a hypothesis-based neuro-symbolic framework built on ontological abstraction. OntoAct turns individual experiences into axioms over entity types, relations, and conditions, making their underlying patterns reusable across situations. A large language model (LLM) uses this world knowledge to propose hypotheses and actions, while a symbolic verifier assesses their supporting conditions against current observations. Verification identifies missing evidence, and new observations and intervention outcomes update hypothesis assessments and guide subsequent actions. We also introduce Tacit-FLE, a benchmark built on the Factorio Learning Environment (FLE) for diagnosing and repairing hidden faults in existing factories using inherited operational records. Its synthetic maintenance corpus distributes evidence across records, and an executed repair may leave the fault unresolved, requiring agents to reassess their diagnoses through interaction. Across Tacit-FLE, Mars, and ALFWorld, OntoAct achieves leading task performance with efficient interaction and inference.",
+      "authors": [
+        "Donghyeok Lee",
+        "Bong Gyun Kang",
+        "Junyong Ahn",
+        "Sungroh Yoon"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Donghyeok Lee",
+          "authorEntityId": "author:6589f14d7086ee82",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Donghyeok Lee",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Bong Gyun Kang",
+          "authorEntityId": "author:5d5d0ffec8f0a681",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Bong Gyun Kang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Junyong Ahn",
+          "authorEntityId": "author:3fd6fe981393fa79",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Junyong Ahn",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Sungroh Yoon",
+          "authorEntityId": "author:647ecc7d702ad3c1",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Sungroh Yoon",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.21983",
+      "pdfUrl": "https://arxiv.org/pdf/2610.21983",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.21983",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:97765838137c008f",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Donghyeok Lee",
+        "Bong Gyun Kang",
+        "Junyong Ahn",
+        "Sungroh Yoon"
+      ],
+      "authorEntityIds": [
+        "author:6589f14d7086ee82",
+        "author:5d5d0ffec8f0a681",
+        "author:3fd6fe981393fa79",
+        "author:647ecc7d702ad3c1"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Donghyeok Lee",
+          "affiliations": []
+        },
+        {
+          "name": "Bong Gyun Kang",
+          "affiliations": []
+        },
+        {
+          "name": "Junyong Ahn",
+          "affiliations": []
+        },
+        {
+          "name": "Sungroh Yoon",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.21346",
+      "title": "ARGUS: An Agenda-Driven Framework for Reliable User Simulation",
+      "abstract": "High-fidelity user simulators are essential for evaluating and training agents in interactive environments. However, current LLM-based simulators struggle with reliability issues, such as goal omission and policy non-compliance. We propose ARGUS (Agenda-dRiven Goal-oriented User Simulator), a neuro-symbolic framework that maintains the user's goal state using a dynamic agenda stack manipulated via symbolic operations. By rigorously decoupling state tracking from natural language generation, ARGUS facilitates strict goal progression and constraint-aligned interactions. For cost-efficient deployment, we distill ARGUS into compact models using a unified pipeline: evaluator-guided SFT followed by online RL with dense step-level rewards. To rigorously evaluate behavioral fidelity, we introduce a rubric-based metric Composite Behavioral Score (CBS). Evaluations on $τ^3$-Bench and MultiWOZ demonstrate the significant superiority of the ARGUS architecture and the efficacy of our training pipeline. Code and data will be released soon.",
+      "authors": [
+        "Hang Zheng",
+        "Nan Jiang",
+        "Zichen Zhu",
+        "Zixu Yang",
+        "Zhiyang Tang",
+        "Shuai Fan",
+        "Lu Chen",
+        "Xiaobao Wu",
+        "Kai Yu"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Hang Zheng",
+          "authorEntityId": "author:3b36bbaf98d0ccac",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Hang Zheng",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Nan Jiang",
+          "authorEntityId": "author:931070e1991defcf",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Nan Jiang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zichen Zhu",
+          "authorEntityId": "author:a716578a7a75c6e0",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zichen Zhu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zixu Yang",
+          "authorEntityId": "author:a725d42ac9820150",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zixu Yang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zhiyang Tang",
+          "authorEntityId": "author:1ec4a45e12d15305",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zhiyang Tang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Shuai Fan",
+          "authorEntityId": "author:f0d6d235dcad484a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Shuai Fan",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Lu Chen",
+          "authorEntityId": "author:5855c5b956502ef4",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Lu Chen",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xiaobao Wu",
+          "authorEntityId": "author:f3eb252f395f975d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xiaobao Wu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Kai Yu",
+          "authorEntityId": "author:ab2dfdc06e804b7d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Kai Yu",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-15",
+      "url": "https://arxiv.org/abs/2610.21346",
+      "pdfUrl": "https://arxiv.org/pdf/2610.21346",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.21346",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:0c0fac3bc727fbb1",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Hang Zheng",
+        "Nan Jiang",
+        "Zichen Zhu",
+        "Zixu Yang",
+        "Zhiyang Tang",
+        "Shuai Fan",
+        "Lu Chen",
+        "Xiaobao Wu",
+        "Kai Yu"
+      ],
+      "authorEntityIds": [
+        "author:3b36bbaf98d0ccac",
+        "author:931070e1991defcf",
+        "author:a716578a7a75c6e0",
+        "author:a725d42ac9820150",
+        "author:1ec4a45e12d15305",
+        "author:f0d6d235dcad484a",
+        "author:5855c5b956502ef4",
+        "author:f3eb252f395f975d",
+        "author:ab2dfdc06e804b7d"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Hang Zheng",
+          "affiliations": []
+        },
+        {
+          "name": "Nan Jiang",
+          "affiliations": []
+        },
+        {
+          "name": "Zichen Zhu",
+          "affiliations": []
+        },
+        {
+          "name": "Zixu Yang",
+          "affiliations": []
+        },
+        {
+          "name": "Zhiyang Tang",
+          "affiliations": []
+        },
+        {
+          "name": "Shuai Fan",
+          "affiliations": []
+        },
+        {
+          "name": "Lu Chen",
+          "affiliations": []
+        },
+        {
+          "name": "Xiaobao Wu",
+          "affiliations": []
+        },
+        {
+          "name": "Kai Yu",
           "affiliations": []
         }
       ]

@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-10-15T16:09:32.366Z",
-  "cursorAt": "2026-10-15T16:09:32.366Z",
+  "generatedAt": "2026-10-16T15:56:04.080Z",
+  "cursorAt": "2026-10-16T15:56:04.080Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-10-11T17:13:01.117Z",
   "keywords": [
@@ -15,11 +15,127 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-10-14T16:20:38.439Z",
-  "windowStart": "2026-10-07T16:20:38.439Z",
+  "previousSnapshotAt": "2026-10-15T16:09:32.366Z",
+  "windowStart": "2026-10-08T16:09:32.366Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2610.21983",
+    "title": "OntoAct: Hypothesis-Based Neuro-Symbolic Agents through Ontological Abstraction",
+    "abstract": "Learning from experience requires recovering reusable knowledge and determining when it applies to a new situation. We introduce OntoAct, a hypothesis-based neuro-symbolic framework built on ontological abstraction. OntoAct turns individual experiences into axioms over entity types, relations, and conditions, making their underlying patterns reusable across situations. A large language model (LLM) uses this world knowledge to propose hypotheses and actions, while a symbolic verifier assesses their supporting conditions against current observations. Verification identifies missing evidence, and new observations and intervention outcomes update hypothesis assessments and guide subsequent actions. We also introduce Tacit-FLE, a benchmark built on the Factorio Learning Environment (FLE) for diagnosing and repairing hidden faults in existing factories using inherited operational records. Its synthetic maintenance corpus distributes evidence across records, and an executed repair may leave the fault unresolved, requiring agents to reassess their diagnoses through interaction. Across Tacit-FLE, Mars, and ALFWorld, OntoAct achieves leading task performance with efficient interaction and inference.",
+    "authors": [
+      "Donghyeok Lee",
+      "Bong Gyun Kang",
+      "Junyong Ahn",
+      "Sungroh Yoon"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Donghyeok Lee",
+        "affiliations": []
+      },
+      {
+        "name": "Bong Gyun Kang",
+        "affiliations": []
+      },
+      {
+        "name": "Junyong Ahn",
+        "affiliations": []
+      },
+      {
+        "name": "Sungroh Yoon",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-15",
+    "updated": "2026-10-15",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2610.21983",
+    "pdfUrl": "https://arxiv.org/pdf/2610.21983",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.21346",
+    "title": "ARGUS: An Agenda-Driven Framework for Reliable User Simulation",
+    "abstract": "High-fidelity user simulators are essential for evaluating and training agents in interactive environments. However, current LLM-based simulators struggle with reliability issues, such as goal omission and policy non-compliance. We propose ARGUS (Agenda-dRiven Goal-oriented User Simulator), a neuro-symbolic framework that maintains the user's goal state using a dynamic agenda stack manipulated via symbolic operations. By rigorously decoupling state tracking from natural language generation, ARGUS facilitates strict goal progression and constraint-aligned interactions. For cost-efficient deployment, we distill ARGUS into compact models using a unified pipeline: evaluator-guided SFT followed by online RL with dense step-level rewards. To rigorously evaluate behavioral fidelity, we introduce a rubric-based metric Composite Behavioral Score (CBS). Evaluations on $τ^3$-Bench and MultiWOZ demonstrate the significant superiority of the ARGUS architecture and the efficacy of our training pipeline. Code and data will be released soon.",
+    "authors": [
+      "Hang Zheng",
+      "Nan Jiang",
+      "Zichen Zhu",
+      "Zixu Yang",
+      "Zhiyang Tang",
+      "Shuai Fan",
+      "Lu Chen",
+      "Xiaobao Wu",
+      "Kai Yu"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Hang Zheng",
+        "affiliations": []
+      },
+      {
+        "name": "Nan Jiang",
+        "affiliations": []
+      },
+      {
+        "name": "Zichen Zhu",
+        "affiliations": []
+      },
+      {
+        "name": "Zixu Yang",
+        "affiliations": []
+      },
+      {
+        "name": "Zhiyang Tang",
+        "affiliations": []
+      },
+      {
+        "name": "Shuai Fan",
+        "affiliations": []
+      },
+      {
+        "name": "Lu Chen",
+        "affiliations": []
+      },
+      {
+        "name": "Xiaobao Wu",
+        "affiliations": []
+      },
+      {
+        "name": "Kai Yu",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-15",
+    "updated": "2026-10-15",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2610.21346",
+    "pdfUrl": "https://arxiv.org/pdf/2610.21346",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2610.20108",
     "title": "Exhaustive Canonical Skeletons Generation: A Formal Dataset for Decomposable Symbolic Regression",
@@ -40,7 +156,7 @@ globalThis.ARXIV_PAPERS = [
     ],
     "affiliations": [],
     "published": "2026-10-14",
-    "updated": "2026-10-14",
+    "updated": "2026-10-15",
     "categories": [
       "cs.LG"
     ],
