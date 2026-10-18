@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T14:49:01.558Z",
+  "generatedAt": "2026-10-18T15:14:45.405Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,8 +13,8 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1855,
-  "completeMetadataCount": 1373,
+  "paperCount": 1852,
+  "completeMetadataCount": 1370,
   "sources": [
     {
       "id": "arxiv-keywords",
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1550
+      "count": 1547
     },
     {
       "id": "nesy-proceedings",
@@ -6593,17 +6593,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:bae7b2f9eb92d204",
-        "name": "Bo Han",
-        "aliases": [
-          "Bo Han"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:17e74be5c06de398"
-        ]
-      },
-      {
         "id": "author:864a69e6af910350",
         "name": "Bo Lin",
         "aliases": [
@@ -9140,18 +9129,6 @@
         ]
       },
       {
-        "id": "author:ebe402653381bb86",
-        "name": "Ling Li",
-        "aliases": [
-          "Ling Li"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:06ab7fb0548b37bc",
-          "institution:3afb6cc453e0a8d9"
-        ]
-      },
-      {
         "id": "author:190123d7571a405b",
         "name": "Liying Han",
         "aliases": [
@@ -10168,18 +10145,6 @@
         "institutionIds": [
           "institution:0d58f17d1772b18f",
           "institution:c5235efb76365de2"
-        ]
-      },
-      {
-        "id": "author:92c691182281e9e7",
-        "name": "Peng Wang",
-        "aliases": [
-          "Peng Wang"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:73edc1de218a6c25",
-          "institution:bbfcd4160a1e8674"
         ]
       },
       {
@@ -17857,18 +17822,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:d4f87a0e3c69acb4",
-        "name": "Aryeh Rothenberg",
-        "aliases": [
-          "Aryeh Rothenberg"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:73edc1de218a6c25",
-          "institution:bbfcd4160a1e8674"
-        ]
-      },
-      {
         "id": "author:08b75058890b33a9",
         "name": "Asaad Balum",
         "aliases": [
@@ -19436,6 +19389,17 @@
         ]
       },
       {
+        "id": "author:bae7b2f9eb92d204",
+        "name": "Bo Han",
+        "aliases": [
+          "Bo Han"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:17e74be5c06de398"
+        ]
+      },
+      {
         "id": "author:242fa00c2848145f",
         "name": "Bo Wang",
         "aliases": [
@@ -19829,17 +19793,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:f46737ca65d55fad",
-        "name": "Bryce Grant",
-        "aliases": [
-          "Bryce Grant"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:e6c2f6884d2a5dff"
-        ]
       },
       {
         "id": "author:826480cd5aa5816b",
@@ -27588,17 +27541,6 @@
         ]
       },
       {
-        "id": "author:203fe556c8cca52d",
-        "name": "Gibong Hong",
-        "aliases": [
-          "Gibong Hong"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:bf3ddd5552577ff0"
-        ]
-      },
-      {
         "id": "author:af6ebea52cfc3391",
         "name": "Gido M Van De Ven",
         "aliases": [
@@ -28818,17 +28760,6 @@
         ]
       },
       {
-        "id": "author:b6d505f3b0e26015",
-        "name": "Halil Kilicoglu",
-        "aliases": [
-          "Halil Kilicoglu"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:bf3ddd5552577ff0"
-        ]
-      },
-      {
         "id": "author:e2bedc3d49285160",
         "name": "Halim Dasgupta",
         "aliases": [
@@ -29180,17 +29111,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:af41da15d2a91e18",
-        "name": "Hao Cheng",
-        "aliases": [
-          "Hao Cheng"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:17e74be5c06de398"
-        ]
       },
       {
         "id": "author:b3fe6d6f96f073f5",
@@ -32924,17 +32844,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:3a835f665dbaa67b",
-        "name": "Jiaheng Wei",
-        "aliases": [
-          "Jiaheng Wei"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:06ab7fb0548b37bc"
-        ]
-      },
-      {
         "id": "author:4f63aca173dc7ff8",
         "name": "Jiahong Liu",
         "aliases": [
@@ -34504,17 +34413,6 @@
         "paperCount": 1,
         "institutionIds": [
           "institution:3cb12b473191f7b0"
-        ]
-      },
-      {
-        "id": "author:671271f1ef873eed",
-        "name": "Jinlong Pang",
-        "aliases": [
-          "Jinlong Pang"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:0fbadc849bc98650"
         ]
       },
       {
@@ -38960,6 +38858,17 @@
         ]
       },
       {
+        "id": "author:ebe402653381bb86",
+        "name": "Ling Li",
+        "aliases": [
+          "Ling Li"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:3afb6cc453e0a8d9"
+        ]
+      },
+      {
         "id": "author:6ea96023a068aefa",
         "name": "Ling Liu",
         "aliases": [
@@ -39332,18 +39241,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:1f1fc4c40084b321",
-        "name": "Logan Senning",
-        "aliases": [
-          "Logan Senning"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:73edc1de218a6c25",
-          "institution:bbfcd4160a1e8674"
-        ]
       },
       {
         "id": "author:9c622ec10353a64a",
@@ -44923,17 +44820,6 @@
         ]
       },
       {
-        "id": "author:4aea71fd1abc9a80",
-        "name": "Na Di",
-        "aliases": [
-          "Na Di"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:06ab7fb0548b37bc"
-        ]
-      },
-      {
         "id": "author:569cd0c203d33b3e",
         "name": "Nabeel Seedat",
         "aliases": [
@@ -47598,6 +47484,15 @@
         "name": "Peng Shi",
         "aliases": [
           "Peng Shi"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:92c691182281e9e7",
+        "name": "Peng Wang",
+        "aliases": [
+          "Peng Wang"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -50966,17 +50861,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:da9f6bcba046de63",
-        "name": "Rui Zhang",
-        "aliases": [
-          "Rui Zhang"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:9da62a4706ec393d"
-        ]
-      },
-      {
         "id": "author:2f66fae45756dc2d",
         "name": "Rui Zhu",
         "aliases": [
@@ -54000,17 +53884,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:f69b0ae127d19c62",
-        "name": "Shufan Ming",
-        "aliases": [
-          "Shufan Ming"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:bf3ddd5552577ff0"
-        ]
       },
       {
         "id": "author:59002e09c02006d2",
@@ -62458,15 +62331,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:31b68e84e56b9631",
-        "name": "Yao Zhou",
-        "aliases": [
-          "Yao Zhou"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:bf8b0205f2ba94eb",
         "name": "Yao Zhu",
         "aliases": [
@@ -63196,17 +63060,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:c9fbc00b0efa3f99",
-        "name": "Yikun Han",
-        "aliases": [
-          "Yikun Han"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:bf3ddd5552577ff0"
-        ]
       },
       {
         "id": "author:9fbce1e92545abef",
@@ -65779,18 +65632,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:36df40853c5cb410",
-        "name": "Zach Patterson",
-        "aliases": [
-          "Zach Patterson"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:73edc1de218a6c25",
-          "institution:bbfcd4160a1e8674"
-        ]
-      },
-      {
         "id": "author:790f1e76fe243b82",
         "name": "Zachary S Siegel",
         "aliases": [
@@ -67769,17 +67610,6 @@
         ]
       },
       {
-        "id": "author:e5230702e98ce448",
-        "name": "Zile Yang",
-        "aliases": [
-          "Zile Yang"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:06ab7fb0548b37bc"
-        ]
-      },
-      {
         "id": "author:e2822ea9987cb1fa",
         "name": "Zili Wang",
         "aliases": [
@@ -68095,17 +67925,6 @@
         "paperCount": 1,
         "institutionIds": [
           "institution:f336b3005794930b"
-        ]
-      },
-      {
-        "id": "author:4f46dc1cb0d938a7",
-        "name": "Zonghe Chua",
-        "aliases": [
-          "Zonghe Chua"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:e6c2f6884d2a5dff"
         ]
       },
       {
@@ -71244,18 +71063,18 @@
         "paperCount": 27
       },
       {
-        "id": "institution:0fbadc849bc98650",
-        "name": "University of California",
-        "aliases": [
-          "University of California"
-        ],
-        "paperCount": 27
-      },
-      {
         "id": "institution:323e7eabc230aa6a",
         "name": "Nanjing University",
         "aliases": [
           "Nanjing University"
+        ],
+        "paperCount": 26
+      },
+      {
+        "id": "institution:0fbadc849bc98650",
+        "name": "University of California",
+        "aliases": [
+          "University of California"
         ],
         "paperCount": 26
       },
@@ -71531,14 +71350,6 @@
         "paperCount": 12
       },
       {
-        "id": "institution:bf3ddd5552577ff0",
-        "name": "University of Illinois Urbana-Champaign",
-        "aliases": [
-          "University of Illinois Urbana-Champaign"
-        ],
-        "paperCount": 12
-      },
-      {
         "id": "institution:7d39921202b9ef4f",
         "name": "Eindhoven University of Technology",
         "aliases": [
@@ -71584,6 +71395,14 @@
         "name": "University of Bologna",
         "aliases": [
           "University of Bologna"
+        ],
+        "paperCount": 11
+      },
+      {
+        "id": "institution:bf3ddd5552577ff0",
+        "name": "University of Illinois Urbana-Champaign",
+        "aliases": [
+          "University of Illinois Urbana-Champaign"
         ],
         "paperCount": 11
       },
@@ -72179,16 +71998,6 @@
         "paperCount": 5
       },
       {
-        "id": "institution:06ab7fb0548b37bc",
-        "name": "The Hong Kong University of Science and Technology (Guangzhou)",
-        "aliases": [
-          "Hong Kong University of Science and Technology(Guangzhou)",
-          "The Hong Kong University of Science and Technology (Guangzhou",
-          "The Hong Kong University of Science and Technology (Guangzhou)"
-        ],
-        "paperCount": 5
-      },
-      {
         "id": "institution:bd5ce825728b55d5",
         "name": "The University of Melbourne",
         "aliases": [
@@ -72473,6 +72282,15 @@
         "paperCount": 4
       },
       {
+        "id": "institution:06ab7fb0548b37bc",
+        "name": "The Hong Kong University of Science and Technology (Guangzhou)",
+        "aliases": [
+          "Hong Kong University of Science and Technology(Guangzhou)",
+          "The Hong Kong University of Science and Technology (Guangzhou)"
+        ],
+        "paperCount": 4
+      },
+      {
         "id": "institution:da2d97c082267c13",
         "name": "The University of Hong Kong",
         "aliases": [
@@ -72710,14 +72528,6 @@
         "name": "Honda Research Institute Europe GmbH",
         "aliases": [
           "Honda Research Institute Europe GmbH"
-        ],
-        "paperCount": 3
-      },
-      {
-        "id": "institution:17e74be5c06de398",
-        "name": "Hong Kong Baptist University",
-        "aliases": [
-          "Hong Kong Baptist University"
         ],
         "paperCount": 3
       },
@@ -73685,6 +73495,14 @@
         "name": "Ho Chi Minh City University of Technology (HCMUT)",
         "aliases": [
           "Ho Chi Minh City University of Technology (HCMUT)"
+        ],
+        "paperCount": 2
+      },
+      {
+        "id": "institution:17e74be5c06de398",
+        "name": "Hong Kong Baptist University",
+        "aliases": [
+          "Hong Kong Baptist University"
         ],
         "paperCount": 2
       },
@@ -75959,14 +75777,6 @@
         "paperCount": 1
       },
       {
-        "id": "institution:bbfcd4160a1e8674",
-        "name": "Case",
-        "aliases": [
-          "Case"
-        ],
-        "paperCount": 1
-      },
-      {
         "id": "institution:93ed90a997865d92",
         "name": "Centaur AI Institutue",
         "aliases": [
@@ -76507,14 +76317,6 @@
         "name": "Department of Computing Jönköping School of Engineering",
         "aliases": [
           "Department of Computing Jönköping School of Engineering"
-        ],
-        "paperCount": 1
-      },
-      {
-        "id": "institution:e6c2f6884d2a5dff",
-        "name": "Department of Electrical, Computer, and Systems Engineering",
-        "aliases": [
-          "Department of Electrical, Computer, and Systems Engineering"
         ],
         "paperCount": 1
       },
@@ -82643,14 +82445,6 @@
         "paperCount": 1
       },
       {
-        "id": "institution:9da62a4706ec393d",
-        "name": "University of Minnesota",
-        "aliases": [
-          "University of Minnesota"
-        ],
-        "paperCount": 1
-      },
-      {
         "id": "institution:9572acc92a1f2d40",
         "name": "University of Molise",
         "aliases": [
@@ -83427,14 +83221,6 @@
         "paperCount": 1
       },
       {
-        "id": "institution:73edc1de218a6c25",
-        "name": "Western Reserve University",
-        "aliases": [
-          "Western Reserve University"
-        ],
-        "paperCount": 1
-      },
-      {
         "id": "institution:255b3a4af3224331",
         "name": "Western University",
         "aliases": [
@@ -83685,183 +83471,6 @@
     ]
   },
   "papers": [
-    {
-      "id": "2608.03154",
-      "title": "ANCHOR-RE: An Agentic Neuro-Symbolic Framework for Grounded Biomedical Relation Extraction",
-      "abstract": "Biomedical relation extraction (BioRE) extracts structured knowledge from biomedical literature for applications such as knowledge base construction and hypothesis generation. Traditional symbolic systems such as SemRep provide high precision but limited recall, while large language models (LLMs) offer stronger contextual reasoning but remain prone to false-positive predictions. We developed ANCHOR-RE, a framework that integrates ontology-guided reasoning, external knowledge grounding, and data-driven verification rules into LLM inference. We evaluated it on three BioRE benchmarks (SemRepGS, DDI, and ChemProt) using both proprietary and open-weight LLMs. To assess generalizability beyond benchmark datasets while reducing potential evaluation bias from LLM pretraining contamination, we conducted a temporal evaluation using 100 biomedical articles published in 2026. With the proprietary backbone, ANCHOR-RE outperformed direct LLM prompting, improving micro-F1 from 0.654 to 0.676 on SemRepGS, from 0.769 to 0.872 on DDI, and from 0.939 to 0.941 on ChemProt. On DDI and ChemProt, it also outperformed previously reported inference-only methods and approached fine-tuned or instruction-tuned systems without parameter updates. Similar performance gains observed with open-weight LLMs indicate that the benefits were not limited to the proprietary backbone. On the post-cutoff set, manual assessment of 500 randomly sampled predictions yielded a precision of 69%, maintaining consistent precision on previously unseen biomedical literature. Neuro-symbolic reasoning can improve the reliability of LLM-based BioRE without fine-tuning. Results across multiple benchmarks, model families, and post-cutoff literature support ANCHOR-RE as a practical training-free approach to biomedical literature mining.",
-      "authors": [
-        "Shufan Ming",
-        "Yikun Han",
-        "Gibong Hong",
-        "Rui Zhang",
-        "Halil Kilicoglu"
-      ],
-      "authorAffiliations": [
-        {
-          "name": "Shufan Ming",
-          "authorEntityId": "author:f69b0ae127d19c62",
-          "affiliations": [
-            "University of Illinois Urbana-Champaign"
-          ],
-          "affiliationEntityIds": [
-            "institution:bf3ddd5552577ff0"
-          ],
-          "rawName": "Shufan Ming",
-          "rawAffiliations": [
-            "University of Illinois Urbana-Champaign"
-          ]
-        },
-        {
-          "name": "Yikun Han",
-          "authorEntityId": "author:c9fbc00b0efa3f99",
-          "affiliations": [
-            "University of Illinois Urbana-Champaign"
-          ],
-          "affiliationEntityIds": [
-            "institution:bf3ddd5552577ff0"
-          ],
-          "rawName": "Yikun Han",
-          "rawAffiliations": [
-            "University of Illinois Urbana-Champaign"
-          ]
-        },
-        {
-          "name": "Gibong Hong",
-          "authorEntityId": "author:203fe556c8cca52d",
-          "affiliations": [
-            "University of Illinois Urbana-Champaign"
-          ],
-          "affiliationEntityIds": [
-            "institution:bf3ddd5552577ff0"
-          ],
-          "rawName": "Gibong Hong",
-          "rawAffiliations": [
-            "University of Illinois Urbana-Champaign"
-          ]
-        },
-        {
-          "name": "Rui Zhang",
-          "authorEntityId": "author:da9f6bcba046de63",
-          "affiliations": [
-            "University of Minnesota"
-          ],
-          "affiliationEntityIds": [
-            "institution:9da62a4706ec393d"
-          ],
-          "rawName": "Rui Zhang",
-          "rawAffiliations": [
-            "University of Minnesota"
-          ]
-        },
-        {
-          "name": "Halil Kilicoglu",
-          "authorEntityId": "author:b6d505f3b0e26015",
-          "affiliations": [
-            "University of Illinois Urbana-Champaign"
-          ],
-          "affiliationEntityIds": [
-            "institution:bf3ddd5552577ff0"
-          ],
-          "rawName": "Halil Kilicoglu",
-          "rawAffiliations": [
-            "University of Illinois Urbana-Champaign"
-          ]
-        }
-      ],
-      "authorIds": [],
-      "affiliations": [
-        "University of Illinois Urbana-Champaign",
-        "University of Minnesota"
-      ],
-      "keywords": [
-        "Biomedical relation extraction",
-        "Large language models",
-        "Neuro-symbolic AI",
-        "Biomedical literature",
-        "SemRep",
-        "neuro-symbolic"
-      ],
-      "categories": [
-        "cs.CL"
-      ],
-      "venue": "arXiv",
-      "conference": "",
-      "year": 2026,
-      "published": "2026-08-04",
-      "url": "https://arxiv.org/abs/2608.03154",
-      "pdfUrl": "https://arxiv.org/pdf/2608.03154",
-      "doi": "",
-      "doiUrl": "",
-      "arxivId": "2608.03154",
-      "primaryArea": "",
-      "paperType": "",
-      "tldr": "",
-      "award": "",
-      "sourceType": "arxiv",
-      "sourceIds": [
-        "arxiv-keywords"
-      ],
-      "resolutionStatus": "source-pdf",
-      "resolutionMethod": "",
-      "resolvedArxivUrl": "",
-      "metadataComplete": true,
-      "extractionStatus": "extracted",
-      "entityId": "paper:95977981d92a5ae5",
-      "rawAffiliations": [
-        "University of Illinois Urbana-Champaign",
-        "University of Minnesota"
-      ],
-      "affiliationEntityIds": [
-        "institution:bf3ddd5552577ff0",
-        "institution:9da62a4706ec393d"
-      ],
-      "rawAuthors": [
-        "Shufan Ming",
-        "Yikun Han",
-        "Gibong Hong",
-        "Rui Zhang",
-        "Halil Kilicoglu"
-      ],
-      "authorEntityIds": [
-        "author:f69b0ae127d19c62",
-        "author:c9fbc00b0efa3f99",
-        "author:203fe556c8cca52d",
-        "author:da9f6bcba046de63",
-        "author:b6d505f3b0e26015"
-      ],
-      "rawAuthorAffiliations": [
-        {
-          "name": "Shufan Ming",
-          "affiliations": [
-            "University of Illinois Urbana-Champaign"
-          ]
-        },
-        {
-          "name": "Yikun Han",
-          "affiliations": [
-            "University of Illinois Urbana-Champaign"
-          ]
-        },
-        {
-          "name": "Gibong Hong",
-          "affiliations": [
-            "University of Illinois Urbana-Champaign"
-          ]
-        },
-        {
-          "name": "Rui Zhang",
-          "affiliations": [
-            "University of Minnesota"
-          ]
-        },
-        {
-          "name": "Halil Kilicoglu",
-          "affiliations": [
-            "University of Illinois Urbana-Champaign"
-          ]
-        }
-      ]
-    },
     {
       "id": "2608.02993",
       "title": "Neurosymbolic Reasoning with Incremental Knowledge for Sample Efficient Hierarchical Reinforcement Learning",
@@ -93820,224 +93429,6 @@
         {
           "name": "Amar Prakash Azad",
           "affiliations": []
-        }
-      ]
-    },
-    {
-      "id": "2606.30613",
-      "title": "Sequential Planning via Anchored Robotic Keypoints",
-      "abstract": "We present Sequential Planning via Anchored Robotic Keypoints, SPARK, a training-free neurosymbolic manipulation system that reaches 43.7% on six LIBERO-PRO position \\& task cells, more than doubling CaP-Agent0 and Vision-Language-Action (VLA) baselines. CaP-Agent0, a multi-turn code-generation agent, achieves 18.2% by re-querying an LLM at every turn, but its restart-from-scratch solution proves costly against minor policy failures. Perception is the layer that fails most under position and task changes so SPARK spends its computation there. A single Gemini call composes the plan as a typed behavior tree (BT) of composable primitives, each already containing the low-level control (motion, grasping, depth geometry) a code-generation agent would otherwise regenerate on every trial. The rest of the budget goes to perception: a second Gemini call proposes three alternative text prompts per object, SAM3 evaluates each, and we keep the prompt$\\to$label pair with the most confident detection and a recovery loop then retries a failed primitive against freshly detected objects, with no new LLM call. The alternative prompts add +27.7 points on the spatial suite and +10.0 on the object suite, with the recovery loop adding +5.0 overall. SPARK runs the same primitives on three robot families (UR10e, Franka FR3, bimanual Franka) across nine unique tasks at twenty trials each, averaging 68%. Since the detector, planner, and controller modules sit behind the typed plan, they swap independently without training, and each primitive's checkable post-condition traces a failure to the corresponding module or a kinematic limit. Every trial logs a verified, labeled trajectory, so a training-free planner that already beats VLAs can supply the data those policies need without teleoperation. Project page: https://cwru-aism.github.io/spark-page/",
-      "authors": [
-        "Bryce Grant",
-        "Aryeh Rothenberg",
-        "Logan Senning",
-        "Zonghe Chua",
-        "Zach Patterson",
-        "Peng Wang"
-      ],
-      "authorAffiliations": [
-        {
-          "name": "Bryce Grant",
-          "authorEntityId": "author:f46737ca65d55fad",
-          "affiliations": [
-            "Department of Electrical, Computer, and Systems Engineering"
-          ],
-          "affiliationEntityIds": [
-            "institution:e6c2f6884d2a5dff"
-          ],
-          "rawName": "Bryce Grant",
-          "rawAffiliations": [
-            "Department of Electrical, Computer, and Systems Engineering"
-          ]
-        },
-        {
-          "name": "Aryeh Rothenberg",
-          "authorEntityId": "author:d4f87a0e3c69acb4",
-          "affiliations": [
-            "Case",
-            "Western Reserve University"
-          ],
-          "affiliationEntityIds": [
-            "institution:bbfcd4160a1e8674",
-            "institution:73edc1de218a6c25"
-          ],
-          "rawName": "Aryeh Rothenberg",
-          "rawAffiliations": [
-            "Case",
-            "Western Reserve University"
-          ]
-        },
-        {
-          "name": "Logan Senning",
-          "authorEntityId": "author:1f1fc4c40084b321",
-          "affiliations": [
-            "Case",
-            "Western Reserve University"
-          ],
-          "affiliationEntityIds": [
-            "institution:bbfcd4160a1e8674",
-            "institution:73edc1de218a6c25"
-          ],
-          "rawName": "Logan Senning",
-          "rawAffiliations": [
-            "Case",
-            "Western Reserve University"
-          ]
-        },
-        {
-          "name": "Zonghe Chua",
-          "authorEntityId": "author:4f46dc1cb0d938a7",
-          "affiliations": [
-            "Department of Electrical, Computer, and Systems Engineering"
-          ],
-          "affiliationEntityIds": [
-            "institution:e6c2f6884d2a5dff"
-          ],
-          "rawName": "Zonghe Chua",
-          "rawAffiliations": [
-            "Department of Electrical, Computer, and Systems Engineering"
-          ]
-        },
-        {
-          "name": "Zach Patterson",
-          "authorEntityId": "author:36df40853c5cb410",
-          "affiliations": [
-            "Case",
-            "Western Reserve University"
-          ],
-          "affiliationEntityIds": [
-            "institution:bbfcd4160a1e8674",
-            "institution:73edc1de218a6c25"
-          ],
-          "rawName": "Zach Patterson",
-          "rawAffiliations": [
-            "Case",
-            "Western Reserve University"
-          ]
-        },
-        {
-          "name": "Peng Wang",
-          "authorEntityId": "author:92c691182281e9e7",
-          "affiliations": [
-            "Case",
-            "Western Reserve University"
-          ],
-          "affiliationEntityIds": [
-            "institution:bbfcd4160a1e8674",
-            "institution:73edc1de218a6c25"
-          ],
-          "rawName": "Peng Wang",
-          "rawAffiliations": [
-            "Case",
-            "Western Reserve University"
-          ]
-        }
-      ],
-      "authorIds": [],
-      "affiliations": [
-        "Department of Electrical, Computer, and Systems Engineering",
-        "Case",
-        "Western Reserve University"
-      ],
-      "keywords": [
-        "Neurosymbolic Models",
-        "Robotic Manipulation",
-        "Robotic Foundation Models",
-        "Test-Time Compute",
-        "neurosymbolic"
-      ],
-      "categories": [
-        "cs.RO"
-      ],
-      "venue": "arXiv",
-      "conference": "",
-      "year": 2026,
-      "published": "2026-06-29",
-      "url": "https://arxiv.org/abs/2606.30613",
-      "pdfUrl": "https://arxiv.org/pdf/2606.30613",
-      "doi": "",
-      "doiUrl": "",
-      "arxivId": "2606.30613",
-      "primaryArea": "",
-      "paperType": "",
-      "tldr": "",
-      "award": "",
-      "sourceType": "arxiv",
-      "sourceIds": [
-        "arxiv-keywords"
-      ],
-      "resolutionStatus": "source-pdf",
-      "resolutionMethod": "",
-      "resolvedArxivUrl": "",
-      "metadataComplete": true,
-      "extractionStatus": "extracted",
-      "entityId": "paper:2b8e2486fdc8ca9e",
-      "rawAffiliations": [
-        "Department of Electrical, Computer, and Systems Engineering",
-        "Case",
-        "Western Reserve University"
-      ],
-      "affiliationEntityIds": [
-        "institution:e6c2f6884d2a5dff",
-        "institution:bbfcd4160a1e8674",
-        "institution:73edc1de218a6c25"
-      ],
-      "rawAuthors": [
-        "Bryce Grant",
-        "Aryeh Rothenberg",
-        "Logan Senning",
-        "Zonghe Chua",
-        "Zach Patterson",
-        "Peng Wang"
-      ],
-      "authorEntityIds": [
-        "author:f46737ca65d55fad",
-        "author:d4f87a0e3c69acb4",
-        "author:1f1fc4c40084b321",
-        "author:4f46dc1cb0d938a7",
-        "author:36df40853c5cb410",
-        "author:92c691182281e9e7"
-      ],
-      "rawAuthorAffiliations": [
-        {
-          "name": "Bryce Grant",
-          "affiliations": [
-            "Department of Electrical, Computer, and Systems Engineering"
-          ]
-        },
-        {
-          "name": "Aryeh Rothenberg",
-          "affiliations": [
-            "Case",
-            "Western Reserve University"
-          ]
-        },
-        {
-          "name": "Logan Senning",
-          "affiliations": [
-            "Case",
-            "Western Reserve University"
-          ]
-        },
-        {
-          "name": "Zonghe Chua",
-          "affiliations": [
-            "Department of Electrical, Computer, and Systems Engineering"
-          ]
-        },
-        {
-          "name": "Zach Patterson",
-          "affiliations": [
-            "Case",
-            "Western Reserve University"
-          ]
-        },
-        {
-          "name": "Peng Wang",
-          "affiliations": [
-            "Case",
-            "Western Reserve University"
-          ]
         }
       ]
     },
@@ -174684,242 +174075,6 @@
         {
           "name": "B R Ambedkar",
           "affiliations": []
-        }
-      ]
-    },
-    {
-      "id": "2510.23160",
-      "title": "ENTP: Enhancing Low-Quality SFT Data via Neural-Symbolic Text Purge-Mix",
-      "abstract": "Supervised Fine-Tuning (SFT) adapts pre-trained Large Language Models (LLMs) to domain-specific instructions by training on a carefully curated subset of high-quality instruction-response pairs, typically drawn from a larger dataset that often contains many low-quality or noisy samples. However, existing quality-first paradigms often overlook valuable signals in discarded low-quality data and rely on imperfect quality filters. We introduce ENTP (Enhancing low-quality SFT data via Neural-symbolic Text Purge-Mix), a framework that revitalizes low-quality corpora through symbolic purification and neural reconstruction. The symbolic module identifies and prunes noisy samples based on statistical priors, while the neural component synthesizes enriched instruction-response pairs by leveraging latent representations and model knowledge. This neural-symbolic synergy enhances data informativeness and diversity. Experiments show that ENTP-augmented datasets, constructed exclusively from low-quality data, outperform 13 established data-selection baselines across five instruction-following benchmarks, and even surpass fine-tuning on the full original dataset (approximately 300K examples). Our results highlight the untapped potential of low-quality data and underscore the importance of intelligent purification and synthesis for efficient instruction alignment.",
-      "authors": [
-        "Zile Yang",
-        "Ling Li",
-        "Na Di",
-        "Jinlong Pang",
-        "Yao Zhou",
-        "Hao Cheng",
-        "Bo Han",
-        "Jiaheng Wei"
-      ],
-      "authorAffiliations": [
-        {
-          "name": "Zile Yang",
-          "authorEntityId": "author:e5230702e98ce448",
-          "affiliations": [
-            "The Hong Kong University of Science and Technology (Guangzhou)"
-          ],
-          "affiliationEntityIds": [
-            "institution:06ab7fb0548b37bc"
-          ],
-          "rawName": "Zile Yang",
-          "rawAffiliations": [
-            "The Hong Kong University of Science and Technology (Guangzhou"
-          ]
-        },
-        {
-          "name": "Ling Li",
-          "authorEntityId": "author:ebe402653381bb86",
-          "affiliations": [
-            "The Hong Kong University of Science and Technology (Guangzhou)"
-          ],
-          "affiliationEntityIds": [
-            "institution:06ab7fb0548b37bc"
-          ],
-          "rawName": "Ling Li",
-          "rawAffiliations": [
-            "The Hong Kong University of Science and Technology (Guangzhou"
-          ]
-        },
-        {
-          "name": "Na Di",
-          "authorEntityId": "author:4aea71fd1abc9a80",
-          "affiliations": [
-            "The Hong Kong University of Science and Technology (Guangzhou)"
-          ],
-          "affiliationEntityIds": [
-            "institution:06ab7fb0548b37bc"
-          ],
-          "rawName": "Na Di",
-          "rawAffiliations": [
-            "The Hong Kong University of Science and Technology (Guangzhou"
-          ]
-        },
-        {
-          "name": "Jinlong Pang",
-          "authorEntityId": "author:671271f1ef873eed",
-          "affiliations": [
-            "University of California"
-          ],
-          "affiliationEntityIds": [
-            "institution:0fbadc849bc98650"
-          ],
-          "rawName": "Jinlong Pang",
-          "rawAffiliations": [
-            "University of California"
-          ]
-        },
-        {
-          "name": "Yao Zhou",
-          "authorEntityId": "author:31b68e84e56b9631",
-          "affiliations": [],
-          "affiliationEntityIds": [],
-          "rawName": "Yao Zhou",
-          "rawAffiliations": []
-        },
-        {
-          "name": "Hao Cheng",
-          "authorEntityId": "author:af41da15d2a91e18",
-          "affiliations": [
-            "Hong Kong Baptist University"
-          ],
-          "affiliationEntityIds": [
-            "institution:17e74be5c06de398"
-          ],
-          "rawName": "Hao Cheng",
-          "rawAffiliations": [
-            "Hong Kong Baptist University"
-          ]
-        },
-        {
-          "name": "Bo Han",
-          "authorEntityId": "author:bae7b2f9eb92d204",
-          "affiliations": [
-            "Hong Kong Baptist University"
-          ],
-          "affiliationEntityIds": [
-            "institution:17e74be5c06de398"
-          ],
-          "rawName": "Bo Han",
-          "rawAffiliations": [
-            "Hong Kong Baptist University"
-          ]
-        },
-        {
-          "name": "Jiaheng Wei",
-          "authorEntityId": "author:3a835f665dbaa67b",
-          "affiliations": [
-            "The Hong Kong University of Science and Technology (Guangzhou)"
-          ],
-          "affiliationEntityIds": [
-            "institution:06ab7fb0548b37bc"
-          ],
-          "rawName": "Jiaheng Wei",
-          "rawAffiliations": [
-            "The Hong Kong University of Science and Technology (Guangzhou"
-          ]
-        }
-      ],
-      "authorIds": [],
-      "affiliations": [
-        "The Hong Kong University of Science and Technology (Guangzhou)",
-        "University of California",
-        "Hong Kong Baptist University"
-      ],
-      "keywords": [
-        "neural-symbolic"
-      ],
-      "categories": [
-        "cs.CL"
-      ],
-      "venue": "arXiv",
-      "conference": "",
-      "year": 2025,
-      "published": "2025-10-27",
-      "url": "https://arxiv.org/abs/2510.23160",
-      "pdfUrl": "https://arxiv.org/pdf/2510.23160",
-      "doi": "",
-      "doiUrl": "",
-      "arxivId": "2510.23160",
-      "primaryArea": "",
-      "paperType": "",
-      "tldr": "",
-      "award": "",
-      "sourceType": "arxiv",
-      "sourceIds": [
-        "arxiv-keywords"
-      ],
-      "resolutionStatus": "source-pdf",
-      "resolutionMethod": "",
-      "resolvedArxivUrl": "",
-      "metadataComplete": true,
-      "extractionStatus": "extracted",
-      "entityId": "paper:33732f8b9e3e14ca",
-      "rawAffiliations": [
-        "The Hong Kong University of Science and Technology (Guangzhou",
-        "University of California",
-        "Hong Kong Baptist University"
-      ],
-      "affiliationEntityIds": [
-        "institution:06ab7fb0548b37bc",
-        "institution:0fbadc849bc98650",
-        "institution:17e74be5c06de398"
-      ],
-      "rawAuthors": [
-        "Zile Yang",
-        "Ling Li",
-        "Na Di",
-        "Jinlong Pang",
-        "Yao Zhou",
-        "Hao Cheng",
-        "Bo Han",
-        "Jiaheng Wei"
-      ],
-      "authorEntityIds": [
-        "author:e5230702e98ce448",
-        "author:ebe402653381bb86",
-        "author:4aea71fd1abc9a80",
-        "author:671271f1ef873eed",
-        "author:31b68e84e56b9631",
-        "author:af41da15d2a91e18",
-        "author:bae7b2f9eb92d204",
-        "author:3a835f665dbaa67b"
-      ],
-      "rawAuthorAffiliations": [
-        {
-          "name": "Zile Yang",
-          "affiliations": [
-            "The Hong Kong University of Science and Technology (Guangzhou"
-          ]
-        },
-        {
-          "name": "Ling Li",
-          "affiliations": [
-            "The Hong Kong University of Science and Technology (Guangzhou"
-          ]
-        },
-        {
-          "name": "Na Di",
-          "affiliations": [
-            "The Hong Kong University of Science and Technology (Guangzhou"
-          ]
-        },
-        {
-          "name": "Jinlong Pang",
-          "affiliations": [
-            "University of California"
-          ]
-        },
-        {
-          "name": "Yao Zhou",
-          "affiliations": []
-        },
-        {
-          "name": "Hao Cheng",
-          "affiliations": [
-            "Hong Kong Baptist University"
-          ]
-        },
-        {
-          "name": "Bo Han",
-          "affiliations": [
-            "Hong Kong Baptist University"
-          ]
-        },
-        {
-          "name": "Jiaheng Wei",
-          "affiliations": [
-            "The Hong Kong University of Science and Technology (Guangzhou"
-          ]
         }
       ]
     },
@@ -269858,8 +269013,8 @@
     },
     {
       "id": "2405.01259",
-      "title": "Identification of Entailment and Contradiction Relations between Natural Language Sentences: A Neurosymbolic Approach",
-      "abstract": "Natural language inference (NLI), also known as Recognizing Textual Entailment (RTE), is an important aspect of natural language understanding. Most research now uses machine learning and deep learning to perform this task on specific datasets, meaning their solution is not explainable nor explicit. To address the need for an explainable approach to RTE, we propose a novel pipeline that is based on translating text into an Abstract Meaning Representation (AMR) graph. For this we use a pre-trained AMR parser. We then translate the AMR graph into propositional logic and use a SAT solver for automated reasoning. In text, often commonsense suggests that an entailment (or contradiction) relationship holds between a premise and a claim, but because different wordings are used, this is not identified from their logical representations. To address this, we introduce relaxation methods to allow replacement or forgetting of some propositions. Our experimental results show this pipeline performs well on four RTE datasets.",
+      "title": "Identification of Entailment and Contradiction Relations for Natural Language Argumentation: A Neurosymbolic Approach",
+      "abstract": "Argumentation is an important cognitive activity that involves the scrutiny of arguments and counterarguments. When given an argument, it is desirable that its premises entail its claim, and that the premises and claim are consistent, and when given a pair of arguments, it is desirable to check whether one argument supports or attacks another. If the arguments are in natural language, then we could use methods for natural language inference, also known as recognizing textual entailment (RTE). The state-of-the-art RTE methods use machine learning and deep learning, but these are not explainable. An alternative approach which we investigate in this paper is to translate text into an abstract meaning representation (AMR) graph. For this we use a pre-trained AMR parser. We then translate the AMR graph into propositional logic and use a SAT solver for automated reasoning. In text, often common sense suggests that an entailment (or contradiction) relationship holds between a premise and a claim, but because different wordings are used, this is not identified from their logical representations. To address this, we introduce relaxation methods to allow replacement or forgetting of some propositions. Our experimental results show our approach performs well on three RTE datasets. The benefit of our approach is that we have a logical representation of premises and claims, and of the relaxations that are used to identify the entailment and contradiction relations.",
       "authors": [
         "Xuyao Feng",
         "Anthony Hunter"
@@ -376020,12 +375175,12 @@
       "abstract": "Syntactic ambiguity poses a persistent challenge for Arabic NLP, particularly in morphologically rich nominal constructions where multiple structu6ral interpretations may be compatible with the same surface sequence. This study proposes a generatively informed neuro-symbolic framework for resolving structural ambiguity in Modern Standard Arabic (MSA) DPs. The framework integrates generative syntactic notions with AraBERT by representing ambiguity as a candidate-based decision task in which linguistically motivated alternatives are explicitly constructed and evaluated through candidate-conditioned input representations. Findings indicate that the model achieved 96.88% accuracy, 95.92% macro-F1, 96.83% weighted F1, and 93.94% binary F1 on the unseen evaluation set. Class-level analysis revealed asymmetric performance, with recall of 99.71% for High/VP Attachment (N1) and 89.26% for Low/NP/Embedded Attachment (N2), indicating greater difficulty in recovering the embedded interpretation. The study concludes that formal syntactic representations can be operationalized within Transformer-based NLP as an explicit interface between linguistic structure and contextual neural modeling, providing a controlled and interpretable approach to Arabic syntactic ambiguity resolution and beyond.",
       "authors": [
         "Mohammed Damom",
+        "Mohammed Q. Shormani",
         "Muneef Y. Alshawsh",
         "Ashraf A. Naji",
         "Mustafa Ali Alhamzi",
         "Fawwaz An-Nashef",
         "Jameel Ahmed Elayah",
-        "Mohammed Q. Shormani",
         "Noman AL-Sayadi"
       ],
       "authorAffiliations": [
@@ -376129,22 +375284,22 @@
       "affiliationEntityIds": [],
       "rawAuthors": [
         "Mohammed Damom",
+        "Mohammed Q. Shormani",
         "Muneef Y. Alshawsh",
         "Ashraf A. Naji",
         "Mustafa Ali Alhamzi",
         "Fawwaz An-Nashef",
         "Jameel Ahmed Elayah",
-        "Mohammed Q. Shormani",
         "Noman AL-Sayadi"
       ],
       "authorEntityIds": [
         "author:3eaa072899fa94bb",
+        "author:01af9e02063e0a5e",
         "author:a2c34735bde0279d",
         "author:a6159b79ab672976",
         "author:6f6ffd7a6c95fd2f",
         "author:3991f34dc60a06c5",
         "author:1bc4ec5337fa664a",
-        "author:01af9e02063e0a5e",
         "author:d4ecba37bc8b86fc"
       ],
       "rawAuthorAffiliations": [
