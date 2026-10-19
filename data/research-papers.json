@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T15:14:45.405Z",
+  "generatedAt": "2026-10-19T18:10:53.416Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1852,
+  "paperCount": 1853,
   "completeMetadataCount": 1370,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1547
+      "count": 1548
     },
     {
       "id": "nesy-proceedings",
@@ -297,7 +297,7 @@
         "aliases": [
           "Kristian Kersting"
         ],
-        "paperCount": 25,
+        "paperCount": 26,
         "institutionIds": [
           "institution:11591cc112c8c577",
           "institution:36c401a3c72be9ea",
@@ -1069,6 +1069,23 @@
         ]
       },
       {
+        "id": "author:c4e0325f0938c827",
+        "name": "Quentin Delfosse",
+        "aliases": [
+          "Quentin Delfosse"
+        ],
+        "paperCount": 7,
+        "institutionIds": [
+          "institution:11591cc112c8c577",
+          "institution:36c401a3c72be9ea",
+          "institution:587790e22a0ecf0c",
+          "institution:7d39921202b9ef4f",
+          "institution:97be9a530d78bd2d",
+          "institution:99fc4c2921753ab6",
+          "institution:a36e569be9f1a02f"
+        ]
+      },
+      {
         "id": "author:6fc1001c38d7e95f",
         "name": "Robert Hoehndorf",
         "aliases": [
@@ -1327,23 +1344,6 @@
           "institution:01ff763ef3518b63",
           "institution:cf1c67afebae5548",
           "institution:ef18b90aec166cb2"
-        ]
-      },
-      {
-        "id": "author:c4e0325f0938c827",
-        "name": "Quentin Delfosse",
-        "aliases": [
-          "Quentin Delfosse"
-        ],
-        "paperCount": 6,
-        "institutionIds": [
-          "institution:11591cc112c8c577",
-          "institution:36c401a3c72be9ea",
-          "institution:587790e22a0ecf0c",
-          "institution:7d39921202b9ef4f",
-          "institution:97be9a530d78bd2d",
-          "institution:99fc4c2921753ab6",
-          "institution:a36e569be9f1a02f"
         ]
       },
       {
@@ -4066,6 +4066,20 @@
           "institution:6e51b7b0e4ab80df",
           "institution:79956f77b47a88ef",
           "institution:fd5077e717b510f5"
+        ]
+      },
+      {
+        "id": "author:87e5eb273fbf9d26",
+        "name": "Jannis Blüml",
+        "aliases": [
+          "Jannis Blüml"
+        ],
+        "paperCount": 3,
+        "institutionIds": [
+          "institution:11591cc112c8c577",
+          "institution:423d62388e154a7e",
+          "institution:97be9a530d78bd2d",
+          "institution:99d058378724c01d"
         ]
       },
       {
@@ -8345,20 +8359,6 @@
         ]
       },
       {
-        "id": "author:87e5eb273fbf9d26",
-        "name": "Jannis Blüml",
-        "aliases": [
-          "Jannis Blüml"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:11591cc112c8c577",
-          "institution:423d62388e154a7e",
-          "institution:97be9a530d78bd2d",
-          "institution:99d058378724c01d"
-        ]
-      },
-      {
         "id": "author:a213461a142a5690",
         "name": "Jason Xinyu Liu",
         "aliases": [
@@ -10324,6 +10324,19 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:9bfd678a766e8b50"
+        ]
+      },
+      {
+        "id": "author:be665854ac57fd52",
+        "name": "Raban Emunds",
+        "aliases": [
+          "Raban Emunds"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:11591cc112c8c577",
+          "institution:97be9a530d78bd2d",
+          "institution:99d058378724c01d"
         ]
       },
       {
@@ -22507,6 +22520,15 @@
         ]
       },
       {
+        "id": "author:bd968c80f4b58536",
+        "name": "Daniel Kirn",
+        "aliases": [
+          "Daniel Kirn"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:fffbc1974a537cb2",
         "name": "Daniel Koh",
         "aliases": [
@@ -24034,6 +24056,15 @@
         "name": "Dominik Blain",
         "aliases": [
           "Dominik Blain"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:446eb72a8e958af2",
+        "name": "Dominik Mandok",
+        "aliases": [
+          "Dominik Mandok"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -47061,6 +47092,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:a3eb862283d6577f",
+        "name": "Paul Seitz",
+        "aliases": [
+          "Paul Seitz"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:87953432a73cf81f",
         "name": "Paul Sigloch",
         "aliases": [
@@ -49166,19 +49206,6 @@
         "paperCount": 1,
         "institutionIds": [
           "institution:781afa4ed50a74b8"
-        ]
-      },
-      {
-        "id": "author:be665854ac57fd52",
-        "name": "Raban Emunds",
-        "aliases": [
-          "Raban Emunds"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:11591cc112c8c577",
-          "institution:97be9a530d78bd2d",
-          "institution:99d058378724c01d"
         ]
       },
       {
@@ -52505,6 +52532,15 @@
         "name": "Sebastian Stabinger",
         "aliases": [
           "Sebastian Stabinger"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:ea17b0ae30d8b7a9",
+        "name": "Sebastian Wette",
+        "aliases": [
+          "Sebastian Wette"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -377606,6 +377642,174 @@
         },
         {
           "name": "Kai Yu",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.23650",
+      "title": "JAXtari: High-Throughput and Easy-to-Modify Arcade Learning Environment",
+      "abstract": "The Arcade Learning Environment (ALE) has been a cornerstone of Deep Reinforcement Learning research, providing a standardized benchmark for evaluating general agents. However, its lack of native support for object-extraction and environment modification restricts research into evaluating whether agents learn robust causal models or rely on brittle visual heuristics. Furthermore, the ALE's dependence on CPU-based emulation creates a significant bottleneck in modern GPU-accelerated training pipelines, limiting both experimental scale and iteration frequency. In this work, we introduce JAXtari, an open-source, high-performance reimplementation of Atari 2600 environments. By leveraging massive GPU parallelization, JAXtari allows PPO agents to finish training on 100M environment steps on a single A100-GPU in under an hour. Beyond speed, it provides object-centric observations and a flexible modification system, allowing researchers to, e.g. develop neuro-symbolic methods or discover novel shortcuts and subsequently train and adapt their agents rapidly, sometimes in only minutes.",
+      "authors": [
+        "Quentin Delfosse",
+        "Raban Emunds",
+        "Paul Seitz",
+        "Sebastian Wette",
+        "Jannis Blüml",
+        "Daniel Kirn",
+        "Dominik Mandok",
+        "Kristian Kersting"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Quentin Delfosse",
+          "authorEntityId": "author:c4e0325f0938c827",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Quentin Delfosse",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Raban Emunds",
+          "authorEntityId": "author:be665854ac57fd52",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Raban Emunds",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Paul Seitz",
+          "authorEntityId": "author:a3eb862283d6577f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Paul Seitz",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Sebastian Wette",
+          "authorEntityId": "author:ea17b0ae30d8b7a9",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Sebastian Wette",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jannis Blüml",
+          "authorEntityId": "author:87e5eb273fbf9d26",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jannis Blüml",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Daniel Kirn",
+          "authorEntityId": "author:bd968c80f4b58536",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Daniel Kirn",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Dominik Mandok",
+          "authorEntityId": "author:446eb72a8e958af2",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Dominik Mandok",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Kristian Kersting",
+          "authorEntityId": "author:b5e4080501f3c8fa",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Kristian Kersting",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-16",
+      "url": "https://arxiv.org/abs/2610.23650",
+      "pdfUrl": "https://arxiv.org/pdf/2610.23650",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.23650",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:40cc4136ad2c4d5e",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Quentin Delfosse",
+        "Raban Emunds",
+        "Paul Seitz",
+        "Sebastian Wette",
+        "Jannis Blüml",
+        "Daniel Kirn",
+        "Dominik Mandok",
+        "Kristian Kersting"
+      ],
+      "authorEntityIds": [
+        "author:c4e0325f0938c827",
+        "author:be665854ac57fd52",
+        "author:a3eb862283d6577f",
+        "author:ea17b0ae30d8b7a9",
+        "author:87e5eb273fbf9d26",
+        "author:bd968c80f4b58536",
+        "author:446eb72a8e958af2",
+        "author:b5e4080501f3c8fa"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Quentin Delfosse",
+          "affiliations": []
+        },
+        {
+          "name": "Raban Emunds",
+          "affiliations": []
+        },
+        {
+          "name": "Paul Seitz",
+          "affiliations": []
+        },
+        {
+          "name": "Sebastian Wette",
+          "affiliations": []
+        },
+        {
+          "name": "Jannis Blüml",
+          "affiliations": []
+        },
+        {
+          "name": "Daniel Kirn",
+          "affiliations": []
+        },
+        {
+          "name": "Dominik Mandok",
+          "affiliations": []
+        },
+        {
+          "name": "Kristian Kersting",
           "affiliations": []
         }
       ]
