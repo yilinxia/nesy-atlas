@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T18:10:53.416Z",
+  "generatedAt": "2026-10-20T16:12:00.288Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1853,
+  "paperCount": 1859,
   "completeMetadataCount": 1370,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1548
+      "count": 1554
     },
     {
       "id": "nesy-proceedings",
@@ -2186,6 +2186,18 @@
         ]
       },
       {
+        "id": "author:14667fe4ad47cd9a",
+        "name": "Cheng Zhuo",
+        "aliases": [
+          "Cheng Zhuo"
+        ],
+        "paperCount": 4,
+        "institutionIds": [
+          "institution:e433baf78e80004b",
+          "institution:eef2affa58f45b41"
+        ]
+      },
+      {
         "id": "author:5141ffe471d48263",
         "name": "Chuang Gan",
         "aliases": [
@@ -3432,18 +3444,6 @@
         ]
       },
       {
-        "id": "author:14667fe4ad47cd9a",
-        "name": "Cheng Zhuo",
-        "aliases": [
-          "Cheng Zhuo"
-        ],
-        "paperCount": 3,
-        "institutionIds": [
-          "institution:e433baf78e80004b",
-          "institution:eef2affa58f45b41"
-        ]
-      },
-      {
         "id": "author:e4495fcce4a15997",
         "name": "Cheng-Lin Liu",
         "aliases": [
@@ -3572,6 +3572,17 @@
         "institutionIds": [
           "institution:975baf152daabc81",
           "institution:f43b260c65382b8b"
+        ]
+      },
+      {
+        "id": "author:d8d4b9c9e4e3e834",
+        "name": "Deheng Ye",
+        "aliases": [
+          "Deheng Ye"
+        ],
+        "paperCount": 3,
+        "institutionIds": [
+          "institution:0f03475bb0c71251"
         ]
       },
       {
@@ -5599,6 +5610,18 @@
         ]
       },
       {
+        "id": "author:ac5a9dce8f2792b8",
+        "name": "Xunzhao Yin",
+        "aliases": [
+          "Xunzhao Yin"
+        ],
+        "paperCount": 3,
+        "institutionIds": [
+          "institution:e433baf78e80004b",
+          "institution:eef2affa58f45b41"
+        ]
+      },
+      {
         "id": "author:aff58103e5ff9843",
         "name": "Yang Chen",
         "aliases": [
@@ -7306,17 +7329,6 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:6432056cdf12bb16"
-        ]
-      },
-      {
-        "id": "author:d8d4b9c9e4e3e834",
-        "name": "Deheng Ye",
-        "aliases": [
-          "Deheng Ye"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:0f03475bb0c71251"
         ]
       },
       {
@@ -12449,18 +12461,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:ac5a9dce8f2792b8",
-        "name": "Xunzhao Yin",
-        "aliases": [
-          "Xunzhao Yin"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:e433baf78e80004b",
-          "institution:eef2affa58f45b41"
-        ]
-      },
-      {
         "id": "author:0d5af2be44b80eb9",
         "name": "Xusheng Luo",
         "aliases": [
@@ -12662,6 +12662,17 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:0418834df0ffcdf2"
+        ]
+      },
+      {
+        "id": "author:57219201e1873a56",
+        "name": "Yifei Zhou",
+        "aliases": [
+          "Yifei Zhou"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:e433baf78e80004b"
         ]
       },
       {
@@ -12910,6 +12921,17 @@
         ]
       },
       {
+        "id": "author:c307af33e293db30",
+        "name": "Yuxiao Jiang",
+        "aliases": [
+          "Yuxiao Jiang"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:e433baf78e80004b"
+        ]
+      },
+      {
         "id": "author:92d0da6270710c66",
         "name": "Yuxuan Liang",
         "aliases": [
@@ -12996,6 +13018,18 @@
         ]
       },
       {
+        "id": "author:5cd3418018ed609a",
+        "name": "Zheyu Yan",
+        "aliases": [
+          "Zheyu Yan"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:e433baf78e80004b",
+          "institution:eef2affa58f45b41"
+        ]
+      },
+      {
         "id": "author:4eb80d4885a8268a",
         "name": "Zhi Tu",
         "aliases": [
@@ -13036,6 +13070,17 @@
         ],
         "paperCount": 2,
         "institutionIds": []
+      },
+      {
+        "id": "author:c7927b0c8846d863",
+        "name": "Zhiguo Shi",
+        "aliases": [
+          "Zhiguo Shi"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:e433baf78e80004b"
+        ]
       },
       {
         "id": "author:b4fc6e0c538a542e",
@@ -15404,6 +15449,15 @@
         "institutionIds": [
           "institution:98d6c02091fe3347"
         ]
+      },
+      {
+        "id": "author:f2646a665a8eff0c",
+        "name": "Ali Ansari",
+        "aliases": [
+          "Ali Ansari"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:4e93a9ea8543a702",
@@ -20289,6 +20343,15 @@
         ]
       },
       {
+        "id": "author:dfa972dd627ea1a7",
+        "name": "Catherine Elias",
+        "aliases": [
+          "Catherine Elias"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:5e82395c5635c2d0",
         "name": "Catia Pesquita",
         "aliases": [
@@ -22182,6 +22245,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:f078a8832b3f36f5",
+        "name": "Daan Boven",
+        "aliases": [
+          "Daan Boven"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:4c8f7b3f80bfba80",
         "name": "Dabiao Ma",
         "aliases": [
@@ -22929,6 +23001,15 @@
         "name": "David Fridovich-Keil",
         "aliases": [
           "David Fridovich-Keil"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:f29a1c5aecb70490",
+        "name": "David Graus",
+        "aliases": [
+          "David Graus"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -25973,6 +26054,15 @@
         ]
       },
       {
+        "id": "author:0e93c9ba66f9b02d",
+        "name": "Farhana Ferdousi Liza",
+        "aliases": [
+          "Farhana Ferdousi Liza"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:db6aef6ef991d03c",
         "name": "Farhat Shaikh",
         "aliases": [
@@ -27644,6 +27734,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:41d0a2f60a124932",
+        "name": "Gina Belmonte",
+        "aliases": [
+          "Gina Belmonte"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:ebcfa9fdad51b25a",
         "name": "Ginevra Carbone",
         "aliases": [
@@ -28009,6 +28108,15 @@
         "institutionIds": [
           "institution:778fc0ebc83511d8"
         ]
+      },
+      {
+        "id": "author:5824710a7c78c0f2",
+        "name": "Gregor Behnke",
+        "aliases": [
+          "Gregor Behnke"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:fda4801c73404593",
@@ -33436,6 +33544,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:764ab3dacca6fdfb",
+        "name": "Jiaqi Zhang",
+        "aliases": [
+          "Jiaqi Zhang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:c1e2070b08d68351",
         "name": "Jiaqing Liang",
         "aliases": [
@@ -35063,6 +35180,15 @@
         "institutionIds": [
           "institution:b2b45a6dc7d2e3cf"
         ]
+      },
+      {
+        "id": "author:0e0cda89caa83b50",
+        "name": "Jonathan Leung",
+        "aliases": [
+          "Jonathan Leung"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:fe5267bdb616c3d7",
@@ -37330,6 +37456,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:0a42d25b0d104f4f",
+        "name": "Khaled Nowara",
+        "aliases": [
+          "Khaled Nowara"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:467796c15f2f40c6",
         "name": "Khalid Hossain",
         "aliases": [
@@ -38062,6 +38197,15 @@
         "name": "Lasha Abzianidze",
         "aliases": [
           "Lasha Abzianidze"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:cf946ff7abd0b660",
+        "name": "Laura Bussi",
+        "aliases": [
+          "Laura Bussi"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -43123,6 +43267,15 @@
         ]
       },
       {
+        "id": "author:e0d75c8ca8add558",
+        "name": "Mieke Massink",
+        "aliases": [
+          "Mieke Massink"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:17fa54c054b3c40e",
         "name": "Miguel Á Carreira-Perpiñán",
         "aliases": [
@@ -43930,6 +44083,15 @@
         "name": "Mohamed Chahine Ghanem",
         "aliases": [
           "Mohamed Chahine Ghanem"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:939a603aaef6902c",
+        "name": "Mohamed Manzour",
+        "aliases": [
+          "Mohamed Manzour"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -58647,6 +58809,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:3542b650b4205e8d",
+        "name": "Vincenzo Ciancia",
+        "aliases": [
+          "Vincenzo Ciancia"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:5f869a7cc1fc2799",
         "name": "Vincenzo Di",
         "aliases": [
@@ -62964,17 +63135,6 @@
         ]
       },
       {
-        "id": "author:57219201e1873a56",
-        "name": "Yifei Zhou",
-        "aliases": [
-          "Yifei Zhou"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:e433baf78e80004b"
-        ]
-      },
-      {
         "id": "author:ca91ff8dba74e356",
         "name": "Yigit Ihlamur",
         "aliases": [
@@ -62988,6 +63148,15 @@
         "name": "Yigit Yildirim",
         "aliases": [
           "Yigit Yildirim"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:f8edfa66554746d3",
+        "name": "Yihan Mao",
+        "aliases": [
+          "Yihan Mao"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -65483,15 +65652,13 @@
         "institutionIds": []
       },
       {
-        "id": "author:c307af33e293db30",
-        "name": "Yuxiao Jiang",
+        "id": "author:fedc0866c4cc7915",
+        "name": "Yuxiao Yang",
         "aliases": [
-          "Yuxiao Jiang"
+          "Yuxiao Yang"
         ],
         "paperCount": 1,
-        "institutionIds": [
-          "institution:e433baf78e80004b"
-        ]
+        "institutionIds": []
       },
       {
         "id": "author:e37b5f3ec1c963c2",
@@ -66687,18 +66854,6 @@
         ]
       },
       {
-        "id": "author:5cd3418018ed609a",
-        "name": "Zheyu Yan",
-        "aliases": [
-          "Zheyu Yan"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:e433baf78e80004b",
-          "institution:eef2affa58f45b41"
-        ]
-      },
-      {
         "id": "author:16274e683bc78a48",
         "name": "Zhi Li",
         "aliases": [
@@ -66770,17 +66925,6 @@
         "institutionIds": [
           "institution:21e8cabe855849bd",
           "institution:272281c90aa0b95e"
-        ]
-      },
-      {
-        "id": "author:c7927b0c8846d863",
-        "name": "Zhiguo Shi",
-        "aliases": [
-          "Zhiguo Shi"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:e433baf78e80004b"
         ]
       },
       {
@@ -66881,6 +67025,15 @@
         "name": "Zhiping Peng",
         "aliases": [
           "Zhiping Peng"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:1237389c4b017835",
+        "name": "Zhiqi Shen",
+        "aliases": [
+          "Zhiqi Shen"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -67050,6 +67203,15 @@
         "name": "Zhiyang Teng",
         "aliases": [
           "Zhiyang Teng"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:76c9a3ee6517a982",
+        "name": "Zhiying Zhu",
+        "aliases": [
+          "Zhiying Zhu"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -377810,6 +377972,674 @@
         },
         {
           "name": "Kristian Kersting",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.26626",
+      "title": "VoxLogicA2: A Spatial Model Checker for Neuro-symbolic Medical Imaging (extended version)",
+      "abstract": "We present the tool VoxLogicA2, a spatial model checker aimed at Computer Vision, with applications in high-resolution 2D and 3D medical imaging. The new version of the tool combines logical primitives, non-logical primitives, and training and prediction primitives of state-of-the-art neural networks, freely interleaved with the symbolic tool functionality. The primary application field is neuro-symbolic medical image analysis. VoxLogicA2 is a fast, parallelising spatial model checker with a declarative domain-specific language, capable of describing both the learning procedures and the spatial logic procedures of an analysis in one program. We validate our approach by verifying its improved efficiency, and by using the new constructs of the language to describe case studies of previous work, which were based on Python, with a specification that uses VoxLogicA2 only",
+      "authors": [
+        "Gina Belmonte",
+        "Laura Bussi",
+        "Vincenzo Ciancia",
+        "Mieke Massink"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Gina Belmonte",
+          "authorEntityId": "author:41d0a2f60a124932",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Gina Belmonte",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Laura Bussi",
+          "authorEntityId": "author:cf946ff7abd0b660",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Laura Bussi",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Vincenzo Ciancia",
+          "authorEntityId": "author:3542b650b4205e8d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Vincenzo Ciancia",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Mieke Massink",
+          "authorEntityId": "author:e0d75c8ca8add558",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Mieke Massink",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.LO"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-19",
+      "url": "https://arxiv.org/abs/2610.26626",
+      "pdfUrl": "https://arxiv.org/pdf/2610.26626",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.26626",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:c8b44a78f9d01fb4",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Gina Belmonte",
+        "Laura Bussi",
+        "Vincenzo Ciancia",
+        "Mieke Massink"
+      ],
+      "authorEntityIds": [
+        "author:41d0a2f60a124932",
+        "author:cf946ff7abd0b660",
+        "author:3542b650b4205e8d",
+        "author:e0d75c8ca8add558"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Gina Belmonte",
+          "affiliations": []
+        },
+        {
+          "name": "Laura Bussi",
+          "affiliations": []
+        },
+        {
+          "name": "Vincenzo Ciancia",
+          "affiliations": []
+        },
+        {
+          "name": "Mieke Massink",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.26530",
+      "title": "UnO-NeSy: Optimizing Neuro-Symbolic Computing with Unified FeFET Based In-Memory System",
+      "abstract": "Neuro-symbolic artificial intelligence (NeSy AI) combines neural perception with symbolic reasoning, enabling logical reasoning. Hyperdimensional computing (HDC) is promising for NeSy AI, owing to its high parallelism and strong robustness to noise. However, the dense neural operations and memory-intensive symbolic inference in NeSy impose a severe \"memory wall\" bottleneck. Existing NeSy accelerators either focus solely on symbolic kernels or rely on conventional digital architectures, lacking a unified and energy-efficient hardware substrate. Moreover, exploring optimal hardware design configurations often requires costly trial-and-error. In this work, we propose UnO-NeSy, a unified CiM framework for optimizing NeSy computing. UnO-NeSy consists of UnO-CiM, an ultra-low-power NeSy architecture based on a homogeneous 2FeFET--2R compute-in-memory (CiM) array that supports both neural computation and HDC reasoning, and UnO-Sim, a cross-workload, end-to-end CiM simulator that models device non-idealities, neural quantization effects, and HDC execution behavior for accurate system-level evaluation. Built on UnO-Sim, we further develop an automated optimizer to identify workload-specific operating points under coupled energy, accuracy, and hardware constraints. By optimizing the operating configuration of the baseline 2FeFET--2R design, UnO-NeSy achieves $61.8\\%$ higher energy efficiency and $38.2\\%$ lower full-system inference energy. Across seven RAVEN configurations, UnO-NeSy achieves $96.2\\%$ average reasoning accuracy under hardware non-idealities, demonstrating a practical and scalable path toward ultra-low-power NeSy hardware.",
+      "authors": [
+        "Yifei Zhou",
+        "Zhiying Zhu",
+        "Yuxiao Jiang",
+        "Yihan Mao",
+        "Jiaqi Zhang",
+        "Yuxiao Yang",
+        "Zhiguo Shi",
+        "Zheyu Yan",
+        "Cheng Zhuo",
+        "Xunzhao Yin"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Yifei Zhou",
+          "authorEntityId": "author:57219201e1873a56",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yifei Zhou",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zhiying Zhu",
+          "authorEntityId": "author:76c9a3ee6517a982",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zhiying Zhu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yuxiao Jiang",
+          "authorEntityId": "author:c307af33e293db30",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yuxiao Jiang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yihan Mao",
+          "authorEntityId": "author:f8edfa66554746d3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yihan Mao",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jiaqi Zhang",
+          "authorEntityId": "author:764ab3dacca6fdfb",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jiaqi Zhang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yuxiao Yang",
+          "authorEntityId": "author:fedc0866c4cc7915",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yuxiao Yang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zhiguo Shi",
+          "authorEntityId": "author:c7927b0c8846d863",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zhiguo Shi",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zheyu Yan",
+          "authorEntityId": "author:5cd3418018ed609a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zheyu Yan",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Cheng Zhuo",
+          "authorEntityId": "author:14667fe4ad47cd9a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Cheng Zhuo",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xunzhao Yin",
+          "authorEntityId": "author:ac5a9dce8f2792b8",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xunzhao Yin",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "NeSy",
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.ET"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-19",
+      "url": "https://arxiv.org/abs/2610.26530",
+      "pdfUrl": "https://arxiv.org/pdf/2610.26530",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.26530",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:e145b63b1e18611a",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Yifei Zhou",
+        "Zhiying Zhu",
+        "Yuxiao Jiang",
+        "Yihan Mao",
+        "Jiaqi Zhang",
+        "Yuxiao Yang",
+        "Zhiguo Shi",
+        "Zheyu Yan",
+        "Cheng Zhuo",
+        "Xunzhao Yin"
+      ],
+      "authorEntityIds": [
+        "author:57219201e1873a56",
+        "author:76c9a3ee6517a982",
+        "author:c307af33e293db30",
+        "author:f8edfa66554746d3",
+        "author:764ab3dacca6fdfb",
+        "author:fedc0866c4cc7915",
+        "author:c7927b0c8846d863",
+        "author:5cd3418018ed609a",
+        "author:14667fe4ad47cd9a",
+        "author:ac5a9dce8f2792b8"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Yifei Zhou",
+          "affiliations": []
+        },
+        {
+          "name": "Zhiying Zhu",
+          "affiliations": []
+        },
+        {
+          "name": "Yuxiao Jiang",
+          "affiliations": []
+        },
+        {
+          "name": "Yihan Mao",
+          "affiliations": []
+        },
+        {
+          "name": "Jiaqi Zhang",
+          "affiliations": []
+        },
+        {
+          "name": "Yuxiao Yang",
+          "affiliations": []
+        },
+        {
+          "name": "Zhiguo Shi",
+          "affiliations": []
+        },
+        {
+          "name": "Zheyu Yan",
+          "affiliations": []
+        },
+        {
+          "name": "Cheng Zhuo",
+          "affiliations": []
+        },
+        {
+          "name": "Xunzhao Yin",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.26528",
+      "title": "A Semantic Knowledge Graph Construction Pipeline for Vehicle Intention Prediction in nuScenes",
+      "abstract": "Knowledge graphs (KGs) are increasingly used in autonomous driving (AD) to make traffic scene entities and relations explicit for prediction and reasoning. Existing traffic-scene KGs, however, primarily emphasize trajectory forecasting or general scene understanding. This paper presents the nuScenes Intention Knowledge Graph (NIKG), a focused Web Ontology Language (OWL)-based semantic representation and construction pipeline for ego-centric vehicle intention context. NIKG instantiates nuScenes scenes as a self-describing Turtle graph and promotes three intention-relevant relations to first-class properties of each scene participant: ego-relative motion, spatial configuration, and time to collision (TTC) risk. The pipeline uses a small input contract available in many ego-centric driving datasets: ego pose, tracked object annotations, and temporal keyframe order. NIKG is released as an ontology-backed, self-describing graph artifact together with a reproducible construction pipeline and validation protocol for ego-centric intention context. Applying this pipeline to nuScenes mini yields a graph of 211,335 triples across 404 keyframes; under the validation protocol, ego-relative motion labels achieve 92.5% forward consistency. Coverage, semantic consistency, and temporal coherence analyses over this artifact are further reported. NIKG occupies the space between scene-oriented traffic KGs and intention-prediction models: a small, explicit semantic layer intended to support downstream work such as knowledge graph embedding (KGE), SPARQL-based feature extraction, or hybrid neuro-symbolic reasoning.",
+      "authors": [
+        "Khaled Nowara",
+        "Mohamed Manzour",
+        "Catherine Elias"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Khaled Nowara",
+          "authorEntityId": "author:0a42d25b0d104f4f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Khaled Nowara",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Mohamed Manzour",
+          "authorEntityId": "author:939a603aaef6902c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Mohamed Manzour",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Catherine Elias",
+          "authorEntityId": "author:dfa972dd627ea1a7",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Catherine Elias",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-19",
+      "url": "https://arxiv.org/abs/2610.26528",
+      "pdfUrl": "https://arxiv.org/pdf/2610.26528",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.26528",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:79f74546af70c74c",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Khaled Nowara",
+        "Mohamed Manzour",
+        "Catherine Elias"
+      ],
+      "authorEntityIds": [
+        "author:0a42d25b0d104f4f",
+        "author:939a603aaef6902c",
+        "author:dfa972dd627ea1a7"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Khaled Nowara",
+          "affiliations": []
+        },
+        {
+          "name": "Mohamed Manzour",
+          "affiliations": []
+        },
+        {
+          "name": "Catherine Elias",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.26241",
+      "title": "Machina Pauliana: A neuro-symbolic approach to the actio pauliana in Dutch insolvency law",
+      "abstract": "Applying a legal provision frequently requires both structured rule-based reasoning and sensitivity to open-textured terms developed in case law. The actio pauliana of Article 42 of the Dutch Bankruptcy Act (Faillissementswet, Fw), which allows an insolvency practitioner to avoid transactions that prejudice creditors, requires both. We present a neuro-symbolic model of Article 42 Fw. Its symbolic core is written in Catala in a literate style that keeps statute and formalisation aligned and was developed through pair programming, with open-textured terms represented as boolean inputs where neural components couple to the symbolic solver. A neural routine structures a case's natural-language facts into boolean and date inputs. Neural subroutines resolve the open-textured terms through case-based reasoning over Dutch civil judgments, retrieved through a pipeline that filters on the requirement being resolved and expands along the procedural chain of a case. Segmenting and labelling those judgments attains high precision and recall against a manually annotated gold standard of 100 judgments. On ten hand-annotated cases the neuro-symbolic model handles most criteria reasonably but struggles with the knowledge requirement. Retrieval depth shows no clear quantitative effect, although retrieved judgments provide explicit grounding in prior case law.",
+      "authors": [
+        "Daan Boven",
+        "Gregor Behnke",
+        "David Graus"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Daan Boven",
+          "authorEntityId": "author:f078a8832b3f36f5",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Daan Boven",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Gregor Behnke",
+          "authorEntityId": "author:5824710a7c78c0f2",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Gregor Behnke",
+          "rawAffiliations": []
+        },
+        {
+          "name": "David Graus",
+          "authorEntityId": "author:f29a1c5aecb70490",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "David Graus",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-19",
+      "url": "https://arxiv.org/abs/2610.26241",
+      "pdfUrl": "https://arxiv.org/pdf/2610.26241",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.26241",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:8ace6d20ba790e85",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Daan Boven",
+        "Gregor Behnke",
+        "David Graus"
+      ],
+      "authorEntityIds": [
+        "author:f078a8832b3f36f5",
+        "author:5824710a7c78c0f2",
+        "author:f29a1c5aecb70490"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Daan Boven",
+          "affiliations": []
+        },
+        {
+          "name": "Gregor Behnke",
+          "affiliations": []
+        },
+        {
+          "name": "David Graus",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.25996",
+      "title": "Procedural Memory for Language Agents: A Neurosymbolic Perspective on Explicit Goal Structure",
+      "abstract": "Large language models remain unreliable on long-horizon tasks requiring procedural reasoning. We argue that a key cause is the absence of explicit procedural memory: accessible, modifiable knowledge of how tasks are accomplished, distinct from semantic and episodic memory. Goal-Oriented Graphs offer such a representation, encoding goals and prerequisite dependencies as inspectable symbolic structure. We examine their construction, the challenges they pose, and principles for integrating them with neural reasoning.",
+      "authors": [
+        "Jonathan Leung",
+        "Zhiqi Shen",
+        "Deheng Ye"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Jonathan Leung",
+          "authorEntityId": "author:0e0cda89caa83b50",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jonathan Leung",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zhiqi Shen",
+          "authorEntityId": "author:1237389c4b017835",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zhiqi Shen",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Deheng Ye",
+          "authorEntityId": "author:d8d4b9c9e4e3e834",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Deheng Ye",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-19",
+      "url": "https://arxiv.org/abs/2610.25996",
+      "pdfUrl": "https://arxiv.org/pdf/2610.25996",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.25996",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:0549391c3bef84e7",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Jonathan Leung",
+        "Zhiqi Shen",
+        "Deheng Ye"
+      ],
+      "authorEntityIds": [
+        "author:0e0cda89caa83b50",
+        "author:1237389c4b017835",
+        "author:d8d4b9c9e4e3e834"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Jonathan Leung",
+          "affiliations": []
+        },
+        {
+          "name": "Zhiqi Shen",
+          "affiliations": []
+        },
+        {
+          "name": "Deheng Ye",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.24690",
+      "title": "Verifying Human-Written Reasoning References",
+      "abstract": "Evaluating the reasoning of AI systems often relies on human-written reasoning chains as references, yet the logical support for their individual steps is rarely verified. Although prior neuro-symbolic approaches have formalized and checked reasoning, their reported evaluations do not systematically assess whether step conclusions in human-written reference derivations are entailed by their cited premise sets or investigate the sources of failures in those references. To address these limitations, we present a novel reference-centred assessment method for human-written derivations that combines entailment checking against cited premise sets, full-premise rechecking, and failure attribution to examine the reliability of these derivations and their formal representations. We evaluate it on P-FOLIO, using a large language model (LLM) to translate step conclusions into first-order logic (FOL) and the Z3 SMT solver to check entailment. Of 386 derivations examined, 202 (52.3%) meet all our checking criteria, meaning that every translated step is entailed by its stated support and the required target is established under the available FOL representations. Among 230 steps not entailed by their stated support, 191 become entailed when checked against the complete original premises, indicating that most initial failures reflect incomplete or mismatched support rather than unsupported claims. Manual analysis of the remaining 39 cases identifies 21 human reasoning errors, 11 FOL translation errors, and 7 dataset annotation errors. A separate manual audit of 50 randomly sampled steps that passed the entailment checks found 46 faithful FOL translations (92%). These findings suggest that disagreement with a human-written reasoning reference may originate in the reference or its formal representation rather than in the AI system being evaluated.",
+      "authors": [
+        "Ali Ansari",
+        "Farhana Ferdousi Liza"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Ali Ansari",
+          "authorEntityId": "author:f2646a665a8eff0c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ali Ansari",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Farhana Ferdousi Liza",
+          "authorEntityId": "author:0e93c9ba66f9b02d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Farhana Ferdousi Liza",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LO"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-17",
+      "url": "https://arxiv.org/abs/2610.24690",
+      "pdfUrl": "https://arxiv.org/pdf/2610.24690",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.24690",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:b490e582fd302538",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Ali Ansari",
+        "Farhana Ferdousi Liza"
+      ],
+      "authorEntityIds": [
+        "author:f2646a665a8eff0c",
+        "author:0e93c9ba66f9b02d"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Ali Ansari",
+          "affiliations": []
+        },
+        {
+          "name": "Farhana Ferdousi Liza",
           "affiliations": []
         }
       ]

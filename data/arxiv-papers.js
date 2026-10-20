@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-10-19T18:10:52.995Z",
-  "cursorAt": "2026-10-19T18:10:52.995Z",
+  "generatedAt": "2026-10-20T16:11:59.699Z",
+  "cursorAt": "2026-10-20T16:11:59.699Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-10-18T15:14:44.941Z",
   "keywords": [
@@ -15,11 +15,292 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-10-18T15:14:44.941Z",
-  "windowStart": "2026-10-11T15:14:44.941Z",
+  "previousSnapshotAt": "2026-10-19T18:10:52.995Z",
+  "windowStart": "2026-10-12T18:10:52.995Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2610.26626",
+    "title": "VoxLogicA2: A Spatial Model Checker for Neuro-symbolic Medical Imaging (extended version)",
+    "abstract": "We present the tool VoxLogicA2, a spatial model checker aimed at Computer Vision, with applications in high-resolution 2D and 3D medical imaging. The new version of the tool combines logical primitives, non-logical primitives, and training and prediction primitives of state-of-the-art neural networks, freely interleaved with the symbolic tool functionality. The primary application field is neuro-symbolic medical image analysis. VoxLogicA2 is a fast, parallelising spatial model checker with a declarative domain-specific language, capable of describing both the learning procedures and the spatial logic procedures of an analysis in one program. We validate our approach by verifying its improved efficiency, and by using the new constructs of the language to describe case studies of previous work, which were based on Python, with a specification that uses VoxLogicA2 only",
+    "authors": [
+      "Gina Belmonte",
+      "Laura Bussi",
+      "Vincenzo Ciancia",
+      "Mieke Massink"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Gina Belmonte",
+        "affiliations": []
+      },
+      {
+        "name": "Laura Bussi",
+        "affiliations": []
+      },
+      {
+        "name": "Vincenzo Ciancia",
+        "affiliations": []
+      },
+      {
+        "name": "Mieke Massink",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-19",
+    "updated": "2026-10-19",
+    "categories": [
+      "cs.LO"
+    ],
+    "primaryCategory": "cs.LO",
+    "url": "https://arxiv.org/abs/2610.26626",
+    "pdfUrl": "https://arxiv.org/pdf/2610.26626",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.26530",
+    "title": "UnO-NeSy: Optimizing Neuro-Symbolic Computing with Unified FeFET Based In-Memory System",
+    "abstract": "Neuro-symbolic artificial intelligence (NeSy AI) combines neural perception with symbolic reasoning, enabling logical reasoning. Hyperdimensional computing (HDC) is promising for NeSy AI, owing to its high parallelism and strong robustness to noise. However, the dense neural operations and memory-intensive symbolic inference in NeSy impose a severe \"memory wall\" bottleneck. Existing NeSy accelerators either focus solely on symbolic kernels or rely on conventional digital architectures, lacking a unified and energy-efficient hardware substrate. Moreover, exploring optimal hardware design configurations often requires costly trial-and-error. In this work, we propose UnO-NeSy, a unified CiM framework for optimizing NeSy computing. UnO-NeSy consists of UnO-CiM, an ultra-low-power NeSy architecture based on a homogeneous 2FeFET--2R compute-in-memory (CiM) array that supports both neural computation and HDC reasoning, and UnO-Sim, a cross-workload, end-to-end CiM simulator that models device non-idealities, neural quantization effects, and HDC execution behavior for accurate system-level evaluation. Built on UnO-Sim, we further develop an automated optimizer to identify workload-specific operating points under coupled energy, accuracy, and hardware constraints. By optimizing the operating configuration of the baseline 2FeFET--2R design, UnO-NeSy achieves $61.8\\%$ higher energy efficiency and $38.2\\%$ lower full-system inference energy. Across seven RAVEN configurations, UnO-NeSy achieves $96.2\\%$ average reasoning accuracy under hardware non-idealities, demonstrating a practical and scalable path toward ultra-low-power NeSy hardware.",
+    "authors": [
+      "Yifei Zhou",
+      "Zhiying Zhu",
+      "Yuxiao Jiang",
+      "Yihan Mao",
+      "Jiaqi Zhang",
+      "Yuxiao Yang",
+      "Zhiguo Shi",
+      "Zheyu Yan",
+      "Cheng Zhuo",
+      "Xunzhao Yin"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Yifei Zhou",
+        "affiliations": []
+      },
+      {
+        "name": "Zhiying Zhu",
+        "affiliations": []
+      },
+      {
+        "name": "Yuxiao Jiang",
+        "affiliations": []
+      },
+      {
+        "name": "Yihan Mao",
+        "affiliations": []
+      },
+      {
+        "name": "Jiaqi Zhang",
+        "affiliations": []
+      },
+      {
+        "name": "Yuxiao Yang",
+        "affiliations": []
+      },
+      {
+        "name": "Zhiguo Shi",
+        "affiliations": []
+      },
+      {
+        "name": "Zheyu Yan",
+        "affiliations": []
+      },
+      {
+        "name": "Cheng Zhuo",
+        "affiliations": []
+      },
+      {
+        "name": "Xunzhao Yin",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-19",
+    "updated": "2026-10-19",
+    "categories": [
+      "cs.ET"
+    ],
+    "primaryCategory": "cs.ET",
+    "url": "https://arxiv.org/abs/2610.26530",
+    "pdfUrl": "https://arxiv.org/pdf/2610.26530",
+    "matches": {
+      "title": [
+        "NeSy",
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic",
+        "NeSy"
+      ]
+    }
+  },
+  {
+    "id": "2610.26528",
+    "title": "A Semantic Knowledge Graph Construction Pipeline for Vehicle Intention Prediction in nuScenes",
+    "abstract": "Knowledge graphs (KGs) are increasingly used in autonomous driving (AD) to make traffic scene entities and relations explicit for prediction and reasoning. Existing traffic-scene KGs, however, primarily emphasize trajectory forecasting or general scene understanding. This paper presents the nuScenes Intention Knowledge Graph (NIKG), a focused Web Ontology Language (OWL)-based semantic representation and construction pipeline for ego-centric vehicle intention context. NIKG instantiates nuScenes scenes as a self-describing Turtle graph and promotes three intention-relevant relations to first-class properties of each scene participant: ego-relative motion, spatial configuration, and time to collision (TTC) risk. The pipeline uses a small input contract available in many ego-centric driving datasets: ego pose, tracked object annotations, and temporal keyframe order. NIKG is released as an ontology-backed, self-describing graph artifact together with a reproducible construction pipeline and validation protocol for ego-centric intention context. Applying this pipeline to nuScenes mini yields a graph of 211,335 triples across 404 keyframes; under the validation protocol, ego-relative motion labels achieve 92.5% forward consistency. Coverage, semantic consistency, and temporal coherence analyses over this artifact are further reported. NIKG occupies the space between scene-oriented traffic KGs and intention-prediction models: a small, explicit semantic layer intended to support downstream work such as knowledge graph embedding (KGE), SPARQL-based feature extraction, or hybrid neuro-symbolic reasoning.",
+    "authors": [
+      "Khaled Nowara",
+      "Mohamed Manzour",
+      "Catherine Elias"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Khaled Nowara",
+        "affiliations": []
+      },
+      {
+        "name": "Mohamed Manzour",
+        "affiliations": []
+      },
+      {
+        "name": "Catherine Elias",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-19",
+    "updated": "2026-10-19",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2610.26528",
+    "pdfUrl": "https://arxiv.org/pdf/2610.26528",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.26241",
+    "title": "Machina Pauliana: A neuro-symbolic approach to the actio pauliana in Dutch insolvency law",
+    "abstract": "Applying a legal provision frequently requires both structured rule-based reasoning and sensitivity to open-textured terms developed in case law. The actio pauliana of Article 42 of the Dutch Bankruptcy Act (Faillissementswet, Fw), which allows an insolvency practitioner to avoid transactions that prejudice creditors, requires both. We present a neuro-symbolic model of Article 42 Fw. Its symbolic core is written in Catala in a literate style that keeps statute and formalisation aligned and was developed through pair programming, with open-textured terms represented as boolean inputs where neural components couple to the symbolic solver. A neural routine structures a case's natural-language facts into boolean and date inputs. Neural subroutines resolve the open-textured terms through case-based reasoning over Dutch civil judgments, retrieved through a pipeline that filters on the requirement being resolved and expands along the procedural chain of a case. Segmenting and labelling those judgments attains high precision and recall against a manually annotated gold standard of 100 judgments. On ten hand-annotated cases the neuro-symbolic model handles most criteria reasonably but struggles with the knowledge requirement. Retrieval depth shows no clear quantitative effect, although retrieved judgments provide explicit grounding in prior case law.",
+    "authors": [
+      "Daan Boven",
+      "Gregor Behnke",
+      "David Graus"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Daan Boven",
+        "affiliations": []
+      },
+      {
+        "name": "Gregor Behnke",
+        "affiliations": []
+      },
+      {
+        "name": "David Graus",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-19",
+    "updated": "2026-10-19",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2610.26241",
+    "pdfUrl": "https://arxiv.org/pdf/2610.26241",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.25996",
+    "title": "Procedural Memory for Language Agents: A Neurosymbolic Perspective on Explicit Goal Structure",
+    "abstract": "Large language models remain unreliable on long-horizon tasks requiring procedural reasoning. We argue that a key cause is the absence of explicit procedural memory: accessible, modifiable knowledge of how tasks are accomplished, distinct from semantic and episodic memory. Goal-Oriented Graphs offer such a representation, encoding goals and prerequisite dependencies as inspectable symbolic structure. We examine their construction, the challenges they pose, and principles for integrating them with neural reasoning.",
+    "authors": [
+      "Jonathan Leung",
+      "Zhiqi Shen",
+      "Deheng Ye"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Jonathan Leung",
+        "affiliations": []
+      },
+      {
+        "name": "Zhiqi Shen",
+        "affiliations": []
+      },
+      {
+        "name": "Deheng Ye",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-19",
+    "updated": "2026-10-19",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2610.25996",
+    "pdfUrl": "https://arxiv.org/pdf/2610.25996",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": []
+    }
+  },
+  {
+    "id": "2610.24690",
+    "title": "Verifying Human-Written Reasoning References",
+    "abstract": "Evaluating the reasoning of AI systems often relies on human-written reasoning chains as references, yet the logical support for their individual steps is rarely verified. Although prior neuro-symbolic approaches have formalized and checked reasoning, their reported evaluations do not systematically assess whether step conclusions in human-written reference derivations are entailed by their cited premise sets or investigate the sources of failures in those references. To address these limitations, we present a novel reference-centred assessment method for human-written derivations that combines entailment checking against cited premise sets, full-premise rechecking, and failure attribution to examine the reliability of these derivations and their formal representations. We evaluate it on P-FOLIO, using a large language model (LLM) to translate step conclusions into first-order logic (FOL) and the Z3 SMT solver to check entailment. Of 386 derivations examined, 202 (52.3%) meet all our checking criteria, meaning that every translated step is entailed by its stated support and the required target is established under the available FOL representations. Among 230 steps not entailed by their stated support, 191 become entailed when checked against the complete original premises, indicating that most initial failures reflect incomplete or mismatched support rather than unsupported claims. Manual analysis of the remaining 39 cases identifies 21 human reasoning errors, 11 FOL translation errors, and 7 dataset annotation errors. A separate manual audit of 50 randomly sampled steps that passed the entailment checks found 46 faithful FOL translations (92%). These findings suggest that disagreement with a human-written reasoning reference may originate in the reference or its formal representation rather than in the AI system being evaluated.",
+    "authors": [
+      "Ali Ansari",
+      "Farhana Ferdousi Liza"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Ali Ansari",
+        "affiliations": []
+      },
+      {
+        "name": "Farhana Ferdousi Liza",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-17",
+    "updated": "2026-10-17",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LO"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2610.24690",
+    "pdfUrl": "https://arxiv.org/pdf/2610.24690",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2610.23650",
     "title": "JAXtari: High-Throughput and Easy-to-Modify Arcade Learning Environment",
