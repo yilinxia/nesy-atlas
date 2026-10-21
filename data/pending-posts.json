@@ -2824,5 +2824,113 @@
     "sourceUrl": "https://www.uniphore.com/blog/",
     "discovered": "2026-10-15",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "AI Governance 10.20.2026 Hallucination-Free AI: A Claim Nobody Can Falsify Is Not a Guarantee Read",
+    "date": "2026-10-20",
+    "url": "https://www.kognitos.com/blog/hallucination-free-ai/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-10-21",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "AI Fundamentals 10.20.2026 Context Graph: The Memory an AI Agent Reasons From Read",
+    "date": "2026-10-20",
+    "url": "https://www.kognitos.com/blog/context-graph/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-10-21",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "AI Governance 10.17.2026 Shadow AI: You Can Revoke the Tool. You Cannot Revoke the Output. (2026) Read",
+    "date": "2026-10-17",
+    "url": "https://www.kognitos.com/blog/shadow-ai/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-10-21",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Oct 21, 2026 Kognitos Launches AI Employees and expands Context Graphs for Finance and Banking 61 AI Employee roles, automated SOP creation and expanded Context Graphs bring approved procedures and continuous controls to finance and banking.",
+    "date": "2026-10-21",
+    "url": "https://www.kognitos.com/news/kognitos-launches-ai-employees-context-graphs-finance-banking/",
+    "sourceUrl": "https://www.kognitos.com/news/",
+    "discovered": "2026-10-21",
+    "status": "needs-review"
+  },
+  {
+    "company": "Pebbles AI",
+    "title": "GTM operating systems",
+    "date": "2026-10-17",
+    "url": "https://www.trypebbles.ai/resources/what-is-a-gtm-operating-system",
+    "sourceUrl": "https://www.trypebbles.ai/blog",
+    "discovered": "2026-10-21",
+    "status": "needs-review"
+  },
+  {
+    "company": "Pebbles AI",
+    "title": "Company context and AI",
+    "date": "2026-10-17",
+    "url": "https://www.trypebbles.ai/resources/company-context-and-ai",
+    "sourceUrl": "https://www.trypebbles.ai/blog",
+    "discovered": "2026-10-21",
+    "status": "needs-review"
+  },
+  {
+    "company": "Pebbles AI",
+    "title": "Outreach and email",
+    "date": "2026-10-17",
+    "url": "https://www.trypebbles.ai/resources/outreach-content-and-email-delivery",
+    "sourceUrl": "https://www.trypebbles.ai/blog",
+    "discovered": "2026-10-21",
+    "status": "needs-review"
+  },
+  {
+    "company": "Pebbles AI",
+    "title": "Ideal customer profiles",
+    "date": "2026-10-17",
+    "url": "https://www.trypebbles.ai/resources/how-to-build-an-ideal-customer-profile",
+    "sourceUrl": "https://www.trypebbles.ai/blog",
+    "discovered": "2026-10-21",
+    "status": "needs-review"
+  },
+  {
+    "company": "Pebbles AI",
+    "title": "Sales call preparation",
+    "date": "2026-10-19",
+    "url": "https://www.trypebbles.ai/resources/how-to-prepare-for-a-sales-call-with-ai",
+    "sourceUrl": "https://www.trypebbles.ai/blog",
+    "discovered": "2026-10-21",
+    "status": "needs-review"
+  },
+  {
+    "company": "Pebbles AI",
+    "title": "Re-engaging old leads",
+    "date": "2026-10-19",
+    "url": "https://www.trypebbles.ai/resources/how-to-re-engage-old-sales-leads",
+    "sourceUrl": "https://www.trypebbles.ai/blog",
+    "discovered": "2026-10-21",
+    "status": "needs-review"
+  },
+  {
+    "company": "Pebbles AI",
+    "title": "GTM examples by industry",
+    "date": "2026-10-19",
+    "url": "https://www.trypebbles.ai/resources/ai-go-to-market-examples-by-industry",
+    "sourceUrl": "https://www.trypebbles.ai/blog",
+    "discovered": "2026-10-21",
+    "status": "needs-review"
+  },
+  {
+    "company": "Pebbles AI",
+    "title": "GTM software landscape",
+    "date": "",
+    "url": "https://www.trypebbles.ai/resources/gtm-competitive-landscape",
+    "sourceUrl": "https://www.trypebbles.ai/blog",
+    "discovered": "2026-10-21",
+    "status": "needs-review"
   }
 ]
