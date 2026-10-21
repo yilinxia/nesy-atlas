@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-10-20T16:11:59.699Z",
-  "cursorAt": "2026-10-20T16:11:59.699Z",
+  "generatedAt": "2026-10-21T16:27:19.385Z",
+  "cursorAt": "2026-10-21T16:27:19.385Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-10-18T15:14:44.941Z",
   "keywords": [
@@ -15,11 +15,116 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-10-19T18:10:52.995Z",
-  "windowStart": "2026-10-12T18:10:52.995Z",
+  "previousSnapshotAt": "2026-10-20T16:11:59.699Z",
+  "windowStart": "2026-10-13T16:11:59.699Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2610.27871",
+    "title": "A Neuro-Symbolic Reasoning Engine for Compilation-Free Patch Presence Testing",
+    "abstract": "Code reuse in modern software ecosystems facilitates the spread of 1-day vulnerabilities, posing significant security risks. Determining if patches are present is crucial, but traditional methods suffer from limited usability and accuracy, often depending on a fragile compilation process. In our prior work, we introduced Lares, the first compilation-free framework for patch presence testing that combines large language models (LLMs) with SMT solvers. However, Lares treats the LLM and the SMT solver as two separate, parallel decision channels: the symbolic channel (Z3) succeeded in only 20% of code cases, and the remaining cases fell back to the neural channel (the LLM) for the final decision. Letting the LLM act as the final arbiter turns verification into an informal, non-deterministic process that is prone to hallucination errors, while the two channels never reinforce each other. To overcome these limitations, we propose SyLares, which reformulates compilation-free patch presence testing as neuro-symbolic reasoning. Instead of letting the LLM emit a final verdict, SyLares uses the LLM as a neural feature extractor that perceives heterogeneous source code and decompiled pseudocode and produces specification-compliant SMT-LIB inputs, and delegates the final, deterministic judgment to the symbolic Z3 solver. This neural-perceives, symbolic-decides coupling is realized by a Code2SMT reasoning engine that combines deterministic syntactic parsing with LLM-driven code normalization and symbol alignment, so that every case is reduced to a formal equivalence query rather than an opaque LLM guess.",
+    "authors": [
+      "Siyuan Li",
+      "Jiayi Zhou",
+      "Zhiyuan Xia",
+      "Weijie Wang",
+      "Yaowen Zheng",
+      "Weiran Tang",
+      "Hong Li",
+      "Hongsong Zhu",
+      "Shanqing Guo"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Siyuan Li",
+        "affiliations": []
+      },
+      {
+        "name": "Jiayi Zhou",
+        "affiliations": []
+      },
+      {
+        "name": "Zhiyuan Xia",
+        "affiliations": []
+      },
+      {
+        "name": "Weijie Wang",
+        "affiliations": []
+      },
+      {
+        "name": "Yaowen Zheng",
+        "affiliations": []
+      },
+      {
+        "name": "Weiran Tang",
+        "affiliations": []
+      },
+      {
+        "name": "Hong Li",
+        "affiliations": []
+      },
+      {
+        "name": "Hongsong Zhu",
+        "affiliations": []
+      },
+      {
+        "name": "Shanqing Guo",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-20",
+    "updated": "2026-10-20",
+    "categories": [
+      "cs.SE"
+    ],
+    "primaryCategory": "cs.SE",
+    "url": "https://arxiv.org/abs/2610.27871",
+    "pdfUrl": "https://arxiv.org/pdf/2610.27871",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.27361",
+    "title": "On the LLM Verification for Argument Graph Generation",
+    "abstract": "Multi-agent LLM systems can formalize natural-language argumentation end-to-end, turning plain text into structured graphs by classifying components, connecting them with relations, and enriching the resulting graphs into formal models. Quality assurance for those graphs is almost always another LLMs: a reviewer, judge, or critic agent. On the other side, in adjacent neuro-symbolic fields, such generated output is often verified symbolically by external checks and solvers. In this work, we argue that in argument graph verification, the allocation should be similar, and based on what each instrument can guarantee. We propose layered verification: starting from deterministic checks, moving to solver-based and LLM reviews, and utilizing debate only under uncertainty, leaving human judgment for what no other instrument can decide. We ground our principle with a study on human-annotated graphs with injected structural defects. An LLM reviewer detects them at near-ceiling recall, including cycles in the support relation, but it objects to almost one in a ten correct graphs, even though it should not, happens to be inconsistent in verdict on identical inputs and is significantly slower than the equivalent exact check. It shows that while LLM reviewer does not lack the ability to detect structural defects, it is worth having a deterministic verification gates.",
+    "authors": [
+      "Jakub Bąba",
+      "Jarosław A. Chudziak"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Jakub Bąba",
+        "affiliations": []
+      },
+      {
+        "name": "Jarosław A. Chudziak",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-19",
+    "updated": "2026-10-19",
+    "categories": [
+      "cs.CL"
+    ],
+    "primaryCategory": "cs.CL",
+    "url": "https://arxiv.org/abs/2610.27361",
+    "pdfUrl": "https://arxiv.org/pdf/2610.27361",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2610.26626",
     "title": "VoxLogicA2: A Spatial Model Checker for Neuro-symbolic Medical Imaging (extended version)",

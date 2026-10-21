@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T16:12:00.288Z",
+  "generatedAt": "2026-10-21T16:27:20.014Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1859,
+  "paperCount": 1861,
   "completeMetadataCount": 1370,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1554
+      "count": 1556
     },
     {
       "id": "nesy-proceedings",
@@ -8371,6 +8371,18 @@
         ]
       },
       {
+        "id": "author:e6eb0bd033ac9770",
+        "name": "Jarosław A. Chudziak",
+        "aliases": [
+          "Jarosław A Chudziak",
+          "Jarosław A. Chudziak"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:ed9bd17708413f29"
+        ]
+      },
+      {
         "id": "author:a213461a142a5690",
         "name": "Jason Xinyu Liu",
         "aliases": [
@@ -8524,6 +8536,18 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:8aa302982705b6d1"
+        ]
+      },
+      {
+        "id": "author:11f65c439def5e81",
+        "name": "Jiayi Zhou",
+        "aliases": [
+          "Jiayi Zhou"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:46e4866d3b2954ab",
+          "institution:a51146d38077ff99"
         ]
       },
       {
@@ -30326,6 +30350,15 @@
         ]
       },
       {
+        "id": "author:116a3063d1bfbd12",
+        "name": "Hong Li",
+        "aliases": [
+          "Hong Li"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:30d196c59af8e9f0",
         "name": "Hong Ting Tsang",
         "aliases": [
@@ -30473,6 +30506,15 @@
         "institutionIds": [
           "institution:b0b93bb53a8b88c1"
         ]
+      },
+      {
+        "id": "author:42cc14b15ab3618b",
+        "name": "Hongsong Zhu",
+        "aliases": [
+          "Hongsong Zhu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:a37d2d43d0c9fb5d",
@@ -32001,6 +32043,15 @@
         ]
       },
       {
+        "id": "author:8f57d610c8d6adac",
+        "name": "Jakub Bąba",
+        "aliases": [
+          "Jakub Bąba"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:50e9e9a2f92c899b",
         "name": "Jakub Bednarek",
         "aliases": [
@@ -32346,17 +32397,6 @@
         "paperCount": 1,
         "institutionIds": [
           "institution:54dc5fdb61a43c62"
-        ]
-      },
-      {
-        "id": "author:e6eb0bd033ac9770",
-        "name": "Jarosław A Chudziak",
-        "aliases": [
-          "Jarosław A Chudziak"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:ed9bd17708413f29"
         ]
       },
       {
@@ -33763,18 +33803,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:11f65c439def5e81",
-        "name": "Jiayi Zhou",
-        "aliases": [
-          "Jiayi Zhou"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:46e4866d3b2954ab",
-          "institution:a51146d38077ff99"
-        ]
       },
       {
         "id": "author:00079fcadc6204ce",
@@ -53170,6 +53198,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:11876d79b0aea3f5",
+        "name": "Shanqing Guo",
+        "aliases": [
+          "Shanqing Guo"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:67e59ce049237f06",
         "name": "Shanqing Xu",
         "aliases": [
@@ -54807,6 +54844,15 @@
         "institutionIds": [
           "institution:8680eb81e2a6938a"
         ]
+      },
+      {
+        "id": "author:4e218c84bc6ebba3",
+        "name": "Siyuan Li",
+        "aliases": [
+          "Siyuan Li"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:33b302595229b89b",
@@ -59550,6 +59596,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:965b5832bd51270e",
+        "name": "Weijie Wang",
+        "aliases": [
+          "Weijie Wang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:bcb99a571136075b",
         "name": "Weijie Yu",
         "aliases": [
@@ -59621,6 +59676,15 @@
         "name": "Weiqi Wang",
         "aliases": [
           "Weiqi Wang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:6de293f2ef0ebc44",
+        "name": "Weiran Tang",
+        "aliases": [
+          "Weiran Tang"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -62578,6 +62642,15 @@
         "institutionIds": [
           "institution:32bac4c90d8e7edd"
         ]
+      },
+      {
+        "id": "author:9f859da92aeee1d4",
+        "name": "Yaowen Zheng",
+        "aliases": [
+          "Yaowen Zheng"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:023ba7589066b334",
@@ -67241,6 +67314,15 @@
         "name": "Zhiyuan Wang",
         "aliases": [
           "Zhiyuan Wang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:d154622a5bc51858",
+        "name": "Zhiyuan Xia",
+        "aliases": [
+          "Zhiyuan Xia"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -201978,7 +202060,7 @@
       "abstract": "Large Language Models (LLMs) excel in complex reasoning tasks but struggle with consistent rule application, exception handling, and explainability, particularly in domains like legal analysis that require both natural language understanding and precise logical inference. This paper introduces a structured prompting framework that decomposes reasoning into three verifiable steps: entity identification, property extraction, and symbolic rule application. By integrating neural and symbolic approaches, our method leverages LLMs' interpretive flexibility while ensuring logical consistency through formal verification. The framework externalizes task definitions, enabling domain experts to refine logical structures without altering the architecture. Evaluated on the LegalBench hearsay determination task, our approach significantly outperformed baselines, with OpenAI o-family models showing substantial improvements - o1 achieving an F1 score of 0.929 and o3-mini reaching 0.867 using structured decomposition with complementary predicates, compared to their few-shot baselines of 0.714 and 0.74 respectively. This hybrid neural-symbolic system offers a promising pathway for transparent and consistent rule-based reasoning, suggesting potential for explainable AI applications in structured legal reasoning tasks.",
       "authors": [
         "Albert Sadowski",
-        "Jarosław A Chudziak"
+        "Jarosław A. Chudziak"
       ],
       "authorAffiliations": [
         {
@@ -201996,7 +202078,7 @@
           ]
         },
         {
-          "name": "Jarosław A Chudziak",
+          "name": "Jarosław A. Chudziak",
           "authorEntityId": "author:e6eb0bd033ac9770",
           "affiliations": [
             "Warsaw University of Technology"
@@ -378640,6 +378722,267 @@
         },
         {
           "name": "Farhana Ferdousi Liza",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.27871",
+      "title": "A Neuro-Symbolic Reasoning Engine for Compilation-Free Patch Presence Testing",
+      "abstract": "Code reuse in modern software ecosystems facilitates the spread of 1-day vulnerabilities, posing significant security risks. Determining if patches are present is crucial, but traditional methods suffer from limited usability and accuracy, often depending on a fragile compilation process. In our prior work, we introduced Lares, the first compilation-free framework for patch presence testing that combines large language models (LLMs) with SMT solvers. However, Lares treats the LLM and the SMT solver as two separate, parallel decision channels: the symbolic channel (Z3) succeeded in only 20% of code cases, and the remaining cases fell back to the neural channel (the LLM) for the final decision. Letting the LLM act as the final arbiter turns verification into an informal, non-deterministic process that is prone to hallucination errors, while the two channels never reinforce each other. To overcome these limitations, we propose SyLares, which reformulates compilation-free patch presence testing as neuro-symbolic reasoning. Instead of letting the LLM emit a final verdict, SyLares uses the LLM as a neural feature extractor that perceives heterogeneous source code and decompiled pseudocode and produces specification-compliant SMT-LIB inputs, and delegates the final, deterministic judgment to the symbolic Z3 solver. This neural-perceives, symbolic-decides coupling is realized by a Code2SMT reasoning engine that combines deterministic syntactic parsing with LLM-driven code normalization and symbol alignment, so that every case is reduced to a formal equivalence query rather than an opaque LLM guess.",
+      "authors": [
+        "Siyuan Li",
+        "Jiayi Zhou",
+        "Zhiyuan Xia",
+        "Weijie Wang",
+        "Yaowen Zheng",
+        "Weiran Tang",
+        "Hong Li",
+        "Hongsong Zhu",
+        "Shanqing Guo"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Siyuan Li",
+          "authorEntityId": "author:4e218c84bc6ebba3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Siyuan Li",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jiayi Zhou",
+          "authorEntityId": "author:11f65c439def5e81",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jiayi Zhou",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zhiyuan Xia",
+          "authorEntityId": "author:d154622a5bc51858",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zhiyuan Xia",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Weijie Wang",
+          "authorEntityId": "author:965b5832bd51270e",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Weijie Wang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yaowen Zheng",
+          "authorEntityId": "author:9f859da92aeee1d4",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yaowen Zheng",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Weiran Tang",
+          "authorEntityId": "author:6de293f2ef0ebc44",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Weiran Tang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Hong Li",
+          "authorEntityId": "author:116a3063d1bfbd12",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Hong Li",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Hongsong Zhu",
+          "authorEntityId": "author:42cc14b15ab3618b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Hongsong Zhu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Shanqing Guo",
+          "authorEntityId": "author:11876d79b0aea3f5",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Shanqing Guo",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.SE"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-20",
+      "url": "https://arxiv.org/abs/2610.27871",
+      "pdfUrl": "https://arxiv.org/pdf/2610.27871",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.27871",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:671716de84ff86fe",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Siyuan Li",
+        "Jiayi Zhou",
+        "Zhiyuan Xia",
+        "Weijie Wang",
+        "Yaowen Zheng",
+        "Weiran Tang",
+        "Hong Li",
+        "Hongsong Zhu",
+        "Shanqing Guo"
+      ],
+      "authorEntityIds": [
+        "author:4e218c84bc6ebba3",
+        "author:11f65c439def5e81",
+        "author:d154622a5bc51858",
+        "author:965b5832bd51270e",
+        "author:9f859da92aeee1d4",
+        "author:6de293f2ef0ebc44",
+        "author:116a3063d1bfbd12",
+        "author:42cc14b15ab3618b",
+        "author:11876d79b0aea3f5"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Siyuan Li",
+          "affiliations": []
+        },
+        {
+          "name": "Jiayi Zhou",
+          "affiliations": []
+        },
+        {
+          "name": "Zhiyuan Xia",
+          "affiliations": []
+        },
+        {
+          "name": "Weijie Wang",
+          "affiliations": []
+        },
+        {
+          "name": "Yaowen Zheng",
+          "affiliations": []
+        },
+        {
+          "name": "Weiran Tang",
+          "affiliations": []
+        },
+        {
+          "name": "Hong Li",
+          "affiliations": []
+        },
+        {
+          "name": "Hongsong Zhu",
+          "affiliations": []
+        },
+        {
+          "name": "Shanqing Guo",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.27361",
+      "title": "On the LLM Verification for Argument Graph Generation",
+      "abstract": "Multi-agent LLM systems can formalize natural-language argumentation end-to-end, turning plain text into structured graphs by classifying components, connecting them with relations, and enriching the resulting graphs into formal models. Quality assurance for those graphs is almost always another LLMs: a reviewer, judge, or critic agent. On the other side, in adjacent neuro-symbolic fields, such generated output is often verified symbolically by external checks and solvers. In this work, we argue that in argument graph verification, the allocation should be similar, and based on what each instrument can guarantee. We propose layered verification: starting from deterministic checks, moving to solver-based and LLM reviews, and utilizing debate only under uncertainty, leaving human judgment for what no other instrument can decide. We ground our principle with a study on human-annotated graphs with injected structural defects. An LLM reviewer detects them at near-ceiling recall, including cycles in the support relation, but it objects to almost one in a ten correct graphs, even though it should not, happens to be inconsistent in verdict on identical inputs and is significantly slower than the equivalent exact check. It shows that while LLM reviewer does not lack the ability to detect structural defects, it is worth having a deterministic verification gates.",
+      "authors": [
+        "Jakub Bąba",
+        "Jarosław A. Chudziak"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Jakub Bąba",
+          "authorEntityId": "author:8f57d610c8d6adac",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jakub Bąba",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jarosław A. Chudziak",
+          "authorEntityId": "author:e6eb0bd033ac9770",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jarosław A. Chudziak",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-19",
+      "url": "https://arxiv.org/abs/2610.27361",
+      "pdfUrl": "https://arxiv.org/pdf/2610.27361",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.27361",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:2f79295c2e79b890",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Jakub Bąba",
+        "Jarosław A. Chudziak"
+      ],
+      "authorEntityIds": [
+        "author:8f57d610c8d6adac",
+        "author:e6eb0bd033ac9770"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Jakub Bąba",
+          "affiliations": []
+        },
+        {
+          "name": "Jarosław A. Chudziak",
           "affiliations": []
         }
       ]
