@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T16:27:20.014Z",
+  "generatedAt": "2026-10-22T16:27:42.556Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1861,
+  "paperCount": 1862,
   "completeMetadataCount": 1370,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1556
+      "count": 1557
     },
     {
       "id": "nesy-proceedings",
@@ -7598,6 +7598,17 @@
         ]
       },
       {
+        "id": "author:d0bbeb2d1d257f8a",
+        "name": "Fanxin Kong",
+        "aliases": [
+          "Fanxin Kong"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:5191f5ff08ea0a83"
+        ]
+      },
+      {
         "id": "author:1ede0024dc43c42a",
         "name": "Faramarz Fekri",
         "aliases": [
@@ -12071,6 +12082,17 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:adc4b93dfe897098"
+        ]
+      },
+      {
+        "id": "author:22b1fa0893e13294",
+        "name": "Weizhe Xu",
+        "aliases": [
+          "Weizhe Xu"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:5191f5ff08ea0a83"
         ]
       },
       {
@@ -25549,6 +25571,15 @@
         ]
       },
       {
+        "id": "author:7c617ff73ad046a9",
+        "name": "Essien Taylor",
+        "aliases": [
+          "Essien Taylor"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:5f4fb2903fb6bf92",
         "name": "Estevam Hruschka",
         "aliases": [
@@ -26034,17 +26065,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:d0bbeb2d1d257f8a",
-        "name": "Fanxin Kong",
-        "aliases": [
-          "Fanxin Kong"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:5191f5ff08ea0a83"
-        ]
       },
       {
         "id": "author:3703729cb40f3512",
@@ -33097,6 +33117,15 @@
         "name": "Jialiang Dong",
         "aliases": [
           "Jialiang Dong"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:93ed23d4dae092a1",
+        "name": "Jialiang Fan",
+        "aliases": [
+          "Jialiang Fan"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -51404,6 +51433,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:369c2588d28b6dd1",
+        "name": "Russell Joseph",
+        "aliases": [
+          "Russell Joseph"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:c46119407ca84964",
         "name": "Ruta Desai",
         "aliases": [
@@ -59772,17 +59810,6 @@
         ]
       },
       {
-        "id": "author:22b1fa0893e13294",
-        "name": "Weizhe Xu",
-        "aliases": [
-          "Weizhe Xu"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:5191f5ff08ea0a83"
-        ]
-      },
-      {
         "id": "author:56fbf2ad856822ad",
         "name": "Weizheng Wang",
         "aliases": [
@@ -67857,6 +67884,15 @@
         "institutionIds": [
           "institution:6432056cdf12bb16"
         ]
+      },
+      {
+        "id": "author:9de687657bf1bb22",
+        "name": "Zijun Wang",
+        "aliases": [
+          "Zijun Wang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:a811d7e3da0509c0",
@@ -378983,6 +379019,146 @@
         },
         {
           "name": "Jarosław A. Chudziak",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.28955",
+      "title": "SLoSa: Small, Low-Power, and Safe Foundation Models for Robotic Task Planning",
+      "abstract": "Safe robotic task planning requires planners that can reliably achieve task goals while satisfying safety constraints. Classical planners search over explicit symbolic task representations and can provide formal guarantees with respect to encoded safety constraints, but require rigid input formats. Their computational cost also increases rapidly with the search space. In contrast, large language models (LLMs) offer flexible task interfaces and strong generalization capabilities, but they are large, power-hungry, and pre-trained with little robot-specific safety data and knowledge. Thus, they can be difficult to deploy locally on robotic systems with limited resources. To address these limitations, we present SLoSa, a neuro-symbolic compression and fine-tuning framework for training foundation-model-based robotic task planners with Small size, Low power demand, and Safety awareness. The framework first constructs a safety-aware dataset using classical planners, an advanced teacher LLM, and formal verifiers, followed by two training stages: supervised fine-tuning and reinforcement learning (RL) fine-tuning guided by a verification-based reward machine to enforce safety alignment. We evaluate SLoSa across four Planning Domain Definition Language (PDDL) domains, two household simulation environments, local edge platforms, and a desktop robotic arm. Across the PDDL tasks, verifier-guided post-training raises the success rate of compact 4B-14B planners to 70.5-76.0%, while INT4 deployment on a Jetson Orin requires 17.85-26.41 W of average power. Results in household simulators and on the physical robot further demonstrate the applicability of SLoSa across diverse robotic task settings.",
+      "authors": [
+        "Weizhe Xu",
+        "Jialiang Fan",
+        "Essien Taylor",
+        "Zijun Wang",
+        "Russell Joseph",
+        "Fanxin Kong"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Weizhe Xu",
+          "authorEntityId": "author:22b1fa0893e13294",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Weizhe Xu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jialiang Fan",
+          "authorEntityId": "author:93ed23d4dae092a1",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jialiang Fan",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Essien Taylor",
+          "authorEntityId": "author:7c617ff73ad046a9",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Essien Taylor",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zijun Wang",
+          "authorEntityId": "author:9de687657bf1bb22",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zijun Wang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Russell Joseph",
+          "authorEntityId": "author:369c2588d28b6dd1",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Russell Joseph",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Fanxin Kong",
+          "authorEntityId": "author:d0bbeb2d1d257f8a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Fanxin Kong",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LO"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-20",
+      "url": "https://arxiv.org/abs/2610.28955",
+      "pdfUrl": "https://arxiv.org/pdf/2610.28955",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.28955",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:bc86316e82d3eb3d",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Weizhe Xu",
+        "Jialiang Fan",
+        "Essien Taylor",
+        "Zijun Wang",
+        "Russell Joseph",
+        "Fanxin Kong"
+      ],
+      "authorEntityIds": [
+        "author:22b1fa0893e13294",
+        "author:93ed23d4dae092a1",
+        "author:7c617ff73ad046a9",
+        "author:9de687657bf1bb22",
+        "author:369c2588d28b6dd1",
+        "author:d0bbeb2d1d257f8a"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Weizhe Xu",
+          "affiliations": []
+        },
+        {
+          "name": "Jialiang Fan",
+          "affiliations": []
+        },
+        {
+          "name": "Essien Taylor",
+          "affiliations": []
+        },
+        {
+          "name": "Zijun Wang",
+          "affiliations": []
+        },
+        {
+          "name": "Russell Joseph",
+          "affiliations": []
+        },
+        {
+          "name": "Fanxin Kong",
           "affiliations": []
         }
       ]

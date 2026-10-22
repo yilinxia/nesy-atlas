@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-10-21T16:27:19.385Z",
-  "cursorAt": "2026-10-21T16:27:19.385Z",
+  "generatedAt": "2026-10-22T16:27:41.842Z",
+  "cursorAt": "2026-10-22T16:27:41.842Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-10-18T15:14:44.941Z",
   "keywords": [
@@ -15,11 +15,67 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-10-20T16:11:59.699Z",
-  "windowStart": "2026-10-13T16:11:59.699Z",
+  "previousSnapshotAt": "2026-10-21T16:27:19.385Z",
+  "windowStart": "2026-10-14T16:27:19.385Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2610.28955",
+    "title": "SLoSa: Small, Low-Power, and Safe Foundation Models for Robotic Task Planning",
+    "abstract": "Safe robotic task planning requires planners that can reliably achieve task goals while satisfying safety constraints. Classical planners search over explicit symbolic task representations and can provide formal guarantees with respect to encoded safety constraints, but require rigid input formats. Their computational cost also increases rapidly with the search space. In contrast, large language models (LLMs) offer flexible task interfaces and strong generalization capabilities, but they are large, power-hungry, and pre-trained with little robot-specific safety data and knowledge. Thus, they can be difficult to deploy locally on robotic systems with limited resources. To address these limitations, we present SLoSa, a neuro-symbolic compression and fine-tuning framework for training foundation-model-based robotic task planners with Small size, Low power demand, and Safety awareness. The framework first constructs a safety-aware dataset using classical planners, an advanced teacher LLM, and formal verifiers, followed by two training stages: supervised fine-tuning and reinforcement learning (RL) fine-tuning guided by a verification-based reward machine to enforce safety alignment. We evaluate SLoSa across four Planning Domain Definition Language (PDDL) domains, two household simulation environments, local edge platforms, and a desktop robotic arm. Across the PDDL tasks, verifier-guided post-training raises the success rate of compact 4B-14B planners to 70.5-76.0%, while INT4 deployment on a Jetson Orin requires 17.85-26.41 W of average power. Results in household simulators and on the physical robot further demonstrate the applicability of SLoSa across diverse robotic task settings.",
+    "authors": [
+      "Weizhe Xu",
+      "Jialiang Fan",
+      "Essien Taylor",
+      "Zijun Wang",
+      "Russell Joseph",
+      "Fanxin Kong"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Weizhe Xu",
+        "affiliations": []
+      },
+      {
+        "name": "Jialiang Fan",
+        "affiliations": []
+      },
+      {
+        "name": "Essien Taylor",
+        "affiliations": []
+      },
+      {
+        "name": "Zijun Wang",
+        "affiliations": []
+      },
+      {
+        "name": "Russell Joseph",
+        "affiliations": []
+      },
+      {
+        "name": "Fanxin Kong",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-20",
+    "updated": "2026-10-20",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LO"
+    ],
+    "primaryCategory": "cs.RO",
+    "url": "https://arxiv.org/abs/2610.28955",
+    "pdfUrl": "https://arxiv.org/pdf/2610.28955",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2610.27871",
     "title": "A Neuro-Symbolic Reasoning Engine for Compilation-Free Patch Presence Testing",
