@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T16:27:42.556Z",
+  "generatedAt": "2026-10-23T16:17:01.966Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1862,
+  "paperCount": 1866,
   "completeMetadataCount": 1370,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1557
+      "count": 1561
     },
     {
       "id": "nesy-proceedings",
@@ -809,6 +809,17 @@
         ]
       },
       {
+        "id": "author:6fc1001c38d7e95f",
+        "name": "Robert Hoehndorf",
+        "aliases": [
+          "Robert Hoehndorf"
+        ],
+        "paperCount": 8,
+        "institutionIds": [
+          "institution:46f6d6f8add5d072"
+        ]
+      },
+      {
         "id": "author:322c305ef68a935f",
         "name": "Sahil Shah",
         "aliases": [
@@ -1083,17 +1094,6 @@
           "institution:97be9a530d78bd2d",
           "institution:99fc4c2921753ab6",
           "institution:a36e569be9f1a02f"
-        ]
-      },
-      {
-        "id": "author:6fc1001c38d7e95f",
-        "name": "Robert Hoehndorf",
-        "aliases": [
-          "Robert Hoehndorf"
-        ],
-        "paperCount": 7,
-        "institutionIds": [
-          "institution:46f6d6f8add5d072"
         ]
       },
       {
@@ -8592,6 +8592,17 @@
         ],
         "paperCount": 2,
         "institutionIds": []
+      },
+      {
+        "id": "author:a17806038bc1f97f",
+        "name": "Jilles Vreeken",
+        "aliases": [
+          "Jilles Vreeken"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:aea376936c88135b"
+        ]
       },
       {
         "id": "author:76fb0ceb39fefef8",
@@ -17800,6 +17811,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:8776986d45b03e4f",
+        "name": "Arnon Mazza",
+        "aliases": [
+          "Arnon Mazza"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:4dc169246a4b695b",
         "name": "Arslan Basharat",
         "aliases": [
@@ -24906,6 +24926,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:3a178245ae1a9b47",
+        "name": "Elad Levi",
+        "aliases": [
+          "Elad Levi"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:e7f782f67aeb1e21",
         "name": "Eldan Cohen",
         "aliases": [
@@ -31621,6 +31650,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:5977bd06365dae87",
+        "name": "Isabel Valera",
+        "aliases": [
+          "Isabel Valera"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:643d243c6f226eb0",
         "name": "Isabelle Augenstein",
         "aliases": [
@@ -34148,17 +34186,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:a17806038bc1f97f",
-        "name": "Jilles Vreeken",
-        "aliases": [
-          "Jilles Vreeken"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:aea376936c88135b"
-        ]
       },
       {
         "id": "author:1b0ecb249be51705",
@@ -36708,6 +36735,15 @@
         ]
       },
       {
+        "id": "author:e344b57e3b28dcb6",
+        "name": "Kakoli Bora",
+        "aliases": [
+          "Kakoli Bora"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:991859279aae04a0",
         "name": "Kal Backman",
         "aliases": [
@@ -37646,6 +37682,15 @@
           "institution:142e9390ff7a3a3d",
           "institution:d5e3b6658d01daa4"
         ]
+      },
+      {
+        "id": "author:f08ef65b2f553890",
+        "name": "Kodur Sai Vinay Sathvik",
+        "aliases": [
+          "Kodur Sai Vinay Sathvik"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:60ba87c0d16c5d7f",
@@ -56792,6 +56837,15 @@
         ]
       },
       {
+        "id": "author:922a21871978a32c",
+        "name": "Tejaswini R. M",
+        "aliases": [
+          "Tejaswini R. M"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:e34c3e7b49c3940b",
         "name": "Temitope I Amosa",
         "aliases": [
@@ -56805,6 +56859,15 @@
         "name": "Tengfei Ma",
         "aliases": [
           "Tengfei Ma"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:6503a4e13e77f176",
+        "name": "Tengwei Song",
+        "aliases": [
+          "Tengwei Song"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -57550,6 +57613,15 @@
         "name": "Tim Connors",
         "aliases": [
           "Tim Connors"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:b572dda60adb7e3d",
+        "name": "Tim Nico Bauerschmidt",
+        "aliases": [
+          "Tim Nico Bauerschmidt"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -379159,6 +379231,353 @@
         },
         {
           "name": "Fanxin Kong",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.31506",
+      "title": "FairFRESH: A Neuro-Symbolic Framework for Fair and Explainable Household Food Recommendation",
+      "abstract": "Recommender systems typically serve one user at a time. However, in households, members share a finite pantry and follow different dietary rules, making independent recommendations prone to resource conflicts and dietary violations. We formulate household food recommendation as constrained fair division and present FairFRESH, a neuro-symbolic framework that learns per-member utilities, allocates foods under explicit welfare objectives, enforces dietary rules through a deterministic filter, and explains recommendations using Shapley and Banzhaf attributions. Theoretically, we show that no finite penalty guarantees compliance near a dietary-rule threshold, establish approximation guarantees for greedy allocation under utilitarian and smoothed Nash objectives in the stock-free model before filtering, and characterize the scale invariance of Nash welfare. We also use the minimax theorem to analyze rotating shared meals. On NHANES-derived data, the learned utility model achieves Recall@20 of 0.293, outperforming five learned recommenders (at most 0.244) but not a previous-day repetition heuristic (0.321). On held-out four-person households, Nash allocation reduces Gini disparity by 42% relative to conflict resolution while improving Recall@20 from 0.180 to 0.197. It comes within 2% of an upper bound on the smoothed Nash optimum, and rescaling one member's utilities changes at most 1.5% of assignments. All recommendations satisfy the encoded dietary rules, while attribution scores correlate with utility loss upon component removal (r = 0.76). In simulation, shared meals reduce pantry use by about one-third, and weekly rotation increases the worst-off member's utility by 38% over the best fixed meal.",
+      "authors": [
+        "Kodur Sai Vinay Sathvik",
+        "Kakoli Bora",
+        "Tejaswini R. M"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Kodur Sai Vinay Sathvik",
+          "authorEntityId": "author:f08ef65b2f553890",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Kodur Sai Vinay Sathvik",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Kakoli Bora",
+          "authorEntityId": "author:e344b57e3b28dcb6",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Kakoli Bora",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Tejaswini R. M",
+          "authorEntityId": "author:922a21871978a32c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Tejaswini R. M",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.GT"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-22",
+      "url": "https://arxiv.org/abs/2610.31506",
+      "pdfUrl": "https://arxiv.org/pdf/2610.31506",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.31506",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:97c2a0d397c1c082",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Kodur Sai Vinay Sathvik",
+        "Kakoli Bora",
+        "Tejaswini R. M"
+      ],
+      "authorEntityIds": [
+        "author:f08ef65b2f553890",
+        "author:e344b57e3b28dcb6",
+        "author:922a21871978a32c"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Kodur Sai Vinay Sathvik",
+          "affiliations": []
+        },
+        {
+          "name": "Kakoli Bora",
+          "affiliations": []
+        },
+        {
+          "name": "Tejaswini R. M",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.31114",
+      "title": "What Comes Next and Why: Interpretable Next-Event Prediction with Neuro-Symbolic Rules",
+      "abstract": "In real-world applications, being able to explain why a prediction is made is often as important - if not more so - than achieving high accuracy. However, existing methods for sequential event prediction typically prioritize accuracy at the expense of interpretability. Neuro-symbolic approaches offer a promising direction to improve interpretability by learning symbolic rules, but extending them to next-event prediction is challenging due to the presence of temporal dependencies. We introduce RULES, a neuro-symbolic model that learns sequential rules directly from data, and combine it with a residual network to form RUNES (Rule Network for Event Sequences). RULES accurately recovers ground truth rules from synthetic data and discovers compact, interpretable rule sets on real data. RUNES combines these rules additively with a residual network, achieving competitive accuracy while providing transparent access to active rules and how residuals adjust predictions.",
+      "authors": [
+        "Tim Nico Bauerschmidt",
+        "Isabel Valera",
+        "Jilles Vreeken"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Tim Nico Bauerschmidt",
+          "authorEntityId": "author:b572dda60adb7e3d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Tim Nico Bauerschmidt",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Isabel Valera",
+          "authorEntityId": "author:5977bd06365dae87",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Isabel Valera",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jilles Vreeken",
+          "authorEntityId": "author:a17806038bc1f97f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jilles Vreeken",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-22",
+      "url": "https://arxiv.org/abs/2610.31114",
+      "pdfUrl": "https://arxiv.org/pdf/2610.31114",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.31114",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:3aaf304a6396781d",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Tim Nico Bauerschmidt",
+        "Isabel Valera",
+        "Jilles Vreeken"
+      ],
+      "authorEntityIds": [
+        "author:b572dda60adb7e3d",
+        "author:5977bd06365dae87",
+        "author:a17806038bc1f97f"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Tim Nico Bauerschmidt",
+          "affiliations": []
+        },
+        {
+          "name": "Isabel Valera",
+          "affiliations": []
+        },
+        {
+          "name": "Jilles Vreeken",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.31062",
+      "title": "SCOPE: Compiling Natural-Language Policies into Neurosymbolic Predicate Programs",
+      "abstract": "Policy enforcement for LLM agents has shifted from single-turn content moderation to compound, application-specific policies evaluated over multi-turn transcripts and tool-call trajectories. Fine-tuned guardrail models are efficient but degrade on compound policies, and while LLM-as-a-judge approaches achieve higher accuracy, they incur high inference cost and tend to produce unstable predictions. Neurosymbolic methods offer a natural alternative, decomposing the policy into narrow neural decisions composed under explicit logic. However, existing symbolic layers lack the required expressiveness and are optimized against fixed data rather than the policy itself. To address this, we introduce SCOPE, which compiles a policy into an executable program of neural predicates executed by small models, deterministic extractors, and code that composes their outputs. The program is optimized jointly with its training data, using adversarial generation of counterexamples that target where the program deviates from the policy. We evaluate SCOPE on a benchmark of real-world policy tasks against prompt optimization, task decomposition, and workflow generation methods, achieving the highest average accuracy across tasks and models. Programs optimized with the weakest executor transfer to other models without further optimization. This allows them to be deployed in production on inexpensive models, where they reach accuracy comparable to frontier reasoning models. Unlike these monolithic models, SCOPE produces substantially more stable predictions, and each verdict is interpretable through the predicate outputs that produced it. Additionally, we validate the key components of our method through an ablation study. SCOPE thus enables reliable, interpretable, and efficient policy enforcement at production scale.",
+      "authors": [
+        "Arnon Mazza",
+        "Elad Levi"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Arnon Mazza",
+          "authorEntityId": "author:8776986d45b03e4f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Arnon Mazza",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Elad Levi",
+          "authorEntityId": "author:3a178245ae1a9b47",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Elad Levi",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-22",
+      "url": "https://arxiv.org/abs/2610.31062",
+      "pdfUrl": "https://arxiv.org/pdf/2610.31062",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.31062",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:d9568526f4f19583",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Arnon Mazza",
+        "Elad Levi"
+      ],
+      "authorEntityIds": [
+        "author:8776986d45b03e4f",
+        "author:3a178245ae1a9b47"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Arnon Mazza",
+          "affiliations": []
+        },
+        {
+          "name": "Elad Levi",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.30391",
+      "title": "Soft Ontology Priors over Latent Concept Posteriors for Weakly Supervised Neuro-Symbolic Learning",
+      "abstract": "Neuro-symbolic (NeSy) predictors that supervise only the task label suffer from reasoning shortcuts: distinct concept mappings achieve the same maximum likelihood, leaving the recovered concepts unidentifiable and unsafe for downstream reuse. We attack this failure by injecting a soft ontology prior over the latent concepts into the training objective and compiling it together with the task constraint into a smooth, decomposable probabilistic circuit. Under independent Bernoulli perception, the normalisers of the resulting structured concept posterior reduce to weighted model counts that are linear in the compiled circuit size, because the neural leaf weights fold into the circuit before evaluation. The soft compilation strategy places expert axioms in the circuit's weights rather than its support (task-structural axioms guaranteed by the data-generating process stay hard), so noisy expert axioms only redistribute prior mass and cannot empty the support. We characterise how the prior reweights label-restricted shortcut mass through differences in ontology violation energy, show that soft priors incur bounded log-density perturbations under bounded axiom noise, and prove that the hard-support counterpart can be made degenerate by a single corrupted axiom. We validate these predictions on an audited six-concept view of the real-world BDD-OIA driving benchmark and on controlled NeSy tasks.",
+      "authors": [
+        "Tengwei Song",
+        "Robert Hoehndorf"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Tengwei Song",
+          "authorEntityId": "author:6503a4e13e77f176",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Tengwei Song",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Robert Hoehndorf",
+          "authorEntityId": "author:6fc1001c38d7e95f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Robert Hoehndorf",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic",
+        "NeSy"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-21",
+      "url": "https://arxiv.org/abs/2610.30391",
+      "pdfUrl": "https://arxiv.org/pdf/2610.30391",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.30391",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:358c19e5339c0304",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Tengwei Song",
+        "Robert Hoehndorf"
+      ],
+      "authorEntityIds": [
+        "author:6503a4e13e77f176",
+        "author:6fc1001c38d7e95f"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Tengwei Song",
+          "affiliations": []
+        },
+        {
+          "name": "Robert Hoehndorf",
           "affiliations": []
         }
       ]

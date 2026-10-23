@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-10-22T16:27:41.842Z",
-  "cursorAt": "2026-10-22T16:27:41.842Z",
+  "generatedAt": "2026-10-23T16:17:01.534Z",
+  "cursorAt": "2026-10-23T16:17:01.534Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-10-18T15:14:44.941Z",
   "keywords": [
@@ -15,11 +15,170 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-10-21T16:27:19.385Z",
-  "windowStart": "2026-10-14T16:27:19.385Z",
+  "previousSnapshotAt": "2026-10-22T16:27:41.842Z",
+  "windowStart": "2026-10-15T16:27:41.842Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2610.31506",
+    "title": "FairFRESH: A Neuro-Symbolic Framework for Fair and Explainable Household Food Recommendation",
+    "abstract": "Recommender systems typically serve one user at a time. However, in households, members share a finite pantry and follow different dietary rules, making independent recommendations prone to resource conflicts and dietary violations. We formulate household food recommendation as constrained fair division and present FairFRESH, a neuro-symbolic framework that learns per-member utilities, allocates foods under explicit welfare objectives, enforces dietary rules through a deterministic filter, and explains recommendations using Shapley and Banzhaf attributions. Theoretically, we show that no finite penalty guarantees compliance near a dietary-rule threshold, establish approximation guarantees for greedy allocation under utilitarian and smoothed Nash objectives in the stock-free model before filtering, and characterize the scale invariance of Nash welfare. We also use the minimax theorem to analyze rotating shared meals. On NHANES-derived data, the learned utility model achieves Recall@20 of 0.293, outperforming five learned recommenders (at most 0.244) but not a previous-day repetition heuristic (0.321). On held-out four-person households, Nash allocation reduces Gini disparity by 42% relative to conflict resolution while improving Recall@20 from 0.180 to 0.197. It comes within 2% of an upper bound on the smoothed Nash optimum, and rescaling one member's utilities changes at most 1.5% of assignments. All recommendations satisfy the encoded dietary rules, while attribution scores correlate with utility loss upon component removal (r = 0.76). In simulation, shared meals reduce pantry use by about one-third, and weekly rotation increases the worst-off member's utility by 38% over the best fixed meal.",
+    "authors": [
+      "Kodur Sai Vinay Sathvik",
+      "Kakoli Bora",
+      "Tejaswini R. M"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Kodur Sai Vinay Sathvik",
+        "affiliations": []
+      },
+      {
+        "name": "Kakoli Bora",
+        "affiliations": []
+      },
+      {
+        "name": "Tejaswini R. M",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-22",
+    "updated": "2026-10-22",
+    "categories": [
+      "cs.AI",
+      "cs.GT"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2610.31506",
+    "pdfUrl": "https://arxiv.org/pdf/2610.31506",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.31114",
+    "title": "What Comes Next and Why: Interpretable Next-Event Prediction with Neuro-Symbolic Rules",
+    "abstract": "In real-world applications, being able to explain why a prediction is made is often as important - if not more so - than achieving high accuracy. However, existing methods for sequential event prediction typically prioritize accuracy at the expense of interpretability. Neuro-symbolic approaches offer a promising direction to improve interpretability by learning symbolic rules, but extending them to next-event prediction is challenging due to the presence of temporal dependencies. We introduce RULES, a neuro-symbolic model that learns sequential rules directly from data, and combine it with a residual network to form RUNES (Rule Network for Event Sequences). RULES accurately recovers ground truth rules from synthetic data and discovers compact, interpretable rule sets on real data. RUNES combines these rules additively with a residual network, achieving competitive accuracy while providing transparent access to active rules and how residuals adjust predictions.",
+    "authors": [
+      "Tim Nico Bauerschmidt",
+      "Isabel Valera",
+      "Jilles Vreeken"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Tim Nico Bauerschmidt",
+        "affiliations": []
+      },
+      {
+        "name": "Isabel Valera",
+        "affiliations": []
+      },
+      {
+        "name": "Jilles Vreeken",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-22",
+    "updated": "2026-10-22",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2610.31114",
+    "pdfUrl": "https://arxiv.org/pdf/2610.31114",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.31062",
+    "title": "SCOPE: Compiling Natural-Language Policies into Neurosymbolic Predicate Programs",
+    "abstract": "Policy enforcement for LLM agents has shifted from single-turn content moderation to compound, application-specific policies evaluated over multi-turn transcripts and tool-call trajectories. Fine-tuned guardrail models are efficient but degrade on compound policies, and while LLM-as-a-judge approaches achieve higher accuracy, they incur high inference cost and tend to produce unstable predictions. Neurosymbolic methods offer a natural alternative, decomposing the policy into narrow neural decisions composed under explicit logic. However, existing symbolic layers lack the required expressiveness and are optimized against fixed data rather than the policy itself. To address this, we introduce SCOPE, which compiles a policy into an executable program of neural predicates executed by small models, deterministic extractors, and code that composes their outputs. The program is optimized jointly with its training data, using adversarial generation of counterexamples that target where the program deviates from the policy. We evaluate SCOPE on a benchmark of real-world policy tasks against prompt optimization, task decomposition, and workflow generation methods, achieving the highest average accuracy across tasks and models. Programs optimized with the weakest executor transfer to other models without further optimization. This allows them to be deployed in production on inexpensive models, where they reach accuracy comparable to frontier reasoning models. Unlike these monolithic models, SCOPE produces substantially more stable predictions, and each verdict is interpretable through the predicate outputs that produced it. Additionally, we validate the key components of our method through an ablation study. SCOPE thus enables reliable, interpretable, and efficient policy enforcement at production scale.",
+    "authors": [
+      "Arnon Mazza",
+      "Elad Levi"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Arnon Mazza",
+        "affiliations": []
+      },
+      {
+        "name": "Elad Levi",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-22",
+    "updated": "2026-10-22",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2610.31062",
+    "pdfUrl": "https://arxiv.org/pdf/2610.31062",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.30391",
+    "title": "Soft Ontology Priors over Latent Concept Posteriors for Weakly Supervised Neuro-Symbolic Learning",
+    "abstract": "Neuro-symbolic (NeSy) predictors that supervise only the task label suffer from reasoning shortcuts: distinct concept mappings achieve the same maximum likelihood, leaving the recovered concepts unidentifiable and unsafe for downstream reuse. We attack this failure by injecting a soft ontology prior over the latent concepts into the training objective and compiling it together with the task constraint into a smooth, decomposable probabilistic circuit. Under independent Bernoulli perception, the normalisers of the resulting structured concept posterior reduce to weighted model counts that are linear in the compiled circuit size, because the neural leaf weights fold into the circuit before evaluation. The soft compilation strategy places expert axioms in the circuit's weights rather than its support (task-structural axioms guaranteed by the data-generating process stay hard), so noisy expert axioms only redistribute prior mass and cannot empty the support. We characterise how the prior reweights label-restricted shortcut mass through differences in ontology violation energy, show that soft priors incur bounded log-density perturbations under bounded axiom noise, and prove that the hard-support counterpart can be made degenerate by a single corrupted axiom. We validate these predictions on an audited six-concept view of the real-world BDD-OIA driving benchmark and on controlled NeSy tasks.",
+    "authors": [
+      "Tengwei Song",
+      "Robert Hoehndorf"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Tengwei Song",
+        "affiliations": []
+      },
+      {
+        "name": "Robert Hoehndorf",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-21",
+    "updated": "2026-10-21",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2610.30391",
+    "pdfUrl": "https://arxiv.org/pdf/2610.30391",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic",
+        "NeSy"
+      ]
+    }
+  },
   {
     "id": "2610.28955",
     "title": "SLoSa: Small, Low-Power, and Safe Foundation Models for Robotic Task Planning",
