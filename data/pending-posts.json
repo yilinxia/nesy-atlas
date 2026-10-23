@@ -2950,5 +2950,14 @@
     "sourceUrl": "https://www.kognitos.com/blog/",
     "discovered": "2026-10-22",
     "status": "needs-review"
+  },
+  {
+    "company": "UnlikelyAI",
+    "title": "Oct 20, 2026 Blog What fintech risk teams need before they can say yes to AI Discover why 75% of senior finance leaders hesitate to trust AI with customer communications, and the three exact requirements UK fintech risk teams need before saying yes to AI in high-stakes journeys. Ruby Wang",
+    "date": "2026-10-20",
+    "url": "https://www.unlikely.ai/newsroom/what-fintech-risk-teams-need-before-they-can-say-yes-to-ai",
+    "sourceUrl": "https://www.unlikely.ai/newsroom",
+    "discovered": "2026-10-23",
+    "status": "needs-review"
   }
 ]
