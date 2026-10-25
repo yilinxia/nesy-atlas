@@ -2959,5 +2959,86 @@
     "sourceUrl": "https://www.unlikely.ai/newsroom",
     "discovered": "2026-10-23",
     "status": "needs-review"
+  },
+  {
+    "company": "Pebbles AI",
+    "title": "Web research",
+    "date": "",
+    "url": "https://www.trypebbles.ai/resources/gtm-competitive-landscape/web-research",
+    "sourceUrl": "https://www.trypebbles.ai/blog",
+    "discovered": "2026-10-25",
+    "status": "needs-review"
+  },
+  {
+    "company": "Pebbles AI",
+    "title": "Lead generation",
+    "date": "",
+    "url": "https://www.trypebbles.ai/resources/gtm-competitive-landscape/lead-generation",
+    "sourceUrl": "https://www.trypebbles.ai/blog",
+    "discovered": "2026-10-25",
+    "status": "needs-review"
+  },
+  {
+    "company": "Pebbles AI",
+    "title": "CRM and prospecting",
+    "date": "",
+    "url": "https://www.trypebbles.ai/resources/gtm-competitive-landscape/crm-audience",
+    "sourceUrl": "https://www.trypebbles.ai/blog",
+    "discovered": "2026-10-25",
+    "status": "needs-review"
+  },
+  {
+    "company": "Pebbles AI",
+    "title": "Smartbox",
+    "date": "",
+    "url": "https://www.trypebbles.ai/resources/gtm-competitive-landscape/smartbox",
+    "sourceUrl": "https://www.trypebbles.ai/blog",
+    "discovered": "2026-10-25",
+    "status": "needs-review"
+  },
+  {
+    "company": "Pebbles AI",
+    "title": "Outreach",
+    "date": "",
+    "url": "https://www.trypebbles.ai/resources/gtm-competitive-landscape/outreach",
+    "sourceUrl": "https://www.trypebbles.ai/blog",
+    "discovered": "2026-10-25",
+    "status": "needs-review"
+  },
+  {
+    "company": "Pebbles AI",
+    "title": "AI assistants",
+    "date": "",
+    "url": "https://www.trypebbles.ai/resources/gtm-competitive-landscape/assistants",
+    "sourceUrl": "https://www.trypebbles.ai/blog",
+    "discovered": "2026-10-25",
+    "status": "needs-review"
+  },
+  {
+    "company": "Pebbles AI",
+    "title": "Context and Library",
+    "date": "",
+    "url": "https://www.trypebbles.ai/resources/gtm-competitive-landscape/context-library",
+    "sourceUrl": "https://www.trypebbles.ai/blog",
+    "discovered": "2026-10-25",
+    "status": "needs-review"
+  },
+  {
+    "company": "Pebbles AI",
+    "title": "Integrations",
+    "date": "",
+    "url": "https://www.trypebbles.ai/resources/gtm-competitive-landscape/integrations",
+    "sourceUrl": "https://www.trypebbles.ai/blog",
+    "discovered": "2026-10-25",
+    "status": "needs-review"
+  },
+  {
+    "company": "Pebbles AI",
+    "title": "Memory",
+    "date": "",
+    "url": "https://www.trypebbles.ai/resources/gtm-competitive-landscape/memory",
+    "sourceUrl": "https://www.trypebbles.ai/blog",
+    "discovered": "2026-10-25",
+    "status": "needs-review"
   }
 ]
