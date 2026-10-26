@@ -3040,5 +3040,50 @@
     "sourceUrl": "https://www.trypebbles.ai/blog",
     "discovered": "2026-10-25",
     "status": "needs-review"
+  },
+  {
+    "company": "Amoeba",
+    "title": "Article 10/14/26 All Posts Where the gap actually is A map of published work applying sheaf methods to sensors, agents, risk and accounting, and what a weekly disagreement readout could look like for a company.",
+    "date": "",
+    "url": "https://www.amoeb.ai/blog/the-seams-part-4",
+    "sourceUrl": "https://www.amoeb.ai/blog",
+    "discovered": "2026-10-26",
+    "status": "needs-review"
+  },
+  {
+    "company": "Amoeba",
+    "title": "Article 9/23/26 All Posts Honest systems, different numbers Three kinds of seams where honest measurement systems produce different numbers, from GDP and GDI to ad attribution and Uber&#x27;s $100 million test.",
+    "date": "",
+    "url": "https://www.amoeb.ai/blog/the-seams-part-3",
+    "sourceUrl": "https://www.amoeb.ai/blog",
+    "discovered": "2026-10-26",
+    "status": "needs-review"
+  },
+  {
+    "company": "Amoeba",
+    "title": "Article 9/2/26 All Posts The math came first The sheaf mathematics behind opinion dynamics offers four tools for locating disagreement between business systems, applied to a hypothetical company.",
+    "date": "",
+    "url": "https://www.amoeb.ai/blog/the-seams-part-2",
+    "sourceUrl": "https://www.amoeb.ai/blog",
+    "discovered": "2026-10-26",
+    "status": "needs-review"
+  },
+  {
+    "company": "Amoeba",
+    "title": "Article 8/12/26 All Posts The truce in the numbers How a company&#x27;s numbers can agree in the boardroom while its systems still disagree, explained through the mathematics of discourse sheaves.",
+    "date": "",
+    "url": "https://www.amoeb.ai/blog/the-seams-part-1",
+    "sourceUrl": "https://www.amoeb.ai/blog",
+    "discovered": "2026-10-26",
+    "status": "needs-review"
+  },
+  {
+    "company": "DaaX",
+    "title": "Your Industrial Catalog Can Take the Order. Can It Prove the Part Fits?",
+    "date": "2026-10-25",
+    "url": "https://daax.ai/blog/industrial-catalog-part-fitment",
+    "sourceUrl": "https://daax.ai/blog",
+    "discovered": "2026-10-26",
+    "status": "needs-review"
   }
 ]
