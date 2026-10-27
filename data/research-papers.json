@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T18:05:41.295Z",
+  "generatedAt": "2026-10-27T17:17:37.785Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1869,
+  "paperCount": 1874,
   "completeMetadataCount": 1369,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1564
+      "count": 1569
     },
     {
       "id": "nesy-proceedings",
@@ -1097,6 +1097,19 @@
         ]
       },
       {
+        "id": "author:7ba4d6de3d3b1217",
+        "name": "Taolue Chen",
+        "aliases": [
+          "Taolue Chen"
+        ],
+        "paperCount": 7,
+        "institutionIds": [
+          "institution:305c9eae02cec163",
+          "institution:323e7eabc230aa6a",
+          "institution:6a56f96a00b9c2a4"
+        ]
+      },
+      {
         "id": "author:90d363c02cc27a34",
         "name": "Thomas Eiter",
         "aliases": [
@@ -1366,19 +1379,6 @@
         "paperCount": 6,
         "institutionIds": [
           "institution:4f85329e76bc9454"
-        ]
-      },
-      {
-        "id": "author:7ba4d6de3d3b1217",
-        "name": "Taolue Chen",
-        "aliases": [
-          "Taolue Chen"
-        ],
-        "paperCount": 6,
-        "institutionIds": [
-          "institution:305c9eae02cec163",
-          "institution:323e7eabc230aa6a",
-          "institution:6a56f96a00b9c2a4"
         ]
       },
       {
@@ -5240,6 +5240,17 @@
         ]
       },
       {
+        "id": "author:5a68ebf0d46197f1",
+        "name": "Sumit Gulwani",
+        "aliases": [
+          "Sumit Gulwani"
+        ],
+        "paperCount": 3,
+        "institutionIds": [
+          "institution:9fbf261b62c1d7c0"
+        ]
+      },
+      {
         "id": "author:aee308a000f85a5c",
         "name": "Swarat Chaudhuri",
         "aliases": [
@@ -6454,6 +6465,17 @@
         ],
         "paperCount": 2,
         "institutionIds": []
+      },
+      {
+        "id": "author:9bd41b9cf8aac885",
+        "name": "Ashish Tiwari",
+        "aliases": [
+          "Ashish Tiwari"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:9fbf261b62c1d7c0"
+        ]
       },
       {
         "id": "author:3e27b0850e11cae5",
@@ -11500,17 +11522,6 @@
         ]
       },
       {
-        "id": "author:5a68ebf0d46197f1",
-        "name": "Sumit Gulwani",
-        "aliases": [
-          "Sumit Gulwani"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:9fbf261b62c1d7c0"
-        ]
-      },
-      {
         "id": "author:cb4c2dd7e9df92d6",
         "name": "Sumit Kumar",
         "aliases": [
@@ -12092,6 +12103,15 @@
         "institutionIds": [
           "institution:e433baf78e80004b"
         ]
+      },
+      {
+        "id": "author:3a7b1a883924bff2",
+        "name": "Wei Luo",
+        "aliases": [
+          "Wei Luo"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
       },
       {
         "id": "author:48e8f3fddd921d8e",
@@ -12909,6 +12929,15 @@
         ]
       },
       {
+        "id": "author:bdfb8fe51a1183f4",
+        "name": "Yong Li",
+        "aliases": [
+          "Yong Li"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
+      },
+      {
         "id": "author:b04928013dd838ea",
         "name": "Yong Liu",
         "aliases": [
@@ -13233,6 +13262,18 @@
         "institutionIds": [
           "institution:4ae45b121fe12e9c",
           "institution:a360549ab82d6b07"
+        ]
+      },
+      {
+        "id": "author:99b3d16957f906e5",
+        "name": "Zhilin Wu",
+        "aliases": [
+          "Zhilin Wu"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:3afb6cc453e0a8d9",
+          "institution:69309405e04976ec"
         ]
       },
       {
@@ -14304,6 +14345,15 @@
         "institutionIds": [
           "institution:e828a2eae3c7fb5d"
         ]
+      },
+      {
+        "id": "author:a3a10bdfea9c0129",
+        "name": "Adam Sage",
+        "aliases": [
+          "Adam Sage"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:59338330e445864f",
@@ -18121,17 +18171,6 @@
         ]
       },
       {
-        "id": "author:9bd41b9cf8aac885",
-        "name": "Ashish Tiwari",
-        "aliases": [
-          "Ashish Tiwari"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:9fbf261b62c1d7c0"
-        ]
-      },
-      {
         "id": "author:e3d992bd6f17f3cb",
         "name": "Ashkan Ansarifard",
         "aliases": [
@@ -20138,6 +20177,15 @@
         "institutionIds": [
           "institution:b0b93bb53a8b88c1"
         ]
+      },
+      {
+        "id": "author:e54f785f5f40a992",
+        "name": "Cale Darling",
+        "aliases": [
+          "Cale Darling"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:aca3973ef0b6535d",
@@ -22280,6 +22328,15 @@
         "name": "Cristian-Ioan Vasile",
         "aliases": [
           "Cristian-Ioan Vasile"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:1e59477a87c06969",
+        "name": "Cristiano Andolfi",
+        "aliases": [
+          "Cristiano Andolfi"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -27024,6 +27081,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:b5ac6642a79ac759",
+        "name": "Fu Song",
+        "aliases": [
+          "Fu Song"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:ac1a62ea9877b1db",
         "name": "Fuat Alican",
         "aliases": [
@@ -27837,6 +27903,24 @@
         ]
       },
       {
+        "id": "author:a31fb190b2e3f764",
+        "name": "Gianvito Antenori",
+        "aliases": [
+          "Gianvito Antenori"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:870d8f1b99b50c52",
+        "name": "Gias Uddin",
+        "aliases": [
+          "Gias Uddin"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:af6ebea52cfc3391",
         "name": "Gido M Van De Ven",
         "aliases": [
@@ -27980,6 +28064,15 @@
         "name": "Giovanni Colavizza",
         "aliases": [
           "Giovanni Colavizza"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:a590b19683c9fcb4",
+        "name": "Giovanni Farina",
+        "aliases": [
+          "Giovanni Farina"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -30810,6 +30903,15 @@
         "name": "Hoque",
         "aliases": [
           "Hoque"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:d7c75a0feb4c3a83",
+        "name": "Hosein Hasanbeig",
+        "aliases": [
+          "Hosein Hasanbeig"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -33881,6 +33983,15 @@
         "name": "Jiaxin Bai",
         "aliases": [
           "Jiaxin Bai"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:5268d84fcdd53ccd",
+        "name": "Jiaxin Hu",
+        "aliases": [
+          "Jiaxin Hu"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -37126,6 +37237,15 @@
         "institutionIds": [
           "institution:ce499f3275a4e514"
         ]
+      },
+      {
+        "id": "author:059fb25f389949c5",
+        "name": "Katie Garms",
+        "aliases": [
+          "Katie Garms"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:b584b3b2819975b7",
@@ -40739,6 +40859,15 @@
         "institutionIds": [
           "institution:9a4680e8b151b0b1"
         ]
+      },
+      {
+        "id": "author:7953e24a6b38af65",
+        "name": "Mahmuda Khatun",
+        "aliases": [
+          "Mahmuda Khatun"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:e594b05dd969aeb2",
@@ -44881,6 +45010,15 @@
         ]
       },
       {
+        "id": "author:b8508b94b527ce2f",
+        "name": "Mostafijur Rahman Akhond",
+        "aliases": [
+          "Mostafijur Rahman Akhond"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:7fe37034ff8018f5",
         "name": "Mouloud Iferroudjene",
         "aliases": [
@@ -48376,6 +48514,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:81e3f2b7b9775267",
+        "name": "Pier Mattia Basciano",
+        "aliases": [
+          "Pier Mattia Basciano"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:87578a6598fb3e32",
         "name": "Pierfrancesco Ardino",
         "aliases": [
@@ -50996,6 +51143,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:c0e7f59f0a882989",
+        "name": "Rongkang Li",
+        "aliases": [
+          "Rongkang Li"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:6b3e3924cb44dcfd",
         "name": "Rongliang Fu",
         "aliases": [
@@ -51946,6 +52102,15 @@
         ]
       },
       {
+        "id": "author:9d025fefd4f27151",
+        "name": "Sadra Sabouri",
+        "aliases": [
+          "Sadra Sabouri"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:75df026f2fe82ecb",
         "name": "Saeid Hosseini",
         "aliases": [
@@ -52105,6 +52270,15 @@
         "name": "Salvatore Luca",
         "aliases": [
           "Salvatore Luca"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:fb7a7d30ad2064c3",
+        "name": "Salvatore Monteleone",
+        "aliases": [
+          "Salvatore Monteleone"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -53910,6 +54084,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:f282295bbae2a05e",
+        "name": "Shiqi Ou",
+        "aliases": [
+          "Shiqi Ou"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:5c44f9965a97778c",
         "name": "Shitong Sun",
         "aliases": [
@@ -54181,6 +54364,15 @@
         "institutionIds": [
           "institution:cd887bf808040e61"
         ]
+      },
+      {
+        "id": "author:9ae232dfe1eec046",
+        "name": "Shreya Sinha",
+        "aliases": [
+          "Shreya Sinha"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:249b5df551c391a2",
@@ -55512,6 +55704,15 @@
           "institution:6f2e58faac02950c",
           "institution:bb09585ba816bf49"
         ]
+      },
+      {
+        "id": "author:418b3fccc1211fa7",
+        "name": "Souti Chattopadhyay",
+        "aliases": [
+          "Souti Chattopadhyay"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:fbb1ab92e239f7bd",
@@ -59656,15 +59857,6 @@
         "name": "Wei Lin",
         "aliases": [
           "Wei Lin"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
-        "id": "author:3a7b1a883924bff2",
-        "name": "Wei Luo",
-        "aliases": [
-          "Wei Luo"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -64126,15 +64318,6 @@
         ]
       },
       {
-        "id": "author:bdfb8fe51a1183f4",
-        "name": "Yong Li",
-        "aliases": [
-          "Yong Li"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:ae0a243028cc7572",
         "name": "Yong Zhao",
         "aliases": [
@@ -64215,6 +64398,15 @@
         "institutionIds": [
           "institution:46e4866d3b2954ab"
         ]
+      },
+      {
+        "id": "author:7c9ce1d924a9f3fc",
+        "name": "Yongjian Chen",
+        "aliases": [
+          "Yongjian Chen"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:6fe8ce03a373be86",
@@ -67237,6 +67429,15 @@
         ]
       },
       {
+        "id": "author:6142583246baf761",
+        "name": "Zhifeng Yang",
+        "aliases": [
+          "Zhifeng Yang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:a2a21318d30c661b",
         "name": "Zhihai Wang",
         "aliases": [
@@ -67286,18 +67487,6 @@
           "institution:42070d0714fb47a6",
           "institution:6a892bbe4ee57122",
           "institution:8af390e38bab9df5"
-        ]
-      },
-      {
-        "id": "author:99b3d16957f906e5",
-        "name": "Zhilin Wu",
-        "aliases": [
-          "Zhilin Wu"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:3afb6cc453e0a8d9",
-          "institution:69309405e04976ec"
         ]
       },
       {
@@ -69395,15 +69584,6 @@
         "name": "Fu Lee Wang",
         "aliases": [
           "Fu Lee Wang"
-        ],
-        "paperCount": 0,
-        "institutionIds": []
-      },
-      {
-        "id": "author:b5ac6642a79ac759",
-        "name": "Fu Song",
-        "aliases": [
-          "Fu Song"
         ],
         "paperCount": 0,
         "institutionIds": []
@@ -380193,6 +380373,657 @@
         },
         {
           "name": "Datao You",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.35523",
+      "title": "Ranking Function Generation with LLMs for Termination",
+      "abstract": "Ranking functions are a fundamental technique for proving loop termination, but constructing them manually is challenging and requires substantial expertise. We propose RAINFALL, a neuro-symbolic framework which follows the generate-verify-refine paradigm and tightly integrates LLMs with symbolic verification. RAINFALL formulates ranking function synthesis as a code-completion task by inserting placeholders into the input program and constraining the LLM to fill four predefined slots for each loop. The completed program is then checked by a symbolic verifier. If verification succeeds, a valid ranking function is obtained; otherwise, the verifier's diagnostics are translated into natural-language feedback that guides iterative refinement of the LLM's output. We evaluate RAINFALL on two public benchmark suites comprising 358 terminating C programs. Using MiniMax V2.7, RAINFALL synthesizes verifiable ranking functions for 323 programs (90.22%), outperforming all promising baselines. In particular, it solves 12 more programs than PROTON 2.1, the best-performing baseline and winner of the SV-COMP 2026 Termination category. Furthermore, combining RAINFALL with PROTON 2.1 increases the success rate to 96.65% (346/358 programs). We also conduct ablation study confirming individual contributions of placeholder contracts, few-shot examples, symbolic verification, and diagnostic information feedback. Experiments across LLMs further confirm the effectiveness of RAINFALL. Our results suggest a generic, sound framework for ranking-function synthesis and, beyond termination, LLM-assisted synthesis of formally checkable liveness certificates, both of which represent new directions of software engineering research.",
+      "authors": [
+        "Rongkang Li",
+        "Jiaxin Hu",
+        "Taolue Chen",
+        "Yong Li",
+        "Fu Song",
+        "Zhilin Wu"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Rongkang Li",
+          "authorEntityId": "author:c0e7f59f0a882989",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Rongkang Li",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jiaxin Hu",
+          "authorEntityId": "author:5268d84fcdd53ccd",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jiaxin Hu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Taolue Chen",
+          "authorEntityId": "author:7ba4d6de3d3b1217",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Taolue Chen",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yong Li",
+          "authorEntityId": "author:bdfb8fe51a1183f4",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yong Li",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Fu Song",
+          "authorEntityId": "author:b5ac6642a79ac759",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Fu Song",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zhilin Wu",
+          "authorEntityId": "author:99b3d16957f906e5",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zhilin Wu",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.LO"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.35523",
+      "pdfUrl": "https://arxiv.org/pdf/2610.35523",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.35523",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:cd254885144a9bb5",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Rongkang Li",
+        "Jiaxin Hu",
+        "Taolue Chen",
+        "Yong Li",
+        "Fu Song",
+        "Zhilin Wu"
+      ],
+      "authorEntityIds": [
+        "author:c0e7f59f0a882989",
+        "author:5268d84fcdd53ccd",
+        "author:7ba4d6de3d3b1217",
+        "author:bdfb8fe51a1183f4",
+        "author:b5ac6642a79ac759",
+        "author:99b3d16957f906e5"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Rongkang Li",
+          "affiliations": []
+        },
+        {
+          "name": "Jiaxin Hu",
+          "affiliations": []
+        },
+        {
+          "name": "Taolue Chen",
+          "affiliations": []
+        },
+        {
+          "name": "Yong Li",
+          "affiliations": []
+        },
+        {
+          "name": "Fu Song",
+          "affiliations": []
+        },
+        {
+          "name": "Zhilin Wu",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.35477",
+      "title": "Making Small Code LLMs More Efficient for Secure Code Review with Neuro-Symbolic Fine-Tuning",
+      "abstract": "As AI coding assistants generate more code, the need to review it for security flaws grows. Existing approaches leave a gap: static analyzers identify program sites but offer little explanation, while language-model explanations can be difficult to verify. Small open-weight code models could make security review available without sending proprietary code to a hosted service. We study whether fine-tuning helps these models turn security evidence into explanations that developers and tools can check. We present secSemScan, which pairs a static analyzer with a locally deployable model that writes a schema-constrained security monologue naming program sites, assigning a CWE, and giving a machine-parseable verdict. We also introduce OGSM (Oracle-Grounded Security Monologue), a dataset of 1,993 C/C\\texttt{++} functions covering 22 CWEs in the taint and lifetime families. Each record pairs a function with analyzer-derived or fix-diff-derived evidence and a monologue. We fine-tune three open-weight code models in two stages, first on the output format and then on the monologue content. Because evaluation prompts supply the verdict and evidence, our results measure how well models use that information, not whether they detect vulnerabilities independently. On 355 test records, fine-tuning raised Qwen2.5-Coder-7B's verdict accuracy from 4.8\\% to 96.6\\%; DeepSeek-Coder-6.7B reached 78.9\\%, and StarCoder2-7B reached 43.7\\%. Qwen2.5-Coder-7B cited 87.5\\% of Tier~1 oracle sites, and every line it cited belonged to the oracle evidence. The results suggest that fine-tuning helps small models produce more structured, evidence-linked security reasoning.",
+      "authors": [
+        "Mostafijur Rahman Akhond",
+        "Mahmuda Khatun",
+        "Gias Uddin"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Mostafijur Rahman Akhond",
+          "authorEntityId": "author:b8508b94b527ce2f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Mostafijur Rahman Akhond",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Mahmuda Khatun",
+          "authorEntityId": "author:7953e24a6b38af65",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Mahmuda Khatun",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Gias Uddin",
+          "authorEntityId": "author:870d8f1b99b50c52",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Gias Uddin",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.SE"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.35477",
+      "pdfUrl": "https://arxiv.org/pdf/2610.35477",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.35477",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:0356abf9cd8dce48",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Mostafijur Rahman Akhond",
+        "Mahmuda Khatun",
+        "Gias Uddin"
+      ],
+      "authorEntityIds": [
+        "author:b8508b94b527ce2f",
+        "author:7953e24a6b38af65",
+        "author:870d8f1b99b50c52"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Mostafijur Rahman Akhond",
+          "affiliations": []
+        },
+        {
+          "name": "Mahmuda Khatun",
+          "affiliations": []
+        },
+        {
+          "name": "Gias Uddin",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.35403",
+      "title": "NeSySpec: Neuro-Symbolic Technical Intelligence for Auditing Engineering Specifications with an Application to Aircraft",
+      "abstract": "Engineers who audit a declared specification of an engineered system need to know which physical constraints it respects, which it violates, which field was altered and how to correct it. NeSySpec is an integrated and interpretable neuro-symbolic audit framework, built on Logic Tensor Networks, that answers these questions in one pipeline. Its axioms encode the physical relations of the domain as differentiable graded predicates whose tolerances are learned from a fleet of real records; from the same degrees, it diagnoses the violated constraint, identifies the altered field by abduction, proposes a minimum-change correction and ties image evidence to the parts it describes, abstaining exactly where evidence is missing, and returns all of it in one verification report. We validate NeSySpec on 107 aircraft types, with 16 test aircraft of 9 families held out of training, on specification records paired with ground photographs and satellite imagery and on synthetic errors: generated corruptions, edits labeled from the edit alone and deliberate falsifications. NeSySpec combines all the assessed audit outputs in one pipeline, which no learned, rule-based, solver-based, neuro-symbolic or language-model comparator does; on the test aircraft none is ahead of it in the macro-F1 of its constraint verdicts, in naming the violated constraint and the altered field or in the repair error, and it is competitive in record and image-pair detection. Its diagnosis names the violated constraint in 94.2% of corrupted test records, against 79.5% for classical Fellegi-Holt diagnosis, and on edits labeled from the edit alone, without retraining, abduction finds the altered field in 59.3% of records, against 30.6% for minimum-cardinality localization with random tie- breaking. Only the knowledge base, the visual predicates, the corruption generator and the data are specific to the domain.",
+      "authors": [
+        "Pier Mattia Basciano",
+        "Gianvito Antenori",
+        "Cristiano Andolfi",
+        "Giovanni Farina",
+        "Salvatore Monteleone"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Pier Mattia Basciano",
+          "authorEntityId": "author:81e3f2b7b9775267",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Pier Mattia Basciano",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Gianvito Antenori",
+          "authorEntityId": "author:a31fb190b2e3f764",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Gianvito Antenori",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Cristiano Andolfi",
+          "authorEntityId": "author:1e59477a87c06969",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Cristiano Andolfi",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Giovanni Farina",
+          "authorEntityId": "author:a590b19683c9fcb4",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Giovanni Farina",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Salvatore Monteleone",
+          "authorEntityId": "author:fb7a7d30ad2064c3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Salvatore Monteleone",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.SC"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.35403",
+      "pdfUrl": "https://arxiv.org/pdf/2610.35403",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.35403",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:ac6a37463146a08b",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Pier Mattia Basciano",
+        "Gianvito Antenori",
+        "Cristiano Andolfi",
+        "Giovanni Farina",
+        "Salvatore Monteleone"
+      ],
+      "authorEntityIds": [
+        "author:81e3f2b7b9775267",
+        "author:a31fb190b2e3f764",
+        "author:1e59477a87c06969",
+        "author:a590b19683c9fcb4",
+        "author:fb7a7d30ad2064c3"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Pier Mattia Basciano",
+          "affiliations": []
+        },
+        {
+          "name": "Gianvito Antenori",
+          "affiliations": []
+        },
+        {
+          "name": "Cristiano Andolfi",
+          "affiliations": []
+        },
+        {
+          "name": "Giovanni Farina",
+          "affiliations": []
+        },
+        {
+          "name": "Salvatore Monteleone",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.34094",
+      "title": "From Document Layout to Causal Topology: An End-to-End Architecture for Temporal Causal Reasoning",
+      "abstract": "Large language models (LLMs) generally lack deep causal reasoning capabilities in temporal reasoning. Inspired by document layout reordering, this paper proposes a paradigm shift from discrete narratives to causal topologies. It constructs two architectures: a training-free neuro-symbolic framework, temporal causal reasoning agent (TCR-Agent), which achieves interpretable causal deduction and counterfactual truncation through external causal graph instantiation and a symbolic intervention engine; and an end-to-end model, temporal causal reasoning former (TCR-Former), which internalizes these mechanisms into the Transformer attention space via a Causal-Topological Attention Mask and temporal span biases. Experiments on the TempoCausal benchmark demonstrate that TCR-Agent comprehensively surpasses existing training-free baselines. At the same time, TCR-Former achieves an accuracy 16.5% higher than that of state-of-the-art (SOTA) methods, outperforming large-scale models such as GPT-5.4 and DeepSeek-V3.2 with only approximately 8.6B parameters. Further analysis reveals a structure-reasoning disconnection phenomenon in existing methods: external symbolic constraints and chain-of-thought reasoning can improve reasoning steps, yet fail to enhance deep causal deductive capability. By internalizing temporal causal reasoning capabilities into the model, TCR-Former effectively bridges this gap, providing an efficient and reliable end-to-end foundation for complex reasoning scenarios.",
+      "authors": [
+        "Zhifeng Yang",
+        "Wei Luo",
+        "Yongjian Chen",
+        "Shiqi Ou"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Zhifeng Yang",
+          "authorEntityId": "author:6142583246baf761",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zhifeng Yang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Wei Luo",
+          "authorEntityId": "author:3a7b1a883924bff2",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Wei Luo",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yongjian Chen",
+          "authorEntityId": "author:7c9ce1d924a9f3fc",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yongjian Chen",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Shiqi Ou",
+          "authorEntityId": "author:f282295bbae2a05e",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Shiqi Ou",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-25",
+      "url": "https://arxiv.org/abs/2610.34094",
+      "pdfUrl": "https://arxiv.org/pdf/2610.34094",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.34094",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:225b758be1d3bd8a",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Zhifeng Yang",
+        "Wei Luo",
+        "Yongjian Chen",
+        "Shiqi Ou"
+      ],
+      "authorEntityIds": [
+        "author:6142583246baf761",
+        "author:3a7b1a883924bff2",
+        "author:7c9ce1d924a9f3fc",
+        "author:f282295bbae2a05e"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Zhifeng Yang",
+          "affiliations": []
+        },
+        {
+          "name": "Wei Luo",
+          "affiliations": []
+        },
+        {
+          "name": "Yongjian Chen",
+          "affiliations": []
+        },
+        {
+          "name": "Shiqi Ou",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.33876",
+      "title": "FlashScript: Compiling Recurring Agent Workflows into Reusable Neuro-Symbolic Programs",
+      "abstract": "Many agent tasks recur with new data or small changes, yet agents regenerate their reasoning and actions on each run, producing different results. Distilling a prior run into a skill helps the agent avoid earlier mistakes, but it still re-runs the full process each time, so runs can vary and incur that cost. We compile a successful agent run into a reusable neuro-symbolic program (NSP) with a set of guidelines we call FlashScript. Actions and data transformations become code, instance-specific values become parameters, and decisions that need model judgment become LLM calls. We identify three layers where these calls belong and three techniques that replace most of them with code. The compilation does not remove nondeterminism; it localizes it, so the deterministic program and its neural calls can be reviewed and tested separately. Across 120 WorkBench analytics tasks with Claude Haiku 4.5, the NSPs were correct and made identical tool calls on every run, using about 70 times fewer input tokens and a third of the runtime of a skill-guided agent whose runs were inconsistent. In a composite version of the tasks, the skill-guided agent's accuracy fell to 23%, and its output inconsistency increased, while the NSPs remained correct and identical across all runs. The NSPs successfully generalized to all 108 unseen instances of the same templates. Our findings suggest that NSPs from agent trajectories can be considered cumulative software assets for end-users to test, maintain, and reuse in their recurring workflows.",
+      "authors": [
+        "Sadra Sabouri",
+        "Hosein Hasanbeig",
+        "Adam Sage",
+        "Shreya Sinha",
+        "Cale Darling",
+        "Ashish Tiwari",
+        "Katie Garms",
+        "Souti Chattopadhyay",
+        "Sumit Gulwani"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Sadra Sabouri",
+          "authorEntityId": "author:9d025fefd4f27151",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Sadra Sabouri",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Hosein Hasanbeig",
+          "authorEntityId": "author:d7c75a0feb4c3a83",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Hosein Hasanbeig",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Adam Sage",
+          "authorEntityId": "author:a3a10bdfea9c0129",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Adam Sage",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Shreya Sinha",
+          "authorEntityId": "author:9ae232dfe1eec046",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Shreya Sinha",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Cale Darling",
+          "authorEntityId": "author:e54f785f5f40a992",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Cale Darling",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ashish Tiwari",
+          "authorEntityId": "author:9bd41b9cf8aac885",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ashish Tiwari",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Katie Garms",
+          "authorEntityId": "author:059fb25f389949c5",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Katie Garms",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Souti Chattopadhyay",
+          "authorEntityId": "author:418b3fccc1211fa7",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Souti Chattopadhyay",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Sumit Gulwani",
+          "authorEntityId": "author:5a68ebf0d46197f1",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Sumit Gulwani",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.HC",
+        "cs.AI",
+        "cs.SE"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-24",
+      "url": "https://arxiv.org/abs/2610.33876",
+      "pdfUrl": "https://arxiv.org/pdf/2610.33876",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.33876",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:81a8ff242d099e20",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Sadra Sabouri",
+        "Hosein Hasanbeig",
+        "Adam Sage",
+        "Shreya Sinha",
+        "Cale Darling",
+        "Ashish Tiwari",
+        "Katie Garms",
+        "Souti Chattopadhyay",
+        "Sumit Gulwani"
+      ],
+      "authorEntityIds": [
+        "author:9d025fefd4f27151",
+        "author:d7c75a0feb4c3a83",
+        "author:a3a10bdfea9c0129",
+        "author:9ae232dfe1eec046",
+        "author:e54f785f5f40a992",
+        "author:9bd41b9cf8aac885",
+        "author:059fb25f389949c5",
+        "author:418b3fccc1211fa7",
+        "author:5a68ebf0d46197f1"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Sadra Sabouri",
+          "affiliations": []
+        },
+        {
+          "name": "Hosein Hasanbeig",
+          "affiliations": []
+        },
+        {
+          "name": "Adam Sage",
+          "affiliations": []
+        },
+        {
+          "name": "Shreya Sinha",
+          "affiliations": []
+        },
+        {
+          "name": "Cale Darling",
+          "affiliations": []
+        },
+        {
+          "name": "Ashish Tiwari",
+          "affiliations": []
+        },
+        {
+          "name": "Katie Garms",
+          "affiliations": []
+        },
+        {
+          "name": "Souti Chattopadhyay",
+          "affiliations": []
+        },
+        {
+          "name": "Sumit Gulwani",
           "affiliations": []
         }
       ]

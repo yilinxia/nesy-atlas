@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-10-26T18:05:40.578Z",
-  "cursorAt": "2026-10-26T18:05:40.578Z",
+  "generatedAt": "2026-10-27T17:17:37.248Z",
+  "cursorAt": "2026-10-27T17:17:37.248Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-10-25T15:25:13.626Z",
   "keywords": [
@@ -15,11 +15,276 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-10-25T15:25:13.626Z",
-  "windowStart": "2026-10-18T15:25:13.626Z",
+  "previousSnapshotAt": "2026-10-26T18:05:40.578Z",
+  "windowStart": "2026-10-19T18:05:40.578Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2610.35523",
+    "title": "Ranking Function Generation with LLMs for Termination",
+    "abstract": "Ranking functions are a fundamental technique for proving loop termination, but constructing them manually is challenging and requires substantial expertise. We propose RAINFALL, a neuro-symbolic framework which follows the generate-verify-refine paradigm and tightly integrates LLMs with symbolic verification. RAINFALL formulates ranking function synthesis as a code-completion task by inserting placeholders into the input program and constraining the LLM to fill four predefined slots for each loop. The completed program is then checked by a symbolic verifier. If verification succeeds, a valid ranking function is obtained; otherwise, the verifier's diagnostics are translated into natural-language feedback that guides iterative refinement of the LLM's output. We evaluate RAINFALL on two public benchmark suites comprising 358 terminating C programs. Using MiniMax V2.7, RAINFALL synthesizes verifiable ranking functions for 323 programs (90.22%), outperforming all promising baselines. In particular, it solves 12 more programs than PROTON 2.1, the best-performing baseline and winner of the SV-COMP 2026 Termination category. Furthermore, combining RAINFALL with PROTON 2.1 increases the success rate to 96.65% (346/358 programs). We also conduct ablation study confirming individual contributions of placeholder contracts, few-shot examples, symbolic verification, and diagnostic information feedback. Experiments across LLMs further confirm the effectiveness of RAINFALL. Our results suggest a generic, sound framework for ranking-function synthesis and, beyond termination, LLM-assisted synthesis of formally checkable liveness certificates, both of which represent new directions of software engineering research.",
+    "authors": [
+      "Rongkang Li",
+      "Jiaxin Hu",
+      "Taolue Chen",
+      "Yong Li",
+      "Fu Song",
+      "Zhilin Wu"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Rongkang Li",
+        "affiliations": []
+      },
+      {
+        "name": "Jiaxin Hu",
+        "affiliations": []
+      },
+      {
+        "name": "Taolue Chen",
+        "affiliations": []
+      },
+      {
+        "name": "Yong Li",
+        "affiliations": []
+      },
+      {
+        "name": "Fu Song",
+        "affiliations": []
+      },
+      {
+        "name": "Zhilin Wu",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-26",
+    "updated": "2026-10-26",
+    "categories": [
+      "cs.SE",
+      "cs.AI",
+      "cs.LO"
+    ],
+    "primaryCategory": "cs.SE",
+    "url": "https://arxiv.org/abs/2610.35523",
+    "pdfUrl": "https://arxiv.org/pdf/2610.35523",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.35477",
+    "title": "Making Small Code LLMs More Efficient for Secure Code Review with Neuro-Symbolic Fine-Tuning",
+    "abstract": "As AI coding assistants generate more code, the need to review it for security flaws grows. Existing approaches leave a gap: static analyzers identify program sites but offer little explanation, while language-model explanations can be difficult to verify. Small open-weight code models could make security review available without sending proprietary code to a hosted service. We study whether fine-tuning helps these models turn security evidence into explanations that developers and tools can check. We present secSemScan, which pairs a static analyzer with a locally deployable model that writes a schema-constrained security monologue naming program sites, assigning a CWE, and giving a machine-parseable verdict. We also introduce OGSM (Oracle-Grounded Security Monologue), a dataset of 1,993 C/C\\texttt{++} functions covering 22 CWEs in the taint and lifetime families. Each record pairs a function with analyzer-derived or fix-diff-derived evidence and a monologue. We fine-tune three open-weight code models in two stages, first on the output format and then on the monologue content. Because evaluation prompts supply the verdict and evidence, our results measure how well models use that information, not whether they detect vulnerabilities independently. On 355 test records, fine-tuning raised Qwen2.5-Coder-7B's verdict accuracy from 4.8\\% to 96.6\\%; DeepSeek-Coder-6.7B reached 78.9\\%, and StarCoder2-7B reached 43.7\\%. Qwen2.5-Coder-7B cited 87.5\\% of Tier~1 oracle sites, and every line it cited belonged to the oracle evidence. The results suggest that fine-tuning helps small models produce more structured, evidence-linked security reasoning.",
+    "authors": [
+      "Mostafijur Rahman Akhond",
+      "Mahmuda Khatun",
+      "Gias Uddin"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Mostafijur Rahman Akhond",
+        "affiliations": []
+      },
+      {
+        "name": "Mahmuda Khatun",
+        "affiliations": []
+      },
+      {
+        "name": "Gias Uddin",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-26",
+    "updated": "2026-10-26",
+    "categories": [
+      "cs.SE"
+    ],
+    "primaryCategory": "cs.SE",
+    "url": "https://arxiv.org/abs/2610.35477",
+    "pdfUrl": "https://arxiv.org/pdf/2610.35477",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": []
+    }
+  },
+  {
+    "id": "2610.35403",
+    "title": "NeSySpec: Neuro-Symbolic Technical Intelligence for Auditing Engineering Specifications with an Application to Aircraft",
+    "abstract": "Engineers who audit a declared specification of an engineered system need to know which physical constraints it respects, which it violates, which field was altered and how to correct it. NeSySpec is an integrated and interpretable neuro-symbolic audit framework, built on Logic Tensor Networks, that answers these questions in one pipeline. Its axioms encode the physical relations of the domain as differentiable graded predicates whose tolerances are learned from a fleet of real records; from the same degrees, it diagnoses the violated constraint, identifies the altered field by abduction, proposes a minimum-change correction and ties image evidence to the parts it describes, abstaining exactly where evidence is missing, and returns all of it in one verification report. We validate NeSySpec on 107 aircraft types, with 16 test aircraft of 9 families held out of training, on specification records paired with ground photographs and satellite imagery and on synthetic errors: generated corruptions, edits labeled from the edit alone and deliberate falsifications. NeSySpec combines all the assessed audit outputs in one pipeline, which no learned, rule-based, solver-based, neuro-symbolic or language-model comparator does; on the test aircraft none is ahead of it in the macro-F1 of its constraint verdicts, in naming the violated constraint and the altered field or in the repair error, and it is competitive in record and image-pair detection. Its diagnosis names the violated constraint in 94.2% of corrupted test records, against 79.5% for classical Fellegi-Holt diagnosis, and on edits labeled from the edit alone, without retraining, abduction finds the altered field in 59.3% of records, against 30.6% for minimum-cardinality localization with random tie- breaking. Only the knowledge base, the visual predicates, the corruption generator and the data are specific to the domain.",
+    "authors": [
+      "Pier Mattia Basciano",
+      "Gianvito Antenori",
+      "Cristiano Andolfi",
+      "Giovanni Farina",
+      "Salvatore Monteleone"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Pier Mattia Basciano",
+        "affiliations": []
+      },
+      {
+        "name": "Gianvito Antenori",
+        "affiliations": []
+      },
+      {
+        "name": "Cristiano Andolfi",
+        "affiliations": []
+      },
+      {
+        "name": "Giovanni Farina",
+        "affiliations": []
+      },
+      {
+        "name": "Salvatore Monteleone",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-26",
+    "updated": "2026-10-26",
+    "categories": [
+      "cs.AI",
+      "cs.CV",
+      "cs.SC"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2610.35403",
+    "pdfUrl": "https://arxiv.org/pdf/2610.35403",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.34094",
+    "title": "From Document Layout to Causal Topology: An End-to-End Architecture for Temporal Causal Reasoning",
+    "abstract": "Large language models (LLMs) generally lack deep causal reasoning capabilities in temporal reasoning. Inspired by document layout reordering, this paper proposes a paradigm shift from discrete narratives to causal topologies. It constructs two architectures: a training-free neuro-symbolic framework, temporal causal reasoning agent (TCR-Agent), which achieves interpretable causal deduction and counterfactual truncation through external causal graph instantiation and a symbolic intervention engine; and an end-to-end model, temporal causal reasoning former (TCR-Former), which internalizes these mechanisms into the Transformer attention space via a Causal-Topological Attention Mask and temporal span biases. Experiments on the TempoCausal benchmark demonstrate that TCR-Agent comprehensively surpasses existing training-free baselines. At the same time, TCR-Former achieves an accuracy 16.5% higher than that of state-of-the-art (SOTA) methods, outperforming large-scale models such as GPT-5.4 and DeepSeek-V3.2 with only approximately 8.6B parameters. Further analysis reveals a structure-reasoning disconnection phenomenon in existing methods: external symbolic constraints and chain-of-thought reasoning can improve reasoning steps, yet fail to enhance deep causal deductive capability. By internalizing temporal causal reasoning capabilities into the model, TCR-Former effectively bridges this gap, providing an efficient and reliable end-to-end foundation for complex reasoning scenarios.",
+    "authors": [
+      "Zhifeng Yang",
+      "Wei Luo",
+      "Yongjian Chen",
+      "Shiqi Ou"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Zhifeng Yang",
+        "affiliations": []
+      },
+      {
+        "name": "Wei Luo",
+        "affiliations": []
+      },
+      {
+        "name": "Yongjian Chen",
+        "affiliations": []
+      },
+      {
+        "name": "Shiqi Ou",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-25",
+    "updated": "2026-10-25",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2610.34094",
+    "pdfUrl": "https://arxiv.org/pdf/2610.34094",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.33876",
+    "title": "FlashScript: Compiling Recurring Agent Workflows into Reusable Neuro-Symbolic Programs",
+    "abstract": "Many agent tasks recur with new data or small changes, yet agents regenerate their reasoning and actions on each run, producing different results. Distilling a prior run into a skill helps the agent avoid earlier mistakes, but it still re-runs the full process each time, so runs can vary and incur that cost. We compile a successful agent run into a reusable neuro-symbolic program (NSP) with a set of guidelines we call FlashScript. Actions and data transformations become code, instance-specific values become parameters, and decisions that need model judgment become LLM calls. We identify three layers where these calls belong and three techniques that replace most of them with code. The compilation does not remove nondeterminism; it localizes it, so the deterministic program and its neural calls can be reviewed and tested separately. Across 120 WorkBench analytics tasks with Claude Haiku 4.5, the NSPs were correct and made identical tool calls on every run, using about 70 times fewer input tokens and a third of the runtime of a skill-guided agent whose runs were inconsistent. In a composite version of the tasks, the skill-guided agent's accuracy fell to 23%, and its output inconsistency increased, while the NSPs remained correct and identical across all runs. The NSPs successfully generalized to all 108 unseen instances of the same templates. Our findings suggest that NSPs from agent trajectories can be considered cumulative software assets for end-users to test, maintain, and reuse in their recurring workflows.",
+    "authors": [
+      "Sadra Sabouri",
+      "Hosein Hasanbeig",
+      "Adam Sage",
+      "Shreya Sinha",
+      "Cale Darling",
+      "Ashish Tiwari",
+      "Katie Garms",
+      "Souti Chattopadhyay",
+      "Sumit Gulwani"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Sadra Sabouri",
+        "affiliations": []
+      },
+      {
+        "name": "Hosein Hasanbeig",
+        "affiliations": []
+      },
+      {
+        "name": "Adam Sage",
+        "affiliations": []
+      },
+      {
+        "name": "Shreya Sinha",
+        "affiliations": []
+      },
+      {
+        "name": "Cale Darling",
+        "affiliations": []
+      },
+      {
+        "name": "Ashish Tiwari",
+        "affiliations": []
+      },
+      {
+        "name": "Katie Garms",
+        "affiliations": []
+      },
+      {
+        "name": "Souti Chattopadhyay",
+        "affiliations": []
+      },
+      {
+        "name": "Sumit Gulwani",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-24",
+    "updated": "2026-10-24",
+    "categories": [
+      "cs.HC",
+      "cs.AI",
+      "cs.SE"
+    ],
+    "primaryCategory": "cs.HC",
+    "url": "https://arxiv.org/abs/2610.33876",
+    "pdfUrl": "https://arxiv.org/pdf/2610.33876",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2610.31506",
     "title": "FairFRESH: A Neuro-Symbolic Framework for Fair and Explainable Household Food Recommendation",
