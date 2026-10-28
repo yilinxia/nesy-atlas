@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T17:17:37.785Z",
+  "generatedAt": "2026-10-28T17:47:02.075Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1874,
+  "paperCount": 1876,
   "completeMetadataCount": 1369,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1569
+      "count": 1571
     },
     {
       "id": "nesy-proceedings",
@@ -297,7 +297,7 @@
         "aliases": [
           "Kristian Kersting"
         ],
-        "paperCount": 26,
+        "paperCount": 27,
         "institutionIds": [
           "institution:11591cc112c8c577",
           "institution:36c401a3c72be9ea",
@@ -809,6 +809,23 @@
         ]
       },
       {
+        "id": "author:c4e0325f0938c827",
+        "name": "Quentin Delfosse",
+        "aliases": [
+          "Quentin Delfosse"
+        ],
+        "paperCount": 8,
+        "institutionIds": [
+          "institution:11591cc112c8c577",
+          "institution:36c401a3c72be9ea",
+          "institution:587790e22a0ecf0c",
+          "institution:7d39921202b9ef4f",
+          "institution:97be9a530d78bd2d",
+          "institution:99fc4c2921753ab6",
+          "institution:a36e569be9f1a02f"
+        ]
+      },
+      {
         "id": "author:6fc1001c38d7e95f",
         "name": "Robert Hoehndorf",
         "aliases": [
@@ -1077,23 +1094,6 @@
           "institution:58ba540bf04e9b62",
           "institution:a55a77635edc8711",
           "institution:a6aef4cad6ce501b"
-        ]
-      },
-      {
-        "id": "author:c4e0325f0938c827",
-        "name": "Quentin Delfosse",
-        "aliases": [
-          "Quentin Delfosse"
-        ],
-        "paperCount": 7,
-        "institutionIds": [
-          "institution:11591cc112c8c577",
-          "institution:36c401a3c72be9ea",
-          "institution:587790e22a0ecf0c",
-          "institution:7d39921202b9ef4f",
-          "institution:97be9a530d78bd2d",
-          "institution:99fc4c2921753ab6",
-          "institution:a36e569be9f1a02f"
         ]
       },
       {
@@ -2425,6 +2425,20 @@
         "paperCount": 4,
         "institutionIds": [
           "institution:08095be2864aeff7"
+        ]
+      },
+      {
+        "id": "author:87e5eb273fbf9d26",
+        "name": "Jannis Blüml",
+        "aliases": [
+          "Jannis Blüml"
+        ],
+        "paperCount": 4,
+        "institutionIds": [
+          "institution:11591cc112c8c577",
+          "institution:423d62388e154a7e",
+          "institution:97be9a530d78bd2d",
+          "institution:99d058378724c01d"
         ]
       },
       {
@@ -4069,20 +4083,6 @@
         ]
       },
       {
-        "id": "author:87e5eb273fbf9d26",
-        "name": "Jannis Blüml",
-        "aliases": [
-          "Jannis Blüml"
-        ],
-        "paperCount": 3,
-        "institutionIds": [
-          "institution:11591cc112c8c577",
-          "institution:423d62388e154a7e",
-          "institution:97be9a530d78bd2d",
-          "institution:99d058378724c01d"
-        ]
-      },
-      {
         "id": "author:9ce94a19978a3e18",
         "name": "Jason Liu",
         "aliases": [
@@ -4917,6 +4917,19 @@
         ],
         "paperCount": 3,
         "institutionIds": []
+      },
+      {
+        "id": "author:be665854ac57fd52",
+        "name": "Raban Emunds",
+        "aliases": [
+          "Raban Emunds"
+        ],
+        "paperCount": 3,
+        "institutionIds": [
+          "institution:11591cc112c8c577",
+          "institution:97be9a530d78bd2d",
+          "institution:99d058378724c01d"
+        ]
       },
       {
         "id": "author:80a04e473f7a031d",
@@ -10432,19 +10445,6 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:9bfd678a766e8b50"
-        ]
-      },
-      {
-        "id": "author:be665854ac57fd52",
-        "name": "Raban Emunds",
-        "aliases": [
-          "Raban Emunds"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:11591cc112c8c577",
-          "institution:97be9a530d78bd2d",
-          "institution:99d058378724c01d"
         ]
       },
       {
@@ -16717,6 +16717,15 @@
         "name": "Andrei Buliga",
         "aliases": [
           "Andrei Buliga"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:565b62395aab7f2e",
+        "name": "Andrei C. Coman",
+        "aliases": [
+          "Andrei C. Coman"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -23480,6 +23489,15 @@
         ]
       },
       {
+        "id": "author:6b2144421131b547",
+        "name": "Davide Calvaresi",
+        "aliases": [
+          "Davide Calvaresi"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:0281bc47908b0651",
         "name": "Davide Colaiacomo",
         "aliases": [
@@ -25245,6 +25263,15 @@
         "institutionIds": [
           "institution:0008285766dcabc7"
         ]
+      },
+      {
+        "id": "author:8c35fd60fa535eb3",
+        "name": "Elia Pacioni",
+        "aliases": [
+          "Elia Pacioni"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:63682df41e124600",
@@ -27271,6 +27298,15 @@
           "institution:781afa4ed50a74b8",
           "institution:d5e3b6658d01daa4"
         ]
+      },
+      {
+        "id": "author:69a49cec23578f77",
+        "name": "Gaetano Manzo",
+        "aliases": [
+          "Gaetano Manzo"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:49b86dd9fc83467b",
@@ -31935,6 +31971,15 @@
         "institutionIds": [
           "institution:1ba4ddc6758a80c0"
         ]
+      },
+      {
+        "id": "author:9820c9cc101feb1d",
+        "name": "Ismael Jaggi",
+        "aliases": [
+          "Ismael Jaggi"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:78f7fd762afd6c04",
@@ -43343,6 +43388,15 @@
         "name": "Michael Hopko",
         "aliases": [
           "Michael Hopko"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:7dcd499dd9ea7060",
+        "name": "Michael Ignaz Schumacher",
+        "aliases": [
+          "Michael Ignaz Schumacher"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -58826,6 +58880,15 @@
         "institutionIds": [
           "institution:7801abc579496f6a"
         ]
+      },
+      {
+        "id": "author:b743775a2c0fa661",
+        "name": "Valerio Crocetti",
+        "aliases": [
+          "Valerio Crocetti"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:4ebb239335794b88",
@@ -381024,6 +381087,267 @@
         },
         {
           "name": "Sumit Gulwani",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.37451",
+      "title": "Interpretable Meta-Policies for Neural Decision Making",
+      "abstract": "Deep Reinforcement Learning remains difficult to interpret and align due to the black-box nature of neural networks. While (neuro-)symbolic approaches improve transparency by incorporating symbolic reasoning, applying them directly to low-level actions results in overly complex, unreadable policies. We introduce NEXUS, a hierarchical RL framework that resolves this tension by combining neural skills with symbolic meta-policies. By shifting transparent reasoning to high-level skills rather than atomic actions, NEXUS drastically reduces symbolic complexity without sacrificing environment performance. Object-centric observations enable high-level reasoning and the design of reward functions and meta-policies by interaction with LLMs. We demonstrate that NEXUS agents learn disentangled skills, are interpretable regarding high-level goals, are better aligned to goals described in the game manual, less prone to reward hacking and more robust to game simplifications than deep RL. Finally, we isolate and evaluate the impact of different meta-policy architectures (neural, symbolic, neuro-symbolic) on environmental return and aligned task performance.",
+      "authors": [
+        "Raban Emunds",
+        "Jannis Blüml",
+        "Quentin Delfosse",
+        "Kristian Kersting"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Raban Emunds",
+          "authorEntityId": "author:be665854ac57fd52",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Raban Emunds",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jannis Blüml",
+          "authorEntityId": "author:87e5eb273fbf9d26",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jannis Blüml",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Quentin Delfosse",
+          "authorEntityId": "author:c4e0325f0938c827",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Quentin Delfosse",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Kristian Kersting",
+          "authorEntityId": "author:b5e4080501f3c8fa",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Kristian Kersting",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-27",
+      "url": "https://arxiv.org/abs/2610.37451",
+      "pdfUrl": "https://arxiv.org/pdf/2610.37451",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.37451",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:efcc71725d7b00bf",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Raban Emunds",
+        "Jannis Blüml",
+        "Quentin Delfosse",
+        "Kristian Kersting"
+      ],
+      "authorEntityIds": [
+        "author:be665854ac57fd52",
+        "author:87e5eb273fbf9d26",
+        "author:c4e0325f0938c827",
+        "author:b5e4080501f3c8fa"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Raban Emunds",
+          "affiliations": []
+        },
+        {
+          "name": "Jannis Blüml",
+          "affiliations": []
+        },
+        {
+          "name": "Quentin Delfosse",
+          "affiliations": []
+        },
+        {
+          "name": "Kristian Kersting",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.36221",
+      "title": "EREBOTS 4.0: A framework for conversational assistants with A2A agents and MCP tools",
+      "abstract": "In recent years, multi-agent systems have shifted from rule-based, symbolic agents to sub-symbolic agents built on language models. However, several limitations remain unresolved. The new frontier is neuro-symbolic agents, which pair language models with deterministic tools and explicit protocols. Without a common framework to standardize and compose them, each study rebuilds the same infrastructure, and results are hard to replicate. This paper presents EREBOTS 4.0, an open-source, hybrid-AI, multi-agent framework that fills this gap for conversational assistants. Language-model agents plan and route requests, while deterministic tools compute exact results over the Model Context Protocol (MCP). An orchestrator selects one or more specialist agents per turn and calls them over the Agent2Agent protocol (A2A). A new agent, local or remote, is added by listing its URL in a configuration file. The framework also manages identity, user context with consent flags, task states and traces. Its A2A server passed 97 tracked requirements in the official A2A Technology Compatibility Kit, with no failures.",
+      "authors": [
+        "Elia Pacioni",
+        "Davide Calvaresi",
+        "Andrei C. Coman",
+        "Ismael Jaggi",
+        "Valerio Crocetti",
+        "Gaetano Manzo",
+        "Michael Ignaz Schumacher"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Elia Pacioni",
+          "authorEntityId": "author:8c35fd60fa535eb3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Elia Pacioni",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Davide Calvaresi",
+          "authorEntityId": "author:6b2144421131b547",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Davide Calvaresi",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Andrei C. Coman",
+          "authorEntityId": "author:565b62395aab7f2e",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Andrei C. Coman",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ismael Jaggi",
+          "authorEntityId": "author:9820c9cc101feb1d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ismael Jaggi",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Valerio Crocetti",
+          "authorEntityId": "author:b743775a2c0fa661",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Valerio Crocetti",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Gaetano Manzo",
+          "authorEntityId": "author:69a49cec23578f77",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Gaetano Manzo",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Michael Ignaz Schumacher",
+          "authorEntityId": "author:7dcd499dd9ea7060",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Michael Ignaz Schumacher",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.MA"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-26",
+      "url": "https://arxiv.org/abs/2610.36221",
+      "pdfUrl": "https://arxiv.org/pdf/2610.36221",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.36221",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:5d56cd7e7731762d",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Elia Pacioni",
+        "Davide Calvaresi",
+        "Andrei C. Coman",
+        "Ismael Jaggi",
+        "Valerio Crocetti",
+        "Gaetano Manzo",
+        "Michael Ignaz Schumacher"
+      ],
+      "authorEntityIds": [
+        "author:8c35fd60fa535eb3",
+        "author:6b2144421131b547",
+        "author:565b62395aab7f2e",
+        "author:9820c9cc101feb1d",
+        "author:b743775a2c0fa661",
+        "author:69a49cec23578f77",
+        "author:7dcd499dd9ea7060"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Elia Pacioni",
+          "affiliations": []
+        },
+        {
+          "name": "Davide Calvaresi",
+          "affiliations": []
+        },
+        {
+          "name": "Andrei C. Coman",
+          "affiliations": []
+        },
+        {
+          "name": "Ismael Jaggi",
+          "affiliations": []
+        },
+        {
+          "name": "Valerio Crocetti",
+          "affiliations": []
+        },
+        {
+          "name": "Gaetano Manzo",
+          "affiliations": []
+        },
+        {
+          "name": "Michael Ignaz Schumacher",
           "affiliations": []
         }
       ]

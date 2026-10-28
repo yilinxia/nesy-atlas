@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-10-27T17:17:37.248Z",
-  "cursorAt": "2026-10-27T17:17:37.248Z",
+  "generatedAt": "2026-10-28T17:47:01.358Z",
+  "cursorAt": "2026-10-28T17:47:01.358Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-10-25T15:25:13.626Z",
   "keywords": [
@@ -15,11 +15,114 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-10-26T18:05:40.578Z",
-  "windowStart": "2026-10-19T18:05:40.578Z",
+  "previousSnapshotAt": "2026-10-27T17:17:37.248Z",
+  "windowStart": "2026-10-20T17:17:37.248Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2610.37451",
+    "title": "Interpretable Meta-Policies for Neural Decision Making",
+    "abstract": "Deep Reinforcement Learning remains difficult to interpret and align due to the black-box nature of neural networks. While (neuro-)symbolic approaches improve transparency by incorporating symbolic reasoning, applying them directly to low-level actions results in overly complex, unreadable policies. We introduce NEXUS, a hierarchical RL framework that resolves this tension by combining neural skills with symbolic meta-policies. By shifting transparent reasoning to high-level skills rather than atomic actions, NEXUS drastically reduces symbolic complexity without sacrificing environment performance. Object-centric observations enable high-level reasoning and the design of reward functions and meta-policies by interaction with LLMs. We demonstrate that NEXUS agents learn disentangled skills, are interpretable regarding high-level goals, are better aligned to goals described in the game manual, less prone to reward hacking and more robust to game simplifications than deep RL. Finally, we isolate and evaluate the impact of different meta-policy architectures (neural, symbolic, neuro-symbolic) on environmental return and aligned task performance.",
+    "authors": [
+      "Raban Emunds",
+      "Jannis Blüml",
+      "Quentin Delfosse",
+      "Kristian Kersting"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Raban Emunds",
+        "affiliations": []
+      },
+      {
+        "name": "Jannis Blüml",
+        "affiliations": []
+      },
+      {
+        "name": "Quentin Delfosse",
+        "affiliations": []
+      },
+      {
+        "name": "Kristian Kersting",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-27",
+    "updated": "2026-10-27",
+    "categories": [
+      "cs.LG"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2610.37451",
+    "pdfUrl": "https://arxiv.org/pdf/2610.37451",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.36221",
+    "title": "EREBOTS 4.0: A framework for conversational assistants with A2A agents and MCP tools",
+    "abstract": "In recent years, multi-agent systems have shifted from rule-based, symbolic agents to sub-symbolic agents built on language models. However, several limitations remain unresolved. The new frontier is neuro-symbolic agents, which pair language models with deterministic tools and explicit protocols. Without a common framework to standardize and compose them, each study rebuilds the same infrastructure, and results are hard to replicate. This paper presents EREBOTS 4.0, an open-source, hybrid-AI, multi-agent framework that fills this gap for conversational assistants. Language-model agents plan and route requests, while deterministic tools compute exact results over the Model Context Protocol (MCP). An orchestrator selects one or more specialist agents per turn and calls them over the Agent2Agent protocol (A2A). A new agent, local or remote, is added by listing its URL in a configuration file. The framework also manages identity, user context with consent flags, task states and traces. Its A2A server passed 97 tracked requirements in the official A2A Technology Compatibility Kit, with no failures.",
+    "authors": [
+      "Elia Pacioni",
+      "Davide Calvaresi",
+      "Andrei C. Coman",
+      "Ismael Jaggi",
+      "Valerio Crocetti",
+      "Gaetano Manzo",
+      "Michael Ignaz Schumacher"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Elia Pacioni",
+        "affiliations": []
+      },
+      {
+        "name": "Davide Calvaresi",
+        "affiliations": []
+      },
+      {
+        "name": "Andrei C. Coman",
+        "affiliations": []
+      },
+      {
+        "name": "Ismael Jaggi",
+        "affiliations": []
+      },
+      {
+        "name": "Valerio Crocetti",
+        "affiliations": []
+      },
+      {
+        "name": "Gaetano Manzo",
+        "affiliations": []
+      },
+      {
+        "name": "Michael Ignaz Schumacher",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-26",
+    "updated": "2026-10-26",
+    "categories": [
+      "cs.MA"
+    ],
+    "primaryCategory": "cs.MA",
+    "url": "https://arxiv.org/abs/2610.36221",
+    "pdfUrl": "https://arxiv.org/pdf/2610.36221",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2610.35523",
     "title": "Ranking Function Generation with LLMs for Termination",
