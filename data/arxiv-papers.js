@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-10-29T17:54:44.117Z",
-  "cursorAt": "2026-10-29T17:54:44.117Z",
+  "generatedAt": "2026-10-30T17:36:54.076Z",
+  "cursorAt": "2026-10-30T17:36:54.076Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-10-25T15:25:13.626Z",
   "keywords": [
@@ -15,11 +15,282 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-10-28T17:47:01.358Z",
-  "windowStart": "2026-10-21T17:47:01.358Z",
+  "previousSnapshotAt": "2026-10-29T17:54:44.117Z",
+  "windowStart": "2026-10-22T17:54:44.117Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2610.40632",
+    "title": "SymAnt: Grounding Long-Horizon Action Anticipation with Adaptable Symbolic Priors",
+    "abstract": "As robots and intelligent systems increasingly interact with humans, they must anticipate long sequences of future actions from only brief observations. While purely neural models typically require extensive observations to predict future actions and remain difficult to interpret and adjust, symbolic priors offer a structured alternative. To this end, we introduce SymAnt, a novel neuro-symbolic approach that unifies the expressiveness of neural networks with the structured reasoning of scene and knowledge graphs. Given a short video, SymAnt performs a joint-search over both graphs to construct a symbolic context, enabling unified reasoning over spatial relationships, object attributes, affordances, and associated actions. This symbolic context serves as a prior for an iterative refinement process that progressively generates and improves the sequence of future actions. By grounding predictions in symbolic context, SymAnt anticipates long-horizon actions from short observation windows in a parameter-efficient manner, while enabling users to directly edit the underlying knowledge to adjust predictions without further training. Through our experiments, we demonstrate the effectiveness of SymAnt, particularly when only short observation contexts are available, across five diverse datasets: Breakfast, 50 Salads, EPIC-KITCHENS, EGTEA Gaze+, and Assembly101.",
+    "authors": [
+      "Fnu Aryan",
+      "Yaqi Xie",
+      "Joseph Campbell",
+      "Woojun Kim",
+      "Kwonjoon Lee",
+      "Hossein Nourkhiz Mahjoub",
+      "Ehsan Moradi-Pari",
+      "Katia Sycara",
+      "Simon Stepputtis"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Fnu Aryan",
+        "affiliations": []
+      },
+      {
+        "name": "Yaqi Xie",
+        "affiliations": []
+      },
+      {
+        "name": "Joseph Campbell",
+        "affiliations": []
+      },
+      {
+        "name": "Woojun Kim",
+        "affiliations": []
+      },
+      {
+        "name": "Kwonjoon Lee",
+        "affiliations": []
+      },
+      {
+        "name": "Hossein Nourkhiz Mahjoub",
+        "affiliations": []
+      },
+      {
+        "name": "Ehsan Moradi-Pari",
+        "affiliations": []
+      },
+      {
+        "name": "Katia Sycara",
+        "affiliations": []
+      },
+      {
+        "name": "Simon Stepputtis",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-29",
+    "updated": "2026-10-29",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primaryCategory": "cs.RO",
+    "url": "https://arxiv.org/abs/2610.40632",
+    "pdfUrl": "https://arxiv.org/pdf/2610.40632",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.40414",
+    "title": "Bridging Neural Representations and Symbolic Semantics in Audio Classification",
+    "abstract": "Deep audio classifiers can achieve strong predictive performance, but their hidden representations remain difficult to interpret. Existing audio explainability methods often focus on input-level attribution, such as waveform segments, spectrogram regions, or acoustic features, and provide limited insight into what hidden neurons encode. Interpreting hidden neurons at the concept level can provide a more meaningful view of what an audio model learns internally. This paper investigates whether hidden neurons in audio classifiers can be associated with human-understandable symbolic acoustic concepts. A model-agnostic neurosymbolic framework is presented for analyzing the final hidden layer of audio classifiers, containing 32 neurons, through symbolic concept induction. The framework is evaluated on two audio classification settings: music genre classification using GTZAN dataset and musical instrument classification using IRMAS dataset. Results show that several hidden neurons can be associated with meaningful induced concepts, and most confirmed neuron-concept pairs are statistically supported using the Mann-Whitney U test. These findings suggest that symbolic concept induction is a promising direction for explaining latent audio representations beyond input-level attribution.",
+    "authors": [
+      "Avishek Das",
+      "Pascal Hitzler"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Avishek Das",
+        "affiliations": []
+      },
+      {
+        "name": "Pascal Hitzler",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-29",
+    "updated": "2026-10-29",
+    "categories": [
+      "cs.SD",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.SD",
+    "url": "https://arxiv.org/abs/2610.40414",
+    "pdfUrl": "https://arxiv.org/pdf/2610.40414",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.40036",
+    "title": "Hybrid AI Patterns: Thirteen Ways to Couple Language Models with Rules, and How to Choose Among Them",
+    "abstract": "Language models handle text well, and rule engines give conclusions with proofs. Systems that combine the two are usually described by example, and the same coupling turns up under different names in agent frameworks, guardrail toolkits and neuro-symbolic research. This document defines thirteen patterns for coupling a language model with an executable rule language, in the catalogue form introduced for object-oriented design: intent, motivation, applicability, participants, collaborations, consequences, implementation, known uses and related patterns. Four patterns concern what crosses the boundary between model and rules, five who controls whom, three how the model takes part in the reasoning, and one how knowledge is kept over time. Five invariants hold for every combination, and five failure patterns name the couplings that break them. We relate the catalogue to published pattern catalogues and taxonomies of hybrid and neuro-symbolic systems and show where they overlap with it. A decision guide leads from a problem to a pattern. It rests on our measurements, including the cases in which a model alone did as well as the hybrid or better, and it reports what each design cost.",
+    "authors": [
+      "Siegfried Handschuh",
+      "Götz-Henrik Wiegand",
+      "Lorena Raichle"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Siegfried Handschuh",
+        "affiliations": []
+      },
+      {
+        "name": "Götz-Henrik Wiegand",
+        "affiliations": []
+      },
+      {
+        "name": "Lorena Raichle",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-29",
+    "updated": "2026-10-29",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2610.40036",
+    "pdfUrl": "https://arxiv.org/pdf/2610.40036",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.39547",
+    "title": "Assuring Learning-Enabled Cyber-Physical Systems with Foundation Models: A Neuro-Symbolic Agenda for Testing, Verification, and Runtime Assurance",
+    "abstract": "Learning-enabled cyber-physical systems (CPS), including autonomous vehicles and UAVs, increasingly incorporate foundation models, yet fragmented assurance practices provide insufficient support for system-level guarantees. We argue that restoring engineering control across stochastic neural, symbolic, and physical boundaries requires a shift from model-centric evaluation to system-level assurance. We introduce the Foundation Model Assurance Stack, connecting three directions: (i) neuro-symbolic architectures that constrain foundation models through explicit symbolic world models, reasoning layers, and interfaces; (ii) semantically grounded, conformance-based testing that combines formal specifications and symbolic world models with foundation-model-assisted specification mining, scenario generation, and test synthesis; and (iii) compositional verification and runtime assurance that target formally tractable components and interfaces through modular contracts, equivalence checking, verified synthesis, uncertainty-aware reasoning, and runtime monitoring and enforcement. Symbolic abstractions establish assurance boundaries between stochastic learning and formal reasoning, connecting testing, verification, and runtime evidence across the system lifecycle. Foundation models serve as constrained assistants whose outputs are independently checked wherever correctness can be formally specified. We identify research challenges in specification engineering, abstraction fidelity, evidence composition, and lifecycle certification, and outline a staged agenda toward trustworthy, deployable, and certifiable learning-enabled CPS.",
+    "authors": [
+      "Xi Zheng",
+      "Ivan Ruchkin",
+      "Hong Jin Kang",
+      "Tevfik Bultan",
+      "Vijay Ganesh",
+      "Taylor T. Johnson",
+      "Ziyang Li",
+      "Lei Ma",
+      "Aloysius K. Mok",
+      "Daniel Neider",
+      "Ruzica Piskac",
+      "Nalini Venkatasubramanian",
+      "Simon Thompson",
+      "Sanjoy Baruah"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Xi Zheng",
+        "affiliations": []
+      },
+      {
+        "name": "Ivan Ruchkin",
+        "affiliations": []
+      },
+      {
+        "name": "Hong Jin Kang",
+        "affiliations": []
+      },
+      {
+        "name": "Tevfik Bultan",
+        "affiliations": []
+      },
+      {
+        "name": "Vijay Ganesh",
+        "affiliations": []
+      },
+      {
+        "name": "Taylor T. Johnson",
+        "affiliations": []
+      },
+      {
+        "name": "Ziyang Li",
+        "affiliations": []
+      },
+      {
+        "name": "Lei Ma",
+        "affiliations": []
+      },
+      {
+        "name": "Aloysius K. Mok",
+        "affiliations": []
+      },
+      {
+        "name": "Daniel Neider",
+        "affiliations": []
+      },
+      {
+        "name": "Ruzica Piskac",
+        "affiliations": []
+      },
+      {
+        "name": "Nalini Venkatasubramanian",
+        "affiliations": []
+      },
+      {
+        "name": "Simon Thompson",
+        "affiliations": []
+      },
+      {
+        "name": "Sanjoy Baruah",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-29",
+    "updated": "2026-10-29",
+    "categories": [
+      "cs.RO",
+      "eess.SY"
+    ],
+    "primaryCategory": "cs.RO",
+    "url": "https://arxiv.org/abs/2610.39547",
+    "pdfUrl": "https://arxiv.org/pdf/2610.39547",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.38144",
+    "title": "Decompose, Don't Expand: Capability-Independent AI Systems by Construction",
+    "abstract": "A recurring design choice in building AI systems is whether, when a task is too hard for a model, to expand the model (make it larger, better-prompted, fine-tuned), or to decompose the task (extract the parts that admit a deterministic solution to a host, leaving the model only the irreducibly fuzzy residue). We make three claims. First, that many tasks commonly delegated whole to a model are in fact deterministic tasks with a small generative core. Second, and our central empirical result, that decomposing such a task yields a measurable and desirable property we call parity by construction: on the extracted sub-tasks the model-size performance curve becomes flat, because no model performs them at all. We measure this across nine models spanning a 494M-parameter local checkpoint to a frontier Opus-class model, a thirty-fold parameter range on the local family alone: once the host resolves the context, operation selection scores identically for all nine models and selector resolution for eight of nine, while the one task that does not decompose, labelling, remains sloped across the same range. Because the task leaves the model, a stock checkpoint suffices: no task-specific training and no fine-tuning. Third, that this is a general design discipline, not a domain trick: we show the same move recurring across physics setup, motion retargeting, and object-model editing, and in a Web-CLI tool family (same author, so not an independent replication). We give a method for locating the cut, the construction that makes a cut exist (a deterministic surface and a closed grammar over it), and a way to make the residue safe (resolve the deterministic context; verify the generative output), position the work against neuro-symbolic AI, tool-augmented language models, and generate-and-verify approaches, and are explicit about what is measured (one domain) versus illustrative (the rest).",
+    "authors": [
+      "Tejaswi Gowda"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Tejaswi Gowda",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-28",
+    "updated": "2026-10-28",
+    "categories": [
+      "cs.AI",
+      "cs.HC"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2610.38144",
+    "pdfUrl": "https://arxiv.org/pdf/2610.38144",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2610.37451",
     "title": "Interpretable Meta-Policies for Neural Decision Making",

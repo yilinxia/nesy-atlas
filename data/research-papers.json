@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T17:54:44.834Z",
+  "generatedAt": "2026-10-30T17:36:54.754Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1876,
+  "paperCount": 1881,
   "completeMetadataCount": 1369,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1571
+      "count": 1576
     },
     {
       "id": "nesy-proceedings",
@@ -128,7 +128,7 @@
         "aliases": [
           "Pascal Hitzler"
         ],
-        "paperCount": 65,
+        "paperCount": 66,
         "institutionIds": [
           "institution:027af32d36728391",
           "institution:0418834df0ffcdf2",
@@ -524,6 +524,23 @@
         ]
       },
       {
+        "id": "author:807371c7dedf215a",
+        "name": "Ziyang Li",
+        "aliases": [
+          "Ziyang Li"
+        ],
+        "paperCount": 11,
+        "institutionIds": [
+          "institution:176abf5201db82a1",
+          "institution:556024ebbe9f0f08",
+          "institution:5b4d1b700eab48e3",
+          "institution:9b1dca853f0d341b",
+          "institution:a031f669b4b1c0b7",
+          "institution:a6c05bc13c94744f",
+          "institution:c952a08fdb0ff916"
+        ]
+      },
+      {
         "id": "author:0730304d6dcabbff",
         "name": "Hikaru Shindo",
         "aliases": [
@@ -582,23 +599,6 @@
           "institution:cd57e36d402863ba",
           "institution:cf1c67afebae5548",
           "institution:fe03b149809bcb8b"
-        ]
-      },
-      {
-        "id": "author:807371c7dedf215a",
-        "name": "Ziyang Li",
-        "aliases": [
-          "Ziyang Li"
-        ],
-        "paperCount": 10,
-        "institutionIds": [
-          "institution:176abf5201db82a1",
-          "institution:556024ebbe9f0f08",
-          "institution:5b4d1b700eab48e3",
-          "institution:9b1dca853f0d341b",
-          "institution:a031f669b4b1c0b7",
-          "institution:a6c05bc13c94744f",
-          "institution:c952a08fdb0ff916"
         ]
       },
       {
@@ -1940,6 +1940,18 @@
         ]
       },
       {
+        "id": "author:cc30d8192f8a647d",
+        "name": "Xi Zheng",
+        "aliases": [
+          "Xi Zheng"
+        ],
+        "paperCount": 5,
+        "institutionIds": [
+          "institution:8aa302982705b6d1",
+          "institution:e22a016a639e519f"
+        ]
+      },
+      {
         "id": "author:ae0e9e1d75a89d01",
         "name": "Xiaowei Huang",
         "aliases": [
@@ -2428,6 +2440,17 @@
         ]
       },
       {
+        "id": "author:51417d1abae7ffba",
+        "name": "Ivan Ruchkin",
+        "aliases": [
+          "Ivan Ruchkin"
+        ],
+        "paperCount": 4,
+        "institutionIds": [
+          "institution:f07e0ac30cc93844"
+        ]
+      },
+      {
         "id": "author:87e5eb273fbf9d26",
         "name": "Jannis Blüml",
         "aliases": [
@@ -2810,6 +2833,18 @@
         ]
       },
       {
+        "id": "author:45ee09fcfcd0211f",
+        "name": "Ruzica Piskac",
+        "aliases": [
+          "Ruzica Piskac"
+        ],
+        "paperCount": 4,
+        "institutionIds": [
+          "institution:0d3d34a24da64353",
+          "institution:db22ee6c43ef1b3a"
+        ]
+      },
+      {
         "id": "author:34977615213d2341",
         "name": "S A Seshia",
         "aliases": [
@@ -2880,6 +2915,17 @@
         "paperCount": 4,
         "institutionIds": [
           "institution:f336b3005794930b"
+        ]
+      },
+      {
+        "id": "author:cb82d453326f4526",
+        "name": "Simon Stepputtis",
+        "aliases": [
+          "Simon Stepputtis"
+        ],
+        "paperCount": 4,
+        "institutionIds": [
+          "institution:c5235efb76365de2"
         ]
       },
       {
@@ -2954,6 +3000,17 @@
         ]
       },
       {
+        "id": "author:a65b8888d1088465",
+        "name": "Vijay Ganesh",
+        "aliases": [
+          "Vijay Ganesh"
+        ],
+        "paperCount": 4,
+        "institutionIds": [
+          "institution:c2dab080fa856716"
+        ]
+      },
+      {
         "id": "author:c71fb81a78ce879f",
         "name": "Wen-Chao Hu",
         "aliases": [
@@ -3011,18 +3068,6 @@
         "institutionIds": [
           "institution:b9ea4b426550e6d6",
           "institution:e897b676e22fa06e"
-        ]
-      },
-      {
-        "id": "author:cc30d8192f8a647d",
-        "name": "Xi Zheng",
-        "aliases": [
-          "Xi Zheng"
-        ],
-        "paperCount": 4,
-        "institutionIds": [
-          "institution:8aa302982705b6d1",
-          "institution:e22a016a639e519f"
         ]
       },
       {
@@ -4034,17 +4079,6 @@
         ]
       },
       {
-        "id": "author:51417d1abae7ffba",
-        "name": "Ivan Ruchkin",
-        "aliases": [
-          "Ivan Ruchkin"
-        ],
-        "paperCount": 3,
-        "institutionIds": [
-          "institution:f07e0ac30cc93844"
-        ]
-      },
-      {
         "id": "author:03d7482958c457a9",
         "name": "Jacob Andreas",
         "aliases": [
@@ -4251,6 +4285,17 @@
           "institution:3afb6cc453e0a8d9",
           "institution:69309405e04976ec",
           "institution:c107a95b6cb53ac5"
+        ]
+      },
+      {
+        "id": "author:d80b74c1eb84352a",
+        "name": "Katia Sycara",
+        "aliases": [
+          "Katia Sycara"
+        ],
+        "paperCount": 3,
+        "institutionIds": [
+          "institution:c5235efb76365de2"
         ]
       },
       {
@@ -5065,18 +5110,6 @@
         ]
       },
       {
-        "id": "author:45ee09fcfcd0211f",
-        "name": "Ruzica Piskac",
-        "aliases": [
-          "Ruzica Piskac"
-        ],
-        "paperCount": 3,
-        "institutionIds": [
-          "institution:0d3d34a24da64353",
-          "institution:db22ee6c43ef1b3a"
-        ]
-      },
-      {
         "id": "author:9fd20ae5b742c188",
         "name": "Saber Fallah",
         "aliases": [
@@ -5179,17 +5212,6 @@
         ],
         "paperCount": 3,
         "institutionIds": []
-      },
-      {
-        "id": "author:cb82d453326f4526",
-        "name": "Simon Stepputtis",
-        "aliases": [
-          "Simon Stepputtis"
-        ],
-        "paperCount": 3,
-        "institutionIds": [
-          "institution:c5235efb76365de2"
-        ]
       },
       {
         "id": "author:1d6f3d344a397c2a",
@@ -5425,17 +5447,6 @@
         "paperCount": 3,
         "institutionIds": [
           "institution:4a9a14dbf4357b38"
-        ]
-      },
-      {
-        "id": "author:a65b8888d1088465",
-        "name": "Vijay Ganesh",
-        "aliases": [
-          "Vijay Ganesh"
-        ],
-        "paperCount": 3,
-        "institutionIds": [
-          "institution:c2dab080fa856716"
         ]
       },
       {
@@ -7206,6 +7217,15 @@
         ]
       },
       {
+        "id": "author:cad39d6406da00e4",
+        "name": "Daniel Neider",
+        "aliases": [
+          "Daniel Neider"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
+      },
+      {
         "id": "author:0f681037f1447fb4",
         "name": "Daniel Ritchie",
         "aliases": [
@@ -8841,6 +8861,17 @@
         ]
       },
       {
+        "id": "author:b2eba9283f0122ce",
+        "name": "Joseph Campbell",
+        "aliases": [
+          "Joseph Campbell"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:c5235efb76365de2"
+        ]
+      },
+      {
         "id": "author:000f86a9fdffe621",
         "name": "Joseph Cotnareanu",
         "aliases": [
@@ -9117,17 +9148,6 @@
         ]
       },
       {
-        "id": "author:d80b74c1eb84352a",
-        "name": "Katia Sycara",
-        "aliases": [
-          "Katia Sycara"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:c5235efb76365de2"
-        ]
-      },
-      {
         "id": "author:dd9f2ca60b3acc9c",
         "name": "Kaustuv Mukherji",
         "aliases": [
@@ -9194,6 +9214,15 @@
           "institution:4dcb4884a2b609f0",
           "institution:a8436be702713038"
         ]
+      },
+      {
+        "id": "author:5fcce137d219db34",
+        "name": "Kwonjoon Lee",
+        "aliases": [
+          "Kwonjoon Lee"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
       },
       {
         "id": "author:8f08520db8e3e29f",
@@ -11648,6 +11677,18 @@
         ]
       },
       {
+        "id": "author:8d48de88455b1cca",
+        "name": "Taylor T. Johnson",
+        "aliases": [
+          "Taylor T Johnson",
+          "Taylor T. Johnson"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:e897b676e22fa06e"
+        ]
+      },
+      {
         "id": "author:bcf9f8c2f49b34c1",
         "name": "Teodoro Baldazzi",
         "aliases": [
@@ -12706,6 +12747,17 @@
         ],
         "paperCount": 2,
         "institutionIds": []
+      },
+      {
+        "id": "author:0521f548c271afc4",
+        "name": "Yaqi Xie",
+        "aliases": [
+          "Yaqi Xie"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:c5235efb76365de2"
+        ]
       },
       {
         "id": "author:6ba833a056660d07",
@@ -15911,6 +15963,15 @@
         ]
       },
       {
+        "id": "author:20a738e548eef4f3",
+        "name": "Aloysius K. Mok",
+        "aliases": [
+          "Aloysius K. Mok"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:add9eb55d487fd39",
         "name": "Alperen Tercan",
         "aliases": [
@@ -18442,6 +18503,15 @@
         "institutionIds": [
           "institution:8891ebf200855aa6"
         ]
+      },
+      {
+        "id": "author:178c2d5b801a1406",
+        "name": "Avishek Das",
+        "aliases": [
+          "Avishek Das"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:dcedd39759fb6566",
@@ -22855,15 +22925,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:cad39d6406da00e4",
-        "name": "Daniel Neider",
-        "aliases": [
-          "Daniel Neider"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:62e3d54107b31154",
         "name": "Daniel Sánchez-Prieto",
         "aliases": [
@@ -25052,6 +25113,15 @@
         ]
       },
       {
+        "id": "author:84458389902f3672",
+        "name": "Ehsan Moradi-Pari",
+        "aliases": [
+          "Ehsan Moradi-Pari"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:32e07929bbb980d6",
         "name": "Ehsan Tarkesh Esfahani",
         "aliases": [
@@ -26803,6 +26873,15 @@
         ]
       },
       {
+        "id": "author:62dacd8092b868c7",
+        "name": "Fnu Aryan",
+        "aliases": [
+          "Fnu Aryan"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:9724802273edffaa",
         "name": "Francesca Cairoli",
         "aliases": [
@@ -28342,6 +28421,15 @@
         "institutionIds": [
           "institution:b6dcb686cd566832"
         ]
+      },
+      {
+        "id": "author:75f9b033bfe899d5",
+        "name": "Götz-Henrik Wiegand",
+        "aliases": [
+          "Götz-Henrik Wiegand"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:25103d337c640726",
@@ -30611,6 +30699,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:e1d5a38cd7fc00ff",
+        "name": "Hong Jin Kang",
+        "aliases": [
+          "Hong Jin Kang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:21bd3229a131a2cc",
         "name": "Hong Kong",
         "aliases": [
@@ -30962,6 +31059,15 @@
         "institutionIds": [
           "institution:0fbadc849bc98650"
         ]
+      },
+      {
+        "id": "author:89a29d16423f155d",
+        "name": "Hossein Nourkhiz Mahjoub",
+        "aliases": [
+          "Hossein Nourkhiz Mahjoub"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:a85f39f58e63f8dc",
@@ -35789,17 +35895,6 @@
         ]
       },
       {
-        "id": "author:b2eba9283f0122ce",
-        "name": "Joseph Campbell",
-        "aliases": [
-          "Joseph Campbell"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:c5235efb76365de2"
-        ]
-      },
-      {
         "id": "author:e41ede78e16fdde1",
         "name": "Joseph Degol",
         "aliases": [
@@ -38339,15 +38434,6 @@
         ]
       },
       {
-        "id": "author:5fcce137d219db34",
-        "name": "Kwonjoon Lee",
-        "aliases": [
-          "Kwonjoon Lee"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:8e38b43ab4fb192f",
         "name": "Kyle Erwin",
         "aliases": [
@@ -38806,6 +38892,15 @@
         "name": "Lei Liang",
         "aliases": [
           "Lei Liang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:fcd1ca988def24ad",
+        "name": "Lei Ma",
+        "aliases": [
+          "Lei Ma"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -39861,6 +39956,15 @@
         "name": "Lorena Amanda",
         "aliases": [
           "Lorena Amanda"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:d83e02f545fe5233",
+        "name": "Lorena Raichle",
+        "aliases": [
+          "Lorena Raichle"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -45515,6 +45619,15 @@
         "name": "Nakul Agarwal",
         "aliases": [
           "Nakul Agarwal"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:5740f332a823b9a5",
+        "name": "Nalini Venkatasubramanian",
+        "aliases": [
+          "Nalini Venkatasubramanian"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -52684,6 +52797,15 @@
         ]
       },
       {
+        "id": "author:4d50b9a4ce202c16",
+        "name": "Sanjoy Baruah",
+        "aliases": [
+          "Sanjoy Baruah"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:3416b6c9e4b08137",
         "name": "Santa Cruz",
         "aliases": [
@@ -54871,6 +54993,15 @@
         ]
       },
       {
+        "id": "author:734fe506fa75bab7",
+        "name": "Siegfried Handschuh",
+        "aliases": [
+          "Siegfried Handschuh"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:44d39e974e008876",
         "name": "Sihao Hu",
         "aliases": [
@@ -55009,6 +55140,15 @@
         "name": "Simón Patiño Idarraga",
         "aliases": [
           "Simón Patiño Idarraga"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:6eba6c3381c40aba",
+        "name": "Simon Thompson",
+        "aliases": [
+          "Simon Thompson"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -57171,17 +57311,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:8d48de88455b1cca",
-        "name": "Taylor T Johnson",
-        "aliases": [
-          "Taylor T Johnson"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:e897b676e22fa06e"
-        ]
-      },
-      {
         "id": "author:74152ef3d1894ca4",
         "name": "Tecnalia",
         "aliases": [
@@ -57200,6 +57329,15 @@
         "institutionIds": [
           "institution:5b784c1eb044c25e"
         ]
+      },
+      {
+        "id": "author:af0e0643eafaef42",
+        "name": "Tejaswi Gowda",
+        "aliases": [
+          "Tejaswi Gowda"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:922a21871978a32c",
@@ -57276,6 +57414,15 @@
         "institutionIds": [
           "institution:9b1dca853f0d341b"
         ]
+      },
+      {
+        "id": "author:553cf24293c960ae",
+        "name": "Tevfik Bultan",
+        "aliases": [
+          "Tevfik Bultan"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:85b0c9c7f7020528",
@@ -60805,6 +60952,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:fb7d0dbf7dc87c10",
+        "name": "Woojun Kim",
+        "aliases": [
+          "Woojun Kim"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:9e64d95622994783",
         "name": "Wotao Yin",
         "aliases": [
@@ -63171,17 +63327,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:0521f548c271afc4",
-        "name": "Yaqi Xie",
-        "aliases": [
-          "Yaqi Xie"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:c5235efb76365de2"
-        ]
       },
       {
         "id": "author:086cab4e3befff15",
@@ -116383,7 +116528,7 @@
       "authors": [
         "Nicholas Potteiger",
         "Ankita Samaddar",
-        "Taylor T Johnson",
+        "Taylor T. Johnson",
         "Xenofon Koutsoukos",
         "Potteiger Samaddar",
         "Johnson Koutsoukos"
@@ -116418,7 +116563,7 @@
           ]
         },
         {
-          "name": "Taylor T Johnson",
+          "name": "Taylor T. Johnson",
           "authorEntityId": "author:8d48de88455b1cca",
           "affiliations": [
             "Vanderbilt University"
@@ -381348,6 +381493,685 @@
         },
         {
           "name": "Michael Ignaz Schumacher",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.40632",
+      "title": "SymAnt: Grounding Long-Horizon Action Anticipation with Adaptable Symbolic Priors",
+      "abstract": "As robots and intelligent systems increasingly interact with humans, they must anticipate long sequences of future actions from only brief observations. While purely neural models typically require extensive observations to predict future actions and remain difficult to interpret and adjust, symbolic priors offer a structured alternative. To this end, we introduce SymAnt, a novel neuro-symbolic approach that unifies the expressiveness of neural networks with the structured reasoning of scene and knowledge graphs. Given a short video, SymAnt performs a joint-search over both graphs to construct a symbolic context, enabling unified reasoning over spatial relationships, object attributes, affordances, and associated actions. This symbolic context serves as a prior for an iterative refinement process that progressively generates and improves the sequence of future actions. By grounding predictions in symbolic context, SymAnt anticipates long-horizon actions from short observation windows in a parameter-efficient manner, while enabling users to directly edit the underlying knowledge to adjust predictions without further training. Through our experiments, we demonstrate the effectiveness of SymAnt, particularly when only short observation contexts are available, across five diverse datasets: Breakfast, 50 Salads, EPIC-KITCHENS, EGTEA Gaze+, and Assembly101.",
+      "authors": [
+        "Fnu Aryan",
+        "Yaqi Xie",
+        "Joseph Campbell",
+        "Woojun Kim",
+        "Kwonjoon Lee",
+        "Hossein Nourkhiz Mahjoub",
+        "Ehsan Moradi-Pari",
+        "Katia Sycara",
+        "Simon Stepputtis"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Fnu Aryan",
+          "authorEntityId": "author:62dacd8092b868c7",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Fnu Aryan",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yaqi Xie",
+          "authorEntityId": "author:0521f548c271afc4",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yaqi Xie",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Joseph Campbell",
+          "authorEntityId": "author:b2eba9283f0122ce",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Joseph Campbell",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Woojun Kim",
+          "authorEntityId": "author:fb7d0dbf7dc87c10",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Woojun Kim",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Kwonjoon Lee",
+          "authorEntityId": "author:5fcce137d219db34",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Kwonjoon Lee",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Hossein Nourkhiz Mahjoub",
+          "authorEntityId": "author:89a29d16423f155d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Hossein Nourkhiz Mahjoub",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ehsan Moradi-Pari",
+          "authorEntityId": "author:84458389902f3672",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ehsan Moradi-Pari",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Katia Sycara",
+          "authorEntityId": "author:d80b74c1eb84352a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Katia Sycara",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Simon Stepputtis",
+          "authorEntityId": "author:cb82d453326f4526",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Simon Stepputtis",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-29",
+      "url": "https://arxiv.org/abs/2610.40632",
+      "pdfUrl": "https://arxiv.org/pdf/2610.40632",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.40632",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:ca5bb8d29c978031",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Fnu Aryan",
+        "Yaqi Xie",
+        "Joseph Campbell",
+        "Woojun Kim",
+        "Kwonjoon Lee",
+        "Hossein Nourkhiz Mahjoub",
+        "Ehsan Moradi-Pari",
+        "Katia Sycara",
+        "Simon Stepputtis"
+      ],
+      "authorEntityIds": [
+        "author:62dacd8092b868c7",
+        "author:0521f548c271afc4",
+        "author:b2eba9283f0122ce",
+        "author:fb7d0dbf7dc87c10",
+        "author:5fcce137d219db34",
+        "author:89a29d16423f155d",
+        "author:84458389902f3672",
+        "author:d80b74c1eb84352a",
+        "author:cb82d453326f4526"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Fnu Aryan",
+          "affiliations": []
+        },
+        {
+          "name": "Yaqi Xie",
+          "affiliations": []
+        },
+        {
+          "name": "Joseph Campbell",
+          "affiliations": []
+        },
+        {
+          "name": "Woojun Kim",
+          "affiliations": []
+        },
+        {
+          "name": "Kwonjoon Lee",
+          "affiliations": []
+        },
+        {
+          "name": "Hossein Nourkhiz Mahjoub",
+          "affiliations": []
+        },
+        {
+          "name": "Ehsan Moradi-Pari",
+          "affiliations": []
+        },
+        {
+          "name": "Katia Sycara",
+          "affiliations": []
+        },
+        {
+          "name": "Simon Stepputtis",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.40414",
+      "title": "Bridging Neural Representations and Symbolic Semantics in Audio Classification",
+      "abstract": "Deep audio classifiers can achieve strong predictive performance, but their hidden representations remain difficult to interpret. Existing audio explainability methods often focus on input-level attribution, such as waveform segments, spectrogram regions, or acoustic features, and provide limited insight into what hidden neurons encode. Interpreting hidden neurons at the concept level can provide a more meaningful view of what an audio model learns internally. This paper investigates whether hidden neurons in audio classifiers can be associated with human-understandable symbolic acoustic concepts. A model-agnostic neurosymbolic framework is presented for analyzing the final hidden layer of audio classifiers, containing 32 neurons, through symbolic concept induction. The framework is evaluated on two audio classification settings: music genre classification using GTZAN dataset and musical instrument classification using IRMAS dataset. Results show that several hidden neurons can be associated with meaningful induced concepts, and most confirmed neuron-concept pairs are statistically supported using the Mann-Whitney U test. These findings suggest that symbolic concept induction is a promising direction for explaining latent audio representations beyond input-level attribution.",
+      "authors": [
+        "Avishek Das",
+        "Pascal Hitzler"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Avishek Das",
+          "authorEntityId": "author:178c2d5b801a1406",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Avishek Das",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Pascal Hitzler",
+          "authorEntityId": "author:7f243c8123678939",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Pascal Hitzler",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.SD",
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-29",
+      "url": "https://arxiv.org/abs/2610.40414",
+      "pdfUrl": "https://arxiv.org/pdf/2610.40414",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.40414",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:9d562e699f9d5de2",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Avishek Das",
+        "Pascal Hitzler"
+      ],
+      "authorEntityIds": [
+        "author:178c2d5b801a1406",
+        "author:7f243c8123678939"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Avishek Das",
+          "affiliations": []
+        },
+        {
+          "name": "Pascal Hitzler",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.40036",
+      "title": "Hybrid AI Patterns: Thirteen Ways to Couple Language Models with Rules, and How to Choose Among Them",
+      "abstract": "Language models handle text well, and rule engines give conclusions with proofs. Systems that combine the two are usually described by example, and the same coupling turns up under different names in agent frameworks, guardrail toolkits and neuro-symbolic research. This document defines thirteen patterns for coupling a language model with an executable rule language, in the catalogue form introduced for object-oriented design: intent, motivation, applicability, participants, collaborations, consequences, implementation, known uses and related patterns. Four patterns concern what crosses the boundary between model and rules, five who controls whom, three how the model takes part in the reasoning, and one how knowledge is kept over time. Five invariants hold for every combination, and five failure patterns name the couplings that break them. We relate the catalogue to published pattern catalogues and taxonomies of hybrid and neuro-symbolic systems and show where they overlap with it. A decision guide leads from a problem to a pattern. It rests on our measurements, including the cases in which a model alone did as well as the hybrid or better, and it reports what each design cost.",
+      "authors": [
+        "Siegfried Handschuh",
+        "Götz-Henrik Wiegand",
+        "Lorena Raichle"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Siegfried Handschuh",
+          "authorEntityId": "author:734fe506fa75bab7",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Siegfried Handschuh",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Götz-Henrik Wiegand",
+          "authorEntityId": "author:75f9b033bfe899d5",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Götz-Henrik Wiegand",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Lorena Raichle",
+          "authorEntityId": "author:d83e02f545fe5233",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Lorena Raichle",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-29",
+      "url": "https://arxiv.org/abs/2610.40036",
+      "pdfUrl": "https://arxiv.org/pdf/2610.40036",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.40036",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:e412e1578519480c",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Siegfried Handschuh",
+        "Götz-Henrik Wiegand",
+        "Lorena Raichle"
+      ],
+      "authorEntityIds": [
+        "author:734fe506fa75bab7",
+        "author:75f9b033bfe899d5",
+        "author:d83e02f545fe5233"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Siegfried Handschuh",
+          "affiliations": []
+        },
+        {
+          "name": "Götz-Henrik Wiegand",
+          "affiliations": []
+        },
+        {
+          "name": "Lorena Raichle",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.39547",
+      "title": "Assuring Learning-Enabled Cyber-Physical Systems with Foundation Models: A Neuro-Symbolic Agenda for Testing, Verification, and Runtime Assurance",
+      "abstract": "Learning-enabled cyber-physical systems (CPS), including autonomous vehicles and UAVs, increasingly incorporate foundation models, yet fragmented assurance practices provide insufficient support for system-level guarantees. We argue that restoring engineering control across stochastic neural, symbolic, and physical boundaries requires a shift from model-centric evaluation to system-level assurance. We introduce the Foundation Model Assurance Stack, connecting three directions: (i) neuro-symbolic architectures that constrain foundation models through explicit symbolic world models, reasoning layers, and interfaces; (ii) semantically grounded, conformance-based testing that combines formal specifications and symbolic world models with foundation-model-assisted specification mining, scenario generation, and test synthesis; and (iii) compositional verification and runtime assurance that target formally tractable components and interfaces through modular contracts, equivalence checking, verified synthesis, uncertainty-aware reasoning, and runtime monitoring and enforcement. Symbolic abstractions establish assurance boundaries between stochastic learning and formal reasoning, connecting testing, verification, and runtime evidence across the system lifecycle. Foundation models serve as constrained assistants whose outputs are independently checked wherever correctness can be formally specified. We identify research challenges in specification engineering, abstraction fidelity, evidence composition, and lifecycle certification, and outline a staged agenda toward trustworthy, deployable, and certifiable learning-enabled CPS.",
+      "authors": [
+        "Xi Zheng",
+        "Ivan Ruchkin",
+        "Hong Jin Kang",
+        "Tevfik Bultan",
+        "Vijay Ganesh",
+        "Taylor T. Johnson",
+        "Ziyang Li",
+        "Lei Ma",
+        "Aloysius K. Mok",
+        "Daniel Neider",
+        "Ruzica Piskac",
+        "Nalini Venkatasubramanian",
+        "Simon Thompson",
+        "Sanjoy Baruah"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Xi Zheng",
+          "authorEntityId": "author:cc30d8192f8a647d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xi Zheng",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ivan Ruchkin",
+          "authorEntityId": "author:51417d1abae7ffba",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ivan Ruchkin",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Hong Jin Kang",
+          "authorEntityId": "author:e1d5a38cd7fc00ff",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Hong Jin Kang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Tevfik Bultan",
+          "authorEntityId": "author:553cf24293c960ae",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Tevfik Bultan",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Vijay Ganesh",
+          "authorEntityId": "author:a65b8888d1088465",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Vijay Ganesh",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Taylor T. Johnson",
+          "authorEntityId": "author:8d48de88455b1cca",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Taylor T. Johnson",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ziyang Li",
+          "authorEntityId": "author:807371c7dedf215a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ziyang Li",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Lei Ma",
+          "authorEntityId": "author:fcd1ca988def24ad",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Lei Ma",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Aloysius K. Mok",
+          "authorEntityId": "author:20a738e548eef4f3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Aloysius K. Mok",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Daniel Neider",
+          "authorEntityId": "author:cad39d6406da00e4",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Daniel Neider",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ruzica Piskac",
+          "authorEntityId": "author:45ee09fcfcd0211f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ruzica Piskac",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Nalini Venkatasubramanian",
+          "authorEntityId": "author:5740f332a823b9a5",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Nalini Venkatasubramanian",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Simon Thompson",
+          "authorEntityId": "author:6eba6c3381c40aba",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Simon Thompson",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Sanjoy Baruah",
+          "authorEntityId": "author:4d50b9a4ce202c16",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Sanjoy Baruah",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-29",
+      "url": "https://arxiv.org/abs/2610.39547",
+      "pdfUrl": "https://arxiv.org/pdf/2610.39547",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.39547",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:a78376d4f63265be",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Xi Zheng",
+        "Ivan Ruchkin",
+        "Hong Jin Kang",
+        "Tevfik Bultan",
+        "Vijay Ganesh",
+        "Taylor T. Johnson",
+        "Ziyang Li",
+        "Lei Ma",
+        "Aloysius K. Mok",
+        "Daniel Neider",
+        "Ruzica Piskac",
+        "Nalini Venkatasubramanian",
+        "Simon Thompson",
+        "Sanjoy Baruah"
+      ],
+      "authorEntityIds": [
+        "author:cc30d8192f8a647d",
+        "author:51417d1abae7ffba",
+        "author:e1d5a38cd7fc00ff",
+        "author:553cf24293c960ae",
+        "author:a65b8888d1088465",
+        "author:8d48de88455b1cca",
+        "author:807371c7dedf215a",
+        "author:fcd1ca988def24ad",
+        "author:20a738e548eef4f3",
+        "author:cad39d6406da00e4",
+        "author:45ee09fcfcd0211f",
+        "author:5740f332a823b9a5",
+        "author:6eba6c3381c40aba",
+        "author:4d50b9a4ce202c16"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Xi Zheng",
+          "affiliations": []
+        },
+        {
+          "name": "Ivan Ruchkin",
+          "affiliations": []
+        },
+        {
+          "name": "Hong Jin Kang",
+          "affiliations": []
+        },
+        {
+          "name": "Tevfik Bultan",
+          "affiliations": []
+        },
+        {
+          "name": "Vijay Ganesh",
+          "affiliations": []
+        },
+        {
+          "name": "Taylor T. Johnson",
+          "affiliations": []
+        },
+        {
+          "name": "Ziyang Li",
+          "affiliations": []
+        },
+        {
+          "name": "Lei Ma",
+          "affiliations": []
+        },
+        {
+          "name": "Aloysius K. Mok",
+          "affiliations": []
+        },
+        {
+          "name": "Daniel Neider",
+          "affiliations": []
+        },
+        {
+          "name": "Ruzica Piskac",
+          "affiliations": []
+        },
+        {
+          "name": "Nalini Venkatasubramanian",
+          "affiliations": []
+        },
+        {
+          "name": "Simon Thompson",
+          "affiliations": []
+        },
+        {
+          "name": "Sanjoy Baruah",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.38144",
+      "title": "Decompose, Don't Expand: Capability-Independent AI Systems by Construction",
+      "abstract": "A recurring design choice in building AI systems is whether, when a task is too hard for a model, to expand the model (make it larger, better-prompted, fine-tuned), or to decompose the task (extract the parts that admit a deterministic solution to a host, leaving the model only the irreducibly fuzzy residue). We make three claims. First, that many tasks commonly delegated whole to a model are in fact deterministic tasks with a small generative core. Second, and our central empirical result, that decomposing such a task yields a measurable and desirable property we call parity by construction: on the extracted sub-tasks the model-size performance curve becomes flat, because no model performs them at all. We measure this across nine models spanning a 494M-parameter local checkpoint to a frontier Opus-class model, a thirty-fold parameter range on the local family alone: once the host resolves the context, operation selection scores identically for all nine models and selector resolution for eight of nine, while the one task that does not decompose, labelling, remains sloped across the same range. Because the task leaves the model, a stock checkpoint suffices: no task-specific training and no fine-tuning. Third, that this is a general design discipline, not a domain trick: we show the same move recurring across physics setup, motion retargeting, and object-model editing, and in a Web-CLI tool family (same author, so not an independent replication). We give a method for locating the cut, the construction that makes a cut exist (a deterministic surface and a closed grammar over it), and a way to make the residue safe (resolve the deterministic context; verify the generative output), position the work against neuro-symbolic AI, tool-augmented language models, and generate-and-verify approaches, and are explicit about what is measured (one domain) versus illustrative (the rest).",
+      "authors": [
+        "Tejaswi Gowda"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Tejaswi Gowda",
+          "authorEntityId": "author:af0e0643eafaef42",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Tejaswi Gowda",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.HC"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-28",
+      "url": "https://arxiv.org/abs/2610.38144",
+      "pdfUrl": "https://arxiv.org/pdf/2610.38144",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.38144",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:9cc2993d61b57b2e",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Tejaswi Gowda"
+      ],
+      "authorEntityIds": [
+        "author:af0e0643eafaef42"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Tejaswi Gowda",
           "affiliations": []
         }
       ]
