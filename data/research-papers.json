@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T18:14:08.590Z",
+  "generatedAt": "2026-11-02T22:04:11.105Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1881,
+  "paperCount": 1884,
   "completeMetadataCount": 1369,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1576
+      "count": 1579
     },
     {
       "id": "nesy-proceedings",
@@ -6323,6 +6323,15 @@
         "institutionIds": [
           "institution:c952a08fdb0ff916"
         ]
+      },
+      {
+        "id": "author:c811b9f6c7a0e683",
+        "name": "Andrea Agiollo",
+        "aliases": [
+          "Andrea Agiollo"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
       },
       {
         "id": "author:1788fa331027747c",
@@ -15138,6 +15147,15 @@
         ]
       },
       {
+        "id": "author:f75bbfca68b8955c",
+        "name": "Albin Larsson Forsberg",
+        "aliases": [
+          "Albin Larsson Forsberg"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:585ec03bce2ed1d1",
         "name": "Alejandra López de Aberasturi Gómez",
         "aliases": [
@@ -15264,6 +15282,15 @@
         "institutionIds": [
           "institution:3258076c1e752ff2"
         ]
+      },
+      {
+        "id": "author:2878f609c91991d4",
+        "name": "Alessandro Previti",
+        "aliases": [
+          "Alessandro Previti"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:912a4a295ea95f00",
@@ -15630,6 +15657,15 @@
         "institutionIds": [
           "institution:03abb093d8cda5b7"
         ]
+      },
+      {
+        "id": "author:1b7277d143b6bac3",
+        "name": "Alexandros Nikou",
+        "aliases": [
+          "Alexandros Nikou"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:14d05531596c896e",
@@ -16501,15 +16537,6 @@
         ]
       },
       {
-        "id": "author:c811b9f6c7a0e683",
-        "name": "Andrea Agiollo",
-        "aliases": [
-          "Andrea Agiollo"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:26354736a884d37e",
         "name": "Andrea Bartolini",
         "aliases": [
@@ -16928,6 +16955,15 @@
         "institutionIds": [
           "institution:3330283527ad8d73"
         ]
+      },
+      {
+        "id": "author:70adbb8621063d92",
+        "name": "Aneta Vulgarakis",
+        "aliases": [
+          "Aneta Vulgarakis"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:0ff1d397fd3e81af",
@@ -18336,6 +18372,15 @@
         "name": "Ȃt",
         "aliases": [
           "Ȃt"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:dfc3b3a596463ff3",
+        "name": "Athanasios Karapantelakis",
+        "aliases": [
+          "Athanasios Karapantelakis"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -25596,6 +25641,15 @@
         ]
       },
       {
+        "id": "author:9b76a7632ac320c3",
+        "name": "Enkeleda Bardhi",
+        "aliases": [
+          "Enkeleda Bardhi"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:30619edc0369a23b",
         "name": "Enrico Daga",
         "aliases": [
@@ -26796,6 +26850,15 @@
         "institutionIds": [
           "institution:d0b03dc9391024a0"
         ]
+      },
+      {
+        "id": "author:49ac5cb204e954d2",
+        "name": "Fernando Kuipers",
+        "aliases": [
+          "Fernando Kuipers"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:b120fc517707ccd2",
@@ -28162,6 +28225,15 @@
         "institutionIds": [
           "institution:67bc05688d5f2c39"
         ]
+      },
+      {
+        "id": "author:c39443de49fda695",
+        "name": "Giovani R. Abuaitah",
+        "aliases": [
+          "Giovani R. Abuaitah"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:20713a25ba000615",
@@ -31334,6 +31406,15 @@
           "institution:ac7aeed6b85a0a40",
           "institution:c060919391e78c3b"
         ]
+      },
+      {
+        "id": "author:c86317f107aa3f34",
+        "name": "Hugues Leger",
+        "aliases": [
+          "Hugues Leger"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:bfb7f22a4495a803",
@@ -38106,6 +38187,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:cbf6fd9dd4f4fd30",
+        "name": "Konstantinos Vandikas",
+        "aliases": [
+          "Konstantinos Vandikas"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:6568305d3124e3ca",
         "name": "Koon-Pong Wong",
         "aliases": [
@@ -41929,6 +42019,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:cf48189fbe0838b6",
+        "name": "Mario Alviano",
+        "aliases": [
+          "Mario Alviano"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:1b17348b56ebf731",
         "name": "Mario Leiva",
         "aliases": [
@@ -42376,6 +42475,15 @@
         "name": "Mathur Soni",
         "aliases": [
           "Mathur Soni"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:9f6036623197d48a",
+        "name": "Mats Carlsson",
+        "aliases": [
+          "Mats Carlsson"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -50313,6 +50421,15 @@
         "institutionIds": [
           "institution:228b8c5a3b9d4002"
         ]
+      },
+      {
+        "id": "author:457bcabd6806f52d",
+        "name": "Raoul Saad",
+        "aliases": [
+          "Raoul Saad"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:4436f9d9f079b909",
@@ -382172,6 +382289,362 @@
       "rawAuthorAffiliations": [
         {
           "name": "Tejaswi Gowda",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.41541",
+      "title": "DeepWeave: Weaving Neural and Symbolic Evidence for ML-Based Network Intrusion Detection System",
+      "abstract": "Machine learning-based network intrusion detection systems can recognize complex traffic patterns, but often require substantial labelled attack data, degrade under deployment shift, and provide limited evidence for analysts. We present DeepWeave, a probabilistic neuro-symbolic Network Intrusion Detection System (NIDS) that makes logic an integral part of detection. DeepWeave automatically constructs and validates interpretable rules, represents neural predictions as probabilistic predicates, and reconciles both evidence sources through explicit coupling policies over packet-, flow-, and hybrid-views. The resulting proofs provide intrinsic explanations for rule-supported alerts. Across multiple datasets, DeepWeave improves low-data detection, false-positive control, transferability, and robustness. With only 50 labelled packet observations per attack class, it improves macro-F1 from 0.632 to 0.924 and reduces the attack false-positive rate from 0.075 to 0.008 over the matched neural baseline. Its proofs are also more stable than post-hoc neural attributions, while batched inference keeps probabilistic reasoning practical. These results demonstrate label-efficient, adaptable, and inspectable neuro-symbolic intrusion detection.",
+      "authors": [
+        "Raoul Saad",
+        "Enkeleda Bardhi",
+        "Andrea Agiollo",
+        "Fernando Kuipers"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Raoul Saad",
+          "authorEntityId": "author:457bcabd6806f52d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Raoul Saad",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Enkeleda Bardhi",
+          "authorEntityId": "author:9b76a7632ac320c3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Enkeleda Bardhi",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Andrea Agiollo",
+          "authorEntityId": "author:c811b9f6c7a0e683",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Andrea Agiollo",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Fernando Kuipers",
+          "authorEntityId": "author:49ac5cb204e954d2",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Fernando Kuipers",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.LG",
+        "cs.NI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-30",
+      "url": "https://arxiv.org/abs/2610.41541",
+      "pdfUrl": "https://arxiv.org/pdf/2610.41541",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.41541",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:d7a76f6c4846b60b",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Raoul Saad",
+        "Enkeleda Bardhi",
+        "Andrea Agiollo",
+        "Fernando Kuipers"
+      ],
+      "authorEntityIds": [
+        "author:457bcabd6806f52d",
+        "author:9b76a7632ac320c3",
+        "author:c811b9f6c7a0e683",
+        "author:49ac5cb204e954d2"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Raoul Saad",
+          "affiliations": []
+        },
+        {
+          "name": "Enkeleda Bardhi",
+          "affiliations": []
+        },
+        {
+          "name": "Andrea Agiollo",
+          "affiliations": []
+        },
+        {
+          "name": "Fernando Kuipers",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.41511",
+      "title": "Specification-Guided Generation for Large Language Models",
+      "abstract": "Large language models (LLMs) can generate structured outputs, but existing constrained-decoding methods mainly enforce syntax and cannot directly enforce satisfaction of a formal specification. We introduce a neuro-symbolic, specification-guided decoding framework that combines LLM generation with symbolic reasoning. At each step, the framework refines the decoding grammar by filtering out values that cannot be extended to an output satisfying the specification. We present a forward-only variant that guarantees specification satisfaction by construction, and a backtracking variant that revises earlier feasible choices when their downstream consequences leave only values that the LLM itself judges unsuitable. The framework is model-agnostic, requires no retraining, and builds on existing grammar-constrained decoding mechanisms. Experiments on configuration and constraint-solving benchmarks show that the forward-only variant reliably produces specification-compliant outputs while reducing repeated LLM inference compared with rejection sampling and incurring modest symbolic-reasoning overhead. The backtracking variant further reduces cases in which the model is forced to select values that it has itself judged unsuitable, thereby substantially improving adherence to the LLM's stated interpretation of the prompt.",
+      "authors": [
+        "Alessandro Previti",
+        "Konstantinos Vandikas",
+        "Mario Alviano",
+        "Mats Carlsson",
+        "Albin Larsson Forsberg",
+        "Alexandros Nikou",
+        "Athanasios Karapantelakis",
+        "Aneta Vulgarakis"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Alessandro Previti",
+          "authorEntityId": "author:2878f609c91991d4",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Alessandro Previti",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Konstantinos Vandikas",
+          "authorEntityId": "author:cbf6fd9dd4f4fd30",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Konstantinos Vandikas",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Mario Alviano",
+          "authorEntityId": "author:cf48189fbe0838b6",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Mario Alviano",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Mats Carlsson",
+          "authorEntityId": "author:9f6036623197d48a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Mats Carlsson",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Albin Larsson Forsberg",
+          "authorEntityId": "author:f75bbfca68b8955c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Albin Larsson Forsberg",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Alexandros Nikou",
+          "authorEntityId": "author:1b7277d143b6bac3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Alexandros Nikou",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Athanasios Karapantelakis",
+          "authorEntityId": "author:dfc3b3a596463ff3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Athanasios Karapantelakis",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Aneta Vulgarakis",
+          "authorEntityId": "author:70adbb8621063d92",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Aneta Vulgarakis",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-30",
+      "url": "https://arxiv.org/abs/2610.41511",
+      "pdfUrl": "https://arxiv.org/pdf/2610.41511",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.41511",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:54138288fa69f672",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Alessandro Previti",
+        "Konstantinos Vandikas",
+        "Mario Alviano",
+        "Mats Carlsson",
+        "Albin Larsson Forsberg",
+        "Alexandros Nikou",
+        "Athanasios Karapantelakis",
+        "Aneta Vulgarakis"
+      ],
+      "authorEntityIds": [
+        "author:2878f609c91991d4",
+        "author:cbf6fd9dd4f4fd30",
+        "author:cf48189fbe0838b6",
+        "author:9f6036623197d48a",
+        "author:f75bbfca68b8955c",
+        "author:1b7277d143b6bac3",
+        "author:dfc3b3a596463ff3",
+        "author:70adbb8621063d92"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Alessandro Previti",
+          "affiliations": []
+        },
+        {
+          "name": "Konstantinos Vandikas",
+          "affiliations": []
+        },
+        {
+          "name": "Mario Alviano",
+          "affiliations": []
+        },
+        {
+          "name": "Mats Carlsson",
+          "affiliations": []
+        },
+        {
+          "name": "Albin Larsson Forsberg",
+          "affiliations": []
+        },
+        {
+          "name": "Alexandros Nikou",
+          "affiliations": []
+        },
+        {
+          "name": "Athanasios Karapantelakis",
+          "affiliations": []
+        },
+        {
+          "name": "Aneta Vulgarakis",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2610.41424",
+      "title": "A Unified XAI-NSAI Analytical Framework for Trustworthy IoT Anomaly Detection",
+      "abstract": "The widespread deployment of Internet of Things (IoT) devices in critical environments makes anomaly detection essential for identifying abnormal behaviors and supporting timely investigation and response. However, accurate detection alone is insufficient. Practical IoT deployments must also provide explanations, incorporate domain knowledge and reasoning, operate under IoT constraints, and support human decision making. Although recently proposed approaches increasingly incorporate Explainable Artificial Intelligence (XAI) or Neuro-Symbolic Artificial Intelligence (NSAI), XAI and NSAI methods are often considered independently. We argue that they should be considered together to better understand their complementary roles in supporting trustworthy IoT anomaly detection. To address this gap, we propose a unified analytical framework organized around five complementary dimensions. The framework provides a structured basis for characterizing existing approaches, identifying capability gaps and design trade-offs, and guiding the design of new anomaly detection systems for different IoT applications. We demonstrate the framework's analytical utility by applying it to three representative studies and illustrate its design utility through its application to a Medical IoT anomaly detection system.",
+      "authors": [
+        "Hugues Leger",
+        "Giovani R. Abuaitah"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Hugues Leger",
+          "authorEntityId": "author:c86317f107aa3f34",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Hugues Leger",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Giovani R. Abuaitah",
+          "authorEntityId": "author:c39443de49fda695",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Giovani R. Abuaitah",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-10-30",
+      "url": "https://arxiv.org/abs/2610.41424",
+      "pdfUrl": "https://arxiv.org/pdf/2610.41424",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2610.41424",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:fa1ec8e8e9d514de",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Hugues Leger",
+        "Giovani R. Abuaitah"
+      ],
+      "authorEntityIds": [
+        "author:c86317f107aa3f34",
+        "author:c39443de49fda695"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Hugues Leger",
+          "affiliations": []
+        },
+        {
+          "name": "Giovani R. Abuaitah",
           "affiliations": []
         }
       ]
