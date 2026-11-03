@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-11-02T22:04:10.354Z",
-  "cursorAt": "2026-11-02T22:04:10.354Z",
+  "generatedAt": "2026-11-03T19:55:26.616Z",
+  "cursorAt": "2026-11-03T19:55:26.616Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-11-01T18:14:08.005Z",
   "keywords": [
@@ -15,11 +15,294 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-11-01T18:14:08.005Z",
-  "windowStart": "2026-10-25T18:14:08.005Z",
+  "previousSnapshotAt": "2026-11-02T22:04:10.354Z",
+  "windowStart": "2026-10-26T22:04:10.354Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2611.03641",
+    "title": "From Natural Language to Exact Cover: A Neuro-Symbolic Approach to Zebra Puzzles",
+    "abstract": "Chain-of-Thought (CoT) generation has substantially improved the performance of Large Language Models (LLMs) on complex reasoning tasks, including code generation, data analysis, and exam-style question answering. Despite these advances, purely neural LLMs continue to struggle with elementary logical reasoning problems and lack the determinism, soundness, and reliability characteristic of symbolic reasoning systems. Conversely, classical symbolic methods such as SAT solving and exact cover guarantee correctness and completeness, but require problems to be expressed in highly specialized formal encodings, limiting their applicability to natural language inputs. In this work, we present a synergistic neuro-symbolic framework that bridges this gap by combining neural semantic parsing with deterministic exact cover reasoning. Given a Zebra-style logic puzzle in natural language, an LLM translates entities and constraints into structured tool calls that construct an exact cover instance. A symbolic solver then computes the solution and provides feedback to iteratively refine invalid, under- or overconstrained encodings, exploiting the uniqueness property of Zebra puzzles. We conduct a comprehensive empirical evaluation across multiple parameter scales, post-training paradigms, and LLM families. The results demonstrate that our hybrid approach consistently outperforms strong plain neural baselines, including CoT prompting, as well as recent neuro-symbolic methods.",
+    "authors": [
+      "Paulius Skaisgiris",
+      "Thomas Pammer",
+      "Veronika Semmelrock",
+      "Mykyta Ielanskyi",
+      "Maximilian Heisinger",
+      "Erich Kobler"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Paulius Skaisgiris",
+        "affiliations": []
+      },
+      {
+        "name": "Thomas Pammer",
+        "affiliations": []
+      },
+      {
+        "name": "Veronika Semmelrock",
+        "affiliations": []
+      },
+      {
+        "name": "Mykyta Ielanskyi",
+        "affiliations": []
+      },
+      {
+        "name": "Maximilian Heisinger",
+        "affiliations": []
+      },
+      {
+        "name": "Erich Kobler",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-02",
+    "updated": "2026-11-02",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.03641",
+    "pdfUrl": "https://arxiv.org/pdf/2611.03641",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.02129",
+    "title": "FOLLIE: Automated Reasoning over the First Dataset of Sentences with their First-Order Logical Representation for French",
+    "abstract": "FOLLIE (for First-Order Logic for Language Inference and Entailment for French) connects French sentences, compositional first-order representations and automated natural language inference (NLI). The first French NLI-ready, NL-to-FOL resource, it contains 19,983 inference records and 36,987 non-empty sentence-slot--formula mappings from six heterogeneous NLI sources, retaining French lexical material and source problem structure. Its silver annotations are produced by a neural--symbolic pipeline, with 111 separately identified LLM-assisted additions. The construction combines morphosyntactic analysis, probability-conditioned categorial multitagging, grammatical proof search, discourse representation and first-order semantic construction. Stage-wise experiments show substantial gains in derivation coverage; analyses of conjunction distributions, logical-operator incidence and scope alternation characterise the resulting resource. We then develop an automatic inference engine whose input-conditioned background theories address lexical relations, quantification, quantities, event structure and temporal dependencies. Prover9 supplies proofs for entailment and contradiction, while Mace4 supports bounded consistency checks. Three-way accuracies are 65.37% on all 335 FraCaS-FR problems, 70.33% on 300 GQNLI-FR problems and 71.35% on 9,399 eligible SICK-FR records pooled across splits. Agreement with reference labels among committed decisions is 93.53%, 100.00% and 98.66%, at commitment coverage of 41.49%, 37.00% and 15.05%, respectively. Worked constructions, axiom schemas and proof analyses explain these outcomes and identify the contributions of scope, reference, lexical knowledge and numerical structure. FOLLIE provides a French experimental basis for studying the representations and assumptions that connect sentence interpretation to deductive inference.",
+    "authors": [
+      "Maximos Skandalis"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Maximos Skandalis",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-01",
+    "updated": "2026-11-01",
+    "categories": [
+      "cs.CL"
+    ],
+    "primaryCategory": "cs.CL",
+    "url": "https://arxiv.org/abs/2611.02129",
+    "pdfUrl": "https://arxiv.org/pdf/2611.02129",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neural--symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.01612",
+    "title": "Halal-NeSyNet: Clause-Scoped Neuro-Symbolic Cross-Attention for Automated Food Ingredient Auditing and Risk-Aware Halal Logistics Triage",
+    "abstract": "Verifying that a packaged food is Halal requires reading ingredient declarations and E-number additives before goods enter certified warehouses. Dual-origin additives such as E471, E422, E441 and E920 are Mushbooh (doubtful) unless a botanical, microbial or certified-Halal qualifier appears in the same ingredient clause, so a plant-based qualifier on one clause must not clear an unqualified additive in another. We call a failure to respect this scope cross-clause modifier confounding and build a benchmark of 3,199 items (277 Open Food Facts records and 2,922 template-generated clause-swap items, labelled by an explicit 50-code rule base rather than by a certification authority) with a 540-item counterfactual suite. We propose Halal-NeSyNet, which couples a DistilBERT encoder with a 16-dimensional rule-derived symbolic vector through cross-attention and gated fusion, trained with an asymmetric false-Halal risk loss. Over five seeds, text-only TF-IDF baselines reach 86.25-86.71 % accuracy with 13.42-21.73 % false-Halal leakage and 6.33-26.00 % counterfactual triad consistency, whereas Halal-NeSyNet reaches 97.04+/-0.34 % and 99.67+/-0.50 %. Gradient boosting given the same symbolic vector reaches 96.25+/-1.24 % (+0.59 points from Halal-NeSyNet, 95 % CI [-1.11, +2.28]), so most of the gain comes from clause-scoped symbolic features and not from the network, and the risk loss did not help. Holding out whole template families, text-only models fall to 61.91-78.35 %, Halal-NeSyNet to 90.87+/-11.76 % and logistic regression with the symbolic vector to 91.11+/-2.88 %, with far more spread for Halal-NeSyNet. A three-lane receiving simulation auto-clears 49.33 % of cargo at 0.76 % green-lane contamination. Because labels and features come from one rule engine and 91.3 % of the items are templated, the results measure fidelity to a rule policy, not religious certification.",
+    "authors": [
+      "Mochamad Rizal Fauzan",
+      "Naila Nursyifa",
+      "Irgi Surya"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Mochamad Rizal Fauzan",
+        "affiliations": []
+      },
+      {
+        "name": "Naila Nursyifa",
+        "affiliations": []
+      },
+      {
+        "name": "Irgi Surya",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-01",
+    "updated": "2026-11-01",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primaryCategory": "cs.CL",
+    "url": "https://arxiv.org/abs/2611.01612",
+    "pdfUrl": "https://arxiv.org/pdf/2611.01612",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": []
+    }
+  },
+  {
+    "id": "2611.01001",
+    "title": "GURU: A Hierarchical Neuro-Symbolic Multi-Agent System for Verification-Aware Automation of Mission-Critical Digital Engineering and Operations",
+    "abstract": "An AI can find a safe action faster than any human, but it must never decide what counts as safe. We present GURU, a hierarchical neuro-symbolic multi-agent system for mission-critical digital engineering and operations, built on one partition of authority: learned models propose, rank, and accelerate; a symbolic rules engine checks every consequential action against hard limits before it executes; and validated physics confirms and decides. GURU runs a workflow as a closed control loop, with Navigation, Action, and Planning agents sharing one Common Internal Language and one training factory. Nuclear, aviation, and national-security guidance now requires this pattern; a harnessed language model keeps the model at the center, GURU puts a validated reference there. In computational fluid dynamics, the workflow raised the converged-simulation rate on unseen aircraft geometries from under 1 percent to 74 percent over 100 single-attempt cases, ran 54 live cases to Mach 6 on three facilities, and an ablation put the symbolic layer at 13 points of boundary-layer capture. Knowledge-graph retrieval and role adapters raised ParaView control success from 55 to 75 percent. In space domain awareness, where a language model cannot be trusted to decide, a frozen self-supervised world model under validated propagation scored highest of five methods at conjunction risk, including fully fine-tuned language models, with several-times-lower seed variance: the trustworthy design gives up nothing in accuracy, and the recipe transferred to reactor anomaly detection. A radar-to-avoidance debris pipeline was demonstrated in stages on a 2026 reentry; the hierarchy coordinates simulated teams of 200 aircraft. Training scaled near-linearly past 1,000 Aurora nodes and ran at 8,000. The approach extends to a control-grade microreactor digital twin with validated physics, not a learned model, as the safety basis.",
+    "authors": [
+      "Allan Grosvenor",
+      "Anton Zemlyansky",
+      "Abdul Wahab",
+      "Kyrylo Bohachov",
+      "Aras Dogan",
+      "Ryland Adams",
+      "Dwyer Deighan"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Allan Grosvenor",
+        "affiliations": []
+      },
+      {
+        "name": "Anton Zemlyansky",
+        "affiliations": []
+      },
+      {
+        "name": "Abdul Wahab",
+        "affiliations": []
+      },
+      {
+        "name": "Kyrylo Bohachov",
+        "affiliations": []
+      },
+      {
+        "name": "Aras Dogan",
+        "affiliations": []
+      },
+      {
+        "name": "Ryland Adams",
+        "affiliations": []
+      },
+      {
+        "name": "Dwyer Deighan",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-31",
+    "updated": "2026-10-31",
+    "categories": [
+      "cs.AI",
+      "cs.CE",
+      "cs.MA",
+      "eess.SY"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.01001",
+    "pdfUrl": "https://arxiv.org/pdf/2611.01001",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2610.41511",
+    "title": "Specification-Guided Generation for Large Language Models",
+    "abstract": "Large language models (LLMs) can generate structured outputs, but existing constrained-decoding methods mainly enforce syntax and cannot directly enforce satisfaction of a formal specification. We introduce a neuro-symbolic, specification-guided decoding framework that combines LLM generation with symbolic reasoning. At each step, the framework refines the decoding grammar by filtering out values that cannot be extended to an output satisfying the specification. We present a forward-only variant that guarantees specification satisfaction by construction, and a backtracking variant that revises earlier feasible choices when their downstream consequences leave only values that the LLM itself judges unsuitable. The framework is model-agnostic, requires no retraining, and builds on existing grammar-constrained decoding mechanisms. Experiments on configuration and constraint-solving benchmarks show that the forward-only variant reliably produces specification-compliant outputs while reducing repeated LLM inference compared with rejection sampling and incurring modest symbolic-reasoning overhead. The backtracking variant further reduces cases in which the model is forced to select values that it has itself judged unsuitable, thereby substantially improving adherence to the LLM's stated interpretation of the prompt.",
+    "authors": [
+      "Alessandro Previti",
+      "Konstantinos Vandikas",
+      "Mario Alviano",
+      "Mats Carlsson",
+      "Albin Larsson Forsberg",
+      "Alexandros Nikou",
+      "Athanasios Karapantelakis",
+      "Aneta Vulgarakis Feljan"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Alessandro Previti",
+        "affiliations": []
+      },
+      {
+        "name": "Konstantinos Vandikas",
+        "affiliations": []
+      },
+      {
+        "name": "Mario Alviano",
+        "affiliations": []
+      },
+      {
+        "name": "Mats Carlsson",
+        "affiliations": []
+      },
+      {
+        "name": "Albin Larsson Forsberg",
+        "affiliations": []
+      },
+      {
+        "name": "Alexandros Nikou",
+        "affiliations": []
+      },
+      {
+        "name": "Athanasios Karapantelakis",
+        "affiliations": []
+      },
+      {
+        "name": "Aneta Vulgarakis Feljan",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-30",
+    "updated": "2026-11-02",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2610.41511",
+    "pdfUrl": "https://arxiv.org/pdf/2610.41511",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.00158",
+    "title": "Scaling Trusted Autonomy: Towards Generally Capable Verifiable Robots",
+    "abstract": "Robots powered by foundation models are increasingly able to interpret open-ended language, recognize unfamiliar objects, and operate across diverse environments. Yet broader capability does not establish that a robot has understood a request, that its actions will produce the intended effects, or that its internal representation still corresponds to reality. Classical symbolic planning provides explicit structure for composition and verification, but traditionally depends on hand-engineered skills and representations. Learned policies can broaden the robot's repertoire, but provide weak guarantees about what will happen and why. This thesis argues that scaling trusted autonomy requires a neurosymbolic approach that unifies the generality of learned models with symbolic structure for robust robot behavior. It explores three complementary directions. First, LIMP uses foundation models and spatial reasoning to ground natural-language instructions in explicit task constraints and instruction-specific semantic maps, enabling task-and-motion planning while exposing the robot's interpretation for inspection. Second, REALM maintains an editable, photorealistic 3D Gaussian scene, predicts the consequences of planned manipulation, and locally reconciles the scene so that subsequent instructions obtain their grounding and planning geometry from an updated state. Third, PACTS learns visuomotor skills that jointly generate action trajectories and predictions of their symbolic effects, supporting skill composition, progress monitoring, and recovery through replanning. Together, these contributions preserve explicit structure for reasoning and verification while broadening how it is obtained, providing a foundation for generally capable robots whose behavior can be assessed under the assumptions of their models.",
+    "authors": [
+      "Benedict Quartey"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Benedict Quartey",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-10-30",
+    "updated": "2026-10-30",
+    "categories": [
+      "cs.RO"
+    ],
+    "primaryCategory": "cs.RO",
+    "url": "https://arxiv.org/abs/2611.00158",
+    "pdfUrl": "https://arxiv.org/pdf/2611.00158",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
   {
     "id": "2610.41541",
     "title": "DeepWeave: Weaving Neural and Symbolic Evidence for ML-Based Network Intrusion Detection System",
@@ -59,70 +342,6 @@ globalThis.ARXIV_PAPERS = [
     "primaryCategory": "cs.CR",
     "url": "https://arxiv.org/abs/2610.41541",
     "pdfUrl": "https://arxiv.org/pdf/2610.41541",
-    "matches": {
-      "title": [],
-      "abstract": [
-        "neuro-symbolic"
-      ]
-    }
-  },
-  {
-    "id": "2610.41511",
-    "title": "Specification-Guided Generation for Large Language Models",
-    "abstract": "Large language models (LLMs) can generate structured outputs, but existing constrained-decoding methods mainly enforce syntax and cannot directly enforce satisfaction of a formal specification. We introduce a neuro-symbolic, specification-guided decoding framework that combines LLM generation with symbolic reasoning. At each step, the framework refines the decoding grammar by filtering out values that cannot be extended to an output satisfying the specification. We present a forward-only variant that guarantees specification satisfaction by construction, and a backtracking variant that revises earlier feasible choices when their downstream consequences leave only values that the LLM itself judges unsuitable. The framework is model-agnostic, requires no retraining, and builds on existing grammar-constrained decoding mechanisms. Experiments on configuration and constraint-solving benchmarks show that the forward-only variant reliably produces specification-compliant outputs while reducing repeated LLM inference compared with rejection sampling and incurring modest symbolic-reasoning overhead. The backtracking variant further reduces cases in which the model is forced to select values that it has itself judged unsuitable, thereby substantially improving adherence to the LLM's stated interpretation of the prompt.",
-    "authors": [
-      "Alessandro Previti",
-      "Konstantinos Vandikas",
-      "Mario Alviano",
-      "Mats Carlsson",
-      "Albin Larsson Forsberg",
-      "Alexandros Nikou",
-      "Athanasios Karapantelakis",
-      "Aneta Vulgarakis"
-    ],
-    "authorAffiliations": [
-      {
-        "name": "Alessandro Previti",
-        "affiliations": []
-      },
-      {
-        "name": "Konstantinos Vandikas",
-        "affiliations": []
-      },
-      {
-        "name": "Mario Alviano",
-        "affiliations": []
-      },
-      {
-        "name": "Mats Carlsson",
-        "affiliations": []
-      },
-      {
-        "name": "Albin Larsson Forsberg",
-        "affiliations": []
-      },
-      {
-        "name": "Alexandros Nikou",
-        "affiliations": []
-      },
-      {
-        "name": "Athanasios Karapantelakis",
-        "affiliations": []
-      },
-      {
-        "name": "Aneta Vulgarakis",
-        "affiliations": []
-      }
-    ],
-    "affiliations": [],
-    "published": "2026-10-30",
-    "updated": "2026-10-30",
-    "categories": [
-      "cs.AI"
-    ],
-    "primaryCategory": "cs.AI",
-    "url": "https://arxiv.org/abs/2610.41511",
-    "pdfUrl": "https://arxiv.org/pdf/2610.41511",
     "matches": {
       "title": [],
       "abstract": [
