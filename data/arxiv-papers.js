@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-11-03T19:55:26.616Z",
-  "cursorAt": "2026-11-03T19:55:26.616Z",
+  "generatedAt": "2026-11-04T20:12:50.589Z",
+  "cursorAt": "2026-11-04T20:12:50.589Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-11-01T18:14:08.005Z",
   "keywords": [
@@ -15,11 +15,95 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-11-02T22:04:10.354Z",
-  "windowStart": "2026-10-26T22:04:10.354Z",
+  "previousSnapshotAt": "2026-11-03T19:55:26.616Z",
+  "windowStart": "2026-10-27T19:55:26.616Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2611.05175",
+    "title": "The Novelty Horizon H_N: Why Large Language Models Fail to Generate Scientific Data beyond Their Training Distribution",
+    "abstract": "Large Language Models (LLMs) lack physical grounding and extrapolation. This paper formalises the Novelty Horizon as tasks needing extrapolation beyond training support, causal reasoning absent from learned correlations, or post-frontier information. A forensic analysis tests LLMs on unguided, guided, and ground-truth data from an underrepresented diode-clamped short-circuit experiment using temporal, spectral, and statistical validation against a first-principles Modified Ohm's Law. Both script-based approaches fail catastrophically with physical and spectral inconsistencies, extreme statistical pathologies, zero Generative Fidelity Score, and linear-regime outputs. Direct prompting corroborates distinct failure modes. This paper introduces the Past Information Boundary and physics-based authentication. LLM data generation cannot extrapolate past the Novelty Horizon essential for novel discovery. Hybrid neuro-symbolic systems must preserve human causal reasoning and experimental design.",
+    "authors": [
+      "Alex Mwololo Kimuya",
+      "Mary Mwadulo",
+      "Dickson Mwenda Kinyua"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Alex Mwololo Kimuya",
+        "affiliations": []
+      },
+      {
+        "name": "Mary Mwadulo",
+        "affiliations": []
+      },
+      {
+        "name": "Dickson Mwenda Kinyua",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-03",
+    "updated": "2026-11-03",
+    "categories": [
+      "eess.SY"
+    ],
+    "primaryCategory": "eess.SY",
+    "url": "https://arxiv.org/abs/2611.05175",
+    "pdfUrl": "https://arxiv.org/pdf/2611.05175",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.05039",
+    "title": "ALBI: LLM-Guided Inductive Logic Programming via Iterative Generate-Test-Constrain Refineme",
+    "abstract": "We introduce ALBI (Agent for Learning By Induction), a neuro-symbolic ILP framework that replaces the ASP-based hypothesis generator in the Learning from Failures (LFF) paradigm with a Large Language Model (LLM), while retaining SWI-Prolog as a formal verifier. ALBI implements an iterative generate-test-constrain loop: the LLM proposes candidate hypotheses from structured prompts; Prolog tests each candidate; and diagnostic feedback drives refinement. We further introduce semantic anonymization, a metamorphic testing methodology, to distinguish structural symbolic induction from surface-level pattern matching on predicate names. Experiments on 30 standard ILP benchmarks show that ALBI achieves 100% success across three frontier LLMs (Gemini 3.1 Pro, GPT 5.4 Pro, Claude Opus 4.6), matching Popper while requiring only 1.4-1.7 iterations on average. Under anonymization, all models maintain 100% success with a moderate iteration increase (1.36-1.67 times), providing evidence of robust symbolic reasoning.",
+    "authors": [
+      "Aboubaker Seddiq Benterki",
+      "Jüri Vain",
+      "Gert Kanter",
+      "Leelo Aino Jürgenstein"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Aboubaker Seddiq Benterki",
+        "affiliations": []
+      },
+      {
+        "name": "Jüri Vain",
+        "affiliations": []
+      },
+      {
+        "name": "Gert Kanter",
+        "affiliations": []
+      },
+      {
+        "name": "Leelo Aino Jürgenstein",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-03",
+    "updated": "2026-11-03",
+    "categories": [
+      "cs.AI",
+      "cs.SC"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.05039",
+    "pdfUrl": "https://arxiv.org/pdf/2611.05039",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2611.03641",
     "title": "From Natural Language to Exact Cover: A Neuro-Symbolic Approach to Zebra Puzzles",

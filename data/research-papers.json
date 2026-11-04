@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T19:55:27.327Z",
+  "generatedAt": "2026-11-04T20:12:51.289Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1889,
+  "paperCount": 1891,
   "completeMetadataCount": 1369,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1584
+      "count": 1586
     },
     {
       "id": "nesy-proceedings",
@@ -14377,6 +14377,15 @@
         ]
       },
       {
+        "id": "author:6fefbf150d987916",
+        "name": "Aboubaker Seddiq Benterki",
+        "aliases": [
+          "Aboubaker Seddiq Benterki"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:926ef71989b91c0b",
         "name": "Abraham Barrera",
         "aliases": [
@@ -15467,6 +15476,15 @@
         "institutionIds": [
           "institution:77ad516abcac1c12"
         ]
+      },
+      {
+        "id": "author:dc3637249d1223cf",
+        "name": "Alex Mwololo Kimuya",
+        "aliases": [
+          "Alex Mwololo Kimuya"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:b356f841b45abe5a",
@@ -24167,6 +24185,15 @@
         ]
       },
       {
+        "id": "author:2bf366ef07b9695b",
+        "name": "Dickson Mwenda Kinyua",
+        "aliases": [
+          "Dickson Mwenda Kinyua"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:e7a56e25b4ad76f9",
         "name": "Didier Stricker",
         "aliases": [
@@ -27970,6 +27997,15 @@
         "institutionIds": [
           "institution:23181ae7d70d3069"
         ]
+      },
+      {
+        "id": "author:b65d5c65758eeecf",
+        "name": "Gert Kanter",
+        "aliases": [
+          "Gert Kanter"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:9fd6c11d4bf7ddf9",
@@ -36925,6 +36961,15 @@
         ]
       },
       {
+        "id": "author:bad6c0bbb9f31bd1",
+        "name": "Jüri Vain",
+        "aliases": [
+          "Jüri Vain"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:1642d9029b307b94",
         "name": "Justin Chih-Yao Chen",
         "aliases": [
@@ -39010,6 +39055,15 @@
           "institution:48281f3607b9fe8f",
           "institution:6432056cdf12bb16"
         ]
+      },
+      {
+        "id": "author:4bfb8b9cb897dcf9",
+        "name": "Leelo Aino Jürgenstein",
+        "aliases": [
+          "Leelo Aino Jürgenstein"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:bd008278c04654f1",
@@ -42399,6 +42453,15 @@
         "institutionIds": [
           "institution:0c021b1ef9e818a5"
         ]
+      },
+      {
+        "id": "author:16563321a05a0766",
+        "name": "Mary Mwadulo",
+        "aliases": [
+          "Mary Mwadulo"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:396eef2be0b7b5f1",
@@ -383325,6 +383388,208 @@
       "rawAuthorAffiliations": [
         {
           "name": "Benedict Quartey",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.05175",
+      "title": "The Novelty Horizon H_N: Why Large Language Models Fail to Generate Scientific Data beyond Their Training Distribution",
+      "abstract": "Large Language Models (LLMs) lack physical grounding and extrapolation. This paper formalises the Novelty Horizon as tasks needing extrapolation beyond training support, causal reasoning absent from learned correlations, or post-frontier information. A forensic analysis tests LLMs on unguided, guided, and ground-truth data from an underrepresented diode-clamped short-circuit experiment using temporal, spectral, and statistical validation against a first-principles Modified Ohm's Law. Both script-based approaches fail catastrophically with physical and spectral inconsistencies, extreme statistical pathologies, zero Generative Fidelity Score, and linear-regime outputs. Direct prompting corroborates distinct failure modes. This paper introduces the Past Information Boundary and physics-based authentication. LLM data generation cannot extrapolate past the Novelty Horizon essential for novel discovery. Hybrid neuro-symbolic systems must preserve human causal reasoning and experimental design.",
+      "authors": [
+        "Alex Mwololo Kimuya",
+        "Mary Mwadulo",
+        "Dickson Mwenda Kinyua"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Alex Mwololo Kimuya",
+          "authorEntityId": "author:dc3637249d1223cf",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Alex Mwololo Kimuya",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Mary Mwadulo",
+          "authorEntityId": "author:16563321a05a0766",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Mary Mwadulo",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Dickson Mwenda Kinyua",
+          "authorEntityId": "author:2bf366ef07b9695b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Dickson Mwenda Kinyua",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "eess.SY"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05175",
+      "pdfUrl": "https://arxiv.org/pdf/2611.05175",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.05175",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:14cb2daae8f39284",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Alex Mwololo Kimuya",
+        "Mary Mwadulo",
+        "Dickson Mwenda Kinyua"
+      ],
+      "authorEntityIds": [
+        "author:dc3637249d1223cf",
+        "author:16563321a05a0766",
+        "author:2bf366ef07b9695b"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Alex Mwololo Kimuya",
+          "affiliations": []
+        },
+        {
+          "name": "Mary Mwadulo",
+          "affiliations": []
+        },
+        {
+          "name": "Dickson Mwenda Kinyua",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.05039",
+      "title": "ALBI: LLM-Guided Inductive Logic Programming via Iterative Generate-Test-Constrain Refineme",
+      "abstract": "We introduce ALBI (Agent for Learning By Induction), a neuro-symbolic ILP framework that replaces the ASP-based hypothesis generator in the Learning from Failures (LFF) paradigm with a Large Language Model (LLM), while retaining SWI-Prolog as a formal verifier. ALBI implements an iterative generate-test-constrain loop: the LLM proposes candidate hypotheses from structured prompts; Prolog tests each candidate; and diagnostic feedback drives refinement. We further introduce semantic anonymization, a metamorphic testing methodology, to distinguish structural symbolic induction from surface-level pattern matching on predicate names. Experiments on 30 standard ILP benchmarks show that ALBI achieves 100% success across three frontier LLMs (Gemini 3.1 Pro, GPT 5.4 Pro, Claude Opus 4.6), matching Popper while requiring only 1.4-1.7 iterations on average. Under anonymization, all models maintain 100% success with a moderate iteration increase (1.36-1.67 times), providing evidence of robust symbolic reasoning.",
+      "authors": [
+        "Aboubaker Seddiq Benterki",
+        "Jüri Vain",
+        "Gert Kanter",
+        "Leelo Aino Jürgenstein"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Aboubaker Seddiq Benterki",
+          "authorEntityId": "author:6fefbf150d987916",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Aboubaker Seddiq Benterki",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jüri Vain",
+          "authorEntityId": "author:bad6c0bbb9f31bd1",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jüri Vain",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Gert Kanter",
+          "authorEntityId": "author:b65d5c65758eeecf",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Gert Kanter",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Leelo Aino Jürgenstein",
+          "authorEntityId": "author:4bfb8b9cb897dcf9",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Leelo Aino Jürgenstein",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SC"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-03",
+      "url": "https://arxiv.org/abs/2611.05039",
+      "pdfUrl": "https://arxiv.org/pdf/2611.05039",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.05039",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:ac8a20638b9fe2f9",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Aboubaker Seddiq Benterki",
+        "Jüri Vain",
+        "Gert Kanter",
+        "Leelo Aino Jürgenstein"
+      ],
+      "authorEntityIds": [
+        "author:6fefbf150d987916",
+        "author:bad6c0bbb9f31bd1",
+        "author:b65d5c65758eeecf",
+        "author:4bfb8b9cb897dcf9"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Aboubaker Seddiq Benterki",
+          "affiliations": []
+        },
+        {
+          "name": "Jüri Vain",
+          "affiliations": []
+        },
+        {
+          "name": "Gert Kanter",
+          "affiliations": []
+        },
+        {
+          "name": "Leelo Aino Jürgenstein",
           "affiliations": []
         }
       ]
