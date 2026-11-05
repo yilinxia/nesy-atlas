@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-11-04T20:12:50.589Z",
-  "cursorAt": "2026-11-04T20:12:50.589Z",
+  "generatedAt": "2026-11-05T20:26:21.697Z",
+  "cursorAt": "2026-11-05T20:26:21.697Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-11-01T18:14:08.005Z",
   "keywords": [
@@ -15,11 +15,110 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-11-03T19:55:26.616Z",
-  "windowStart": "2026-10-27T19:55:26.616Z",
+  "previousSnapshotAt": "2026-11-04T20:12:50.589Z",
+  "windowStart": "2026-10-28T20:12:50.589Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2611.05664",
+    "title": "Combining Relevant Expert Knowledge Using Mixtures of Feedback Fuzzy Cognitive Maps",
+    "abstract": "A neuro-symbolic system should combine only relevant answers from expert agents or other knowledge sources. Using only relevant experts for a given input query becomes ever more important for accuracy and scalability as the knowledge network grows and connects ever more knowledge sources. We extend the standard definition of relevance from the legal theory of evidence: An answer is relevant if and only if it is both probative and material for the matter at hand given the knowledge available. We apply this relevancy scheme to mixing the feedback fuzzy cognitive maps (FCMs) of real or artificial experts. The expert FCM directed causal graphs mix or combine into a common knowledge network. We compare the equilibrium limit-cycle predictions or answers of the experts to the answers of the mixture FCM and then estimate the probative status of answers by their difference or variation. A new Bayes-like theorem de-mixes the knowledge mixture into corresponding posterior-like FCMs that also allow relevancy-based comparisons. The result is a final set of relevancy mixing weights that produces a relevancy-mixed FCM knowledge network for the given query. So different queries produce different relevancy-mixed FCMs. We demonstrate this relevancy approach using generated synthetic FCMs from an actual 13-node expert FCM that models the causes and feedbacks of ischemic-stroke risk.",
+    "authors": [
+      "Olaoluwa Adigun",
+      "Akash Kumar Panda",
+      "Bart Kosko"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Olaoluwa Adigun",
+        "affiliations": []
+      },
+      {
+        "name": "Akash Kumar Panda",
+        "affiliations": []
+      },
+      {
+        "name": "Bart Kosko",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-03",
+    "updated": "2026-11-03",
+    "categories": [
+      "cs.AI",
+      "cs.IR",
+      "cs.SC"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.05664",
+    "pdfUrl": "https://arxiv.org/pdf/2611.05664",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.05612",
+    "title": "Whiel: A Neurosymbolic Platform for Certified Relational Program Verification",
+    "abstract": "We present the Whiel (a contraction of Whi(le-R)el) system for Lean-certified reasoning about imperative relational programs. The system can encode containment and equivalence problems for Datalog, its extensions with negation, and the core fragment of graph query languages. It can also represent optimized or incremental evaluation algorithms that are not expressible in the original query language, as well as first-order specifications of integrity constraints, schema mappings, and views arising in data integration, exchange, and sharing. Whiel's program states are database instances, and its imperative structure enables compositional Hoare-style reasoning with first-order relational specifications, using prophecy variables and leveled invariants to support inductive arguments. Whiel supports neurosymbolic discovery of loop invariants whose verification conditions can be checked using the Vampire first-order theorem prover. Counterexamples are fed back into the neurosymbolic pipeline, while proposed solutions are translated into Lean proof certificates. To validate the Whiel system, we evaluate its performance on a curated benchmark suite. In summary, we envision the Whiel system as a tool for tackling mathematically demanding, typically undecidable problems involving complex query and constraint languages, with a high degree of trust in its output.",
+    "authors": [
+      "Jesse Comer",
+      "Fangzhu Shen",
+      "Shuo Zhang",
+      "Mayur Naik",
+      "Sudeepa Roy",
+      "Val Tannen"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Jesse Comer",
+        "affiliations": []
+      },
+      {
+        "name": "Fangzhu Shen",
+        "affiliations": []
+      },
+      {
+        "name": "Shuo Zhang",
+        "affiliations": []
+      },
+      {
+        "name": "Mayur Naik",
+        "affiliations": []
+      },
+      {
+        "name": "Sudeepa Roy",
+        "affiliations": []
+      },
+      {
+        "name": "Val Tannen",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-03",
+    "updated": "2026-11-03",
+    "categories": [
+      "cs.DB",
+      "cs.AI",
+      "cs.LO"
+    ],
+    "primaryCategory": "cs.DB",
+    "url": "https://arxiv.org/abs/2611.05612",
+    "pdfUrl": "https://arxiv.org/pdf/2611.05612",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
   {
     "id": "2611.05175",
     "title": "The Novelty Horizon H_N: Why Large Language Models Fail to Generate Scientific Data beyond Their Training Distribution",
