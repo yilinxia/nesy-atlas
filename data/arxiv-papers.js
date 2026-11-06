@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-11-05T20:26:21.697Z",
-  "cursorAt": "2026-11-05T20:26:21.697Z",
+  "generatedAt": "2026-11-06T19:48:19.407Z",
+  "cursorAt": "2026-11-06T19:48:19.407Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-11-01T18:14:08.005Z",
   "keywords": [
@@ -15,47 +15,159 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-11-04T20:12:50.589Z",
-  "windowStart": "2026-10-28T20:12:50.589Z",
+  "previousSnapshotAt": "2026-11-05T20:26:21.697Z",
+  "windowStart": "2026-10-29T20:26:21.697Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
   {
-    "id": "2611.05664",
-    "title": "Combining Relevant Expert Knowledge Using Mixtures of Feedback Fuzzy Cognitive Maps",
-    "abstract": "A neuro-symbolic system should combine only relevant answers from expert agents or other knowledge sources. Using only relevant experts for a given input query becomes ever more important for accuracy and scalability as the knowledge network grows and connects ever more knowledge sources. We extend the standard definition of relevance from the legal theory of evidence: An answer is relevant if and only if it is both probative and material for the matter at hand given the knowledge available. We apply this relevancy scheme to mixing the feedback fuzzy cognitive maps (FCMs) of real or artificial experts. The expert FCM directed causal graphs mix or combine into a common knowledge network. We compare the equilibrium limit-cycle predictions or answers of the experts to the answers of the mixture FCM and then estimate the probative status of answers by their difference or variation. A new Bayes-like theorem de-mixes the knowledge mixture into corresponding posterior-like FCMs that also allow relevancy-based comparisons. The result is a final set of relevancy mixing weights that produces a relevancy-mixed FCM knowledge network for the given query. So different queries produce different relevancy-mixed FCMs. We demonstrate this relevancy approach using generated synthetic FCMs from an actual 13-node expert FCM that models the causes and feedbacks of ischemic-stroke risk.",
+    "id": "2611.08315",
+    "title": "Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedical Knowledge Graphs: The Role of Graph Grounding in Multi-Hop Reasoning and Hallucination Mitigation",
+    "abstract": "Large language models (LLMs) are increasingly used in biomedical and cognitive neuroscience, but their ability to reason reliably over heterogeneous knowledge graphs (KGs) remains unclear. We benchmark five LLMs (GPT-5.1, Gemini 2.0 Pro, Llama 3, Qwen, and BioGPT) across five KGs: DrugBank, NeuroSynth, Cognitive Atlas, Brain Map, and GDPKG. We introduce a multitier query dataset to evaluate reasoning depth and factual accuracy under KG-aware (graph-grounded) and KG-agnostic conditions. Inter-annotator agreement was substantial, with Cohen's kappa of 0.781 (range: 0.753-0.807) and Fleiss' kappa of 0.77. Results show that general-purpose models, particularly GPT-5.1 and Gemini 2.0 Pro, generally outperform domain-specific models on multi-hop and high-level reasoning tasks, although performance declines as query complexity increases. KG grounding reduces hallucination rates across all evaluated models. Contrary to our initial hypothesis, domain-specific models do not consistently outperform general-purpose models on specialized tasks without graph grounding. These findings highlight the value of combining broad language-model capabilities with structured domain knowledge. We provide practical guidance for selecting LLM-KG integration strategies based on task complexity and computational constraints, and discuss hybrid neurosymbolic architectures for personalized medicine, cognitive disorder diagnosis, and explainable AI.",
     "authors": [
-      "Olaoluwa Adigun",
-      "Akash Kumar Panda",
-      "Bart Kosko"
+      "Ali Sarabadani",
+      "Kheirolah Rahsepar Fard",
+      "Tahereh Jeirani"
     ],
     "authorAffiliations": [
       {
-        "name": "Olaoluwa Adigun",
+        "name": "Ali Sarabadani",
         "affiliations": []
       },
       {
-        "name": "Akash Kumar Panda",
+        "name": "Kheirolah Rahsepar Fard",
         "affiliations": []
       },
       {
-        "name": "Bart Kosko",
+        "name": "Tahereh Jeirani",
         "affiliations": []
       }
     ],
     "affiliations": [],
-    "published": "2026-11-03",
-    "updated": "2026-11-03",
+    "published": "2026-11-05",
+    "updated": "2026-11-05",
     "categories": [
       "cs.AI",
-      "cs.IR",
-      "cs.SC"
+      "cs.CL",
+      "cs.LG"
     ],
     "primaryCategory": "cs.AI",
-    "url": "https://arxiv.org/abs/2611.05664",
-    "pdfUrl": "https://arxiv.org/pdf/2611.05664",
+    "url": "https://arxiv.org/abs/2611.08315",
+    "pdfUrl": "https://arxiv.org/pdf/2611.08315",
     "matches": {
       "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.07882",
+    "title": "Compositional Loop Invariant Inference for Multiphase Programs via Structured Neurosymbolic Reasoning",
+    "abstract": "Loop invariants are essential for deductive program verification, yet automatically inferring them for {multiphase programs}, whose loops contain conditional branches that induce multiple execution phases with distinct behaviors, remains an open problem. Existing LLM-based methods either reason about loops as a whole or use explicit branch information to generate atomic assertions jointly across branches, without maintaining complete candidate sub-invariants for independent generation and targeted repair. We present CLOVER, a structured neurosymbolic reasoning framework for multiphase invariant inference built on two interlinked mechanisms. First, compositional inference: CLOVER statically decomposes a loop into symbolic {loop branch sequences}, conjunctions of the loop guard and branch conditions that characterize distinct execution scenarios, and guides the LLM to generate candidate sub-invariants for each one independently, so that each LLM query focuses on a single execution scenario rather than the entire loop. Second, counterexample-guided localized refinement: when SMT verification rejects a composed disjunctive invariant, CLOVER traces the counterexample back through the branch structure to identify which specific loop branch sequence caused the failure and repairs only that sub-invariant, preserving all correct components. Both mechanisms are unified by a shared symbolic structure derived from the loop's branch semantics, which guides what the LLM generates, how candidates are composed, and where refinement is directed. We evaluate CLOVER on 316 linear arithmetic, 50 nonlinear arithmetic, and 54 multiphase benchmarks. CLOVER solves 35 of 54 multiphase benchmarks, outperforming the best LLM-based baseline (29) by 20.7\\% and the best traditional method (22) by 59.1\\%. On linear/nonlinear benchmarks, CLOVER remains competitive, solving 355 of 366 programs overall.",
+    "authors": [
+      "Mingxiu Wang",
+      "Jiawei Wang",
+      "Shuangxiang Kan",
+      "Angela Huo",
+      "Yuekang Li",
+      "Xi Zheng",
+      "Xiao Cheng"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Mingxiu Wang",
+        "affiliations": []
+      },
+      {
+        "name": "Jiawei Wang",
+        "affiliations": []
+      },
+      {
+        "name": "Shuangxiang Kan",
+        "affiliations": []
+      },
+      {
+        "name": "Angela Huo",
+        "affiliations": []
+      },
+      {
+        "name": "Yuekang Li",
+        "affiliations": []
+      },
+      {
+        "name": "Xi Zheng",
+        "affiliations": []
+      },
+      {
+        "name": "Xiao Cheng",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-05",
+    "updated": "2026-11-05",
+    "categories": [
+      "cs.SE"
+    ],
+    "primaryCategory": "cs.SE",
+    "url": "https://arxiv.org/abs/2611.07882",
+    "pdfUrl": "https://arxiv.org/pdf/2611.07882",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.07040",
+    "title": "An LLM-Orchestrated Neuro-Symbolic Framework for Verifying Diagnostic Signal Reachability in Electronic Systems",
+    "abstract": "Diagnostic Signal Reachability (DSR) captures whether board-level health signals are observable by management controllers, including baseboard management controllers (BMCs), complex programmable logic devices (CPLDs), and other smart controllers. Verifying DSR is essential for field diagnosability in datacenter fleets, where one design is deployed at massive scale, yet it remains largely manual, since each signal is traced by hand across schematic sheets, renamed nets, series components, and monitoring devices. Large language models (LLMs) are attractive but unreliable at structural connectivity reasoning, where over-claiming can silently hide a rare coverage gap. We present NetFlow-DSR, a neuro-symbolic framework in which an LLM orchestrates the DSR pipeline and resolves device roles mainly from part-name families and library pin names, consulting specifications only for ambiguous parts. Pin directionality is read from the design library, and deterministic graph engines verify connectivity over the authoritative netlist. The pipeline detects diagnostic nets, canonicalizes renamed net fragments, and performs controller-seeded, power-aware breadth-first search over an admissibility graph that credits device-mediated monitoring. Each verdict carries an auditable trace card whose proof path is the witness. Across five production boards from an AI platform, covering 421 expert-graded signals, a three-stage ablation improves pooled F1 from 0.578 to 0.944. Because a monitored verdict is emitted only with a proof path, the verifier is sound by construction, and precision and specificity were 100% in the evaluated data. In a cross-model study on the system-controller module, precision remained 100% across three LLMs while recall tracked each model's device-semantic extraction. Precision therefore depends on the netlist-grounded verifier and correct device semantics rather than on any single LLM.",
+    "authors": [
+      "Heba Jaradat",
+      "Mohammed-Khalil Ghali",
+      "Saurabh Kulkarni",
+      "Rohan Kulkarni",
+      "Sangwon Yoon"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Heba Jaradat",
+        "affiliations": []
+      },
+      {
+        "name": "Mohammed-Khalil Ghali",
+        "affiliations": []
+      },
+      {
+        "name": "Saurabh Kulkarni",
+        "affiliations": []
+      },
+      {
+        "name": "Rohan Kulkarni",
+        "affiliations": []
+      },
+      {
+        "name": "Sangwon Yoon",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-04",
+    "updated": "2026-11-04",
+    "categories": [
+      "cs.SE"
+    ],
+    "primaryCategory": "cs.SE",
+    "url": "https://arxiv.org/abs/2611.07040",
+    "pdfUrl": "https://arxiv.org/pdf/2611.07040",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
       "abstract": [
         "neuro-symbolic"
       ]
@@ -101,7 +213,7 @@ globalThis.ARXIV_PAPERS = [
     ],
     "affiliations": [],
     "published": "2026-11-03",
-    "updated": "2026-11-03",
+    "updated": "2026-11-05",
     "categories": [
       "cs.DB",
       "cs.AI",
@@ -116,6 +228,47 @@ globalThis.ARXIV_PAPERS = [
       ],
       "abstract": [
         "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.05664",
+    "title": "Combining Relevant Expert Knowledge Using Mixtures of Feedback Fuzzy Cognitive Maps",
+    "abstract": "A neuro-symbolic system should combine only relevant answers from expert agents or other knowledge sources. Using only relevant experts for a given input query becomes ever more important for accuracy and scalability as the knowledge network grows and connects ever more knowledge sources. We extend the standard definition of relevance from the legal theory of evidence: An answer is relevant if and only if it is both probative and material for the matter at hand given the knowledge available. We apply this relevancy scheme to mixing the feedback fuzzy cognitive maps (FCMs) of real or artificial experts. The expert FCM directed causal graphs mix or combine into a common knowledge network. We compare the equilibrium limit-cycle predictions or answers of the experts to the answers of the mixture FCM and then estimate the probative status of answers by their difference or variation. A new Bayes-like theorem de-mixes the knowledge mixture into corresponding posterior-like FCMs that also allow relevancy-based comparisons. The result is a final set of relevancy mixing weights that produces a relevancy-mixed FCM knowledge network for the given query. So different queries produce different relevancy-mixed FCMs. We demonstrate this relevancy approach using generated synthetic FCMs from an actual 13-node expert FCM that models the causes and feedbacks of ischemic-stroke risk.",
+    "authors": [
+      "Olaoluwa Adigun",
+      "Akash Kumar Panda",
+      "Bart Kosko"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Olaoluwa Adigun",
+        "affiliations": []
+      },
+      {
+        "name": "Akash Kumar Panda",
+        "affiliations": []
+      },
+      {
+        "name": "Bart Kosko",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-03",
+    "updated": "2026-11-03",
+    "categories": [
+      "cs.AI",
+      "cs.IR",
+      "cs.SC"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.05664",
+    "pdfUrl": "https://arxiv.org/pdf/2611.05664",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
       ]
     }
   },

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T20:26:22.263Z",
+  "generatedAt": "2026-11-06T19:48:20.125Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1893,
+  "paperCount": 1896,
   "completeMetadataCount": 1369,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1588
+      "count": 1591
     },
     {
       "id": "nesy-proceedings",
@@ -1416,6 +1416,18 @@
         ]
       },
       {
+        "id": "author:cc30d8192f8a647d",
+        "name": "Xi Zheng",
+        "aliases": [
+          "Xi Zheng"
+        ],
+        "paperCount": 6,
+        "institutionIds": [
+          "institution:8aa302982705b6d1",
+          "institution:e22a016a639e519f"
+        ]
+      },
+      {
         "id": "author:0df9ebe8669c095a",
         "name": "Xiao-Wen Yang",
         "aliases": [
@@ -1937,18 +1949,6 @@
           "institution:7619d64a00ef2038",
           "institution:ab830fff584165e7",
           "institution:cf1c67afebae5548"
-        ]
-      },
-      {
-        "id": "author:cc30d8192f8a647d",
-        "name": "Xi Zheng",
-        "aliases": [
-          "Xi Zheng"
-        ],
-        "paperCount": 5,
-        "institutionIds": [
-          "institution:8aa302982705b6d1",
-          "institution:e22a016a639e519f"
         ]
       },
       {
@@ -3068,6 +3068,18 @@
         "institutionIds": [
           "institution:b9ea4b426550e6d6",
           "institution:e897b676e22fa06e"
+        ]
+      },
+      {
+        "id": "author:35e0ac1c7e37bcdc",
+        "name": "Xiao Cheng",
+        "aliases": [
+          "Xiao Cheng"
+        ],
+        "paperCount": 4,
+        "institutionIds": [
+          "institution:308cc32aff97f3d9",
+          "institution:8aa302982705b6d1"
         ]
       },
       {
@@ -5631,18 +5643,6 @@
         "institutionIds": [
           "institution:adc4b93dfe897098",
           "institution:f336b3005794930b"
-        ]
-      },
-      {
-        "id": "author:35e0ac1c7e37bcdc",
-        "name": "Xiao Cheng",
-        "aliases": [
-          "Xiao Cheng"
-        ],
-        "paperCount": 3,
-        "institutionIds": [
-          "institution:308cc32aff97f3d9",
-          "institution:8aa302982705b6d1"
         ]
       },
       {
@@ -13126,6 +13126,15 @@
         ]
       },
       {
+        "id": "author:58978745c4f5067b",
+        "name": "Yuekang Li",
+        "aliases": [
+          "Yuekang Li"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
+      },
+      {
         "id": "author:1113d119e5eb57da",
         "name": "Yufei Kuang",
         "aliases": [
@@ -15855,6 +15864,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:bb86c85faa9af1e9",
+        "name": "Ali Sarabadani",
+        "aliases": [
+          "Ali Sarabadani"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:a715197d4318226c",
         "name": "Ali Shafiee Sarvestani",
         "aliases": [
@@ -17048,6 +17066,15 @@
         "name": "Ang Chen",
         "aliases": [
           "Ang Chen"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:fd6eaf093336f580",
+        "name": "Angela Huo",
+        "aliases": [
+          "Angela Huo"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -30431,6 +30458,15 @@
         ]
       },
       {
+        "id": "author:210531cd8511b03e",
+        "name": "Heba Jaradat",
+        "aliases": [
+          "Heba Jaradat"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:fe7ee2dc938c533f",
         "name": "Hector Geffner",
         "aliases": [
@@ -34348,6 +34384,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:d1c379bb6892cd14",
+        "name": "Jiawei Wang",
+        "aliases": [
+          "Jiawei Wang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:99ca19b07ead107f",
         "name": "Jiaxin Bai",
         "aliases": [
@@ -38159,6 +38204,15 @@
         "institutionIds": [
           "institution:49f7757d2d8fcbd4"
         ]
+      },
+      {
+        "id": "author:0f71b9dbca986fda",
+        "name": "Kheirolah Rahsepar Fard",
+        "aliases": [
+          "Kheirolah Rahsepar Fard"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:971a52bb7dfdfe9b",
@@ -44522,6 +44576,15 @@
         ]
       },
       {
+        "id": "author:d7c536775f8e23c2",
+        "name": "Mingxiu Wang",
+        "aliases": [
+          "Mingxiu Wang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:5abddd7fd3704daf",
         "name": "Mingxuan Ye",
         "aliases": [
@@ -45193,6 +45256,15 @@
         "name": "Mohammed Q. Shormani",
         "aliases": [
           "Mohammed Q. Shormani"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:bd5aefa2f5d58696",
+        "name": "Mohammed-Khalil Ghali",
+        "aliases": [
+          "Mohammed-Khalil Ghali"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -51515,6 +51587,15 @@
         ]
       },
       {
+        "id": "author:6d10a165cddf125e",
+        "name": "Rohan Kulkarni",
+        "aliases": [
+          "Rohan Kulkarni"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:7b1cb1b12d023748",
         "name": "Roland Fernandez",
         "aliases": [
@@ -53119,6 +53200,15 @@
         ]
       },
       {
+        "id": "author:0ba295acc9079789",
+        "name": "Sangwon Yoon",
+        "aliases": [
+          "Sangwon Yoon"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:504c305bd16f1395",
         "name": "Sanjay Kumar",
         "aliases": [
@@ -53492,6 +53582,15 @@
           "institution:9c48dc150de77a31",
           "institution:be79a7a7d850c9a5"
         ]
+      },
+      {
+        "id": "author:9470fbe7e4657ce7",
+        "name": "Saurabh Kulkarni",
+        "aliases": [
+          "Saurabh Kulkarni"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:138b4c66adc835f3",
@@ -55035,6 +55134,15 @@
         "institutionIds": [
           "institution:769b711ed2fee7c0"
         ]
+      },
+      {
+        "id": "author:feaa405d4df24f6a",
+        "name": "Shuangxiang Kan",
+        "aliases": [
+          "Shuangxiang Kan"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:0331e282b796f76c",
@@ -57390,6 +57498,15 @@
         "institutionIds": [
           "institution:8c8808b11d80c650"
         ]
+      },
+      {
+        "id": "author:ccd6460e22ee8211",
+        "name": "Tahereh Jeirani",
+        "aliases": [
+          "Tahereh Jeirani"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:4e7a5860a4e24aff",
@@ -65845,15 +65962,6 @@
         "name": "Yuefeng He",
         "aliases": [
           "Yuefeng He"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
-        "id": "author:58978745c4f5067b",
-        "name": "Yuekang Li",
-        "aliases": [
-          "Yuekang Li"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -383888,6 +383996,377 @@
         },
         {
           "name": "Val Tannen",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.08315",
+      "title": "Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedical Knowledge Graphs: The Role of Graph Grounding in Multi-Hop Reasoning and Hallucination Mitigation",
+      "abstract": "Large language models (LLMs) are increasingly used in biomedical and cognitive neuroscience, but their ability to reason reliably over heterogeneous knowledge graphs (KGs) remains unclear. We benchmark five LLMs (GPT-5.1, Gemini 2.0 Pro, Llama 3, Qwen, and BioGPT) across five KGs: DrugBank, NeuroSynth, Cognitive Atlas, Brain Map, and GDPKG. We introduce a multitier query dataset to evaluate reasoning depth and factual accuracy under KG-aware (graph-grounded) and KG-agnostic conditions. Inter-annotator agreement was substantial, with Cohen's kappa of 0.781 (range: 0.753-0.807) and Fleiss' kappa of 0.77. Results show that general-purpose models, particularly GPT-5.1 and Gemini 2.0 Pro, generally outperform domain-specific models on multi-hop and high-level reasoning tasks, although performance declines as query complexity increases. KG grounding reduces hallucination rates across all evaluated models. Contrary to our initial hypothesis, domain-specific models do not consistently outperform general-purpose models on specialized tasks without graph grounding. These findings highlight the value of combining broad language-model capabilities with structured domain knowledge. We provide practical guidance for selecting LLM-KG integration strategies based on task complexity and computational constraints, and discuss hybrid neurosymbolic architectures for personalized medicine, cognitive disorder diagnosis, and explainable AI.",
+      "authors": [
+        "Ali Sarabadani",
+        "Kheirolah Rahsepar Fard",
+        "Tahereh Jeirani"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Ali Sarabadani",
+          "authorEntityId": "author:bb86c85faa9af1e9",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ali Sarabadani",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Kheirolah Rahsepar Fard",
+          "authorEntityId": "author:0f71b9dbca986fda",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Kheirolah Rahsepar Fard",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Tahereh Jeirani",
+          "authorEntityId": "author:ccd6460e22ee8211",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Tahereh Jeirani",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.08315",
+      "pdfUrl": "https://arxiv.org/pdf/2611.08315",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.08315",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:eeb954457fb6bb9f",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Ali Sarabadani",
+        "Kheirolah Rahsepar Fard",
+        "Tahereh Jeirani"
+      ],
+      "authorEntityIds": [
+        "author:bb86c85faa9af1e9",
+        "author:0f71b9dbca986fda",
+        "author:ccd6460e22ee8211"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Ali Sarabadani",
+          "affiliations": []
+        },
+        {
+          "name": "Kheirolah Rahsepar Fard",
+          "affiliations": []
+        },
+        {
+          "name": "Tahereh Jeirani",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.07882",
+      "title": "Compositional Loop Invariant Inference for Multiphase Programs via Structured Neurosymbolic Reasoning",
+      "abstract": "Loop invariants are essential for deductive program verification, yet automatically inferring them for {multiphase programs}, whose loops contain conditional branches that induce multiple execution phases with distinct behaviors, remains an open problem. Existing LLM-based methods either reason about loops as a whole or use explicit branch information to generate atomic assertions jointly across branches, without maintaining complete candidate sub-invariants for independent generation and targeted repair. We present CLOVER, a structured neurosymbolic reasoning framework for multiphase invariant inference built on two interlinked mechanisms. First, compositional inference: CLOVER statically decomposes a loop into symbolic {loop branch sequences}, conjunctions of the loop guard and branch conditions that characterize distinct execution scenarios, and guides the LLM to generate candidate sub-invariants for each one independently, so that each LLM query focuses on a single execution scenario rather than the entire loop. Second, counterexample-guided localized refinement: when SMT verification rejects a composed disjunctive invariant, CLOVER traces the counterexample back through the branch structure to identify which specific loop branch sequence caused the failure and repairs only that sub-invariant, preserving all correct components. Both mechanisms are unified by a shared symbolic structure derived from the loop's branch semantics, which guides what the LLM generates, how candidates are composed, and where refinement is directed. We evaluate CLOVER on 316 linear arithmetic, 50 nonlinear arithmetic, and 54 multiphase benchmarks. CLOVER solves 35 of 54 multiphase benchmarks, outperforming the best LLM-based baseline (29) by 20.7\\% and the best traditional method (22) by 59.1\\%. On linear/nonlinear benchmarks, CLOVER remains competitive, solving 355 of 366 programs overall.",
+      "authors": [
+        "Mingxiu Wang",
+        "Jiawei Wang",
+        "Shuangxiang Kan",
+        "Angela Huo",
+        "Yuekang Li",
+        "Xi Zheng",
+        "Xiao Cheng"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Mingxiu Wang",
+          "authorEntityId": "author:d7c536775f8e23c2",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Mingxiu Wang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jiawei Wang",
+          "authorEntityId": "author:d1c379bb6892cd14",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jiawei Wang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Shuangxiang Kan",
+          "authorEntityId": "author:feaa405d4df24f6a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Shuangxiang Kan",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Angela Huo",
+          "authorEntityId": "author:fd6eaf093336f580",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Angela Huo",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yuekang Li",
+          "authorEntityId": "author:58978745c4f5067b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yuekang Li",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xi Zheng",
+          "authorEntityId": "author:cc30d8192f8a647d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xi Zheng",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xiao Cheng",
+          "authorEntityId": "author:35e0ac1c7e37bcdc",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xiao Cheng",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.SE"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-05",
+      "url": "https://arxiv.org/abs/2611.07882",
+      "pdfUrl": "https://arxiv.org/pdf/2611.07882",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.07882",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:aea54e7a4a29c959",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Mingxiu Wang",
+        "Jiawei Wang",
+        "Shuangxiang Kan",
+        "Angela Huo",
+        "Yuekang Li",
+        "Xi Zheng",
+        "Xiao Cheng"
+      ],
+      "authorEntityIds": [
+        "author:d7c536775f8e23c2",
+        "author:d1c379bb6892cd14",
+        "author:feaa405d4df24f6a",
+        "author:fd6eaf093336f580",
+        "author:58978745c4f5067b",
+        "author:cc30d8192f8a647d",
+        "author:35e0ac1c7e37bcdc"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Mingxiu Wang",
+          "affiliations": []
+        },
+        {
+          "name": "Jiawei Wang",
+          "affiliations": []
+        },
+        {
+          "name": "Shuangxiang Kan",
+          "affiliations": []
+        },
+        {
+          "name": "Angela Huo",
+          "affiliations": []
+        },
+        {
+          "name": "Yuekang Li",
+          "affiliations": []
+        },
+        {
+          "name": "Xi Zheng",
+          "affiliations": []
+        },
+        {
+          "name": "Xiao Cheng",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.07040",
+      "title": "An LLM-Orchestrated Neuro-Symbolic Framework for Verifying Diagnostic Signal Reachability in Electronic Systems",
+      "abstract": "Diagnostic Signal Reachability (DSR) captures whether board-level health signals are observable by management controllers, including baseboard management controllers (BMCs), complex programmable logic devices (CPLDs), and other smart controllers. Verifying DSR is essential for field diagnosability in datacenter fleets, where one design is deployed at massive scale, yet it remains largely manual, since each signal is traced by hand across schematic sheets, renamed nets, series components, and monitoring devices. Large language models (LLMs) are attractive but unreliable at structural connectivity reasoning, where over-claiming can silently hide a rare coverage gap. We present NetFlow-DSR, a neuro-symbolic framework in which an LLM orchestrates the DSR pipeline and resolves device roles mainly from part-name families and library pin names, consulting specifications only for ambiguous parts. Pin directionality is read from the design library, and deterministic graph engines verify connectivity over the authoritative netlist. The pipeline detects diagnostic nets, canonicalizes renamed net fragments, and performs controller-seeded, power-aware breadth-first search over an admissibility graph that credits device-mediated monitoring. Each verdict carries an auditable trace card whose proof path is the witness. Across five production boards from an AI platform, covering 421 expert-graded signals, a three-stage ablation improves pooled F1 from 0.578 to 0.944. Because a monitored verdict is emitted only with a proof path, the verifier is sound by construction, and precision and specificity were 100% in the evaluated data. In a cross-model study on the system-controller module, precision remained 100% across three LLMs while recall tracked each model's device-semantic extraction. Precision therefore depends on the netlist-grounded verifier and correct device semantics rather than on any single LLM.",
+      "authors": [
+        "Heba Jaradat",
+        "Mohammed-Khalil Ghali",
+        "Saurabh Kulkarni",
+        "Rohan Kulkarni",
+        "Sangwon Yoon"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Heba Jaradat",
+          "authorEntityId": "author:210531cd8511b03e",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Heba Jaradat",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Mohammed-Khalil Ghali",
+          "authorEntityId": "author:bd5aefa2f5d58696",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Mohammed-Khalil Ghali",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Saurabh Kulkarni",
+          "authorEntityId": "author:9470fbe7e4657ce7",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Saurabh Kulkarni",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Rohan Kulkarni",
+          "authorEntityId": "author:6d10a165cddf125e",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Rohan Kulkarni",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Sangwon Yoon",
+          "authorEntityId": "author:0ba295acc9079789",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Sangwon Yoon",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.SE"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-04",
+      "url": "https://arxiv.org/abs/2611.07040",
+      "pdfUrl": "https://arxiv.org/pdf/2611.07040",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.07040",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:4b41ba21d2e0b1b1",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Heba Jaradat",
+        "Mohammed-Khalil Ghali",
+        "Saurabh Kulkarni",
+        "Rohan Kulkarni",
+        "Sangwon Yoon"
+      ],
+      "authorEntityIds": [
+        "author:210531cd8511b03e",
+        "author:bd5aefa2f5d58696",
+        "author:9470fbe7e4657ce7",
+        "author:6d10a165cddf125e",
+        "author:0ba295acc9079789"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Heba Jaradat",
+          "affiliations": []
+        },
+        {
+          "name": "Mohammed-Khalil Ghali",
+          "affiliations": []
+        },
+        {
+          "name": "Saurabh Kulkarni",
+          "affiliations": []
+        },
+        {
+          "name": "Rohan Kulkarni",
+          "affiliations": []
+        },
+        {
+          "name": "Sangwon Yoon",
           "affiliations": []
         }
       ]
