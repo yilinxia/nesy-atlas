@@ -3112,5 +3112,14 @@
     "sourceUrl": "https://www.uniphore.com/blog/",
     "discovered": "2026-11-03",
     "status": "needs-review"
+  },
+  {
+    "company": "CogniSwitch",
+    "title": "SOPBench verification",
+    "date": "2026-11-01",
+    "url": "https://cogniswitch.ai/research/sopbench",
+    "sourceUrl": "https://cogniswitch.ai/signal",
+    "discovered": "2026-11-08",
+    "status": "needs-review"
   }
 ]
