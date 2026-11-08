@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T17:55:18.178Z",
+  "generatedAt": "2026-11-08T18:11:55.163Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -29450,6 +29450,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:f6f69b1d126ffc75",
+        "name": "Haishan Zeng",
+        "aliases": [
+          "Haishan Zeng"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:22bab6b283f9aaf2",
         "name": "Haishuo Fang",
         "aliases": [
@@ -43564,6 +43573,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:01d6b4d33a65a47d",
+        "name": "Mengna Wang",
+        "aliases": [
+          "Mengna Wang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:dcaa597485b0b90b",
         "name": "Mengni Jia",
         "aliases": [
@@ -48642,6 +48660,15 @@
           "institution:66e4c6fb21f82baa",
           "institution:8a80ed7e23273998"
         ]
+      },
+      {
+        "id": "author:ffc927b8b35cd5b8",
+        "name": "Peng Li",
+        "aliases": [
+          "Peng Li"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:bccd89dbe5c08340",
@@ -59128,15 +59155,6 @@
         "name": "Trilok Padhi",
         "aliases": [
           "Trilok Padhi"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
-        "id": "author:3b354ac5b9119c01",
-        "name": "Tristan Simas",
-        "aliases": [
-          "Tristan Simas"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -128231,7 +128249,7 @@
     {
       "id": "2604.02434",
       "title": "Compositional Neuro-Symbolic Reasoning",
-      "abstract": "We study structured abstraction-based reasoning for the Abstraction and Reasoning Corpus (ARC) and compare its generalization to test-time approaches. Purely neural architectures lack reliable combinatorial generalization, while strictly symbolic systems struggle with perceptual grounding. We therefore propose a neuro-symbolic architecture that extracts object-level structure from grids, uses neural priors to propose candidate transformations from a fixed domain-specific language (DSL) of atomic patterns, and filters hypotheses using cross-example consistency. Instantiated as a compositional reasoning framework based on unit patterns inspired by human visual abstraction, the system augments large language models (LLMs) with object representations and transformation proposals. On ARC-AGI-2, it improves base LLM performance from 16% to 24.4% on the public evaluation set, and to 30.8% when combined with ARC Lang Solver via a meta-classifier. These results demonstrate that separating perception, neural-guided transformation proposal, and symbolic consistency filtering improves generalization without task-specific finetuning or reinforcement learning, while reducing reliance on brute-force search and sampling-based test-time scaling. We open-source the ARC-AGI-2 Reasoner code (https://github.com/CoreThink-AI/arc-agi-2-reasoner).",
+      "abstract": "We study structured abstraction-based reasoning for the Abstraction and Reasoning Corpus (ARC) and compare its generalization to test-time approaches. Purely neural architectures lack reliable combinatorial generalization, while strictly symbolic systems struggle with perceptual grounding. We therefore propose a neuro-symbolic architecture that extracts object-level structure from grids, uses neural priors to propose candidate transformations from a fixed domain-specific language (DSL) of atomic patterns, and filters hypotheses using cross-example consistency checks. Instantiated as a compositional reasoning framework based on unit patterns inspired by human visual abstraction, the system augments large language models (LLMs) with object representations and transformation proposals. On ARC-AGI-2, it improves over the base solver LLM (Grok-4, 16.0%) to 24.4% on the public evaluation set, and to 30.8% when combined with ARC Lang Solver via a meta-classifier. These results support the claim that in the evaluated settings, allocating test-time compute to object abstraction, neural-guided transformation proposal, and consistency filtering can improve accuracy over unstructured sampling-based scaling without task-specific finetuning of the system. We open-source the code: (https://github.com/CoreThink-AI/arc-agi-2-reasoner).",
       "authors": [
         "Anugyan Das",
         "Omkar Ghugarkar",
@@ -134701,7 +134719,7 @@
     {
       "id": "2603.18436",
       "title": "AS2 -- Attention-Based Soft Answer Sets: An End-to-End Differentiable Neuro-Soft-Symbolic Reasoning Architecture",
-      "abstract": "Neuro-symbolic artificial intelligence (AI) systems typically couple a neural perception module to a discrete symbolic solver through a non-differentiable boundary, preventing constraint-satisfaction feedback from reaching the perception encoder during training. We introduce AS2 (Attention-Based Soft Answer Sets), a fully differentiable neuro-symbolic architecture that replaces the discrete solver with a soft, continuous approximation of the Answer Set Programming (ASP) immediate consequence operator $T_P$. AS2 maintains per-position probability distributions over a finite symbol domain throughout the forward pass and trains end-to-end by minimizing the fixed-point residual of a probabilistic lift of $T_P$, thereby differentiating through the constraint check without invoking an external solver at either training or inference time. The architecture is entirely free of conventional positional embeddings. Instead, it encodes problem structure through constraint-group membership embeddings that directly reflect the declarative ASP specification, making the model agnostic to arbitrary position indexing. On Visual Sudoku, AS2 achieves 99.89% cell accuracy and 100% constraint satisfaction (verified by Clingo) across 1,000 test boards, using a greedy constrained decoding procedure that requires no external solver. On MNIST Addition with $N \\in \\{2, 4, 8\\}$ addends, AS2 achieves digit accuracy above 99.7% across all scales. These results demonstrate that a soft differentiable fixpoint operator, combined with constraint-aware attention and declarative constraint specification, can match or exceed pipeline and solver-based neuro-symbolic systems while maintaining full end-to-end differentiability.",
+      "abstract": "Neuro-symbolic systems typically combine neural perception with discrete symbolic solvers, limiting end-to-end optimization. We introduce Attention-Based Soft Answer Sets (AS$^2$), a fully differentiable neuro-symbolic architecture that replaces discrete solving with a continuous approximation of the Answer Set Programming (ASP) immediate-consequence operator $T_P$. AS$^2$ maintains probability distributions over finite symbol domains and learns by minimizing the fixed-point residual of a probabilistic version of $T_P$, enabling differentiation through constraint checking without external solvers during training or inference. For spatial constraint-satisfaction tasks, AS$^2$ replaces positional embeddings with constraint-group membership embeddings derived directly from declarative ASP specifications, making the model independent of arbitrary position indexing. On Visual Sudoku, AS$^2$ achieves 99.89% raw cell accuracy and 100% constraint satisfaction after greedy decoding, without external solvers. On CLEVR-Hans, AS2 achieves 99.94% on CLEVR-Hans3 and 87.77% on CLEVR-Hans7. These results demonstrate that differentiable fixed-point reasoning, constraint-aware attention, and declarative constraint specifications can match or outperform pipeline-based and solver-based neuro-symbolic approaches while preserving end-to-end differentiability.",
       "authors": [
         "Wael Abdalmageed"
       ],
@@ -147264,8 +147282,8 @@
     },
     {
       "id": "2602.14795",
-      "title": "Return of the Schema: Building Complete Datasets for Machine Learning and Reasoning on Knowledge Graphs",
-      "abstract": "Datasets for the experimental evaluation of knowledge graph refinement algorithms typically contain only ground facts, retaining very limited schema level knowledge even when such information is available in the source knowledge graphs. This limits the evaluation of methods that rely on rich ontological constraints, reasoning or neurosymbolic techniques and ultimately prevents assessing their performance in large-scale, real-world knowledge graphs. In this paper, we present \\resource{} the first resource that provides a workflow for extracting datasets including both schema and ground facts, ready for machine learning and reasoning services, along with the resulting curated suite of datasets. The workflow also handles inconsistencies detected when keeping both schema and facts and also leverage reasoning for entailing implicit knowledge. The suite includes newly extracted datasets from KGs with expressive schemas while simultaneously enriching existing datasets with schema information. Each dataset is serialized in OWL making it ready for reasoning services. Moreover, we provide utilities for loading datasets in tensor representations typical of standard machine learning libraries.",
+      "title": "JediKG: Return of the Schema",
+      "abstract": "Benchmark datasets for Knowledge Graph Refinement typically contain only ground facts, discarding the schema available in the source knowledge graph. This limits the evaluation of Neural-Symbolic methods that leverage expressive schemas. We present JEDIKG the first resource that systematically addresses these gaps through two components: JDEX a general configurable tool for extracting complete, portable, modular dataset from any RDF/OWL knowledge graph; and JDSET, a curated suite of eleven datasets with varying expressivity, volume, and domain. JDEX preserves full schema expressivity, employs standard OWL reasoning to detect and correct inconsistencies and materialize implicit knowledge, applies schema modularization, and provides utilities for integration with mainstream machine learning libraries such as PyTorch and PyKEEN. We validated the completeness and portability of the datasets across several dimensions and preliminarily proved the utility of JEDIKG in experimental workflows combining data-driven methods with schema-driven reasoning.",
       "authors": [
         "Ivan Diliso",
         "Roberto Barile",
@@ -147346,7 +147364,8 @@
         "Ontologies",
         "Machine Learning",
         "Link Prediction. Resource type: Dataset Suite",
-        "neurosymbolic"
+        "neurosymbolic",
+        "neural-symbolic"
       ],
       "categories": [
         "cs.AI",
@@ -156993,75 +157012,6 @@
         },
         {
           "name": "Yingyan Celine Lin",
-          "affiliations": []
-        }
-      ]
-    },
-    {
-      "id": "2601.14252",
-      "title": "Semantic Identity Compression: Zero-Error Laws, Rate-Distortion, and Neurosymbolic Necessity",
-      "abstract": "Symbolic systems operate over precise identities: variables denote specific objects, pointers target precise memory locations, and database keys refer to singular records. Neural embeddings generalize by compressing away semantic detail, but this compression creates collision ambiguity: multiple distinct entities can share the same representation value. Exact identity recovery requires additional information precisely when representation fibers have size greater than one. The residual cost is controlled by a single combinatorial object: the collision-fiber geometry of the representation map $π$. Let $A_π=\\max_u |π^{-1}(u)|$ be the largest collision fiber. The finite laws include a tight fixed-length converse $L \\ge \\log_2 A_π$, an exact finite-block scaling law, a pointwise adaptive budget $\\lceil \\log_2 |π^{-1}(u)|\\rceil$, and an exact fiberwise rate-distortion law for arbitrary finite sources via recoverable-mass decomposition across representation fibers. The uniform single-block formula $D^\\star(L)=\\max(0,1-2^L/a)$ appears as a closed-form special case when all mass lies on one collision block, where $a = A_π$ is the collision block size. The same fiber geometry determines query complexity and canonical structure for distinguishing families. Because this residual ambiguity is structural rather than representation-specific, symbolic identity mechanisms (handles, keys, pointers, nominal tags) are the necessary system-level complement to any non-injective semantic representation. All main results are machine-checked in Lean 4.",
-      "authors": [
-        "Tristan Simas"
-      ],
-      "authorAffiliations": [
-        {
-          "name": "Tristan Simas",
-          "authorEntityId": "author:3b354ac5b9119c01",
-          "affiliations": [],
-          "affiliationEntityIds": [],
-          "rawName": "Tristan Simas",
-          "rawAffiliations": []
-        }
-      ],
-      "authorIds": [],
-      "affiliations": [],
-      "keywords": [
-        "semanticsaware compression",
-        "zero-error coding",
-        "neurosymbolic systems",
-        "learned representations",
-        "side information",
-        "neurosymbolic"
-      ],
-      "categories": [
-        "cs.IT",
-        "cs.PL"
-      ],
-      "venue": "arXiv",
-      "conference": "",
-      "year": 2026,
-      "published": "2026-01-20",
-      "url": "https://arxiv.org/abs/2601.14252",
-      "pdfUrl": "https://arxiv.org/pdf/2601.14252",
-      "doi": "",
-      "doiUrl": "",
-      "arxivId": "2601.14252",
-      "primaryArea": "",
-      "paperType": "",
-      "tldr": "",
-      "award": "",
-      "sourceType": "arxiv",
-      "sourceIds": [
-        "arxiv-keywords"
-      ],
-      "resolutionStatus": "source-pdf",
-      "resolutionMethod": "",
-      "resolvedArxivUrl": "",
-      "metadataComplete": false,
-      "extractionStatus": "extracted",
-      "entityId": "paper:5df4b512fd9dc666",
-      "rawAffiliations": [],
-      "affiliationEntityIds": [],
-      "rawAuthors": [
-        "Tristan Simas"
-      ],
-      "authorEntityIds": [
-        "author:3b354ac5b9119c01"
-      ],
-      "rawAuthorAffiliations": [
-        {
-          "name": "Tristan Simas",
           "affiliations": []
         }
       ]
@@ -384367,6 +384317,103 @@
         },
         {
           "name": "Sangwon Yoon",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2601.11063",
+      "title": "EmboTeam: Asymmetric State Grounding for Heterogeneous Multi-Robot Collaboration",
+      "abstract": "Heterogeneous multi-robot collaboration over long horizons requires both global task planning and robust coordination during execution. Existing plan- ners using large language models (LLMs) can generate task decompositions or symbolic plans, but often execute them as rigid action sequences, making them fragile to local state mismatches and synchronization failures. We propose Em- boTeam, a neuro-symbolic framework for asymmetric state grounding. An LLM generates structured state expectations, which are verified and coordinated through symbolic search using Planning Domain Definition Language (PDDL) and then grounded into a team-level parallel behavior tree. Robot-specific subtrees per- form precondition checking, skill execution, effect validation, local replanning, and blackboard-based synchronization. We further introduce MACE-THOR, con- taining 42 heterogeneous multi-robot tasks across 8 indoor layouts. EmboTeam improves task success rate from 12% to 55% and goal condition recall from 32% to 75% over LaMMA-P, demonstrating the effectiveness of synchronized reactive grounding for collaboration over long horizons.",
+      "authors": [
+        "Haishan Zeng",
+        "Mengna Wang",
+        "Peng Li"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Haishan Zeng",
+          "authorEntityId": "author:f6f69b1d126ffc75",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Haishan Zeng",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Mengna Wang",
+          "authorEntityId": "author:01d6b4d33a65a47d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Mengna Wang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Peng Li",
+          "authorEntityId": "author:ffc927b8b35cd5b8",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Peng Li",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-01-16",
+      "url": "https://arxiv.org/abs/2601.11063",
+      "pdfUrl": "https://arxiv.org/pdf/2601.11063",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2601.11063",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:9b3093f38a0085d7",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Haishan Zeng",
+        "Mengna Wang",
+        "Peng Li"
+      ],
+      "authorEntityIds": [
+        "author:f6f69b1d126ffc75",
+        "author:01d6b4d33a65a47d",
+        "author:ffc927b8b35cd5b8"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Haishan Zeng",
+          "affiliations": []
+        },
+        {
+          "name": "Mengna Wang",
+          "affiliations": []
+        },
+        {
+          "name": "Peng Li",
           "affiliations": []
         }
       ]
