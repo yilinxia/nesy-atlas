@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T18:11:55.163Z",
+  "generatedAt": "2026-11-09T22:50:01.361Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,8 +13,8 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1896,
-  "completeMetadataCount": 1369,
+  "paperCount": 1898,
+  "completeMetadataCount": 1370,
   "sources": [
     {
       "id": "arxiv-keywords",
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1591
+      "count": 1593
     },
     {
       "id": "nesy-proceedings",
@@ -325,7 +325,7 @@
         "aliases": [
           "Giuseppe Marra"
         ],
-        "paperCount": 21,
+        "paperCount": 22,
         "institutionIds": [
           "institution:01ff763ef3518b63",
           "institution:209034bdbec1f11d",
@@ -334,6 +334,7 @@
           "institution:65dbfd1e022f02e2",
           "institution:7619d64a00ef2038",
           "institution:802d59f734e25d09",
+          "institution:ca99faeb73c8015f",
           "institution:cd57e36d402863ba",
           "institution:cf1c67afebae5548",
           "institution:e3a704b345a52115",
@@ -1790,6 +1791,26 @@
         ]
       },
       {
+        "id": "author:63772e6fe9c13f3f",
+        "name": "Pierre Genevès",
+        "aliases": [
+          "Pierre Genevès",
+          "Pierre Genèves"
+        ],
+        "paperCount": 5,
+        "institutionIds": [
+          "institution:445fbc012a174ac3",
+          "institution:4bd52b63d3d981c9",
+          "institution:53138c9348ad79f4",
+          "institution:5ed2cdf3c06e055f",
+          "institution:62481c26d7e9053b",
+          "institution:a5797c66ddbaf964",
+          "institution:a76d3c97c5824bc9",
+          "institution:c489ab5cd130d9dc",
+          "institution:e6405787e8a9312c"
+        ]
+      },
+      {
         "id": "author:80fed067f0e4e4d7",
         "name": "Pierrick Lorang",
         "aliases": [
@@ -2707,25 +2728,6 @@
         "institutionIds": [
           "institution:43da693b4fa6eed4",
           "institution:5d8a75c45c7dbfa4"
-        ]
-      },
-      {
-        "id": "author:63772e6fe9c13f3f",
-        "name": "Pierre Genevès",
-        "aliases": [
-          "Pierre Genevès",
-          "Pierre Genèves"
-        ],
-        "paperCount": 4,
-        "institutionIds": [
-          "institution:445fbc012a174ac3",
-          "institution:4bd52b63d3d981c9",
-          "institution:5ed2cdf3c06e055f",
-          "institution:62481c26d7e9053b",
-          "institution:a5797c66ddbaf964",
-          "institution:a76d3c97c5824bc9",
-          "institution:c489ab5cd130d9dc",
-          "institution:e6405787e8a9312c"
         ]
       },
       {
@@ -20949,6 +20951,15 @@
           "institution:e8ce4688128891ec",
           "institution:f42de06978b10eb5"
         ]
+      },
+      {
+        "id": "author:f9fcb5dd25802e4c",
+        "name": "Chang Wen Chen",
+        "aliases": [
+          "Chang Wen Chen"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:187cd52b166c9b13",
@@ -43289,6 +43300,17 @@
         ]
       },
       {
+        "id": "author:2bba1c4e6d8c7272",
+        "name": "Meghyn Bienvenu",
+        "aliases": [
+          "Meghyn Bienvenu"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:b50930f24074f0d8"
+        ]
+      },
+      {
         "id": "author:8f756f33d1b030f7",
         "name": "Mehdi Ammi",
         "aliases": [
@@ -55540,6 +55562,17 @@
         "institutionIds": []
       },
       {
+        "id": "author:3df47b9887e2d639",
+        "name": "Silviu Maniu",
+        "aliases": [
+          "Silviu Maniu"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:65b2fc9ee88ea012"
+        ]
+      },
+      {
         "id": "author:c4c7a0b27f98eb33",
         "name": "Simina Brânzei †3",
         "aliases": [
@@ -57435,6 +57468,17 @@
         "institutionIds": []
       },
       {
+        "id": "author:9ef1d6aabe7d9823",
+        "name": "Sylvie Thiébaux",
+        "aliases": [
+          "Sylvie Thiébaux"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:45138bcaed88d15b"
+        ]
+      },
+      {
         "id": "author:f795de63f3cf86ee",
         "name": "Szegedy Xai",
         "aliases": [
@@ -58199,6 +58243,17 @@
         ],
         "paperCount": 1,
         "institutionIds": []
+      },
+      {
+        "id": "author:6030d1b37e36321e",
+        "name": "Thomas Schiex",
+        "aliases": [
+          "Thomas Schiex"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:6056aa010156d0a6"
+        ]
       },
       {
         "id": "author:fe6cd289c2a8065d",
@@ -60496,6 +60551,15 @@
         "institutionIds": [
           "institution:a3b8a387430e8a4d"
         ]
+      },
+      {
+        "id": "author:ef960c44f0371b1c",
+        "name": "Wanyu Lin",
+        "aliases": [
+          "Wanyu Lin"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:079119bd35ae45f7",
@@ -62861,6 +62925,15 @@
         "name": "Xu Liu",
         "aliases": [
           "Xu Liu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:765e1976a831f714",
+        "name": "Xu Sun",
+        "aliases": [
+          "Xu Sun"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -68729,6 +68802,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:a75acb386f3fb110",
+        "name": "Zhuoran Li",
+        "aliases": [
+          "Zhuoran Li"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:c82609b5e80d0a6f",
         "name": "Zhuoran Yu",
         "aliases": [
@@ -71945,15 +72027,6 @@
         "name": "Thanh Luong Tuan",
         "aliases": [
           "Thanh Luong Tuan"
-        ],
-        "paperCount": 0,
-        "institutionIds": []
-      },
-      {
-        "id": "author:6030d1b37e36321e",
-        "name": "Thomas Schiex",
-        "aliases": [
-          "Thomas Schiex"
         ],
         "paperCount": 0,
         "institutionIds": []
@@ -75178,6 +75251,14 @@
         "paperCount": 2
       },
       {
+        "id": "institution:b50930f24074f0d8",
+        "name": "LaBRI",
+        "aliases": [
+          "LaBRI"
+        ],
+        "paperCount": 2
+      },
+      {
         "id": "institution:0c021b1ef9e818a5",
         "name": "Lancaster University",
         "aliases": [
@@ -77419,6 +77500,14 @@
         "paperCount": 1
       },
       {
+        "id": "institution:53138c9348ad79f4",
+        "name": "CNRS, LIG, TYREX",
+        "aliases": [
+          "CNRS, LIG, TYREX"
+        ],
+        "paperCount": 1
+      },
+      {
         "id": "institution:c489ab5cd130d9dc",
         "name": "CNRS, TYREX",
         "aliases": [
@@ -77479,6 +77568,14 @@
         "name": "Comenius University in Bratislava",
         "aliases": [
           "Comenius University in Bratislava"
+        ],
+        "paperCount": 1
+      },
+      {
+        "id": "institution:45138bcaed88d15b",
+        "name": "Comue de Toulouse, ANU",
+        "aliases": [
+          "Comue de Toulouse, ANU"
         ],
         "paperCount": 1
       },
@@ -79796,14 +79893,6 @@
         "paperCount": 1
       },
       {
-        "id": "institution:b50930f24074f0d8",
-        "name": "LaBRI",
-        "aliases": [
-          "LaBRI"
-        ],
-        "paperCount": 1
-      },
-      {
         "id": "institution:41521fc1464b6dea",
         "name": "Lamarr Institute for Machine Learning and Artificial Intelligence",
         "aliases": [
@@ -80092,6 +80181,14 @@
         "paperCount": 1
       },
       {
+        "id": "institution:ca99faeb73c8015f",
+        "name": "LPI",
+        "aliases": [
+          "LPI"
+        ],
+        "paperCount": 1
+      },
+      {
         "id": "institution:eb108a6bbdaf145d",
         "name": "Ltd",
         "aliases": [
@@ -80280,6 +80377,14 @@
         "name": "Methodius University of Skopje",
         "aliases": [
           "Methodius University of Skopje"
+        ],
+        "paperCount": 1
+      },
+      {
+        "id": "institution:6056aa010156d0a6",
+        "name": "MIAT INRAE",
+        "aliases": [
+          "MIAT INRAE"
         ],
         "paperCount": 1
       },
@@ -81955,6 +82060,14 @@
         "name": "SLB",
         "aliases": [
           "SLB"
+        ],
+        "paperCount": 1
+      },
+      {
+        "id": "institution:65b2fc9ee88ea012",
+        "name": "SLIDE, LIG",
+        "aliases": [
+          "SLIDE, LIG"
         ],
         "paperCount": 1
       },
@@ -384414,6 +384527,322 @@
         },
         {
           "name": "Peng Li",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.09356",
+      "title": "Challenges, Opportunities, and Misconceptions in Neurosymbolic AI",
+      "abstract": "We examine opportunities for neurosymbolic AI alongside increasingly powerful neural models, particularly with regards to efficiency, safety and interpretability. We identify two major challenges: ensuring semantic alignment between neural and symbolic components, and managing the computational cost of symbolic inference and learning. We discuss representative methodological approaches to these challenges and address several common misconceptions concerning differentiability, independence assumptions, and scalability. This paper synthesizes perspectives developed through discussions in the Neurosymbolic Programming and Reasoning (NPR) working group at the 2026 CNRS workshop Neurosymbolic Methods and Their Applications in Data Science, rather than providing an exhaustive survey.",
+      "authors": [
+        "Giuseppe Marra",
+        "Pierre Genevès",
+        "Meghyn Bienvenu",
+        "Thomas Schiex",
+        "Sylvie Thiébaux",
+        "Silviu Maniu"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Giuseppe Marra",
+          "authorEntityId": "author:b8361c8e17f83d53",
+          "affiliations": [
+            "LPI"
+          ],
+          "affiliationEntityIds": [
+            "institution:ca99faeb73c8015f"
+          ],
+          "rawName": "Giuseppe Marra",
+          "rawAffiliations": [
+            "LPI"
+          ]
+        },
+        {
+          "name": "Pierre Genevès",
+          "authorEntityId": "author:63772e6fe9c13f3f",
+          "affiliations": [
+            "CNRS, LIG, TYREX"
+          ],
+          "affiliationEntityIds": [
+            "institution:53138c9348ad79f4"
+          ],
+          "rawName": "Pierre Genevès",
+          "rawAffiliations": [
+            "CNRS, LIG, TYREX"
+          ]
+        },
+        {
+          "name": "Meghyn Bienvenu",
+          "authorEntityId": "author:2bba1c4e6d8c7272",
+          "affiliations": [
+            "LaBRI"
+          ],
+          "affiliationEntityIds": [
+            "institution:b50930f24074f0d8"
+          ],
+          "rawName": "Meghyn Bienvenu",
+          "rawAffiliations": [
+            "LaBRI"
+          ]
+        },
+        {
+          "name": "Thomas Schiex",
+          "authorEntityId": "author:6030d1b37e36321e",
+          "affiliations": [
+            "MIAT INRAE"
+          ],
+          "affiliationEntityIds": [
+            "institution:6056aa010156d0a6"
+          ],
+          "rawName": "Thomas Schiex",
+          "rawAffiliations": [
+            "MIAT INRAE"
+          ]
+        },
+        {
+          "name": "Sylvie Thiébaux",
+          "authorEntityId": "author:9ef1d6aabe7d9823",
+          "affiliations": [
+            "Comue de Toulouse, ANU"
+          ],
+          "affiliationEntityIds": [
+            "institution:45138bcaed88d15b"
+          ],
+          "rawName": "Sylvie Thiébaux",
+          "rawAffiliations": [
+            "Comue de Toulouse, ANU"
+          ]
+        },
+        {
+          "name": "Silviu Maniu",
+          "authorEntityId": "author:3df47b9887e2d639",
+          "affiliations": [
+            "SLIDE, LIG"
+          ],
+          "affiliationEntityIds": [
+            "institution:65b2fc9ee88ea012"
+          ],
+          "rawName": "Silviu Maniu",
+          "rawAffiliations": [
+            "SLIDE, LIG"
+          ]
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [
+        "LPI",
+        "CNRS, LIG, TYREX",
+        "LaBRI",
+        "MIAT INRAE",
+        "Comue de Toulouse, ANU",
+        "SLIDE, LIG"
+      ],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-06",
+      "url": "https://arxiv.org/abs/2611.09356",
+      "pdfUrl": "https://arxiv.org/pdf/2611.09356",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.09356",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": true,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:4285115f5d9279a6",
+      "rawAffiliations": [
+        "LPI",
+        "CNRS, LIG, TYREX",
+        "LaBRI",
+        "MIAT INRAE",
+        "Comue de Toulouse, ANU",
+        "SLIDE, LIG"
+      ],
+      "affiliationEntityIds": [
+        "institution:ca99faeb73c8015f",
+        "institution:53138c9348ad79f4",
+        "institution:b50930f24074f0d8",
+        "institution:6056aa010156d0a6",
+        "institution:45138bcaed88d15b",
+        "institution:65b2fc9ee88ea012"
+      ],
+      "rawAuthors": [
+        "Giuseppe Marra",
+        "Pierre Genevès",
+        "Meghyn Bienvenu",
+        "Thomas Schiex",
+        "Sylvie Thiébaux",
+        "Silviu Maniu"
+      ],
+      "authorEntityIds": [
+        "author:b8361c8e17f83d53",
+        "author:63772e6fe9c13f3f",
+        "author:2bba1c4e6d8c7272",
+        "author:6030d1b37e36321e",
+        "author:9ef1d6aabe7d9823",
+        "author:3df47b9887e2d639"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Giuseppe Marra",
+          "affiliations": [
+            "LPI"
+          ]
+        },
+        {
+          "name": "Pierre Genevès",
+          "affiliations": [
+            "CNRS, LIG, TYREX"
+          ]
+        },
+        {
+          "name": "Meghyn Bienvenu",
+          "affiliations": [
+            "LaBRI"
+          ]
+        },
+        {
+          "name": "Thomas Schiex",
+          "affiliations": [
+            "MIAT INRAE"
+          ]
+        },
+        {
+          "name": "Sylvie Thiébaux",
+          "affiliations": [
+            "Comue de Toulouse, ANU"
+          ]
+        },
+        {
+          "name": "Silviu Maniu",
+          "affiliations": [
+            "SLIDE, LIG"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2611.09142",
+      "title": "Learning Generative Dynamics for 3D Molecule Generation via Sequential Neuro-Symbolic Constraints",
+      "abstract": "Diffusion models have recently emerged as a powerful paradigm for generating 3D molecules. Despite showing remarkable promise, they learn atomic distributions implicitly from data, without explicitly encoding physicochemical rules into their generative dynamics. Consequently, generated samples can be statistically plausible yet chemically invalid. To address this problem, we propose Sequential Neuro-Symbolic Constrained Diffusion (SensDiff), a framework that integrates symbolic rules into generative modeling, enabling the model to internalize scientific priors during training. Central to SensDiff is the observation that the diffusion trajectory of 3D molecule generation exhibits a coarse-to-fine evolution: valid molecules arise by first mitigating macroscopic geometric conflicts and then refining structures toward microscopic chemical consistency through iterative denoising. Accordingly, SensDiff mirrors this dynamic by sequentially enforcing constraints with adaptive weighting during training, progressively steering generation toward valid molecular geometries. Moreover, SensDiff translates domain knowledge into interpretable generative controls, grounding opaque neural denoising in scientific principles. Experiments on molecular benchmarks and real-world constrained generation tasks confirm that SensDiff consistently improves chemical validity while adhering to physicochemical rules and user-specified targets. The code is publicly available at https://github.com/WanyuGroup/NeurIPS2026_SensDiff.",
+      "authors": [
+        "Zhuoran Li",
+        "Xu Sun",
+        "Chang Wen Chen",
+        "Wanyu Lin"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Zhuoran Li",
+          "authorEntityId": "author:a75acb386f3fb110",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zhuoran Li",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xu Sun",
+          "authorEntityId": "author:765e1976a831f714",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xu Sun",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Chang Wen Chen",
+          "authorEntityId": "author:f9fcb5dd25802e4c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Chang Wen Chen",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Wanyu Lin",
+          "authorEntityId": "author:ef960c44f0371b1c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Wanyu Lin",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-06",
+      "url": "https://arxiv.org/abs/2611.09142",
+      "pdfUrl": "https://arxiv.org/pdf/2611.09142",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.09142",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:24cfadf81f176b19",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Zhuoran Li",
+        "Xu Sun",
+        "Chang Wen Chen",
+        "Wanyu Lin"
+      ],
+      "authorEntityIds": [
+        "author:a75acb386f3fb110",
+        "author:765e1976a831f714",
+        "author:f9fcb5dd25802e4c",
+        "author:ef960c44f0371b1c"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Zhuoran Li",
+          "affiliations": []
+        },
+        {
+          "name": "Xu Sun",
+          "affiliations": []
+        },
+        {
+          "name": "Chang Wen Chen",
+          "affiliations": []
+        },
+        {
+          "name": "Wanyu Lin",
           "affiliations": []
         }
       ]
