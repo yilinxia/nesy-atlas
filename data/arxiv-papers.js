@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-11-09T22:50:00.805Z",
-  "cursorAt": "2026-11-09T22:50:00.805Z",
+  "generatedAt": "2026-11-10T20:09:45.163Z",
+  "cursorAt": "2026-11-10T20:09:45.163Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-11-08T18:11:54.444Z",
   "keywords": [
@@ -15,11 +15,237 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-11-08T18:11:54.444Z",
-  "windowStart": "2026-11-01T18:11:54.444Z",
+  "previousSnapshotAt": "2026-11-09T22:50:00.805Z",
+  "windowStart": "2026-11-02T22:50:00.805Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2611.12760",
+    "title": "DeepChronos: Temporal Neuro-Symbolic Reasoning for Multi-Step Attack Detection",
+    "abstract": "Modern cyber threats commonly unfold as multi-step attacks comprising temporally and causally related phases. Current defenses commonly follow a detect first and correlate later paradigm. Intrusion detection systems classify events independently, while downstream systems reconstruct attack progression from the resulting alerts or audit records. In this context, learning-based detectors learn attack-step dependencies implicitly as statistical regularities in the data and cannot guarantee that their predictions follow the real attack progression. Conversely, correlation systems represent attack relationships explicitly, but apply this knowledge only after the underlying attack observations have been detected. We present DEEPCHRONOS, a neuro-symbolic network intrusion detection system that shifts the paradigm from detect first and correlate later to detection through logical progression. DEEPCHRONOS combines learned flow-level evidence with explicit attack-phase rules, temporal prerequisites, and previously inferred phases, allowing the evolving attack history to inform and constrain each detection decision. Evaluations on DARPA 2000 and AIT-LDS V2 show that DEEPCHRONOS improves macro F1 over purely neural baselines by up to 11.3%, eliminates causal violations under strict temporal constraints, and maintains millisecond-scale inference latency. These results demonstrate that integrating explicit attack progression knowledge into detection produces more accurate and temporally coherent multi-step attack predictions.",
+    "authors": [
+      "Sofia Burkow",
+      "Andrea Agiollo",
+      "Enkeleda Bardhi",
+      "Fernando Kuipers",
+      "Kaitai Liang",
+      "Georgios Smaragdakis"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Sofia Burkow",
+        "affiliations": []
+      },
+      {
+        "name": "Andrea Agiollo",
+        "affiliations": []
+      },
+      {
+        "name": "Enkeleda Bardhi",
+        "affiliations": []
+      },
+      {
+        "name": "Fernando Kuipers",
+        "affiliations": []
+      },
+      {
+        "name": "Kaitai Liang",
+        "affiliations": []
+      },
+      {
+        "name": "Georgios Smaragdakis",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-09",
+    "updated": "2026-11-09",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.NI"
+    ],
+    "primaryCategory": "cs.CR",
+    "url": "https://arxiv.org/abs/2611.12760",
+    "pdfUrl": "https://arxiv.org/pdf/2611.12760",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.12374",
+    "title": "TANSAR: Editable and Attributable Correlation Matrix Memories under Correlated Keys, with Rule-Constrained Multi-Hop Knowledge Editing",
+    "abstract": "Correlation Matrix Memories (CMMs) store associations as sums of rank-one outer products, providing closed-form addressability, exact deletion, and linear attribution. While classical analyses assume random, orthogonal keys, semantic encoders produce correlated representations. We analyse CMMs under correlated keys using frame-theoretic coherence: (i) capacity bounds yielding an encoder-independent limit $n \\le d(1+\\varepsilon^2)$ for mean squared crosstalk $\\varepsilon^2$; (ii) an exact characterisation of the collateral effect of deleting an association, guaranteeing that deletion never invalidates certified associations; and (iii) a geometric transparency bound demonstrating why attribution requires candidate sets of centred keys. On this basis, we introduce Topology-Aware Neuro-Symbolic Associative Retrieval (TANSAR). TANSAR traverses a directed acyclic association graph, prunes invalid paths via sound ground Horn constraints, and injects a representation derived strictly from the verified path into the residual stream of a frozen language model, guarded by a Clopper--Pearson selective-risk gate. Controlled experiments confirm all theoretical bounds. In multi-hop knowledge editing, Horn pruning reduces answer contradictions from 25.1% to 0.5%, whereas Hopfield retrieval incurs 24% contradictions when stale associations remain stored (and 0% if stale associations are removed). An end-to-end edit transaction requires 13.6 ms on a standard CPU and 2.37 ms on GPU. The symbolic component matches gold labels across all 600 ProofWriter theories and achieves 94.0% agreement on FOLIO, demonstrating sound and efficient multi-hop associative retrieval with exact unlearning.",
+    "authors": [
+      "Abdulhady Abas Abdulla",
+      "Jiyan Salim Mahmud",
+      "Fatemeh Daneshfar",
+      "Hussein Mohammed Ali",
+      "Mourad Oussalah",
+      "Muhammad Bilal"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Abdulhady Abas Abdulla",
+        "affiliations": []
+      },
+      {
+        "name": "Jiyan Salim Mahmud",
+        "affiliations": []
+      },
+      {
+        "name": "Fatemeh Daneshfar",
+        "affiliations": []
+      },
+      {
+        "name": "Hussein Mohammed Ali",
+        "affiliations": []
+      },
+      {
+        "name": "Mourad Oussalah",
+        "affiliations": []
+      },
+      {
+        "name": "Muhammad Bilal",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-09",
+    "updated": "2026-11-09",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.12374",
+    "pdfUrl": "https://arxiv.org/pdf/2611.12374",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.10681",
+    "title": "Formalizing Patient-Set Semantics for OMOP CDM-Based Clinical Trial Feasibility Assessment:A Neuro-Symbolic Methodology for Traceable Site-Feasibility Patient Counts",
+    "abstract": "This study examines the interpretation and execution of natural-language eligibility criteria for clinical trial site-feasibility patient-count estimation using the OMOP Common Data Model (CDM). It treats each count as the size of a patient set produced under explicitly declared choices about clinical concepts, temporal conditions, exclusions, proxies, and available data. The study presents NS-CoT, a neuro-symbolic pipeline that uses an LLM to interpret and structure criteria, followed by symbolic processing and deterministic SQL compilation. Intermediate representations and execution records document how criteria are translated into patient sets and counts. Evaluation uses synthetic OMOP CDM data, controlled benchmarks, and a multi-site simulation. Comparisons with a direct-SQL baseline examine execution success, count agreement, patient-set agreement, and preservation of reference-defined site-feasibility labels and rankings. Performance varies across evaluation settings. Layer-wise inspection also supports the identification of implementation and policy errors, followed by correction and re-evaluation. The work investigates the reviewability and fidelity of cohort computation relative to declared reference definitions. It does not establish that these definitions capture a unique clinical ground truth or demonstrate improved recruitment, site selection, or trial outcomes in practice.",
+    "authors": [
+      "Sohyeon Jeon"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Sohyeon Jeon",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-07",
+    "updated": "2026-11-07",
+    "categories": [
+      "cs.IR"
+    ],
+    "primaryCategory": "cs.IR",
+    "url": "https://arxiv.org/abs/2611.10681",
+    "pdfUrl": "https://arxiv.org/pdf/2611.10681",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.10394",
+    "title": "Crustify: Repository-Level Generation of Safe Rust Bindings with LLM Agents and Coverage-Guided Testing",
+    "abstract": "Wrapping C code in a safe Rust interface lets Rust applications use it without writing unsafe code, until the code itself is migrated to Rust. Such bindings are tedious and error-prone to write, however: their internals use unsafe code that the Rust compiler does not check, so a single mistake can introduce undefined behavior (UB), and they have so far been written mostly by hand. We present Crustify, an agentic co-translator that generates safe Rust bindings for repository-level C libraries. Crustify schedules a target's types and symbols into dependency-ordered waves of independent batches that agents bind concurrently. Its agents derive the ownership and lifecycle contract of every pointer and type they wrap, check each binding with coverage-guided equivalence and UB tests under sanitizers and Miri, and review every wave. They build on three tools that we contribute: (a) ffibox, Rust primitives for C/Rust interop that mirror Box, Arc, and Vec for C objects without ever forming a reference to memory that C may alias; (b) Wavefront, a neuro-symbolic static analyzer that orders a target's items by their dependencies, including those that casts and type-erased pointers hide; and (c) ffimap, a rustc-based analysis that maps the unsafe surface of bindings. On libgit2 and ffmpeg, with one developer in the loop, Crustify generated safe bindings for 41.9% and 42.8% of their public APIs in about 51.9 and 58.9 hours. On the interface consumers are expected to use, only 1.6% and 0.4% of the bindings' public functions are unsafe, and only 0.1% and 0.6% have a raw pointer in their signature. Their tests cover 98.92% and 99.07% of the Rust code and 45.95% and 67.20% of libgit2 and of ffmpeg's libavutil, and the reviewers fixed 8 and 13 defects that caused UB reachable from Rust. To our knowledge, this is the first work to automate the generation of safe Rust bindings for C libraries.",
+    "authors": [
+      "Marius Momeu",
+      "Marius Arvinte",
+      "Cory Cornelius",
+      "Koushik Sen"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Marius Momeu",
+        "affiliations": []
+      },
+      {
+        "name": "Marius Arvinte",
+        "affiliations": []
+      },
+      {
+        "name": "Cory Cornelius",
+        "affiliations": []
+      },
+      {
+        "name": "Koushik Sen",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-07",
+    "updated": "2026-11-07",
+    "categories": [
+      "cs.PL",
+      "cs.AI",
+      "cs.CR",
+      "cs.SE"
+    ],
+    "primaryCategory": "cs.PL",
+    "url": "https://arxiv.org/abs/2611.10394",
+    "pdfUrl": "https://arxiv.org/pdf/2611.10394",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.10319",
+    "title": "Prove What You Can: Hybrid Neurosymbolic Reasoning for Logical Natural Language Inference",
+    "abstract": "Logical reasoning over natural language requires both semantic interpretation and deductive search. Large language models (LLMs) can propose plausible intermediate derivations, but they often fail to compose them into a complete proof and overpredict uncertainty. Neurosymbolic methods improve search by translating an entire problem into first-order logic and handing it to a prover, but a single bad clause can make the whole translation nonexecutable. We present Hybrid Reasoning, a three-stage pipeline that decouples proposing a proof, validating its steps, and deciding a label. An LLM proposes a structured proof tree with a raw verdict; a theorem prover validates each derivation locally, keeping only the subset it can prove; and an uncertainty-gated repair attempts to re-derive the label from the premises plus the validated derivations, when the raw verdict is UNCERTAIN. Across four benchmarks (FOLIO, ProofWriter, ProverQA, PrOntoQA) and five contemporary LLMs, Hybrid Reasoning is the top-performing method on the two hardest datasets, improving on the strongest baseline by 5.3 points on FOLIO and 4.9 on ProverQA, and reaches ceiling-level accuracy on the easiest. The repair stage operates at 78-98% precision, producing 326 correct relabellings against 19 regressions.",
+    "authors": [
+      "Ada Canoğlu",
+      "Sadiq Qara"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Ada Canoğlu",
+        "affiliations": []
+      },
+      {
+        "name": "Sadiq Qara",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-06",
+    "updated": "2026-11-06",
+    "categories": [
+      "cs.CL"
+    ],
+    "primaryCategory": "cs.CL",
+    "url": "https://arxiv.org/abs/2611.10319",
+    "pdfUrl": "https://arxiv.org/pdf/2611.10319",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
   {
     "id": "2611.09356",
     "title": "Challenges, Opportunities, and Misconceptions in Neurosymbolic AI",
@@ -139,6 +365,67 @@ globalThis.ARXIV_PAPERS = [
       ],
       "abstract": [
         "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.10031",
+    "title": "zkARc: Succinctly Verifiable Proofs for Neurosymbolic Natural Language Formalization and Verification",
+    "abstract": "Autonomous agents increasingly execute consequential actions on behalf of users, but ordinary middleware guardrails do not provide cryptographic proof that a policy was actually enforced. Their verdicts leave counterparties dependent on the operator unless they repeat the checks themselves, potentially exposing sensitive policies and inputs. We present zkARc, a modular proof-carrying framework that wraps each stage of Automated Reasoning checks (ARc) in an independent, succinctly verifiable zero-knowledge proof. ARc is a neurosymbolic system that translates natural language policies into formal logic and verifies AI-generated content against them using SMT solvers. zkARc certifies the planner's output, the policy's formalization, the action's formalization and both solver queries. The receipt binds these computations to the exact action received and, under the stated assumptions, reveals no additional information about private policies and intermediate model values beyond the declared public information and verdict. This lets a third party check the claimed policy enforcement without re-running the pipeline or trusting the operator. We prove completeness, knowledge soundness and zero knowledge for the composed receipt under explicit assumptions. An implementation on Qwen2-0.5B enforces a spending policy end to end, approving two purchases and denying a third. A full receipt, which also proves model inference, takes about an hour to issue with CPU-only proving and verifies in under a minute, and the solver proof alone is 88 KiB and verifies in 0.3 seconds.",
+    "authors": [
+      "Wyatt Benno",
+      "Alberto Centelles",
+      "Aman Goel",
+      "Benjamin Kiesl-Reiter"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Wyatt Benno",
+        "affiliations": [
+          "ICME Labs"
+        ]
+      },
+      {
+        "name": "Alberto Centelles",
+        "affiliations": [
+          "Imperial College London"
+        ]
+      },
+      {
+        "name": "Aman Goel",
+        "affiliations": [
+          "Amazon Web Services"
+        ]
+      },
+      {
+        "name": "Benjamin Kiesl-Reiter",
+        "affiliations": [
+          "Amazon Web Services"
+        ]
+      }
+    ],
+    "affiliations": [
+      "ICME Labs",
+      "Imperial College London",
+      "Amazon Web Services"
+    ],
+    "published": "2026-11-05",
+    "updated": "2026-11-05",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL",
+      "cs.LO"
+    ],
+    "primaryCategory": "cs.CR",
+    "url": "https://arxiv.org/abs/2611.10031",
+    "pdfUrl": "https://arxiv.org/pdf/2611.10031",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
       ]
     }
   },
