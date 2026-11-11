@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T20:09:45.662Z",
+  "generatedAt": "2026-11-11T19:57:18.211Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,8 +13,8 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1904,
-  "completeMetadataCount": 1371,
+  "paperCount": 1910,
+  "completeMetadataCount": 1372,
   "sources": [
     {
       "id": "arxiv-keywords",
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1599
+      "count": 1605
     },
     {
       "id": "nesy-proceedings",
@@ -70,7 +70,7 @@
           "Emile Van Krieken",
           "Emile van Krieken"
         ],
-        "paperCount": 70,
+        "paperCount": 71,
         "institutionIds": [
           "institution:027af32d36728391",
           "institution:0418834df0ffcdf2",
@@ -399,7 +399,7 @@
         "aliases": [
           "Antonio Vergari"
         ],
-        "paperCount": 15,
+        "paperCount": 16,
         "institutionIds": [
           "institution:3c4903b35459f2b5",
           "institution:9ffc21de60b360ff",
@@ -785,6 +785,18 @@
         ]
       },
       {
+        "id": "author:d138ab19c3e8d31b",
+        "name": "Luciano Serafini",
+        "aliases": [
+          "Luciano Serafini"
+        ],
+        "paperCount": 8,
+        "institutionIds": [
+          "institution:3726d09232c921c9",
+          "institution:8ba18f744718a0a2"
+        ]
+      },
+      {
         "id": "author:68975d1572629dd9",
         "name": "Michael Hersche",
         "aliases": [
@@ -1057,18 +1069,6 @@
         "institutionIds": [
           "institution:556024ebbe9f0f08",
           "institution:e320ed6db43c3d7d"
-        ]
-      },
-      {
-        "id": "author:d138ab19c3e8d31b",
-        "name": "Luciano Serafini",
-        "aliases": [
-          "Luciano Serafini"
-        ],
-        "paperCount": 7,
-        "institutionIds": [
-          "institution:3726d09232c921c9",
-          "institution:8ba18f744718a0a2"
         ]
       },
       {
@@ -1871,6 +1871,23 @@
         ]
       },
       {
+        "id": "author:a0c7a1c3c7cae8ea",
+        "name": "Samy Badreddine",
+        "aliases": [
+          "Samy Badreddine"
+        ],
+        "paperCount": 5,
+        "institutionIds": [
+          "institution:3258076c1e752ff2",
+          "institution:467e289fb6e36349",
+          "institution:9ffc21de60b360ff",
+          "institution:b9aa61dc9dccd1f4",
+          "institution:cf1c67afebae5548",
+          "institution:cf2639c8e56f6453",
+          "institution:fe03b149809bcb8b"
+        ]
+      },
+      {
         "id": "author:6a8405225fffa5d3",
         "name": "Sebastian Scherer",
         "aliases": [
@@ -2317,6 +2334,17 @@
           "institution:5d252a0d8a866c5d",
           "institution:ab830fff584165e7",
           "institution:cf1c67afebae5548"
+        ]
+      },
+      {
+        "id": "author:1d857e732deb09d8",
+        "name": "Erik Cambria",
+        "aliases": [
+          "Erik Cambria"
+        ],
+        "paperCount": 4,
+        "institutionIds": [
+          "institution:c111feb812f1a7ed"
         ]
       },
       {
@@ -2869,23 +2897,6 @@
           "institution:556024ebbe9f0f08",
           "institution:9b1dca853f0d341b",
           "institution:a6c05bc13c94744f"
-        ]
-      },
-      {
-        "id": "author:a0c7a1c3c7cae8ea",
-        "name": "Samy Badreddine",
-        "aliases": [
-          "Samy Badreddine"
-        ],
-        "paperCount": 4,
-        "institutionIds": [
-          "institution:3258076c1e752ff2",
-          "institution:467e289fb6e36349",
-          "institution:9ffc21de60b360ff",
-          "institution:b9aa61dc9dccd1f4",
-          "institution:cf1c67afebae5548",
-          "institution:cf2639c8e56f6453",
-          "institution:fe03b149809bcb8b"
         ]
       },
       {
@@ -3738,17 +3749,6 @@
         "paperCount": 3,
         "institutionIds": [
           "institution:f86dba53ef72761b"
-        ]
-      },
-      {
-        "id": "author:1d857e732deb09d8",
-        "name": "Erik Cambria",
-        "aliases": [
-          "Erik Cambria"
-        ],
-        "paperCount": 3,
-        "institutionIds": [
-          "institution:c111feb812f1a7ed"
         ]
       },
       {
@@ -10166,6 +10166,15 @@
         ]
       },
       {
+        "id": "author:e54da918ab4cd9a3",
+        "name": "Olaoluwa Adigun",
+        "aliases": [
+          "Olaoluwa Adigun"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
+      },
+      {
         "id": "author:fbab56a3e83c7652",
         "name": "Ole Fenske",
         "aliases": [
@@ -14232,6 +14241,15 @@
         ]
       },
       {
+        "id": "author:a30316cb6ad2a2c6",
+        "name": "Abel Deulofeu",
+        "aliases": [
+          "Abel Deulofeu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:75883cad8e035695",
         "name": "Abhijit Chatterjee",
         "aliases": [
@@ -16438,6 +16456,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:cc361d66d4905e09",
+        "name": "Amna Jamal",
+        "aliases": [
+          "Amna Jamal"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:461dfad89633d6e8",
         "name": "Amogh Joshi",
         "aliases": [
@@ -17227,6 +17254,15 @@
         "name": "Anh N. Nhu",
         "aliases": [
           "Anh N. Nhu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:c2f6a14391a8ad3c",
+        "name": "Anidipta Pal",
+        "aliases": [
+          "Anidipta Pal"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -18631,6 +18667,17 @@
         "institutionIds": []
       },
       {
+        "id": "author:73f07955e9ed8737",
+        "name": "Aur{é}lie Clodic",
+        "aliases": [
+          "Aur{é}lie Clodic"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:055b0cc8f77ce6b6"
+        ]
+      },
+      {
         "id": "author:a04c720a4c736f70",
         "name": "Aurélie Bertaux",
         "aliases": [
@@ -19140,6 +19187,15 @@
         ]
       },
       {
+        "id": "author:e9cc52ad53fb0fab",
+        "name": "Bardh Prenkaj",
+        "aliases": [
+          "Bardh Prenkaj"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:26ed588d5e77bd19",
         "name": "Bardia Nadimi",
         "aliases": [
@@ -19187,6 +19243,17 @@
         "institutionIds": [
           "institution:0418834df0ffcdf2",
           "institution:556024ebbe9f0f08"
+        ]
+      },
+      {
+        "id": "author:0a19c4d2fbc5dca5",
+        "name": "Bastien Dussard",
+        "aliases": [
+          "Bastien Dussard"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:94b4ff6af56dadb3"
         ]
       },
       {
@@ -20240,6 +20307,15 @@
         "institutionIds": [
           "institution:975baf152daabc81"
         ]
+      },
+      {
+        "id": "author:999a0e37430471f5",
+        "name": "Brandon Rodriguez",
+        "aliases": [
+          "Brandon Rodriguez"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:04dc284faf02fa63",
@@ -21954,6 +22030,15 @@
         "name": "Christian Medeiros",
         "aliases": [
           "Christian Medeiros"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:3ae7d21cee03c390",
+        "name": "Christian Montag",
+        "aliases": [
+          "Christian Montag"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -27646,6 +27731,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:91b8687213bfb06b",
+        "name": "Gagana Madhugiri Devaraja",
+        "aliases": [
+          "Gagana Madhugiri Devaraja"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:49b86dd9fc83467b",
         "name": "Gang Chen",
         "aliases": [
@@ -29036,6 +29130,17 @@
         ]
       },
       {
+        "id": "author:13d81bab17530488",
+        "name": "Guillaume Sarthou",
+        "aliases": [
+          "Guillaume Sarthou"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:1a76bb8e7c586672"
+        ]
+      },
+      {
         "id": "author:f18dec313c0e44e0",
         "name": "Guillem Alenyà",
         "aliases": [
@@ -29316,6 +29421,15 @@
         "institutionIds": [
           "institution:ac7aeed6b85a0a40"
         ]
+      },
+      {
+        "id": "author:f75a3b0239e0e326",
+        "name": "Habiba Sarhan",
+        "aliases": [
+          "Habiba Sarhan"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:4b8cf73c7fed815c",
@@ -30683,6 +30797,15 @@
         "institutionIds": [
           "institution:0418834df0ffcdf2"
         ]
+      },
+      {
+        "id": "author:acb3b6c6a44b2792",
+        "name": "Henrique Oliveira",
+        "aliases": [
+          "Henrique Oliveira"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:709a9f712a99632e",
@@ -35648,6 +35771,15 @@
         ]
       },
       {
+        "id": "author:8026d6b95c9b7dba",
+        "name": "Jobst Heitzig",
+        "aliases": [
+          "Jobst Heitzig"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:d4d6c828392e6cd0",
         "name": "Joe Hendrix",
         "aliases": [
@@ -38441,6 +38573,15 @@
           "institution:7d39921202b9ef4f",
           "institution:c7fa64b8a4e83783"
         ]
+      },
+      {
+        "id": "author:f369ec5be1458de1",
+        "name": "Kolja Hegelich",
+        "aliases": [
+          "Kolja Hegelich"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:bdf66d36da22d1af",
@@ -45646,6 +45787,15 @@
         ]
       },
       {
+        "id": "author:03eb9bf96a24414e",
+        "name": "Morteza Shahrezaye",
+        "aliases": [
+          "Morteza Shahrezaye"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:4c48408b4bed9a14",
         "name": "Morteza Zadimoghaddam",
         "aliases": [
@@ -47593,15 +47743,6 @@
         "institutionIds": [
           "institution:8758902c10feb2ee"
         ]
-      },
-      {
-        "id": "author:e54da918ab4cd9a3",
-        "name": "Olaoluwa Adigun",
-        "aliases": [
-          "Olaoluwa Adigun"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
       },
       {
         "id": "author:9951ed98c808d2d9",
@@ -50810,6 +50951,15 @@
         "institutionIds": [
           "institution:4771721b61bd70ab"
         ]
+      },
+      {
+        "id": "author:135bad4482114429",
+        "name": "Ralf Schneider",
+        "aliases": [
+          "Ralf Schneider"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:0dd95e692e7d374f",
@@ -55761,6 +55911,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:a1010dbc244d025f",
+        "name": "Simon Hegelich",
+        "aliases": [
+          "Simon Hegelich"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:9d52b4f52eb6455d",
         "name": "Simon Heindorf",
         "aliases": [
@@ -56493,6 +56652,15 @@
         "name": "Sorin Lerner",
         "aliases": [
           "Sorin Lerner"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:1349cf8524566a3f",
+        "name": "Souhaila Djaffal",
+        "aliases": [
+          "Souhaila Djaffal"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -80055,6 +80223,30 @@
         "name": "LAAS-CNRS",
         "aliases": [
           "LAAS-CNRS"
+        ],
+        "paperCount": 1
+      },
+      {
+        "id": "institution:055b0cc8f77ce6b6",
+        "name": "LAAS-IDEA, LAAS-RIS, LAAS",
+        "aliases": [
+          "LAAS-IDEA, LAAS-RIS, LAAS"
+        ],
+        "paperCount": 1
+      },
+      {
+        "id": "institution:1a76bb8e7c586672",
+        "name": "LAAS-RIS, EPE UT, LAAS",
+        "aliases": [
+          "LAAS-RIS, EPE UT, LAAS"
+        ],
+        "paperCount": 1
+      },
+      {
+        "id": "institution:94b4ff6af56dadb3",
+        "name": "LAAS-RIS, LAAS",
+        "aliases": [
+          "LAAS-RIS, LAAS"
         ],
         "paperCount": 1
       },
@@ -385703,6 +385895,692 @@
           "affiliations": [
             "Amazon Web Services"
           ]
+        }
+      ]
+    },
+    {
+      "id": "2611.14419",
+      "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
+      "abstract": "Formal world models can support planning, verification, and safety reasoning, but constructing them from open-ended natural-language situations is difficult, particularly in multi-agent settings where several formalizations may be plausible. We study whether five LLMs can generate such world models as partially observable stochastic games and whether mechanical validity is sufficient to establish that the resulting model faithfully represents the intended decision problem. We introduce a benchmark of 44 scenarios spanning game, situational, and cultural settings and evaluate generated world models along three dimensions: mechanical validity, reference-relative structural agreement, and semantic criteria. Across three empirical tracks, we analyze 410 first-pass generations. In the reference-backed game track, 134/135 generated world models pass a strict mechanical audit, yet mean permutation-invariant structural F1 is only 0.366, with just 28/134 mechanically valid models exactly matching the authored reference. In the cultural track, explicitly naming the country changes the generated structural representation for most LLMs while producing only small changes in automated semantic scores. These results show that executability is a necessary but insufficient criterion for LLM-generated world models: models that are mechanically valid can still differ substantially in the structure used by downstream neuro-symbolic reasoning and planning.",
+      "authors": [
+        "Souhaila Djaffal",
+        "Amna Jamal",
+        "Gagana Madhugiri Devaraja",
+        "Anidipta Pal",
+        "Jobst Heitzig"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Souhaila Djaffal",
+          "authorEntityId": "author:1349cf8524566a3f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Souhaila Djaffal",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Amna Jamal",
+          "authorEntityId": "author:cc361d66d4905e09",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Amna Jamal",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Gagana Madhugiri Devaraja",
+          "authorEntityId": "author:91b8687213bfb06b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Gagana Madhugiri Devaraja",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Anidipta Pal",
+          "authorEntityId": "author:c2f6a14391a8ad3c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Anidipta Pal",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jobst Heitzig",
+          "authorEntityId": "author:8026d6b95c9b7dba",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jobst Heitzig",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.14419",
+      "pdfUrl": "https://arxiv.org/pdf/2611.14419",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.14419",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:acbb4f8374ce6025",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Souhaila Djaffal",
+        "Amna Jamal",
+        "Gagana Madhugiri Devaraja",
+        "Anidipta Pal",
+        "Jobst Heitzig"
+      ],
+      "authorEntityIds": [
+        "author:1349cf8524566a3f",
+        "author:cc361d66d4905e09",
+        "author:91b8687213bfb06b",
+        "author:c2f6a14391a8ad3c",
+        "author:8026d6b95c9b7dba"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Souhaila Djaffal",
+          "affiliations": []
+        },
+        {
+          "name": "Amna Jamal",
+          "affiliations": []
+        },
+        {
+          "name": "Gagana Madhugiri Devaraja",
+          "affiliations": []
+        },
+        {
+          "name": "Anidipta Pal",
+          "affiliations": []
+        },
+        {
+          "name": "Jobst Heitzig",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.13960",
+      "title": "From Attack Surface to Defense Architecture: Compositional Security for Agentic Coding Harnesses",
+      "abstract": "AI coding harnesses couple language models to shells, filesystems, and network sockets, turning the harness into an automated Living-off-the-Land (LotL) platform: once an adversary injects instructions into retrieved content, dual-use binaries such as bash, curl, and find become the payload. We argue that security in agentic systems is a structural property of the cognitive architecture and permission composition rather than an emergent property of individual models. Static regex blacklists miss structural evasions, whereas LLM-as-a-Judge guardrails incur high latency while over-blocking benign work. We present ActiveSecHarness, a neurosymbolic reference-monitor architecture built around Separation of Intelligence and Authority. It combines (1) Macaroon-inspired HMAC capability tokens across four Trust and Authority Rings, (2) a 2D product taint lattice $\\mathcal{L} = \\mathcal{L}_{\\mathrm{trust}} \\times \\mathcal{L}_{\\mathrm{sens}}$ and a workspace provenance ledger that prevents secret laundering across disk, (3) deterministic Ring-0 OS/tool guards, and (4) bytecode certificates, split-horizon audit logs, self-healing security test synthesis, and an adaptive UserWikiManager. Across $N=252$ fixtures ($120$ attack, $120$ benign, $12$ kill chains), a live local LLM judge (qwen3:4b) refuses $98.3\\%$ of benign work at $142.3\\,\\mathrm{ms}$ latency, whereas Ring 0 achieves $\\mathrm{ABR}=1.000$ and $\\mathrm{FPR}=0.000$ in $12.7\\,μ\\mathrm{s}$ ($11{,}200\\times$ faster). In a multi-step trajectory ablation, an oracle Conseca-style stateless policy misses $4/12$ kill chains ($\\mathrm{ABR}=0.667$) and coarse Boolean taint blocks $83.3\\%$ of benign workflows, while our 2D product lattice achieves $\\mathrm{ABR}=1.000$ and $\\mathrm{FPR}=0.000$ at $\\approx 20\\,μ\\mathrm{s}$ per step.",
+      "authors": [
+        "Simon Hegelich",
+        "Bardh Prenkaj",
+        "Habiba Sarhan",
+        "Morteza Shahrezaye",
+        "Kolja Hegelich",
+        "Christian Montag",
+        "Ralf Schneider",
+        "Erik Cambria"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Simon Hegelich",
+          "authorEntityId": "author:a1010dbc244d025f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Simon Hegelich",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Bardh Prenkaj",
+          "authorEntityId": "author:e9cc52ad53fb0fab",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Bardh Prenkaj",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Habiba Sarhan",
+          "authorEntityId": "author:f75a3b0239e0e326",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Habiba Sarhan",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Morteza Shahrezaye",
+          "authorEntityId": "author:03eb9bf96a24414e",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Morteza Shahrezaye",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Kolja Hegelich",
+          "authorEntityId": "author:f369ec5be1458de1",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Kolja Hegelich",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Christian Montag",
+          "authorEntityId": "author:3ae7d21cee03c390",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Christian Montag",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ralf Schneider",
+          "authorEntityId": "author:135bad4482114429",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ralf Schneider",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Erik Cambria",
+          "authorEntityId": "author:1d857e732deb09d8",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Erik Cambria",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.13960",
+      "pdfUrl": "https://arxiv.org/pdf/2611.13960",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.13960",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:8b59373e9fbcfab3",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Simon Hegelich",
+        "Bardh Prenkaj",
+        "Habiba Sarhan",
+        "Morteza Shahrezaye",
+        "Kolja Hegelich",
+        "Christian Montag",
+        "Ralf Schneider",
+        "Erik Cambria"
+      ],
+      "authorEntityIds": [
+        "author:a1010dbc244d025f",
+        "author:e9cc52ad53fb0fab",
+        "author:f75a3b0239e0e326",
+        "author:03eb9bf96a24414e",
+        "author:f369ec5be1458de1",
+        "author:3ae7d21cee03c390",
+        "author:135bad4482114429",
+        "author:1d857e732deb09d8"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Simon Hegelich",
+          "affiliations": []
+        },
+        {
+          "name": "Bardh Prenkaj",
+          "affiliations": []
+        },
+        {
+          "name": "Habiba Sarhan",
+          "affiliations": []
+        },
+        {
+          "name": "Morteza Shahrezaye",
+          "affiliations": []
+        },
+        {
+          "name": "Kolja Hegelich",
+          "affiliations": []
+        },
+        {
+          "name": "Christian Montag",
+          "affiliations": []
+        },
+        {
+          "name": "Ralf Schneider",
+          "affiliations": []
+        },
+        {
+          "name": "Erik Cambria",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.13862",
+      "title": "Where to Approximate in Neurosymbolic Inference?",
+      "abstract": "Probabilistic neurosymbolic methods rely on weighted model counting (WMC) to combine neural predictors with symbolic constraints. Exact WMC is #P-hard and typically scales poorly, so many methods resort to approximations. By unifying existing approaches under a three-step bottom-up approximate compilation pipeline, we study where approximation budget is best allocated. Inspired by tensor networks, we instantiate two steps with tensor train decompositions and derive new pipelines that exactly multiply approximated factors and recompress their products via SVD- or interpolation-based schemes. Across six tasks in Sudoku, arithmetic reasoning, and scene understanding, and across increasing problem sizes, our pipelines produce WMC estimates orders-of-magnitude more accurate than prior methods. This translates into stronger downstream learning on tasks where reasoning relies on tight interactions between symbolic factors, where cruder approximations ignore these dependencies. Our pipelines open novel design space for effective approximate compilation of challenging probabilistic reasoning tasks.",
+      "authors": [
+        "Samy Badreddine",
+        "Emile Van Krieken",
+        "Luciano Serafini",
+        "Antonio Vergari"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Samy Badreddine",
+          "authorEntityId": "author:a0c7a1c3c7cae8ea",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Samy Badreddine",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Emile Van Krieken",
+          "authorEntityId": "author:8fce6b55cc19e66d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Emile van Krieken",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Luciano Serafini",
+          "authorEntityId": "author:d138ab19c3e8d31b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Luciano Serafini",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Antonio Vergari",
+          "authorEntityId": "author:a9d25bff3590b98f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Antonio Vergari",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.13862",
+      "pdfUrl": "https://arxiv.org/pdf/2611.13862",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.13862",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:9c471510b3317004",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Samy Badreddine",
+        "Emile van Krieken",
+        "Luciano Serafini",
+        "Antonio Vergari"
+      ],
+      "authorEntityIds": [
+        "author:a0c7a1c3c7cae8ea",
+        "author:8fce6b55cc19e66d",
+        "author:d138ab19c3e8d31b",
+        "author:a9d25bff3590b98f"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Samy Badreddine",
+          "affiliations": []
+        },
+        {
+          "name": "Emile van Krieken",
+          "affiliations": []
+        },
+        {
+          "name": "Luciano Serafini",
+          "affiliations": []
+        },
+        {
+          "name": "Antonio Vergari",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.13850",
+      "title": "Taxonomy-Agnostic Neurosymbolic Grounding of Robot Kinematics",
+      "abstract": "While symbolic reasoning for task allocation requires grounding a robot's physical capabilities, standard Unified Robot Description Format (URDF) files provide only low-level kinematics without the formal semantic context needed for reasoning. We present URDF2Ontology, an automated, taxonomy-agnostic neurosymbolic framework that transforms raw URDF files into populated, grounded OWL ontologies. It leverages a Large Language Model (LLM) for targeted semantic reasoning, coupled with an iterative sequential graph-purging mechanism to prevent context window saturation. To process complex kinematic structures, it employs a morphology-aware dual-track architecture featuring a bottom-up Tree Track for branching assemblies and a top-down Chain Track for serial limbs. Guided by neurosymbolic guardrails, the framework extracts functional sub-graphs and asserts populated ontologies aligned with arbitrary user-provided taxonomies. Empirical evaluation across a diverse fleet of heterogeneous robots demonstrates strong schema alignment, valid structural extraction, and a significant reduction in manual domain authoring overhead.",
+      "authors": [
+        "Bastien Dussard",
+        "Aur{é}lie Clodic",
+        "Guillaume Sarthou"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Bastien Dussard",
+          "authorEntityId": "author:0a19c4d2fbc5dca5",
+          "affiliations": [
+            "LAAS-RIS, LAAS"
+          ],
+          "affiliationEntityIds": [
+            "institution:94b4ff6af56dadb3"
+          ],
+          "rawName": "Bastien Dussard",
+          "rawAffiliations": [
+            "LAAS-RIS, LAAS"
+          ]
+        },
+        {
+          "name": "Aur{é}lie Clodic",
+          "authorEntityId": "author:73f07955e9ed8737",
+          "affiliations": [
+            "LAAS-IDEA, LAAS-RIS, LAAS"
+          ],
+          "affiliationEntityIds": [
+            "institution:055b0cc8f77ce6b6"
+          ],
+          "rawName": "Aur{é}lie Clodic",
+          "rawAffiliations": [
+            "LAAS-IDEA, LAAS-RIS, LAAS"
+          ]
+        },
+        {
+          "name": "Guillaume Sarthou",
+          "authorEntityId": "author:13d81bab17530488",
+          "affiliations": [
+            "LAAS-RIS, EPE UT, LAAS"
+          ],
+          "affiliationEntityIds": [
+            "institution:1a76bb8e7c586672"
+          ],
+          "rawName": "Guillaume Sarthou",
+          "rawAffiliations": [
+            "LAAS-RIS, EPE UT, LAAS"
+          ]
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [
+        "LAAS-RIS, LAAS",
+        "LAAS-IDEA, LAAS-RIS, LAAS",
+        "LAAS-RIS, EPE UT, LAAS"
+      ],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.13850",
+      "pdfUrl": "https://arxiv.org/pdf/2611.13850",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.13850",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": true,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:b73ceae632feab1e",
+      "rawAffiliations": [
+        "LAAS-RIS, LAAS",
+        "LAAS-IDEA, LAAS-RIS, LAAS",
+        "LAAS-RIS, EPE UT, LAAS"
+      ],
+      "affiliationEntityIds": [
+        "institution:94b4ff6af56dadb3",
+        "institution:055b0cc8f77ce6b6",
+        "institution:1a76bb8e7c586672"
+      ],
+      "rawAuthors": [
+        "Bastien Dussard",
+        "Aur{é}lie Clodic",
+        "Guillaume Sarthou"
+      ],
+      "authorEntityIds": [
+        "author:0a19c4d2fbc5dca5",
+        "author:73f07955e9ed8737",
+        "author:13d81bab17530488"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Bastien Dussard",
+          "affiliations": [
+            "LAAS-RIS, LAAS"
+          ]
+        },
+        {
+          "name": "Aur{é}lie Clodic",
+          "affiliations": [
+            "LAAS-IDEA, LAAS-RIS, LAAS"
+          ]
+        },
+        {
+          "name": "Guillaume Sarthou",
+          "affiliations": [
+            "LAAS-RIS, EPE UT, LAAS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2611.13388",
+      "title": "Online-Adaptive Fuzzy Cognitive Maps for Neuro-symbolic Financial Forecasting",
+      "abstract": "We present a neuro-symbolic framework that pairs online-adaptive Fuzzy Cognitive Maps (FCMs) with long short-term memory (LSTM) networks for financial forecasting. Financial markets exhibit regime shifts and nonlinear dynamics. Existing models often trade off one of these key properties: these models capture temporal patterns but hide causal drivers, or they recover causal graphs that cannot adapt post-training. We close this gap with two frameworks. Framework I constructs an FCM from live dual-source price series and macroeconomic indicators, and adapts its edges online through an error-driven Hebbian rule. We introduce the Asymmetric Additive Residual Fusion method to seamlessly combine the FCM and LSTM predictions under Framework I. Framework II constructs a literature-grounded, LLM-augmented FCM where every edge carries a verifiable citation that gives an auditable map of factor interactions. On NASDAQ Composite data, Framework I matched the performance of the LSTM baseline on state-directional accuracy and outperformed LSTM by 7.6 percentage points on the return-sign accuracy. Framework I outperformed standalone FCM models across both evaluation metrics. The adaptive maps converged to new regimes within 10-15 trading days, and Framework II center-node FCMs scored 68.9% to 85.7% on the state-directional accuracy.",
+      "authors": [
+        "Brandon Rodriguez",
+        "Abel Deulofeu",
+        "Olaoluwa Adigun"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Brandon Rodriguez",
+          "authorEntityId": "author:999a0e37430471f5",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Brandon Rodriguez",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Abel Deulofeu",
+          "authorEntityId": "author:a30316cb6ad2a2c6",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Abel Deulofeu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Olaoluwa Adigun",
+          "authorEntityId": "author:e54da918ab4cd9a3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Olaoluwa Adigun",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-10",
+      "url": "https://arxiv.org/abs/2611.13388",
+      "pdfUrl": "https://arxiv.org/pdf/2611.13388",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.13388",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:77dac93e6535a636",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Brandon Rodriguez",
+        "Abel Deulofeu",
+        "Olaoluwa Adigun"
+      ],
+      "authorEntityIds": [
+        "author:999a0e37430471f5",
+        "author:a30316cb6ad2a2c6",
+        "author:e54da918ab4cd9a3"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Brandon Rodriguez",
+          "affiliations": []
+        },
+        {
+          "name": "Abel Deulofeu",
+          "affiliations": []
+        },
+        {
+          "name": "Olaoluwa Adigun",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.13325",
+      "title": "F3-AGI v4.0: Bioenergetically-Gated Active Inference, Metaplastic Preconditioning, and Residual Program Synthesis for Sample-Efficient Abstract Reasoning",
+      "abstract": "Few-shot abstract reasoning on ARC-AGI requires inducing algorithmic transformations from 2 to 5 demonstration pairs without task-specific pretraining. Because few-shot demonstrations under-constrain the hypothesis space, program synthesis suffers from the Rashomon effect (predictive multiplicity): heuristic search finds spurious programs with low training error that fail on test inputs, while unconstrained library growth degrades latency. We introduce F3-AGI v4.0, a CPU-native neuro-symbolic and active inference architecture comprising three mechanisms: (1) F3-Metabolic-Optim, combining mistake-gated plasticity, Fisher-EMA preconditioning, and virtual ATP gating; (2) Adaptive Complexity-Guided Program Synthesis (AACR) with a Cycle-3 ResidualPatchSynthesizer and smallest-pair early rejection; and (3) a 512D L2-normalized random projection driving Expected Free Energy (EFE) exploration with dead-signature pruning. Across three empirical studies: (i) on a synthetic 5-task class-incremental stream without replay, F3-Metabolic-Optim achieves 91.67% final accuracy with 9.17% forgetting, skipping 93.47% of updates, cutting L1 plasticity cost by 65.7%, and running 2.19x faster than EWC; (ii) on the 400-task ARC-AGI-1 public evaluation set (offline CPU, zero LLM calls), F3-AGI v4.0 solves 57/400 tasks (14.25% pass@2; 56/400 pass@1) with a mean latency of 1.62 s/task, decomposed into 19/50 (38.00%, 1.19 s/task, a 42.5x paired speedup over Horizon 2) on the 50-task calibration slice and 38/350 (10.86%) on the 350 strictly uninspected hold-out tasks (with 7 autonomous Cycle-3 patch solutions); and (iii) in a local 5-game (15-level) ARC-AGI-3-inspired interactive suite, our agent completes 15/15 levels with 89.44% level-weighted RHAE (90.72% unweighted).",
+      "authors": [
+        "Henrique Oliveira"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Henrique Oliveira",
+          "authorEntityId": "author:acb3b6c6a44b2792",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Henrique Oliveira",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-09",
+      "url": "https://arxiv.org/abs/2611.13325",
+      "pdfUrl": "https://arxiv.org/pdf/2611.13325",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.13325",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:1c1ba9400b5798c3",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Henrique Oliveira"
+      ],
+      "authorEntityIds": [
+        "author:acb3b6c6a44b2792"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Henrique Oliveira",
+          "affiliations": []
         }
       ]
     }

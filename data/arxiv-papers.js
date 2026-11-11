@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-11-10T20:09:45.163Z",
-  "cursorAt": "2026-11-10T20:09:45.163Z",
+  "generatedAt": "2026-11-11T19:57:17.339Z",
+  "cursorAt": "2026-11-11T19:57:17.339Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-11-08T18:11:54.444Z",
   "keywords": [
@@ -15,11 +15,295 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-11-09T22:50:00.805Z",
-  "windowStart": "2026-11-02T22:50:00.805Z",
+  "previousSnapshotAt": "2026-11-10T20:09:45.163Z",
+  "windowStart": "2026-11-03T20:09:45.163Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2611.14419",
+    "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
+    "abstract": "Formal world models can support planning, verification, and safety reasoning, but constructing them from open-ended natural-language situations is difficult, particularly in multi-agent settings where several formalizations may be plausible. We study whether five LLMs can generate such world models as partially observable stochastic games and whether mechanical validity is sufficient to establish that the resulting model faithfully represents the intended decision problem. We introduce a benchmark of 44 scenarios spanning game, situational, and cultural settings and evaluate generated world models along three dimensions: mechanical validity, reference-relative structural agreement, and semantic criteria. Across three empirical tracks, we analyze 410 first-pass generations. In the reference-backed game track, 134/135 generated world models pass a strict mechanical audit, yet mean permutation-invariant structural F1 is only 0.366, with just 28/134 mechanically valid models exactly matching the authored reference. In the cultural track, explicitly naming the country changes the generated structural representation for most LLMs while producing only small changes in automated semantic scores. These results show that executability is a necessary but insufficient criterion for LLM-generated world models: models that are mechanically valid can still differ substantially in the structure used by downstream neuro-symbolic reasoning and planning.",
+    "authors": [
+      "Souhaila Djaffal",
+      "Amna Jamal",
+      "Gagana Madhugiri Devaraja",
+      "Anidipta Pal",
+      "Jobst Heitzig"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Souhaila Djaffal",
+        "affiliations": []
+      },
+      {
+        "name": "Amna Jamal",
+        "affiliations": []
+      },
+      {
+        "name": "Gagana Madhugiri Devaraja",
+        "affiliations": []
+      },
+      {
+        "name": "Anidipta Pal",
+        "affiliations": []
+      },
+      {
+        "name": "Jobst Heitzig",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-10",
+    "updated": "2026-11-10",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.14419",
+    "pdfUrl": "https://arxiv.org/pdf/2611.14419",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.13960",
+    "title": "From Attack Surface to Defense Architecture: Compositional Security for Agentic Coding Harnesses",
+    "abstract": "AI coding harnesses couple language models to shells, filesystems, and network sockets, turning the harness into an automated Living-off-the-Land (LotL) platform: once an adversary injects instructions into retrieved content, dual-use binaries such as bash, curl, and find become the payload. We argue that security in agentic systems is a structural property of the cognitive architecture and permission composition rather than an emergent property of individual models. Static regex blacklists miss structural evasions, whereas LLM-as-a-Judge guardrails incur high latency while over-blocking benign work. We present ActiveSecHarness, a neurosymbolic reference-monitor architecture built around Separation of Intelligence and Authority. It combines (1) Macaroon-inspired HMAC capability tokens across four Trust and Authority Rings, (2) a 2D product taint lattice $\\mathcal{L} = \\mathcal{L}_{\\mathrm{trust}} \\times \\mathcal{L}_{\\mathrm{sens}}$ and a workspace provenance ledger that prevents secret laundering across disk, (3) deterministic Ring-0 OS/tool guards, and (4) bytecode certificates, split-horizon audit logs, self-healing security test synthesis, and an adaptive UserWikiManager. Across $N=252$ fixtures ($120$ attack, $120$ benign, $12$ kill chains), a live local LLM judge (qwen3:4b) refuses $98.3\\%$ of benign work at $142.3\\,\\mathrm{ms}$ latency, whereas Ring 0 achieves $\\mathrm{ABR}=1.000$ and $\\mathrm{FPR}=0.000$ in $12.7\\,μ\\mathrm{s}$ ($11{,}200\\times$ faster). In a multi-step trajectory ablation, an oracle Conseca-style stateless policy misses $4/12$ kill chains ($\\mathrm{ABR}=0.667$) and coarse Boolean taint blocks $83.3\\%$ of benign workflows, while our 2D product lattice achieves $\\mathrm{ABR}=1.000$ and $\\mathrm{FPR}=0.000$ at $\\approx 20\\,μ\\mathrm{s}$ per step.",
+    "authors": [
+      "Simon Hegelich",
+      "Bardh Prenkaj",
+      "Habiba Sarhan",
+      "Morteza Shahrezaye",
+      "Kolja Hegelich",
+      "Christian Montag",
+      "Ralf Schneider",
+      "Erik Cambria"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Simon Hegelich",
+        "affiliations": []
+      },
+      {
+        "name": "Bardh Prenkaj",
+        "affiliations": []
+      },
+      {
+        "name": "Habiba Sarhan",
+        "affiliations": []
+      },
+      {
+        "name": "Morteza Shahrezaye",
+        "affiliations": []
+      },
+      {
+        "name": "Kolja Hegelich",
+        "affiliations": []
+      },
+      {
+        "name": "Christian Montag",
+        "affiliations": []
+      },
+      {
+        "name": "Ralf Schneider",
+        "affiliations": []
+      },
+      {
+        "name": "Erik Cambria",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-10",
+    "updated": "2026-11-10",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.CR",
+    "url": "https://arxiv.org/abs/2611.13960",
+    "pdfUrl": "https://arxiv.org/pdf/2611.13960",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.13862",
+    "title": "Where to Approximate in Neurosymbolic Inference?",
+    "abstract": "Probabilistic neurosymbolic methods rely on weighted model counting (WMC) to combine neural predictors with symbolic constraints. Exact WMC is #P-hard and typically scales poorly, so many methods resort to approximations. By unifying existing approaches under a three-step bottom-up approximate compilation pipeline, we study where approximation budget is best allocated. Inspired by tensor networks, we instantiate two steps with tensor train decompositions and derive new pipelines that exactly multiply approximated factors and recompress their products via SVD- or interpolation-based schemes. Across six tasks in Sudoku, arithmetic reasoning, and scene understanding, and across increasing problem sizes, our pipelines produce WMC estimates orders-of-magnitude more accurate than prior methods. This translates into stronger downstream learning on tasks where reasoning relies on tight interactions between symbolic factors, where cruder approximations ignore these dependencies. Our pipelines open novel design space for effective approximate compilation of challenging probabilistic reasoning tasks.",
+    "authors": [
+      "Samy Badreddine",
+      "Emile van Krieken",
+      "Luciano Serafini",
+      "Antonio Vergari"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Samy Badreddine",
+        "affiliations": []
+      },
+      {
+        "name": "Emile van Krieken",
+        "affiliations": []
+      },
+      {
+        "name": "Luciano Serafini",
+        "affiliations": []
+      },
+      {
+        "name": "Antonio Vergari",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-10",
+    "updated": "2026-11-10",
+    "categories": [
+      "cs.LG"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.13862",
+    "pdfUrl": "https://arxiv.org/pdf/2611.13862",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.13850",
+    "title": "Taxonomy-Agnostic Neurosymbolic Grounding of Robot Kinematics",
+    "abstract": "While symbolic reasoning for task allocation requires grounding a robot's physical capabilities, standard Unified Robot Description Format (URDF) files provide only low-level kinematics without the formal semantic context needed for reasoning. We present URDF2Ontology, an automated, taxonomy-agnostic neurosymbolic framework that transforms raw URDF files into populated, grounded OWL ontologies. It leverages a Large Language Model (LLM) for targeted semantic reasoning, coupled with an iterative sequential graph-purging mechanism to prevent context window saturation. To process complex kinematic structures, it employs a morphology-aware dual-track architecture featuring a bottom-up Tree Track for branching assemblies and a top-down Chain Track for serial limbs. Guided by neurosymbolic guardrails, the framework extracts functional sub-graphs and asserts populated ontologies aligned with arbitrary user-provided taxonomies. Empirical evaluation across a diverse fleet of heterogeneous robots demonstrates strong schema alignment, valid structural extraction, and a significant reduction in manual domain authoring overhead.",
+    "authors": [
+      "Bastien Dussard",
+      "Aur{é}lie Clodic",
+      "Guillaume Sarthou"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Bastien Dussard",
+        "affiliations": [
+          "LAAS-RIS, LAAS"
+        ]
+      },
+      {
+        "name": "Aur{é}lie Clodic",
+        "affiliations": [
+          "LAAS-IDEA, LAAS-RIS, LAAS"
+        ]
+      },
+      {
+        "name": "Guillaume Sarthou",
+        "affiliations": [
+          "LAAS-RIS, EPE UT, LAAS"
+        ]
+      }
+    ],
+    "affiliations": [
+      "LAAS-RIS, LAAS",
+      "LAAS-IDEA, LAAS-RIS, LAAS",
+      "LAAS-RIS, EPE UT, LAAS"
+    ],
+    "published": "2026-11-10",
+    "updated": "2026-11-10",
+    "categories": [
+      "cs.AI",
+      "cs.RO"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.13850",
+    "pdfUrl": "https://arxiv.org/pdf/2611.13850",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.13388",
+    "title": "Online-Adaptive Fuzzy Cognitive Maps for Neuro-symbolic Financial Forecasting",
+    "abstract": "We present a neuro-symbolic framework that pairs online-adaptive Fuzzy Cognitive Maps (FCMs) with long short-term memory (LSTM) networks for financial forecasting. Financial markets exhibit regime shifts and nonlinear dynamics. Existing models often trade off one of these key properties: these models capture temporal patterns but hide causal drivers, or they recover causal graphs that cannot adapt post-training. We close this gap with two frameworks. Framework I constructs an FCM from live dual-source price series and macroeconomic indicators, and adapts its edges online through an error-driven Hebbian rule. We introduce the Asymmetric Additive Residual Fusion method to seamlessly combine the FCM and LSTM predictions under Framework I. Framework II constructs a literature-grounded, LLM-augmented FCM where every edge carries a verifiable citation that gives an auditable map of factor interactions. On NASDAQ Composite data, Framework I matched the performance of the LSTM baseline on state-directional accuracy and outperformed LSTM by 7.6 percentage points on the return-sign accuracy. Framework I outperformed standalone FCM models across both evaluation metrics. The adaptive maps converged to new regimes within 10-15 trading days, and Framework II center-node FCMs scored 68.9% to 85.7% on the state-directional accuracy.",
+    "authors": [
+      "Brandon Rodriguez",
+      "Abel Deulofeu",
+      "Olaoluwa Adigun"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Brandon Rodriguez",
+        "affiliations": []
+      },
+      {
+        "name": "Abel Deulofeu",
+        "affiliations": []
+      },
+      {
+        "name": "Olaoluwa Adigun",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-10",
+    "updated": "2026-11-10",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.13388",
+    "pdfUrl": "https://arxiv.org/pdf/2611.13388",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.13325",
+    "title": "F3-AGI v4.0: Bioenergetically-Gated Active Inference, Metaplastic Preconditioning, and Residual Program Synthesis for Sample-Efficient Abstract Reasoning",
+    "abstract": "Few-shot abstract reasoning on ARC-AGI requires inducing algorithmic transformations from 2 to 5 demonstration pairs without task-specific pretraining. Because few-shot demonstrations under-constrain the hypothesis space, program synthesis suffers from the Rashomon effect (predictive multiplicity): heuristic search finds spurious programs with low training error that fail on test inputs, while unconstrained library growth degrades latency. We introduce F3-AGI v4.0, a CPU-native neuro-symbolic and active inference architecture comprising three mechanisms: (1) F3-Metabolic-Optim, combining mistake-gated plasticity, Fisher-EMA preconditioning, and virtual ATP gating; (2) Adaptive Complexity-Guided Program Synthesis (AACR) with a Cycle-3 ResidualPatchSynthesizer and smallest-pair early rejection; and (3) a 512D L2-normalized random projection driving Expected Free Energy (EFE) exploration with dead-signature pruning. Across three empirical studies: (i) on a synthetic 5-task class-incremental stream without replay, F3-Metabolic-Optim achieves 91.67% final accuracy with 9.17% forgetting, skipping 93.47% of updates, cutting L1 plasticity cost by 65.7%, and running 2.19x faster than EWC; (ii) on the 400-task ARC-AGI-1 public evaluation set (offline CPU, zero LLM calls), F3-AGI v4.0 solves 57/400 tasks (14.25% pass@2; 56/400 pass@1) with a mean latency of 1.62 s/task, decomposed into 19/50 (38.00%, 1.19 s/task, a 42.5x paired speedup over Horizon 2) on the 50-task calibration slice and 38/350 (10.86%) on the 350 strictly uninspected hold-out tasks (with 7 autonomous Cycle-3 patch solutions); and (iii) in a local 5-game (15-level) ARC-AGI-3-inspired interactive suite, our agent completes 15/15 levels with 89.44% level-weighted RHAE (90.72% unweighted).",
+    "authors": [
+      "Henrique Oliveira"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Henrique Oliveira",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-09",
+    "updated": "2026-11-09",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.13325",
+    "pdfUrl": "https://arxiv.org/pdf/2611.13325",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2611.12760",
     "title": "DeepChronos: Temporal Neuro-Symbolic Reasoning for Multi-Step Attack Detection",
@@ -583,6 +867,47 @@ globalThis.ARXIV_PAPERS = [
     }
   },
   {
+    "id": "2611.05664",
+    "title": "Combining Relevant Expert Knowledge Using Mixtures of Feedback Fuzzy Cognitive Maps",
+    "abstract": "A neuro-symbolic system should combine only relevant answers from expert agents or other knowledge sources. Using only relevant experts for a given input query becomes ever more important for accuracy and scalability as the knowledge network grows and connects ever more knowledge sources. We extend the standard definition of relevance from the legal theory of evidence: An answer is relevant if and only if it is both probative and material for the matter at hand given the knowledge available. We apply this relevancy scheme to mixing the feedback fuzzy cognitive maps (FCMs) of real or artificial experts. The expert FCM directed causal graphs mix or combine into a common knowledge network. We compare the equilibrium limit-cycle predictions or answers of the experts to the answers of the mixture FCM and then estimate the probative status of answers by their difference or variation. A new Bayes-like theorem de-mixes the knowledge mixture into corresponding posterior-like FCMs that also allow relevancy-based comparisons. The result is a final set of relevancy mixing weights that produces a relevancy-mixed FCM knowledge network for the given query. So different queries produce different relevancy-mixed FCMs. We demonstrate this relevancy approach using generated synthetic FCMs from an actual 13-node expert FCM that models the causes and feedbacks of ischemic-stroke risk.",
+    "authors": [
+      "Olaoluwa Adigun",
+      "Akash Kumar Panda",
+      "Bart Kosko"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Olaoluwa Adigun",
+        "affiliations": []
+      },
+      {
+        "name": "Akash Kumar Panda",
+        "affiliations": []
+      },
+      {
+        "name": "Bart Kosko",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-03",
+    "updated": "2026-11-09",
+    "categories": [
+      "cs.AI",
+      "cs.IR",
+      "cs.SC"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.05664",
+    "pdfUrl": "https://arxiv.org/pdf/2611.05664",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
     "id": "2611.05612",
     "title": "Whiel: A Neurosymbolic Platform for Certified Relational Program Verification",
     "abstract": "We present the Whiel (a contraction of Whi(le-R)el) system for Lean-certified reasoning about imperative relational programs. The system can encode containment and equivalence problems for Datalog, its extensions with negation, and the core fragment of graph query languages. It can also represent optimized or incremental evaluation algorithms that are not expressible in the original query language, as well as first-order specifications of integrity constraints, schema mappings, and views arising in data integration, exchange, and sharing. Whiel's program states are database instances, and its imperative structure enables compositional Hoare-style reasoning with first-order relational specifications, using prophecy variables and leveled invariants to support inductive arguments. Whiel supports neurosymbolic discovery of loop invariants whose verification conditions can be checked using the Vampire first-order theorem prover. Counterexamples are fed back into the neurosymbolic pipeline, while proposed solutions are translated into Lean proof certificates. To validate the Whiel system, we evaluate its performance on a curated benchmark suite. In summary, we envision the Whiel system as a tool for tackling mathematically demanding, typically undecidable problems involving complex query and constraint languages, with a high degree of trust in its output.",
@@ -637,47 +962,6 @@ globalThis.ARXIV_PAPERS = [
       ],
       "abstract": [
         "neurosymbolic"
-      ]
-    }
-  },
-  {
-    "id": "2611.05664",
-    "title": "Combining Relevant Expert Knowledge Using Mixtures of Feedback Fuzzy Cognitive Maps",
-    "abstract": "A neuro-symbolic system should combine only relevant answers from expert agents or other knowledge sources. Using only relevant experts for a given input query becomes ever more important for accuracy and scalability as the knowledge network grows and connects ever more knowledge sources. We extend the standard definition of relevance from the legal theory of evidence: An answer is relevant if and only if it is both probative and material for the matter at hand given the knowledge available. We apply this relevancy scheme to mixing the feedback fuzzy cognitive maps (FCMs) of real or artificial experts. The expert FCM directed causal graphs mix or combine into a common knowledge network. We compare the equilibrium limit-cycle predictions or answers of the experts to the answers of the mixture FCM and then estimate the probative status of answers by their difference or variation. A new Bayes-like theorem de-mixes the knowledge mixture into corresponding posterior-like FCMs that also allow relevancy-based comparisons. The result is a final set of relevancy mixing weights that produces a relevancy-mixed FCM knowledge network for the given query. So different queries produce different relevancy-mixed FCMs. We demonstrate this relevancy approach using generated synthetic FCMs from an actual 13-node expert FCM that models the causes and feedbacks of ischemic-stroke risk.",
-    "authors": [
-      "Olaoluwa Adigun",
-      "Akash Kumar Panda",
-      "Bart Kosko"
-    ],
-    "authorAffiliations": [
-      {
-        "name": "Olaoluwa Adigun",
-        "affiliations": []
-      },
-      {
-        "name": "Akash Kumar Panda",
-        "affiliations": []
-      },
-      {
-        "name": "Bart Kosko",
-        "affiliations": []
-      }
-    ],
-    "affiliations": [],
-    "published": "2026-11-03",
-    "updated": "2026-11-03",
-    "categories": [
-      "cs.AI",
-      "cs.IR",
-      "cs.SC"
-    ],
-    "primaryCategory": "cs.AI",
-    "url": "https://arxiv.org/abs/2611.05664",
-    "pdfUrl": "https://arxiv.org/pdf/2611.05664",
-    "matches": {
-      "title": [],
-      "abstract": [
-        "neuro-symbolic"
       ]
     }
   },
