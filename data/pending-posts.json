@@ -3121,5 +3121,32 @@
     "sourceUrl": "https://cogniswitch.ai/signal",
     "discovered": "2026-11-08",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "AI Governance 11.12.2026 Grant Management: Approved, Coded, Within Budget, and Still Unallowable Read",
+    "date": "2026-11-12",
+    "url": "https://www.kognitos.com/blog/grant-management/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-11-12",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Real Estate 11.12.2026 CAM Reconciliation: The Arithmetic Is Easy. The Definitions Are Not. Read",
+    "date": "2026-11-12",
+    "url": "https://www.kognitos.com/blog/cam-reconciliation/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-11-12",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "AI Governance 11.12.2026 SOX Compliance Software: The Four Categories, and Which One Produces Evidence Read",
+    "date": "2026-11-12",
+    "url": "https://www.kognitos.com/blog/sox-compliance-software/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-11-12",
+    "status": "needs-review"
   }
 ]
