@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T20:37:04.491Z",
+  "generatedAt": "2026-11-13T20:13:59.017Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1910,
+  "paperCount": 1914,
   "completeMetadataCount": 1372,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1605
+      "count": 1609
     },
     {
       "id": "nesy-proceedings",
@@ -7600,6 +7600,15 @@
         ]
       },
       {
+        "id": "author:c5d5b60626d3b888",
+        "name": "Erman Acar",
+        "aliases": [
+          "Erman Acar"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
+      },
+      {
         "id": "author:06f9aac72e4d2174",
         "name": "Eugene Y. Vasserman",
         "aliases": [
@@ -9849,6 +9858,17 @@
         ]
       },
       {
+        "id": "author:bc9840d626ba00ac",
+        "name": "Minfeng Zhu",
+        "aliases": [
+          "Minfeng Zhu"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:e433baf78e80004b"
+        ]
+      },
+      {
         "id": "author:a835bbc50e57c44e",
         "name": "Ming Li",
         "aliases": [
@@ -11131,6 +11151,15 @@
         "institutionIds": [
           "institution:bf3ddd5552577ff0"
         ]
+      },
+      {
+        "id": "author:c08cf9cb60109526",
+        "name": "Satchit Chatterji",
+        "aliases": [
+          "Satchit Chatterji"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
       },
       {
         "id": "author:4451aec3e58fd0e1",
@@ -26018,6 +26047,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:de5cbc4718ec420b",
+        "name": "Ercan Atam",
+        "aliases": [
+          "Ercan Atam"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:51d200640d08af23",
         "name": "Erhan Oztop",
         "aliases": [
@@ -26139,15 +26177,6 @@
         "institutionIds": [
           "institution:0fbadc849bc98650"
         ]
-      },
-      {
-        "id": "author:c5d5b60626d3b888",
-        "name": "Erman Acar",
-        "aliases": [
-          "Erman Acar"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
       },
       {
         "id": "author:72144a0183f2e8c8",
@@ -35278,6 +35307,15 @@
         ]
       },
       {
+        "id": "author:4dfdc7c72ef96a35",
+        "name": "Jinghao Wen",
+        "aliases": [
+          "Jinghao Wen"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:9fdd062fdfb317b5",
         "name": "Jingjing Bai",
         "aliases": [
@@ -37956,6 +37994,15 @@
         "name": "Ke Wan",
         "aliases": [
           "Ke Wan"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:88ba8dc34c9fc00d",
+        "name": "Ke Wang",
+        "aliases": [
+          "Ke Wang"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -44693,17 +44740,6 @@
         "paperCount": 1,
         "institutionIds": [
           "institution:4a089cc9c2633138"
-        ]
-      },
-      {
-        "id": "author:bc9840d626ba00ac",
-        "name": "Minfeng Zhu",
-        "aliases": [
-          "Minfeng Zhu"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:e433baf78e80004b"
         ]
       },
       {
@@ -53876,15 +53912,6 @@
         ]
       },
       {
-        "id": "author:c08cf9cb60109526",
-        "name": "Satchit Chatterji",
-        "aliases": [
-          "Satchit Chatterji"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
         "id": "author:de96b64bd2f5db7f",
         "name": "Sathyanarayana",
         "aliases": [
@@ -54614,6 +54641,15 @@
         "institutionIds": [
           "institution:c5eade35ea50a856"
         ]
+      },
+      {
+        "id": "author:4f38be8bbf962a11",
+        "name": "Shaohuang Wang",
+        "aliases": [
+          "Shaohuang Wang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:dde72e8e63be71f7",
@@ -58274,6 +58310,15 @@
         "institutionIds": [
           "institution:6897907a26009a77"
         ]
+      },
+      {
+        "id": "author:7699937abe8cc7d8",
+        "name": "Terry Tan",
+        "aliases": [
+          "Terry Tan"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:41c37247ba9518f9",
@@ -62156,6 +62201,15 @@
         ]
       },
       {
+        "id": "author:af18840b7125edae",
+        "name": "Xianglong Yu",
+        "aliases": [
+          "Xianglong Yu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:a992030bf94b981c",
         "name": "Xiangru Jian",
         "aliases": [
@@ -62789,6 +62843,15 @@
         "name": "Xin-Yue Zhang",
         "aliases": [
           "Xin-Yue Zhang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:1131588e96f549cd",
+        "name": "Xincheng Tan",
+        "aliases": [
+          "Xincheng Tan"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -63578,6 +63641,15 @@
           "institution:1731847dca68d72d",
           "institution:90d81ff4267950c0"
         ]
+      },
+      {
+        "id": "author:ac30ca951c3e6882",
+        "name": "Xun Jiao",
+        "aliases": [
+          "Xun Jiao"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:ef5e6200228ecb7f",
@@ -65088,6 +65160,15 @@
         "name": "Yinhao Li",
         "aliases": [
           "Yinhao Li"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:16e1dc4216d0b431",
+        "name": "Yining Di",
+        "aliases": [
+          "Yining Di"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -67834,6 +67915,15 @@
         "institutionIds": [
           "institution:3258076c1e752ff2"
         ]
+      },
+      {
+        "id": "author:e5de6f6900c965db",
+        "name": "Zeynep Yıldız",
+        "aliases": [
+          "Zeynep Yıldız"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:3c2ea747197ef22f",
@@ -386580,6 +386670,397 @@
       "rawAuthorAffiliations": [
         {
           "name": "Henrique Oliveira",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.17329",
+      "title": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
+      "abstract": "Institutional portfolios operate under investment policy statements that specify asset allocation constraints, often conditioned on market regime information. Deep reinforcement learning has been shown to optimize financial performance but typically does not enforce rule compliance, making it unsuitable for real-world deployment. Existing neurosymbolic methods such as Probabilistic Logic Policy Gradient (PLPG) offer constraint-satisfying reinforcement learning (RL) via differentiable symbolic supervision but assume a finite, discrete action space. We present a PLPG-inspired continuous allocation method that estimates the probability that the policy's own executed action satisfies the investment mandate, using reparameterized Monte Carlo sampling, and adds it to the training objective. No post-hoc enforcement mechanism intercepts actions at inference time and compliance is learned by the agent. Audited directly on deterministic mean actions with no correction, the policy reduces violations of a six-rule regime-conditional mandate from 96-98% for unconstrained RL and 33.4% for a reward-penalty baseline to 4.8%, showing that a continuous-action neurosymbolic policy can substantially internalize a symbolic mandate.",
+      "authors": [
+        "Zeynep Yıldız",
+        "Satchit Chatterji",
+        "Ercan Atam",
+        "Erman Acar"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Zeynep Yıldız",
+          "authorEntityId": "author:e5de6f6900c965db",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zeynep Yıldız",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Satchit Chatterji",
+          "authorEntityId": "author:c08cf9cb60109526",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Satchit Chatterji",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ercan Atam",
+          "authorEntityId": "author:de5cbc4718ec420b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ercan Atam",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Erman Acar",
+          "authorEntityId": "author:c5d5b60626d3b888",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Erman Acar",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.17329",
+      "pdfUrl": "https://arxiv.org/pdf/2611.17329",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.17329",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:504b11bbd3020923",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Zeynep Yıldız",
+        "Satchit Chatterji",
+        "Ercan Atam",
+        "Erman Acar"
+      ],
+      "authorEntityIds": [
+        "author:e5de6f6900c965db",
+        "author:c08cf9cb60109526",
+        "author:de5cbc4718ec420b",
+        "author:c5d5b60626d3b888"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Zeynep Yıldız",
+          "affiliations": []
+        },
+        {
+          "name": "Satchit Chatterji",
+          "affiliations": []
+        },
+        {
+          "name": "Ercan Atam",
+          "affiliations": []
+        },
+        {
+          "name": "Erman Acar",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.16718",
+      "title": "MusicRWKV: A Multimodal RWKV Framework for Music Representation Learning",
+      "abstract": "Recent music foundation models have achieved remarkable progress in music representation learning, yet most existing approaches rely on Transformer architectures whose quadratic attention complexity introduces substantial computational and memory overhead when modeling long-duration music recordings. In this work, we propose MusicRWKV, a multimodal music representation learning framework built upon the RWKV architecture. MusicRWKV jointly models waveform, spectrogram, and metadata information within a unified self-supervised learning framework. To improve efficiency for long musical sequences, we introduce an invertible compression module that reduces sequence length while preserving reconstruction capability. A FiLM-based conditioning strategy is employed to facilitate modality-aware representation learning without introducing expensive cross-attention operations. We further investigate the integration of Soft ROSA as a differentiable retrieval mechanism for neural-symbolic interaction. Experimental evaluation across a diverse collection of Music Information Retrieval (MIR) benchmarks demonstrates that the proposed RWKV-based architecture can be effectively adapted to heterogeneous music understanding tasks. A controlled pretraining ablation shows that Soft ROSA improves validation performance, while layer-wise telemetry analysis reveals a progressive transition from distributed retrieval to selective retrieval in deeper network layers. These results suggest that RWKV provides a promising architectural alternative to Transformer-based models for multimodal music understanding.",
+      "authors": [
+        "Terry Tan"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Terry Tan",
+          "authorEntityId": "author:7699937abe8cc7d8",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Terry Tan",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neural-symbolic"
+      ],
+      "categories": [
+        "cs.SD",
+        "cs.AI",
+        "eess.AS"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.16718",
+      "pdfUrl": "https://arxiv.org/pdf/2611.16718",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.16718",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:7422fb80798f8013",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Terry Tan"
+      ],
+      "authorEntityIds": [
+        "author:7699937abe8cc7d8"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Terry Tan",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.16671",
+      "title": "NSDL: Neuro-Symbolic Division of Labor for Multi-Robot Task Planning",
+      "abstract": "Planning for a heterogeneous robot team from a scene image and an instruction involves two kinds of decisions. Some must be judged from the scene: which goals are already met, how the task splits, and which robot does what. Others follow from these and can be computed: prerequisite actions, handoffs between robots, and timing. We argue that each kind should go to the component suited to it: a small vision-language model learns the first, and a deterministic solver computes the second. In NSDL (Neuro-Symbolic Division of Labor), the trained model writes its judgments as a plan sketch, which lists the goals that still need action and the intended steps in order, each with a robot. The solver expands the sketch into an executable joint plan. The model calls two tools, a detector for evidence and the solver, and is trained with the solver in the loop. We evaluate on the public VIKI-L2 benchmark and on LOCUS-Bench, a new benchmark that grades the two kinds of difficulty separately. NSDL outperforms end-to-end planners and formalize-then-plan baselines on both benchmarks and with three backbones from 3B to 8B; the 7B model reaches 97.0% out-of-distribution accuracy on VIKI-L2. Ordering and scheduling errors nearly disappear once the solver writes the structure; the remaining failures are misjudged states, and most goals the model misses are ones it never lists. Code, model weights, and LOCUS-Bench are publicly available at https://github.com/Xincheng-Tan/NSDL.",
+      "authors": [
+        "Xincheng Tan",
+        "Ke Wang",
+        "Yining Di",
+        "Minfeng Zhu"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Xincheng Tan",
+          "authorEntityId": "author:1131588e96f549cd",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xincheng Tan",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ke Wang",
+          "authorEntityId": "author:88ba8dc34c9fc00d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ke Wang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yining Di",
+          "authorEntityId": "author:16e1dc4216d0b431",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yining Di",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Minfeng Zhu",
+          "authorEntityId": "author:bc9840d626ba00ac",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Minfeng Zhu",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.16671",
+      "pdfUrl": "https://arxiv.org/pdf/2611.16671",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.16671",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:97cc3116d69ca1e9",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Xincheng Tan",
+        "Ke Wang",
+        "Yining Di",
+        "Minfeng Zhu"
+      ],
+      "authorEntityIds": [
+        "author:1131588e96f549cd",
+        "author:88ba8dc34c9fc00d",
+        "author:16e1dc4216d0b431",
+        "author:bc9840d626ba00ac"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Xincheng Tan",
+          "affiliations": []
+        },
+        {
+          "name": "Ke Wang",
+          "affiliations": []
+        },
+        {
+          "name": "Yining Di",
+          "affiliations": []
+        },
+        {
+          "name": "Minfeng Zhu",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.16211",
+      "title": "One Fuzzer, Many Reasoners: Adaptive Neuro-Symbolic Fuzzing with Reliability-Calibrated and Context-Gated Guidance",
+      "abstract": "Neural-symbolic AI (NSAI) combines learned perception with programs, constraints, and compositional reasoning, but remains difficult to test because small semantics-preserving changes can alter grounded symbols and trigger discontinuous reasoning failures. Existing neural fuzzers mainly rely on neural coverage or representation-space feedback and do not provide a common testing interface for heterogeneous NSAI systems. We introduce NSAI-Fuzz, a unified semantics-aware fuzzing framework that separates task-specific valid mutation from architecture-neutral guided search and represents each candidate using five availability-aware, rank-normalized risk signals: boundary pressure, grounding uncertainty, representation drift, constraint violation, and archive novelty. We further propose Reliability-Calibrated Weighting (RCW), which learns dataset-model-level signal allocations from calibrated reliability, and Contextual Signal Gating (CSG), which adapts signal weights to the current candidate pool. We evaluate four NSAI systems across four reasoning tasks, nine compatible dataset-model cells, 20 policies, and 1,800 on-policy runs. Fixed five-signal guidance outperforms Random and Uniform in every cell, while RCW and CSG further improve over Fixed in all nine cells. Under matched mutation and query budgets, RCW and CSG achieve 16.17% and 16.06% aggregate failure discovery, compared with 6.06% for the strongest neural-fuzzing baseline. Wall-clock evaluation further shows that TensorFuzz requires 1.11x the runtime of RCW while achieving only 0.45x its failure throughput. These results show that effective and efficient fuzzing of heterogeneous NSAI systems benefits from a common neural-symbolic risk interface with adaptive signal allocation.",
+      "authors": [
+        "Jinghao Wen",
+        "Xianglong Yu",
+        "Shaohuang Wang",
+        "Xun Jiao"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Jinghao Wen",
+          "authorEntityId": "author:4dfdc7c72ef96a35",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jinghao Wen",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xianglong Yu",
+          "authorEntityId": "author:af18840b7125edae",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xianglong Yu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Shaohuang Wang",
+          "authorEntityId": "author:4f38be8bbf962a11",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Shaohuang Wang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xun Jiao",
+          "authorEntityId": "author:ac30ca951c3e6882",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xun Jiao",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic",
+        "neural-symbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-12",
+      "url": "https://arxiv.org/abs/2611.16211",
+      "pdfUrl": "https://arxiv.org/pdf/2611.16211",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.16211",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:c8e9f7dc6ee837ff",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Jinghao Wen",
+        "Xianglong Yu",
+        "Shaohuang Wang",
+        "Xun Jiao"
+      ],
+      "authorEntityIds": [
+        "author:4dfdc7c72ef96a35",
+        "author:af18840b7125edae",
+        "author:4f38be8bbf962a11",
+        "author:ac30ca951c3e6882"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Jinghao Wen",
+          "affiliations": []
+        },
+        {
+          "name": "Xianglong Yu",
+          "affiliations": []
+        },
+        {
+          "name": "Shaohuang Wang",
+          "affiliations": []
+        },
+        {
+          "name": "Xun Jiao",
           "affiliations": []
         }
       ]

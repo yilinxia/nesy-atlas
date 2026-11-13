@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-11-12T20:37:03.929Z",
-  "cursorAt": "2026-11-12T20:37:03.929Z",
+  "generatedAt": "2026-11-13T20:13:58.514Z",
+  "cursorAt": "2026-11-13T20:13:58.514Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-11-08T18:11:54.444Z",
   "keywords": [
@@ -15,11 +15,181 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-11-11T19:57:17.339Z",
-  "windowStart": "2026-11-04T19:57:17.339Z",
+  "previousSnapshotAt": "2026-11-12T20:37:03.929Z",
+  "windowStart": "2026-11-05T20:37:03.929Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2611.17329",
+    "title": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
+    "abstract": "Institutional portfolios operate under investment policy statements that specify asset allocation constraints, often conditioned on market regime information. Deep reinforcement learning has been shown to optimize financial performance but typically does not enforce rule compliance, making it unsuitable for real-world deployment. Existing neurosymbolic methods such as Probabilistic Logic Policy Gradient (PLPG) offer constraint-satisfying reinforcement learning (RL) via differentiable symbolic supervision but assume a finite, discrete action space. We present a PLPG-inspired continuous allocation method that estimates the probability that the policy's own executed action satisfies the investment mandate, using reparameterized Monte Carlo sampling, and adds it to the training objective. No post-hoc enforcement mechanism intercepts actions at inference time and compliance is learned by the agent. Audited directly on deterministic mean actions with no correction, the policy reduces violations of a six-rule regime-conditional mandate from 96-98% for unconstrained RL and 33.4% for a reward-penalty baseline to 4.8%, showing that a continuous-action neurosymbolic policy can substantially internalize a symbolic mandate.",
+    "authors": [
+      "Zeynep Yıldız",
+      "Satchit Chatterji",
+      "Ercan Atam",
+      "Erman Acar"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Zeynep Yıldız",
+        "affiliations": []
+      },
+      {
+        "name": "Satchit Chatterji",
+        "affiliations": []
+      },
+      {
+        "name": "Ercan Atam",
+        "affiliations": []
+      },
+      {
+        "name": "Erman Acar",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-12",
+    "updated": "2026-11-12",
+    "categories": [
+      "cs.LG"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.17329",
+    "pdfUrl": "https://arxiv.org/pdf/2611.17329",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.16718",
+    "title": "MusicRWKV: A Multimodal RWKV Framework for Music Representation Learning",
+    "abstract": "Recent music foundation models have achieved remarkable progress in music representation learning, yet most existing approaches rely on Transformer architectures whose quadratic attention complexity introduces substantial computational and memory overhead when modeling long-duration music recordings. In this work, we propose MusicRWKV, a multimodal music representation learning framework built upon the RWKV architecture. MusicRWKV jointly models waveform, spectrogram, and metadata information within a unified self-supervised learning framework. To improve efficiency for long musical sequences, we introduce an invertible compression module that reduces sequence length while preserving reconstruction capability. A FiLM-based conditioning strategy is employed to facilitate modality-aware representation learning without introducing expensive cross-attention operations. We further investigate the integration of Soft ROSA as a differentiable retrieval mechanism for neural-symbolic interaction. Experimental evaluation across a diverse collection of Music Information Retrieval (MIR) benchmarks demonstrates that the proposed RWKV-based architecture can be effectively adapted to heterogeneous music understanding tasks. A controlled pretraining ablation shows that Soft ROSA improves validation performance, while layer-wise telemetry analysis reveals a progressive transition from distributed retrieval to selective retrieval in deeper network layers. These results suggest that RWKV provides a promising architectural alternative to Transformer-based models for multimodal music understanding.",
+    "authors": [
+      "Terry Tan"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Terry Tan",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-12",
+    "updated": "2026-11-12",
+    "categories": [
+      "cs.SD",
+      "cs.AI",
+      "eess.AS"
+    ],
+    "primaryCategory": "cs.SD",
+    "url": "https://arxiv.org/abs/2611.16718",
+    "pdfUrl": "https://arxiv.org/pdf/2611.16718",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neural-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.16671",
+    "title": "NSDL: Neuro-Symbolic Division of Labor for Multi-Robot Task Planning",
+    "abstract": "Planning for a heterogeneous robot team from a scene image and an instruction involves two kinds of decisions. Some must be judged from the scene: which goals are already met, how the task splits, and which robot does what. Others follow from these and can be computed: prerequisite actions, handoffs between robots, and timing. We argue that each kind should go to the component suited to it: a small vision-language model learns the first, and a deterministic solver computes the second. In NSDL (Neuro-Symbolic Division of Labor), the trained model writes its judgments as a plan sketch, which lists the goals that still need action and the intended steps in order, each with a robot. The solver expands the sketch into an executable joint plan. The model calls two tools, a detector for evidence and the solver, and is trained with the solver in the loop. We evaluate on the public VIKI-L2 benchmark and on LOCUS-Bench, a new benchmark that grades the two kinds of difficulty separately. NSDL outperforms end-to-end planners and formalize-then-plan baselines on both benchmarks and with three backbones from 3B to 8B; the 7B model reaches 97.0% out-of-distribution accuracy on VIKI-L2. Ordering and scheduling errors nearly disappear once the solver writes the structure; the remaining failures are misjudged states, and most goals the model misses are ones it never lists. Code, model weights, and LOCUS-Bench are publicly available at https://github.com/Xincheng-Tan/NSDL.",
+    "authors": [
+      "Xincheng Tan",
+      "Ke Wang",
+      "Yining Di",
+      "Minfeng Zhu"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Xincheng Tan",
+        "affiliations": []
+      },
+      {
+        "name": "Ke Wang",
+        "affiliations": []
+      },
+      {
+        "name": "Yining Di",
+        "affiliations": []
+      },
+      {
+        "name": "Minfeng Zhu",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-12",
+    "updated": "2026-11-12",
+    "categories": [
+      "cs.RO"
+    ],
+    "primaryCategory": "cs.RO",
+    "url": "https://arxiv.org/abs/2611.16671",
+    "pdfUrl": "https://arxiv.org/pdf/2611.16671",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.16211",
+    "title": "One Fuzzer, Many Reasoners: Adaptive Neuro-Symbolic Fuzzing with Reliability-Calibrated and Context-Gated Guidance",
+    "abstract": "Neural-symbolic AI (NSAI) combines learned perception with programs, constraints, and compositional reasoning, but remains difficult to test because small semantics-preserving changes can alter grounded symbols and trigger discontinuous reasoning failures. Existing neural fuzzers mainly rely on neural coverage or representation-space feedback and do not provide a common testing interface for heterogeneous NSAI systems. We introduce NSAI-Fuzz, a unified semantics-aware fuzzing framework that separates task-specific valid mutation from architecture-neutral guided search and represents each candidate using five availability-aware, rank-normalized risk signals: boundary pressure, grounding uncertainty, representation drift, constraint violation, and archive novelty. We further propose Reliability-Calibrated Weighting (RCW), which learns dataset-model-level signal allocations from calibrated reliability, and Contextual Signal Gating (CSG), which adapts signal weights to the current candidate pool. We evaluate four NSAI systems across four reasoning tasks, nine compatible dataset-model cells, 20 policies, and 1,800 on-policy runs. Fixed five-signal guidance outperforms Random and Uniform in every cell, while RCW and CSG further improve over Fixed in all nine cells. Under matched mutation and query budgets, RCW and CSG achieve 16.17% and 16.06% aggregate failure discovery, compared with 6.06% for the strongest neural-fuzzing baseline. Wall-clock evaluation further shows that TensorFuzz requires 1.11x the runtime of RCW while achieving only 0.45x its failure throughput. These results show that effective and efficient fuzzing of heterogeneous NSAI systems benefits from a common neural-symbolic risk interface with adaptive signal allocation.",
+    "authors": [
+      "Jinghao Wen",
+      "Xianglong Yu",
+      "Shaohuang Wang",
+      "Xun Jiao"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Jinghao Wen",
+        "affiliations": []
+      },
+      {
+        "name": "Xianglong Yu",
+        "affiliations": []
+      },
+      {
+        "name": "Shaohuang Wang",
+        "affiliations": []
+      },
+      {
+        "name": "Xun Jiao",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-12",
+    "updated": "2026-11-12",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.16211",
+    "pdfUrl": "https://arxiv.org/pdf/2611.16211",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neural-symbolic"
+      ]
+    }
+  },
   {
     "id": "2611.14419",
     "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
