@@ -3157,5 +3157,23 @@
     "sourceUrl": "https://www.expert.ai/news-resources/",
     "discovered": "2026-11-13",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "AI Governance 11.14.2026 If the Lineage of a Decision Ends at an LLM, an Auditor Cannot Accept It Read",
+    "date": "2026-11-14",
+    "url": "https://www.kognitos.com/blog/decision-lineage/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-11-14",
+    "status": "needs-review"
+  },
+  {
+    "company": "Uniphore",
+    "title": "Making Explanations Aggregate with Embeddings and NLI (Natural Language Inferencing)",
+    "date": "2026-11-14",
+    "url": "https://www.uniphore.com/blog/making-explanations-aggregate-with-embeddings-and-nli-natural-language-inferencing/",
+    "sourceUrl": "https://www.uniphore.com/blog/",
+    "discovered": "2026-11-14",
+    "status": "needs-review"
   }
 ]
