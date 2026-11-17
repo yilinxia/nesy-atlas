@@ -3184,5 +3184,14 @@
     "sourceUrl": "https://www.kognitos.com/blog/",
     "discovered": "2026-11-16",
     "status": "needs-review"
+  },
+  {
+    "company": "Rippletide",
+    "title": "Thought Leadership 2026-11-17 Autonomous Agents Need to Decide: The Category Is Decision Infrastructure Why autonomous agents need code, judgment models, and causal reasoning to make reliable decisions, from customer support to root cause analysis. Yann Bilien ↗",
+    "date": "2026-11-17",
+    "url": "https://www.rippletide.com/resources/blog/autonomous-agents-need-to-decide-decision-infrastructure",
+    "sourceUrl": "https://www.rippletide.com/resources/blog/",
+    "discovered": "2026-11-17",
+    "status": "needs-review"
   }
 ]
