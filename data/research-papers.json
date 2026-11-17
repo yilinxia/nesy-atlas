@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T22:41:47.863Z",
+  "generatedAt": "2026-11-17T21:28:18.780Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1916,
+  "paperCount": 1921,
   "completeMetadataCount": 1372,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1611
+      "count": 1616
     },
     {
       "id": "nesy-proceedings",
@@ -1440,6 +1440,17 @@
         ]
       },
       {
+        "id": "author:ae0e9e1d75a89d01",
+        "name": "Xiaowei Huang",
+        "aliases": [
+          "Xiaowei Huang"
+        ],
+        "paperCount": 6,
+        "institutionIds": [
+          "institution:6897907a26009a77"
+        ]
+      },
+      {
         "id": "author:402fd1b5774a6608",
         "name": "Xin Quan",
         "aliases": [
@@ -1665,6 +1676,15 @@
           "institution:a031f669b4b1c0b7",
           "institution:c952a08fdb0ff916"
         ]
+      },
+      {
+        "id": "author:27151c73b1c735ab",
+        "name": "Jinwei Hu",
+        "aliases": [
+          "Jinwei Hu"
+        ],
+        "paperCount": 5,
+        "institutionIds": []
       },
       {
         "id": "author:0a838330b49f6e30",
@@ -1990,17 +2010,6 @@
         ]
       },
       {
-        "id": "author:ae0e9e1d75a89d01",
-        "name": "Xiaowei Huang",
-        "aliases": [
-          "Xiaowei Huang"
-        ],
-        "paperCount": 5,
-        "institutionIds": [
-          "institution:6897907a26009a77"
-        ]
-      },
-      {
         "id": "author:411554832773622a",
         "name": "Xuyao Feng",
         "aliases": [
@@ -2021,6 +2030,18 @@
         "institutionIds": [
           "institution:1f9be0c6a5d4aa0b",
           "institution:4ae45b121fe12e9c"
+        ]
+      },
+      {
+        "id": "author:178e1a97ea0d570a",
+        "name": "Yi Dong",
+        "aliases": [
+          "Yi DONG",
+          "Yi Dong"
+        ],
+        "paperCount": 5,
+        "institutionIds": [
+          "institution:6897907a26009a77"
         ]
       },
       {
@@ -2525,15 +2546,6 @@
           "institution:8cc41e1a54d82744",
           "institution:9ed23c2db75b5eee"
         ]
-      },
-      {
-        "id": "author:27151c73b1c735ab",
-        "name": "Jinwei Hu",
-        "aliases": [
-          "Jinwei Hu"
-        ],
-        "paperCount": 4,
-        "institutionIds": []
       },
       {
         "id": "author:202de17d3b433a73",
@@ -3128,18 +3140,6 @@
           "institution:320d597682ed208c",
           "institution:c111feb812f1a7ed",
           "institution:c5235efb76365de2"
-        ]
-      },
-      {
-        "id": "author:178e1a97ea0d570a",
-        "name": "Yi Dong",
-        "aliases": [
-          "Yi DONG",
-          "Yi Dong"
-        ],
-        "paperCount": 4,
-        "institutionIds": [
-          "institution:6897907a26009a77"
         ]
       },
       {
@@ -10535,6 +10535,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:e1db993bdd653f79",
+        "name": "Qisong He",
+        "aliases": [
+          "Qisong He"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
+      },
+      {
         "id": "author:b166e86a795f99de",
         "name": "Quanming Yao",
         "aliases": [
@@ -12711,6 +12720,15 @@
         "name": "Xinhao Zheng",
         "aliases": [
           "Xinhao Zheng"
+        ],
+        "paperCount": 2,
+        "institutionIds": []
+      },
+      {
+        "id": "author:587871a433350fc0",
+        "name": "Xinmiao Huang",
+        "aliases": [
+          "Xinmiao Huang"
         ],
         "paperCount": 2,
         "institutionIds": []
@@ -15340,6 +15358,15 @@
           "institution:8afaa3ba4bc1d75b",
           "institution:9441a8ad847192a6"
         ]
+      },
+      {
+        "id": "author:b1f92722829af163",
+        "name": "Alejandro Moreno Arcas",
+        "aliases": [
+          "Alejandro Moreno Arcas"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:d10c3a6328d86304",
@@ -21646,6 +21673,15 @@
         ]
       },
       {
+        "id": "author:865397c3f6536106",
+        "name": "Chenren Xu",
+        "aliases": [
+          "Chenren Xu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:b2ede12799f17e0e",
         "name": "Chenrui Cao",
         "aliases": [
@@ -27139,6 +27175,15 @@
         "institutionIds": [
           "institution:3531636a379b73a2"
         ]
+      },
+      {
+        "id": "author:28f2f63aa25920a6",
+        "name": "Fengmin Wu",
+        "aliases": [
+          "Fengmin Wu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:75707ac5dd015d3c",
@@ -44103,6 +44148,15 @@
         ]
       },
       {
+        "id": "author:7f55abdadce671f7",
+        "name": "Michael Benedikt",
+        "aliases": [
+          "Michael Benedikt"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:4d1260759e8f5550",
         "name": "Michael Biehl",
         "aliases": [
@@ -46251,6 +46305,15 @@
         "institutionIds": [
           "institution:05fed09d1d39952d"
         ]
+      },
+      {
+        "id": "author:548d110a03003ea8",
+        "name": "Mykhailo Buleshnyi",
+        "aliases": [
+          "Mykhailo Buleshnyi"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:823e3b5381f7e4cb",
@@ -48936,6 +48999,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:be2780f6d0d7d061",
+        "name": "Peiwen Sun",
+        "aliases": [
+          "Peiwen Sun"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:b6e0a557325eae20",
         "name": "Peiwu Qin",
         "aliases": [
@@ -50461,15 +50533,6 @@
         "name": "Qiping Pan",
         "aliases": [
           "Qiping Pan"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
-        "id": "author:e1db993bdd653f79",
-        "name": "Qisong He",
-        "aliases": [
-          "Qisong He"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -55735,6 +55798,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:e0119f8290153ade",
+        "name": "Sicong Liu",
+        "aliases": [
+          "Sicong Liu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:0c201e7e3167ef64",
         "name": "Siddhant Bhambri",
         "aliases": [
@@ -60215,6 +60287,15 @@
         ]
       },
       {
+        "id": "author:9c6bc7a7cfe56af9",
+        "name": "Victor M. Preciado",
+        "aliases": [
+          "Victor M. Preciado"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:0fe9a3931815506e",
         "name": "Víctor Mayoral-Vilches",
         "aliases": [
@@ -60835,6 +60916,15 @@
           "institution:3e31efe1af82a13d",
           "institution:d4f3b08d637c6408"
         ]
+      },
+      {
+        "id": "author:112d837a9a96717a",
+        "name": "Wanbing Zhao",
+        "aliases": [
+          "Wanbing Zhao"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:607aa63f383d3f7e",
@@ -63011,15 +63101,6 @@
         "name": "Xinlong Dai",
         "aliases": [
           "Xinlong Dai"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
-      },
-      {
-        "id": "author:587871a433350fc0",
-        "name": "Xinmiao Huang",
-        "aliases": [
-          "Xinmiao Huang"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -65825,6 +65906,15 @@
           "institution:0fbadc849bc98650",
           "institution:c2dab080fa856716"
         ]
+      },
+      {
+        "id": "author:635c1c229c560103",
+        "name": "Youcheng Sun",
+        "aliases": [
+          "Youcheng Sun"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:985b7784999b0365",
@@ -68902,6 +68992,15 @@
         ]
       },
       {
+        "id": "author:b8cc569bed7fdbdc",
+        "name": "Zhiwen Yu",
+        "aliases": [
+          "Zhiwen Yu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:ddd128b5be44d83b",
         "name": "Zhixin Lv",
         "aliases": [
@@ -69616,6 +69715,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:772730bcce2362b3",
+        "name": "Zimu Zhou",
+        "aliases": [
+          "Zimu Zhou"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:e8fff2b8eb5ce386",
         "name": "Zinat Matin",
         "aliases": [
@@ -69943,6 +70051,15 @@
         "institutionIds": [
           "institution:fbdf04b45fa9baad"
         ]
+      },
+      {
+        "id": "author:598925da6a7cdca7",
+        "name": "Zsolt Zombori",
+        "aliases": [
+          "Zsolt Zombori"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:0d4912746c3d36c9",
@@ -72856,15 +72973,6 @@
         "name": "Yining Hong",
         "aliases": [
           "Yining Hong"
-        ],
-        "paperCount": 0,
-        "institutionIds": []
-      },
-      {
-        "id": "author:635c1c229c560103",
-        "name": "Youcheng Sun",
-        "aliases": [
-          "Youcheng Sun"
         ],
         "paperCount": 0,
         "institutionIds": []
@@ -387244,6 +387352,526 @@
       "rawAuthorAffiliations": [
         {
           "name": "Zeyu Jia",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.21247",
+      "title": "Neurosymbolic Synthesis of Contraction Metrics with Certified Verification",
+      "abstract": "We study counterexample-guided synthesis of contraction metrics for continuous-time autonomous systems on compact domains. A learner proposes a metric; a sound verifier certifies its matrix inequality or returns diagnostic points for retraining. The neural extension pairs a learned metric factor with symbolic contraction conditions and rigorous numerical verification; main ablations use polynomial features. We give computable polynomial bounds in arbitrary dimension and outward-rounded verification for polynomial, trigonometric, and neural representations. Loop soundness is separated from conditional finite-grid termination under idealized feasibility assumptions. We analyze why scaling and fixed-margin training can leave valid metrics uncertified. The scaling construction requires a scale-closed family, which the experimental fixed-floor class generally lacks. Verified slack improves the contraction rate and quantifies model-error tolerances using certified residual and Jacobian bounds. Finite-distance conclusions require connecting paths whose flows stay in the verified region. Experiments include controlled ablations, three-dimensional verification, and transfer from a fitted surrogate with known-truth residual certification. A physical swing-model study compares neural learning objectives with shared verification and invariant energy regions. Verified constant metrics certify the polynomial benchmark and smallest swing-model domain; neither result requires neural state dependence. Exploratory refinement certifies additional frozen candidates at a larger verification budget. In matched polynomial operating-grid experiments, trace normalization and margin coupling did not demonstrate a certification-count advantage within the tested budgets. These choices address specific failure mechanisms without guaranteeing optimizer convergence or general empirical superiority.",
+      "authors": [
+        "Victor M. Preciado"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Victor M. Preciado",
+          "authorEntityId": "author:9c6bc7a7cfe56af9",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Victor M. Preciado",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "eess.SY"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.21247",
+      "pdfUrl": "https://arxiv.org/pdf/2611.21247",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.21247",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:951511342aa8a796",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Victor M. Preciado"
+      ],
+      "authorEntityIds": [
+        "author:9c6bc7a7cfe56af9"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Victor M. Preciado",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.21235",
+      "title": "Language-model agents' beliefs can be manipulated via truthful evidence in open channel",
+      "abstract": "Language-model agents' beliefs can be manipulated through open channels such as social media, even when the information they receive is truthful. When agents fill gaps between fragments with self-induced relationships, they may accept those relationships as established facts and pass the resulting rumours to others. Drawing on cognitive theory of narrative understanding and film theory of montage, we introduce Generative Montage to operationalize this failure, termed narrative overfitting, by coordinating agents to arrange truthful fragments into misleading narratives. Across 1,090 rumour targets from six Twitter events, agents often accepted rumours overconfidently, with overall acceptance exceeding 65 percent in twelve of fourteen models. Acceptance remained above 50 percent after majority voting or review of the same evidence, showing how errors can reach downstream decisions. To explain this susceptibility, fragment interventions identify posts that influence belief within complete narratives. Synthetic controls then show that similar response patterns arise from valid evidence, separating belief influence from evidential support. This distinction motivates Grounded Monitor, a proof-of-concept neuro-symbolic runtime monitor that checks direct evidential support to guide agents' judgements, improving decision accuracy by 5.6 to 29.0 percentage points across original and anonymized settings. These findings expose a cognitive route to rumour amplification and support monitoring inferred relationships before agent-generated conclusions guide public decisions.",
+      "authors": [
+        "Jinwei Hu",
+        "Qisong He",
+        "Xinmiao Huang",
+        "Youcheng Sun",
+        "Yi Dong",
+        "Xiaowei Huang"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Jinwei Hu",
+          "authorEntityId": "author:27151c73b1c735ab",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jinwei Hu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Qisong He",
+          "authorEntityId": "author:e1db993bdd653f79",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Qisong He",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xinmiao Huang",
+          "authorEntityId": "author:587871a433350fc0",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xinmiao Huang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Youcheng Sun",
+          "authorEntityId": "author:635c1c229c560103",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Youcheng Sun",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yi Dong",
+          "authorEntityId": "author:178e1a97ea0d570a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yi Dong",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xiaowei Huang",
+          "authorEntityId": "author:ae0e9e1d75a89d01",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xiaowei Huang",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.MA",
+        "cs.SI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.21235",
+      "pdfUrl": "https://arxiv.org/pdf/2611.21235",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.21235",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:57e600215c966846",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Jinwei Hu",
+        "Qisong He",
+        "Xinmiao Huang",
+        "Youcheng Sun",
+        "Yi Dong",
+        "Xiaowei Huang"
+      ],
+      "authorEntityIds": [
+        "author:27151c73b1c735ab",
+        "author:e1db993bdd653f79",
+        "author:587871a433350fc0",
+        "author:635c1c229c560103",
+        "author:178e1a97ea0d570a",
+        "author:ae0e9e1d75a89d01"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Jinwei Hu",
+          "affiliations": []
+        },
+        {
+          "name": "Qisong He",
+          "affiliations": []
+        },
+        {
+          "name": "Xinmiao Huang",
+          "affiliations": []
+        },
+        {
+          "name": "Youcheng Sun",
+          "affiliations": []
+        },
+        {
+          "name": "Yi Dong",
+          "affiliations": []
+        },
+        {
+          "name": "Xiaowei Huang",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.20686",
+      "title": "UbiHearo: Bringing Scenario-Aware Sound Guidance to DHH Users with Mobile Agents",
+      "abstract": "For Deaf and Hard-of-Hearing (DHH) users, effective sound awareness goes beyond detecting \\emph{what} sound occurs; it requires understanding \\emph{what it means}, \\emph{how urgent it is}, and \\emph{what to do}. However, existing mobile assistants largely reduce acoustic scenes to isolated labels or generic alerts, failing to provide contextual guidance when the same sound implies different risks across scenarios. We present \\sysname, a mobile hearing assistant agent that closes the sensing--reasoning--action loop for \\textit{scenario-aware} and \\textit{personalized} DHH assistance. \\sysname adopts a \\textit{neuro-symbolic} design that transforms continuous acoustic and physical context streams into structured intermediate representations (IRs) for controllable reasoning and guidance. It introduces three key mechanisms. \\textit{First}, a perception-thresholded sensing mechanism enables energy-efficient always-on awareness by activating processing only for perceptually meaningful events while preserving safety-critical cues through deterministic overrides. \\textit{Second}, a staged neuro-symbolic reasoning framework performs promptless scenario understanding by conditioning an on-device audio-language model on structured IRs instead of user-authored context descriptions. \\textit{Third}, a bounded human-in-the-loop personalization mechanism adapts user-specific guidance through lightweight on-device decision-boundary updates while preserving population-aligned reasoning. We evaluate \\sysname on smartphones and in-vehicle systems across diverse scenarios. It achieves favorable accuracy--latency--energy tradeoffs and personalized guidance.",
+      "authors": [
+        "Fengmin Wu",
+        "Sicong Liu",
+        "Zimu Zhou",
+        "Chenren Xu",
+        "Wanbing Zhao",
+        "Peiwen Sun",
+        "Zhiwen Yu"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Fengmin Wu",
+          "authorEntityId": "author:28f2f63aa25920a6",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Fengmin Wu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Sicong Liu",
+          "authorEntityId": "author:e0119f8290153ade",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Sicong Liu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zimu Zhou",
+          "authorEntityId": "author:772730bcce2362b3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zimu Zhou",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Chenren Xu",
+          "authorEntityId": "author:865397c3f6536106",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Chenren Xu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Wanbing Zhao",
+          "authorEntityId": "author:112d837a9a96717a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Wanbing Zhao",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Peiwen Sun",
+          "authorEntityId": "author:be2780f6d0d7d061",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Peiwen Sun",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zhiwen Yu",
+          "authorEntityId": "author:b8cc569bed7fdbdc",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zhiwen Yu",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CY"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-16",
+      "url": "https://arxiv.org/abs/2611.20686",
+      "pdfUrl": "https://arxiv.org/pdf/2611.20686",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.20686",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:577ce315065a5dd5",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Fengmin Wu",
+        "Sicong Liu",
+        "Zimu Zhou",
+        "Chenren Xu",
+        "Wanbing Zhao",
+        "Peiwen Sun",
+        "Zhiwen Yu"
+      ],
+      "authorEntityIds": [
+        "author:28f2f63aa25920a6",
+        "author:e0119f8290153ade",
+        "author:772730bcce2362b3",
+        "author:865397c3f6536106",
+        "author:112d837a9a96717a",
+        "author:be2780f6d0d7d061",
+        "author:b8cc569bed7fdbdc"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Fengmin Wu",
+          "affiliations": []
+        },
+        {
+          "name": "Sicong Liu",
+          "affiliations": []
+        },
+        {
+          "name": "Zimu Zhou",
+          "affiliations": []
+        },
+        {
+          "name": "Chenren Xu",
+          "affiliations": []
+        },
+        {
+          "name": "Wanbing Zhao",
+          "affiliations": []
+        },
+        {
+          "name": "Peiwen Sun",
+          "affiliations": []
+        },
+        {
+          "name": "Zhiwen Yu",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.19597",
+      "title": "Synthetic Neurosymbolic Task Generation with Controlled Constraint Complexity",
+      "abstract": "We introduce NeSySy, a synthetic generator for neurosymbolic learning tasks that jointly produces logical constraints and consistent datasets. Unlike existing benchmarks, NeSySy provides fine-grained control over key properties such as constraint structure, tightness, input dependence, and data generation and alignment strategies. In particular, it allows the use of rich constraints over infinite domains, and uses solvers to ensure that the constraints are meaningful and that generated samples satisfy the constraints. We design NeSySy to support both learning with declarative constraints and learning from distant supervision. Across a range of constraint families, we provide evidence that its parameters induce systematic and largely independent effects on task difficulty. Using NeSySy, we study constraint-aware learning methods, identifying regimes where explicit constraint enforcement is beneficial and where expressive unconstrained models can instead learn constraint structure directly from data. Our results establish NeSySy as a controlled testbed for analysing the interaction between learning and logical structure. NeSySy is built around a pipeline that incorporates solvers. Satisfiability checkers (CNFgen and Z3) generate and certify constraints. Constrained optimizers (RC2 for MaxSAT, Z3 for OMT) compute optimal repairs that guarantee every generated sample is consistent.",
+      "authors": [
+        "Mykhailo Buleshnyi",
+        "Zsolt Zombori",
+        "Michael Benedikt"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Mykhailo Buleshnyi",
+          "authorEntityId": "author:548d110a03003ea8",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Mykhailo Buleshnyi",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zsolt Zombori",
+          "authorEntityId": "author:598925da6a7cdca7",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zsolt Zombori",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Michael Benedikt",
+          "authorEntityId": "author:7f55abdadce671f7",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Michael Benedikt",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.LO",
+        "cs.NE",
+        "cs.SC"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-14",
+      "url": "https://arxiv.org/abs/2611.19597",
+      "pdfUrl": "https://arxiv.org/pdf/2611.19597",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.19597",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:4bdd4514dfd43d41",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Mykhailo Buleshnyi",
+        "Zsolt Zombori",
+        "Michael Benedikt"
+      ],
+      "authorEntityIds": [
+        "author:548d110a03003ea8",
+        "author:598925da6a7cdca7",
+        "author:7f55abdadce671f7"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Mykhailo Buleshnyi",
+          "affiliations": []
+        },
+        {
+          "name": "Zsolt Zombori",
+          "affiliations": []
+        },
+        {
+          "name": "Michael Benedikt",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.19542",
+      "title": "Func-JEPA: Learning a Sobolev Space of Functions as Latent Vectors",
+      "abstract": "Pretraining an encoder once and reusing it across tasks is a widespread approach in vision and language. However, neural symbolic mathematics still trains a dedicated sequence-to-sequence model for each task, so that no representation of a function is shared. In this work, we propose the Function Joint-Embedding Predictive Architecture (Func-JEPA, abbreviated f-JEPA): an encoder of mathematical functions, pretrained on their symbolic form, whose latent space imitates the Sobolev space H^1 and in which differentiation is a learned latent operator. The norm of a latent is computed exactly from the function, whereas its direction is learned to match Sobolev angles. The frozen encoder is then reused by lightweight modules for decoding, composition, integration, and regression from samples. The representation and four downstream tasks are evaluated within and outside the pretraining distribution. f-JEPA recovers exact formulas from noisy samples more often than the compared symbolic-regression methods, whereas computer algebra and task-specific models remain stronger on standard integration and differential-equation benchmarks.",
+      "authors": [
+        "Alejandro Moreno Arcas"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Alejandro Moreno Arcas",
+          "authorEntityId": "author:b1f92722829af163",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Alejandro Moreno Arcas",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neural symbolic"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "math.NA"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-14",
+      "url": "https://arxiv.org/abs/2611.19542",
+      "pdfUrl": "https://arxiv.org/pdf/2611.19542",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.19542",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:01eea174c5791484",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Alejandro Moreno Arcas"
+      ],
+      "authorEntityIds": [
+        "author:b1f92722829af163"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Alejandro Moreno Arcas",
           "affiliations": []
         }
       ]

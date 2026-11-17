@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-11-16T22:41:47.132Z",
-  "cursorAt": "2026-11-16T22:41:47.132Z",
+  "generatedAt": "2026-11-17T21:28:18.277Z",
+  "cursorAt": "2026-11-17T21:28:18.277Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-11-15T19:13:33.876Z",
   "keywords": [
@@ -15,11 +15,233 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-11-15T19:13:33.876Z",
-  "windowStart": "2026-11-08T19:13:33.876Z",
+  "previousSnapshotAt": "2026-11-16T22:41:47.132Z",
+  "windowStart": "2026-11-09T22:41:47.132Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2611.21247",
+    "title": "Neurosymbolic Synthesis of Contraction Metrics with Certified Verification",
+    "abstract": "We study counterexample-guided synthesis of contraction metrics for continuous-time autonomous systems on compact domains. A learner proposes a metric; a sound verifier certifies its matrix inequality or returns diagnostic points for retraining. The neural extension pairs a learned metric factor with symbolic contraction conditions and rigorous numerical verification; main ablations use polynomial features. We give computable polynomial bounds in arbitrary dimension and outward-rounded verification for polynomial, trigonometric, and neural representations. Loop soundness is separated from conditional finite-grid termination under idealized feasibility assumptions. We analyze why scaling and fixed-margin training can leave valid metrics uncertified. The scaling construction requires a scale-closed family, which the experimental fixed-floor class generally lacks. Verified slack improves the contraction rate and quantifies model-error tolerances using certified residual and Jacobian bounds. Finite-distance conclusions require connecting paths whose flows stay in the verified region. Experiments include controlled ablations, three-dimensional verification, and transfer from a fitted surrogate with known-truth residual certification. A physical swing-model study compares neural learning objectives with shared verification and invariant energy regions. Verified constant metrics certify the polynomial benchmark and smallest swing-model domain; neither result requires neural state dependence. Exploratory refinement certifies additional frozen candidates at a larger verification budget. In matched polynomial operating-grid experiments, trace normalization and margin coupling did not demonstrate a certification-count advantage within the tested budgets. These choices address specific failure mechanisms without guaranteeing optimizer convergence or general empirical superiority.",
+    "authors": [
+      "Victor M. Preciado"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Victor M. Preciado",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-16",
+    "updated": "2026-11-16",
+    "categories": [
+      "eess.SY"
+    ],
+    "primaryCategory": "eess.SY",
+    "url": "https://arxiv.org/abs/2611.21247",
+    "pdfUrl": "https://arxiv.org/pdf/2611.21247",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": []
+    }
+  },
+  {
+    "id": "2611.21235",
+    "title": "Language-model agents' beliefs can be manipulated via truthful evidence in open channel",
+    "abstract": "Language-model agents' beliefs can be manipulated through open channels such as social media, even when the information they receive is truthful. When agents fill gaps between fragments with self-induced relationships, they may accept those relationships as established facts and pass the resulting rumours to others. Drawing on cognitive theory of narrative understanding and film theory of montage, we introduce Generative Montage to operationalize this failure, termed narrative overfitting, by coordinating agents to arrange truthful fragments into misleading narratives. Across 1,090 rumour targets from six Twitter events, agents often accepted rumours overconfidently, with overall acceptance exceeding 65 percent in twelve of fourteen models. Acceptance remained above 50 percent after majority voting or review of the same evidence, showing how errors can reach downstream decisions. To explain this susceptibility, fragment interventions identify posts that influence belief within complete narratives. Synthetic controls then show that similar response patterns arise from valid evidence, separating belief influence from evidential support. This distinction motivates Grounded Monitor, a proof-of-concept neuro-symbolic runtime monitor that checks direct evidential support to guide agents' judgements, improving decision accuracy by 5.6 to 29.0 percentage points across original and anonymized settings. These findings expose a cognitive route to rumour amplification and support monitoring inferred relationships before agent-generated conclusions guide public decisions.",
+    "authors": [
+      "Jinwei Hu",
+      "Qisong He",
+      "Xinmiao Huang",
+      "Youcheng Sun",
+      "Yi Dong",
+      "Xiaowei Huang"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Jinwei Hu",
+        "affiliations": []
+      },
+      {
+        "name": "Qisong He",
+        "affiliations": []
+      },
+      {
+        "name": "Xinmiao Huang",
+        "affiliations": []
+      },
+      {
+        "name": "Youcheng Sun",
+        "affiliations": []
+      },
+      {
+        "name": "Yi Dong",
+        "affiliations": []
+      },
+      {
+        "name": "Xiaowei Huang",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-16",
+    "updated": "2026-11-16",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.MA",
+      "cs.SI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.21235",
+    "pdfUrl": "https://arxiv.org/pdf/2611.21235",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.20686",
+    "title": "UbiHearo: Bringing Scenario-Aware Sound Guidance to DHH Users with Mobile Agents",
+    "abstract": "For Deaf and Hard-of-Hearing (DHH) users, effective sound awareness goes beyond detecting \\emph{what} sound occurs; it requires understanding \\emph{what it means}, \\emph{how urgent it is}, and \\emph{what to do}. However, existing mobile assistants largely reduce acoustic scenes to isolated labels or generic alerts, failing to provide contextual guidance when the same sound implies different risks across scenarios. We present \\sysname, a mobile hearing assistant agent that closes the sensing--reasoning--action loop for \\textit{scenario-aware} and \\textit{personalized} DHH assistance. \\sysname adopts a \\textit{neuro-symbolic} design that transforms continuous acoustic and physical context streams into structured intermediate representations (IRs) for controllable reasoning and guidance. It introduces three key mechanisms. \\textit{First}, a perception-thresholded sensing mechanism enables energy-efficient always-on awareness by activating processing only for perceptually meaningful events while preserving safety-critical cues through deterministic overrides. \\textit{Second}, a staged neuro-symbolic reasoning framework performs promptless scenario understanding by conditioning an on-device audio-language model on structured IRs instead of user-authored context descriptions. \\textit{Third}, a bounded human-in-the-loop personalization mechanism adapts user-specific guidance through lightweight on-device decision-boundary updates while preserving population-aligned reasoning. We evaluate \\sysname on smartphones and in-vehicle systems across diverse scenarios. It achieves favorable accuracy--latency--energy tradeoffs and personalized guidance.",
+    "authors": [
+      "Fengmin Wu",
+      "Sicong Liu",
+      "Zimu Zhou",
+      "Chenren Xu",
+      "Wanbing Zhao",
+      "Peiwen Sun",
+      "Zhiwen Yu"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Fengmin Wu",
+        "affiliations": []
+      },
+      {
+        "name": "Sicong Liu",
+        "affiliations": []
+      },
+      {
+        "name": "Zimu Zhou",
+        "affiliations": []
+      },
+      {
+        "name": "Chenren Xu",
+        "affiliations": []
+      },
+      {
+        "name": "Wanbing Zhao",
+        "affiliations": []
+      },
+      {
+        "name": "Peiwen Sun",
+        "affiliations": []
+      },
+      {
+        "name": "Zhiwen Yu",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-16",
+    "updated": "2026-11-16",
+    "categories": [
+      "cs.AI",
+      "cs.CY"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.20686",
+    "pdfUrl": "https://arxiv.org/pdf/2611.20686",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.19597",
+    "title": "Synthetic Neurosymbolic Task Generation with Controlled Constraint Complexity",
+    "abstract": "We introduce NeSySy, a synthetic generator for neurosymbolic learning tasks that jointly produces logical constraints and consistent datasets. Unlike existing benchmarks, NeSySy provides fine-grained control over key properties such as constraint structure, tightness, input dependence, and data generation and alignment strategies. In particular, it allows the use of rich constraints over infinite domains, and uses solvers to ensure that the constraints are meaningful and that generated samples satisfy the constraints. We design NeSySy to support both learning with declarative constraints and learning from distant supervision. Across a range of constraint families, we provide evidence that its parameters induce systematic and largely independent effects on task difficulty. Using NeSySy, we study constraint-aware learning methods, identifying regimes where explicit constraint enforcement is beneficial and where expressive unconstrained models can instead learn constraint structure directly from data. Our results establish NeSySy as a controlled testbed for analysing the interaction between learning and logical structure. NeSySy is built around a pipeline that incorporates solvers. Satisfiability checkers (CNFgen and Z3) generate and certify constraints. Constrained optimizers (RC2 for MaxSAT, Z3 for OMT) compute optimal repairs that guarantee every generated sample is consistent.",
+    "authors": [
+      "Mykhailo Buleshnyi",
+      "Zsolt Zombori",
+      "Michael Benedikt"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Mykhailo Buleshnyi",
+        "affiliations": []
+      },
+      {
+        "name": "Zsolt Zombori",
+        "affiliations": []
+      },
+      {
+        "name": "Michael Benedikt",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-14",
+    "updated": "2026-11-14",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.LO",
+      "cs.NE",
+      "cs.SC"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.19597",
+    "pdfUrl": "https://arxiv.org/pdf/2611.19597",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.19542",
+    "title": "Func-JEPA: Learning a Sobolev Space of Functions as Latent Vectors",
+    "abstract": "Pretraining an encoder once and reusing it across tasks is a widespread approach in vision and language. However, neural symbolic mathematics still trains a dedicated sequence-to-sequence model for each task, so that no representation of a function is shared. In this work, we propose the Function Joint-Embedding Predictive Architecture (Func-JEPA, abbreviated f-JEPA): an encoder of mathematical functions, pretrained on their symbolic form, whose latent space imitates the Sobolev space H^1 and in which differentiation is a learned latent operator. The norm of a latent is computed exactly from the function, whereas its direction is learned to match Sobolev angles. The frozen encoder is then reused by lightweight modules for decoding, composition, integration, and regression from samples. The representation and four downstream tasks are evaluated within and outside the pretraining distribution. f-JEPA recovers exact formulas from noisy samples more often than the compared symbolic-regression methods, whereas computer algebra and task-specific models remain stronger on standard integration and differential-equation benchmarks.",
+    "authors": [
+      "Alejandro Moreno Arcas"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Alejandro Moreno Arcas",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-14",
+    "updated": "2026-11-14",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "math.NA"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.19542",
+    "pdfUrl": "https://arxiv.org/pdf/2611.19542",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neural symbolic"
+      ]
+    }
+  },
   {
     "id": "2611.17329",
     "title": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
