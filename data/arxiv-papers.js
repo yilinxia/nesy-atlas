@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-11-17T21:28:18.277Z",
-  "cursorAt": "2026-11-17T21:28:18.277Z",
+  "generatedAt": "2026-11-18T21:03:02.336Z",
+  "cursorAt": "2026-11-18T21:03:02.336Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-11-15T19:13:33.876Z",
   "keywords": [
@@ -15,11 +15,217 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-11-16T22:41:47.132Z",
-  "windowStart": "2026-11-09T22:41:47.132Z",
+  "previousSnapshotAt": "2026-11-17T21:28:18.277Z",
+  "windowStart": "2026-11-10T21:28:18.277Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2611.22673",
+    "title": "FVScore: Specification-Driven Neuro-Symbolic Video Evaluation",
+    "abstract": "We introduce Faithfulness Video Score (FVSCORE), a neuro-symbolic framework for specification-driven video generation evaluation. Existing evaluators rely on holistic MLLM judgments or vision-language metrics, yet aligning their scores with human judgments and tracing them to specific temporal violations remain open challenges. FVSCORE addresses these limitations by compiling each video into explicit propositions capturing prompt requirements and implicit propositions capturing unstated physical, temporal, and cross-modal constraints. It grounds each proposition using specialized perceptual tools and evaluates the resulting confidence traces with soft temporal operators inspired by Linear Temporal Logic. A Significance-Aware Calibration step then aligns verification with human perception by retaining only perceptually significant violations before producing a timestamp- and evidence-grounded report. We conduct extensive experiments across public and complex multi-event benchmarks with the strongest video models to date, demonstrating that FVSCORE outperforms holistic and agent-based evaluators in human correlation while providing highly accurate and interpretable feedback.",
+    "authors": [
+      "Do Xuan Long",
+      "Long T. Le",
+      "Yiwen Song",
+      "Min-Yen Kan",
+      "Tomas Pfister",
+      "Yale Song"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Do Xuan Long",
+        "affiliations": []
+      },
+      {
+        "name": "Long T. Le",
+        "affiliations": []
+      },
+      {
+        "name": "Yiwen Song",
+        "affiliations": []
+      },
+      {
+        "name": "Min-Yen Kan",
+        "affiliations": []
+      },
+      {
+        "name": "Tomas Pfister",
+        "affiliations": []
+      },
+      {
+        "name": "Yale Song",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.22673",
+    "pdfUrl": "https://arxiv.org/pdf/2611.22673",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.22519",
+    "title": "Missing Security-Fix Backporting for GitHub Actions Workflows",
+    "abstract": "GitHub natively supports workflow automation through GitHub Actions, now the dominant CI/CD tool on the platform. Yet keeping these workflows secure remains an ongoing burden: maintainers often patch a vulnerability on the default branch but leave the same flaw on the release and maintenance branches that downstream consumers continue to build from. Carrying a known fix onto these divergent branches, called backporting, is rarely done, and this paper presents the first large-scale empirical study quantifying the resulting gap. From a public corpus of GitHub Actions workflow histories, we mine 1,903,191 workflow-modifying commits, scan each before and after with the static scanner zizmor to identify 69,865 security fixes across 24,238 projects, and audit every release branch to check whether each fix was carried over. The gap is pervasive: 224,392 of 474,490 audited release branches remain vulnerable, and deliberate backporting is rare and slow, with only 19,476 of 78,907 already-fixed branches confirmed as plausible backports at a median lag of 243 days. We thus design WorkflowBP, the first technique for automated security-fix backporting of GitHub Actions workflows. WorkflowBP takes a neuro-symbolic approach: it compiles a default-branch fix into a domain-specific representation called the Workflow Semantic Patch (WSP) and applies it to each divergent branch by matching jobs and steps based on their content rather than their position, while an LLM synthesizes the WSP for the most divergent cases the deterministic engine cannot resolve. On 12,000 real unpatched workflow files from our study, WorkflowBP produces a scanner-checked backport for 67.9%. We further submit 176 issues with WorkflowBP-generated backports to real-world projects, 44 of which have been confirmed or fixed by developers.",
+    "authors": [
+      "Chengyan Ma",
+      "Jieke Shi",
+      "Ruidong Han",
+      "Weifeng Sun",
+      "Yuqing Niu",
+      "Yunbo Lyu",
+      "Zhou Yang",
+      "David Lo"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Chengyan Ma",
+        "affiliations": []
+      },
+      {
+        "name": "Jieke Shi",
+        "affiliations": []
+      },
+      {
+        "name": "Ruidong Han",
+        "affiliations": []
+      },
+      {
+        "name": "Weifeng Sun",
+        "affiliations": []
+      },
+      {
+        "name": "Yuqing Niu",
+        "affiliations": []
+      },
+      {
+        "name": "Yunbo Lyu",
+        "affiliations": []
+      },
+      {
+        "name": "Zhou Yang",
+        "affiliations": []
+      },
+      {
+        "name": "David Lo",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "categories": [
+      "cs.SE",
+      "cs.CR"
+    ],
+    "primaryCategory": "cs.SE",
+    "url": "https://arxiv.org/abs/2611.22519",
+    "pdfUrl": "https://arxiv.org/pdf/2611.22519",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.22403",
+    "title": "BehaVerify: A Formal Verification Tool for Behavior Trees",
+    "abstract": "This paper presents BehaVerify, a verification toolbox for behavior trees (BTs) and Neuro-Symbolic BTs. BTs are a graphical language for planning and sequencing behaviors - similar to extended state machines - and are increasingly used in safety-critical domains. BehaVerify enables users to specify a BT using a Domain Specific Language (DSL) with formal syntax and semantics. This language further includes Linear Temporal Logic and Computation Tree Logic specifications. BehaVerify uses an efficient encoding into nuXmv, called fastforwarding, to quickly verify if a specification holds over the BT. Additionally, BehaVerify can generate implementations of the BT in Python and Haskell. Through Python, BehaVerify has been integrated with PyTrees and Robot Operating System (ROS) and has been deployed to several autonomous robotic systems, including for verifying runtime monitors. While prior works have developed the underlying theory, this manuscript focuses on the toolbox usage, functionality and implementation. BehaVerify is open source: https://github.com/verivital/behaverify",
+    "authors": [
+      "Serena S. Serbinowska",
+      "Ben Wooding",
+      "Diego Manzanas Lopez",
+      "Luke Nam",
+      "Anne M. Tumlin",
+      "Nicholas K. Potteiger",
+      "Hongchao Zhang",
+      "Taylor T. Johnson"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Serena S. Serbinowska",
+        "affiliations": [
+          "Vanderbilt University"
+        ]
+      },
+      {
+        "name": "Ben Wooding",
+        "affiliations": [
+          "Vanderbilt University"
+        ]
+      },
+      {
+        "name": "Diego Manzanas Lopez",
+        "affiliations": [
+          "Vanderbilt University"
+        ]
+      },
+      {
+        "name": "Luke Nam",
+        "affiliations": [
+          "Vanderbilt University"
+        ]
+      },
+      {
+        "name": "Anne M. Tumlin",
+        "affiliations": [
+          "Vanderbilt University"
+        ]
+      },
+      {
+        "name": "Nicholas K. Potteiger",
+        "affiliations": [
+          "Vanderbilt University"
+        ]
+      },
+      {
+        "name": "Hongchao Zhang",
+        "affiliations": [
+          "Vanderbilt University"
+        ]
+      },
+      {
+        "name": "Taylor T. Johnson",
+        "affiliations": [
+          "Vanderbilt University"
+        ]
+      }
+    ],
+    "affiliations": [
+      "Vanderbilt University"
+    ],
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "categories": [
+      "cs.SE",
+      "cs.LO",
+      "cs.RO"
+    ],
+    "primaryCategory": "cs.SE",
+    "url": "https://arxiv.org/abs/2611.22403",
+    "pdfUrl": "https://arxiv.org/pdf/2611.22403",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2611.21247",
     "title": "Neurosymbolic Synthesis of Contraction Metrics with Certified Verification",

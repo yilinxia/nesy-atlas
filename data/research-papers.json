@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T21:28:18.780Z",
+  "generatedAt": "2026-11-18T21:03:02.814Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,8 +13,8 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1921,
-  "completeMetadataCount": 1372,
+  "paperCount": 1924,
+  "completeMetadataCount": 1373,
   "sources": [
     {
       "id": "arxiv-keywords",
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1616
+      "count": 1619
     },
     {
       "id": "nesy-proceedings",
@@ -5357,6 +5357,18 @@
         ]
       },
       {
+        "id": "author:8d48de88455b1cca",
+        "name": "Taylor T. Johnson",
+        "aliases": [
+          "Taylor T Johnson",
+          "Taylor T. Johnson"
+        ],
+        "paperCount": 3,
+        "institutionIds": [
+          "institution:e897b676e22fa06e"
+        ]
+      },
+      {
         "id": "author:752b1e908994953a",
         "name": "Thomas Lukasiewicz",
         "aliases": [
@@ -5896,6 +5908,18 @@
         "institutionIds": [
           "institution:02e0cb0a82c051ec",
           "institution:4a7d3f60b04f6fc0"
+        ]
+      },
+      {
+        "id": "author:8f66d9423cf9c87f",
+        "name": "Zhou Yang",
+        "aliases": [
+          "Zhou Yang"
+        ],
+        "paperCount": 3,
+        "institutionIds": [
+          "institution:c211f53780bf2faf",
+          "institution:c86097ab77431341"
         ]
       },
       {
@@ -7310,6 +7334,17 @@
         ]
       },
       {
+        "id": "author:2fbab45c01e62e0d",
+        "name": "David Lo",
+        "aliases": [
+          "David Lo"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:eefb779b4c760808"
+        ]
+      },
+      {
         "id": "author:4b54df0c55038485",
         "name": "David Mortensen",
         "aliases": [
@@ -8717,6 +8752,17 @@
         ],
         "paperCount": 2,
         "institutionIds": []
+      },
+      {
+        "id": "author:088d99570515465d",
+        "name": "Jieke Shi",
+        "aliases": [
+          "Jieke Shi"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:eefb779b4c760808"
+        ]
       },
       {
         "id": "author:a17806038bc1f97f",
@@ -11786,18 +11832,6 @@
         ]
       },
       {
-        "id": "author:8d48de88455b1cca",
-        "name": "Taylor T. Johnson",
-        "aliases": [
-          "Taylor T Johnson",
-          "Taylor T. Johnson"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:e897b676e22fa06e"
-        ]
-      },
-      {
         "id": "author:bcf9f8c2f49b34c1",
         "name": "Teodoro Baldazzi",
         "aliases": [
@@ -13515,18 +13549,6 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:57c99a7a8e0cbe1c"
-        ]
-      },
-      {
-        "id": "author:8f66d9423cf9c87f",
-        "name": "Zhou Yang",
-        "aliases": [
-          "Zhou Yang"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:c211f53780bf2faf",
-          "institution:c86097ab77431341"
         ]
       },
       {
@@ -17620,6 +17642,17 @@
         ]
       },
       {
+        "id": "author:d5b4155376fabaf3",
+        "name": "Anne M. Tumlin",
+        "aliases": [
+          "Anne M. Tumlin"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:e897b676e22fa06e"
+        ]
+      },
+      {
         "id": "author:99c8b267ef0ee75e",
         "name": "Anne-Gwenn Bosser",
         "aliases": [
@@ -19376,6 +19409,17 @@
         ],
         "paperCount": 1,
         "institutionIds": []
+      },
+      {
+        "id": "author:281d7eb2e2194516",
+        "name": "Ben Wooding",
+        "aliases": [
+          "Ben Wooding"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:e897b676e22fa06e"
+        ]
       },
       {
         "id": "author:935cdf56b28eaf05",
@@ -21632,6 +21676,15 @@
         ]
       },
       {
+        "id": "author:5eac6e8f6c7f7be9",
+        "name": "Chengyan Ma",
+        "aliases": [
+          "Chengyan Ma"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:769c90b7ad6d3e6d",
         "name": "Chengyang Luo",
         "aliases": [
@@ -23784,17 +23837,6 @@
         ]
       },
       {
-        "id": "author:2fbab45c01e62e0d",
-        "name": "David Lo",
-        "aliases": [
-          "David Lo"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:eefb779b4c760808"
-        ]
-      },
-      {
         "id": "author:c862e6134849b27a",
         "name": "David M. Haas",
         "aliases": [
@@ -24518,6 +24560,17 @@
         ]
       },
       {
+        "id": "author:e26070ba23fcb7f9",
+        "name": "Diego Manzanas Lopez",
+        "aliases": [
+          "Diego Manzanas Lopez"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:e897b676e22fa06e"
+        ]
+      },
+      {
         "id": "author:34545cfbe04ff210",
         "name": "Diego Palma",
         "aliases": [
@@ -24804,6 +24857,15 @@
         "institutionIds": [
           "institution:c00e7ad7bbe6619e"
         ]
+      },
+      {
+        "id": "author:eec5ae6b0070f200",
+        "name": "Do Xuan Long",
+        "aliases": [
+          "Do Xuan Long"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:49c2f4e5a06d59e6",
@@ -31317,6 +31379,17 @@
         "institutionIds": []
       },
       {
+        "id": "author:ccbb2e10156ccd76",
+        "name": "Hongchao Zhang",
+        "aliases": [
+          "Hongchao Zhang"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:e897b676e22fa06e"
+        ]
+      },
+      {
         "id": "author:4663e203f8cf1935",
         "name": "Hongfang Liu",
         "aliases": [
@@ -35007,17 +35080,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:088d99570515465d",
-        "name": "Jieke Shi",
-        "aliases": [
-          "Jieke Shi"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:eefb779b4c760808"
-        ]
       },
       {
         "id": "author:c0d9267a757e9277",
@@ -40587,6 +40649,15 @@
         ]
       },
       {
+        "id": "author:c987e618794b8886",
+        "name": "Long T. Le",
+        "aliases": [
+          "Long T. Le"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:761c13b067671298",
         "name": "Longdi Pan",
         "aliases": [
@@ -41238,6 +41309,17 @@
         "paperCount": 1,
         "institutionIds": [
           "institution:c83aeae887827902"
+        ]
+      },
+      {
+        "id": "author:3b04688ee23adb05",
+        "name": "Luke Nam",
+        "aliases": [
+          "Luke Nam"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:e897b676e22fa06e"
         ]
       },
       {
@@ -44784,6 +44866,15 @@
         ]
       },
       {
+        "id": "author:64e1052a309b8073",
+        "name": "Min-Yen Kan",
+        "aliases": [
+          "Min-Yen Kan"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:db1355835ed93ddf",
         "name": "Mina Gabriel",
         "aliases": [
@@ -47119,6 +47210,17 @@
         "paperCount": 1,
         "institutionIds": [
           "institution:5571bf8f246a2931"
+        ]
+      },
+      {
+        "id": "author:fc40ce4516fffa11",
+        "name": "Nicholas K. Potteiger",
+        "aliases": [
+          "Nicholas K. Potteiger"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:e897b676e22fa06e"
         ]
       },
       {
@@ -52512,6 +52614,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:a46bf9a41ba23491",
+        "name": "Ruidong Han",
+        "aliases": [
+          "Ruidong Han"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:5748342d89a6277b",
         "name": "Ruifeng Ren",
         "aliases": [
@@ -54356,6 +54467,17 @@
         ],
         "paperCount": 1,
         "institutionIds": []
+      },
+      {
+        "id": "author:6b8898fc89551d1f",
+        "name": "Serena S. Serbinowska",
+        "aliases": [
+          "Serena S. Serbinowska"
+        ],
+        "paperCount": 1,
+        "institutionIds": [
+          "institution:e897b676e22fa06e"
+        ]
       },
       {
         "id": "author:5feb83a0fc9f1624",
@@ -59455,6 +59577,15 @@
         ]
       },
       {
+        "id": "author:6b238982c3b4986a",
+        "name": "Tomas Pfister",
+        "aliases": [
+          "Tomas Pfister"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:18584e432b094d6d",
         "name": "Tommaso Bendinelli",
         "aliases": [
@@ -61245,6 +61376,15 @@
         "institutionIds": [
           "institution:69309405e04976ec"
         ]
+      },
+      {
+        "id": "author:a3e0d6f092835197",
+        "name": "Weifeng Sun",
+        "aliases": [
+          "Weifeng Sun"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:fa1d20557e2de4c9",
@@ -63877,6 +64017,15 @@
         ]
       },
       {
+        "id": "author:6c8f7fbf4d919eba",
+        "name": "Yale Song",
+        "aliases": [
+          "Yale Song"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:7be0868031a6fab8",
         "name": "Yan Bai",
         "aliases": [
@@ -65474,6 +65623,15 @@
         ]
       },
       {
+        "id": "author:e3545c396fb17039",
+        "name": "Yiwen Song",
+        "aliases": [
+          "Yiwen Song"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:8d59b601cc4b596f",
         "name": "YiXiang Jiang",
         "aliases": [
@@ -67051,6 +67209,15 @@
         ]
       },
       {
+        "id": "author:935204f1aaee23fd",
+        "name": "Yunbo Lyu",
+        "aliases": [
+          "Yunbo Lyu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:0c17c1710c68c9fa",
         "name": "Yundaichuan Zhan",
         "aliases": [
@@ -67367,6 +67534,15 @@
           "institution:2dc4828b296913b9",
           "institution:f548a9abc39c8f66"
         ]
+      },
+      {
+        "id": "author:7f14d894c91b4739",
+        "name": "Yuqing Niu",
+        "aliases": [
+          "Yuqing Niu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:b6e1242a7bd1a542",
@@ -73580,6 +73756,14 @@
         "paperCount": 8
       },
       {
+        "id": "institution:e897b676e22fa06e",
+        "name": "Vanderbilt University",
+        "aliases": [
+          "Vanderbilt University"
+        ],
+        "paperCount": 8
+      },
+      {
         "id": "institution:e286778b9c16222b",
         "name": "Amazon Web Services",
         "aliases": [
@@ -73712,14 +73896,6 @@
         "name": "University of Virginia",
         "aliases": [
           "University of Virginia"
-        ],
-        "paperCount": 7
-      },
-      {
-        "id": "institution:e897b676e22fa06e",
-        "name": "Vanderbilt University",
-        "aliases": [
-          "Vanderbilt University"
         ],
         "paperCount": 7
       },
@@ -387873,6 +388049,554 @@
         {
           "name": "Alejandro Moreno Arcas",
           "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.22673",
+      "title": "FVScore: Specification-Driven Neuro-Symbolic Video Evaluation",
+      "abstract": "We introduce Faithfulness Video Score (FVSCORE), a neuro-symbolic framework for specification-driven video generation evaluation. Existing evaluators rely on holistic MLLM judgments or vision-language metrics, yet aligning their scores with human judgments and tracing them to specific temporal violations remain open challenges. FVSCORE addresses these limitations by compiling each video into explicit propositions capturing prompt requirements and implicit propositions capturing unstated physical, temporal, and cross-modal constraints. It grounds each proposition using specialized perceptual tools and evaluates the resulting confidence traces with soft temporal operators inspired by Linear Temporal Logic. A Significance-Aware Calibration step then aligns verification with human perception by retaining only perceptually significant violations before producing a timestamp- and evidence-grounded report. We conduct extensive experiments across public and complex multi-event benchmarks with the strongest video models to date, demonstrating that FVSCORE outperforms holistic and agent-based evaluators in human correlation while providing highly accurate and interpretable feedback.",
+      "authors": [
+        "Do Xuan Long",
+        "Long T. Le",
+        "Yiwen Song",
+        "Min-Yen Kan",
+        "Tomas Pfister",
+        "Yale Song"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Do Xuan Long",
+          "authorEntityId": "author:eec5ae6b0070f200",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Do Xuan Long",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Long T. Le",
+          "authorEntityId": "author:c987e618794b8886",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Long T. Le",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yiwen Song",
+          "authorEntityId": "author:e3545c396fb17039",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yiwen Song",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Min-Yen Kan",
+          "authorEntityId": "author:64e1052a309b8073",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Min-Yen Kan",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Tomas Pfister",
+          "authorEntityId": "author:6b238982c3b4986a",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Tomas Pfister",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yale Song",
+          "authorEntityId": "author:6c8f7fbf4d919eba",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yale Song",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.22673",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22673",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.22673",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:22ac24267219ecd5",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Do Xuan Long",
+        "Long T. Le",
+        "Yiwen Song",
+        "Min-Yen Kan",
+        "Tomas Pfister",
+        "Yale Song"
+      ],
+      "authorEntityIds": [
+        "author:eec5ae6b0070f200",
+        "author:c987e618794b8886",
+        "author:e3545c396fb17039",
+        "author:64e1052a309b8073",
+        "author:6b238982c3b4986a",
+        "author:6c8f7fbf4d919eba"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Do Xuan Long",
+          "affiliations": []
+        },
+        {
+          "name": "Long T. Le",
+          "affiliations": []
+        },
+        {
+          "name": "Yiwen Song",
+          "affiliations": []
+        },
+        {
+          "name": "Min-Yen Kan",
+          "affiliations": []
+        },
+        {
+          "name": "Tomas Pfister",
+          "affiliations": []
+        },
+        {
+          "name": "Yale Song",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.22519",
+      "title": "Missing Security-Fix Backporting for GitHub Actions Workflows",
+      "abstract": "GitHub natively supports workflow automation through GitHub Actions, now the dominant CI/CD tool on the platform. Yet keeping these workflows secure remains an ongoing burden: maintainers often patch a vulnerability on the default branch but leave the same flaw on the release and maintenance branches that downstream consumers continue to build from. Carrying a known fix onto these divergent branches, called backporting, is rarely done, and this paper presents the first large-scale empirical study quantifying the resulting gap. From a public corpus of GitHub Actions workflow histories, we mine 1,903,191 workflow-modifying commits, scan each before and after with the static scanner zizmor to identify 69,865 security fixes across 24,238 projects, and audit every release branch to check whether each fix was carried over. The gap is pervasive: 224,392 of 474,490 audited release branches remain vulnerable, and deliberate backporting is rare and slow, with only 19,476 of 78,907 already-fixed branches confirmed as plausible backports at a median lag of 243 days. We thus design WorkflowBP, the first technique for automated security-fix backporting of GitHub Actions workflows. WorkflowBP takes a neuro-symbolic approach: it compiles a default-branch fix into a domain-specific representation called the Workflow Semantic Patch (WSP) and applies it to each divergent branch by matching jobs and steps based on their content rather than their position, while an LLM synthesizes the WSP for the most divergent cases the deterministic engine cannot resolve. On 12,000 real unpatched workflow files from our study, WorkflowBP produces a scanner-checked backport for 67.9%. We further submit 176 issues with WorkflowBP-generated backports to real-world projects, 44 of which have been confirmed or fixed by developers.",
+      "authors": [
+        "Chengyan Ma",
+        "Jieke Shi",
+        "Ruidong Han",
+        "Weifeng Sun",
+        "Yuqing Niu",
+        "Yunbo Lyu",
+        "Zhou Yang",
+        "David Lo"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Chengyan Ma",
+          "authorEntityId": "author:5eac6e8f6c7f7be9",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Chengyan Ma",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jieke Shi",
+          "authorEntityId": "author:088d99570515465d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jieke Shi",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ruidong Han",
+          "authorEntityId": "author:a46bf9a41ba23491",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ruidong Han",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Weifeng Sun",
+          "authorEntityId": "author:a3e0d6f092835197",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Weifeng Sun",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yuqing Niu",
+          "authorEntityId": "author:7f14d894c91b4739",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yuqing Niu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yunbo Lyu",
+          "authorEntityId": "author:935204f1aaee23fd",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yunbo Lyu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zhou Yang",
+          "authorEntityId": "author:8f66d9423cf9c87f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zhou Yang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "David Lo",
+          "authorEntityId": "author:2fbab45c01e62e0d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "David Lo",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.CR"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.22519",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22519",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.22519",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:36538aeba6690256",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Chengyan Ma",
+        "Jieke Shi",
+        "Ruidong Han",
+        "Weifeng Sun",
+        "Yuqing Niu",
+        "Yunbo Lyu",
+        "Zhou Yang",
+        "David Lo"
+      ],
+      "authorEntityIds": [
+        "author:5eac6e8f6c7f7be9",
+        "author:088d99570515465d",
+        "author:a46bf9a41ba23491",
+        "author:a3e0d6f092835197",
+        "author:7f14d894c91b4739",
+        "author:935204f1aaee23fd",
+        "author:8f66d9423cf9c87f",
+        "author:2fbab45c01e62e0d"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Chengyan Ma",
+          "affiliations": []
+        },
+        {
+          "name": "Jieke Shi",
+          "affiliations": []
+        },
+        {
+          "name": "Ruidong Han",
+          "affiliations": []
+        },
+        {
+          "name": "Weifeng Sun",
+          "affiliations": []
+        },
+        {
+          "name": "Yuqing Niu",
+          "affiliations": []
+        },
+        {
+          "name": "Yunbo Lyu",
+          "affiliations": []
+        },
+        {
+          "name": "Zhou Yang",
+          "affiliations": []
+        },
+        {
+          "name": "David Lo",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.22403",
+      "title": "BehaVerify: A Formal Verification Tool for Behavior Trees",
+      "abstract": "This paper presents BehaVerify, a verification toolbox for behavior trees (BTs) and Neuro-Symbolic BTs. BTs are a graphical language for planning and sequencing behaviors - similar to extended state machines - and are increasingly used in safety-critical domains. BehaVerify enables users to specify a BT using a Domain Specific Language (DSL) with formal syntax and semantics. This language further includes Linear Temporal Logic and Computation Tree Logic specifications. BehaVerify uses an efficient encoding into nuXmv, called fastforwarding, to quickly verify if a specification holds over the BT. Additionally, BehaVerify can generate implementations of the BT in Python and Haskell. Through Python, BehaVerify has been integrated with PyTrees and Robot Operating System (ROS) and has been deployed to several autonomous robotic systems, including for verifying runtime monitors. While prior works have developed the underlying theory, this manuscript focuses on the toolbox usage, functionality and implementation. BehaVerify is open source: https://github.com/verivital/behaverify",
+      "authors": [
+        "Serena S. Serbinowska",
+        "Ben Wooding",
+        "Diego Manzanas Lopez",
+        "Luke Nam",
+        "Anne M. Tumlin",
+        "Nicholas K. Potteiger",
+        "Hongchao Zhang",
+        "Taylor T. Johnson"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Serena S. Serbinowska",
+          "authorEntityId": "author:6b8898fc89551d1f",
+          "affiliations": [
+            "Vanderbilt University"
+          ],
+          "affiliationEntityIds": [
+            "institution:e897b676e22fa06e"
+          ],
+          "rawName": "Serena S. Serbinowska",
+          "rawAffiliations": [
+            "Vanderbilt University"
+          ]
+        },
+        {
+          "name": "Ben Wooding",
+          "authorEntityId": "author:281d7eb2e2194516",
+          "affiliations": [
+            "Vanderbilt University"
+          ],
+          "affiliationEntityIds": [
+            "institution:e897b676e22fa06e"
+          ],
+          "rawName": "Ben Wooding",
+          "rawAffiliations": [
+            "Vanderbilt University"
+          ]
+        },
+        {
+          "name": "Diego Manzanas Lopez",
+          "authorEntityId": "author:e26070ba23fcb7f9",
+          "affiliations": [
+            "Vanderbilt University"
+          ],
+          "affiliationEntityIds": [
+            "institution:e897b676e22fa06e"
+          ],
+          "rawName": "Diego Manzanas Lopez",
+          "rawAffiliations": [
+            "Vanderbilt University"
+          ]
+        },
+        {
+          "name": "Luke Nam",
+          "authorEntityId": "author:3b04688ee23adb05",
+          "affiliations": [
+            "Vanderbilt University"
+          ],
+          "affiliationEntityIds": [
+            "institution:e897b676e22fa06e"
+          ],
+          "rawName": "Luke Nam",
+          "rawAffiliations": [
+            "Vanderbilt University"
+          ]
+        },
+        {
+          "name": "Anne M. Tumlin",
+          "authorEntityId": "author:d5b4155376fabaf3",
+          "affiliations": [
+            "Vanderbilt University"
+          ],
+          "affiliationEntityIds": [
+            "institution:e897b676e22fa06e"
+          ],
+          "rawName": "Anne M. Tumlin",
+          "rawAffiliations": [
+            "Vanderbilt University"
+          ]
+        },
+        {
+          "name": "Nicholas K. Potteiger",
+          "authorEntityId": "author:fc40ce4516fffa11",
+          "affiliations": [
+            "Vanderbilt University"
+          ],
+          "affiliationEntityIds": [
+            "institution:e897b676e22fa06e"
+          ],
+          "rawName": "Nicholas K. Potteiger",
+          "rawAffiliations": [
+            "Vanderbilt University"
+          ]
+        },
+        {
+          "name": "Hongchao Zhang",
+          "authorEntityId": "author:ccbb2e10156ccd76",
+          "affiliations": [
+            "Vanderbilt University"
+          ],
+          "affiliationEntityIds": [
+            "institution:e897b676e22fa06e"
+          ],
+          "rawName": "Hongchao Zhang",
+          "rawAffiliations": [
+            "Vanderbilt University"
+          ]
+        },
+        {
+          "name": "Taylor T. Johnson",
+          "authorEntityId": "author:8d48de88455b1cca",
+          "affiliations": [
+            "Vanderbilt University"
+          ],
+          "affiliationEntityIds": [
+            "institution:e897b676e22fa06e"
+          ],
+          "rawName": "Taylor T. Johnson",
+          "rawAffiliations": [
+            "Vanderbilt University"
+          ]
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [
+        "Vanderbilt University"
+      ],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.LO",
+        "cs.RO"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.22403",
+      "pdfUrl": "https://arxiv.org/pdf/2611.22403",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.22403",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": true,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:29f58ee9ad116b8c",
+      "rawAffiliations": [
+        "Vanderbilt University"
+      ],
+      "affiliationEntityIds": [
+        "institution:e897b676e22fa06e"
+      ],
+      "rawAuthors": [
+        "Serena S. Serbinowska",
+        "Ben Wooding",
+        "Diego Manzanas Lopez",
+        "Luke Nam",
+        "Anne M. Tumlin",
+        "Nicholas K. Potteiger",
+        "Hongchao Zhang",
+        "Taylor T. Johnson"
+      ],
+      "authorEntityIds": [
+        "author:6b8898fc89551d1f",
+        "author:281d7eb2e2194516",
+        "author:e26070ba23fcb7f9",
+        "author:3b04688ee23adb05",
+        "author:d5b4155376fabaf3",
+        "author:fc40ce4516fffa11",
+        "author:ccbb2e10156ccd76",
+        "author:8d48de88455b1cca"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Serena S. Serbinowska",
+          "affiliations": [
+            "Vanderbilt University"
+          ]
+        },
+        {
+          "name": "Ben Wooding",
+          "affiliations": [
+            "Vanderbilt University"
+          ]
+        },
+        {
+          "name": "Diego Manzanas Lopez",
+          "affiliations": [
+            "Vanderbilt University"
+          ]
+        },
+        {
+          "name": "Luke Nam",
+          "affiliations": [
+            "Vanderbilt University"
+          ]
+        },
+        {
+          "name": "Anne M. Tumlin",
+          "affiliations": [
+            "Vanderbilt University"
+          ]
+        },
+        {
+          "name": "Nicholas K. Potteiger",
+          "affiliations": [
+            "Vanderbilt University"
+          ]
+        },
+        {
+          "name": "Hongchao Zhang",
+          "affiliations": [
+            "Vanderbilt University"
+          ]
+        },
+        {
+          "name": "Taylor T. Johnson",
+          "affiliations": [
+            "Vanderbilt University"
+          ]
         }
       ]
     }
