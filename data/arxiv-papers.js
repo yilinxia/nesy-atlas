@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-11-18T21:03:02.336Z",
-  "cursorAt": "2026-11-18T21:03:02.336Z",
+  "generatedAt": "2026-11-19T21:07:32.507Z",
+  "cursorAt": "2026-11-19T21:07:32.507Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-11-15T19:13:33.876Z",
   "keywords": [
@@ -15,11 +15,137 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-11-17T21:28:18.277Z",
-  "windowStart": "2026-11-10T21:28:18.277Z",
+  "previousSnapshotAt": "2026-11-18T21:03:02.336Z",
+  "windowStart": "2026-11-11T21:03:02.336Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2611.24187",
+    "title": "Worth Another Look:Constrained World-Model Planning for Visual Inspection",
+    "abstract": "Visual inspection in field robotics and environmental monitoring must localize multiple targets under strict compute and sensing caps. Exhaustive sweeps waste calls on absent classes, while myopic and search-free policies stumble over heterogeneous tariff cliffs or discard viewport edits whose value emerges only after re-querying. We formulate inspection over frozen detectors as neuro-symbolic observation planning under partial observability, decoupling a compact recurrent world model (WM) from exact symbolic feasibility and tariff rules. Receding-horizon beam search with online replanning jointly schedules class queries, crops, enhancements, and termination (stop), paired with slack-aware shadow pricing and legal fallback at larger budgets. Across eight terrestrial, optical, and sonar benchmarks, multi-step lookahead outperforms static schedules and search-free offline RL under tight budgets -- gaining up to 28.4 AP percentage points over static priority on RUOD and 15.1 on ARIS -- while dynamic pricing lifts large-budget performance on all eight domains at 11 ms planning cost. Ultimately, pairing lightweight learned dynamics with exact symbolic constraints turns frozen detectors into adaptive, budget-aware inspection agents without retraining.",
+    "authors": [
+      "Ziyue Kang",
+      "Zixi Qi",
+      "Yuchen Dai",
+      "Nana Lv",
+      "Xirong Cheng",
+      "Liang Liu",
+      "Ying Li",
+      "Haoyan Wei",
+      "Haiyang Yao"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Ziyue Kang",
+        "affiliations": []
+      },
+      {
+        "name": "Zixi Qi",
+        "affiliations": []
+      },
+      {
+        "name": "Yuchen Dai",
+        "affiliations": []
+      },
+      {
+        "name": "Nana Lv",
+        "affiliations": []
+      },
+      {
+        "name": "Xirong Cheng",
+        "affiliations": []
+      },
+      {
+        "name": "Liang Liu",
+        "affiliations": []
+      },
+      {
+        "name": "Ying Li",
+        "affiliations": []
+      },
+      {
+        "name": "Haoyan Wei",
+        "affiliations": []
+      },
+      {
+        "name": "Haiyang Yao",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-18",
+    "updated": "2026-11-18",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG",
+      "cs.MM"
+    ],
+    "primaryCategory": "cs.RO",
+    "url": "https://arxiv.org/abs/2611.24187",
+    "pdfUrl": "https://arxiv.org/pdf/2611.24187",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.23507",
+    "title": "ACaM: Automated Capability Modeling for Agentic AI Security",
+    "abstract": "In agentic AI systems, an LLM invokes tools that hold standing access to credentials, private data, filesystems, and external services. Such agents are increasingly deployed without an answer to a basic question: what can an agent access, exfiltrate, and propagate, independent of what it is designed for or is observed to do? The question goes unanswered because existing approaches trust a tool's natural-language description as a proxy for its behavior. But nothing enforces that the description and its implementation agree. This gap is known as Description-Code Inconsistency (DCI). DCI enables a threat class called capability laundering, in which a tool's implementation contains dangerous behavior that its description omits. The behavior may come from incidental drift or a supply-chain compromise. It runs silently whenever an LLM invokes the tool for its stated, benign purpose. We present ACaM, a neurosymbolic approach to capability modeling that derives each tool's capabilities from its code, so a laundered capability cannot hide behind a benign description. In ACaM, static analysis grounds an LLM in code-derived facts, and no LLM output can override a fact that static analysis has established. The LLM supplies only the behavioral meaning that those facts cannot express. ACaM compiles agent source code into the Agent Capability Property Graph (ACPG) and uses it to reconstruct threat chains that span multiple tool calls. We evaluate ACaM on 43 real-world agents, including 9 multi-agent systems. On 24 manually annotated agents, it recovers capability properties with 98.3% macro-F1 and reconstructs injected threat chains with a score of 0.980, 8 points above the strongest baseline. Applied to all 43 unmodified agents, it discovers hundreds of structural vulnerabilities, ten of which we confirm with proof-of-concept exploits.",
+    "authors": [
+      "Monika Santra",
+      "Dhilung Kirat",
+      "Qiushi Wu",
+      "Kevin Eykholt",
+      "Xiaokui Shu",
+      "Ian Molloy"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Monika Santra",
+        "affiliations": []
+      },
+      {
+        "name": "Dhilung Kirat",
+        "affiliations": []
+      },
+      {
+        "name": "Qiushi Wu",
+        "affiliations": []
+      },
+      {
+        "name": "Kevin Eykholt",
+        "affiliations": []
+      },
+      {
+        "name": "Xiaokui Shu",
+        "affiliations": []
+      },
+      {
+        "name": "Ian Molloy",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "categories": [
+      "cs.CR"
+    ],
+    "primaryCategory": "cs.CR",
+    "url": "https://arxiv.org/abs/2611.23507",
+    "pdfUrl": "https://arxiv.org/pdf/2611.23507",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
   {
     "id": "2611.22673",
     "title": "FVScore: Specification-Driven Neuro-Symbolic Video Evaluation",

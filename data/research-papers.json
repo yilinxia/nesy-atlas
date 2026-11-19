@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T21:03:02.814Z",
+  "generatedAt": "2026-11-19T21:07:32.986Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1924,
+  "paperCount": 1926,
   "completeMetadataCount": 1373,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1619
+      "count": 1621
     },
     {
       "id": "nesy-proceedings",
@@ -24429,6 +24429,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:67362231e8d09896",
+        "name": "Dhilung Kirat",
+        "aliases": [
+          "Dhilung Kirat"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:46652a358a90429e",
         "name": "Dhiraj Joshi",
         "aliases": [
@@ -29806,6 +29815,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:3c41ab232f0c6c55",
+        "name": "Haiyang Yao",
+        "aliases": [
+          "Haiyang Yao"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:3386b6e1b75d3b9e",
         "name": "Haizhao Fan",
         "aliases": [
@@ -30521,6 +30539,15 @@
         "institutionIds": [
           "institution:c17b5dc0c46b5852"
         ]
+      },
+      {
+        "id": "author:43703eb00adb6d16",
+        "name": "Haoyan Wei",
+        "aliases": [
+          "Haoyan Wei"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:c5039b13a9b9d39d",
@@ -32245,6 +32272,15 @@
         "institutionIds": [
           "institution:264737ef3fba38d4"
         ]
+      },
+      {
+        "id": "author:657ab648e5790147",
+        "name": "Ian Molloy",
+        "aliases": [
+          "Ian Molloy"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:e8081c0949c7429b",
@@ -38409,6 +38445,15 @@
         ]
       },
       {
+        "id": "author:984eeaca58ee8e66",
+        "name": "Kevin Eykholt",
+        "aliases": [
+          "Kevin Eykholt"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:2b37068838602207",
         "name": "Kevin Ferreira",
         "aliases": [
@@ -39927,6 +39972,15 @@
         "name": "Liang Lin",
         "aliases": [
           "Liang Lin"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:03999ae7eecf4a64",
+        "name": "Liang Liu",
+        "aliases": [
+          "Liang Liu"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -45916,6 +45970,15 @@
         ]
       },
       {
+        "id": "author:5be70c688f07423d",
+        "name": "Monika Santra",
+        "aliases": [
+          "Monika Santra"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:589b43b797e2ea2b",
         "name": "Mor Vered",
         "aliases": [
@@ -46622,6 +46685,15 @@
         "name": "Nan Jiang",
         "aliases": [
           "Nan Jiang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:c952fb61f460bc54",
+        "name": "Nana Lv",
+        "aliases": [
+          "Nana Lv"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -50673,6 +50745,15 @@
         "name": "Qiujiang Guo",
         "aliases": [
           "Qiujiang Guo"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:3cc0775932a251b6",
+        "name": "Qiushi Wu",
+        "aliases": [
+          "Qiushi Wu"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -62815,6 +62896,15 @@
         ]
       },
       {
+        "id": "author:bdae25ed63595b79",
+        "name": "Xiaokui Shu",
+        "aliases": [
+          "Xiaokui Shu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:c0fb4e21077bd8c5",
         "name": "Xiaokun Luan",
         "aliases": [
@@ -63434,6 +63524,15 @@
         "institutionIds": [
           "institution:aaadc31b1826c3b9"
         ]
+      },
+      {
+        "id": "author:819d1aff897f9128",
+        "name": "Xirong Cheng",
+        "aliases": [
+          "Xirong Cheng"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:7b850c5d10d6c278",
@@ -65377,6 +65476,15 @@
         ]
       },
       {
+        "id": "author:21d9013ee69789c9",
+        "name": "Ying Li",
+        "aliases": [
+          "Ying Li"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:344f9b9844030b7e",
         "name": "Yinghao Fu",
         "aliases": [
@@ -66585,6 +66693,15 @@
         "institutionIds": [
           "institution:ac9dc63b4bd4669a"
         ]
+      },
+      {
+        "id": "author:ab435049a7e8d3fb",
+        "name": "Yuchen Dai",
+        "aliases": [
+          "Yuchen Dai"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:3e90fbbe1f8bc8e3",
@@ -70013,6 +70130,15 @@
         ]
       },
       {
+        "id": "author:35f1dee3a57dc382",
+        "name": "Zixi Qi",
+        "aliases": [
+          "Zixi Qi"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:a725d42ac9820150",
         "name": "Zixu Yang",
         "aliases": [
@@ -70117,6 +70243,15 @@
         "name": "Ziyu Kong",
         "aliases": [
           "Ziyu Kong"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:32fc7e973e4643f3",
+        "name": "Ziyue Kang",
+        "aliases": [
+          "Ziyue Kang"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -388597,6 +388732,330 @@
           "affiliations": [
             "Vanderbilt University"
           ]
+        }
+      ]
+    },
+    {
+      "id": "2611.24187",
+      "title": "Worth Another Look:Constrained World-Model Planning for Visual Inspection",
+      "abstract": "Visual inspection in field robotics and environmental monitoring must localize multiple targets under strict compute and sensing caps. Exhaustive sweeps waste calls on absent classes, while myopic and search-free policies stumble over heterogeneous tariff cliffs or discard viewport edits whose value emerges only after re-querying. We formulate inspection over frozen detectors as neuro-symbolic observation planning under partial observability, decoupling a compact recurrent world model (WM) from exact symbolic feasibility and tariff rules. Receding-horizon beam search with online replanning jointly schedules class queries, crops, enhancements, and termination (stop), paired with slack-aware shadow pricing and legal fallback at larger budgets. Across eight terrestrial, optical, and sonar benchmarks, multi-step lookahead outperforms static schedules and search-free offline RL under tight budgets -- gaining up to 28.4 AP percentage points over static priority on RUOD and 15.1 on ARIS -- while dynamic pricing lifts large-budget performance on all eight domains at 11 ms planning cost. Ultimately, pairing lightweight learned dynamics with exact symbolic constraints turns frozen detectors into adaptive, budget-aware inspection agents without retraining.",
+      "authors": [
+        "Ziyue Kang",
+        "Zixi Qi",
+        "Yuchen Dai",
+        "Nana Lv",
+        "Xirong Cheng",
+        "Liang Liu",
+        "Ying Li",
+        "Haoyan Wei",
+        "Haiyang Yao"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Ziyue Kang",
+          "authorEntityId": "author:32fc7e973e4643f3",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ziyue Kang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zixi Qi",
+          "authorEntityId": "author:35f1dee3a57dc382",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zixi Qi",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yuchen Dai",
+          "authorEntityId": "author:ab435049a7e8d3fb",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yuchen Dai",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Nana Lv",
+          "authorEntityId": "author:c952fb61f460bc54",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Nana Lv",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xirong Cheng",
+          "authorEntityId": "author:819d1aff897f9128",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xirong Cheng",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Liang Liu",
+          "authorEntityId": "author:03999ae7eecf4a64",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Liang Liu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ying Li",
+          "authorEntityId": "author:21d9013ee69789c9",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ying Li",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Haoyan Wei",
+          "authorEntityId": "author:43703eb00adb6d16",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Haoyan Wei",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Haiyang Yao",
+          "authorEntityId": "author:3c41ab232f0c6c55",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Haiyang Yao",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG",
+        "cs.MM"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.24187",
+      "pdfUrl": "https://arxiv.org/pdf/2611.24187",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.24187",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:8f7ace0f6d4f849a",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Ziyue Kang",
+        "Zixi Qi",
+        "Yuchen Dai",
+        "Nana Lv",
+        "Xirong Cheng",
+        "Liang Liu",
+        "Ying Li",
+        "Haoyan Wei",
+        "Haiyang Yao"
+      ],
+      "authorEntityIds": [
+        "author:32fc7e973e4643f3",
+        "author:35f1dee3a57dc382",
+        "author:ab435049a7e8d3fb",
+        "author:c952fb61f460bc54",
+        "author:819d1aff897f9128",
+        "author:03999ae7eecf4a64",
+        "author:21d9013ee69789c9",
+        "author:43703eb00adb6d16",
+        "author:3c41ab232f0c6c55"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Ziyue Kang",
+          "affiliations": []
+        },
+        {
+          "name": "Zixi Qi",
+          "affiliations": []
+        },
+        {
+          "name": "Yuchen Dai",
+          "affiliations": []
+        },
+        {
+          "name": "Nana Lv",
+          "affiliations": []
+        },
+        {
+          "name": "Xirong Cheng",
+          "affiliations": []
+        },
+        {
+          "name": "Liang Liu",
+          "affiliations": []
+        },
+        {
+          "name": "Ying Li",
+          "affiliations": []
+        },
+        {
+          "name": "Haoyan Wei",
+          "affiliations": []
+        },
+        {
+          "name": "Haiyang Yao",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.23507",
+      "title": "ACaM: Automated Capability Modeling for Agentic AI Security",
+      "abstract": "In agentic AI systems, an LLM invokes tools that hold standing access to credentials, private data, filesystems, and external services. Such agents are increasingly deployed without an answer to a basic question: what can an agent access, exfiltrate, and propagate, independent of what it is designed for or is observed to do? The question goes unanswered because existing approaches trust a tool's natural-language description as a proxy for its behavior. But nothing enforces that the description and its implementation agree. This gap is known as Description-Code Inconsistency (DCI). DCI enables a threat class called capability laundering, in which a tool's implementation contains dangerous behavior that its description omits. The behavior may come from incidental drift or a supply-chain compromise. It runs silently whenever an LLM invokes the tool for its stated, benign purpose. We present ACaM, a neurosymbolic approach to capability modeling that derives each tool's capabilities from its code, so a laundered capability cannot hide behind a benign description. In ACaM, static analysis grounds an LLM in code-derived facts, and no LLM output can override a fact that static analysis has established. The LLM supplies only the behavioral meaning that those facts cannot express. ACaM compiles agent source code into the Agent Capability Property Graph (ACPG) and uses it to reconstruct threat chains that span multiple tool calls. We evaluate ACaM on 43 real-world agents, including 9 multi-agent systems. On 24 manually annotated agents, it recovers capability properties with 98.3% macro-F1 and reconstructs injected threat chains with a score of 0.980, 8 points above the strongest baseline. Applied to all 43 unmodified agents, it discovers hundreds of structural vulnerabilities, ten of which we confirm with proof-of-concept exploits.",
+      "authors": [
+        "Monika Santra",
+        "Dhilung Kirat",
+        "Qiushi Wu",
+        "Kevin Eykholt",
+        "Xiaokui Shu",
+        "Ian Molloy"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Monika Santra",
+          "authorEntityId": "author:5be70c688f07423d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Monika Santra",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Dhilung Kirat",
+          "authorEntityId": "author:67362231e8d09896",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Dhilung Kirat",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Qiushi Wu",
+          "authorEntityId": "author:3cc0775932a251b6",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Qiushi Wu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Kevin Eykholt",
+          "authorEntityId": "author:984eeaca58ee8e66",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Kevin Eykholt",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xiaokui Shu",
+          "authorEntityId": "author:bdae25ed63595b79",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xiaokui Shu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ian Molloy",
+          "authorEntityId": "author:657ab648e5790147",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ian Molloy",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.CR"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-17",
+      "url": "https://arxiv.org/abs/2611.23507",
+      "pdfUrl": "https://arxiv.org/pdf/2611.23507",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.23507",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:2a0d20823ea7213f",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Monika Santra",
+        "Dhilung Kirat",
+        "Qiushi Wu",
+        "Kevin Eykholt",
+        "Xiaokui Shu",
+        "Ian Molloy"
+      ],
+      "authorEntityIds": [
+        "author:5be70c688f07423d",
+        "author:67362231e8d09896",
+        "author:3cc0775932a251b6",
+        "author:984eeaca58ee8e66",
+        "author:bdae25ed63595b79",
+        "author:657ab648e5790147"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Monika Santra",
+          "affiliations": []
+        },
+        {
+          "name": "Dhilung Kirat",
+          "affiliations": []
+        },
+        {
+          "name": "Qiushi Wu",
+          "affiliations": []
+        },
+        {
+          "name": "Kevin Eykholt",
+          "affiliations": []
+        },
+        {
+          "name": "Xiaokui Shu",
+          "affiliations": []
+        },
+        {
+          "name": "Ian Molloy",
+          "affiliations": []
         }
       ]
     }
