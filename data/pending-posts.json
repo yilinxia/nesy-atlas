@@ -3202,5 +3202,23 @@
     "sourceUrl": "https://www.expert.ai/news-resources/",
     "discovered": "2026-11-18",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "AI Governance 11.19.2026 Agentic AI Security: Prompt Injection, Blast Radius and Permissions Read",
+    "date": "2026-11-19",
+    "url": "https://www.kognitos.com/blog/agentic-ai-security/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-11-19",
+    "status": "needs-review"
+  },
+  {
+    "company": "UnlikelyAI",
+    "title": "Nov 19, 2026 Blog Decision models are landing in enterprises. The hardest decisions are still out of reach Decision models give one reliable answer, not generated text. But that isn't a decision you can defend. What they automate, and where they stop. Maria Kuroedova",
+    "date": "2026-11-19",
+    "url": "https://www.unlikely.ai/newsroom/decision-models-what-they-automate",
+    "sourceUrl": "https://www.unlikely.ai/newsroom",
+    "discovered": "2026-11-19",
+    "status": "needs-review"
   }
 ]
