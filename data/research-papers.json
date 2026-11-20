@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T21:07:32.986Z",
+  "generatedAt": "2026-11-20T20:52:53.016Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1926,
+  "paperCount": 1930,
   "completeMetadataCount": 1373,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1621
+      "count": 1625
     },
     {
       "id": "nesy-proceedings",
@@ -7463,6 +7463,17 @@
         ]
       },
       {
+        "id": "author:a13707faf3e51052",
+        "name": "Deyun Qin",
+        "aliases": [
+          "Deyun Qin"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:70f74652d14cacde"
+        ]
+      },
+      {
         "id": "author:49fa9d525c41ca47",
         "name": "Didier Chetelat",
         "aliases": [
@@ -8236,6 +8247,18 @@
           "institution:8e2eb8b443bc3b62",
           "institution:a6ac333bec2fe549",
           "institution:e6405787e8a9312c"
+        ]
+      },
+      {
+        "id": "author:cdbf47a734dac4c7",
+        "name": "Hanqian Luo",
+        "aliases": [
+          "Hanqian Luo"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:70f74652d14cacde",
+          "institution:a7d5cec59e029db5"
         ]
       },
       {
@@ -11325,6 +11348,17 @@
         "institutionIds": []
       },
       {
+        "id": "author:30e8e8cbfb45393e",
+        "name": "Shizhen Wu",
+        "aliases": [
+          "Shizhen Wu"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:70f74652d14cacde"
+        ]
+      },
+      {
         "id": "author:4da9610057b7a429",
         "name": "Shouhuai Xu",
         "aliases": [
@@ -13155,6 +13189,17 @@
         ]
       },
       {
+        "id": "author:2d290417261936ed",
+        "name": "Yongchun Fang",
+        "aliases": [
+          "Yongchun Fang"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:70f74652d14cacde"
+        ]
+      },
+      {
         "id": "author:974e7bd10f0520e9",
         "name": "Yonggan Fu",
         "aliases": [
@@ -13357,6 +13402,18 @@
         ]
       },
       {
+        "id": "author:e68c9dd66da1583c",
+        "name": "Zezhi Liu",
+        "aliases": [
+          "Zezhi Liu"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:70f74652d14cacde",
+          "institution:e6f933f76267778a"
+        ]
+      },
+      {
         "id": "author:16a32d7a1971b8a6",
         "name": "Zhengying Liu",
         "aliases": [
@@ -13500,6 +13557,17 @@
           "institution:49ef3abf8ae8a93a",
           "institution:a6271e81317a591a",
           "institution:c5235efb76365de2"
+        ]
+      },
+      {
+        "id": "author:63db20e056d15b94",
+        "name": "Zhiwei Zheng",
+        "aliases": [
+          "Zhiwei Zheng"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:70f74652d14cacde"
         ]
       },
       {
@@ -14648,6 +14716,15 @@
         "name": "Addison Lin Wang",
         "aliases": [
           "Addison Lin Wang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:830815704e1312e9",
+        "name": "Adel Ammar",
+        "aliases": [
+          "Adel Ammar"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -24353,17 +24430,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:a13707faf3e51052",
-        "name": "Deyun Qin",
-        "aliases": [
-          "Deyun Qin"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:70f74652d14cacde"
-        ]
-      },
-      {
         "id": "author:d1bea1e903e9d300",
         "name": "Dezhong Zhao",
         "aliases": [
@@ -30132,18 +30198,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:cdbf47a734dac4c7",
-        "name": "Hanqian Luo",
-        "aliases": [
-          "Hanqian Luo"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:70f74652d14cacde",
-          "institution:a7d5cec59e029db5"
-        ]
       },
       {
         "id": "author:80c404051cc04e35",
@@ -37073,6 +37127,15 @@
         "institutionIds": [
           "institution:46e4866d3b2954ab"
         ]
+      },
+      {
+        "id": "author:91dcfd5aa5e1f739",
+        "name": "Junfeng Nie",
+        "aliases": [
+          "Junfeng Nie"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:fee6d4a5dadd8395",
@@ -46780,6 +46843,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:adc7aea239444725",
+        "name": "Narendra Badam",
+        "aliases": [
+          "Narendra Badam"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:fe0376460f715f91",
         "name": "Narjes Davari",
         "aliases": [
@@ -55533,17 +55605,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:30e8e8cbfb45393e",
-        "name": "Shizhen Wu",
-        "aliases": [
-          "Shizhen Wu"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:70f74652d14cacde"
-        ]
-      },
-      {
         "id": "author:91b93b50c085c339",
         "name": "Shizhu He",
         "aliases": [
@@ -55990,6 +56051,15 @@
         "institutionIds": [
           "institution:323e7eabc230aa6a"
         ]
+      },
+      {
+        "id": "author:4b9aaaa2bdbe0fea",
+        "name": "Sibangi Subhadarsani",
+        "aliases": [
+          "Sibangi Subhadarsani"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:2920f95ce91f5989",
@@ -57006,6 +57076,15 @@
         "institutionIds": [
           "institution:4f85329e76bc9454"
         ]
+      },
+      {
+        "id": "author:aa16a9f3c746707c",
+        "name": "Soumaya Chaffar",
+        "aliases": [
+          "Soumaya Chaffar"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:baf4673db98376d3",
@@ -60085,6 +60164,15 @@
         ]
       },
       {
+        "id": "author:f63e6af49e395d63",
+        "name": "Una Suman Kumar Patro",
+        "aliases": [
+          "Una Suman Kumar Patro"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:8e23ddc9135c19eb",
         "name": "Unai Ayucar-Carbajo",
         "aliases": [
@@ -61061,6 +61149,15 @@
         "institutionIds": [
           "institution:d1449caf2bbc5c75"
         ]
+      },
+      {
+        "id": "author:9fe769dec906baaf",
+        "name": "Wadii Boulila",
+        "aliases": [
+          "Wadii Boulila"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:b3fa582b087810cd",
@@ -62845,6 +62942,15 @@
         "institutionIds": [
           "institution:baa1df7c4adddbda"
         ]
+      },
+      {
+        "id": "author:6c4297f841fce9c0",
+        "name": "Xiaohui Chen",
+        "aliases": [
+          "Xiaohui Chen"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:b45d32e024326bab",
@@ -65950,17 +66056,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:2d290417261936ed",
-        "name": "Yongchun Fang",
-        "aliases": [
-          "Yongchun Fang"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:70f74652d14cacde"
-        ]
-      },
-      {
         "id": "author:862632cb707fd6da",
         "name": "Yongheng Zhang",
         "aliases": [
@@ -66277,6 +66372,15 @@
         "name": "Yousef Alhessi",
         "aliases": [
           "Yousef Alhessi"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:b11362e7a68d061d",
+        "name": "Youssef ElNahas",
+        "aliases": [
+          "Youssef ElNahas"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -68378,18 +68482,6 @@
         ]
       },
       {
-        "id": "author:e68c9dd66da1583c",
-        "name": "Zezhi Liu",
-        "aliases": [
-          "Zezhi Liu"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:70f74652d14cacde",
-          "institution:e6f933f76267778a"
-        ]
-      },
-      {
         "id": "author:ae21db3570772959",
         "name": "Zhan Su",
         "aliases": [
@@ -69271,17 +69363,6 @@
         "institutionIds": [
           "institution:32bac4c90d8e7edd",
           "institution:4ae45b121fe12e9c"
-        ]
-      },
-      {
-        "id": "author:63db20e056d15b94",
-        "name": "Zhiwei Zheng",
-        "aliases": [
-          "Zhiwei Zheng"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:70f74652d14cacde"
         ]
       },
       {
@@ -389055,6 +389136,426 @@
         },
         {
           "name": "Ian Molloy",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.25898",
+      "title": "Verifiable Logic in Medical LLMs: A Critical Review of Agentic Clinical Reasoning Optimization and Neuro-Symbolic Grounding",
+      "abstract": "Clinical large language models are usually judged by whether the final answer is right. Yet a model can reach a fluent, plausible output through invalid reasoning that static benchmarks do not detect, and confident hallucination, causally invalid inference, and spurious demographic shortcuts can pass conventional evaluation. This critical review covers four paradigms in turn: how clinical hallucination arises and why static metrics miss it; the agentic hallucination cascade, in which multi-agent and tool-augmented systems propagate and amplify early reasoning errors; process reward modeling as step-level supervision; and neuro-symbolic grounding, in which formal logic engines, ontology reasoners, and knowledge graphs place verifiable constraints on neural output. Within their encoded domains, systems with symbolic veto layers offer guarantees that hold relative to their encoded knowledge, and they report large gains on the safety measures they use. These results come from single studies, mostly in simulated or small-sample settings, and are not directly comparable with neural baselines. Process reward models remain bounded by the statistics of their training data. We propose a conceptual framework that maps each agentic failure mode to a symbolic intervention point, and we argue that clinical AI safety depends substantially on system architecture. Because current regulation emphasizes performance and does not require verification of reasoning steps, we argue that responsible certification should also audit reasoning trajectories alongside accuracy on static benchmarks.",
+      "authors": [
+        "Youssef ElNahas",
+        "Adel Ammar",
+        "Soumaya Chaffar",
+        "Wadii Boulila"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Youssef ElNahas",
+          "authorEntityId": "author:b11362e7a68d061d",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Youssef ElNahas",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Adel Ammar",
+          "authorEntityId": "author:830815704e1312e9",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Adel Ammar",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Soumaya Chaffar",
+          "authorEntityId": "author:aa16a9f3c746707c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Soumaya Chaffar",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Wadii Boulila",
+          "authorEntityId": "author:9fe769dec906baaf",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Wadii Boulila",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CY",
+        "cs.LG"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.25898",
+      "pdfUrl": "https://arxiv.org/pdf/2611.25898",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.25898",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:2940e0cbcf0582cd",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Youssef ElNahas",
+        "Adel Ammar",
+        "Soumaya Chaffar",
+        "Wadii Boulila"
+      ],
+      "authorEntityIds": [
+        "author:b11362e7a68d061d",
+        "author:830815704e1312e9",
+        "author:aa16a9f3c746707c",
+        "author:9fe769dec906baaf"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Youssef ElNahas",
+          "affiliations": []
+        },
+        {
+          "name": "Adel Ammar",
+          "affiliations": []
+        },
+        {
+          "name": "Soumaya Chaffar",
+          "affiliations": []
+        },
+        {
+          "name": "Wadii Boulila",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.25589",
+      "title": "GraF-VTA: Neuro-Symbolic Trajectory Generation from Vision and Temporal Logic via Graph-Based Fusion",
+      "abstract": "Robotic planning from visual observations and signal temporal logic (STL) requires grounding task requirements in scene evidence while adapting plans to execution feedback. We present GraF-VTA, a graph-based framework that extends Vision-TL-Action with structured task representations, causal observation history, and closed-loop trajectory generation. Bidirectional cross-attention fuses STL syntax tokens with visual features, while an optional frozen automaton embedding supplies complementary untimed task structure. A temporal pyramid preserves detailed current observations and compresses older frames to provide recent execution context. Conditioned on these features and robot state, a flow-matching model generates plans whose action prefixes are executed before replanning from refreshed observations. Across five simulation environments, the single-graph configuration achieves higher open-loop Success@$K$ than TeLoGraF and Vision-TL-Action on four environments at the reported budgets $K\\geq16$. On Panda, matched-update ablations increase Success@256 from 53.91\\% without observation history to 62.50\\% with pyramid memory. In closed-loop Dubins evaluation, it reaches 64.06\\% Success@1024, compared with 12.50\\% for adapted S-MSP and 27.34\\% for adapted Logic-VLA. These results support combining structured visual conditioning with observation history and replanning to improve coverage of STL-satisfying trajectories.",
+      "authors": [
+        "Zezhi Liu",
+        "Zhiwei Zheng",
+        "Hanqian Luo",
+        "Deyun Qin",
+        "Shizhen Wu",
+        "Yongchun Fang"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Zezhi Liu",
+          "authorEntityId": "author:e68c9dd66da1583c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zezhi Liu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zhiwei Zheng",
+          "authorEntityId": "author:63db20e056d15b94",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zhiwei Zheng",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Hanqian Luo",
+          "authorEntityId": "author:cdbf47a734dac4c7",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Hanqian Luo",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Deyun Qin",
+          "authorEntityId": "author:a13707faf3e51052",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Deyun Qin",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Shizhen Wu",
+          "authorEntityId": "author:30e8e8cbfb45393e",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Shizhen Wu",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yongchun Fang",
+          "authorEntityId": "author:2d290417261936ed",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yongchun Fang",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-19",
+      "url": "https://arxiv.org/abs/2611.25589",
+      "pdfUrl": "https://arxiv.org/pdf/2611.25589",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.25589",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:19471aedd42d5831",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Zezhi Liu",
+        "Zhiwei Zheng",
+        "Hanqian Luo",
+        "Deyun Qin",
+        "Shizhen Wu",
+        "Yongchun Fang"
+      ],
+      "authorEntityIds": [
+        "author:e68c9dd66da1583c",
+        "author:63db20e056d15b94",
+        "author:cdbf47a734dac4c7",
+        "author:a13707faf3e51052",
+        "author:30e8e8cbfb45393e",
+        "author:2d290417261936ed"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Zezhi Liu",
+          "affiliations": []
+        },
+        {
+          "name": "Zhiwei Zheng",
+          "affiliations": []
+        },
+        {
+          "name": "Hanqian Luo",
+          "affiliations": []
+        },
+        {
+          "name": "Deyun Qin",
+          "affiliations": []
+        },
+        {
+          "name": "Shizhen Wu",
+          "affiliations": []
+        },
+        {
+          "name": "Yongchun Fang",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.25236",
+      "title": "A Neurosymbolic Multimodal Framework for 30-Day Diabetic Readmission Prediction: Integrating Structured EHR Data, Dense Clinical Embeddings, and Knowledge-Grounded Symbolic Extraction",
+      "abstract": "Unplanned 30-day readmissions among patients with diabetes mellitus impose a substantial clinical and economic burden, yet most predictive models use only structured electronic health record (EHR) data and ignore free-text clinical notes, which often contain code-mixed Hindi-English (Hinglish) phrasing and negation that general-purpose language models parse unreliably. We propose a neurosymbolic multimodal framework evaluated on the public Diabetes 130-US Hospitals dataset (101,766 encounters; 71,518 patients) with a patient-level grouped 80/20 split. Three streams are fused: engineered structured features; 32 components of Bio_ClinicalBERT note embeddings obtained by truncated singular value decomposition; and symbolic entities extracted by an open-weight clinical language model within a three-stage hybrid retrieval-augmented generation pipeline (dense retrieval, sparse lexical retrieval, and cross-encoder re-ranking) with reflective negation auditing. A cost-sensitive XGBoost classifier with a decision threshold calibrated by Youden's J statistic produces the prediction. On the held-out test cohort (n = 20,153), the structured baseline achieved an area under the receiver operating characteristic curve (AUROC) of 0.6477, sensitivity of 0.5839, and Brier score of 0.1080. The full multimodal model achieved the highest sensitivity (0.6667; +8.28 percentage points), the best F2-score (0.3824), and the lowest Brier score (0.0977), at a slightly lower AUROC (0.6375) and specificity (0.5161). Shapley additive explanations showed that prior utilization dominates risk, with compressed narrative components among the top predictors. On a 500-note code-switched benchmark, grounded retrieval raised Hinglish symptom recall from 4.8% to 40.2% and precision from 3.1% to 45.2%, while reducing entity hallucinations from 1.74 to 0.00 per note.",
+      "authors": [
+        "Una Suman Kumar Patro",
+        "Sibangi Subhadarsani",
+        "Narendra Badam"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Una Suman Kumar Patro",
+          "authorEntityId": "author:f63e6af49e395d63",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Una Suman Kumar Patro",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Sibangi Subhadarsani",
+          "authorEntityId": "author:4b9aaaa2bdbe0fea",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Sibangi Subhadarsani",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Narendra Badam",
+          "authorEntityId": "author:adc7aea239444725",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Narendra Badam",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.25236",
+      "pdfUrl": "https://arxiv.org/pdf/2611.25236",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.25236",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:b62b95f1f7112643",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Una Suman Kumar Patro",
+        "Sibangi Subhadarsani",
+        "Narendra Badam"
+      ],
+      "authorEntityIds": [
+        "author:f63e6af49e395d63",
+        "author:4b9aaaa2bdbe0fea",
+        "author:adc7aea239444725"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Una Suman Kumar Patro",
+          "affiliations": []
+        },
+        {
+          "name": "Sibangi Subhadarsani",
+          "affiliations": []
+        },
+        {
+          "name": "Narendra Badam",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.25111",
+      "title": "DSFlow: A Neuro-Symbolic Data Workflow Agent with Statistical Diagnostic Guardrails",
+      "abstract": "Data science workflows often require tools that presume non-trivial technical knowledge. Large language models (LLMs) reduce this barrier, but a gap remains between flexible general-purpose agents and statistically controlled pipelines. We introduce DSFlow, a LangGraph-based neuro-symbolic data-agent platform that combines reusable, LLM-selected skills with deterministic diagnostic guardrails. Skills provide extensible task knowledge. Symbolic validation can accept a proposed method, request clarification or replanning, override an unsuitable method, or supply a safe fallback. Regression and clustering case studies illustrate how DSFlow uses diagnostic evidence to correct method choices and documents those decisions in auditable reports.",
+      "authors": [
+        "Junfeng Nie",
+        "Xiaohui Chen"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Junfeng Nie",
+          "authorEntityId": "author:91dcfd5aa5e1f739",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Junfeng Nie",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xiaohui Chen",
+          "authorEntityId": "author:6c4297f841fce9c0",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xiaohui Chen",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-18",
+      "url": "https://arxiv.org/abs/2611.25111",
+      "pdfUrl": "https://arxiv.org/pdf/2611.25111",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.25111",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:e6ce4f870e262891",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Junfeng Nie",
+        "Xiaohui Chen"
+      ],
+      "authorEntityIds": [
+        "author:91dcfd5aa5e1f739",
+        "author:6c4297f841fce9c0"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Junfeng Nie",
+          "affiliations": []
+        },
+        {
+          "name": "Xiaohui Chen",
           "affiliations": []
         }
       ]

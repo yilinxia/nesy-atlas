@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-11-19T21:07:32.507Z",
-  "cursorAt": "2026-11-19T21:07:32.507Z",
+  "generatedAt": "2026-11-20T20:52:52.492Z",
+  "cursorAt": "2026-11-20T20:52:52.492Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-11-15T19:13:33.876Z",
   "keywords": [
@@ -15,11 +15,191 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-11-18T21:03:02.336Z",
-  "windowStart": "2026-11-11T21:03:02.336Z",
+  "previousSnapshotAt": "2026-11-19T21:07:32.507Z",
+  "windowStart": "2026-11-12T21:07:32.507Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2611.25898",
+    "title": "Verifiable Logic in Medical LLMs: A Critical Review of Agentic Clinical Reasoning Optimization and Neuro-Symbolic Grounding",
+    "abstract": "Clinical large language models are usually judged by whether the final answer is right. Yet a model can reach a fluent, plausible output through invalid reasoning that static benchmarks do not detect, and confident hallucination, causally invalid inference, and spurious demographic shortcuts can pass conventional evaluation. This critical review covers four paradigms in turn: how clinical hallucination arises and why static metrics miss it; the agentic hallucination cascade, in which multi-agent and tool-augmented systems propagate and amplify early reasoning errors; process reward modeling as step-level supervision; and neuro-symbolic grounding, in which formal logic engines, ontology reasoners, and knowledge graphs place verifiable constraints on neural output. Within their encoded domains, systems with symbolic veto layers offer guarantees that hold relative to their encoded knowledge, and they report large gains on the safety measures they use. These results come from single studies, mostly in simulated or small-sample settings, and are not directly comparable with neural baselines. Process reward models remain bounded by the statistics of their training data. We propose a conceptual framework that maps each agentic failure mode to a symbolic intervention point, and we argue that clinical AI safety depends substantially on system architecture. Because current regulation emphasizes performance and does not require verification of reasoning steps, we argue that responsible certification should also audit reasoning trajectories alongside accuracy on static benchmarks.",
+    "authors": [
+      "Youssef ElNahas",
+      "Adel Ammar",
+      "Soumaya Chaffar",
+      "Wadii Boulila"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Youssef ElNahas",
+        "affiliations": []
+      },
+      {
+        "name": "Adel Ammar",
+        "affiliations": []
+      },
+      {
+        "name": "Soumaya Chaffar",
+        "affiliations": []
+      },
+      {
+        "name": "Wadii Boulila",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-19",
+    "updated": "2026-11-19",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.CY",
+      "cs.LG"
+    ],
+    "primaryCategory": "cs.CL",
+    "url": "https://arxiv.org/abs/2611.25898",
+    "pdfUrl": "https://arxiv.org/pdf/2611.25898",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.25589",
+    "title": "GraF-VTA: Neuro-Symbolic Trajectory Generation from Vision and Temporal Logic via Graph-Based Fusion",
+    "abstract": "Robotic planning from visual observations and signal temporal logic (STL) requires grounding task requirements in scene evidence while adapting plans to execution feedback. We present GraF-VTA, a graph-based framework that extends Vision-TL-Action with structured task representations, causal observation history, and closed-loop trajectory generation. Bidirectional cross-attention fuses STL syntax tokens with visual features, while an optional frozen automaton embedding supplies complementary untimed task structure. A temporal pyramid preserves detailed current observations and compresses older frames to provide recent execution context. Conditioned on these features and robot state, a flow-matching model generates plans whose action prefixes are executed before replanning from refreshed observations. Across five simulation environments, the single-graph configuration achieves higher open-loop Success@$K$ than TeLoGraF and Vision-TL-Action on four environments at the reported budgets $K\\geq16$. On Panda, matched-update ablations increase Success@256 from 53.91\\% without observation history to 62.50\\% with pyramid memory. In closed-loop Dubins evaluation, it reaches 64.06\\% Success@1024, compared with 12.50\\% for adapted S-MSP and 27.34\\% for adapted Logic-VLA. These results support combining structured visual conditioning with observation history and replanning to improve coverage of STL-satisfying trajectories.",
+    "authors": [
+      "Zezhi Liu",
+      "Zhiwei Zheng",
+      "Hanqian Luo",
+      "Deyun Qin",
+      "Shizhen Wu",
+      "Yongchun Fang"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Zezhi Liu",
+        "affiliations": []
+      },
+      {
+        "name": "Zhiwei Zheng",
+        "affiliations": []
+      },
+      {
+        "name": "Hanqian Luo",
+        "affiliations": []
+      },
+      {
+        "name": "Deyun Qin",
+        "affiliations": []
+      },
+      {
+        "name": "Shizhen Wu",
+        "affiliations": []
+      },
+      {
+        "name": "Yongchun Fang",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-19",
+    "updated": "2026-11-19",
+    "categories": [
+      "cs.RO"
+    ],
+    "primaryCategory": "cs.RO",
+    "url": "https://arxiv.org/abs/2611.25589",
+    "pdfUrl": "https://arxiv.org/pdf/2611.25589",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": []
+    }
+  },
+  {
+    "id": "2611.25236",
+    "title": "A Neurosymbolic Multimodal Framework for 30-Day Diabetic Readmission Prediction: Integrating Structured EHR Data, Dense Clinical Embeddings, and Knowledge-Grounded Symbolic Extraction",
+    "abstract": "Unplanned 30-day readmissions among patients with diabetes mellitus impose a substantial clinical and economic burden, yet most predictive models use only structured electronic health record (EHR) data and ignore free-text clinical notes, which often contain code-mixed Hindi-English (Hinglish) phrasing and negation that general-purpose language models parse unreliably. We propose a neurosymbolic multimodal framework evaluated on the public Diabetes 130-US Hospitals dataset (101,766 encounters; 71,518 patients) with a patient-level grouped 80/20 split. Three streams are fused: engineered structured features; 32 components of Bio_ClinicalBERT note embeddings obtained by truncated singular value decomposition; and symbolic entities extracted by an open-weight clinical language model within a three-stage hybrid retrieval-augmented generation pipeline (dense retrieval, sparse lexical retrieval, and cross-encoder re-ranking) with reflective negation auditing. A cost-sensitive XGBoost classifier with a decision threshold calibrated by Youden's J statistic produces the prediction. On the held-out test cohort (n = 20,153), the structured baseline achieved an area under the receiver operating characteristic curve (AUROC) of 0.6477, sensitivity of 0.5839, and Brier score of 0.1080. The full multimodal model achieved the highest sensitivity (0.6667; +8.28 percentage points), the best F2-score (0.3824), and the lowest Brier score (0.0977), at a slightly lower AUROC (0.6375) and specificity (0.5161). Shapley additive explanations showed that prior utilization dominates risk, with compressed narrative components among the top predictors. On a 500-note code-switched benchmark, grounded retrieval raised Hinglish symptom recall from 4.8% to 40.2% and precision from 3.1% to 45.2%, while reducing entity hallucinations from 1.74 to 0.00 per note.",
+    "authors": [
+      "Una Suman Kumar Patro",
+      "Sibangi Subhadarsani",
+      "Narendra Badam"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Una Suman Kumar Patro",
+        "affiliations": []
+      },
+      {
+        "name": "Sibangi Subhadarsani",
+        "affiliations": []
+      },
+      {
+        "name": "Narendra Badam",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-18",
+    "updated": "2026-11-18",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.25236",
+    "pdfUrl": "https://arxiv.org/pdf/2611.25236",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.25111",
+    "title": "DSFlow: A Neuro-Symbolic Data Workflow Agent with Statistical Diagnostic Guardrails",
+    "abstract": "Data science workflows often require tools that presume non-trivial technical knowledge. Large language models (LLMs) reduce this barrier, but a gap remains between flexible general-purpose agents and statistically controlled pipelines. We introduce DSFlow, a LangGraph-based neuro-symbolic data-agent platform that combines reusable, LLM-selected skills with deterministic diagnostic guardrails. Skills provide extensible task knowledge. Symbolic validation can accept a proposed method, request clarification or replanning, override an unsuitable method, or supply a safe fallback. Regression and clustering case studies illustrate how DSFlow uses diagnostic evidence to correct method choices and documents those decisions in auditable reports.",
+    "authors": [
+      "Junfeng Nie",
+      "Xiaohui Chen"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Junfeng Nie",
+        "affiliations": []
+      },
+      {
+        "name": "Xiaohui Chen",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-18",
+    "updated": "2026-11-18",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.25111",
+    "pdfUrl": "https://arxiv.org/pdf/2611.25111",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
   {
     "id": "2611.24187",
     "title": "Worth Another Look:Constrained World-Model Planning for Visual Inspection",
@@ -523,7 +703,7 @@ globalThis.ARXIV_PAPERS = [
     ],
     "affiliations": [],
     "published": "2026-11-14",
-    "updated": "2026-11-14",
+    "updated": "2026-11-19",
     "categories": [
       "cs.LG",
       "cs.AI",
