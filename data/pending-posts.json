@@ -3220,5 +3220,14 @@
     "sourceUrl": "https://www.unlikely.ai/newsroom",
     "discovered": "2026-11-19",
     "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "AI Governance 11.20.2026 AI Agent Governance: Registry, Ownership and What Frameworks Assume Read",
+    "date": "2026-11-20",
+    "url": "https://www.kognitos.com/blog/ai-agent-governance/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-11-20",
+    "status": "needs-review"
   }
 ]
