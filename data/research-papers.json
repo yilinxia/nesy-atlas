@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T19:53:59.811Z",
+  "generatedAt": "2026-11-22T20:06:23.620Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1930,
+  "paperCount": 1931,
   "completeMetadataCount": 1373,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1625
+      "count": 1626
     },
     {
       "id": "nesy-proceedings",
@@ -4023,6 +4023,17 @@
           "institution:228b8c5a3b9d4002",
           "institution:6c7dc4ecc36c32ba",
           "institution:ca978112ca1bbdca"
+        ]
+      },
+      {
+        "id": "author:5de377cffeab98c7",
+        "name": "Haoran You",
+        "aliases": [
+          "Haoran You"
+        ],
+        "paperCount": 3,
+        "institutionIds": [
+          "institution:c2dab080fa856716"
         ]
       },
       {
@@ -8311,17 +8322,6 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:d78ce33ae620e2da"
-        ]
-      },
-      {
-        "id": "author:5de377cffeab98c7",
-        "name": "Haoran You",
-        "aliases": [
-          "Haoran You"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:c2dab080fa856716"
         ]
       },
       {
@@ -15118,6 +15118,15 @@
         ]
       },
       {
+        "id": "author:63b7446e83b23349",
+        "name": "Aixi Zhong",
+        "aliases": [
+          "Aixi Zhong"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:c1a201e601072fc2",
         "name": "Ajay Gupta",
         "aliases": [
@@ -18148,15 +18157,6 @@
         "institutionIds": [
           "institution:6a892bbe4ee57122"
         ]
-      },
-      {
-        "id": "author:1721d0174742d6d6",
-        "name": "Aohan Li",
-        "aliases": [
-          "Aohan Li"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
       },
       {
         "id": "author:019616dd42302469",
@@ -21315,6 +21315,15 @@
         "name": "Changran Xu",
         "aliases": [
           "Changran Xu"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:684fdaffb2dbff41",
+        "name": "Changyu Hu",
+        "aliases": [
+          "Changyu Hu"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -25829,6 +25838,15 @@
         ]
       },
       {
+        "id": "author:9ae402eced7ad9cf",
+        "name": "Elhadj Benkhelifa",
+        "aliases": [
+          "Elhadj Benkhelifa"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:92c73e1b4a102b51",
         "name": "Elham Ghiasi",
         "aliases": [
@@ -29890,6 +29908,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:b752607280d5d652",
+        "name": "Haiyong Weng",
+        "aliases": [
+          "Haiyong Weng"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:3386b6e1b75d3b9e",
         "name": "Haizhao Fan",
         "aliases": [
@@ -32588,6 +32615,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:f9ecc42a1ea19ee9",
+        "name": "Ioanna Dionysiou",
+        "aliases": [
+          "Ioanna Dionysiou"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:ba85cc7bd8d0e595",
         "name": "Ioannis Panageas",
         "aliases": [
@@ -34204,6 +34240,15 @@
         "institutionIds": [
           "institution:baa1df7c4adddbda"
         ]
+      },
+      {
+        "id": "author:1ba7448c74c83ed9",
+        "name": "Jialei Zeng",
+        "aliases": [
+          "Jialei Zeng"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:09dd43624b283dad",
@@ -38205,6 +38250,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:890d06318451b337",
+        "name": "Ke Jiang",
+        "aliases": [
+          "Ke Jiang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:dc6421ff3c187d52",
         "name": "Ke Wan",
         "aliases": [
@@ -38506,6 +38560,15 @@
           "institution:284ff7923fa5ad3f",
           "institution:70d16cbbf8e41719"
         ]
+      },
+      {
+        "id": "author:92a7c9aca60fa315",
+        "name": "Kevin Curran",
+        "aliases": [
+          "Kevin Curran"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:984eeaca58ee8e66",
@@ -39385,6 +39448,15 @@
           "institution:a5642c68c5153604",
           "institution:dfb7666cf1c6e052"
         ]
+      },
+      {
+        "id": "author:eaf6e2541c3e68b9",
+        "name": "Lanbin Wei",
+        "aliases": [
+          "Lanbin Wei"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:e4acb1e53fe0fbd4",
@@ -50485,6 +50557,15 @@
         "institutionIds": [
           "institution:509f6905959511cb"
         ]
+      },
+      {
+        "id": "author:2cadcc79f7ee063b",
+        "name": "Qi Zhou",
+        "aliases": [
+          "Qi Zhou"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:2cb28cc9d68f186a",
@@ -63095,6 +63176,15 @@
         ]
       },
       {
+        "id": "author:0c7de55c84cecb51",
+        "name": "Xiaorui Zhou",
+        "aliases": [
+          "Xiaorui Zhou"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:4b05a84ea23447dc",
         "name": "Xiaowang Zhang",
         "aliases": [
@@ -64240,6 +64330,15 @@
         "institutionIds": [
           "institution:f5a5511a0224a6d9"
         ]
+      },
+      {
+        "id": "author:7eefd5620bfad6cc",
+        "name": "Yan Chen",
+        "aliases": [
+          "Yan Chen"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:89db0441df76fa59",
@@ -66545,6 +66644,15 @@
         ]
       },
       {
+        "id": "author:1a8021617eecec7e",
+        "name": "Yu Zou",
+        "aliases": [
+          "Yu Zou"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:639bfa732be191fd",
         "name": "Yu-Chiang Wang",
         "aliases": [
@@ -68440,15 +68548,6 @@
         "institutionIds": [
           "institution:3eca72d86f8bf388"
         ]
-      },
-      {
-        "id": "author:61b609b609361790",
-        "name": "Zeyu Jia",
-        "aliases": [
-          "Zeyu Jia"
-        ],
-        "paperCount": 1,
-        "institutionIds": []
       },
       {
         "id": "author:9b68d97b4e5d77da",
@@ -70707,6 +70806,15 @@
         "name": "Anne-Kathrin Patricia Windler",
         "aliases": [
           "Anne-Kathrin Patricia Windler"
+        ],
+        "paperCount": 0,
+        "institutionIds": []
+      },
+      {
+        "id": "author:1721d0174742d6d6",
+        "name": "Aohan Li",
+        "aliases": [
+          "Aohan Li"
         ],
         "paperCount": 0,
         "institutionIds": []
@@ -113591,7 +113699,7 @@
     {
       "id": "2605.13348",
       "title": "Adequate Losses via Quantitative Linear Logic",
-      "abstract": "As neural components are increasingly embedded in existing symbolic software -- including safety-critical systems -- the question arises of how to specify and enforce the safety of the newly introduced neural parts. Unlike traditional logical specifications, these must be amenable not only to the standard Boolean interpretation, but also to training and optimisation. The latter calls for a quantitative interpretation of the logical syntax, subject to further requirements such as smoothness and differentiability. Moreover, the qualitative and quantitative sides of the logic must share a unifying proof-theoretic and categorical semantics. Finally, the new logic should link cleanly to the substructural and program logics that underpin the verification of existing symbolic programs. In this paper, we present a logic that ticks all of these boxes. We introduce a family of calculi, pQLL, indexed by a hardness degree $p$, prove a cut-elimination theorem for them, and establish completeness with respect to enriched residuated `soft' lattices. At $p = \\infty$, \\pQLL reduces to multiplicative additive linear logic (MALL), and provability in pQLL converges to provability in MALL as $p \\to \\infty$. We express optimisation objectives in the syntax of this logic and prove the quantitative adequacy of neuro-symbolic loss functions -- a result that has eluded the neuro-symbolic machine learning community for nearly a decade.",
+      "abstract": "As neural components are increasingly embedded in existing symbolic software -- including safety-critical systems -- the question arises of how to specify and enforce the safety of the newly introduced neural parts. Unlike traditional logical specifications, these must be amenable not only to the standard Boolean interpretation, but also to training and optimisation. The latter calls for a quantitative interpretation of the logical syntax, subject to further requirements such as smoothness and differentiability. Moreover, the qualitative and quantitative sides of the logic must share a unifying proof-theoretic and categorical semantics. Finally, the new logic should link cleanly to the substructural and program logics that underpin the verification of existing symbolic programs. In this paper, we present a logic that ticks all of these boxes. We introduce a family of calculi, $p$QLL, indexed by a hardness degree $p$, prove a cut-elimination theorem for them, and establish completeness with respect to enriched residuated `soft' lattices. At $p = \\infty$, $p$QLL reduces to multiplicative additive linear logic (MALL), and provability in $p$QLL converges to provability in MALL as $p \\to \\infty$. We express optimisation objectives in the syntax of this logic and prove the quantitative adequacy of neuro-symbolic loss functions -- a result that has eluded the neuro-symbolic machine learning community for nearly a decade.",
       "authors": [
         "Matteo Capucci",
         "Robert Atkey",
@@ -122226,8 +122334,8 @@
     },
     {
       "id": "2604.26569",
-      "title": "LLM-Flax : Generalizable Robotic Task Planning via Neuro-Symbolic Approaches with Large Language Models",
-      "abstract": "Deploying a neuro-symbolic task planner on a new domain today requires significant manual effort: a domain expert must author relaxation and complementary rules, and hundreds of training problems must be solved to supervise a Graph Neural Network (GNN) object scorer. We propose LLM-Flax, a three-stage framework that eliminates all three sources of manual effort using a locally hosted LLM given only a PDDL domain file. Stage 1 automatically generates relaxation and complementary rules via structured prompting with format validation and self-correction. Stage 2 introduces LLM-guided failure recovery with a feasibility-gated budget policy that explicitly reserves API latency cost before each LLM call, preventing the downstream relaxation fallback from being starved. Stage 3 replaces the domain-trained GNN entirely with zero-shot LLM object importance scoring, requiring no training data. We evaluate all three stages on the MazeNamo benchmark across 10x10, 12x12, and 15x15 grids (8 benchmarks total). LLM-Flax achieves average SR 0.945 versus the manual baseline's 0.828 (+0.117), matching or outperforming manual rules on every one of the eight benchmarks. On 12x12 Expert, LLM-Flax attains SR 0.733 where the manual planner fails entirely (SR 0.000); on 15x15 Hard, it achieves SR 1.000 versus Manual's 0.900. Stage 3 demonstrates feasibility (SR 0.720 on 12x12 Hard with no training data) but faces a context-window bottleneck at scale, pointing to the primary open challenge for future work.",
+      "title": "LLM-Flax: LLM-Generated Rules and Object Guidance for Neuro-Symbolic Task Planning",
+      "abstract": "Adapting a neuro-symbolic task planner to a new domain can require hand-authored symbolic rules and solved training instances for a learned object scorer. This paper presents LLM-Flax, which applies large language models (LLMs) to offline rule generation, failure recovery, and object scoring within the Flax planning pipeline. Generated rules undergo validation and corrective feedback before reuse, while runtime guidance operates within a shared planning budget. Experiments on MazeNamo and two additional domains show that the evaluated rule configuration improves planning success over manually authored rules while retaining the trained object scorer. Across eight MazeNamo settings, the mean success rate increases by approximately three percentage points. Controlled comparisons distinguish the effects of rule content from the choice of generator. Runtime recovery and object scoring do not establish an overall performance advantage under the evaluated planning budgets. These findings demonstrate the value of reusable LLM-generated rules and identify information quality and inference efficiency as central challenges for runtime guidance.",
       "authors": [
         "Seongmin Kim",
         "Daegyu Lee"
@@ -149002,7 +149110,7 @@
     {
       "id": "2602.12083",
       "title": "Differentiable Modal Logic for Multi-Agent Diagnosis, Orchestration and Communication",
-      "abstract": "As multi-agent AI systems evolve from simple chatbots to autonomous swarms, debugging semantic failures requires reasoning about knowledge, belief, causality, and obligation, precisely what modal logic was designed to formalize. However, traditional modal logic requires manual specification of relationship structures that are unknown or dynamic in real systems. This tutorial demonstrates differentiable modal logic (DML), implemented via Modal Logical Neural Networks (MLNNs), enabling systems to learn trust networks, causal chains, and regulatory boundaries from behavioral data alone. We present a unified neurosymbolic debugging framework through four modalities: epistemic (who to trust), temporal (when events cause failures), deontic (what actions are permitted), and doxastic (how to interpret agent confidence). Each modality is demonstrated on concrete multi-agent scenarios, from discovering deceptive alliances in diplomacy games to detecting LLM hallucinations, with complete implementations showing how logical contradictions become learnable optimization objectives. Key contributions for the neurosymbolic community: (1) interpretable learned structures where trust and causality are explicit parameters, not opaque embeddings; (2) knowledge injection via differentiable axioms that guide learning with sparse data (3) compositional multi-modal reasoning that combines epistemic, temporal, and deontic constraints; and (4) practical deployment patterns for monitoring, active control and communication of multi-agent systems. All code provided as executable Jupyter notebooks.",
+      "abstract": "As multi-agent AI systems evolve from simple chatbots to autonomous swarms, debugging semantic failures requires reasoning about knowledge, belief, causality, and obligation, precisely what modal logic was designed to formalize. However, traditional modal logic requires manual specification of relationship structures that are unknown or dynamic in real systems. This tutorial demonstrates differentiable modal logic (DML), implemented via Modal Logic Neural Networks (MLNNs), enabling systems to learn trust networks, temporal orders, and regulatory boundaries from behavioral data. We present a unified neurosymbolic debugging framework through four modalities: epistemic (who to trust), temporal (what can follow what), deontic (what actions are permitted), and doxastic (who believes what). Each modality is demonstrated on concrete multi-agent scenarios (from exposing an attacker in a drone swarm to deciding when to consult another LLM code reviewer), with complete implementations showing how logical contradictions become learnable optimization objectives. Key contributions for the neurosymbolic community: (1) interpretable learned structures where trust and temporal order are explicit parameters, not opaque embeddings; (2) knowledge injection via differentiable axioms that guide learning with sparse data; (3) compositional multi-modal reasoning that combines epistemic and doxastic constraints; and (4) practical deployment patterns for monitoring, active control and communication of multi-agent systems. All code is provided as executable Python scripts.",
       "authors": [
         "Antonin Sulc"
       ],
@@ -252703,8 +252811,8 @@
     },
     {
       "id": "2409.16238",
-      "title": "Efficiently Learning Probabilistic Logical Models by Cheaply Ranking Mined Rules",
-      "abstract": "Probabilistic logical models are a core component of neurosymbolic AI and are important in their own right for tasks that require high explainability. Unlike neural networks, logical theories that underlie the model are often handcrafted using domain expertise, making their development costly and prone to errors. While there are algorithms that learn logical theories from data, they are generally prohibitively expensive, limiting their applicability in real-world settings. Here, we introduce precision and recall for logical rules and define their composition as rule utility - a cost-effective measure of the predictive power of logical theories. We also introduce SPECTRUM, a scalable framework for learning logical theories from relational data. Its scalability derives from a linear-time algorithm for mining recurrent subgraphs in the data graph along with a second algorithm that, using a utility measure that can be computed in linear time, efficiently ranks rules derived from these subgraphs. Finally, we prove theoretical guarantees on the utility of the learnt logical theory. As a result, we demonstrate across various tasks that SPECTRUM scales to larger datasets, often learning more accurate logical theories on CPUs in < 1% the runtime of SOTA neural network approaches on GPUs.",
+      "title": "Linear-time Rule Mining Under Formal Guarantees",
+      "abstract": "Probabilistic logical models are a core component of neurosymbolic AI and are important in their own right for tasks that require high explainability. Unlike neural networks, logical theories that underlie the model are often handcrafted using domain expertise, making their development costly and prone to errors. While there are algorithms that learn logical theories from data, they are generally prohibitively expensive, limiting their applicability in real-world settings. Here, we introduce precision and recall for logical rules and define their composition as rule utility -- a measure of the predictive power of logical theories that can be computed in linear time in the data size. We then present SPECTRUM, a linear-time framework for learning logical theories from relational data, that mines recurrent patterns in the data, and subsequently uses our utility measure to evaluate and rank the rules derived from these patterns. Finally, we prove theoretical guarantees on the utility of the learnt logical theory. As a result, we demonstrate across various tasks that SPECTRUM scales to databases with orders of magnitude more relations and entities, often learning more accurate logical theories on CPUs in < 1% of the runtime of state-of-the-art neural network approaches on GPUs.",
       "authors": [
         "Jonathan Feldstein",
         "Bennu Ai",
@@ -363751,12 +363859,14 @@
     {
       "id": "2608.16769",
       "title": "A Deployment-Oriented and Resource-Efficient Neuro-Symbolic Framework for Explainable DDoS Detection in Operational Technology Networks",
-      "abstract": "Operational technology (OT) environments, including programmable logic controllers (PLCs), industrial control systems (ICS), and supervisory control and data acquisition (SCADA) systems, are increasingly targeted by distributed denial-of-service (DDoS) attacks. This paper presents a neuro-symbolic framework specifically designed for robust DDoS detection in these resource-constrained environments. The framework fuses a gated recurrent unit (GRU) neural network with a shallow decision tree as a symbolic component. The symbolic component alone provides a compact, interpretable rule set, while the fusion combines the strengths of both paradigms. The hybrid model is evaluated on three real-world benchmark DDoS datasets: CIC-DDoS2019, Edge-IIoTset, and CICIoT23. A unified comprehensive preprocessing pipeline including label mapping, numerical feature selection, robust scaling, and class balancing is applied. The fusion weight alpha and decision threshold are jointly optimised on validation data to maximise F1-score. The hybrid model attains 99.04% accuracy (MCC 0.97) on CIC-DDoS2019 and 98.61% accuracy (MCC 0.76) on CICIoT23, in both cases reducing the FNR below that of the pure-neural and pure-symbolic baselines; on the linearly separable Edge-IIoTset the shallow decision tree alone already reaches 100%, so this benchmark validates the preprocessing pipeline rather than the fusion. The principal gain of the fusion is a lower FNR at a controlled false-positive cost, which matters in operational technology, where a missed attack is more damaging than a false alarm. Model-only inference latency is sub-millisecond (0.58-0.79 milliseconds per sample) on a standard central processing unit; including on-device flow-feature extraction, the end-to-end path remains within a single-digit-millisecond budget, which is compatible with OT control-loop timing.",
+      "abstract": "This paper presents a hybrid neural-symbolic detector of distributed denial-of-service (DDoS) attacks on the availability of operational technology (OT) networks, designed for their resource-constrained gateways, and an evaluation matched to deployment. A compact gated recurrent unit (GRU) is fused at score level with a shallow, readable decision tree, and weight and threshold are selected on validation data under an explicit false-positive budget, whose attainment in finite samples is analysed. The evaluation on CIC-DDoS2019, Edge-IIoTset and CICIoT23 uses contiguous or capture-held-out partitions, dependence-aware intervals, and precision and alert load at operational prevalence. Over ten seeds at a 1% budget, the hybrid's false-negative rate on CIC-DDoS2019 is 0.08%, against 0.26% for the GRU and 0.17% for the tree. With a day of mostly unseen attack families held out, the tree alone carries the decision. Audits bound these claims: Edge-IIoTset is saturated by duplicates, no benchmark as used provides interleaved traffic in capture order, and an unconstrained tree is more accurate on two of them, so the case for the hybrid rests on short, stable rules and a measured footprint. On a Siemens SIMATIC IoT2050 gateway, tested with Modbus/TCP and MQTT floods, the INT8 model needs 2.9 ms per window, 31 MB of memory and 3.5 mJ per inference.",
       "authors": [
         "Mikiyas Alemayehu",
         "Mohamed Chahine Ghanem",
+        "Kevin Curran",
         "Hamza Kheddar",
-        "Aohan Li",
+        "Ioanna Dionysiou",
+        "Elhadj Benkhelifa",
         "J. J. Garcia-Luna-Aceves"
       ],
       "authorAffiliations": [
@@ -363799,12 +363909,37 @@
           "affiliationEntityIds": [],
           "rawName": "J. J. Garcia-Luna-Aceves",
           "rawAffiliations": []
+        },
+        {
+          "name": "Kevin Curran",
+          "authorEntityId": "author:92a7c9aca60fa315",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Kevin Curran",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ioanna Dionysiou",
+          "authorEntityId": "author:f9ecc42a1ea19ee9",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ioanna Dionysiou",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Elhadj Benkhelifa",
+          "authorEntityId": "author:9ae402eced7ad9cf",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Elhadj Benkhelifa",
+          "rawAffiliations": []
         }
       ],
       "authorIds": [],
       "affiliations": [],
       "keywords": [
-        "neuro-symbolic"
+        "neuro-symbolic",
+        "neural-symbolic"
       ],
       "categories": [
         "cs.CR"
@@ -363837,15 +363972,19 @@
       "rawAuthors": [
         "Mikiyas Alemayehu",
         "Mohamed Chahine Ghanem",
+        "Kevin Curran",
         "Hamza Kheddar",
-        "Aohan Li",
+        "Ioanna Dionysiou",
+        "Elhadj Benkhelifa",
         "J. J. Garcia-Luna-Aceves"
       ],
       "authorEntityIds": [
         "author:b113140202510a47",
         "author:ef9ee4bb3cf95891",
+        "author:92a7c9aca60fa315",
         "author:16d33c6e38763ba3",
-        "author:1721d0174742d6d6",
+        "author:f9ecc42a1ea19ee9",
+        "author:9ae402eced7ad9cf",
         "author:66aa09a540ea54a5"
       ],
       "rawAuthorAffiliations": [
@@ -363867,6 +364006,18 @@
         },
         {
           "name": "J. J. Garcia-Luna-Aceves",
+          "affiliations": []
+        },
+        {
+          "name": "Kevin Curran",
+          "affiliations": []
+        },
+        {
+          "name": "Ioanna Dionysiou",
+          "affiliations": []
+        },
+        {
+          "name": "Elhadj Benkhelifa",
           "affiliations": []
         }
       ]
@@ -387684,71 +387835,6 @@
       ]
     },
     {
-      "id": "2609.37351",
-      "title": "Typed Edge-Tensor Non-Reciprocal Port-Hamiltonian Deliberation for Counterfactual Open-World Deductive Reasoning",
-      "abstract": "Scaling test-time computation in continuous latent spaces offers an attractive alternative to verbose token-by-token generation for multi-step deductive reasoning. However, unregularized recurrent latent updates suffer from a deliberation drift cliff when rolled out beyond training horizons, while strictly energy-conserving or symmetric message-passing dynamics cannot break parent-to-child causal symmetry or suppress cyclic modus-ponens amplification on cyclic distraction graphs. We introduce Typed Edge-Tensor Non-Reciprocal Port-Hamiltonian Deliberation (TE-BPHD), a neuro-symbolic continuous-time latent reasoning architecture that couples skew-symmetric port-Hamiltonian conservation with relation-typed non-reciprocal directional transport and monotone dissipative damping on a semantic entity-state manifold. We prove (i) unconditional input-to-state stability and exponential contraction of autonomous rollouts across arbitrary inference depths without external norm projection, (ii) strict directional DAG reachability separation over symmetric message passing, and (iii) exact cycle-suppression margins under finite cyclic horn perturbations. Across counterfactual open-world deductive benchmarks (PrOntoQA-OOD up to depth 15, ProofWriter-OWA Cyclic at depths 5-10, FOLIO-Symbolic, and Cluttr-Relational), TE-BPHD eliminates the deep-horizon drift cliff, improves depth-10 cyclic reasoning accuracy to 90.0% (+/- 0.8%) over symmetric port-Hamiltonian and standard Transformer baselines, and supports zero-retraining adaptive Lyapunov halting that reduces average solver evaluations by 44% with negligible accuracy loss.",
-      "authors": [
-        "Zeyu Jia"
-      ],
-      "authorAffiliations": [
-        {
-          "name": "Zeyu Jia",
-          "authorEntityId": "author:61b609b609361790",
-          "affiliations": [],
-          "affiliationEntityIds": [],
-          "rawName": "Zeyu Jia",
-          "rawAffiliations": []
-        }
-      ],
-      "authorIds": [],
-      "affiliations": [],
-      "keywords": [
-        "neuro-symbolic"
-      ],
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "venue": "arXiv",
-      "conference": "",
-      "year": 2026,
-      "published": "2026-09-29",
-      "url": "https://arxiv.org/abs/2609.37351",
-      "pdfUrl": "https://arxiv.org/pdf/2609.37351",
-      "doi": "",
-      "doiUrl": "",
-      "arxivId": "2609.37351",
-      "primaryArea": "",
-      "paperType": "",
-      "tldr": "",
-      "award": "",
-      "sourceType": "arxiv",
-      "sourceIds": [
-        "arxiv-keywords"
-      ],
-      "resolutionStatus": "source-pdf",
-      "resolutionMethod": "",
-      "resolvedArxivUrl": "",
-      "metadataComplete": false,
-      "extractionStatus": "not-extracted",
-      "entityId": "paper:48d64f95128484bf",
-      "rawAffiliations": [],
-      "affiliationEntityIds": [],
-      "rawAuthors": [
-        "Zeyu Jia"
-      ],
-      "authorEntityIds": [
-        "author:61b609b609361790"
-      ],
-      "rawAuthorAffiliations": [
-        {
-          "name": "Zeyu Jia",
-          "affiliations": []
-        }
-      ]
-    },
-    {
       "id": "2611.21247",
       "title": "Neurosymbolic Synthesis of Contraction Metrics with Certified Verification",
       "abstract": "We study counterexample-guided synthesis of contraction metrics for continuous-time autonomous systems on compact domains. A learner proposes a metric; a sound verifier certifies its matrix inequality or returns diagnostic points for retraining. The neural extension pairs a learned metric factor with symbolic contraction conditions and rigorous numerical verification; main ablations use polynomial features. We give computable polynomial bounds in arbitrary dimension and outward-rounded verification for polynomial, trigonometric, and neural representations. Loop soundness is separated from conditional finite-grid termination under idealized feasibility assumptions. We analyze why scaling and fixed-margin training can leave valid metrics uncertified. The scaling construction requires a scale-closed family, which the experimental fixed-floor class generally lacks. Verified slack improves the contraction rate and quantifies model-error tolerances using certified residual and Jacobian bounds. Finite-distance conclusions require connecting paths whose flows stay in the verified region. Experiments include controlled ablations, three-dimensional verification, and transfer from a fitted surrogate with known-truth residual certification. A physical swing-model study compares neural learning objectives with shared verification and invariant energy regions. Verified constant metrics certify the polynomial benchmark and smallest swing-model domain; neither result requires neural state dependence. Exploratory refinement certifies additional frozen candidates at a larger verification budget. In matched polynomial operating-grid experiments, trace normalization and margin coupling did not demonstrate a certification-count advantage within the tested budgets. These choices address specific failure mechanisms without guaranteeing optimizer convergence or general empirical superiority.",
@@ -389556,6 +389642,270 @@
         },
         {
           "name": "Xiaohui Chen",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.24960",
+      "title": "TETHER: Training-Free, Elastic, ToC-Anchored Hierarchy Extraction and Recovery in Design-Driven Long Documents",
+      "abstract": "Converting complex documents into structured knowledge constitutes the critical infrastructure urgently required for deploying Large Language Models (LLMs) in downstream research. However, blind to the Table of Contents (ToC) as a macro-structure, existing bottom-up paradigms rely on localized visual cues, inducing heuristic fragility in high-entropy layouts where visual prominence decouples from logical depth; meanwhile, direct LLM extraction lacks spatial grounding, triggering hallucinations in long contexts. To address this, we introduce TETHER, a training-free framework that elevates the ToC from discarded noise to a vital structural prior, enabling robust adaptation across design-driven long documents. TETHER operates via a two-stage neuro-symbolic mechanism: first, it constructs a document skeleton from the raw ToC using a Large Multimodal Model (LMM) empowered by spatio-semantic constraints; second, it employs an anchor-based alignment strategy to tether content blocks to this skeleton, effectively resolving boundary ambiguities. Evaluated across a multilingual benchmark of ESG reports, product manuals, and annual reports, TETHER delivers highly precise, state-of-the-art (SOTA) zero-shot hierarchy recovery, outperforming deep hierarchical recovery models, dedicated parsers, and general-purpose LMMs. Moreover, stress tests highlight TETHER's resilience to sparse omissions and textual noise, demonstrating that its precise semantic alignment is fundamentally anchored in topological and depth fidelity. Crucially, ablations confirm the framework's architectural irreducibility, while achieving 90% token reduction and drastic speedups over end-to-end baselines, establishing a compelling equilibrium between structural precision and deployment scalability.",
+      "authors": [
+        "Yu Zou",
+        "Yan Chen",
+        "Jialei Zeng",
+        "Xiaorui Zhou",
+        "Aixi Zhong",
+        "Qi Zhou",
+        "Haoran You",
+        "Ke Jiang",
+        "Changyu Hu"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Yu Zou",
+          "authorEntityId": "author:1a8021617eecec7e",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yu Zou",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Yan Chen",
+          "authorEntityId": "author:7eefd5620bfad6cc",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Yan Chen",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jialei Zeng",
+          "authorEntityId": "author:1ba7448c74c83ed9",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jialei Zeng",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Xiaorui Zhou",
+          "authorEntityId": "author:0c7de55c84cecb51",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Xiaorui Zhou",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Aixi Zhong",
+          "authorEntityId": "author:63b7446e83b23349",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Aixi Zhong",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Qi Zhou",
+          "authorEntityId": "author:2cadcc79f7ee063b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Qi Zhou",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Haoran You",
+          "authorEntityId": "author:5de377cffeab98c7",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Haoran You",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ke Jiang",
+          "authorEntityId": "author:890d06318451b337",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ke Jiang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Changyu Hu",
+          "authorEntityId": "author:684fdaffb2dbff41",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Changyu Hu",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-11",
+      "url": "https://arxiv.org/abs/2611.24960",
+      "pdfUrl": "https://arxiv.org/pdf/2611.24960",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.24960",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:8cf2efa94f531013",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Yu Zou",
+        "Yan Chen",
+        "Jialei Zeng",
+        "Xiaorui Zhou",
+        "Aixi Zhong",
+        "Qi Zhou",
+        "Haoran You",
+        "Ke Jiang",
+        "Changyu Hu"
+      ],
+      "authorEntityIds": [
+        "author:1a8021617eecec7e",
+        "author:7eefd5620bfad6cc",
+        "author:1ba7448c74c83ed9",
+        "author:0c7de55c84cecb51",
+        "author:63b7446e83b23349",
+        "author:2cadcc79f7ee063b",
+        "author:5de377cffeab98c7",
+        "author:890d06318451b337",
+        "author:684fdaffb2dbff41"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Yu Zou",
+          "affiliations": []
+        },
+        {
+          "name": "Yan Chen",
+          "affiliations": []
+        },
+        {
+          "name": "Jialei Zeng",
+          "affiliations": []
+        },
+        {
+          "name": "Xiaorui Zhou",
+          "affiliations": []
+        },
+        {
+          "name": "Aixi Zhong",
+          "affiliations": []
+        },
+        {
+          "name": "Qi Zhou",
+          "affiliations": []
+        },
+        {
+          "name": "Haoran You",
+          "affiliations": []
+        },
+        {
+          "name": "Ke Jiang",
+          "affiliations": []
+        },
+        {
+          "name": "Changyu Hu",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.18614",
+      "title": "Physics-informed and event-aware forecasting of ammonia emissions in aerobic chicken manure composting bioreactors: A PINN-PatchTST-GPR framework with symbolic dynamic extraction",
+      "abstract": "Predicting ammonia (NH3) concentrations during aerobic chicken manure composting provides critical feedforward signals for intelligent aeration. However, the concurrence of long-term biochemical evolution and intermittent forced-aeration pulses poses significant modeling hurdles across steady baselines, transient surges, and risk quantification. Existing data-driven models lack physical consistency, while mechanistic kinetic models struggle with environmental disturbances. To bridge this gap, we propose PINN-PatchTST-GPR, a physics-informed neuro-symbolic forecasting framework. Validated on a 28-day composting campaign across six vertical bioreactors, the framework couples a channel-independent PatchTST backbone with macroscopic kinetic constraints, dynamic physical bounds, and a Gaussian process regression (GPR) event specialist. Multi-channel sensor streams drive discrete differential equation residuals and non-negativity bounds, strictly ensuring physical plausibility. A block-split conformal prediction module yields nominal 90% distribution-free prediction intervals, while PySINDy and PySR extract low-complexity symbolic equations for quiescent and surge regimes. The model achieves an overall RMSE of 0.8256 +/- 0.0132 ppm, R2 of 0.9817 +/- 0.0006, Epeak of 1.6793 +/- 0.0725 ppm, and Etime of 0.7 +/- 0.2 min. For uncertainty quantification, it attains PICP90 of 99.792 +/- 0.047%, MPIW of 6.951 +/- 0.128 ppm, and IS0.1 of 6.968 +/- 0.128 ppm. Symbolically, PySINDy yields an RMSE of 0.4624 +/- 0.0758 ppm (R2 = 0.9896), while PySR yields 2.4084 +/- 0.0864 ppm (R2 = 0.9523). Biologically, the 20-min aeration strategy minimizes cumulative NH3 emissions. Overall, PINN-PatchTST-GPR harmonizes global forecasting, localized transient responsiveness, and risk quantification for precision composting.",
+      "authors": [
+        "Lanbin Wei",
+        "Haiyong Weng"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Lanbin Wei",
+          "authorEntityId": "author:eaf6e2541c3e68b9",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Lanbin Wei",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Haiyong Weng",
+          "authorEntityId": "author:b752607280d5d652",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Haiyong Weng",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "q-bio.QM",
+        "cs.CE",
+        "cs.LG"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-09-08",
+      "url": "https://arxiv.org/abs/2611.18614",
+      "pdfUrl": "https://arxiv.org/pdf/2611.18614",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.18614",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:4a4d79e292c6fbac",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Lanbin Wei",
+        "Haiyong Weng"
+      ],
+      "authorEntityIds": [
+        "author:eaf6e2541c3e68b9",
+        "author:b752607280d5d652"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Lanbin Wei",
+          "affiliations": []
+        },
+        {
+          "name": "Haiyong Weng",
           "affiliations": []
         }
       ]
