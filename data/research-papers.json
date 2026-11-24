@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T20:06:23.620Z",
+  "generatedAt": "2026-11-24T00:31:50.151Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1931,
+  "paperCount": 1932,
   "completeMetadataCount": 1373,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1626
+      "count": 1627
     },
     {
       "id": "nesy-proceedings",
@@ -21780,6 +21780,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:15dd9fd0e4541fb4",
+        "name": "Chengyao Yang",
+        "aliases": [
+          "Chengyao Yang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:c2332d16c5d9363d",
         "name": "Chengzu Li",
         "aliases": [
@@ -25129,6 +25138,15 @@
         "institutionIds": [
           "institution:90b589325857dff0"
         ]
+      },
+      {
+        "id": "author:8f29a4f18b46b594",
+        "name": "Dongqi Han",
+        "aliases": [
+          "Dongqi Han"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:8cba0fb501e3a071",
@@ -55428,6 +55446,15 @@
         ]
       },
       {
+        "id": "author:39039248767c5041",
+        "name": "Shihong Zou",
+        "aliases": [
+          "Shihong Zou"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:74e8dcaec77fb9b9",
         "name": "Shijue Huang",
         "aliases": [
@@ -70028,6 +70055,15 @@
         "institutionIds": [
           "institution:0418834df0ffcdf2"
         ]
+      },
+      {
+        "id": "author:3becac6bf9136faa",
+        "name": "Zifeng Kang",
+        "aliases": [
+          "Zifeng Kang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:a8889d735fe783ed",
@@ -389906,6 +389942,114 @@
         },
         {
           "name": "Haiyong Weng",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.27270",
+      "title": "Suspected Until Inspected: Neuro-Symbolic Detection of Broken Access Control in Server-Side Web Applications",
+      "abstract": "Broken access control (BAC) has topped the OWASP Top 10 since 2021. Unfortunately, a decade of detectors still leaves a gap on every front. Static analyzers are tied to one language or framework, dynamic testers cover only the endpoints they manage to exercise, and LLM-based auditors leave the final verdict to an error-prone model. In this paper, we design and implement FLINT, a neuro-symbolic framework that detects BAC in server-side web applications without language- or framework-specific rules. Our key insight is to separate the proposal from the verdict -- an LLM may flag any data access as needing a guard, but only a symbolically verified check can clear it. The neural component enumerates every endpoint and distills each, via demand-driven code slicing, into an authorization certificate whose claims are all grounded in cited code. The symbolic component verifies each claimed check through origin tracing and a lattice-based interprocedural dataflow analysis, so that no access is cleared on the model's word. When applied to popular real-world open-source applications, including Gitea, Grafana, and Strapi, FLINT detected 112 zero-day, exploitable BAC vulnerabilities, 30 of them in projects with over 20,000 GitHub stars. We have responsibly disclosed all of them to the developers. Mattermost, for example, has already confirmed our report and is assigning a CVE identifier.",
+      "authors": [
+        "Chengyao Yang",
+        "Zifeng Kang",
+        "Dongqi Han",
+        "Shihong Zou"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Chengyao Yang",
+          "authorEntityId": "author:15dd9fd0e4541fb4",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Chengyao Yang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Zifeng Kang",
+          "authorEntityId": "author:3becac6bf9136faa",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Zifeng Kang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Dongqi Han",
+          "authorEntityId": "author:8f29a4f18b46b594",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Dongqi Han",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Shihong Zou",
+          "authorEntityId": "author:39039248767c5041",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Shihong Zou",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.CR"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-20",
+      "url": "https://arxiv.org/abs/2611.27270",
+      "pdfUrl": "https://arxiv.org/pdf/2611.27270",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.27270",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:d9b308c132ff06bc",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Chengyao Yang",
+        "Zifeng Kang",
+        "Dongqi Han",
+        "Shihong Zou"
+      ],
+      "authorEntityIds": [
+        "author:15dd9fd0e4541fb4",
+        "author:3becac6bf9136faa",
+        "author:8f29a4f18b46b594",
+        "author:39039248767c5041"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Chengyao Yang",
+          "affiliations": []
+        },
+        {
+          "name": "Zifeng Kang",
+          "affiliations": []
+        },
+        {
+          "name": "Dongqi Han",
+          "affiliations": []
+        },
+        {
+          "name": "Shihong Zou",
           "affiliations": []
         }
       ]
