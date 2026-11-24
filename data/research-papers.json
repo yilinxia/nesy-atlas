@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T00:31:50.151Z",
+  "generatedAt": "2026-11-24T22:52:11.855Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1932,
+  "paperCount": 1938,
   "completeMetadataCount": 1373,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1627
+      "count": 1633
     },
     {
       "id": "nesy-proceedings",
@@ -1072,6 +1072,17 @@
         ]
       },
       {
+        "id": "author:f4dea1553dcd5ab5",
+        "name": "Lia Morra",
+        "aliases": [
+          "Lia Morra"
+        ],
+        "paperCount": 7,
+        "institutionIds": [
+          "institution:4bbc1b7d44637ee2"
+        ]
+      },
+      {
         "id": "author:b771859a6637c9c2",
         "name": "Minkyu Choi",
         "aliases": [
@@ -1155,6 +1166,19 @@
         "paperCount": 6,
         "institutionIds": [
           "institution:c2dab080fa856716"
+        ]
+      },
+      {
+        "id": "author:4e17a234890ca076",
+        "name": "Artur D'avila Garcez",
+        "aliases": [
+          "Artur D'avila Garcez",
+          "Artur d'Avila Garcez"
+        ],
+        "paperCount": 6,
+        "institutionIds": [
+          "institution:305c9eae02cec163",
+          "institution:30e93da233b7eeef"
         ]
       },
       {
@@ -1270,17 +1294,6 @@
           "institution:17bf653107a56b33",
           "institution:366058c27e343874",
           "institution:ed72534d79b73fac"
-        ]
-      },
-      {
-        "id": "author:f4dea1553dcd5ab5",
-        "name": "Lia Morra",
-        "aliases": [
-          "Lia Morra"
-        ],
-        "paperCount": 6,
-        "institutionIds": [
-          "institution:4bbc1b7d44637ee2"
         ]
       },
       {
@@ -1492,19 +1505,6 @@
         "paperCount": 6,
         "institutionIds": [
           "institution:c2dab080fa856716"
-        ]
-      },
-      {
-        "id": "author:4e17a234890ca076",
-        "name": "Artur D'avila Garcez",
-        "aliases": [
-          "Artur D'avila Garcez",
-          "Artur d'Avila Garcez"
-        ],
-        "paperCount": 5,
-        "institutionIds": [
-          "institution:305c9eae02cec163",
-          "institution:30e93da233b7eeef"
         ]
       },
       {
@@ -2379,6 +2379,17 @@
           "institution:43da693b4fa6eed4",
           "institution:a761c29c983e2e10",
           "institution:de85f8377f7fd093"
+        ]
+      },
+      {
+        "id": "author:cfa23620bfbd0a8e",
+        "name": "Francesco Manigrasso",
+        "aliases": [
+          "Francesco Manigrasso"
+        ],
+        "paperCount": 4,
+        "institutionIds": [
+          "institution:4bbc1b7d44637ee2"
         ]
       },
       {
@@ -3846,17 +3857,6 @@
         "paperCount": 3,
         "institutionIds": [
           "institution:977430a4473aa4b0"
-        ]
-      },
-      {
-        "id": "author:cfa23620bfbd0a8e",
-        "name": "Francesco Manigrasso",
-        "aliases": [
-          "Francesco Manigrasso"
-        ],
-        "paperCount": 3,
-        "institutionIds": [
-          "institution:4bbc1b7d44637ee2"
         ]
       },
       {
@@ -7553,6 +7553,17 @@
         ]
       },
       {
+        "id": "author:b93834e552dc63a9",
+        "name": "Edjard Mota",
+        "aliases": [
+          "Edjard Mota"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:00b33169c18dca6d"
+        ]
+      },
+      {
         "id": "author:3919fa0b3bf07ba4",
         "name": "Edoardo Ponti",
         "aliases": [
@@ -7743,6 +7754,17 @@
         "paperCount": 2,
         "institutionIds": [
           "institution:bc212c7de20796ff"
+        ]
+      },
+      {
+        "id": "author:366f765a06bbfc86",
+        "name": "Fabrizio Lamberti",
+        "aliases": [
+          "Fabrizio Lamberti"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:4bbc1b7d44637ee2"
         ]
       },
       {
@@ -8584,6 +8606,29 @@
         ],
         "paperCount": 2,
         "institutionIds": []
+      },
+      {
+        "id": "author:9802bb4d4e79251c",
+        "name": "Javier Andreu-Perez",
+        "aliases": [
+          "Javier Andreu-Perez"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:b3dad45023816231"
+        ]
+      },
+      {
+        "id": "author:95c4dcd5b8c51f23",
+        "name": "Javier Fumanal Idocin",
+        "aliases": [
+          "Javier Fumanal Idocin",
+          "Javier Fumanal-Idocin"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:b3dad45023816231"
+        ]
       },
       {
         "id": "author:14f137948ceac86a",
@@ -15738,6 +15783,15 @@
         ]
       },
       {
+        "id": "author:5362477d2c1ac3c8",
+        "name": "Alex L. Zhang",
+        "aliases": [
+          "Alex L. Zhang"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:dc3637249d1223cf",
         "name": "Alex Mwololo Kimuya",
         "aliases": [
@@ -16747,6 +16801,15 @@
         "name": "Ana Cleveland",
         "aliases": [
           "Ana Cleveland"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:f69be0e0b4f447a2",
+        "name": "Ana Ezquerro",
+        "aliases": [
+          "Ana Ezquerro"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -22395,6 +22458,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:08c060eabb2600eb",
+        "name": "Christopher J. Mungall",
+        "aliases": [
+          "Christopher J. Mungall"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:71dfdc3843fbc8e5",
         "name": "Christopher Kverne",
         "aliases": [
@@ -25542,17 +25614,6 @@
         "institutionIds": []
       },
       {
-        "id": "author:b93834e552dc63a9",
-        "name": "Edjard Mota",
-        "aliases": [
-          "Edjard Mota"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:00b33169c18dca6d"
-        ]
-      },
-      {
         "id": "author:e3e0f2f5408816f8",
         "name": "Edoardo M Ponti",
         "aliases": [
@@ -26773,17 +26834,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:366f765a06bbfc86",
-        "name": "Fabrizio Lamberti",
-        "aliases": [
-          "Fabrizio Lamberti"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:4bbc1b7d44637ee2"
-        ]
       },
       {
         "id": "author:1bab33febd608d1c",
@@ -30212,6 +30262,15 @@
           "institution:092ab7c1cc7e3c87",
           "institution:17bf653107a56b33"
         ]
+      },
+      {
+        "id": "author:5a9362de83baa6b0",
+        "name": "Hanne Say Eren",
+        "aliases": [
+          "Hanne Say Eren"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:ce75ff1aa8797ca7",
@@ -33643,17 +33702,6 @@
         ]
       },
       {
-        "id": "author:9802bb4d4e79251c",
-        "name": "Javier Andreu-Perez",
-        "aliases": [
-          "Javier Andreu-Perez"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:b3dad45023816231"
-        ]
-      },
-      {
         "id": "author:d08f784496b7024d",
         "name": "Javier Carnerero Cano",
         "aliases": [
@@ -33672,17 +33720,6 @@
         ],
         "paperCount": 1,
         "institutionIds": []
-      },
-      {
-        "id": "author:95c4dcd5b8c51f23",
-        "name": "Javier Fumanal Idocin",
-        "aliases": [
-          "Javier Fumanal Idocin"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:b3dad45023816231"
-        ]
       },
       {
         "id": "author:5b749fa737319d8d",
@@ -42419,6 +42456,15 @@
         ]
       },
       {
+        "id": "author:7aa265cb1eb51977",
+        "name": "Marcin P. Joachimiak",
+        "aliases": [
+          "Marcin P. Joachimiak"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:df02749a7907e1ec",
         "name": "Marcin Paprzycki",
         "aliases": [
@@ -42700,6 +42746,15 @@
         "institutionIds": [
           "institution:32e83e92d45d71f6"
         ]
+      },
+      {
+        "id": "author:b0c1b72f72c792b7",
+        "name": "Maria Azevedo",
+        "aliases": [
+          "Maria Azevedo"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:951888874ed19935",
@@ -48134,6 +48189,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:4693c34dbedcbeab",
+        "name": "Odalisio Neto",
+        "aliases": [
+          "Odalisio Neto"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:656976d6f87226ee",
         "name": "Oetsch Johannes",
         "aliases": [
@@ -48314,6 +48378,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:46282ffbf002d63b",
+        "name": "Omar Khattab",
+        "aliases": [
+          "Omar Khattab"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:67866af4e327be55",
         "name": "Omkar Ghugarkar",
         "aliases": [
@@ -48481,6 +48554,15 @@
         "institutionIds": [
           "institution:c952a08fdb0ff916"
         ]
+      },
+      {
+        "id": "author:8506049b19386bc1",
+        "name": "Ozan Özdenizci",
+        "aliases": [
+          "Ozan Özdenizci"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:1adc785ac0a8c0a1",
@@ -57224,6 +57306,15 @@
         "institutionIds": [
           "institution:f8a0d0eff4cd81a0"
         ]
+      },
+      {
+        "id": "author:a71897c4152921db",
+        "name": "Souradip Chakraborty",
+        "aliases": [
+          "Souradip Chakraborty"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:55f622e132c909eb",
@@ -390050,6 +390141,555 @@
         },
         {
           "name": "Shihong Zou",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.30736",
+      "title": "Object-Centric Differentiable Logic Networks for Abstract Visual Reasoning",
+      "abstract": "Human visual intelligence enables efficient reasoning capabilities on abstract visual problems with bounded cognitive resources and minimal experience, and yields remarkable generalization to novel problems with its ability to draw relational analogies and modular abstractions. In contrast, deep learning models require exhaustive task-specific training on large datasets, making them prone to exploiting visual shortcuts and resulting in poor generalization. While neuro-symbolic approaches attempt to bridge this gap by decoupling perception from reasoning with dedicated computation units, existing solutions rely either on explicit rule supervision or parameter-heavy transformer architectures that reintroduce the computational inefficiencies they aim to solve. We introduce Slot-Dwn to address these limitations, a novel neuro-symbolic architecture that unifies unsupervised object-centric perception with logic-based symbolic reasoning. Our model utilizes a Multi-Head Differentiable Weightless Network (MH-DWN) that performs efficient reasoning entirely in Boolean space using look-up tables (LUTs). Our framework reduces visual perception complexity and introduces a LUT-based relational bottleneck with sparse input routing to minimize computational overhead. We evaluate Slot-Dwn across various abstract visual reasoning benchmark tasks targeting systematic rule generalization, sample-efficient anomaly detection, and multi-relational reasoning. We demonstrate that Slot-Dwn yields competitive performance with respect to the state-of-the-art, under extreme out-of-distribution regimes, while requiring up to 52% fewer trainable parameters, with significantly faster convergence.",
+      "authors": [
+        "Hanne Say Eren",
+        "Ana Ezquerro",
+        "Ozan Özdenizci"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Hanne Say Eren",
+          "authorEntityId": "author:5a9362de83baa6b0",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Hanne Say Eren",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ana Ezquerro",
+          "authorEntityId": "author:f69be0e0b4f447a2",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ana Ezquerro",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Ozan Özdenizci",
+          "authorEntityId": "author:8506049b19386bc1",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ozan Özdenizci",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.30736",
+      "pdfUrl": "https://arxiv.org/pdf/2611.30736",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.30736",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:0c1b918df39374ae",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Hanne Say Eren",
+        "Ana Ezquerro",
+        "Ozan Özdenizci"
+      ],
+      "authorEntityIds": [
+        "author:5a9362de83baa6b0",
+        "author:f69be0e0b4f447a2",
+        "author:8506049b19386bc1"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Hanne Say Eren",
+          "affiliations": []
+        },
+        {
+          "name": "Ana Ezquerro",
+          "affiliations": []
+        },
+        {
+          "name": "Ozan Özdenizci",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.30358",
+      "title": "Boosting zero-shot learning through neuro-symbolic integration",
+      "abstract": "Zero-shot learning (ZSL) aims to train deep neural networks to recognize objects from unseen classes, starting from a semantic description of the concepts. Neuro-symbolic (NeSy) integration refers to a class of techniques that incorporate symbolic knowledge representation and reasoning with the learning capabilities of deep neural networks. However, to date, few studies have explored how to leverage NeSy techniques to inject prior knowledge during the training process to boost ZSL capabilities. Here, we present Fuzzy Logic Prototypical Network (FLPN) that formulates the classification task as prototype matching in a visual-semantic embedding space, which is trained by optimizing a NeSy loss. Specifically, FLPN exploits the Logic Tensor Network (LTN) framework to incorporate background knowledge in the form of logical axioms by grounding a first-order logic language as differentiable operations between real tensors. This prior knowledge includes class hierarchies (classes and macroclasses) along with robust high-level inductive biases. The latter allow, for instance, to handle exceptions in class-level attributes and to enforce similarity between images of the same class, preventing premature overfitting to seen classes and improving overall performance. % CHECK: original sentence had no verb (\"Both class-level and attribute-level prototypes through an attention mechanism ...\") FLPN learns both class-level and attribute-level prototypes, the latter through an attention mechanism specialized for either convolutional- or transformer-based backbones. FLPN achieves state-of-the-art performance on the GZSL benchmarks AWA2 and SUN, matching or exceeding the performance of competing algorithms with minimal computational overhead. The code is available at https://github.com/FrancescoManigrass/FLPN",
+      "authors": [
+        "Francesco Manigrasso",
+        "Fabrizio Lamberti",
+        "Lia Morra"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Francesco Manigrasso",
+          "authorEntityId": "author:cfa23620bfbd0a8e",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Francesco Manigrasso",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Fabrizio Lamberti",
+          "authorEntityId": "author:366f765a06bbfc86",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Fabrizio Lamberti",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Lia Morra",
+          "authorEntityId": "author:f4dea1553dcd5ab5",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Lia Morra",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic",
+        "NeSy"
+      ],
+      "categories": [
+        "cs.CV",
+        "stat.ML"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.30358",
+      "pdfUrl": "https://arxiv.org/pdf/2611.30358",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.30358",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:24d11b86c99e9cfb",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Francesco Manigrasso",
+        "Fabrizio Lamberti",
+        "Lia Morra"
+      ],
+      "authorEntityIds": [
+        "author:cfa23620bfbd0a8e",
+        "author:366f765a06bbfc86",
+        "author:f4dea1553dcd5ab5"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Francesco Manigrasso",
+          "affiliations": []
+        },
+        {
+          "name": "Fabrizio Lamberti",
+          "affiliations": []
+        },
+        {
+          "name": "Lia Morra",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.28529",
+      "title": "General-purpose language models are neurosymbolic reasoners able to annotate proteins from sequence",
+      "abstract": "Determining the function of genes across the tree of life is one of the major challenges in biology. Generative AI approaches to this problem generally fall into two categories: language models trained on biological sequences that are able to predict structure and function from signals in those sequences; and generalist language models trained on text, that are able to reason about biological function symbolically. A default operating assumption is that protein language models do not perform well on symbolic tasks, and that generalist language models do not perform well on sequence tasks. However, a recent report showed that frontier generalist models perform surprisingly well on next-residue prediction tasks. We set out to explore whether these capabilities extended to protein annotation. We assigned different frontier generalist models a variety of protein annotation tasks, including predicting the presence and coordinates of Pfam domains, loss of functional catalytic residues, and predicting structure and activity. On all annotation tasks, the frontier models performed well above chance; we did not benchmark them against specialised tools. The models also make characteristic hallucination errors, and they state them as confidently as their correct calls. Though untested against specialised methods, the nascent ability of frontier models to perform protein annotation from sequence alone is intriguing. The ability to reason over sequence, structure, and symbols in a single model allows for a neurosymbolic approach where a combination of sequence, experimental data and knowledge from the literature can be holistically combined to improve on de novo functional annotation of the protein universe. Prompts, test sets, model outputs and code: https://github.com/ai4curation/fable-sequence-to-function. Summary of results: https://ai4curation.io/fable-sequence-to-function/",
+      "authors": [
+        "Christopher J. Mungall",
+        "Marcin P. Joachimiak"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Christopher J. Mungall",
+          "authorEntityId": "author:08c060eabb2600eb",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Christopher J. Mungall",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Marcin P. Joachimiak",
+          "authorEntityId": "author:7aa265cb1eb51977",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Marcin P. Joachimiak",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "q-bio.GN",
+        "cs.AI",
+        "q-bio.BM"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-21",
+      "url": "https://arxiv.org/abs/2611.28529",
+      "pdfUrl": "https://arxiv.org/pdf/2611.28529",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.28529",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:e8ca62aed6f69b15",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Christopher J. Mungall",
+        "Marcin P. Joachimiak"
+      ],
+      "authorEntityIds": [
+        "author:08c060eabb2600eb",
+        "author:7aa265cb1eb51977"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Christopher J. Mungall",
+          "affiliations": []
+        },
+        {
+          "name": "Marcin P. Joachimiak",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.28298",
+      "title": "Language Model Harnesses can be Compositional Generalizers",
+      "abstract": "Modern language models (LMs) are post-trained and deployed as agents inside a \"harness\", but standard harness designs accumulate context that the neural network is forced to generalize to, making training for long-horizon tasks expensive and time-consuming. We study an alternative emerging path: training inherently neurosymbolic LM harnesses, which externalize and manage context programmatically to compose existing LM capabilities. We hypothesize that training around these harnesses can offer a better return on compute by enabling compositional generalization, as they can learn to decompose complex problems so that every observation their neural LM receives is locally in-distribution, even when the full task is novel. We find that harnesses like the Recursive Language Model (RLM) learn such decompositions readily under reinforcement learning post-training: (1) we demonstrate that training only on short tasks can generalize to tasks 2-64$\\times$ longer while the base neural LM improves less, and (2) training on one domain transfers to novel domains that share latent structure. On messier, complex tasks, we find that we can target individual LLM calls within a harness by generating and training on easier, synthetically generated surrogate environments with fake tool / sub-calls, a technique we call surrogate harness training. From this finding, we train RLM-27B on synthetic data, and show it improves Qwen3.8-27B in the same RLM harness on a hard suite of long-context tasks like CTC-Bench and ExpertLongBench by 26.9% on average while using $\\sim$2$\\times$ fewer tokens at inference time. Finally, we show that harnesses can compose over these newly learned decompositions using recursive sub-harness calls.",
+      "authors": [
+        "Alex L. Zhang",
+        "Souradip Chakraborty",
+        "Omar Khattab"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Alex L. Zhang",
+          "authorEntityId": "author:5362477d2c1ac3c8",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Alex L. Zhang",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Souradip Chakraborty",
+          "authorEntityId": "author:a71897c4152921db",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Souradip Chakraborty",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Omar Khattab",
+          "authorEntityId": "author:46282ffbf002d63b",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Omar Khattab",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-20",
+      "url": "https://arxiv.org/abs/2611.28298",
+      "pdfUrl": "https://arxiv.org/pdf/2611.28298",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.28298",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:a42347d78737f9b5",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Alex L. Zhang",
+        "Souradip Chakraborty",
+        "Omar Khattab"
+      ],
+      "authorEntityIds": [
+        "author:5362477d2c1ac3c8",
+        "author:a71897c4152921db",
+        "author:46282ffbf002d63b"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Alex L. Zhang",
+          "affiliations": []
+        },
+        {
+          "name": "Souradip Chakraborty",
+          "affiliations": []
+        },
+        {
+          "name": "Omar Khattab",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.28277",
+      "title": "Temporal Logic Tensor Networks: Foundations of Temporal Reasoning in Neural Networks",
+      "abstract": "In dynamic scenes---football matches, traffic streams, surgery, or assembly---actions unfold at fundamentally different time scales: in football, a kick happens in milliseconds, a possession lasts seconds, and complex events such as a successful pass followed by a goal combine multiple atomic actions over extended durations. Models trained solely on visual data struggle to learn effectively across different time scales, lacking a principled way of reasoning across fine-grained instants and broader intervals. Neither point-wise nor purely interval semantics suffices: the former fragments events into frame-level snapshots lacking overall event identification; the latter treats intervals as atomic truth-values, ignoring state trajectories. We introduce Temporal Logic Tensor Networks (tLTN), a differentiable neuro-symbolic framework addressing this duality via a formal, multi-sorted logic where events and states are structurally interdependent. Extending Interval Logic Tensor Networks (ILTN), tLTN grounds state predicates as fuzzy truth-value paths over time points, while events are first-class entities with learnable trapezoidal fuzzy durations and differentiable Allen-style relations. A compositional semantics fuses static, event-structural, and state-dynamic satisfaction into a single differentiable LTN grounding. Crucially, the modalities constrain each other bidirectionally: the interval layer dictates where point-wise constraints (e.g., Until, Since) are evaluated, restricting them to event-defined spans; conversely, the point-wise layer validates interval relations, rejecting them if underlying state dynamics contradict the relation. Through controlled synthetic examples, we show when single-modality learning fails and how this localization reduces frame-level computational cost on long traces.",
+      "authors": [
+        "Edjard Mota",
+        "Artur D'avila Garcez",
+        "Maria Azevedo",
+        "Odalisio Neto"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Edjard Mota",
+          "authorEntityId": "author:b93834e552dc63a9",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Edjard Mota",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Artur D'avila Garcez",
+          "authorEntityId": "author:4e17a234890ca076",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Artur d'Avila Garcez",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Maria Azevedo",
+          "authorEntityId": "author:b0c1b72f72c792b7",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Maria Azevedo",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Odalisio Neto",
+          "authorEntityId": "author:4693c34dbedcbeab",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Odalisio Neto",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-20",
+      "url": "https://arxiv.org/abs/2611.28277",
+      "pdfUrl": "https://arxiv.org/pdf/2611.28277",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.28277",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:947887df05950a16",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Edjard Mota",
+        "Artur d'Avila Garcez",
+        "Maria Azevedo",
+        "Odalisio Neto"
+      ],
+      "authorEntityIds": [
+        "author:b93834e552dc63a9",
+        "author:4e17a234890ca076",
+        "author:b0c1b72f72c792b7",
+        "author:4693c34dbedcbeab"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Edjard Mota",
+          "affiliations": []
+        },
+        {
+          "name": "Artur d'Avila Garcez",
+          "affiliations": []
+        },
+        {
+          "name": "Maria Azevedo",
+          "affiliations": []
+        },
+        {
+          "name": "Odalisio Neto",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.28272",
+      "title": "What Do Differentiable Rule Learners Need? FLARE: Fuzzy Rules with Additive Evidence",
+      "abstract": "Rule learners are used where transparency and accountability are required, because they give practitioners patterns they can read. Learning rules is a discrete problem, so neurosymbolic pipelines that use rules as explanations rely on relaxations such as the straight-through estimator. However, these differentiable rule learners often lag behind both classical rule learners and black-box classifiers in terms of performance. We study which parts of a rule-based classifier affect performance, and how well gradient-based training learns each of them. We found that most of the performance comes from how the rules are weighted: random rules with learned weights are already more accurate than every published differentiable rule learner we tested. Based on our results, we propose FLARE (Fuzzy Learned-Antecedent Rule Evidence), a differentiable rule learner that learns simple rules that combine to make the final decision. We also propose a learned encoding for variables with thousands of categories. We test FLARE on tabular data, using 42 datasets of OpenML-CC18 and the 38 classification tasks of TabArena. On CC18, FLARE exceeds the compared rule learners by 7.69 to 12.38 macro-F1 points and performs comparably to random forests, while remaining 1.00 to 1.11 points below tuned gradient-boosted trees. On TabArena it ranks at the same level as random forests and ahead of the other rule learners. As the concept-to-label head of a concept bottleneck model, FLARE is the best rule-based head in five of six settings. On graphs, it is competitive on PubMed and EMOGI but falls behind graph neural networks on Cora and Citeseer. Our code is available at https://github.com/Fuminides/FLARE",
+      "authors": [
+        "Javier Fumanal Idocin",
+        "Javier Andreu-Perez"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Javier Fumanal Idocin",
+          "authorEntityId": "author:95c4dcd5b8c51f23",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Javier Fumanal-Idocin",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Javier Andreu-Perez",
+          "authorEntityId": "author:9802bb4d4e79251c",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Javier Andreu-Perez",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neurosymbolic"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-20",
+      "url": "https://arxiv.org/abs/2611.28272",
+      "pdfUrl": "https://arxiv.org/pdf/2611.28272",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.28272",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:2ff0a4937b5b29ee",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Javier Fumanal-Idocin",
+        "Javier Andreu-Perez"
+      ],
+      "authorEntityIds": [
+        "author:95c4dcd5b8c51f23",
+        "author:9802bb4d4e79251c"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Javier Fumanal-Idocin",
+          "affiliations": []
+        },
+        {
+          "name": "Javier Andreu-Perez",
           "affiliations": []
         }
       ]

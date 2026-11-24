@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-11-24T00:31:49.500Z",
-  "cursorAt": "2026-11-24T00:31:49.500Z",
+  "generatedAt": "2026-11-24T22:52:11.267Z",
+  "cursorAt": "2026-11-24T22:52:11.267Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-11-22T20:06:23.080Z",
   "keywords": [
@@ -15,11 +15,250 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-11-22T20:06:23.080Z",
-  "windowStart": "2026-11-15T20:06:23.080Z",
+  "previousSnapshotAt": "2026-11-24T00:31:49.500Z",
+  "windowStart": "2026-11-17T00:31:49.500Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2611.30736",
+    "title": "Object-Centric Differentiable Logic Networks for Abstract Visual Reasoning",
+    "abstract": "Human visual intelligence enables efficient reasoning capabilities on abstract visual problems with bounded cognitive resources and minimal experience, and yields remarkable generalization to novel problems with its ability to draw relational analogies and modular abstractions. In contrast, deep learning models require exhaustive task-specific training on large datasets, making them prone to exploiting visual shortcuts and resulting in poor generalization. While neuro-symbolic approaches attempt to bridge this gap by decoupling perception from reasoning with dedicated computation units, existing solutions rely either on explicit rule supervision or parameter-heavy transformer architectures that reintroduce the computational inefficiencies they aim to solve. We introduce Slot-Dwn to address these limitations, a novel neuro-symbolic architecture that unifies unsupervised object-centric perception with logic-based symbolic reasoning. Our model utilizes a Multi-Head Differentiable Weightless Network (MH-DWN) that performs efficient reasoning entirely in Boolean space using look-up tables (LUTs). Our framework reduces visual perception complexity and introduces a LUT-based relational bottleneck with sparse input routing to minimize computational overhead. We evaluate Slot-Dwn across various abstract visual reasoning benchmark tasks targeting systematic rule generalization, sample-efficient anomaly detection, and multi-relational reasoning. We demonstrate that Slot-Dwn yields competitive performance with respect to the state-of-the-art, under extreme out-of-distribution regimes, while requiring up to 52% fewer trainable parameters, with significantly faster convergence.",
+    "authors": [
+      "Hanne Say Eren",
+      "Ana Ezquerro",
+      "Ozan Özdenizci"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Hanne Say Eren",
+        "affiliations": []
+      },
+      {
+        "name": "Ana Ezquerro",
+        "affiliations": []
+      },
+      {
+        "name": "Ozan Özdenizci",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-23",
+    "updated": "2026-11-23",
+    "categories": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.30736",
+    "pdfUrl": "https://arxiv.org/pdf/2611.30736",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.30358",
+    "title": "Boosting zero-shot learning through neuro-symbolic integration",
+    "abstract": "Zero-shot learning (ZSL) aims to train deep neural networks to recognize objects from unseen classes, starting from a semantic description of the concepts. Neuro-symbolic (NeSy) integration refers to a class of techniques that incorporate symbolic knowledge representation and reasoning with the learning capabilities of deep neural networks. However, to date, few studies have explored how to leverage NeSy techniques to inject prior knowledge during the training process to boost ZSL capabilities. Here, we present Fuzzy Logic Prototypical Network (FLPN) that formulates the classification task as prototype matching in a visual-semantic embedding space, which is trained by optimizing a NeSy loss. Specifically, FLPN exploits the Logic Tensor Network (LTN) framework to incorporate background knowledge in the form of logical axioms by grounding a first-order logic language as differentiable operations between real tensors. This prior knowledge includes class hierarchies (classes and macroclasses) along with robust high-level inductive biases. The latter allow, for instance, to handle exceptions in class-level attributes and to enforce similarity between images of the same class, preventing premature overfitting to seen classes and improving overall performance. % CHECK: original sentence had no verb (\"Both class-level and attribute-level prototypes through an attention mechanism ...\") FLPN learns both class-level and attribute-level prototypes, the latter through an attention mechanism specialized for either convolutional- or transformer-based backbones. FLPN achieves state-of-the-art performance on the GZSL benchmarks AWA2 and SUN, matching or exceeding the performance of competing algorithms with minimal computational overhead. The code is available at https://github.com/FrancescoManigrass/FLPN",
+    "authors": [
+      "Francesco Manigrasso",
+      "Fabrizio Lamberti",
+      "Lia Morra"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Francesco Manigrasso",
+        "affiliations": []
+      },
+      {
+        "name": "Fabrizio Lamberti",
+        "affiliations": []
+      },
+      {
+        "name": "Lia Morra",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-23",
+    "updated": "2026-11-23",
+    "categories": [
+      "cs.CV",
+      "stat.ML"
+    ],
+    "primaryCategory": "cs.CV",
+    "url": "https://arxiv.org/abs/2611.30358",
+    "pdfUrl": "https://arxiv.org/pdf/2611.30358",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic",
+        "NeSy"
+      ]
+    }
+  },
+  {
+    "id": "2611.28529",
+    "title": "General-purpose language models are neurosymbolic reasoners able to annotate proteins from sequence",
+    "abstract": "Determining the function of genes across the tree of life is one of the major challenges in biology. Generative AI approaches to this problem generally fall into two categories: language models trained on biological sequences that are able to predict structure and function from signals in those sequences; and generalist language models trained on text, that are able to reason about biological function symbolically. A default operating assumption is that protein language models do not perform well on symbolic tasks, and that generalist language models do not perform well on sequence tasks. However, a recent report showed that frontier generalist models perform surprisingly well on next-residue prediction tasks. We set out to explore whether these capabilities extended to protein annotation. We assigned different frontier generalist models a variety of protein annotation tasks, including predicting the presence and coordinates of Pfam domains, loss of functional catalytic residues, and predicting structure and activity. On all annotation tasks, the frontier models performed well above chance; we did not benchmark them against specialised tools. The models also make characteristic hallucination errors, and they state them as confidently as their correct calls. Though untested against specialised methods, the nascent ability of frontier models to perform protein annotation from sequence alone is intriguing. The ability to reason over sequence, structure, and symbols in a single model allows for a neurosymbolic approach where a combination of sequence, experimental data and knowledge from the literature can be holistically combined to improve on de novo functional annotation of the protein universe. Prompts, test sets, model outputs and code: https://github.com/ai4curation/fable-sequence-to-function. Summary of results: https://ai4curation.io/fable-sequence-to-function/",
+    "authors": [
+      "Christopher J. Mungall",
+      "Marcin P. Joachimiak"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Christopher J. Mungall",
+        "affiliations": []
+      },
+      {
+        "name": "Marcin P. Joachimiak",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-21",
+    "updated": "2026-11-21",
+    "categories": [
+      "q-bio.GN",
+      "cs.AI",
+      "q-bio.BM"
+    ],
+    "primaryCategory": "q-bio.GN",
+    "url": "https://arxiv.org/abs/2611.28529",
+    "pdfUrl": "https://arxiv.org/pdf/2611.28529",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.28298",
+    "title": "Language Model Harnesses can be Compositional Generalizers",
+    "abstract": "Modern language models (LMs) are post-trained and deployed as agents inside a \"harness\", but standard harness designs accumulate context that the neural network is forced to generalize to, making training for long-horizon tasks expensive and time-consuming. We study an alternative emerging path: training inherently neurosymbolic LM harnesses, which externalize and manage context programmatically to compose existing LM capabilities. We hypothesize that training around these harnesses can offer a better return on compute by enabling compositional generalization, as they can learn to decompose complex problems so that every observation their neural LM receives is locally in-distribution, even when the full task is novel. We find that harnesses like the Recursive Language Model (RLM) learn such decompositions readily under reinforcement learning post-training: (1) we demonstrate that training only on short tasks can generalize to tasks 2-64$\\times$ longer while the base neural LM improves less, and (2) training on one domain transfers to novel domains that share latent structure. On messier, complex tasks, we find that we can target individual LLM calls within a harness by generating and training on easier, synthetically generated surrogate environments with fake tool / sub-calls, a technique we call surrogate harness training. From this finding, we train RLM-27B on synthetic data, and show it improves Qwen3.8-27B in the same RLM harness on a hard suite of long-context tasks like CTC-Bench and ExpertLongBench by 26.9% on average while using $\\sim$2$\\times$ fewer tokens at inference time. Finally, we show that harnesses can compose over these newly learned decompositions using recursive sub-harness calls.",
+    "authors": [
+      "Alex L. Zhang",
+      "Souradip Chakraborty",
+      "Omar Khattab"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Alex L. Zhang",
+        "affiliations": []
+      },
+      {
+        "name": "Souradip Chakraborty",
+        "affiliations": []
+      },
+      {
+        "name": "Omar Khattab",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-20",
+    "updated": "2026-11-20",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.CL",
+    "url": "https://arxiv.org/abs/2611.28298",
+    "pdfUrl": "https://arxiv.org/pdf/2611.28298",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.28277",
+    "title": "Temporal Logic Tensor Networks: Foundations of Temporal Reasoning in Neural Networks",
+    "abstract": "In dynamic scenes---football matches, traffic streams, surgery, or assembly---actions unfold at fundamentally different time scales: in football, a kick happens in milliseconds, a possession lasts seconds, and complex events such as a successful pass followed by a goal combine multiple atomic actions over extended durations. Models trained solely on visual data struggle to learn effectively across different time scales, lacking a principled way of reasoning across fine-grained instants and broader intervals. Neither point-wise nor purely interval semantics suffices: the former fragments events into frame-level snapshots lacking overall event identification; the latter treats intervals as atomic truth-values, ignoring state trajectories. We introduce Temporal Logic Tensor Networks (tLTN), a differentiable neuro-symbolic framework addressing this duality via a formal, multi-sorted logic where events and states are structurally interdependent. Extending Interval Logic Tensor Networks (ILTN), tLTN grounds state predicates as fuzzy truth-value paths over time points, while events are first-class entities with learnable trapezoidal fuzzy durations and differentiable Allen-style relations. A compositional semantics fuses static, event-structural, and state-dynamic satisfaction into a single differentiable LTN grounding. Crucially, the modalities constrain each other bidirectionally: the interval layer dictates where point-wise constraints (e.g., Until, Since) are evaluated, restricting them to event-defined spans; conversely, the point-wise layer validates interval relations, rejecting them if underlying state dynamics contradict the relation. Through controlled synthetic examples, we show when single-modality learning fails and how this localization reduces frame-level computational cost on long traces.",
+    "authors": [
+      "Edjard Mota",
+      "Artur d'Avila Garcez",
+      "Maria Azevedo",
+      "Odalisio Neto"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Edjard Mota",
+        "affiliations": []
+      },
+      {
+        "name": "Artur d'Avila Garcez",
+        "affiliations": []
+      },
+      {
+        "name": "Maria Azevedo",
+        "affiliations": []
+      },
+      {
+        "name": "Odalisio Neto",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-20",
+    "updated": "2026-11-20",
+    "categories": [
+      "cs.AI"
+    ],
+    "primaryCategory": "cs.AI",
+    "url": "https://arxiv.org/abs/2611.28277",
+    "pdfUrl": "https://arxiv.org/pdf/2611.28277",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.28272",
+    "title": "What Do Differentiable Rule Learners Need? FLARE: Fuzzy Rules with Additive Evidence",
+    "abstract": "Rule learners are used where transparency and accountability are required, because they give practitioners patterns they can read. Learning rules is a discrete problem, so neurosymbolic pipelines that use rules as explanations rely on relaxations such as the straight-through estimator. However, these differentiable rule learners often lag behind both classical rule learners and black-box classifiers in terms of performance. We study which parts of a rule-based classifier affect performance, and how well gradient-based training learns each of them. We found that most of the performance comes from how the rules are weighted: random rules with learned weights are already more accurate than every published differentiable rule learner we tested. Based on our results, we propose FLARE (Fuzzy Learned-Antecedent Rule Evidence), a differentiable rule learner that learns simple rules that combine to make the final decision. We also propose a learned encoding for variables with thousands of categories. We test FLARE on tabular data, using 42 datasets of OpenML-CC18 and the 38 classification tasks of TabArena. On CC18, FLARE exceeds the compared rule learners by 7.69 to 12.38 macro-F1 points and performs comparably to random forests, while remaining 1.00 to 1.11 points below tuned gradient-boosted trees. On TabArena it ranks at the same level as random forests and ahead of the other rule learners. As the concept-to-label head of a concept bottleneck model, FLARE is the best rule-based head in five of six settings. On graphs, it is competitive on PubMed and EMOGI but falls behind graph neural networks on Cora and Citeseer. Our code is available at https://github.com/Fuminides/FLARE",
+    "authors": [
+      "Javier Fumanal-Idocin",
+      "Javier Andreu-Perez"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Javier Fumanal-Idocin",
+        "affiliations": []
+      },
+      {
+        "name": "Javier Andreu-Perez",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-20",
+    "updated": "2026-11-20",
+    "categories": [
+      "cs.LG"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.28272",
+    "pdfUrl": "https://arxiv.org/pdf/2611.28272",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
   {
     "id": "2611.27270",
     "title": "Suspected Until Inspected: Neuro-Symbolic Detection of Broken Access Control in Server-Side Web Applications",
