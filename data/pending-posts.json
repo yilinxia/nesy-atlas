@@ -3229,5 +3229,23 @@
     "sourceUrl": "https://www.kognitos.com/blog/",
     "discovered": "2026-11-20",
     "status": "needs-review"
+  },
+  {
+    "company": "CogniSwitch",
+    "title": "Read the report",
+    "date": "2026-11-18",
+    "url": "https://cogniswitch.ai/research/sopbench-bank",
+    "sourceUrl": "https://cogniswitch.ai/signal",
+    "discovered": "2026-11-24",
+    "status": "needs-review"
+  },
+  {
+    "company": "Kognitos",
+    "title": "Accounts Payable 11.23.2026 Accounts Payable Outsourcing: Real Costs and the Exception Trap Read",
+    "date": "2026-11-23",
+    "url": "https://www.kognitos.com/blog/accounts-payable-outsourcing/",
+    "sourceUrl": "https://www.kognitos.com/blog/",
+    "discovered": "2026-11-24",
+    "status": "needs-review"
   }
 ]
