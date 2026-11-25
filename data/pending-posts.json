@@ -3256,5 +3256,23 @@
     "sourceUrl": "https://www.kognitos.com/blog/",
     "discovered": "2026-11-24",
     "status": "needs-review"
+  },
+  {
+    "company": "UnlikelyAI",
+    "title": "Nov 24, 2026 Blog How to make your AI follow your company's rules Getting AI to follow your company's rules is what lets it scale. Six steps to turn a written rule into a check that returns a decision you can act on. Maria Kuroedova",
+    "date": "2026-11-24",
+    "url": "https://www.unlikely.ai/newsroom/how-to-make-ai-follow-your-companys-rules",
+    "sourceUrl": "https://www.unlikely.ai/newsroom",
+    "discovered": "2026-11-25",
+    "status": "needs-review"
+  },
+  {
+    "company": "UnlikelyAI",
+    "title": "Nov 25, 2026 Blog What makes an AI answer explainable in accountancy? UnCheck the case for explainable AI you can trace to the standard Maria Kuroedova",
+    "date": "2026-11-25",
+    "url": "https://www.unlikely.ai/newsroom/what-makes-an-ai-answer-explainable-in-accountancy",
+    "sourceUrl": "https://www.unlikely.ai/newsroom",
+    "discovered": "2026-11-25",
+    "status": "needs-review"
   }
 ]
