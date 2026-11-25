@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T22:52:11.855Z",
+  "generatedAt": "2026-11-25T22:05:26.489Z",
   "yearRange": {
     "from": 2023,
     "to": 2026
@@ -13,7 +13,7 @@
     "neural symbolic",
     "NeSy"
   ],
-  "paperCount": 1938,
+  "paperCount": 1940,
   "completeMetadataCount": 1373,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "revision": "",
       "license": "unspecified",
       "status": "ok",
-      "count": 1633
+      "count": 1635
     },
     {
       "id": "nesy-proceedings",
@@ -1508,6 +1508,22 @@
         ]
       },
       {
+        "id": "author:b0ced0d63839f5b9",
+        "name": "Alessandro Oltramari",
+        "aliases": [
+          "Alessandro Oltramari"
+        ],
+        "paperCount": 5,
+        "institutionIds": [
+          "institution:10ac7ff0ade74d31",
+          "institution:1f24b90ecb004a4c",
+          "institution:26dc425a63faaaef",
+          "institution:929d9b5e447956e9",
+          "institution:9b9bc4770bc4cf72",
+          "institution:c5235efb76365de2"
+        ]
+      },
+      {
         "id": "author:2bb39d8462f5bbcb",
         "name": "Caglar Demir",
         "aliases": [
@@ -2146,22 +2162,6 @@
           "institution:61069ad8b656fff9",
           "institution:e0b0520932ab2444",
           "institution:e73ae6a6d6ff3735"
-        ]
-      },
-      {
-        "id": "author:b0ced0d63839f5b9",
-        "name": "Alessandro Oltramari",
-        "aliases": [
-          "Alessandro Oltramari"
-        ],
-        "paperCount": 4,
-        "institutionIds": [
-          "institution:10ac7ff0ade74d31",
-          "institution:1f24b90ecb004a4c",
-          "institution:26dc425a63faaaef",
-          "institution:929d9b5e447956e9",
-          "institution:9b9bc4770bc4cf72",
-          "institution:c5235efb76365de2"
         ]
       },
       {
@@ -4292,6 +4292,19 @@
         "paperCount": 3,
         "institutionIds": [
           "institution:323e7eabc230aa6a"
+        ]
+      },
+      {
+        "id": "author:3fa06474ebcbfe1f",
+        "name": "Jonathan Francis",
+        "aliases": [
+          "Jonathan Francis"
+        ],
+        "paperCount": 3,
+        "institutionIds": [
+          "institution:26dc425a63faaaef",
+          "institution:9b9bc4770bc4cf72",
+          "institution:c5235efb76365de2"
         ]
       },
       {
@@ -9000,19 +9013,6 @@
         ]
       },
       {
-        "id": "author:3fa06474ebcbfe1f",
-        "name": "Jonathan Francis",
-        "aliases": [
-          "Jonathan Francis"
-        ],
-        "paperCount": 2,
-        "institutionIds": [
-          "institution:26dc425a63faaaef",
-          "institution:9b9bc4770bc4cf72",
-          "institution:c5235efb76365de2"
-        ]
-      },
-      {
         "id": "author:aaa79757c1b10ef4",
         "name": "Jooyoung Kim",
         "aliases": [
@@ -11105,6 +11105,17 @@
         ],
         "paperCount": 2,
         "institutionIds": []
+      },
+      {
+        "id": "author:80669b22f42e67cb",
+        "name": "Ruwan Wickramarachchi",
+        "aliases": [
+          "Ruwan Wickramarachchi"
+        ],
+        "paperCount": 2,
+        "institutionIds": [
+          "institution:7801abc579496f6a"
+        ]
       },
       {
         "id": "author:5c7c26c963eb2776",
@@ -19182,6 +19193,15 @@
         "institutionIds": []
       },
       {
+        "id": "author:d5e0450688e954fd",
+        "name": "B. Giros",
+        "aliases": [
+          "B. Giros"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
         "id": "author:334bc3d7157f9c0e",
         "name": "Baddam",
         "aliases": [
@@ -25582,6 +25602,15 @@
         "institutionIds": [
           "institution:d1449caf2bbc5c75"
         ]
+      },
+      {
+        "id": "author:34b4c7487c51a590",
+        "name": "E. Daroczi",
+        "aliases": [
+          "E. Daroczi"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:3e469b857c5e5253",
@@ -33037,6 +33066,15 @@
         "name": "J. J. Garcia-Luna-Aceves",
         "aliases": [
           "J. J. Garcia-Luna-Aceves"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:34bc1a11af4449c5",
+        "name": "J. Marshall",
+        "aliases": [
+          "J. Marshall"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -41764,6 +41802,15 @@
         "name": "M. Ali Nasseri",
         "aliases": [
           "M. Ali Nasseri"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
+      },
+      {
+        "id": "author:0844527a2a7e5c2f",
+        "name": "M. Bairachnaya",
+        "aliases": [
+          "M. Bairachnaya"
         ],
         "paperCount": 1,
         "institutionIds": []
@@ -53265,17 +53312,6 @@
         ]
       },
       {
-        "id": "author:80669b22f42e67cb",
-        "name": "Ruwan Wickramarachchi",
-        "aliases": [
-          "Ruwan Wickramarachchi"
-        ],
-        "paperCount": 1,
-        "institutionIds": [
-          "institution:7801abc579496f6a"
-        ]
-      },
-      {
         "id": "author:6e9792c27e9d9f80",
         "name": "Ruzhi Zhang",
         "aliases": [
@@ -53435,6 +53471,15 @@
         "institutionIds": [
           "institution:5d8a75c45c7dbfa4"
         ]
+      },
+      {
+        "id": "author:794729db647b4741",
+        "name": "S. Grigorovich",
+        "aliases": [
+          "S. Grigorovich"
+        ],
+        "paperCount": 1,
+        "institutionIds": []
       },
       {
         "id": "author:5cd0f30a6dd6f4b7",
@@ -390690,6 +390735,223 @@
         },
         {
           "name": "Javier Andreu-Perez",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.31622",
+      "title": "Internal inconsistencies and unresolved experimental evidence in a quantum neurosecurity framework",
+      "abstract": "This article presents a technical and theoretical assessment of the Quantum-Entangled Neuro-Symbolic Swarm Federation (QENSSF), a framework intended for privacy-preserving, quantum-secure, AI-powered, multimodal healthcare data analysis, introduced by Ben Othman and Ali (2025). They claim QENSSF is a first-in-class framework with provable privacy and security guarantees, support these with theorems and proofs, report an experimental evaluation on IBM's quantum Eagle processor, report a real-world quantum key distribution (QKD) test, and claim use of real-world multimodal datasets (ADNI, UK Biobank, and MIMIC-IV). Our examination of quantitative support for these claims identified various concerns. Most importantly, the security criterion of a central guarantee (Theorem 1) cannot be satisfied given the risk formulation and relevant constraints, which, along with calculation errors in the proof, directly undermines the claim of provable security. Furthermore, insufficient reporting of biomedical datasets and unresolved discrepancies in the hardware evaluation limit verification of the experimental claims and overall reproducibility. QENSSF identifies a real need: ensuring privacy and security of healthcare data while patients benefit from AI-powered analysis. This need is particularly pressing for sensitive neural data, including the neuroimaging data available through sources such as ADNI. Privacy concerns also extend to wearable EEG data, for which reidentification risks can persist despite deidentification. However, QENSSF's foundational inconsistencies need resolution before it could be considered in the neurosecurity domain.",
+      "authors": [
+        "S. Grigorovich",
+        "M. Bairachnaya",
+        "E. Daroczi",
+        "J. Marshall",
+        "B. Giros"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "S. Grigorovich",
+          "authorEntityId": "author:794729db647b4741",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "S. Grigorovich",
+          "rawAffiliations": []
+        },
+        {
+          "name": "M. Bairachnaya",
+          "authorEntityId": "author:0844527a2a7e5c2f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "M. Bairachnaya",
+          "rawAffiliations": []
+        },
+        {
+          "name": "E. Daroczi",
+          "authorEntityId": "author:34b4c7487c51a590",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "E. Daroczi",
+          "rawAffiliations": []
+        },
+        {
+          "name": "J. Marshall",
+          "authorEntityId": "author:34bc1a11af4449c5",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "J. Marshall",
+          "rawAffiliations": []
+        },
+        {
+          "name": "B. Giros",
+          "authorEntityId": "author:d5e0450688e954fd",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "B. Giros",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic"
+      ],
+      "categories": [
+        "cs.CR"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.31622",
+      "pdfUrl": "https://arxiv.org/pdf/2611.31622",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.31622",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:73c7593048759569",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "S. Grigorovich",
+        "M. Bairachnaya",
+        "E. Daroczi",
+        "J. Marshall",
+        "B. Giros"
+      ],
+      "authorEntityIds": [
+        "author:794729db647b4741",
+        "author:0844527a2a7e5c2f",
+        "author:34b4c7487c51a590",
+        "author:34bc1a11af4449c5",
+        "author:d5e0450688e954fd"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "S. Grigorovich",
+          "affiliations": []
+        },
+        {
+          "name": "M. Bairachnaya",
+          "affiliations": []
+        },
+        {
+          "name": "E. Daroczi",
+          "affiliations": []
+        },
+        {
+          "name": "J. Marshall",
+          "affiliations": []
+        },
+        {
+          "name": "B. Giros",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "id": "2611.31488",
+      "title": "Embodied Neuro-symbolic AI: Making Robot Behavior Auditable, Safe, and Scalable",
+      "abstract": "Current Vision-Language-Action (VLA) end-to-end systems have driven major progress in robot learning, yet they still face persistent barriers to dependable real-world deployment. In practice, these models often exhibit brittle generalization under distribution shift (i.e., novel objects, layouts, lighting, or contact conditions), limited physical and causal reasoning, and inconsistent fine-grained motor control. Critically, many VLA pipelines offer limited ways to express and audit what a robot must not do, making it difficult to provide assurance in safety-critical settings. These limitations constrain scalability, maintainability, and trust when robots move beyond controlled demonstrations. We propose Embodied Neuro-Symbolic (NeSy) AI: a deployment-oriented paradigm that integrates learned perception, planning and control with explicit, machine-readable background knowledge and formal constraints. By combining knowledge-guided perception, constraint-aware symbolic planning, and hybrid learning, Embodied NeSy AI enables robots to reason about their environment, adapt to new tasks, and provide auditable, machine-checkable compliance with safety and operational requirements, thus supporting scalable, trustworthy robot deployment.",
+      "authors": [
+        "Ruwan Wickramarachchi",
+        "Jonathan Francis",
+        "Alessandro Oltramari"
+      ],
+      "authorAffiliations": [
+        {
+          "name": "Ruwan Wickramarachchi",
+          "authorEntityId": "author:80669b22f42e67cb",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Ruwan Wickramarachchi",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Jonathan Francis",
+          "authorEntityId": "author:3fa06474ebcbfe1f",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Jonathan Francis",
+          "rawAffiliations": []
+        },
+        {
+          "name": "Alessandro Oltramari",
+          "authorEntityId": "author:b0ced0d63839f5b9",
+          "affiliations": [],
+          "affiliationEntityIds": [],
+          "rawName": "Alessandro Oltramari",
+          "rawAffiliations": []
+        }
+      ],
+      "authorIds": [],
+      "affiliations": [],
+      "keywords": [
+        "neuro-symbolic",
+        "NeSy"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "venue": "arXiv",
+      "conference": "",
+      "year": 2026,
+      "published": "2026-11-23",
+      "url": "https://arxiv.org/abs/2611.31488",
+      "pdfUrl": "https://arxiv.org/pdf/2611.31488",
+      "doi": "",
+      "doiUrl": "",
+      "arxivId": "2611.31488",
+      "primaryArea": "",
+      "paperType": "",
+      "tldr": "",
+      "award": "",
+      "sourceType": "arxiv",
+      "sourceIds": [
+        "arxiv-keywords"
+      ],
+      "resolutionStatus": "source-pdf",
+      "resolutionMethod": "",
+      "resolvedArxivUrl": "",
+      "metadataComplete": false,
+      "extractionStatus": "not-extracted",
+      "entityId": "paper:f08c91013f9d796d",
+      "rawAffiliations": [],
+      "affiliationEntityIds": [],
+      "rawAuthors": [
+        "Ruwan Wickramarachchi",
+        "Jonathan Francis",
+        "Alessandro Oltramari"
+      ],
+      "authorEntityIds": [
+        "author:80669b22f42e67cb",
+        "author:3fa06474ebcbfe1f",
+        "author:b0ced0d63839f5b9"
+      ],
+      "rawAuthorAffiliations": [
+        {
+          "name": "Ruwan Wickramarachchi",
+          "affiliations": []
+        },
+        {
+          "name": "Jonathan Francis",
+          "affiliations": []
+        },
+        {
+          "name": "Alessandro Oltramari",
           "affiliations": []
         }
       ]

@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-11-24T22:52:11.267Z",
-  "cursorAt": "2026-11-24T22:52:11.267Z",
+  "generatedAt": "2026-11-25T22:05:26.038Z",
+  "cursorAt": "2026-11-25T22:05:26.038Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-11-22T20:06:23.080Z",
   "keywords": [
@@ -15,11 +15,102 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-11-24T00:31:49.500Z",
-  "windowStart": "2026-11-17T00:31:49.500Z",
+  "previousSnapshotAt": "2026-11-24T22:52:11.267Z",
+  "windowStart": "2026-11-17T22:52:11.267Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2611.31622",
+    "title": "Internal inconsistencies and unresolved experimental evidence in a quantum neurosecurity framework",
+    "abstract": "This article presents a technical and theoretical assessment of the Quantum-Entangled Neuro-Symbolic Swarm Federation (QENSSF), a framework intended for privacy-preserving, quantum-secure, AI-powered, multimodal healthcare data analysis, introduced by Ben Othman and Ali (2025). They claim QENSSF is a first-in-class framework with provable privacy and security guarantees, support these with theorems and proofs, report an experimental evaluation on IBM's quantum Eagle processor, report a real-world quantum key distribution (QKD) test, and claim use of real-world multimodal datasets (ADNI, UK Biobank, and MIMIC-IV). Our examination of quantitative support for these claims identified various concerns. Most importantly, the security criterion of a central guarantee (Theorem 1) cannot be satisfied given the risk formulation and relevant constraints, which, along with calculation errors in the proof, directly undermines the claim of provable security. Furthermore, insufficient reporting of biomedical datasets and unresolved discrepancies in the hardware evaluation limit verification of the experimental claims and overall reproducibility. QENSSF identifies a real need: ensuring privacy and security of healthcare data while patients benefit from AI-powered analysis. This need is particularly pressing for sensitive neural data, including the neuroimaging data available through sources such as ADNI. Privacy concerns also extend to wearable EEG data, for which reidentification risks can persist despite deidentification. However, QENSSF's foundational inconsistencies need resolution before it could be considered in the neurosecurity domain.",
+    "authors": [
+      "S. Grigorovich",
+      "M. Bairachnaya",
+      "E. Daroczi",
+      "J. Marshall",
+      "B. Giros"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "S. Grigorovich",
+        "affiliations": []
+      },
+      {
+        "name": "M. Bairachnaya",
+        "affiliations": []
+      },
+      {
+        "name": "E. Daroczi",
+        "affiliations": []
+      },
+      {
+        "name": "J. Marshall",
+        "affiliations": []
+      },
+      {
+        "name": "B. Giros",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-23",
+    "updated": "2026-11-23",
+    "categories": [
+      "cs.CR"
+    ],
+    "primaryCategory": "cs.CR",
+    "url": "https://arxiv.org/abs/2611.31622",
+    "pdfUrl": "https://arxiv.org/pdf/2611.31622",
+    "matches": {
+      "title": [],
+      "abstract": [
+        "neuro-symbolic"
+      ]
+    }
+  },
+  {
+    "id": "2611.31488",
+    "title": "Embodied Neuro-symbolic AI: Making Robot Behavior Auditable, Safe, and Scalable",
+    "abstract": "Current Vision-Language-Action (VLA) end-to-end systems have driven major progress in robot learning, yet they still face persistent barriers to dependable real-world deployment. In practice, these models often exhibit brittle generalization under distribution shift (i.e., novel objects, layouts, lighting, or contact conditions), limited physical and causal reasoning, and inconsistent fine-grained motor control. Critically, many VLA pipelines offer limited ways to express and audit what a robot must not do, making it difficult to provide assurance in safety-critical settings. These limitations constrain scalability, maintainability, and trust when robots move beyond controlled demonstrations. We propose Embodied Neuro-Symbolic (NeSy) AI: a deployment-oriented paradigm that integrates learned perception, planning and control with explicit, machine-readable background knowledge and formal constraints. By combining knowledge-guided perception, constraint-aware symbolic planning, and hybrid learning, Embodied NeSy AI enables robots to reason about their environment, adapt to new tasks, and provide auditable, machine-checkable compliance with safety and operational requirements, thus supporting scalable, trustworthy robot deployment.",
+    "authors": [
+      "Ruwan Wickramarachchi",
+      "Jonathan Francis",
+      "Alessandro Oltramari"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Ruwan Wickramarachchi",
+        "affiliations": []
+      },
+      {
+        "name": "Jonathan Francis",
+        "affiliations": []
+      },
+      {
+        "name": "Alessandro Oltramari",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-23",
+    "updated": "2026-11-23",
+    "categories": [
+      "cs.RO"
+    ],
+    "primaryCategory": "cs.RO",
+    "url": "https://arxiv.org/abs/2611.31488",
+    "pdfUrl": "https://arxiv.org/pdf/2611.31488",
+    "matches": {
+      "title": [
+        "neuro-symbolic"
+      ],
+      "abstract": [
+        "neuro-symbolic",
+        "NeSy"
+      ]
+    }
+  },
   {
     "id": "2611.30736",
     "title": "Object-Centric Differentiable Logic Networks for Abstract Visual Reasoning",
