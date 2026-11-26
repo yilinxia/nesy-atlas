@@ -2,8 +2,8 @@
 globalThis.ARXIV_PAPERS_META = {
   "source": "arXiv",
   "sourceUrl": "https://arxiv.org/",
-  "generatedAt": "2026-11-25T22:05:26.038Z",
-  "cursorAt": "2026-11-25T22:05:26.038Z",
+  "generatedAt": "2026-11-26T22:04:07.788Z",
+  "cursorAt": "2026-11-26T22:04:07.788Z",
   "refreshMode": "incremental",
   "lastFullRefreshAt": "2026-11-22T20:06:23.080Z",
   "keywords": [
@@ -15,11 +15,52 @@ globalThis.ARXIV_PAPERS_META = {
     "NeSy"
   ],
   "inclusion": "Title or abstract contains at least one keyword.",
-  "previousSnapshotAt": "2026-11-24T22:52:11.267Z",
-  "windowStart": "2026-11-17T22:52:11.267Z",
+  "previousSnapshotAt": "2026-11-25T22:05:26.038Z",
+  "windowStart": "2026-11-18T22:05:26.038Z",
   "lookbackDays": 7
 };
 globalThis.ARXIV_PAPERS = [
+  {
+    "id": "2611.33527",
+    "title": "Casper: A Projection-Based Neurosymbolic Layer for Scalable & Guaranteed Constraint Satisfaction",
+    "abstract": "Many real-world problems demand exact constraint satisfaction to be meaningfully solved, yet existing neurosymbolic methods face a stark trade-off: those that guarantee satisfaction fail to scale, while those that scale must resort to approximation. Meanwhile, traditional deep learning approaches offer no satisfaction guarantees at all. In this paper, we propose Casper, a neurosymbolic layer that simultaneously (i) guarantees constraint satisfaction, (ii) scales at inference time, (iii) is fully automated, requiring no problem-specific engineering, and (iv) is fully differentiable, making it composable with any neural predictor both at training and at inference time. Casper casts constraint satisfaction as a closed-form Euclidean projection onto the constraint-feasible region, computable in a single forward pass. Experiments across MNIST arithmetic (up to 1024 digits), Sudoku solving, and Warcraft pathfinding show that Casper is the only method that produces guaranteed-valid outputs at scale: on $30\\times30$ Warcraft grids, exact baselines time out and approximate ones produce valid paths less than 7% of the time, while Casper produces them 100% of the time.",
+    "authors": [
+      "Lohith Konathala",
+      "Luca Andolfi",
+      "Eleonora Giunchiglia"
+    ],
+    "authorAffiliations": [
+      {
+        "name": "Lohith Konathala",
+        "affiliations": []
+      },
+      {
+        "name": "Luca Andolfi",
+        "affiliations": []
+      },
+      {
+        "name": "Eleonora Giunchiglia",
+        "affiliations": []
+      }
+    ],
+    "affiliations": [],
+    "published": "2026-11-24",
+    "updated": "2026-11-24",
+    "categories": [
+      "cs.LG"
+    ],
+    "primaryCategory": "cs.LG",
+    "url": "https://arxiv.org/abs/2611.33527",
+    "pdfUrl": "https://arxiv.org/pdf/2611.33527",
+    "matches": {
+      "title": [
+        "neurosymbolic"
+      ],
+      "abstract": [
+        "neurosymbolic"
+      ]
+    }
+  },
   {
     "id": "2611.31622",
     "title": "Internal inconsistencies and unresolved experimental evidence in a quantum neurosecurity framework",
